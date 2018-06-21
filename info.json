@@ -1,0 +1,28 @@
+{
+	"type" : "Standard",
+	"name" : "CMAT (Coastal Management Analysis Toolbox)",
+	"icon" : ":/images/icon.png",
+	"description": "A FOSS Plug-in for CloudCompare to assist in the analysis, processing and visualisation of point clouds.",
+	"authors" : [
+		{
+			"name" : "Liam O'Hanlon",
+			"email" : "l.ohanlon@lancaster.ac.uk"
+		},
+		{
+			"name" : "Arthur-Louis Heath",
+			"email" : "a.heath.17@aberdeen.ac.uk"
+		}
+	],
+	"maintainers" : [
+		{
+			"name" : "TBD",
+			"email" : "example@gmail.com"
+		}
+	],
+	"references" : [
+		{
+			"text" : "CloudCompare",
+			"url" : "http://cloudcompare.org/"
+		}
+	]
+}
