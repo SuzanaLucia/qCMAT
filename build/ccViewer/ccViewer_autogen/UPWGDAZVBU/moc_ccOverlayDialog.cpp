@@ -1,18 +1,18 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'ccOverlayDialog.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.11.0)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.10.1)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../../../../../../git-src/trunk/qCC/ccOverlayDialog.h"
+#include "../../../../qCC/ccOverlayDialog.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'ccOverlayDialog.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.11.0. It"
+#error "This file was generated using the moc from 5.10.1. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -98,21 +98,21 @@ void ccOverlayDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int 
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
         {
-            using _t = void (ccOverlayDialog::*)(bool );
+            typedef void (ccOverlayDialog::*_t)(bool );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&ccOverlayDialog::processFinished)) {
                 *result = 0;
                 return;
             }
         }
         {
-            using _t = void (ccOverlayDialog::*)(int );
+            typedef void (ccOverlayDialog::*_t)(int );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&ccOverlayDialog::shortcutTriggered)) {
                 *result = 1;
                 return;
             }
         }
         {
-            using _t = void (ccOverlayDialog::*)();
+            typedef void (ccOverlayDialog::*_t)();
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&ccOverlayDialog::shown)) {
                 *result = 2;
                 return;

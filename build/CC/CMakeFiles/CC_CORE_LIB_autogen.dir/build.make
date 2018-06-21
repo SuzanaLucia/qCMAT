@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/debster/DELETETHiS/qCMAT
+CMAKE_SOURCE_DIR = /home/chrome/work/CloudCompare/qCMAT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/debster/DELETETHiS/qCMAT/build
+CMAKE_BINARY_DIR = /home/chrome/work/CloudCompare/qCMAT/build
 
 # Utility rule file for CC_CORE_LIB_autogen.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/debster/DELETETHiS/qCMAT/build
 include CC/CMakeFiles/CC_CORE_LIB_autogen.dir/progress.make
 
 CC/CMakeFiles/CC_CORE_LIB_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target CC_CORE_LIB"
-	cd /home/debster/DELETETHiS/qCMAT/build/CC && /usr/bin/cmake -E cmake_autogen /home/debster/DELETETHiS/qCMAT/build/CC/CMakeFiles/CC_CORE_LIB_autogen.dir/AutogenInfo.cmake ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target CC_CORE_LIB"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/CC && /usr/bin/cmake -E cmake_autogen /home/chrome/work/CloudCompare/qCMAT/build/CC/CMakeFiles/CC_CORE_LIB_autogen.dir/AutogenInfo.cmake ""
 
 CC_CORE_LIB_autogen: CC/CMakeFiles/CC_CORE_LIB_autogen
 CC_CORE_LIB_autogen: CC/CMakeFiles/CC_CORE_LIB_autogen.dir/build.make
@@ -68,10 +68,10 @@ CC/CMakeFiles/CC_CORE_LIB_autogen.dir/build: CC_CORE_LIB_autogen
 .PHONY : CC/CMakeFiles/CC_CORE_LIB_autogen.dir/build
 
 CC/CMakeFiles/CC_CORE_LIB_autogen.dir/clean:
-	cd /home/debster/DELETETHiS/qCMAT/build/CC && $(CMAKE_COMMAND) -P CMakeFiles/CC_CORE_LIB_autogen.dir/cmake_clean.cmake
+	cd /home/chrome/work/CloudCompare/qCMAT/build/CC && $(CMAKE_COMMAND) -P CMakeFiles/CC_CORE_LIB_autogen.dir/cmake_clean.cmake
 .PHONY : CC/CMakeFiles/CC_CORE_LIB_autogen.dir/clean
 
 CC/CMakeFiles/CC_CORE_LIB_autogen.dir/depend:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/debster/DELETETHiS/qCMAT /home/debster/DELETETHiS/qCMAT/CC /home/debster/DELETETHiS/qCMAT/build /home/debster/DELETETHiS/qCMAT/build/CC /home/debster/DELETETHiS/qCMAT/build/CC/CMakeFiles/CC_CORE_LIB_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chrome/work/CloudCompare/qCMAT /home/chrome/work/CloudCompare/qCMAT/CC /home/chrome/work/CloudCompare/qCMAT/build /home/chrome/work/CloudCompare/qCMAT/build/CC /home/chrome/work/CloudCompare/qCMAT/build/CC/CMakeFiles/CC_CORE_LIB_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CC/CMakeFiles/CC_CORE_LIB_autogen.dir/depend
 

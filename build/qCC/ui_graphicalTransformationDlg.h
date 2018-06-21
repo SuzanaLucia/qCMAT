@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'graphicalTransformationDlg.ui'
 **
-** Created by: Qt User Interface Compiler version 5.11.0
+** Created by: Qt User Interface Compiler version 5.10.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,13 +10,15 @@
 #define UI_GRAPHICALTRANSFORMATIONDLG_H
 
 #include <QtCore/QVariant>
-#include <QtGui/QIcon>
+#include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QCheckBox>
 #include <QtWidgets/QComboBox>
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QFrame>
 #include <QtWidgets/QHBoxLayout>
+#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QSpacerItem>
 #include <QtWidgets/QToolButton>

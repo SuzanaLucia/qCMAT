@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'ccviewerAbout.ui'
 **
-** Created by: Qt User Interface Compiler version 5.11.0
+** Created by: Qt User Interface Compiler version 5.10.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,8 +10,11 @@
 #define UI_CCVIEWERABOUT_H
 
 #include <QtCore/QVariant>
+#include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QDialog>
+#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QTextEdit>
 #include <QtWidgets/QVBoxLayout>
 

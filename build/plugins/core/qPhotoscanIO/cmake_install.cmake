@@ -1,4 +1,4 @@
-# Install script for directory: /home/debster/DELETETHiS/qCMAT/plugins/core/qPhotoscanIO
+# Install script for directory: /home/chrome/work/CloudCompare/qCMAT/plugins/core/qPhotoscanIO
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

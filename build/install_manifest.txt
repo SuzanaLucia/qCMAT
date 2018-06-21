@@ -1,6 +1,7 @@
 /usr/local/lib/cloudcompare/libCC_CORE_LIB.so
 /usr/local/lib/cloudcompare/libQCC_DB_LIB.so
 /usr/local/lib/cloudcompare/libQCC_IO_LIB.so
+/usr/local/lib/cloudcompare/plugins/libqTestPlug.so
 /usr/local/bin/CloudCompare
 /usr/local/share/cloudcompare/CHANGELOG.md
 /usr/local/share/cloudcompare/license.txt

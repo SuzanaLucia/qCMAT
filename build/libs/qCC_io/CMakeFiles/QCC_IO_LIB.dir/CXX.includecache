@@ -538,61 +538,61 @@ qCC_io.h
 QString
 -
 
-/home/debster/DELETETHiS/qCMAT/build/libs/qCC_io/QCC_IO_LIB_autogen/EWIEGA46WW/moc_AsciiOpenDlg.cpp
+/home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_io/QCC_IO_LIB_autogen/EWIEGA46WW/moc_AsciiOpenDlg.cpp
 ../../../../../libs/qCC_io/AsciiOpenDlg.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/AsciiOpenDlg.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/AsciiOpenDlg.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/debster/DELETETHiS/qCMAT/build/libs/qCC_io/QCC_IO_LIB_autogen/EWIEGA46WW/moc_AsciiSaveDlg.cpp
+/home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_io/QCC_IO_LIB_autogen/EWIEGA46WW/moc_AsciiSaveDlg.cpp
 ../../../../../libs/qCC_io/AsciiSaveDlg.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/AsciiSaveDlg.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/AsciiSaveDlg.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/debster/DELETETHiS/qCMAT/build/libs/qCC_io/QCC_IO_LIB_autogen/EWIEGA46WW/moc_LASOpenDlg.cpp
+/home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_io/QCC_IO_LIB_autogen/EWIEGA46WW/moc_LASOpenDlg.cpp
 ../../../../../libs/qCC_io/LASOpenDlg.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/LASOpenDlg.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/LASOpenDlg.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/debster/DELETETHiS/qCMAT/build/libs/qCC_io/QCC_IO_LIB_autogen/EWIEGA46WW/moc_PlyOpenDlg.cpp
+/home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_io/QCC_IO_LIB_autogen/EWIEGA46WW/moc_PlyOpenDlg.cpp
 ../../../../../libs/qCC_io/PlyOpenDlg.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/PlyOpenDlg.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/PlyOpenDlg.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/debster/DELETETHiS/qCMAT/build/libs/qCC_io/QCC_IO_LIB_autogen/EWIEGA46WW/moc_ccShiftAndScaleCloudDlg.cpp
+/home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_io/QCC_IO_LIB_autogen/EWIEGA46WW/moc_ccShiftAndScaleCloudDlg.cpp
 ../../../../../libs/qCC_io/ccShiftAndScaleCloudDlg.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/ccShiftAndScaleCloudDlg.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/ccShiftAndScaleCloudDlg.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/debster/DELETETHiS/qCMAT/build/libs/qCC_io/QCC_IO_LIB_autogen/mocs_compilation.cpp
+/home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_io/QCC_IO_LIB_autogen/mocs_compilation.cpp
 EWIEGA46WW/moc_AsciiOpenDlg.cpp
-/home/debster/DELETETHiS/qCMAT/build/libs/qCC_io/QCC_IO_LIB_autogen/EWIEGA46WW/moc_AsciiOpenDlg.cpp
+/home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_io/QCC_IO_LIB_autogen/EWIEGA46WW/moc_AsciiOpenDlg.cpp
 EWIEGA46WW/moc_AsciiSaveDlg.cpp
-/home/debster/DELETETHiS/qCMAT/build/libs/qCC_io/QCC_IO_LIB_autogen/EWIEGA46WW/moc_AsciiSaveDlg.cpp
+/home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_io/QCC_IO_LIB_autogen/EWIEGA46WW/moc_AsciiSaveDlg.cpp
 EWIEGA46WW/moc_LASOpenDlg.cpp
-/home/debster/DELETETHiS/qCMAT/build/libs/qCC_io/QCC_IO_LIB_autogen/EWIEGA46WW/moc_LASOpenDlg.cpp
+/home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_io/QCC_IO_LIB_autogen/EWIEGA46WW/moc_LASOpenDlg.cpp
 EWIEGA46WW/moc_PlyOpenDlg.cpp
-/home/debster/DELETETHiS/qCMAT/build/libs/qCC_io/QCC_IO_LIB_autogen/EWIEGA46WW/moc_PlyOpenDlg.cpp
+/home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_io/QCC_IO_LIB_autogen/EWIEGA46WW/moc_PlyOpenDlg.cpp
 EWIEGA46WW/moc_ccShiftAndScaleCloudDlg.cpp
-/home/debster/DELETETHiS/qCMAT/build/libs/qCC_io/QCC_IO_LIB_autogen/EWIEGA46WW/moc_ccShiftAndScaleCloudDlg.cpp
+/home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_io/QCC_IO_LIB_autogen/EWIEGA46WW/moc_ccShiftAndScaleCloudDlg.cpp
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/AsciiFilter.cpp
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/AsciiFilter.cpp
 AsciiFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/AsciiFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/AsciiFilter.h
 QFile
 -
 QFileInfo
@@ -618,21 +618,21 @@ string.h
 assert.h
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/AsciiFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/AsciiFilter.h
 FileIOFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/FileIOFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/FileIOFilter.h
 AsciiOpenDlg.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/AsciiOpenDlg.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/AsciiOpenDlg.h
 AsciiSaveDlg.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/AsciiSaveDlg.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/AsciiSaveDlg.h
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/AsciiOpenDlg.cpp
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/AsciiOpenDlg.cpp
 ui_openAsciiFileDlg.h
 -
 AsciiOpenDlg.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/AsciiOpenDlg.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/AsciiOpenDlg.h
 FileIOFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/FileIOFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/FileIOFilter.h
 ccPointCloud.h
 -
 QMessageBox
@@ -664,9 +664,9 @@ stdio.h
 assert.h
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/AsciiOpenDlg.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/AsciiOpenDlg.h
 qCC_io.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/qCC_io.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/qCC_io.h
 QString
 -
 QDialog
@@ -674,11 +674,11 @@ QDialog
 vector
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/AsciiSaveDlg.cpp
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/AsciiSaveDlg.cpp
 ui_saveAsciiFileDlg.h
 -
 AsciiSaveDlg.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/AsciiSaveDlg.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/AsciiSaveDlg.h
 QSpinBox
 -
 QComboBox
@@ -688,15 +688,15 @@ QSettings
 assert.h
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/AsciiSaveDlg.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/AsciiSaveDlg.h
 qCC_io.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/qCC_io.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/qCC_io.h
 QDialog
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/BinFilter.cpp
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/BinFilter.cpp
 BinFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/BinFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/BinFilter.h
 QMessageBox
 -
 QApplication
@@ -746,15 +746,15 @@ time.h
 unistd.h
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/BinFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/BinFilter.h
 FileIOFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/FileIOFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/FileIOFilter.h
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/DepthMapFileFilter.cpp
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/DepthMapFileFilter.cpp
 DepthMapFileFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/DepthMapFileFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/DepthMapFileFilter.h
 FileIO.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/FileIO.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/FileIO.h
 ccGBLSensor.h
 -
 ccPointCloud.h
@@ -768,15 +768,15 @@ QString
 assert.h
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/DepthMapFileFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/DepthMapFileFilter.h
 FileIOFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/FileIOFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/FileIOFilter.h
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/DxfFilter.cpp
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/DxfFilter.cpp
 DxfFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/DxfFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/DxfFilter.h
 FileIO.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/FileIO.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/FileIO.h
 ScalarField.h
 -
 ccPointCloud.h
@@ -796,17 +796,17 @@ dl_creationadapter.h
 cassert
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/DxfFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/DxfFilter.h
 FileIOFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/FileIOFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/FileIOFilter.h
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/E57Filter.cpp
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/E57Filter.cpp
 E57Filter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/E57Filter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/E57Filter.h
 FileIO.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/FileIO.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/FileIO.h
 E57Header.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/E57Header.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/E57Header.h
 E57Foundation.h
 -
 ScalarField.h
@@ -840,17 +840,17 @@ cassert
 string
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/E57Filter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/E57Filter.h
 FileIOFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/FileIOFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/FileIOFilter.h
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/E57Header.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/E57Header.h
 E57Foundation.h
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/FBXFilter.cpp
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/FBXFilter.cpp
 FBXFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/FBXFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/FBXFilter.h
 ccPointCloud.h
 -
 ccMesh.h
@@ -876,69 +876,69 @@ vector
 assert.h
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/FBXFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/FBXFilter.h
 FileIOFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/FileIOFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/FileIOFilter.h
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/FileIO.cpp
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/FileIO.cpp
 QDateTime
 -
 QDebug
 -
 FileIO.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/FileIO.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/FileIO.h
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/FileIO.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/FileIO.h
 QString
 -
 qCC_io.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/qCC_io.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/qCC_io.h
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/FileIOFilter.cpp
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/FileIOFilter.cpp
 FileIOFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/FileIOFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/FileIOFilter.h
 BinFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/BinFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/BinFilter.h
 SimpleBinFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/SimpleBinFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/SimpleBinFilter.h
 AsciiFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/AsciiFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/AsciiFilter.h
 VTKFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/VTKFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/VTKFilter.h
 STLFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/STLFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/STLFilter.h
 LASFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/LASFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/LASFilter.h
 E57Filter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/E57Filter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/E57Filter.h
 PTXFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/PTXFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/PTXFilter.h
 ObjFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/ObjFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/ObjFilter.h
 PlyFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/PlyFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/PlyFilter.h
 MAFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/MAFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/MAFilter.h
 FBXFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/FBXFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/FBXFilter.h
 OFFFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/OFFFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/OFFFilter.h
 PDMS/PDMSFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/PDMS/PDMSFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/PDMS/PDMSFilter.h
 DepthMapFileFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/DepthMapFileFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/DepthMapFileFilter.h
 RasterGridFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/RasterGridFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/RasterGridFilter.h
 ImageFileFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/ImageFileFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/ImageFileFilter.h
 DxfFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/DxfFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/DxfFilter.h
 ShpFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/ShpFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/ShpFilter.h
 MascaretFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/MascaretFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/MascaretFilter.h
 HeightProfileFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/HeightProfileFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/HeightProfileFilter.h
 QFileInfo
 -
 vld.h
@@ -948,17 +948,17 @@ cassert
 vector
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/FileIOFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/FileIOFilter.h
 ccHObject.h
 -
 ccHObjectCaster.h
 -
 ccGlobalShiftManager.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/ccGlobalShiftManager.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/ccGlobalShiftManager.h
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/HeightProfileFilter.cpp
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/HeightProfileFilter.cpp
 HeightProfileFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/HeightProfileFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/HeightProfileFilter.h
 ccPolyline.h
 -
 QFile
@@ -966,15 +966,15 @@ QFile
 QTextStream
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/HeightProfileFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/HeightProfileFilter.h
 FileIOFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/FileIOFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/FileIOFilter.h
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/ImageFileFilter.cpp
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/ImageFileFilter.cpp
 ImageFileFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/ImageFileFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/ImageFileFilter.h
 FileIO.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/FileIO.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/FileIO.h
 ccImage.h
 -
 QImageReader
@@ -990,31 +990,31 @@ QFileDialog
 assert.h
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/ImageFileFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/ImageFileFilter.h
 FileIOFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/FileIOFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/FileIOFilter.h
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/LASFields.cpp
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/LASFields.cpp
 LASFields.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/LASFields.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/LASFields.h
 ccPointCloud.h
 -
 ccScalarField.h
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/LASFields.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/LASFields.h
 qCC_io.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/qCC_io.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/qCC_io.h
 QSharedPointer
 -
 vector
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/LASFilter.cpp
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/LASFilter.cpp
 LASFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/LASFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/LASFilter.h
 LASOpenDlg.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/LASOpenDlg.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/LASOpenDlg.h
 ccLog.h
 -
 ccPointCloud.h
@@ -1024,7 +1024,7 @@ ccProgressDialog.h
 ccScalarField.h
 -
 ccColorScalesManager.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/ccColorScalesManager.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/ccColorScalesManager.h
 CCPlatform.h
 -
 QFileInfo
@@ -1068,13 +1068,13 @@ string.h
 bitset
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/LASFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/LASFilter.h
 FileIOFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/FileIOFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/FileIOFilter.h
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/LASOpenDlg.cpp
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/LASOpenDlg.cpp
 LASOpenDlg.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/LASOpenDlg.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/LASOpenDlg.h
 QMessageBox
 -
 QFileDialog
@@ -1086,9 +1086,9 @@ string.h
 assert.h
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/LASOpenDlg.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/LASOpenDlg.h
 LASFields.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/LASFields.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/LASFields.h
 ui_openLASFileDlg.h
 -
 string.h
@@ -1098,11 +1098,11 @@ vector
 CCGeom.h
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/MAFilter.cpp
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/MAFilter.cpp
 MAFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/MAFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/MAFilter.h
 FileIO.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/FileIO.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/FileIO.h
 ccLog.h
 -
 ccPointCloud.h
@@ -1120,15 +1120,15 @@ string.h
 assert.h
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/MAFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/MAFilter.h
 FileIOFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/FileIOFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/FileIOFilter.h
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/MascaretFilter.cpp
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/MascaretFilter.cpp
 MascaretFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/MascaretFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/MascaretFilter.h
 ui_saveMascaretFileDlg.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/ui_saveMascaretFileDlg.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/ui_saveMascaretFileDlg.h
 ccLog.h
 -
 ccPolyline.h
@@ -1142,15 +1142,15 @@ QDialog
 string.h
 -
 MascaretFilter.moc
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/MascaretFilter.moc
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/MascaretFilter.moc
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/MascaretFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/MascaretFilter.h
 FileIOFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/FileIOFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/FileIOFilter.h
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/OFFFilter.cpp
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/OFFFilter.cpp
 OFFFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/OFFFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/OFFFilter.h
 ccLog.h
 -
 ccMesh.h
@@ -1164,15 +1164,15 @@ ccPointCloud.h
 string
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/OFFFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/OFFFilter.h
 FileIOFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/FileIOFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/FileIOFilter.h
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/ObjFilter.cpp
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/ObjFilter.cpp
 ObjFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/ObjFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/ObjFilter.h
 FileIO.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/FileIO.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/FileIO.h
 QApplication
 -
 QFileInfo
@@ -1206,17 +1206,17 @@ ccPolyline.h
 string.h
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/ObjFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/ObjFilter.h
 FileIOFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/FileIOFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/FileIOFilter.h
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/PDMS/PDMSFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/PDMS/PDMSFilter.h
 ../FileIOFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/FileIOFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/FileIOFilter.h
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/PTXFilter.cpp
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/PTXFilter.cpp
 PTXFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/PTXFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/PTXFilter.h
 ccLog.h
 -
 ccPointCloud.h
@@ -1240,17 +1240,17 @@ cassert
 string
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/PTXFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/PTXFilter.h
 FileIOFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/FileIOFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/FileIOFilter.h
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/PlyFilter.cpp
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/PlyFilter.cpp
 PlyFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/PlyFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/PlyFilter.h
 FileIO.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/FileIO.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/FileIO.h
 PlyOpenDlg.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/PlyOpenDlg.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/PlyOpenDlg.h
 QImage
 -
 QFileInfo
@@ -1284,15 +1284,15 @@ time.h
 unistd.h
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/PlyFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/PlyFilter.h
 FileIOFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/FileIOFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/FileIOFilter.h
 rply.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/rply.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/rply.h
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/PlyOpenDlg.cpp
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/PlyOpenDlg.cpp
 PlyOpenDlg.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/PlyOpenDlg.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/PlyOpenDlg.h
 QMessageBox
 -
 QStringList
@@ -1304,7 +1304,7 @@ string.h
 assert.h
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/PlyOpenDlg.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/PlyOpenDlg.h
 ui_openPlyFileDlg.h
 -
 QStringList
@@ -1312,9 +1312,9 @@ QStringList
 vector
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/RasterGridFilter.cpp
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/RasterGridFilter.cpp
 RasterGridFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/RasterGridFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/RasterGridFilter.h
 ccPointCloud.h
 -
 ccScalarField.h
@@ -1332,13 +1332,13 @@ QMessageBox
 string.h
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/RasterGridFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/RasterGridFilter.h
 FileIOFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/FileIOFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/FileIOFilter.h
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/STLFilter.cpp
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/STLFilter.cpp
 STLFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/STLFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/STLFilter.h
 QApplication
 -
 QFile
@@ -1370,19 +1370,19 @@ ccOctree.h
 string.h
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/STLFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/STLFilter.h
 FileIOFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/FileIOFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/FileIOFilter.h
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/ShpDBFFields.cpp
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/ShpDBFFields.cpp
 ShpDBFFields.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/ShpDBFFields.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/ShpDBFFields.h
 assert.h
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/ShpDBFFields.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/ShpDBFFields.h
 qCC_io.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/qCC_io.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/qCC_io.h
 CCGeom.h
 -
 QString
@@ -1392,15 +1392,15 @@ vector
 shapefil.h
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/ShpFilter.cpp
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/ShpFilter.cpp
 ShpFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/ShpFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/ShpFilter.h
 ui_saveSHPFileDlg.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/ui_saveSHPFileDlg.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/ui_saveSHPFileDlg.h
 ui_importDBFFieldDlg.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/ui_importDBFFieldDlg.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/ui_importDBFFieldDlg.h
 ShpDBFFields.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/ShpDBFFields.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/ShpDBFFields.h
 ccPolyline.h
 -
 ccGenericPointCloud.h
@@ -1440,7 +1440,7 @@ string.h
 array
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/ShpFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/ShpFilter.h
 FileIOFilter.h
 -
 QString
@@ -1448,9 +1448,9 @@ QString
 vector
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/SimpleBinFilter.cpp
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/SimpleBinFilter.cpp
 SimpleBinFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/SimpleBinFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/SimpleBinFilter.h
 QFileInfo
 -
 QSettings
@@ -1464,13 +1464,13 @@ ccScalarField.h
 assert.h
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/SimpleBinFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/SimpleBinFilter.h
 FileIOFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/FileIOFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/FileIOFilter.h
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/VTKFilter.cpp
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/VTKFilter.cpp
 VTKFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/VTKFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/VTKFilter.h
 ccLog.h
 -
 ccPointCloud.h
@@ -1486,15 +1486,15 @@ QTextStream
 string.h
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/VTKFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/VTKFilter.h
 FileIOFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/FileIOFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/FileIOFilter.h
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/ccGlobalShiftManager.cpp
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/ccGlobalShiftManager.cpp
 ccGlobalShiftManager.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/ccGlobalShiftManager.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/ccGlobalShiftManager.h
 ccShiftAndScaleCloudDlg.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/ccShiftAndScaleCloudDlg.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/ccShiftAndScaleCloudDlg.h
 ccHObject.h
 -
 string.h
@@ -1502,23 +1502,23 @@ string.h
 assert.h
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/ccGlobalShiftManager.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/ccGlobalShiftManager.h
 CCGeom.h
 -
 qCC_io.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/qCC_io.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/qCC_io.h
 QString
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/ccShiftAndScaleCloudDlg.cpp
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/ccShiftAndScaleCloudDlg.cpp
 ccShiftAndScaleCloudDlg.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/ccShiftAndScaleCloudDlg.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/ccShiftAndScaleCloudDlg.h
 ui_globalShiftAndScaleDlg.h
 -
 ui_globalShiftAndScaleAboutDlg.h
 -
 ccGlobalShiftManager.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/ccGlobalShiftManager.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/ccGlobalShiftManager.h
 QDebug
 -
 QDir
@@ -1538,19 +1538,19 @@ float.h
 assert.h
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/ccShiftAndScaleCloudDlg.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/ccShiftAndScaleCloudDlg.h
 qCC_io.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/qCC_io.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/qCC_io.h
 ccGlobalShiftManager.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/ccGlobalShiftManager.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/ccGlobalShiftManager.h
 QDialog
 -
 CCGeom.h
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/qCC_io.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/qCC_io.h
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_io/rply.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io/rply.h
 
 /usr/include/qt/QtConcurrent/QtConcurrent
 QtConcurrent/QtConcurrentDepends
@@ -4262,9 +4262,17 @@ QtOpenGL/qtopenglglobal.h
 QtCore/qglobal.h
 -
 
+/usr/include/qt/QtWidgets/QAction
+qaction.h
+/usr/include/qt/QtWidgets/qaction.h
+
 /usr/include/qt/QtWidgets/QApplication
 qapplication.h
 /usr/include/qt/QtWidgets/qapplication.h
+
+/usr/include/qt/QtWidgets/QButtonGroup
+qbuttongroup.h
+/usr/include/qt/QtWidgets/qbuttongroup.h
 
 /usr/include/qt/QtWidgets/QCheckBox
 qcheckbox.h
@@ -4436,6 +4444,28 @@ QtWidgets/qwidget.h
 QtGui/qvalidator.h
 -
 
+/usr/include/qt/QtWidgets/qaction.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtGui/qkeysequence.h
+-
+QtCore/qstring.h
+-
+QtWidgets/qwidget.h
+-
+QtCore/qvariant.h
+-
+QtGui/qicon.h
+-
+QtWidgets/qactiongroup.h
+-
+
+/usr/include/qt/QtWidgets/qactiongroup.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qaction.h
+-
+
 /usr/include/qt/QtWidgets/qapplication.h
 QtWidgets/qtwidgetsglobal.h
 -
@@ -4462,6 +4492,12 @@ QtWidgets/qlayout.h
 QtWidgets/qwidget.h
 -
 limits.h
+-
+
+/usr/include/qt/QtWidgets/qbuttongroup.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtCore/qobject.h
 -
 
 /usr/include/qt/QtWidgets/qcheckbox.h
@@ -4819,11 +4855,17 @@ QtCore/qmetatype.h
 libs/qCC_io/ui_globalShiftAndScaleAboutDlg.h
 QtCore/QVariant
 -
+QtWidgets/QAction
+-
 QtWidgets/QApplication
+-
+QtWidgets/QButtonGroup
 -
 QtWidgets/QDialog
 -
 QtWidgets/QDialogButtonBox
+-
+QtWidgets/QHeaderView
 -
 QtWidgets/QTextEdit
 -
@@ -4833,7 +4875,11 @@ QtWidgets/QVBoxLayout
 libs/qCC_io/ui_globalShiftAndScaleDlg.h
 QtCore/QVariant
 -
+QtWidgets/QAction
+-
 QtWidgets/QApplication
+-
+QtWidgets/QButtonGroup
 -
 QtWidgets/QCheckBox
 -
@@ -4851,6 +4897,8 @@ QtWidgets/QGridLayout
 -
 QtWidgets/QHBoxLayout
 -
+QtWidgets/QHeaderView
+-
 QtWidgets/QLabel
 -
 QtWidgets/QSpacerItem
@@ -4863,13 +4911,19 @@ QtWidgets/QVBoxLayout
 libs/qCC_io/ui_importDBFFieldDlg.h
 QtCore/QVariant
 -
+QtWidgets/QAction
+-
 QtWidgets/QApplication
+-
+QtWidgets/QButtonGroup
 -
 QtWidgets/QDialog
 -
 QtWidgets/QDoubleSpinBox
 -
 QtWidgets/QHBoxLayout
+-
+QtWidgets/QHeaderView
 -
 QtWidgets/QLabel
 -
@@ -4885,7 +4939,11 @@ QtWidgets/QVBoxLayout
 libs/qCC_io/ui_openAsciiFileDlg.h
 QtCore/QVariant
 -
+QtWidgets/QAction
+-
 QtWidgets/QApplication
+-
+QtWidgets/QButtonGroup
 -
 QtWidgets/QCheckBox
 -
@@ -4919,7 +4977,11 @@ QtWidgets/QVBoxLayout
 libs/qCC_io/ui_openLASFileDlg.h
 QtCore/QVariant
 -
+QtWidgets/QAction
+-
 QtWidgets/QApplication
+-
+QtWidgets/QButtonGroup
 -
 QtWidgets/QCheckBox
 -
@@ -4934,6 +4996,8 @@ QtWidgets/QFrame
 QtWidgets/QGroupBox
 -
 QtWidgets/QHBoxLayout
+-
+QtWidgets/QHeaderView
 -
 QtWidgets/QLabel
 -
@@ -4961,7 +5025,11 @@ QtWidgets/QWidget
 libs/qCC_io/ui_openPlyFileDlg.h
 QtCore/QVariant
 -
+QtWidgets/QAction
+-
 QtWidgets/QApplication
+-
+QtWidgets/QButtonGroup
 -
 QtWidgets/QComboBox
 -
@@ -4972,6 +5040,8 @@ QtWidgets/QFormLayout
 QtWidgets/QFrame
 -
 QtWidgets/QHBoxLayout
+-
+QtWidgets/QHeaderView
 -
 QtWidgets/QLabel
 -
@@ -4989,7 +5059,11 @@ QtWidgets/QVBoxLayout
 libs/qCC_io/ui_saveAsciiFileDlg.h
 QtCore/QVariant
 -
+QtWidgets/QAction
+-
 QtWidgets/QApplication
+-
+QtWidgets/QButtonGroup
 -
 QtWidgets/QCheckBox
 -
@@ -5003,6 +5077,8 @@ QtWidgets/QFormLayout
 -
 QtWidgets/QGroupBox
 -
+QtWidgets/QHeaderView
+-
 QtWidgets/QLabel
 -
 QtWidgets/QSpinBox
@@ -5013,7 +5089,11 @@ QtWidgets/QVBoxLayout
 libs/qCC_io/ui_saveLASFileDlg.h
 QtCore/QVariant
 -
+QtWidgets/QAction
+-
 QtWidgets/QApplication
+-
+QtWidgets/QButtonGroup
 -
 QtWidgets/QDialog
 -
@@ -5024,6 +5104,8 @@ QtWidgets/QDoubleSpinBox
 QtWidgets/QGroupBox
 -
 QtWidgets/QHBoxLayout
+-
+QtWidgets/QHeaderView
 -
 QtWidgets/QLabel
 -
@@ -5039,7 +5121,11 @@ QtWidgets/QVBoxLayout
 libs/qCC_io/ui_saveMascaretFileDlg.h
 QtCore/QVariant
 -
+QtWidgets/QAction
+-
 QtWidgets/QApplication
+-
+QtWidgets/QButtonGroup
 -
 QtWidgets/QComboBox
 -
@@ -5048,6 +5134,8 @@ QtWidgets/QDialog
 QtWidgets/QDialogButtonBox
 -
 QtWidgets/QFormLayout
+-
+QtWidgets/QHeaderView
 -
 QtWidgets/QLabel
 -
@@ -5059,7 +5147,11 @@ QtWidgets/QSpacerItem
 libs/qCC_io/ui_saveSHPFileDlg.h
 QtCore/QVariant
 -
+QtWidgets/QAction
+-
 QtWidgets/QApplication
+-
+QtWidgets/QButtonGroup
 -
 QtWidgets/QCheckBox
 -
@@ -5072,6 +5164,8 @@ QtWidgets/QDialogButtonBox
 QtWidgets/QGroupBox
 -
 QtWidgets/QHBoxLayout
+-
+QtWidgets/QHeaderView
 -
 QtWidgets/QLabel
 -

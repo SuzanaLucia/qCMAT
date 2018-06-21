@@ -1,4 +1,4 @@
-# Install script for directory: /home/debster/DELETETHiS/qCMAT
+# Install script for directory: /home/chrome/work/CloudCompare/qCMAT
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,15 +39,15 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/debster/DELETETHiS/qCMAT/build/CC/cmake_install.cmake")
-  include("/home/debster/DELETETHiS/qCMAT/build/libs/CCFbo/cmake_install.cmake")
-  include("/home/debster/DELETETHiS/qCMAT/build/libs/qCC_db/cmake_install.cmake")
-  include("/home/debster/DELETETHiS/qCMAT/build/libs/qCC_io/cmake_install.cmake")
-  include("/home/debster/DELETETHiS/qCMAT/build/libs/qCC_glWindow/cmake_install.cmake")
-  include("/home/debster/DELETETHiS/qCMAT/build/libs/qcustomplot/cmake_install.cmake")
-  include("/home/debster/DELETETHiS/qCMAT/build/plugins/cmake_install.cmake")
-  include("/home/debster/DELETETHiS/qCMAT/build/qCC/cmake_install.cmake")
-  include("/home/debster/DELETETHiS/qCMAT/build/ccViewer/cmake_install.cmake")
+  include("/home/chrome/work/CloudCompare/qCMAT/build/CC/cmake_install.cmake")
+  include("/home/chrome/work/CloudCompare/qCMAT/build/libs/CCFbo/cmake_install.cmake")
+  include("/home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_db/cmake_install.cmake")
+  include("/home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_io/cmake_install.cmake")
+  include("/home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_glWindow/cmake_install.cmake")
+  include("/home/chrome/work/CloudCompare/qCMAT/build/libs/qcustomplot/cmake_install.cmake")
+  include("/home/chrome/work/CloudCompare/qCMAT/build/plugins/cmake_install.cmake")
+  include("/home/chrome/work/CloudCompare/qCMAT/build/qCC/cmake_install.cmake")
+  include("/home/chrome/work/CloudCompare/qCMAT/build/ccViewer/cmake_install.cmake")
 
 endif()
 
@@ -59,5 +59,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/debster/DELETETHiS/qCMAT/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/chrome/work/CloudCompare/qCMAT/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,4 +1,4 @@
-# Install script for directory: /home/debster/DELETETHiS/qCMAT/qCC/pluginManager
+# Install script for directory: /home/chrome/work/CloudCompare/qCMAT/qCC/pluginManager
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

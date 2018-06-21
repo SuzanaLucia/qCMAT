@@ -1,4 +1,4 @@
-# Install script for directory: /home/debster/DELETETHiS/qCMAT/ccViewer
+# Install script for directory: /home/chrome/work/CloudCompare/qCMAT/ccViewer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,15 +44,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ccViewer"
          RPATH "/usr/local/lib/cloudcompare")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/debster/DELETETHiS/qCMAT/build/ccViewer/ccViewer")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/chrome/work/CloudCompare/qCMAT/build/ccViewer/ccViewer")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ccViewer" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ccViewer")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ccViewer"
-         OLD_RPATH "/home/debster/DELETETHiS/qCMAT/build/libs/qCC_io:/home/debster/DELETETHiS/qCMAT/build/libs/qCC_db:/home/debster/DELETETHiS/qCMAT/build/CC:"
+         OLD_RPATH "/home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_io:/home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_db:/home/chrome/work/CloudCompare/qCMAT/build/CC:"
          NEW_RPATH "/usr/local/lib/cloudcompare")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ccViewer")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ccViewer")
     endif()
   endif()
 endif()

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/debster/DELETETHiS/qCMAT
+CMAKE_SOURCE_DIR = /home/chrome/work/CloudCompare/qCMAT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/debster/DELETETHiS/qCMAT/build
+CMAKE_BINARY_DIR = /home/chrome/work/CloudCompare/qCMAT/build
 
 # Include any dependencies generated for this target.
 include libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/depend.make
@@ -59,68 +59,68 @@ include libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/flags.make
 
 libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccGLUtils.cpp.o: libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/flags.make
 libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccGLUtils.cpp.o: ../libs/qCC_glWindow/ccGLUtils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccGLUtils.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/libs/qCC_glWindow && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/QCC_GL_LIB.dir/ccGLUtils.cpp.o -c /home/debster/DELETETHiS/qCMAT/libs/qCC_glWindow/ccGLUtils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccGLUtils.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_glWindow && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/QCC_GL_LIB.dir/ccGLUtils.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/libs/qCC_glWindow/ccGLUtils.cpp
 
 libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccGLUtils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QCC_GL_LIB.dir/ccGLUtils.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/libs/qCC_glWindow && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/libs/qCC_glWindow/ccGLUtils.cpp > CMakeFiles/QCC_GL_LIB.dir/ccGLUtils.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_glWindow && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/libs/qCC_glWindow/ccGLUtils.cpp > CMakeFiles/QCC_GL_LIB.dir/ccGLUtils.cpp.i
 
 libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccGLUtils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QCC_GL_LIB.dir/ccGLUtils.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/libs/qCC_glWindow && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/libs/qCC_glWindow/ccGLUtils.cpp -o CMakeFiles/QCC_GL_LIB.dir/ccGLUtils.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_glWindow && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/libs/qCC_glWindow/ccGLUtils.cpp -o CMakeFiles/QCC_GL_LIB.dir/ccGLUtils.cpp.s
 
 libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccGLWindow.cpp.o: libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/flags.make
 libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccGLWindow.cpp.o: ../libs/qCC_glWindow/ccGLWindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccGLWindow.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/libs/qCC_glWindow && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/QCC_GL_LIB.dir/ccGLWindow.cpp.o -c /home/debster/DELETETHiS/qCMAT/libs/qCC_glWindow/ccGLWindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccGLWindow.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_glWindow && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/QCC_GL_LIB.dir/ccGLWindow.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/libs/qCC_glWindow/ccGLWindow.cpp
 
 libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccGLWindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QCC_GL_LIB.dir/ccGLWindow.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/libs/qCC_glWindow && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/libs/qCC_glWindow/ccGLWindow.cpp > CMakeFiles/QCC_GL_LIB.dir/ccGLWindow.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_glWindow && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/libs/qCC_glWindow/ccGLWindow.cpp > CMakeFiles/QCC_GL_LIB.dir/ccGLWindow.cpp.i
 
 libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccGLWindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QCC_GL_LIB.dir/ccGLWindow.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/libs/qCC_glWindow && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/libs/qCC_glWindow/ccGLWindow.cpp -o CMakeFiles/QCC_GL_LIB.dir/ccGLWindow.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_glWindow && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/libs/qCC_glWindow/ccGLWindow.cpp -o CMakeFiles/QCC_GL_LIB.dir/ccGLWindow.cpp.s
 
 libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccGuiParameters.cpp.o: libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/flags.make
 libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccGuiParameters.cpp.o: ../libs/qCC_glWindow/ccGuiParameters.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccGuiParameters.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/libs/qCC_glWindow && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/QCC_GL_LIB.dir/ccGuiParameters.cpp.o -c /home/debster/DELETETHiS/qCMAT/libs/qCC_glWindow/ccGuiParameters.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccGuiParameters.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_glWindow && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/QCC_GL_LIB.dir/ccGuiParameters.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/libs/qCC_glWindow/ccGuiParameters.cpp
 
 libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccGuiParameters.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QCC_GL_LIB.dir/ccGuiParameters.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/libs/qCC_glWindow && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/libs/qCC_glWindow/ccGuiParameters.cpp > CMakeFiles/QCC_GL_LIB.dir/ccGuiParameters.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_glWindow && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/libs/qCC_glWindow/ccGuiParameters.cpp > CMakeFiles/QCC_GL_LIB.dir/ccGuiParameters.cpp.i
 
 libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccGuiParameters.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QCC_GL_LIB.dir/ccGuiParameters.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/libs/qCC_glWindow && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/libs/qCC_glWindow/ccGuiParameters.cpp -o CMakeFiles/QCC_GL_LIB.dir/ccGuiParameters.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_glWindow && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/libs/qCC_glWindow/ccGuiParameters.cpp -o CMakeFiles/QCC_GL_LIB.dir/ccGuiParameters.cpp.s
 
 libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccRenderingTools.cpp.o: libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/flags.make
 libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccRenderingTools.cpp.o: ../libs/qCC_glWindow/ccRenderingTools.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccRenderingTools.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/libs/qCC_glWindow && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/QCC_GL_LIB.dir/ccRenderingTools.cpp.o -c /home/debster/DELETETHiS/qCMAT/libs/qCC_glWindow/ccRenderingTools.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccRenderingTools.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_glWindow && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/QCC_GL_LIB.dir/ccRenderingTools.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/libs/qCC_glWindow/ccRenderingTools.cpp
 
 libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccRenderingTools.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QCC_GL_LIB.dir/ccRenderingTools.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/libs/qCC_glWindow && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/libs/qCC_glWindow/ccRenderingTools.cpp > CMakeFiles/QCC_GL_LIB.dir/ccRenderingTools.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_glWindow && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/libs/qCC_glWindow/ccRenderingTools.cpp > CMakeFiles/QCC_GL_LIB.dir/ccRenderingTools.cpp.i
 
 libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccRenderingTools.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QCC_GL_LIB.dir/ccRenderingTools.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/libs/qCC_glWindow && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/libs/qCC_glWindow/ccRenderingTools.cpp -o CMakeFiles/QCC_GL_LIB.dir/ccRenderingTools.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_glWindow && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/libs/qCC_glWindow/ccRenderingTools.cpp -o CMakeFiles/QCC_GL_LIB.dir/ccRenderingTools.cpp.s
 
 libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/QCC_GL_LIB_autogen/mocs_compilation.cpp.o: libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/flags.make
 libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/QCC_GL_LIB_autogen/mocs_compilation.cpp.o: libs/qCC_glWindow/QCC_GL_LIB_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/QCC_GL_LIB_autogen/mocs_compilation.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/libs/qCC_glWindow && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/QCC_GL_LIB.dir/QCC_GL_LIB_autogen/mocs_compilation.cpp.o -c /home/debster/DELETETHiS/qCMAT/build/libs/qCC_glWindow/QCC_GL_LIB_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/QCC_GL_LIB_autogen/mocs_compilation.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_glWindow && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/QCC_GL_LIB.dir/QCC_GL_LIB_autogen/mocs_compilation.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_glWindow/QCC_GL_LIB_autogen/mocs_compilation.cpp
 
 libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/QCC_GL_LIB_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QCC_GL_LIB.dir/QCC_GL_LIB_autogen/mocs_compilation.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/libs/qCC_glWindow && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/build/libs/qCC_glWindow/QCC_GL_LIB_autogen/mocs_compilation.cpp > CMakeFiles/QCC_GL_LIB.dir/QCC_GL_LIB_autogen/mocs_compilation.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_glWindow && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_glWindow/QCC_GL_LIB_autogen/mocs_compilation.cpp > CMakeFiles/QCC_GL_LIB.dir/QCC_GL_LIB_autogen/mocs_compilation.cpp.i
 
 libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/QCC_GL_LIB_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QCC_GL_LIB.dir/QCC_GL_LIB_autogen/mocs_compilation.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/libs/qCC_glWindow && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/build/libs/qCC_glWindow/QCC_GL_LIB_autogen/mocs_compilation.cpp -o CMakeFiles/QCC_GL_LIB.dir/QCC_GL_LIB_autogen/mocs_compilation.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_glWindow && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_glWindow/QCC_GL_LIB_autogen/mocs_compilation.cpp -o CMakeFiles/QCC_GL_LIB.dir/QCC_GL_LIB_autogen/mocs_compilation.cpp.s
 
 # Object files for target QCC_GL_LIB
 QCC_GL_LIB_OBJECTS = \
@@ -140,9 +140,9 @@ libs/qCC_glWindow/libQCC_GL_LIB.a: libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/c
 libs/qCC_glWindow/libQCC_GL_LIB.a: libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/QCC_GL_LIB_autogen/mocs_compilation.cpp.o
 libs/qCC_glWindow/libQCC_GL_LIB.a: libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/build.make
 libs/qCC_glWindow/libQCC_GL_LIB.a: libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libQCC_GL_LIB.a"
-	cd /home/debster/DELETETHiS/qCMAT/build/libs/qCC_glWindow && $(CMAKE_COMMAND) -P CMakeFiles/QCC_GL_LIB.dir/cmake_clean_target.cmake
-	cd /home/debster/DELETETHiS/qCMAT/build/libs/qCC_glWindow && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/QCC_GL_LIB.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libQCC_GL_LIB.a"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_glWindow && $(CMAKE_COMMAND) -P CMakeFiles/QCC_GL_LIB.dir/cmake_clean_target.cmake
+	cd /home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_glWindow && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/QCC_GL_LIB.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/build: libs/qCC_glWindow/libQCC_GL_LIB.a
@@ -150,10 +150,10 @@ libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/build: libs/qCC_glWindow/libQCC_GL_L
 .PHONY : libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/build
 
 libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/clean:
-	cd /home/debster/DELETETHiS/qCMAT/build/libs/qCC_glWindow && $(CMAKE_COMMAND) -P CMakeFiles/QCC_GL_LIB.dir/cmake_clean.cmake
+	cd /home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_glWindow && $(CMAKE_COMMAND) -P CMakeFiles/QCC_GL_LIB.dir/cmake_clean.cmake
 .PHONY : libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/clean
 
 libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/depend:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/debster/DELETETHiS/qCMAT /home/debster/DELETETHiS/qCMAT/libs/qCC_glWindow /home/debster/DELETETHiS/qCMAT/build /home/debster/DELETETHiS/qCMAT/build/libs/qCC_glWindow /home/debster/DELETETHiS/qCMAT/build/libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chrome/work/CloudCompare/qCMAT /home/chrome/work/CloudCompare/qCMAT/libs/qCC_glWindow /home/chrome/work/CloudCompare/qCMAT/build /home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_glWindow /home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/depend
 

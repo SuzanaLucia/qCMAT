@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/debster/DELETETHiS/qCMAT
+CMAKE_SOURCE_DIR = /home/chrome/work/CloudCompare/qCMAT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/debster/DELETETHiS/qCMAT/build
+CMAKE_BINARY_DIR = /home/chrome/work/CloudCompare/qCMAT/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/debster/DELETETHiS/qCMAT/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/debster/DELETETHiS/qCMAT/build/CMakeFiles /home/debster/DELETETHiS/qCMAT/build/CC/CMakeFiles/progress.marks
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 CC/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/debster/DELETETHiS/qCMAT/build/CMakeFiles 0
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles /home/chrome/work/CloudCompare/qCMAT/build/CC/CMakeFiles/progress.marks
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 CC/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 CC/clean
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 CC/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 CC/preinstall
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 CC/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 CC/preinstall
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 CC/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 CC/CMakeFiles/CC_CORE_LIB.dir/rule:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 CC/CMakeFiles/CC_CORE_LIB.dir/rule
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 CC/CMakeFiles/CC_CORE_LIB.dir/rule
 .PHONY : CC/CMakeFiles/CC_CORE_LIB.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ CC_CORE_LIB: CC/CMakeFiles/CC_CORE_LIB.dir/rule
 
 # fast build rule for target.
 CC_CORE_LIB/fast:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/build
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/build
 .PHONY : CC_CORE_LIB/fast
 
 # Convenience name for target.
 CC/CMakeFiles/CC_CORE_LIB_autogen.dir/rule:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 CC/CMakeFiles/CC_CORE_LIB_autogen.dir/rule
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 CC/CMakeFiles/CC_CORE_LIB_autogen.dir/rule
 .PHONY : CC/CMakeFiles/CC_CORE_LIB_autogen.dir/rule
 
 # Convenience name for target.
@@ -183,7 +183,7 @@ CC_CORE_LIB_autogen: CC/CMakeFiles/CC_CORE_LIB_autogen.dir/rule
 
 # fast build rule for target.
 CC_CORE_LIB_autogen/fast:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB_autogen.dir/build.make CC/CMakeFiles/CC_CORE_LIB_autogen.dir/build
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB_autogen.dir/build.make CC/CMakeFiles/CC_CORE_LIB_autogen.dir/build
 .PHONY : CC_CORE_LIB_autogen/fast
 
 CC_CORE_LIB_autogen/mocs_compilation.o: CC_CORE_LIB_autogen/mocs_compilation.cpp.o
@@ -192,7 +192,7 @@ CC_CORE_LIB_autogen/mocs_compilation.o: CC_CORE_LIB_autogen/mocs_compilation.cpp
 
 # target to build an object file
 CC_CORE_LIB_autogen/mocs_compilation.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/CC_CORE_LIB_autogen/mocs_compilation.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/CC_CORE_LIB_autogen/mocs_compilation.cpp.o
 .PHONY : CC_CORE_LIB_autogen/mocs_compilation.cpp.o
 
 CC_CORE_LIB_autogen/mocs_compilation.i: CC_CORE_LIB_autogen/mocs_compilation.cpp.i
@@ -201,7 +201,7 @@ CC_CORE_LIB_autogen/mocs_compilation.i: CC_CORE_LIB_autogen/mocs_compilation.cpp
 
 # target to preprocess a source file
 CC_CORE_LIB_autogen/mocs_compilation.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/CC_CORE_LIB_autogen/mocs_compilation.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/CC_CORE_LIB_autogen/mocs_compilation.cpp.i
 .PHONY : CC_CORE_LIB_autogen/mocs_compilation.cpp.i
 
 CC_CORE_LIB_autogen/mocs_compilation.s: CC_CORE_LIB_autogen/mocs_compilation.cpp.s
@@ -210,7 +210,7 @@ CC_CORE_LIB_autogen/mocs_compilation.s: CC_CORE_LIB_autogen/mocs_compilation.cpp
 
 # target to generate assembly for a file
 CC_CORE_LIB_autogen/mocs_compilation.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/CC_CORE_LIB_autogen/mocs_compilation.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/CC_CORE_LIB_autogen/mocs_compilation.cpp.s
 .PHONY : CC_CORE_LIB_autogen/mocs_compilation.cpp.s
 
 src/AutoSegmentationTools.o: src/AutoSegmentationTools.cpp.o
@@ -219,7 +219,7 @@ src/AutoSegmentationTools.o: src/AutoSegmentationTools.cpp.o
 
 # target to build an object file
 src/AutoSegmentationTools.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/AutoSegmentationTools.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/AutoSegmentationTools.cpp.o
 .PHONY : src/AutoSegmentationTools.cpp.o
 
 src/AutoSegmentationTools.i: src/AutoSegmentationTools.cpp.i
@@ -228,7 +228,7 @@ src/AutoSegmentationTools.i: src/AutoSegmentationTools.cpp.i
 
 # target to preprocess a source file
 src/AutoSegmentationTools.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/AutoSegmentationTools.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/AutoSegmentationTools.cpp.i
 .PHONY : src/AutoSegmentationTools.cpp.i
 
 src/AutoSegmentationTools.s: src/AutoSegmentationTools.cpp.s
@@ -237,7 +237,7 @@ src/AutoSegmentationTools.s: src/AutoSegmentationTools.cpp.s
 
 # target to generate assembly for a file
 src/AutoSegmentationTools.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/AutoSegmentationTools.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/AutoSegmentationTools.cpp.s
 .PHONY : src/AutoSegmentationTools.cpp.s
 
 src/CCMiscTools.o: src/CCMiscTools.cpp.o
@@ -246,7 +246,7 @@ src/CCMiscTools.o: src/CCMiscTools.cpp.o
 
 # target to build an object file
 src/CCMiscTools.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/CCMiscTools.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/CCMiscTools.cpp.o
 .PHONY : src/CCMiscTools.cpp.o
 
 src/CCMiscTools.i: src/CCMiscTools.cpp.i
@@ -255,7 +255,7 @@ src/CCMiscTools.i: src/CCMiscTools.cpp.i
 
 # target to preprocess a source file
 src/CCMiscTools.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/CCMiscTools.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/CCMiscTools.cpp.i
 .PHONY : src/CCMiscTools.cpp.i
 
 src/CCMiscTools.s: src/CCMiscTools.cpp.s
@@ -264,7 +264,7 @@ src/CCMiscTools.s: src/CCMiscTools.cpp.s
 
 # target to generate assembly for a file
 src/CCMiscTools.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/CCMiscTools.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/CCMiscTools.cpp.s
 .PHONY : src/CCMiscTools.cpp.s
 
 src/CCShareable.o: src/CCShareable.cpp.o
@@ -273,7 +273,7 @@ src/CCShareable.o: src/CCShareable.cpp.o
 
 # target to build an object file
 src/CCShareable.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/CCShareable.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/CCShareable.cpp.o
 .PHONY : src/CCShareable.cpp.o
 
 src/CCShareable.i: src/CCShareable.cpp.i
@@ -282,7 +282,7 @@ src/CCShareable.i: src/CCShareable.cpp.i
 
 # target to preprocess a source file
 src/CCShareable.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/CCShareable.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/CCShareable.cpp.i
 .PHONY : src/CCShareable.cpp.i
 
 src/CCShareable.s: src/CCShareable.cpp.s
@@ -291,7 +291,7 @@ src/CCShareable.s: src/CCShareable.cpp.s
 
 # target to generate assembly for a file
 src/CCShareable.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/CCShareable.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/CCShareable.cpp.s
 .PHONY : src/CCShareable.cpp.s
 
 src/ChamferDistanceTransform.o: src/ChamferDistanceTransform.cpp.o
@@ -300,7 +300,7 @@ src/ChamferDistanceTransform.o: src/ChamferDistanceTransform.cpp.o
 
 # target to build an object file
 src/ChamferDistanceTransform.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/ChamferDistanceTransform.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/ChamferDistanceTransform.cpp.o
 .PHONY : src/ChamferDistanceTransform.cpp.o
 
 src/ChamferDistanceTransform.i: src/ChamferDistanceTransform.cpp.i
@@ -309,7 +309,7 @@ src/ChamferDistanceTransform.i: src/ChamferDistanceTransform.cpp.i
 
 # target to preprocess a source file
 src/ChamferDistanceTransform.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/ChamferDistanceTransform.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/ChamferDistanceTransform.cpp.i
 .PHONY : src/ChamferDistanceTransform.cpp.i
 
 src/ChamferDistanceTransform.s: src/ChamferDistanceTransform.cpp.s
@@ -318,7 +318,7 @@ src/ChamferDistanceTransform.s: src/ChamferDistanceTransform.cpp.s
 
 # target to generate assembly for a file
 src/ChamferDistanceTransform.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/ChamferDistanceTransform.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/ChamferDistanceTransform.cpp.s
 .PHONY : src/ChamferDistanceTransform.cpp.s
 
 src/ChunkedPointCloud.o: src/ChunkedPointCloud.cpp.o
@@ -327,7 +327,7 @@ src/ChunkedPointCloud.o: src/ChunkedPointCloud.cpp.o
 
 # target to build an object file
 src/ChunkedPointCloud.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/ChunkedPointCloud.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/ChunkedPointCloud.cpp.o
 .PHONY : src/ChunkedPointCloud.cpp.o
 
 src/ChunkedPointCloud.i: src/ChunkedPointCloud.cpp.i
@@ -336,7 +336,7 @@ src/ChunkedPointCloud.i: src/ChunkedPointCloud.cpp.i
 
 # target to preprocess a source file
 src/ChunkedPointCloud.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/ChunkedPointCloud.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/ChunkedPointCloud.cpp.i
 .PHONY : src/ChunkedPointCloud.cpp.i
 
 src/ChunkedPointCloud.s: src/ChunkedPointCloud.cpp.s
@@ -345,7 +345,7 @@ src/ChunkedPointCloud.s: src/ChunkedPointCloud.cpp.s
 
 # target to generate assembly for a file
 src/ChunkedPointCloud.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/ChunkedPointCloud.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/ChunkedPointCloud.cpp.s
 .PHONY : src/ChunkedPointCloud.cpp.s
 
 src/CloudSamplingTools.o: src/CloudSamplingTools.cpp.o
@@ -354,7 +354,7 @@ src/CloudSamplingTools.o: src/CloudSamplingTools.cpp.o
 
 # target to build an object file
 src/CloudSamplingTools.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/CloudSamplingTools.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/CloudSamplingTools.cpp.o
 .PHONY : src/CloudSamplingTools.cpp.o
 
 src/CloudSamplingTools.i: src/CloudSamplingTools.cpp.i
@@ -363,7 +363,7 @@ src/CloudSamplingTools.i: src/CloudSamplingTools.cpp.i
 
 # target to preprocess a source file
 src/CloudSamplingTools.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/CloudSamplingTools.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/CloudSamplingTools.cpp.i
 .PHONY : src/CloudSamplingTools.cpp.i
 
 src/CloudSamplingTools.s: src/CloudSamplingTools.cpp.s
@@ -372,7 +372,7 @@ src/CloudSamplingTools.s: src/CloudSamplingTools.cpp.s
 
 # target to generate assembly for a file
 src/CloudSamplingTools.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/CloudSamplingTools.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/CloudSamplingTools.cpp.s
 .PHONY : src/CloudSamplingTools.cpp.s
 
 src/Delaunay2dMesh.o: src/Delaunay2dMesh.cpp.o
@@ -381,7 +381,7 @@ src/Delaunay2dMesh.o: src/Delaunay2dMesh.cpp.o
 
 # target to build an object file
 src/Delaunay2dMesh.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/Delaunay2dMesh.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/Delaunay2dMesh.cpp.o
 .PHONY : src/Delaunay2dMesh.cpp.o
 
 src/Delaunay2dMesh.i: src/Delaunay2dMesh.cpp.i
@@ -390,7 +390,7 @@ src/Delaunay2dMesh.i: src/Delaunay2dMesh.cpp.i
 
 # target to preprocess a source file
 src/Delaunay2dMesh.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/Delaunay2dMesh.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/Delaunay2dMesh.cpp.i
 .PHONY : src/Delaunay2dMesh.cpp.i
 
 src/Delaunay2dMesh.s: src/Delaunay2dMesh.cpp.s
@@ -399,7 +399,7 @@ src/Delaunay2dMesh.s: src/Delaunay2dMesh.cpp.s
 
 # target to generate assembly for a file
 src/Delaunay2dMesh.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/Delaunay2dMesh.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/Delaunay2dMesh.cpp.s
 .PHONY : src/Delaunay2dMesh.cpp.s
 
 src/DgmOctree.o: src/DgmOctree.cpp.o
@@ -408,7 +408,7 @@ src/DgmOctree.o: src/DgmOctree.cpp.o
 
 # target to build an object file
 src/DgmOctree.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/DgmOctree.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/DgmOctree.cpp.o
 .PHONY : src/DgmOctree.cpp.o
 
 src/DgmOctree.i: src/DgmOctree.cpp.i
@@ -417,7 +417,7 @@ src/DgmOctree.i: src/DgmOctree.cpp.i
 
 # target to preprocess a source file
 src/DgmOctree.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/DgmOctree.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/DgmOctree.cpp.i
 .PHONY : src/DgmOctree.cpp.i
 
 src/DgmOctree.s: src/DgmOctree.cpp.s
@@ -426,7 +426,7 @@ src/DgmOctree.s: src/DgmOctree.cpp.s
 
 # target to generate assembly for a file
 src/DgmOctree.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/DgmOctree.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/DgmOctree.cpp.s
 .PHONY : src/DgmOctree.cpp.s
 
 src/DgmOctreeReferenceCloud.o: src/DgmOctreeReferenceCloud.cpp.o
@@ -435,7 +435,7 @@ src/DgmOctreeReferenceCloud.o: src/DgmOctreeReferenceCloud.cpp.o
 
 # target to build an object file
 src/DgmOctreeReferenceCloud.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/DgmOctreeReferenceCloud.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/DgmOctreeReferenceCloud.cpp.o
 .PHONY : src/DgmOctreeReferenceCloud.cpp.o
 
 src/DgmOctreeReferenceCloud.i: src/DgmOctreeReferenceCloud.cpp.i
@@ -444,7 +444,7 @@ src/DgmOctreeReferenceCloud.i: src/DgmOctreeReferenceCloud.cpp.i
 
 # target to preprocess a source file
 src/DgmOctreeReferenceCloud.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/DgmOctreeReferenceCloud.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/DgmOctreeReferenceCloud.cpp.i
 .PHONY : src/DgmOctreeReferenceCloud.cpp.i
 
 src/DgmOctreeReferenceCloud.s: src/DgmOctreeReferenceCloud.cpp.s
@@ -453,7 +453,7 @@ src/DgmOctreeReferenceCloud.s: src/DgmOctreeReferenceCloud.cpp.s
 
 # target to generate assembly for a file
 src/DgmOctreeReferenceCloud.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/DgmOctreeReferenceCloud.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/DgmOctreeReferenceCloud.cpp.s
 .PHONY : src/DgmOctreeReferenceCloud.cpp.s
 
 src/DistanceComputationTools.o: src/DistanceComputationTools.cpp.o
@@ -462,7 +462,7 @@ src/DistanceComputationTools.o: src/DistanceComputationTools.cpp.o
 
 # target to build an object file
 src/DistanceComputationTools.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/DistanceComputationTools.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/DistanceComputationTools.cpp.o
 .PHONY : src/DistanceComputationTools.cpp.o
 
 src/DistanceComputationTools.i: src/DistanceComputationTools.cpp.i
@@ -471,7 +471,7 @@ src/DistanceComputationTools.i: src/DistanceComputationTools.cpp.i
 
 # target to preprocess a source file
 src/DistanceComputationTools.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/DistanceComputationTools.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/DistanceComputationTools.cpp.i
 .PHONY : src/DistanceComputationTools.cpp.i
 
 src/DistanceComputationTools.s: src/DistanceComputationTools.cpp.s
@@ -480,7 +480,7 @@ src/DistanceComputationTools.s: src/DistanceComputationTools.cpp.s
 
 # target to generate assembly for a file
 src/DistanceComputationTools.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/DistanceComputationTools.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/DistanceComputationTools.cpp.s
 .PHONY : src/DistanceComputationTools.cpp.s
 
 src/ErrorFunction.o: src/ErrorFunction.cpp.o
@@ -489,7 +489,7 @@ src/ErrorFunction.o: src/ErrorFunction.cpp.o
 
 # target to build an object file
 src/ErrorFunction.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/ErrorFunction.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/ErrorFunction.cpp.o
 .PHONY : src/ErrorFunction.cpp.o
 
 src/ErrorFunction.i: src/ErrorFunction.cpp.i
@@ -498,7 +498,7 @@ src/ErrorFunction.i: src/ErrorFunction.cpp.i
 
 # target to preprocess a source file
 src/ErrorFunction.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/ErrorFunction.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/ErrorFunction.cpp.i
 .PHONY : src/ErrorFunction.cpp.i
 
 src/ErrorFunction.s: src/ErrorFunction.cpp.s
@@ -507,7 +507,7 @@ src/ErrorFunction.s: src/ErrorFunction.cpp.s
 
 # target to generate assembly for a file
 src/ErrorFunction.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/ErrorFunction.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/ErrorFunction.cpp.s
 .PHONY : src/ErrorFunction.cpp.s
 
 src/FastMarching.o: src/FastMarching.cpp.o
@@ -516,7 +516,7 @@ src/FastMarching.o: src/FastMarching.cpp.o
 
 # target to build an object file
 src/FastMarching.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/FastMarching.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/FastMarching.cpp.o
 .PHONY : src/FastMarching.cpp.o
 
 src/FastMarching.i: src/FastMarching.cpp.i
@@ -525,7 +525,7 @@ src/FastMarching.i: src/FastMarching.cpp.i
 
 # target to preprocess a source file
 src/FastMarching.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/FastMarching.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/FastMarching.cpp.i
 .PHONY : src/FastMarching.cpp.i
 
 src/FastMarching.s: src/FastMarching.cpp.s
@@ -534,7 +534,7 @@ src/FastMarching.s: src/FastMarching.cpp.s
 
 # target to generate assembly for a file
 src/FastMarching.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/FastMarching.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/FastMarching.cpp.s
 .PHONY : src/FastMarching.cpp.s
 
 src/FastMarchingForPropagation.o: src/FastMarchingForPropagation.cpp.o
@@ -543,7 +543,7 @@ src/FastMarchingForPropagation.o: src/FastMarchingForPropagation.cpp.o
 
 # target to build an object file
 src/FastMarchingForPropagation.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/FastMarchingForPropagation.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/FastMarchingForPropagation.cpp.o
 .PHONY : src/FastMarchingForPropagation.cpp.o
 
 src/FastMarchingForPropagation.i: src/FastMarchingForPropagation.cpp.i
@@ -552,7 +552,7 @@ src/FastMarchingForPropagation.i: src/FastMarchingForPropagation.cpp.i
 
 # target to preprocess a source file
 src/FastMarchingForPropagation.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/FastMarchingForPropagation.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/FastMarchingForPropagation.cpp.i
 .PHONY : src/FastMarchingForPropagation.cpp.i
 
 src/FastMarchingForPropagation.s: src/FastMarchingForPropagation.cpp.s
@@ -561,7 +561,7 @@ src/FastMarchingForPropagation.s: src/FastMarchingForPropagation.cpp.s
 
 # target to generate assembly for a file
 src/FastMarchingForPropagation.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/FastMarchingForPropagation.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/FastMarchingForPropagation.cpp.s
 .PHONY : src/FastMarchingForPropagation.cpp.s
 
 src/GeometricalAnalysisTools.o: src/GeometricalAnalysisTools.cpp.o
@@ -570,7 +570,7 @@ src/GeometricalAnalysisTools.o: src/GeometricalAnalysisTools.cpp.o
 
 # target to build an object file
 src/GeometricalAnalysisTools.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/GeometricalAnalysisTools.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/GeometricalAnalysisTools.cpp.o
 .PHONY : src/GeometricalAnalysisTools.cpp.o
 
 src/GeometricalAnalysisTools.i: src/GeometricalAnalysisTools.cpp.i
@@ -579,7 +579,7 @@ src/GeometricalAnalysisTools.i: src/GeometricalAnalysisTools.cpp.i
 
 # target to preprocess a source file
 src/GeometricalAnalysisTools.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/GeometricalAnalysisTools.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/GeometricalAnalysisTools.cpp.i
 .PHONY : src/GeometricalAnalysisTools.cpp.i
 
 src/GeometricalAnalysisTools.s: src/GeometricalAnalysisTools.cpp.s
@@ -588,7 +588,7 @@ src/GeometricalAnalysisTools.s: src/GeometricalAnalysisTools.cpp.s
 
 # target to generate assembly for a file
 src/GeometricalAnalysisTools.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/GeometricalAnalysisTools.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/GeometricalAnalysisTools.cpp.s
 .PHONY : src/GeometricalAnalysisTools.cpp.s
 
 src/KdTree.o: src/KdTree.cpp.o
@@ -597,7 +597,7 @@ src/KdTree.o: src/KdTree.cpp.o
 
 # target to build an object file
 src/KdTree.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/KdTree.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/KdTree.cpp.o
 .PHONY : src/KdTree.cpp.o
 
 src/KdTree.i: src/KdTree.cpp.i
@@ -606,7 +606,7 @@ src/KdTree.i: src/KdTree.cpp.i
 
 # target to preprocess a source file
 src/KdTree.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/KdTree.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/KdTree.cpp.i
 .PHONY : src/KdTree.cpp.i
 
 src/KdTree.s: src/KdTree.cpp.s
@@ -615,7 +615,7 @@ src/KdTree.s: src/KdTree.cpp.s
 
 # target to generate assembly for a file
 src/KdTree.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/KdTree.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/KdTree.cpp.s
 .PHONY : src/KdTree.cpp.s
 
 src/LocalModel.o: src/LocalModel.cpp.o
@@ -624,7 +624,7 @@ src/LocalModel.o: src/LocalModel.cpp.o
 
 # target to build an object file
 src/LocalModel.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/LocalModel.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/LocalModel.cpp.o
 .PHONY : src/LocalModel.cpp.o
 
 src/LocalModel.i: src/LocalModel.cpp.i
@@ -633,7 +633,7 @@ src/LocalModel.i: src/LocalModel.cpp.i
 
 # target to preprocess a source file
 src/LocalModel.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/LocalModel.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/LocalModel.cpp.i
 .PHONY : src/LocalModel.cpp.i
 
 src/LocalModel.s: src/LocalModel.cpp.s
@@ -642,7 +642,7 @@ src/LocalModel.s: src/LocalModel.cpp.s
 
 # target to generate assembly for a file
 src/LocalModel.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/LocalModel.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/LocalModel.cpp.s
 .PHONY : src/LocalModel.cpp.s
 
 src/ManualSegmentationTools.o: src/ManualSegmentationTools.cpp.o
@@ -651,7 +651,7 @@ src/ManualSegmentationTools.o: src/ManualSegmentationTools.cpp.o
 
 # target to build an object file
 src/ManualSegmentationTools.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/ManualSegmentationTools.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/ManualSegmentationTools.cpp.o
 .PHONY : src/ManualSegmentationTools.cpp.o
 
 src/ManualSegmentationTools.i: src/ManualSegmentationTools.cpp.i
@@ -660,7 +660,7 @@ src/ManualSegmentationTools.i: src/ManualSegmentationTools.cpp.i
 
 # target to preprocess a source file
 src/ManualSegmentationTools.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/ManualSegmentationTools.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/ManualSegmentationTools.cpp.i
 .PHONY : src/ManualSegmentationTools.cpp.i
 
 src/ManualSegmentationTools.s: src/ManualSegmentationTools.cpp.s
@@ -669,7 +669,7 @@ src/ManualSegmentationTools.s: src/ManualSegmentationTools.cpp.s
 
 # target to generate assembly for a file
 src/ManualSegmentationTools.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/ManualSegmentationTools.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/ManualSegmentationTools.cpp.s
 .PHONY : src/ManualSegmentationTools.cpp.s
 
 src/MeshSamplingTools.o: src/MeshSamplingTools.cpp.o
@@ -678,7 +678,7 @@ src/MeshSamplingTools.o: src/MeshSamplingTools.cpp.o
 
 # target to build an object file
 src/MeshSamplingTools.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/MeshSamplingTools.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/MeshSamplingTools.cpp.o
 .PHONY : src/MeshSamplingTools.cpp.o
 
 src/MeshSamplingTools.i: src/MeshSamplingTools.cpp.i
@@ -687,7 +687,7 @@ src/MeshSamplingTools.i: src/MeshSamplingTools.cpp.i
 
 # target to preprocess a source file
 src/MeshSamplingTools.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/MeshSamplingTools.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/MeshSamplingTools.cpp.i
 .PHONY : src/MeshSamplingTools.cpp.i
 
 src/MeshSamplingTools.s: src/MeshSamplingTools.cpp.s
@@ -696,7 +696,7 @@ src/MeshSamplingTools.s: src/MeshSamplingTools.cpp.s
 
 # target to generate assembly for a file
 src/MeshSamplingTools.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/MeshSamplingTools.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/MeshSamplingTools.cpp.s
 .PHONY : src/MeshSamplingTools.cpp.s
 
 src/Neighbourhood.o: src/Neighbourhood.cpp.o
@@ -705,7 +705,7 @@ src/Neighbourhood.o: src/Neighbourhood.cpp.o
 
 # target to build an object file
 src/Neighbourhood.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/Neighbourhood.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/Neighbourhood.cpp.o
 .PHONY : src/Neighbourhood.cpp.o
 
 src/Neighbourhood.i: src/Neighbourhood.cpp.i
@@ -714,7 +714,7 @@ src/Neighbourhood.i: src/Neighbourhood.cpp.i
 
 # target to preprocess a source file
 src/Neighbourhood.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/Neighbourhood.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/Neighbourhood.cpp.i
 .PHONY : src/Neighbourhood.cpp.i
 
 src/Neighbourhood.s: src/Neighbourhood.cpp.s
@@ -723,7 +723,7 @@ src/Neighbourhood.s: src/Neighbourhood.cpp.s
 
 # target to generate assembly for a file
 src/Neighbourhood.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/Neighbourhood.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/Neighbourhood.cpp.s
 .PHONY : src/Neighbourhood.cpp.s
 
 src/NormalDistribution.o: src/NormalDistribution.cpp.o
@@ -732,7 +732,7 @@ src/NormalDistribution.o: src/NormalDistribution.cpp.o
 
 # target to build an object file
 src/NormalDistribution.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/NormalDistribution.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/NormalDistribution.cpp.o
 .PHONY : src/NormalDistribution.cpp.o
 
 src/NormalDistribution.i: src/NormalDistribution.cpp.i
@@ -741,7 +741,7 @@ src/NormalDistribution.i: src/NormalDistribution.cpp.i
 
 # target to preprocess a source file
 src/NormalDistribution.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/NormalDistribution.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/NormalDistribution.cpp.i
 .PHONY : src/NormalDistribution.cpp.i
 
 src/NormalDistribution.s: src/NormalDistribution.cpp.s
@@ -750,7 +750,7 @@ src/NormalDistribution.s: src/NormalDistribution.cpp.s
 
 # target to generate assembly for a file
 src/NormalDistribution.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/NormalDistribution.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/NormalDistribution.cpp.s
 .PHONY : src/NormalDistribution.cpp.s
 
 src/NormalizedProgress.o: src/NormalizedProgress.cpp.o
@@ -759,7 +759,7 @@ src/NormalizedProgress.o: src/NormalizedProgress.cpp.o
 
 # target to build an object file
 src/NormalizedProgress.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/NormalizedProgress.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/NormalizedProgress.cpp.o
 .PHONY : src/NormalizedProgress.cpp.o
 
 src/NormalizedProgress.i: src/NormalizedProgress.cpp.i
@@ -768,7 +768,7 @@ src/NormalizedProgress.i: src/NormalizedProgress.cpp.i
 
 # target to preprocess a source file
 src/NormalizedProgress.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/NormalizedProgress.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/NormalizedProgress.cpp.i
 .PHONY : src/NormalizedProgress.cpp.i
 
 src/NormalizedProgress.s: src/NormalizedProgress.cpp.s
@@ -777,7 +777,7 @@ src/NormalizedProgress.s: src/NormalizedProgress.cpp.s
 
 # target to generate assembly for a file
 src/NormalizedProgress.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/NormalizedProgress.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/NormalizedProgress.cpp.s
 .PHONY : src/NormalizedProgress.cpp.s
 
 src/PointProjectionTools.o: src/PointProjectionTools.cpp.o
@@ -786,7 +786,7 @@ src/PointProjectionTools.o: src/PointProjectionTools.cpp.o
 
 # target to build an object file
 src/PointProjectionTools.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/PointProjectionTools.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/PointProjectionTools.cpp.o
 .PHONY : src/PointProjectionTools.cpp.o
 
 src/PointProjectionTools.i: src/PointProjectionTools.cpp.i
@@ -795,7 +795,7 @@ src/PointProjectionTools.i: src/PointProjectionTools.cpp.i
 
 # target to preprocess a source file
 src/PointProjectionTools.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/PointProjectionTools.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/PointProjectionTools.cpp.i
 .PHONY : src/PointProjectionTools.cpp.i
 
 src/PointProjectionTools.s: src/PointProjectionTools.cpp.s
@@ -804,7 +804,7 @@ src/PointProjectionTools.s: src/PointProjectionTools.cpp.s
 
 # target to generate assembly for a file
 src/PointProjectionTools.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/PointProjectionTools.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/PointProjectionTools.cpp.s
 .PHONY : src/PointProjectionTools.cpp.s
 
 src/Polyline.o: src/Polyline.cpp.o
@@ -813,7 +813,7 @@ src/Polyline.o: src/Polyline.cpp.o
 
 # target to build an object file
 src/Polyline.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/Polyline.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/Polyline.cpp.o
 .PHONY : src/Polyline.cpp.o
 
 src/Polyline.i: src/Polyline.cpp.i
@@ -822,7 +822,7 @@ src/Polyline.i: src/Polyline.cpp.i
 
 # target to preprocess a source file
 src/Polyline.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/Polyline.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/Polyline.cpp.i
 .PHONY : src/Polyline.cpp.i
 
 src/Polyline.s: src/Polyline.cpp.s
@@ -831,7 +831,7 @@ src/Polyline.s: src/Polyline.cpp.s
 
 # target to generate assembly for a file
 src/Polyline.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/Polyline.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/Polyline.cpp.s
 .PHONY : src/Polyline.cpp.s
 
 src/ReferenceCloud.o: src/ReferenceCloud.cpp.o
@@ -840,7 +840,7 @@ src/ReferenceCloud.o: src/ReferenceCloud.cpp.o
 
 # target to build an object file
 src/ReferenceCloud.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/ReferenceCloud.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/ReferenceCloud.cpp.o
 .PHONY : src/ReferenceCloud.cpp.o
 
 src/ReferenceCloud.i: src/ReferenceCloud.cpp.i
@@ -849,7 +849,7 @@ src/ReferenceCloud.i: src/ReferenceCloud.cpp.i
 
 # target to preprocess a source file
 src/ReferenceCloud.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/ReferenceCloud.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/ReferenceCloud.cpp.i
 .PHONY : src/ReferenceCloud.cpp.i
 
 src/ReferenceCloud.s: src/ReferenceCloud.cpp.s
@@ -858,7 +858,7 @@ src/ReferenceCloud.s: src/ReferenceCloud.cpp.s
 
 # target to generate assembly for a file
 src/ReferenceCloud.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/ReferenceCloud.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/ReferenceCloud.cpp.s
 .PHONY : src/ReferenceCloud.cpp.s
 
 src/RegistrationTools.o: src/RegistrationTools.cpp.o
@@ -867,7 +867,7 @@ src/RegistrationTools.o: src/RegistrationTools.cpp.o
 
 # target to build an object file
 src/RegistrationTools.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/RegistrationTools.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/RegistrationTools.cpp.o
 .PHONY : src/RegistrationTools.cpp.o
 
 src/RegistrationTools.i: src/RegistrationTools.cpp.i
@@ -876,7 +876,7 @@ src/RegistrationTools.i: src/RegistrationTools.cpp.i
 
 # target to preprocess a source file
 src/RegistrationTools.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/RegistrationTools.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/RegistrationTools.cpp.i
 .PHONY : src/RegistrationTools.cpp.i
 
 src/RegistrationTools.s: src/RegistrationTools.cpp.s
@@ -885,7 +885,7 @@ src/RegistrationTools.s: src/RegistrationTools.cpp.s
 
 # target to generate assembly for a file
 src/RegistrationTools.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/RegistrationTools.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/RegistrationTools.cpp.s
 .PHONY : src/RegistrationTools.cpp.s
 
 src/SaitoSquaredDistanceTransform.o: src/SaitoSquaredDistanceTransform.cpp.o
@@ -894,7 +894,7 @@ src/SaitoSquaredDistanceTransform.o: src/SaitoSquaredDistanceTransform.cpp.o
 
 # target to build an object file
 src/SaitoSquaredDistanceTransform.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/SaitoSquaredDistanceTransform.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/SaitoSquaredDistanceTransform.cpp.o
 .PHONY : src/SaitoSquaredDistanceTransform.cpp.o
 
 src/SaitoSquaredDistanceTransform.i: src/SaitoSquaredDistanceTransform.cpp.i
@@ -903,7 +903,7 @@ src/SaitoSquaredDistanceTransform.i: src/SaitoSquaredDistanceTransform.cpp.i
 
 # target to preprocess a source file
 src/SaitoSquaredDistanceTransform.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/SaitoSquaredDistanceTransform.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/SaitoSquaredDistanceTransform.cpp.i
 .PHONY : src/SaitoSquaredDistanceTransform.cpp.i
 
 src/SaitoSquaredDistanceTransform.s: src/SaitoSquaredDistanceTransform.cpp.s
@@ -912,7 +912,7 @@ src/SaitoSquaredDistanceTransform.s: src/SaitoSquaredDistanceTransform.cpp.s
 
 # target to generate assembly for a file
 src/SaitoSquaredDistanceTransform.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/SaitoSquaredDistanceTransform.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/SaitoSquaredDistanceTransform.cpp.s
 .PHONY : src/SaitoSquaredDistanceTransform.cpp.s
 
 src/ScalarField.o: src/ScalarField.cpp.o
@@ -921,7 +921,7 @@ src/ScalarField.o: src/ScalarField.cpp.o
 
 # target to build an object file
 src/ScalarField.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/ScalarField.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/ScalarField.cpp.o
 .PHONY : src/ScalarField.cpp.o
 
 src/ScalarField.i: src/ScalarField.cpp.i
@@ -930,7 +930,7 @@ src/ScalarField.i: src/ScalarField.cpp.i
 
 # target to preprocess a source file
 src/ScalarField.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/ScalarField.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/ScalarField.cpp.i
 .PHONY : src/ScalarField.cpp.i
 
 src/ScalarField.s: src/ScalarField.cpp.s
@@ -939,7 +939,7 @@ src/ScalarField.s: src/ScalarField.cpp.s
 
 # target to generate assembly for a file
 src/ScalarField.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/ScalarField.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/ScalarField.cpp.s
 .PHONY : src/ScalarField.cpp.s
 
 src/ScalarFieldTools.o: src/ScalarFieldTools.cpp.o
@@ -948,7 +948,7 @@ src/ScalarFieldTools.o: src/ScalarFieldTools.cpp.o
 
 # target to build an object file
 src/ScalarFieldTools.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/ScalarFieldTools.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/ScalarFieldTools.cpp.o
 .PHONY : src/ScalarFieldTools.cpp.o
 
 src/ScalarFieldTools.i: src/ScalarFieldTools.cpp.i
@@ -957,7 +957,7 @@ src/ScalarFieldTools.i: src/ScalarFieldTools.cpp.i
 
 # target to preprocess a source file
 src/ScalarFieldTools.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/ScalarFieldTools.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/ScalarFieldTools.cpp.i
 .PHONY : src/ScalarFieldTools.cpp.i
 
 src/ScalarFieldTools.s: src/ScalarFieldTools.cpp.s
@@ -966,7 +966,7 @@ src/ScalarFieldTools.s: src/ScalarFieldTools.cpp.s
 
 # target to generate assembly for a file
 src/ScalarFieldTools.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/ScalarFieldTools.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/ScalarFieldTools.cpp.s
 .PHONY : src/ScalarFieldTools.cpp.s
 
 src/SimpleCloud.o: src/SimpleCloud.cpp.o
@@ -975,7 +975,7 @@ src/SimpleCloud.o: src/SimpleCloud.cpp.o
 
 # target to build an object file
 src/SimpleCloud.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/SimpleCloud.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/SimpleCloud.cpp.o
 .PHONY : src/SimpleCloud.cpp.o
 
 src/SimpleCloud.i: src/SimpleCloud.cpp.i
@@ -984,7 +984,7 @@ src/SimpleCloud.i: src/SimpleCloud.cpp.i
 
 # target to preprocess a source file
 src/SimpleCloud.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/SimpleCloud.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/SimpleCloud.cpp.i
 .PHONY : src/SimpleCloud.cpp.i
 
 src/SimpleCloud.s: src/SimpleCloud.cpp.s
@@ -993,7 +993,7 @@ src/SimpleCloud.s: src/SimpleCloud.cpp.s
 
 # target to generate assembly for a file
 src/SimpleCloud.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/SimpleCloud.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/SimpleCloud.cpp.s
 .PHONY : src/SimpleCloud.cpp.s
 
 src/SimpleMesh.o: src/SimpleMesh.cpp.o
@@ -1002,7 +1002,7 @@ src/SimpleMesh.o: src/SimpleMesh.cpp.o
 
 # target to build an object file
 src/SimpleMesh.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/SimpleMesh.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/SimpleMesh.cpp.o
 .PHONY : src/SimpleMesh.cpp.o
 
 src/SimpleMesh.i: src/SimpleMesh.cpp.i
@@ -1011,7 +1011,7 @@ src/SimpleMesh.i: src/SimpleMesh.cpp.i
 
 # target to preprocess a source file
 src/SimpleMesh.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/SimpleMesh.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/SimpleMesh.cpp.i
 .PHONY : src/SimpleMesh.cpp.i
 
 src/SimpleMesh.s: src/SimpleMesh.cpp.s
@@ -1020,7 +1020,7 @@ src/SimpleMesh.s: src/SimpleMesh.cpp.s
 
 # target to generate assembly for a file
 src/SimpleMesh.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/SimpleMesh.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/SimpleMesh.cpp.s
 .PHONY : src/SimpleMesh.cpp.s
 
 src/StatisticalTestingTools.o: src/StatisticalTestingTools.cpp.o
@@ -1029,7 +1029,7 @@ src/StatisticalTestingTools.o: src/StatisticalTestingTools.cpp.o
 
 # target to build an object file
 src/StatisticalTestingTools.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/StatisticalTestingTools.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/StatisticalTestingTools.cpp.o
 .PHONY : src/StatisticalTestingTools.cpp.o
 
 src/StatisticalTestingTools.i: src/StatisticalTestingTools.cpp.i
@@ -1038,7 +1038,7 @@ src/StatisticalTestingTools.i: src/StatisticalTestingTools.cpp.i
 
 # target to preprocess a source file
 src/StatisticalTestingTools.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/StatisticalTestingTools.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/StatisticalTestingTools.cpp.i
 .PHONY : src/StatisticalTestingTools.cpp.i
 
 src/StatisticalTestingTools.s: src/StatisticalTestingTools.cpp.s
@@ -1047,7 +1047,7 @@ src/StatisticalTestingTools.s: src/StatisticalTestingTools.cpp.s
 
 # target to generate assembly for a file
 src/StatisticalTestingTools.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/StatisticalTestingTools.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/StatisticalTestingTools.cpp.s
 .PHONY : src/StatisticalTestingTools.cpp.s
 
 src/TrueKdTree.o: src/TrueKdTree.cpp.o
@@ -1056,7 +1056,7 @@ src/TrueKdTree.o: src/TrueKdTree.cpp.o
 
 # target to build an object file
 src/TrueKdTree.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/TrueKdTree.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/TrueKdTree.cpp.o
 .PHONY : src/TrueKdTree.cpp.o
 
 src/TrueKdTree.i: src/TrueKdTree.cpp.i
@@ -1065,7 +1065,7 @@ src/TrueKdTree.i: src/TrueKdTree.cpp.i
 
 # target to preprocess a source file
 src/TrueKdTree.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/TrueKdTree.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/TrueKdTree.cpp.i
 .PHONY : src/TrueKdTree.cpp.i
 
 src/TrueKdTree.s: src/TrueKdTree.cpp.s
@@ -1074,7 +1074,7 @@ src/TrueKdTree.s: src/TrueKdTree.cpp.s
 
 # target to generate assembly for a file
 src/TrueKdTree.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/TrueKdTree.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/TrueKdTree.cpp.s
 .PHONY : src/TrueKdTree.cpp.s
 
 src/WeibullDistribution.o: src/WeibullDistribution.cpp.o
@@ -1083,7 +1083,7 @@ src/WeibullDistribution.o: src/WeibullDistribution.cpp.o
 
 # target to build an object file
 src/WeibullDistribution.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/WeibullDistribution.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/WeibullDistribution.cpp.o
 .PHONY : src/WeibullDistribution.cpp.o
 
 src/WeibullDistribution.i: src/WeibullDistribution.cpp.i
@@ -1092,7 +1092,7 @@ src/WeibullDistribution.i: src/WeibullDistribution.cpp.i
 
 # target to preprocess a source file
 src/WeibullDistribution.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/WeibullDistribution.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/WeibullDistribution.cpp.i
 .PHONY : src/WeibullDistribution.cpp.i
 
 src/WeibullDistribution.s: src/WeibullDistribution.cpp.s
@@ -1101,7 +1101,7 @@ src/WeibullDistribution.s: src/WeibullDistribution.cpp.s
 
 # target to generate assembly for a file
 src/WeibullDistribution.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/WeibullDistribution.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CC/CMakeFiles/CC_CORE_LIB.dir/build.make CC/CMakeFiles/CC_CORE_LIB.dir/src/WeibullDistribution.cpp.s
 .PHONY : src/WeibullDistribution.cpp.s
 
 # Help Target
@@ -1231,6 +1231,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

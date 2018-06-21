@@ -1,4 +1,4 @@
-# Install script for directory: /home/debster/DELETETHiS/qCMAT/libs/qCC_io
+# Install script for directory: /home/chrome/work/CloudCompare/qCMAT/libs/qCC_io
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -52,15 +52,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/lib/cloudcompare" TYPE SHARED_LIBRARY FILES "/home/debster/DELETETHiS/qCMAT/build/libs/qCC_io/libQCC_IO_LIB.so")
+file(INSTALL DESTINATION "/usr/local/lib/cloudcompare" TYPE SHARED_LIBRARY FILES "/home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_io/libQCC_IO_LIB.so")
   if(EXISTS "$ENV{DESTDIR}/usr/local/lib/cloudcompare/libQCC_IO_LIB.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/lib/cloudcompare/libQCC_IO_LIB.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}/usr/local/lib/cloudcompare/libQCC_IO_LIB.so"
-         OLD_RPATH "/home/debster/DELETETHiS/qCMAT/build/libs/qCC_db:/home/debster/DELETETHiS/qCMAT/build/CC:"
+         OLD_RPATH "/home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_db:/home/chrome/work/CloudCompare/qCMAT/build/CC:"
          NEW_RPATH "/usr/local/lib/cloudcompare")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/bin/strip" "$ENV{DESTDIR}/usr/local/lib/cloudcompare/libQCC_IO_LIB.so")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/usr/local/lib/cloudcompare/libQCC_IO_LIB.so")
     endif()
   endif()
 endif()

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/debster/DELETETHiS/qCMAT
+CMAKE_SOURCE_DIR = /home/chrome/work/CloudCompare/qCMAT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/debster/DELETETHiS/qCMAT/build
+CMAKE_BINARY_DIR = /home/chrome/work/CloudCompare/qCMAT/build
 
 # Include any dependencies generated for this target.
 include qCC/CMakeFiles/CloudCompare.dir/depend.make
@@ -58,296 +58,296 @@ include qCC/CMakeFiles/CloudCompare.dir/progress.make
 include qCC/CMakeFiles/CloudCompare.dir/flags.make
 
 qCC/ui_aboutDlg.h: ../qCC/ui_templates/aboutDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ui_aboutDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_aboutDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/aboutDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ui_aboutDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_aboutDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/aboutDlg.ui
 
 qCC/ui_adjustZoomDlg.h: ../qCC/ui_templates/adjustZoomDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ui_adjustZoomDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_adjustZoomDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/adjustZoomDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ui_adjustZoomDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_adjustZoomDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/adjustZoomDlg.ui
 
 qCC/ui_alignDlg.h: ../qCC/ui_templates/alignDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ui_alignDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_alignDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/alignDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ui_alignDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_alignDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/alignDlg.ui
 
 qCC/ui_applyTransformationDlg.h: ../qCC/ui_templates/applyTransformationDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating ui_applyTransformationDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_applyTransformationDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/applyTransformationDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating ui_applyTransformationDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_applyTransformationDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/applyTransformationDlg.ui
 
 qCC/ui_askOneDoubleValueDlg.h: ../qCC/ui_templates/askOneDoubleValueDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating ui_askOneDoubleValueDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_askOneDoubleValueDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/askOneDoubleValueDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating ui_askOneDoubleValueDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_askOneDoubleValueDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/askOneDoubleValueDlg.ui
 
 qCC/ui_askOneIntValueDlg.h: ../qCC/ui_templates/askOneIntValueDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating ui_askOneIntValueDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_askOneIntValueDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/askOneIntValueDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating ui_askOneIntValueDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_askOneIntValueDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/askOneIntValueDlg.ui
 
 qCC/ui_askOneStringDlg.h: ../qCC/ui_templates/askOneStringDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating ui_askOneStringDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_askOneStringDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/askOneStringDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating ui_askOneStringDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_askOneStringDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/askOneStringDlg.ui
 
 qCC/ui_askThreeDoubleValuesDlg.h: ../qCC/ui_templates/askThreeDoubleValuesDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating ui_askThreeDoubleValuesDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_askThreeDoubleValuesDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/askThreeDoubleValuesDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating ui_askThreeDoubleValuesDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_askThreeDoubleValuesDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/askThreeDoubleValuesDlg.ui
 
 qCC/ui_askTwoDoubleValuesDlg.h: ../qCC/ui_templates/askTwoDoubleValuesDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating ui_askTwoDoubleValuesDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_askTwoDoubleValuesDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/askTwoDoubleValuesDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating ui_askTwoDoubleValuesDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_askTwoDoubleValuesDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/askTwoDoubleValuesDlg.ui
 
 qCC/ui_boundingBoxEditorDlg.h: ../qCC/ui_templates/boundingBoxEditorDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating ui_boundingBoxEditorDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_boundingBoxEditorDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/boundingBoxEditorDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating ui_boundingBoxEditorDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_boundingBoxEditorDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/boundingBoxEditorDlg.ui
 
 qCC/ui_camSensorProjectDlg.h: ../qCC/ui_templates/camSensorProjectDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating ui_camSensorProjectDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_camSensorProjectDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/camSensorProjectDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating ui_camSensorProjectDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_camSensorProjectDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/camSensorProjectDlg.ui
 
 qCC/ui_cameraParamDlg.h: ../qCC/ui_templates/cameraParamDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating ui_cameraParamDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_cameraParamDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/cameraParamDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating ui_cameraParamDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_cameraParamDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/cameraParamDlg.ui
 
 qCC/ui_clippingBoxDlg.h: ../qCC/ui_templates/clippingBoxDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating ui_clippingBoxDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_clippingBoxDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/clippingBoxDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating ui_clippingBoxDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_clippingBoxDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/clippingBoxDlg.ui
 
 qCC/ui_clippingBoxRepeatDlg.h: ../qCC/ui_templates/clippingBoxRepeatDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating ui_clippingBoxRepeatDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_clippingBoxRepeatDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/clippingBoxRepeatDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating ui_clippingBoxRepeatDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_clippingBoxRepeatDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/clippingBoxRepeatDlg.ui
 
 qCC/ui_colorGradientDlg.h: ../qCC/ui_templates/colorGradientDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating ui_colorGradientDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_colorGradientDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/colorGradientDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating ui_colorGradientDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_colorGradientDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/colorGradientDlg.ui
 
 qCC/ui_colorLevelsDlg.h: ../qCC/ui_templates/colorLevelsDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating ui_colorLevelsDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_colorLevelsDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/colorLevelsDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating ui_colorLevelsDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_colorLevelsDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/colorLevelsDlg.ui
 
 qCC/ui_colorScaleEditorDlg.h: ../qCC/ui_templates/colorScaleEditorDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating ui_colorScaleEditorDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_colorScaleEditorDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/colorScaleEditorDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating ui_colorScaleEditorDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_colorScaleEditorDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/colorScaleEditorDlg.ui
 
 qCC/ui_commandLineDlg.h: ../qCC/ui_templates/commandLineDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating ui_commandLineDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_commandLineDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/commandLineDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating ui_commandLineDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_commandLineDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/commandLineDlg.ui
 
 qCC/ui_comparisonDlg.h: ../qCC/ui_templates/comparisonDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating ui_comparisonDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_comparisonDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/comparisonDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating ui_comparisonDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_comparisonDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/comparisonDlg.ui
 
 qCC/ui_computeOctreeDlg.h: ../qCC/ui_templates/computeOctreeDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating ui_computeOctreeDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_computeOctreeDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/computeOctreeDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating ui_computeOctreeDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_computeOctreeDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/computeOctreeDlg.ui
 
 qCC/ui_contourExtractorDlg.h: ../qCC/ui_templates/contourExtractorDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating ui_contourExtractorDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_contourExtractorDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/contourExtractorDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating ui_contourExtractorDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_contourExtractorDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/contourExtractorDlg.ui
 
 qCC/ui_curvatureDlg.h: ../qCC/ui_templates/curvatureDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating ui_curvatureDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_curvatureDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/curvatureDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating ui_curvatureDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_curvatureDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/curvatureDlg.ui
 
 qCC/ui_densityDlg.h: ../qCC/ui_templates/densityDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating ui_densityDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_densityDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/densityDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating ui_densityDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_densityDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/densityDlg.ui
 
 qCC/ui_dipDirTransformationDlg.h: ../qCC/ui_templates/dipDirTransformationDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating ui_dipDirTransformationDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_dipDirTransformationDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/dipDirTransformationDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating ui_dipDirTransformationDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_dipDirTransformationDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/dipDirTransformationDlg.ui
 
 qCC/ui_displayOptionsDlg.h: ../qCC/ui_templates/displayOptionsDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating ui_displayOptionsDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_displayOptionsDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/displayOptionsDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating ui_displayOptionsDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_displayOptionsDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/displayOptionsDlg.ui
 
 qCC/ui_distanceMapDlg.h: ../qCC/ui_templates/distanceMapDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating ui_distanceMapDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_distanceMapDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/distanceMapDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating ui_distanceMapDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_distanceMapDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/distanceMapDlg.ui
 
 qCC/ui_exportCoordToSFDlg.h: ../qCC/ui_templates/exportCoordToSFDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating ui_exportCoordToSFDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_exportCoordToSFDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/exportCoordToSFDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating ui_exportCoordToSFDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_exportCoordToSFDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/exportCoordToSFDlg.ui
 
 qCC/ui_filterByValueDlg.h: ../qCC/ui_templates/filterByValueDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating ui_filterByValueDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_filterByValueDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/filterByValueDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating ui_filterByValueDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_filterByValueDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/filterByValueDlg.ui
 
 qCC/ui_gblSensorProjectDlg.h: ../qCC/ui_templates/gblSensorProjectDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating ui_gblSensorProjectDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_gblSensorProjectDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/gblSensorProjectDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating ui_gblSensorProjectDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_gblSensorProjectDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/gblSensorProjectDlg.ui
 
 qCC/ui_globalShiftSettingsDlg.h: ../qCC/ui_templates/globalShiftSettingsDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating ui_globalShiftSettingsDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_globalShiftSettingsDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/globalShiftSettingsDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating ui_globalShiftSettingsDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_globalShiftSettingsDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/globalShiftSettingsDlg.ui
 
 qCC/ui_graphicalSegmentationDlg.h: ../qCC/ui_templates/graphicalSegmentationDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating ui_graphicalSegmentationDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_graphicalSegmentationDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/graphicalSegmentationDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating ui_graphicalSegmentationDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_graphicalSegmentationDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/graphicalSegmentationDlg.ui
 
 qCC/ui_graphicalTransformationDlg.h: ../qCC/ui_templates/graphicalTransformationDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating ui_graphicalTransformationDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_graphicalTransformationDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/graphicalTransformationDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating ui_graphicalTransformationDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_graphicalTransformationDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/graphicalTransformationDlg.ui
 
 qCC/ui_heightGridGenerationDlg.h: ../qCC/ui_templates/heightGridGenerationDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating ui_heightGridGenerationDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_heightGridGenerationDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/heightGridGenerationDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating ui_heightGridGenerationDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_heightGridGenerationDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/heightGridGenerationDlg.ui
 
 qCC/ui_histogramDlg.h: ../qCC/ui_templates/histogramDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Generating ui_histogramDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_histogramDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/histogramDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Generating ui_histogramDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_histogramDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/histogramDlg.ui
 
 qCC/ui_interpolationDlg.h: ../qCC/ui_templates/interpolationDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating ui_interpolationDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_interpolationDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/interpolationDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating ui_interpolationDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_interpolationDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/interpolationDlg.ui
 
 qCC/ui_itemSelectionDlg.h: ../qCC/ui_templates/itemSelectionDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating ui_itemSelectionDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_itemSelectionDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/itemSelectionDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating ui_itemSelectionDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_itemSelectionDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/itemSelectionDlg.ui
 
 qCC/ui_labelingDlg.h: ../qCC/ui_templates/labelingDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating ui_labelingDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_labelingDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/labelingDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating ui_labelingDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_labelingDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/labelingDlg.ui
 
 qCC/ui_mainWindow.h: ../qCC/ui_templates/mainWindow.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating ui_mainWindow.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_mainWindow.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/mainWindow.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating ui_mainWindow.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_mainWindow.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/mainWindow.ui
 
 qCC/ui_matchScalesDlg.h: ../qCC/ui_templates/matchScalesDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating ui_matchScalesDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_matchScalesDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/matchScalesDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating ui_matchScalesDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_matchScalesDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/matchScalesDlg.ui
 
 qCC/ui_matrixDisplayDlg.h: ../qCC/ui_templates/matrixDisplayDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Generating ui_matrixDisplayDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_matrixDisplayDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/matrixDisplayDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Generating ui_matrixDisplayDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_matrixDisplayDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/matrixDisplayDlg.ui
 
 qCC/ui_noiseFilterDlg.h: ../qCC/ui_templates/noiseFilterDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Generating ui_noiseFilterDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_noiseFilterDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/noiseFilterDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Generating ui_noiseFilterDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_noiseFilterDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/noiseFilterDlg.ui
 
 qCC/ui_normalComputationDlg.h: ../qCC/ui_templates/normalComputationDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Generating ui_normalComputationDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_normalComputationDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/normalComputationDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Generating ui_normalComputationDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_normalComputationDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/normalComputationDlg.ui
 
 qCC/ui_orthoSectionGenerationDlg.h: ../qCC/ui_templates/orthoSectionGenerationDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Generating ui_orthoSectionGenerationDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_orthoSectionGenerationDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/orthoSectionGenerationDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Generating ui_orthoSectionGenerationDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_orthoSectionGenerationDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/orthoSectionGenerationDlg.ui
 
 qCC/ui_pickOneElementDlg.h: ../qCC/ui_templates/pickOneElementDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Generating ui_pickOneElementDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_pickOneElementDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/pickOneElementDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Generating ui_pickOneElementDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_pickOneElementDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/pickOneElementDlg.ui
 
 qCC/ui_planeEditDlg.h: ../qCC/ui_templates/planeEditDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Generating ui_planeEditDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_planeEditDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/planeEditDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Generating ui_planeEditDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_planeEditDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/planeEditDlg.ui
 
 qCC/ui_pointListPickingDlg.h: ../qCC/ui_templates/pointListPickingDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Generating ui_pointListPickingDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_pointListPickingDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/pointListPickingDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Generating ui_pointListPickingDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_pointListPickingDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/pointListPickingDlg.ui
 
 qCC/ui_pointPairRegistrationDlg.h: ../qCC/ui_templates/pointPairRegistrationDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Generating ui_pointPairRegistrationDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_pointPairRegistrationDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/pointPairRegistrationDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Generating ui_pointPairRegistrationDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_pointPairRegistrationDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/pointPairRegistrationDlg.ui
 
 qCC/ui_pointPropertiesDlg.h: ../qCC/ui_templates/pointPropertiesDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Generating ui_pointPropertiesDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_pointPropertiesDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/pointPropertiesDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Generating ui_pointPropertiesDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_pointPropertiesDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/pointPropertiesDlg.ui
 
 qCC/ui_primitiveFactoryDlg.h: ../qCC/ui_templates/primitiveFactoryDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Generating ui_primitiveFactoryDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_primitiveFactoryDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/primitiveFactoryDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Generating ui_primitiveFactoryDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_primitiveFactoryDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/primitiveFactoryDlg.ui
 
 qCC/ui_ptsSamplingDlg.h: ../qCC/ui_templates/ptsSamplingDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Generating ui_ptsSamplingDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_ptsSamplingDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/ptsSamplingDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Generating ui_ptsSamplingDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_ptsSamplingDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/ptsSamplingDlg.ui
 
 qCC/ui_rasterExportOptionsDlg.h: ../qCC/ui_templates/rasterExportOptionsDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Generating ui_rasterExportOptionsDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_rasterExportOptionsDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/rasterExportOptionsDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Generating ui_rasterExportOptionsDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_rasterExportOptionsDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/rasterExportOptionsDlg.ui
 
 qCC/ui_rasterizeDlg.h: ../qCC/ui_templates/rasterizeDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Generating ui_rasterizeDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_rasterizeDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/rasterizeDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Generating ui_rasterizeDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_rasterizeDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/rasterizeDlg.ui
 
 qCC/ui_registrationDlg.h: ../qCC/ui_templates/registrationDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Generating ui_registrationDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_registrationDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/registrationDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Generating ui_registrationDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_registrationDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/registrationDlg.ui
 
 qCC/ui_renderToFileDialog.h: ../qCC/ui_templates/renderToFileDialog.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Generating ui_renderToFileDialog.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_renderToFileDialog.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/renderToFileDialog.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Generating ui_renderToFileDialog.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_renderToFileDialog.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/renderToFileDialog.ui
 
 qCC/ui_roleChoiceDlg.h: ../qCC/ui_templates/roleChoiceDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Generating ui_roleChoiceDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_roleChoiceDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/roleChoiceDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Generating ui_roleChoiceDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_roleChoiceDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/roleChoiceDlg.ui
 
 qCC/ui_scalarFieldFromColorDlg.h: ../qCC/ui_templates/scalarFieldFromColorDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Generating ui_scalarFieldFromColorDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_scalarFieldFromColorDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/scalarFieldFromColorDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Generating ui_scalarFieldFromColorDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_scalarFieldFromColorDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/scalarFieldFromColorDlg.ui
 
 qCC/ui_scaleDlg.h: ../qCC/ui_templates/scaleDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Generating ui_scaleDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_scaleDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/scaleDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Generating ui_scaleDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_scaleDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/scaleDlg.ui
 
 qCC/ui_sectionExtractionDlg.h: ../qCC/ui_templates/sectionExtractionDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Generating ui_sectionExtractionDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_sectionExtractionDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/sectionExtractionDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Generating ui_sectionExtractionDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_sectionExtractionDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/sectionExtractionDlg.ui
 
 qCC/ui_sectionExtractionSubDlg.h: ../qCC/ui_templates/sectionExtractionSubDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Generating ui_sectionExtractionSubDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_sectionExtractionSubDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/sectionExtractionSubDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Generating ui_sectionExtractionSubDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_sectionExtractionSubDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/sectionExtractionSubDlg.ui
 
 qCC/ui_selectChildrenDlg.h: ../qCC/ui_templates/selectChildrenDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Generating ui_selectChildrenDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_selectChildrenDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/selectChildrenDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Generating ui_selectChildrenDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_selectChildrenDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/selectChildrenDlg.ui
 
 qCC/ui_sensorComputeDistancesDlg.h: ../qCC/ui_templates/sensorComputeDistancesDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Generating ui_sensorComputeDistancesDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_sensorComputeDistancesDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/sensorComputeDistancesDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Generating ui_sensorComputeDistancesDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_sensorComputeDistancesDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/sensorComputeDistancesDlg.ui
 
 qCC/ui_sensorComputeScatteringAnglesDlg.h: ../qCC/ui_templates/sensorComputeScatteringAnglesDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Generating ui_sensorComputeScatteringAnglesDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_sensorComputeScatteringAnglesDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/sensorComputeScatteringAnglesDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Generating ui_sensorComputeScatteringAnglesDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_sensorComputeScatteringAnglesDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/sensorComputeScatteringAnglesDlg.ui
 
 qCC/ui_sfArithmeticsDlg.h: ../qCC/ui_templates/sfArithmeticsDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Generating ui_sfArithmeticsDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_sfArithmeticsDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/sfArithmeticsDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Generating ui_sfArithmeticsDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_sfArithmeticsDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/sfArithmeticsDlg.ui
 
 qCC/ui_sfEditDlg.h: ../qCC/ui_templates/sfEditDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Generating ui_sfEditDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_sfEditDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/sfEditDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Generating ui_sfEditDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_sfEditDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/sfEditDlg.ui
 
 qCC/ui_sorFilterDlg.h: ../qCC/ui_templates/sorFilterDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Generating ui_sorFilterDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_sorFilterDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/sorFilterDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Generating ui_sorFilterDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_sorFilterDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/sorFilterDlg.ui
 
 qCC/ui_statisticalTestDlg.h: ../qCC/ui_templates/statisticalTestDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Generating ui_statisticalTestDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_statisticalTestDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/statisticalTestDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Generating ui_statisticalTestDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_statisticalTestDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/statisticalTestDlg.ui
 
 qCC/ui_stereoModeDlg.h: ../qCC/ui_templates/stereoModeDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Generating ui_stereoModeDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_stereoModeDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/stereoModeDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Generating ui_stereoModeDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_stereoModeDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/stereoModeDlg.ui
 
 qCC/ui_subsamplingDlg.h: ../qCC/ui_templates/subsamplingDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Generating ui_subsamplingDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_subsamplingDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/subsamplingDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Generating ui_subsamplingDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_subsamplingDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/subsamplingDlg.ui
 
 qCC/ui_tracePolylineDlg.h: ../qCC/ui_templates/tracePolylineDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Generating ui_tracePolylineDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_tracePolylineDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/tracePolylineDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Generating ui_tracePolylineDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_tracePolylineDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/tracePolylineDlg.ui
 
 qCC/ui_unrollDlg.h: ../qCC/ui_templates/unrollDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Generating ui_unrollDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_unrollDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/unrollDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Generating ui_unrollDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_unrollDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/unrollDlg.ui
 
 qCC/ui_volumeCalcDlg.h: ../qCC/ui_templates/volumeCalcDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Generating ui_volumeCalcDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_volumeCalcDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/volumeCalcDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Generating ui_volumeCalcDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_volumeCalcDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/volumeCalcDlg.ui
 
 qCC/ui_waveDlg.h: ../qCC/ui_templates/waveDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Generating ui_waveDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_waveDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/waveDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Generating ui_waveDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_waveDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/waveDlg.ui
 
 qCC/ui_ccPluginInfoDlg.h: ../qCC/pluginManager/ui/ccPluginInfoDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Generating ui_ccPluginInfoDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/qCC/ui_ccPluginInfoDlg.h /home/debster/DELETETHiS/qCMAT/qCC/pluginManager/ui/ccPluginInfoDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Generating ui_ccPluginInfoDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/qCC/ui_ccPluginInfoDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/pluginManager/ui/ccPluginInfoDlg.ui
 
 qCC/qrc_icones.cpp: ../qCC/images/donate.png
 qCC/qrc_icones.cpp: ../qCC/images/ccPickCenterAuto.png
@@ -499,1185 +499,1185 @@ qCC/qrc_icones.cpp: ../qCC/images/icon/cc_icon_16.png
 qCC/qrc_icones.cpp: ../qCC/images/icon/cc_icon_32.png
 qCC/qrc_icones.cpp: ../qCC/images/icon/cc_icon_64.png
 qCC/qrc_icones.cpp: ../qCC/icones.qrc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Generating qrc_icones.cpp"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/rcc --name icones --output /home/debster/DELETETHiS/qCMAT/build/qCC/qrc_icones.cpp /home/debster/DELETETHiS/qCMAT/qCC/icones.qrc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Generating qrc_icones.cpp"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/rcc --name icones --output /home/chrome/work/CloudCompare/qCMAT/build/qCC/qrc_icones.cpp /home/chrome/work/CloudCompare/qCMAT/qCC/icones.qrc
 
 qCC/qrc_pluginManager.cpp: ../qCC/pluginManager/images/std_plugin.png
 qCC/qrc_pluginManager.cpp: ../qCC/pluginManager/images/io_plugin.png
 qCC/qrc_pluginManager.cpp: ../qCC/pluginManager/images/gl_plugin.png
 qCC/qrc_pluginManager.cpp: ../qCC/pluginManager/pluginManager.qrc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Generating qrc_pluginManager.cpp"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/rcc --name pluginManager --output /home/debster/DELETETHiS/qCMAT/build/qCC/qrc_pluginManager.cpp /home/debster/DELETETHiS/qCMAT/qCC/pluginManager/pluginManager.qrc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Generating qrc_pluginManager.cpp"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/rcc --name pluginManager --output /home/chrome/work/CloudCompare/qCMAT/build/qCC/qrc_pluginManager.cpp /home/chrome/work/CloudCompare/qCMAT/qCC/pluginManager/pluginManager.qrc
 
 qCC/CMakeFiles/CloudCompare.dir/cc2.5DimEditor.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/cc2.5DimEditor.cpp.o: ../qCC/cc2.5DimEditor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/cc2.5DimEditor.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/cc2.5DimEditor.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/cc2.5DimEditor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/cc2.5DimEditor.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/cc2.5DimEditor.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/cc2.5DimEditor.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/cc2.5DimEditor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/cc2.5DimEditor.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/cc2.5DimEditor.cpp > CMakeFiles/CloudCompare.dir/cc2.5DimEditor.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/cc2.5DimEditor.cpp > CMakeFiles/CloudCompare.dir/cc2.5DimEditor.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/cc2.5DimEditor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/cc2.5DimEditor.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/cc2.5DimEditor.cpp -o CMakeFiles/CloudCompare.dir/cc2.5DimEditor.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/cc2.5DimEditor.cpp -o CMakeFiles/CloudCompare.dir/cc2.5DimEditor.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccAboutDialog.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccAboutDialog.cpp.o: ../qCC/ccAboutDialog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccAboutDialog.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccAboutDialog.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccAboutDialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccAboutDialog.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccAboutDialog.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccAboutDialog.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccAboutDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccAboutDialog.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccAboutDialog.cpp > CMakeFiles/CloudCompare.dir/ccAboutDialog.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccAboutDialog.cpp > CMakeFiles/CloudCompare.dir/ccAboutDialog.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccAboutDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccAboutDialog.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccAboutDialog.cpp -o CMakeFiles/CloudCompare.dir/ccAboutDialog.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccAboutDialog.cpp -o CMakeFiles/CloudCompare.dir/ccAboutDialog.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccAdjustZoomDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccAdjustZoomDlg.cpp.o: ../qCC/ccAdjustZoomDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccAdjustZoomDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccAdjustZoomDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccAdjustZoomDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccAdjustZoomDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccAdjustZoomDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccAdjustZoomDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccAdjustZoomDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccAdjustZoomDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccAdjustZoomDlg.cpp > CMakeFiles/CloudCompare.dir/ccAdjustZoomDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccAdjustZoomDlg.cpp > CMakeFiles/CloudCompare.dir/ccAdjustZoomDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccAdjustZoomDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccAdjustZoomDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccAdjustZoomDlg.cpp -o CMakeFiles/CloudCompare.dir/ccAdjustZoomDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccAdjustZoomDlg.cpp -o CMakeFiles/CloudCompare.dir/ccAdjustZoomDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccAlignDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccAlignDlg.cpp.o: ../qCC/ccAlignDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccAlignDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccAlignDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccAlignDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccAlignDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccAlignDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccAlignDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccAlignDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccAlignDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccAlignDlg.cpp > CMakeFiles/CloudCompare.dir/ccAlignDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccAlignDlg.cpp > CMakeFiles/CloudCompare.dir/ccAlignDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccAlignDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccAlignDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccAlignDlg.cpp -o CMakeFiles/CloudCompare.dir/ccAlignDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccAlignDlg.cpp -o CMakeFiles/CloudCompare.dir/ccAlignDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccApplication.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccApplication.cpp.o: ../qCC/ccApplication.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccApplication.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccApplication.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccApplication.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccApplication.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccApplication.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccApplication.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccApplication.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccApplication.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccApplication.cpp > CMakeFiles/CloudCompare.dir/ccApplication.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccApplication.cpp > CMakeFiles/CloudCompare.dir/ccApplication.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccApplication.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccApplication.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccApplication.cpp -o CMakeFiles/CloudCompare.dir/ccApplication.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccApplication.cpp -o CMakeFiles/CloudCompare.dir/ccApplication.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccApplyTransformationDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccApplyTransformationDlg.cpp.o: ../qCC/ccApplyTransformationDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccApplyTransformationDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccApplyTransformationDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccApplyTransformationDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccApplyTransformationDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccApplyTransformationDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccApplyTransformationDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccApplyTransformationDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccApplyTransformationDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccApplyTransformationDlg.cpp > CMakeFiles/CloudCompare.dir/ccApplyTransformationDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccApplyTransformationDlg.cpp > CMakeFiles/CloudCompare.dir/ccApplyTransformationDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccApplyTransformationDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccApplyTransformationDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccApplyTransformationDlg.cpp -o CMakeFiles/CloudCompare.dir/ccApplyTransformationDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccApplyTransformationDlg.cpp -o CMakeFiles/CloudCompare.dir/ccApplyTransformationDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccAskThreeDoubleValuesDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccAskThreeDoubleValuesDlg.cpp.o: ../qCC/ccAskThreeDoubleValuesDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccAskThreeDoubleValuesDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccAskThreeDoubleValuesDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccAskThreeDoubleValuesDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccAskThreeDoubleValuesDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccAskThreeDoubleValuesDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccAskThreeDoubleValuesDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccAskThreeDoubleValuesDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccAskThreeDoubleValuesDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccAskThreeDoubleValuesDlg.cpp > CMakeFiles/CloudCompare.dir/ccAskThreeDoubleValuesDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccAskThreeDoubleValuesDlg.cpp > CMakeFiles/CloudCompare.dir/ccAskThreeDoubleValuesDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccAskThreeDoubleValuesDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccAskThreeDoubleValuesDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccAskThreeDoubleValuesDlg.cpp -o CMakeFiles/CloudCompare.dir/ccAskThreeDoubleValuesDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccAskThreeDoubleValuesDlg.cpp -o CMakeFiles/CloudCompare.dir/ccAskThreeDoubleValuesDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccAskTwoDoubleValuesDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccAskTwoDoubleValuesDlg.cpp.o: ../qCC/ccAskTwoDoubleValuesDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccAskTwoDoubleValuesDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccAskTwoDoubleValuesDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccAskTwoDoubleValuesDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccAskTwoDoubleValuesDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccAskTwoDoubleValuesDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccAskTwoDoubleValuesDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccAskTwoDoubleValuesDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccAskTwoDoubleValuesDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccAskTwoDoubleValuesDlg.cpp > CMakeFiles/CloudCompare.dir/ccAskTwoDoubleValuesDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccAskTwoDoubleValuesDlg.cpp > CMakeFiles/CloudCompare.dir/ccAskTwoDoubleValuesDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccAskTwoDoubleValuesDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccAskTwoDoubleValuesDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccAskTwoDoubleValuesDlg.cpp -o CMakeFiles/CloudCompare.dir/ccAskTwoDoubleValuesDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccAskTwoDoubleValuesDlg.cpp -o CMakeFiles/CloudCompare.dir/ccAskTwoDoubleValuesDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccBoundingBoxEditorDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccBoundingBoxEditorDlg.cpp.o: ../qCC/ccBoundingBoxEditorDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccBoundingBoxEditorDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccBoundingBoxEditorDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccBoundingBoxEditorDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccBoundingBoxEditorDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccBoundingBoxEditorDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccBoundingBoxEditorDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccBoundingBoxEditorDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccBoundingBoxEditorDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccBoundingBoxEditorDlg.cpp > CMakeFiles/CloudCompare.dir/ccBoundingBoxEditorDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccBoundingBoxEditorDlg.cpp > CMakeFiles/CloudCompare.dir/ccBoundingBoxEditorDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccBoundingBoxEditorDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccBoundingBoxEditorDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccBoundingBoxEditorDlg.cpp -o CMakeFiles/CloudCompare.dir/ccBoundingBoxEditorDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccBoundingBoxEditorDlg.cpp -o CMakeFiles/CloudCompare.dir/ccBoundingBoxEditorDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccCamSensorProjectionDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccCamSensorProjectionDlg.cpp.o: ../qCC/ccCamSensorProjectionDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccCamSensorProjectionDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccCamSensorProjectionDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccCamSensorProjectionDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccCamSensorProjectionDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccCamSensorProjectionDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccCamSensorProjectionDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccCamSensorProjectionDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccCamSensorProjectionDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccCamSensorProjectionDlg.cpp > CMakeFiles/CloudCompare.dir/ccCamSensorProjectionDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccCamSensorProjectionDlg.cpp > CMakeFiles/CloudCompare.dir/ccCamSensorProjectionDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccCamSensorProjectionDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccCamSensorProjectionDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccCamSensorProjectionDlg.cpp -o CMakeFiles/CloudCompare.dir/ccCamSensorProjectionDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccCamSensorProjectionDlg.cpp -o CMakeFiles/CloudCompare.dir/ccCamSensorProjectionDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccCameraParamEditDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccCameraParamEditDlg.cpp.o: ../qCC/ccCameraParamEditDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccCameraParamEditDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccCameraParamEditDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccCameraParamEditDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccCameraParamEditDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccCameraParamEditDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccCameraParamEditDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccCameraParamEditDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccCameraParamEditDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccCameraParamEditDlg.cpp > CMakeFiles/CloudCompare.dir/ccCameraParamEditDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccCameraParamEditDlg.cpp > CMakeFiles/CloudCompare.dir/ccCameraParamEditDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccCameraParamEditDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccCameraParamEditDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccCameraParamEditDlg.cpp -o CMakeFiles/CloudCompare.dir/ccCameraParamEditDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccCameraParamEditDlg.cpp -o CMakeFiles/CloudCompare.dir/ccCameraParamEditDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccClippingBoxRepeatDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccClippingBoxRepeatDlg.cpp.o: ../qCC/ccClippingBoxRepeatDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccClippingBoxRepeatDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccClippingBoxRepeatDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccClippingBoxRepeatDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccClippingBoxRepeatDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccClippingBoxRepeatDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccClippingBoxRepeatDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccClippingBoxRepeatDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccClippingBoxRepeatDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccClippingBoxRepeatDlg.cpp > CMakeFiles/CloudCompare.dir/ccClippingBoxRepeatDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccClippingBoxRepeatDlg.cpp > CMakeFiles/CloudCompare.dir/ccClippingBoxRepeatDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccClippingBoxRepeatDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccClippingBoxRepeatDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccClippingBoxRepeatDlg.cpp -o CMakeFiles/CloudCompare.dir/ccClippingBoxRepeatDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccClippingBoxRepeatDlg.cpp -o CMakeFiles/CloudCompare.dir/ccClippingBoxRepeatDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccClippingBoxTool.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccClippingBoxTool.cpp.o: ../qCC/ccClippingBoxTool.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccClippingBoxTool.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccClippingBoxTool.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccClippingBoxTool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccClippingBoxTool.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccClippingBoxTool.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccClippingBoxTool.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccClippingBoxTool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccClippingBoxTool.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccClippingBoxTool.cpp > CMakeFiles/CloudCompare.dir/ccClippingBoxTool.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccClippingBoxTool.cpp > CMakeFiles/CloudCompare.dir/ccClippingBoxTool.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccClippingBoxTool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccClippingBoxTool.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccClippingBoxTool.cpp -o CMakeFiles/CloudCompare.dir/ccClippingBoxTool.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccClippingBoxTool.cpp -o CMakeFiles/CloudCompare.dir/ccClippingBoxTool.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccColorGradientDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccColorGradientDlg.cpp.o: ../qCC/ccColorGradientDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccColorGradientDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccColorGradientDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccColorGradientDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccColorGradientDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccColorGradientDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccColorGradientDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccColorGradientDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccColorGradientDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccColorGradientDlg.cpp > CMakeFiles/CloudCompare.dir/ccColorGradientDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccColorGradientDlg.cpp > CMakeFiles/CloudCompare.dir/ccColorGradientDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccColorGradientDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccColorGradientDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccColorGradientDlg.cpp -o CMakeFiles/CloudCompare.dir/ccColorGradientDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccColorGradientDlg.cpp -o CMakeFiles/CloudCompare.dir/ccColorGradientDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccColorLevelsDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccColorLevelsDlg.cpp.o: ../qCC/ccColorLevelsDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccColorLevelsDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccColorLevelsDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccColorLevelsDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccColorLevelsDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccColorLevelsDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccColorLevelsDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccColorLevelsDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccColorLevelsDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccColorLevelsDlg.cpp > CMakeFiles/CloudCompare.dir/ccColorLevelsDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccColorLevelsDlg.cpp > CMakeFiles/CloudCompare.dir/ccColorLevelsDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccColorLevelsDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccColorLevelsDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccColorLevelsDlg.cpp -o CMakeFiles/CloudCompare.dir/ccColorLevelsDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccColorLevelsDlg.cpp -o CMakeFiles/CloudCompare.dir/ccColorLevelsDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccColorScaleEditorDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccColorScaleEditorDlg.cpp.o: ../qCC/ccColorScaleEditorDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccColorScaleEditorDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccColorScaleEditorDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccColorScaleEditorDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccColorScaleEditorDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccColorScaleEditorDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccColorScaleEditorDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccColorScaleEditorDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccColorScaleEditorDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccColorScaleEditorDlg.cpp > CMakeFiles/CloudCompare.dir/ccColorScaleEditorDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccColorScaleEditorDlg.cpp > CMakeFiles/CloudCompare.dir/ccColorScaleEditorDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccColorScaleEditorDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccColorScaleEditorDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccColorScaleEditorDlg.cpp -o CMakeFiles/CloudCompare.dir/ccColorScaleEditorDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccColorScaleEditorDlg.cpp -o CMakeFiles/CloudCompare.dir/ccColorScaleEditorDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccColorScaleEditorWidget.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccColorScaleEditorWidget.cpp.o: ../qCC/ccColorScaleEditorWidget.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccColorScaleEditorWidget.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccColorScaleEditorWidget.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccColorScaleEditorWidget.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccColorScaleEditorWidget.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccColorScaleEditorWidget.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccColorScaleEditorWidget.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccColorScaleEditorWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccColorScaleEditorWidget.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccColorScaleEditorWidget.cpp > CMakeFiles/CloudCompare.dir/ccColorScaleEditorWidget.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccColorScaleEditorWidget.cpp > CMakeFiles/CloudCompare.dir/ccColorScaleEditorWidget.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccColorScaleEditorWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccColorScaleEditorWidget.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccColorScaleEditorWidget.cpp -o CMakeFiles/CloudCompare.dir/ccColorScaleEditorWidget.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccColorScaleEditorWidget.cpp -o CMakeFiles/CloudCompare.dir/ccColorScaleEditorWidget.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccColorScaleSelector.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccColorScaleSelector.cpp.o: ../qCC/ccColorScaleSelector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccColorScaleSelector.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccColorScaleSelector.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccColorScaleSelector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccColorScaleSelector.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccColorScaleSelector.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccColorScaleSelector.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccColorScaleSelector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccColorScaleSelector.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccColorScaleSelector.cpp > CMakeFiles/CloudCompare.dir/ccColorScaleSelector.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccColorScaleSelector.cpp > CMakeFiles/CloudCompare.dir/ccColorScaleSelector.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccColorScaleSelector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccColorScaleSelector.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccColorScaleSelector.cpp -o CMakeFiles/CloudCompare.dir/ccColorScaleSelector.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccColorScaleSelector.cpp -o CMakeFiles/CloudCompare.dir/ccColorScaleSelector.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccCommandLineParser.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccCommandLineParser.cpp.o: ../qCC/ccCommandLineParser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccCommandLineParser.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccCommandLineParser.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccCommandLineParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccCommandLineParser.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccCommandLineParser.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccCommandLineParser.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccCommandLineParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccCommandLineParser.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccCommandLineParser.cpp > CMakeFiles/CloudCompare.dir/ccCommandLineParser.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccCommandLineParser.cpp > CMakeFiles/CloudCompare.dir/ccCommandLineParser.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccCommandLineParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccCommandLineParser.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccCommandLineParser.cpp -o CMakeFiles/CloudCompare.dir/ccCommandLineParser.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccCommandLineParser.cpp -o CMakeFiles/CloudCompare.dir/ccCommandLineParser.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccComparisonDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccComparisonDlg.cpp.o: ../qCC/ccComparisonDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccComparisonDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccComparisonDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccComparisonDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccComparisonDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccComparisonDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccComparisonDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccComparisonDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccComparisonDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccComparisonDlg.cpp > CMakeFiles/CloudCompare.dir/ccComparisonDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccComparisonDlg.cpp > CMakeFiles/CloudCompare.dir/ccComparisonDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccComparisonDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccComparisonDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccComparisonDlg.cpp -o CMakeFiles/CloudCompare.dir/ccComparisonDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccComparisonDlg.cpp -o CMakeFiles/CloudCompare.dir/ccComparisonDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccComputeOctreeDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccComputeOctreeDlg.cpp.o: ../qCC/ccComputeOctreeDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccComputeOctreeDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccComputeOctreeDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccComputeOctreeDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccComputeOctreeDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccComputeOctreeDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccComputeOctreeDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccComputeOctreeDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccComputeOctreeDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccComputeOctreeDlg.cpp > CMakeFiles/CloudCompare.dir/ccComputeOctreeDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccComputeOctreeDlg.cpp > CMakeFiles/CloudCompare.dir/ccComputeOctreeDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccComputeOctreeDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccComputeOctreeDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccComputeOctreeDlg.cpp -o CMakeFiles/CloudCompare.dir/ccComputeOctreeDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccComputeOctreeDlg.cpp -o CMakeFiles/CloudCompare.dir/ccComputeOctreeDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccConsole.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccConsole.cpp.o: ../qCC/ccConsole.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccConsole.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccConsole.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccConsole.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccConsole.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccConsole.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccConsole.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccConsole.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccConsole.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccConsole.cpp > CMakeFiles/CloudCompare.dir/ccConsole.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccConsole.cpp > CMakeFiles/CloudCompare.dir/ccConsole.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccConsole.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccConsole.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccConsole.cpp -o CMakeFiles/CloudCompare.dir/ccConsole.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccConsole.cpp -o CMakeFiles/CloudCompare.dir/ccConsole.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccContourExtractor.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccContourExtractor.cpp.o: ../qCC/ccContourExtractor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccContourExtractor.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccContourExtractor.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccContourExtractor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccContourExtractor.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccContourExtractor.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccContourExtractor.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccContourExtractor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccContourExtractor.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccContourExtractor.cpp > CMakeFiles/CloudCompare.dir/ccContourExtractor.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccContourExtractor.cpp > CMakeFiles/CloudCompare.dir/ccContourExtractor.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccContourExtractor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccContourExtractor.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccContourExtractor.cpp -o CMakeFiles/CloudCompare.dir/ccContourExtractor.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccContourExtractor.cpp -o CMakeFiles/CloudCompare.dir/ccContourExtractor.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccContourExtractorDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccContourExtractorDlg.cpp.o: ../qCC/ccContourExtractorDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccContourExtractorDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccContourExtractorDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccContourExtractorDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccContourExtractorDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccContourExtractorDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccContourExtractorDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccContourExtractorDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccContourExtractorDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccContourExtractorDlg.cpp > CMakeFiles/CloudCompare.dir/ccContourExtractorDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccContourExtractorDlg.cpp > CMakeFiles/CloudCompare.dir/ccContourExtractorDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccContourExtractorDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccContourExtractorDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccContourExtractorDlg.cpp -o CMakeFiles/CloudCompare.dir/ccContourExtractorDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccContourExtractorDlg.cpp -o CMakeFiles/CloudCompare.dir/ccContourExtractorDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccCropTool.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccCropTool.cpp.o: ../qCC/ccCropTool.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccCropTool.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccCropTool.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccCropTool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccCropTool.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccCropTool.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccCropTool.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccCropTool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccCropTool.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccCropTool.cpp > CMakeFiles/CloudCompare.dir/ccCropTool.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccCropTool.cpp > CMakeFiles/CloudCompare.dir/ccCropTool.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccCropTool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccCropTool.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccCropTool.cpp -o CMakeFiles/CloudCompare.dir/ccCropTool.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccCropTool.cpp -o CMakeFiles/CloudCompare.dir/ccCropTool.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccCurvatureDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccCurvatureDlg.cpp.o: ../qCC/ccCurvatureDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccCurvatureDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccCurvatureDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccCurvatureDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccCurvatureDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccCurvatureDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccCurvatureDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccCurvatureDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccCurvatureDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccCurvatureDlg.cpp > CMakeFiles/CloudCompare.dir/ccCurvatureDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccCurvatureDlg.cpp > CMakeFiles/CloudCompare.dir/ccCurvatureDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccCurvatureDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccCurvatureDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccCurvatureDlg.cpp -o CMakeFiles/CloudCompare.dir/ccCurvatureDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccCurvatureDlg.cpp -o CMakeFiles/CloudCompare.dir/ccCurvatureDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccDensityDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccDensityDlg.cpp.o: ../qCC/ccDensityDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccDensityDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccDensityDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccDensityDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccDensityDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccDensityDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccDensityDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccDensityDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccDensityDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccDensityDlg.cpp > CMakeFiles/CloudCompare.dir/ccDensityDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccDensityDlg.cpp > CMakeFiles/CloudCompare.dir/ccDensityDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccDensityDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccDensityDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccDensityDlg.cpp -o CMakeFiles/CloudCompare.dir/ccDensityDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccDensityDlg.cpp -o CMakeFiles/CloudCompare.dir/ccDensityDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccDisplayOptionsDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccDisplayOptionsDlg.cpp.o: ../qCC/ccDisplayOptionsDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccDisplayOptionsDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccDisplayOptionsDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccDisplayOptionsDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccDisplayOptionsDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccDisplayOptionsDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccDisplayOptionsDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccDisplayOptionsDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccDisplayOptionsDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccDisplayOptionsDlg.cpp > CMakeFiles/CloudCompare.dir/ccDisplayOptionsDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccDisplayOptionsDlg.cpp > CMakeFiles/CloudCompare.dir/ccDisplayOptionsDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccDisplayOptionsDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccDisplayOptionsDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccDisplayOptionsDlg.cpp -o CMakeFiles/CloudCompare.dir/ccDisplayOptionsDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccDisplayOptionsDlg.cpp -o CMakeFiles/CloudCompare.dir/ccDisplayOptionsDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccEntityAction.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccEntityAction.cpp.o: ../qCC/ccEntityAction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccEntityAction.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccEntityAction.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccEntityAction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccEntityAction.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccEntityAction.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccEntityAction.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccEntityAction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccEntityAction.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccEntityAction.cpp > CMakeFiles/CloudCompare.dir/ccEntityAction.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccEntityAction.cpp > CMakeFiles/CloudCompare.dir/ccEntityAction.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccEntityAction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccEntityAction.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccEntityAction.cpp -o CMakeFiles/CloudCompare.dir/ccEntityAction.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccEntityAction.cpp -o CMakeFiles/CloudCompare.dir/ccEntityAction.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccExportCoordToSFDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccExportCoordToSFDlg.cpp.o: ../qCC/ccExportCoordToSFDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccExportCoordToSFDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccExportCoordToSFDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccExportCoordToSFDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccExportCoordToSFDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccExportCoordToSFDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccExportCoordToSFDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccExportCoordToSFDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccExportCoordToSFDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccExportCoordToSFDlg.cpp > CMakeFiles/CloudCompare.dir/ccExportCoordToSFDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccExportCoordToSFDlg.cpp > CMakeFiles/CloudCompare.dir/ccExportCoordToSFDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccExportCoordToSFDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccExportCoordToSFDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccExportCoordToSFDlg.cpp -o CMakeFiles/CloudCompare.dir/ccExportCoordToSFDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccExportCoordToSFDlg.cpp -o CMakeFiles/CloudCompare.dir/ccExportCoordToSFDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccFilterByValueDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccFilterByValueDlg.cpp.o: ../qCC/ccFilterByValueDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccFilterByValueDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccFilterByValueDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccFilterByValueDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccFilterByValueDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccFilterByValueDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccFilterByValueDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccFilterByValueDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccFilterByValueDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccFilterByValueDlg.cpp > CMakeFiles/CloudCompare.dir/ccFilterByValueDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccFilterByValueDlg.cpp > CMakeFiles/CloudCompare.dir/ccFilterByValueDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccFilterByValueDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccFilterByValueDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccFilterByValueDlg.cpp -o CMakeFiles/CloudCompare.dir/ccFilterByValueDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccFilterByValueDlg.cpp -o CMakeFiles/CloudCompare.dir/ccFilterByValueDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccGBLSensorProjectionDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccGBLSensorProjectionDlg.cpp.o: ../qCC/ccGBLSensorProjectionDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccGBLSensorProjectionDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccGBLSensorProjectionDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccGBLSensorProjectionDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccGBLSensorProjectionDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccGBLSensorProjectionDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccGBLSensorProjectionDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccGBLSensorProjectionDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccGBLSensorProjectionDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccGBLSensorProjectionDlg.cpp > CMakeFiles/CloudCompare.dir/ccGBLSensorProjectionDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccGBLSensorProjectionDlg.cpp > CMakeFiles/CloudCompare.dir/ccGBLSensorProjectionDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccGBLSensorProjectionDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccGBLSensorProjectionDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccGBLSensorProjectionDlg.cpp -o CMakeFiles/CloudCompare.dir/ccGBLSensorProjectionDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccGBLSensorProjectionDlg.cpp -o CMakeFiles/CloudCompare.dir/ccGBLSensorProjectionDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccGraphicalSegmentationTool.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccGraphicalSegmentationTool.cpp.o: ../qCC/ccGraphicalSegmentationTool.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccGraphicalSegmentationTool.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccGraphicalSegmentationTool.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccGraphicalSegmentationTool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccGraphicalSegmentationTool.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccGraphicalSegmentationTool.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccGraphicalSegmentationTool.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccGraphicalSegmentationTool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccGraphicalSegmentationTool.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccGraphicalSegmentationTool.cpp > CMakeFiles/CloudCompare.dir/ccGraphicalSegmentationTool.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccGraphicalSegmentationTool.cpp > CMakeFiles/CloudCompare.dir/ccGraphicalSegmentationTool.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccGraphicalSegmentationTool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccGraphicalSegmentationTool.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccGraphicalSegmentationTool.cpp -o CMakeFiles/CloudCompare.dir/ccGraphicalSegmentationTool.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccGraphicalSegmentationTool.cpp -o CMakeFiles/CloudCompare.dir/ccGraphicalSegmentationTool.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccGraphicalTransformationTool.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccGraphicalTransformationTool.cpp.o: ../qCC/ccGraphicalTransformationTool.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccGraphicalTransformationTool.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccGraphicalTransformationTool.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccGraphicalTransformationTool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccGraphicalTransformationTool.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccGraphicalTransformationTool.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccGraphicalTransformationTool.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccGraphicalTransformationTool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccGraphicalTransformationTool.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccGraphicalTransformationTool.cpp > CMakeFiles/CloudCompare.dir/ccGraphicalTransformationTool.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccGraphicalTransformationTool.cpp > CMakeFiles/CloudCompare.dir/ccGraphicalTransformationTool.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccGraphicalTransformationTool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccGraphicalTransformationTool.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccGraphicalTransformationTool.cpp -o CMakeFiles/CloudCompare.dir/ccGraphicalTransformationTool.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccGraphicalTransformationTool.cpp -o CMakeFiles/CloudCompare.dir/ccGraphicalTransformationTool.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccHistogramWindow.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccHistogramWindow.cpp.o: ../qCC/ccHistogramWindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccHistogramWindow.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccHistogramWindow.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccHistogramWindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccHistogramWindow.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccHistogramWindow.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccHistogramWindow.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccHistogramWindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccHistogramWindow.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccHistogramWindow.cpp > CMakeFiles/CloudCompare.dir/ccHistogramWindow.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccHistogramWindow.cpp > CMakeFiles/CloudCompare.dir/ccHistogramWindow.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccHistogramWindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccHistogramWindow.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccHistogramWindow.cpp -o CMakeFiles/CloudCompare.dir/ccHistogramWindow.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccHistogramWindow.cpp -o CMakeFiles/CloudCompare.dir/ccHistogramWindow.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccInnerRect2DFinder.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccInnerRect2DFinder.cpp.o: ../qCC/ccInnerRect2DFinder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccInnerRect2DFinder.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccInnerRect2DFinder.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccInnerRect2DFinder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccInnerRect2DFinder.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccInnerRect2DFinder.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccInnerRect2DFinder.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccInnerRect2DFinder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccInnerRect2DFinder.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccInnerRect2DFinder.cpp > CMakeFiles/CloudCompare.dir/ccInnerRect2DFinder.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccInnerRect2DFinder.cpp > CMakeFiles/CloudCompare.dir/ccInnerRect2DFinder.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccInnerRect2DFinder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccInnerRect2DFinder.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccInnerRect2DFinder.cpp -o CMakeFiles/CloudCompare.dir/ccInnerRect2DFinder.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccInnerRect2DFinder.cpp -o CMakeFiles/CloudCompare.dir/ccInnerRect2DFinder.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccInterpolationDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccInterpolationDlg.cpp.o: ../qCC/ccInterpolationDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccInterpolationDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccInterpolationDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccInterpolationDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccInterpolationDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccInterpolationDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccInterpolationDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccInterpolationDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccInterpolationDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccInterpolationDlg.cpp > CMakeFiles/CloudCompare.dir/ccInterpolationDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccInterpolationDlg.cpp > CMakeFiles/CloudCompare.dir/ccInterpolationDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccInterpolationDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccInterpolationDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccInterpolationDlg.cpp -o CMakeFiles/CloudCompare.dir/ccInterpolationDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccInterpolationDlg.cpp -o CMakeFiles/CloudCompare.dir/ccInterpolationDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccItemSelectionDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccItemSelectionDlg.cpp.o: ../qCC/ccItemSelectionDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccItemSelectionDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccItemSelectionDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccItemSelectionDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccItemSelectionDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccItemSelectionDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccItemSelectionDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccItemSelectionDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccItemSelectionDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccItemSelectionDlg.cpp > CMakeFiles/CloudCompare.dir/ccItemSelectionDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccItemSelectionDlg.cpp > CMakeFiles/CloudCompare.dir/ccItemSelectionDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccItemSelectionDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccItemSelectionDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccItemSelectionDlg.cpp -o CMakeFiles/CloudCompare.dir/ccItemSelectionDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccItemSelectionDlg.cpp -o CMakeFiles/CloudCompare.dir/ccItemSelectionDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccLabelingDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccLabelingDlg.cpp.o: ../qCC/ccLabelingDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccLabelingDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccLabelingDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccLabelingDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccLabelingDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccLabelingDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccLabelingDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccLabelingDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccLabelingDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccLabelingDlg.cpp > CMakeFiles/CloudCompare.dir/ccLabelingDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccLabelingDlg.cpp > CMakeFiles/CloudCompare.dir/ccLabelingDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccLabelingDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccLabelingDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccLabelingDlg.cpp -o CMakeFiles/CloudCompare.dir/ccLabelingDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccLabelingDlg.cpp -o CMakeFiles/CloudCompare.dir/ccLabelingDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccLibAlgorithms.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccLibAlgorithms.cpp.o: ../qCC/ccLibAlgorithms.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccLibAlgorithms.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccLibAlgorithms.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccLibAlgorithms.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccLibAlgorithms.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccLibAlgorithms.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccLibAlgorithms.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccLibAlgorithms.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccLibAlgorithms.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccLibAlgorithms.cpp > CMakeFiles/CloudCompare.dir/ccLibAlgorithms.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccLibAlgorithms.cpp > CMakeFiles/CloudCompare.dir/ccLibAlgorithms.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccLibAlgorithms.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccLibAlgorithms.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccLibAlgorithms.cpp -o CMakeFiles/CloudCompare.dir/ccLibAlgorithms.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccLibAlgorithms.cpp -o CMakeFiles/CloudCompare.dir/ccLibAlgorithms.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccMatchScalesDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccMatchScalesDlg.cpp.o: ../qCC/ccMatchScalesDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccMatchScalesDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccMatchScalesDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccMatchScalesDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccMatchScalesDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccMatchScalesDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccMatchScalesDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccMatchScalesDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccMatchScalesDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccMatchScalesDlg.cpp > CMakeFiles/CloudCompare.dir/ccMatchScalesDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccMatchScalesDlg.cpp > CMakeFiles/CloudCompare.dir/ccMatchScalesDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccMatchScalesDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccMatchScalesDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccMatchScalesDlg.cpp -o CMakeFiles/CloudCompare.dir/ccMatchScalesDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccMatchScalesDlg.cpp -o CMakeFiles/CloudCompare.dir/ccMatchScalesDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccNoiseFilterDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccNoiseFilterDlg.cpp.o: ../qCC/ccNoiseFilterDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccNoiseFilterDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccNoiseFilterDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccNoiseFilterDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccNoiseFilterDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccNoiseFilterDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccNoiseFilterDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccNoiseFilterDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccNoiseFilterDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccNoiseFilterDlg.cpp > CMakeFiles/CloudCompare.dir/ccNoiseFilterDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccNoiseFilterDlg.cpp > CMakeFiles/CloudCompare.dir/ccNoiseFilterDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccNoiseFilterDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccNoiseFilterDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccNoiseFilterDlg.cpp -o CMakeFiles/CloudCompare.dir/ccNoiseFilterDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccNoiseFilterDlg.cpp -o CMakeFiles/CloudCompare.dir/ccNoiseFilterDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccNormalComputationDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccNormalComputationDlg.cpp.o: ../qCC/ccNormalComputationDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccNormalComputationDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccNormalComputationDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccNormalComputationDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccNormalComputationDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccNormalComputationDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccNormalComputationDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccNormalComputationDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccNormalComputationDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccNormalComputationDlg.cpp > CMakeFiles/CloudCompare.dir/ccNormalComputationDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccNormalComputationDlg.cpp > CMakeFiles/CloudCompare.dir/ccNormalComputationDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccNormalComputationDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccNormalComputationDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccNormalComputationDlg.cpp -o CMakeFiles/CloudCompare.dir/ccNormalComputationDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccNormalComputationDlg.cpp -o CMakeFiles/CloudCompare.dir/ccNormalComputationDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccOptions.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccOptions.cpp.o: ../qCC/ccOptions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccOptions.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccOptions.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccOptions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccOptions.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccOptions.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccOptions.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccOptions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccOptions.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccOptions.cpp > CMakeFiles/CloudCompare.dir/ccOptions.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccOptions.cpp > CMakeFiles/CloudCompare.dir/ccOptions.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccOptions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccOptions.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccOptions.cpp -o CMakeFiles/CloudCompare.dir/ccOptions.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccOptions.cpp -o CMakeFiles/CloudCompare.dir/ccOptions.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccOrderChoiceDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccOrderChoiceDlg.cpp.o: ../qCC/ccOrderChoiceDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccOrderChoiceDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccOrderChoiceDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccOrderChoiceDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccOrderChoiceDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccOrderChoiceDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccOrderChoiceDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccOrderChoiceDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccOrderChoiceDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccOrderChoiceDlg.cpp > CMakeFiles/CloudCompare.dir/ccOrderChoiceDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccOrderChoiceDlg.cpp > CMakeFiles/CloudCompare.dir/ccOrderChoiceDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccOrderChoiceDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccOrderChoiceDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccOrderChoiceDlg.cpp -o CMakeFiles/CloudCompare.dir/ccOrderChoiceDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccOrderChoiceDlg.cpp -o CMakeFiles/CloudCompare.dir/ccOrderChoiceDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccOrthoSectionGenerationDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccOrthoSectionGenerationDlg.cpp.o: ../qCC/ccOrthoSectionGenerationDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccOrthoSectionGenerationDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccOrthoSectionGenerationDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccOrthoSectionGenerationDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccOrthoSectionGenerationDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccOrthoSectionGenerationDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccOrthoSectionGenerationDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccOrthoSectionGenerationDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccOrthoSectionGenerationDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccOrthoSectionGenerationDlg.cpp > CMakeFiles/CloudCompare.dir/ccOrthoSectionGenerationDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccOrthoSectionGenerationDlg.cpp > CMakeFiles/CloudCompare.dir/ccOrthoSectionGenerationDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccOrthoSectionGenerationDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccOrthoSectionGenerationDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccOrthoSectionGenerationDlg.cpp -o CMakeFiles/CloudCompare.dir/ccOrthoSectionGenerationDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccOrthoSectionGenerationDlg.cpp -o CMakeFiles/CloudCompare.dir/ccOrthoSectionGenerationDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccOverlayDialog.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccOverlayDialog.cpp.o: ../qCC/ccOverlayDialog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccOverlayDialog.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccOverlayDialog.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccOverlayDialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccOverlayDialog.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccOverlayDialog.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccOverlayDialog.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccOverlayDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccOverlayDialog.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccOverlayDialog.cpp > CMakeFiles/CloudCompare.dir/ccOverlayDialog.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccOverlayDialog.cpp > CMakeFiles/CloudCompare.dir/ccOverlayDialog.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccOverlayDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccOverlayDialog.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccOverlayDialog.cpp -o CMakeFiles/CloudCompare.dir/ccOverlayDialog.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccOverlayDialog.cpp -o CMakeFiles/CloudCompare.dir/ccOverlayDialog.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccPickOneElementDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccPickOneElementDlg.cpp.o: ../qCC/ccPickOneElementDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccPickOneElementDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccPickOneElementDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccPickOneElementDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccPickOneElementDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccPickOneElementDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccPickOneElementDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccPickOneElementDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccPickOneElementDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccPickOneElementDlg.cpp > CMakeFiles/CloudCompare.dir/ccPickOneElementDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccPickOneElementDlg.cpp > CMakeFiles/CloudCompare.dir/ccPickOneElementDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccPickOneElementDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccPickOneElementDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccPickOneElementDlg.cpp -o CMakeFiles/CloudCompare.dir/ccPickOneElementDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccPickOneElementDlg.cpp -o CMakeFiles/CloudCompare.dir/ccPickOneElementDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccPickingHub.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccPickingHub.cpp.o: ../qCC/ccPickingHub.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccPickingHub.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccPickingHub.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccPickingHub.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccPickingHub.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccPickingHub.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccPickingHub.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccPickingHub.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccPickingHub.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccPickingHub.cpp > CMakeFiles/CloudCompare.dir/ccPickingHub.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccPickingHub.cpp > CMakeFiles/CloudCompare.dir/ccPickingHub.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccPickingHub.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccPickingHub.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccPickingHub.cpp -o CMakeFiles/CloudCompare.dir/ccPickingHub.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccPickingHub.cpp -o CMakeFiles/CloudCompare.dir/ccPickingHub.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccPlaneEditDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccPlaneEditDlg.cpp.o: ../qCC/ccPlaneEditDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccPlaneEditDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccPlaneEditDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccPlaneEditDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccPlaneEditDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccPlaneEditDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccPlaneEditDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccPlaneEditDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccPlaneEditDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccPlaneEditDlg.cpp > CMakeFiles/CloudCompare.dir/ccPlaneEditDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccPlaneEditDlg.cpp > CMakeFiles/CloudCompare.dir/ccPlaneEditDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccPlaneEditDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccPlaneEditDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccPlaneEditDlg.cpp -o CMakeFiles/CloudCompare.dir/ccPlaneEditDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccPlaneEditDlg.cpp -o CMakeFiles/CloudCompare.dir/ccPlaneEditDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccPointListPickingDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccPointListPickingDlg.cpp.o: ../qCC/ccPointListPickingDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccPointListPickingDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccPointListPickingDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccPointListPickingDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccPointListPickingDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccPointListPickingDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccPointListPickingDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccPointListPickingDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccPointListPickingDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccPointListPickingDlg.cpp > CMakeFiles/CloudCompare.dir/ccPointListPickingDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccPointListPickingDlg.cpp > CMakeFiles/CloudCompare.dir/ccPointListPickingDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccPointListPickingDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccPointListPickingDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccPointListPickingDlg.cpp -o CMakeFiles/CloudCompare.dir/ccPointListPickingDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccPointListPickingDlg.cpp -o CMakeFiles/CloudCompare.dir/ccPointListPickingDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccPointPairRegistrationDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccPointPairRegistrationDlg.cpp.o: ../qCC/ccPointPairRegistrationDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccPointPairRegistrationDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccPointPairRegistrationDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccPointPairRegistrationDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccPointPairRegistrationDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccPointPairRegistrationDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccPointPairRegistrationDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccPointPairRegistrationDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccPointPairRegistrationDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccPointPairRegistrationDlg.cpp > CMakeFiles/CloudCompare.dir/ccPointPairRegistrationDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccPointPairRegistrationDlg.cpp > CMakeFiles/CloudCompare.dir/ccPointPairRegistrationDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccPointPairRegistrationDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccPointPairRegistrationDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccPointPairRegistrationDlg.cpp -o CMakeFiles/CloudCompare.dir/ccPointPairRegistrationDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccPointPairRegistrationDlg.cpp -o CMakeFiles/CloudCompare.dir/ccPointPairRegistrationDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccPointPickingGenericInterface.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccPointPickingGenericInterface.cpp.o: ../qCC/ccPointPickingGenericInterface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccPointPickingGenericInterface.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccPointPickingGenericInterface.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccPointPickingGenericInterface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccPointPickingGenericInterface.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccPointPickingGenericInterface.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccPointPickingGenericInterface.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccPointPickingGenericInterface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccPointPickingGenericInterface.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccPointPickingGenericInterface.cpp > CMakeFiles/CloudCompare.dir/ccPointPickingGenericInterface.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccPointPickingGenericInterface.cpp > CMakeFiles/CloudCompare.dir/ccPointPickingGenericInterface.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccPointPickingGenericInterface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccPointPickingGenericInterface.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccPointPickingGenericInterface.cpp -o CMakeFiles/CloudCompare.dir/ccPointPickingGenericInterface.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccPointPickingGenericInterface.cpp -o CMakeFiles/CloudCompare.dir/ccPointPickingGenericInterface.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccPointPropertiesDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccPointPropertiesDlg.cpp.o: ../qCC/ccPointPropertiesDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccPointPropertiesDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccPointPropertiesDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccPointPropertiesDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccPointPropertiesDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccPointPropertiesDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccPointPropertiesDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccPointPropertiesDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccPointPropertiesDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccPointPropertiesDlg.cpp > CMakeFiles/CloudCompare.dir/ccPointPropertiesDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccPointPropertiesDlg.cpp > CMakeFiles/CloudCompare.dir/ccPointPropertiesDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccPointPropertiesDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccPointPropertiesDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccPointPropertiesDlg.cpp -o CMakeFiles/CloudCompare.dir/ccPointPropertiesDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccPointPropertiesDlg.cpp -o CMakeFiles/CloudCompare.dir/ccPointPropertiesDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccPrimitiveFactoryDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccPrimitiveFactoryDlg.cpp.o: ../qCC/ccPrimitiveFactoryDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccPrimitiveFactoryDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccPrimitiveFactoryDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccPrimitiveFactoryDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccPrimitiveFactoryDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccPrimitiveFactoryDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccPrimitiveFactoryDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccPrimitiveFactoryDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccPrimitiveFactoryDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccPrimitiveFactoryDlg.cpp > CMakeFiles/CloudCompare.dir/ccPrimitiveFactoryDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccPrimitiveFactoryDlg.cpp > CMakeFiles/CloudCompare.dir/ccPrimitiveFactoryDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccPrimitiveFactoryDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccPrimitiveFactoryDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccPrimitiveFactoryDlg.cpp -o CMakeFiles/CloudCompare.dir/ccPrimitiveFactoryDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccPrimitiveFactoryDlg.cpp -o CMakeFiles/CloudCompare.dir/ccPrimitiveFactoryDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccPtsSamplingDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccPtsSamplingDlg.cpp.o: ../qCC/ccPtsSamplingDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccPtsSamplingDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccPtsSamplingDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccPtsSamplingDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccPtsSamplingDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccPtsSamplingDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccPtsSamplingDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccPtsSamplingDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccPtsSamplingDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccPtsSamplingDlg.cpp > CMakeFiles/CloudCompare.dir/ccPtsSamplingDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccPtsSamplingDlg.cpp > CMakeFiles/CloudCompare.dir/ccPtsSamplingDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccPtsSamplingDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccPtsSamplingDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccPtsSamplingDlg.cpp -o CMakeFiles/CloudCompare.dir/ccPtsSamplingDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccPtsSamplingDlg.cpp -o CMakeFiles/CloudCompare.dir/ccPtsSamplingDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccRasterizeTool.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccRasterizeTool.cpp.o: ../qCC/ccRasterizeTool.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccRasterizeTool.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccRasterizeTool.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccRasterizeTool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccRasterizeTool.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccRasterizeTool.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccRasterizeTool.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccRasterizeTool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccRasterizeTool.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccRasterizeTool.cpp > CMakeFiles/CloudCompare.dir/ccRasterizeTool.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccRasterizeTool.cpp > CMakeFiles/CloudCompare.dir/ccRasterizeTool.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccRasterizeTool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccRasterizeTool.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccRasterizeTool.cpp -o CMakeFiles/CloudCompare.dir/ccRasterizeTool.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccRasterizeTool.cpp -o CMakeFiles/CloudCompare.dir/ccRasterizeTool.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccRecentFiles.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccRecentFiles.cpp.o: ../qCC/ccRecentFiles.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccRecentFiles.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccRecentFiles.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccRecentFiles.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccRecentFiles.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccRecentFiles.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccRecentFiles.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccRecentFiles.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccRecentFiles.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccRecentFiles.cpp > CMakeFiles/CloudCompare.dir/ccRecentFiles.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccRecentFiles.cpp > CMakeFiles/CloudCompare.dir/ccRecentFiles.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccRecentFiles.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccRecentFiles.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccRecentFiles.cpp -o CMakeFiles/CloudCompare.dir/ccRecentFiles.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccRecentFiles.cpp -o CMakeFiles/CloudCompare.dir/ccRecentFiles.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccRegistrationDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccRegistrationDlg.cpp.o: ../qCC/ccRegistrationDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccRegistrationDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccRegistrationDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccRegistrationDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccRegistrationDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccRegistrationDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccRegistrationDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccRegistrationDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccRegistrationDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccRegistrationDlg.cpp > CMakeFiles/CloudCompare.dir/ccRegistrationDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccRegistrationDlg.cpp > CMakeFiles/CloudCompare.dir/ccRegistrationDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccRegistrationDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccRegistrationDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccRegistrationDlg.cpp -o CMakeFiles/CloudCompare.dir/ccRegistrationDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccRegistrationDlg.cpp -o CMakeFiles/CloudCompare.dir/ccRegistrationDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccRegistrationTools.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccRegistrationTools.cpp.o: ../qCC/ccRegistrationTools.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccRegistrationTools.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccRegistrationTools.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccRegistrationTools.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccRegistrationTools.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccRegistrationTools.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccRegistrationTools.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccRegistrationTools.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccRegistrationTools.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccRegistrationTools.cpp > CMakeFiles/CloudCompare.dir/ccRegistrationTools.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccRegistrationTools.cpp > CMakeFiles/CloudCompare.dir/ccRegistrationTools.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccRegistrationTools.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccRegistrationTools.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccRegistrationTools.cpp -o CMakeFiles/CloudCompare.dir/ccRegistrationTools.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccRegistrationTools.cpp -o CMakeFiles/CloudCompare.dir/ccRegistrationTools.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccRenderToFileDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccRenderToFileDlg.cpp.o: ../qCC/ccRenderToFileDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccRenderToFileDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccRenderToFileDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccRenderToFileDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccRenderToFileDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccRenderToFileDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccRenderToFileDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccRenderToFileDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccRenderToFileDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccRenderToFileDlg.cpp > CMakeFiles/CloudCompare.dir/ccRenderToFileDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccRenderToFileDlg.cpp > CMakeFiles/CloudCompare.dir/ccRenderToFileDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccRenderToFileDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccRenderToFileDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccRenderToFileDlg.cpp -o CMakeFiles/CloudCompare.dir/ccRenderToFileDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccRenderToFileDlg.cpp -o CMakeFiles/CloudCompare.dir/ccRenderToFileDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccSORFilterDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccSORFilterDlg.cpp.o: ../qCC/ccSORFilterDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccSORFilterDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccSORFilterDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccSORFilterDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccSORFilterDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccSORFilterDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccSORFilterDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccSORFilterDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccSORFilterDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccSORFilterDlg.cpp > CMakeFiles/CloudCompare.dir/ccSORFilterDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccSORFilterDlg.cpp > CMakeFiles/CloudCompare.dir/ccSORFilterDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccSORFilterDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccSORFilterDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccSORFilterDlg.cpp -o CMakeFiles/CloudCompare.dir/ccSORFilterDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccSORFilterDlg.cpp -o CMakeFiles/CloudCompare.dir/ccSORFilterDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccScalarFieldArithmeticsDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccScalarFieldArithmeticsDlg.cpp.o: ../qCC/ccScalarFieldArithmeticsDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccScalarFieldArithmeticsDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccScalarFieldArithmeticsDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccScalarFieldArithmeticsDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccScalarFieldArithmeticsDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccScalarFieldArithmeticsDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccScalarFieldArithmeticsDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccScalarFieldArithmeticsDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccScalarFieldArithmeticsDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccScalarFieldArithmeticsDlg.cpp > CMakeFiles/CloudCompare.dir/ccScalarFieldArithmeticsDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccScalarFieldArithmeticsDlg.cpp > CMakeFiles/CloudCompare.dir/ccScalarFieldArithmeticsDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccScalarFieldArithmeticsDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccScalarFieldArithmeticsDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccScalarFieldArithmeticsDlg.cpp -o CMakeFiles/CloudCompare.dir/ccScalarFieldArithmeticsDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccScalarFieldArithmeticsDlg.cpp -o CMakeFiles/CloudCompare.dir/ccScalarFieldArithmeticsDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccScalarFieldFromColorDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccScalarFieldFromColorDlg.cpp.o: ../qCC/ccScalarFieldFromColorDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccScalarFieldFromColorDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccScalarFieldFromColorDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccScalarFieldFromColorDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccScalarFieldFromColorDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccScalarFieldFromColorDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccScalarFieldFromColorDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccScalarFieldFromColorDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccScalarFieldFromColorDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccScalarFieldFromColorDlg.cpp > CMakeFiles/CloudCompare.dir/ccScalarFieldFromColorDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccScalarFieldFromColorDlg.cpp > CMakeFiles/CloudCompare.dir/ccScalarFieldFromColorDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccScalarFieldFromColorDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccScalarFieldFromColorDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccScalarFieldFromColorDlg.cpp -o CMakeFiles/CloudCompare.dir/ccScalarFieldFromColorDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccScalarFieldFromColorDlg.cpp -o CMakeFiles/CloudCompare.dir/ccScalarFieldFromColorDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccScaleDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccScaleDlg.cpp.o: ../qCC/ccScaleDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccScaleDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccScaleDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccScaleDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccScaleDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccScaleDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccScaleDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccScaleDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccScaleDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccScaleDlg.cpp > CMakeFiles/CloudCompare.dir/ccScaleDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccScaleDlg.cpp > CMakeFiles/CloudCompare.dir/ccScaleDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccScaleDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccScaleDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccScaleDlg.cpp -o CMakeFiles/CloudCompare.dir/ccScaleDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccScaleDlg.cpp -o CMakeFiles/CloudCompare.dir/ccScaleDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccSectionExtractionSubDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccSectionExtractionSubDlg.cpp.o: ../qCC/ccSectionExtractionSubDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccSectionExtractionSubDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccSectionExtractionSubDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccSectionExtractionSubDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccSectionExtractionSubDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccSectionExtractionSubDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccSectionExtractionSubDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccSectionExtractionSubDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccSectionExtractionSubDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccSectionExtractionSubDlg.cpp > CMakeFiles/CloudCompare.dir/ccSectionExtractionSubDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccSectionExtractionSubDlg.cpp > CMakeFiles/CloudCompare.dir/ccSectionExtractionSubDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccSectionExtractionSubDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccSectionExtractionSubDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccSectionExtractionSubDlg.cpp -o CMakeFiles/CloudCompare.dir/ccSectionExtractionSubDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccSectionExtractionSubDlg.cpp -o CMakeFiles/CloudCompare.dir/ccSectionExtractionSubDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccSectionExtractionTool.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccSectionExtractionTool.cpp.o: ../qCC/ccSectionExtractionTool.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccSectionExtractionTool.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccSectionExtractionTool.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccSectionExtractionTool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccSectionExtractionTool.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccSectionExtractionTool.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccSectionExtractionTool.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccSectionExtractionTool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccSectionExtractionTool.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccSectionExtractionTool.cpp > CMakeFiles/CloudCompare.dir/ccSectionExtractionTool.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccSectionExtractionTool.cpp > CMakeFiles/CloudCompare.dir/ccSectionExtractionTool.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccSectionExtractionTool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccSectionExtractionTool.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccSectionExtractionTool.cpp -o CMakeFiles/CloudCompare.dir/ccSectionExtractionTool.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccSectionExtractionTool.cpp -o CMakeFiles/CloudCompare.dir/ccSectionExtractionTool.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccSelectChildrenDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccSelectChildrenDlg.cpp.o: ../qCC/ccSelectChildrenDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccSelectChildrenDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccSelectChildrenDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccSelectChildrenDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccSelectChildrenDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccSelectChildrenDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccSelectChildrenDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccSelectChildrenDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccSelectChildrenDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccSelectChildrenDlg.cpp > CMakeFiles/CloudCompare.dir/ccSelectChildrenDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccSelectChildrenDlg.cpp > CMakeFiles/CloudCompare.dir/ccSelectChildrenDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccSelectChildrenDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccSelectChildrenDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccSelectChildrenDlg.cpp -o CMakeFiles/CloudCompare.dir/ccSelectChildrenDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccSelectChildrenDlg.cpp -o CMakeFiles/CloudCompare.dir/ccSelectChildrenDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccSensorComputeDistancesDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccSensorComputeDistancesDlg.cpp.o: ../qCC/ccSensorComputeDistancesDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccSensorComputeDistancesDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccSensorComputeDistancesDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccSensorComputeDistancesDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccSensorComputeDistancesDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccSensorComputeDistancesDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccSensorComputeDistancesDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccSensorComputeDistancesDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccSensorComputeDistancesDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccSensorComputeDistancesDlg.cpp > CMakeFiles/CloudCompare.dir/ccSensorComputeDistancesDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccSensorComputeDistancesDlg.cpp > CMakeFiles/CloudCompare.dir/ccSensorComputeDistancesDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccSensorComputeDistancesDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccSensorComputeDistancesDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccSensorComputeDistancesDlg.cpp -o CMakeFiles/CloudCompare.dir/ccSensorComputeDistancesDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccSensorComputeDistancesDlg.cpp -o CMakeFiles/CloudCompare.dir/ccSensorComputeDistancesDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccSensorComputeScatteringAnglesDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccSensorComputeScatteringAnglesDlg.cpp.o: ../qCC/ccSensorComputeScatteringAnglesDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccSensorComputeScatteringAnglesDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccSensorComputeScatteringAnglesDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccSensorComputeScatteringAnglesDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccSensorComputeScatteringAnglesDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccSensorComputeScatteringAnglesDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccSensorComputeScatteringAnglesDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccSensorComputeScatteringAnglesDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccSensorComputeScatteringAnglesDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccSensorComputeScatteringAnglesDlg.cpp > CMakeFiles/CloudCompare.dir/ccSensorComputeScatteringAnglesDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccSensorComputeScatteringAnglesDlg.cpp > CMakeFiles/CloudCompare.dir/ccSensorComputeScatteringAnglesDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccSensorComputeScatteringAnglesDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccSensorComputeScatteringAnglesDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccSensorComputeScatteringAnglesDlg.cpp -o CMakeFiles/CloudCompare.dir/ccSensorComputeScatteringAnglesDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccSensorComputeScatteringAnglesDlg.cpp -o CMakeFiles/CloudCompare.dir/ccSensorComputeScatteringAnglesDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccStatisticalTestDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccStatisticalTestDlg.cpp.o: ../qCC/ccStatisticalTestDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccStatisticalTestDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccStatisticalTestDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccStatisticalTestDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccStatisticalTestDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccStatisticalTestDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccStatisticalTestDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccStatisticalTestDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccStatisticalTestDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccStatisticalTestDlg.cpp > CMakeFiles/CloudCompare.dir/ccStatisticalTestDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccStatisticalTestDlg.cpp > CMakeFiles/CloudCompare.dir/ccStatisticalTestDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccStatisticalTestDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccStatisticalTestDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccStatisticalTestDlg.cpp -o CMakeFiles/CloudCompare.dir/ccStatisticalTestDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccStatisticalTestDlg.cpp -o CMakeFiles/CloudCompare.dir/ccStatisticalTestDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccStereoModeDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccStereoModeDlg.cpp.o: ../qCC/ccStereoModeDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccStereoModeDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccStereoModeDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccStereoModeDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccStereoModeDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccStereoModeDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccStereoModeDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccStereoModeDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccStereoModeDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccStereoModeDlg.cpp > CMakeFiles/CloudCompare.dir/ccStereoModeDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccStereoModeDlg.cpp > CMakeFiles/CloudCompare.dir/ccStereoModeDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccStereoModeDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccStereoModeDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccStereoModeDlg.cpp -o CMakeFiles/CloudCompare.dir/ccStereoModeDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccStereoModeDlg.cpp -o CMakeFiles/CloudCompare.dir/ccStereoModeDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccSubsamplingDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccSubsamplingDlg.cpp.o: ../qCC/ccSubsamplingDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccSubsamplingDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccSubsamplingDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccSubsamplingDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccSubsamplingDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccSubsamplingDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccSubsamplingDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccSubsamplingDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccSubsamplingDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccSubsamplingDlg.cpp > CMakeFiles/CloudCompare.dir/ccSubsamplingDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccSubsamplingDlg.cpp > CMakeFiles/CloudCompare.dir/ccSubsamplingDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccSubsamplingDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccSubsamplingDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccSubsamplingDlg.cpp -o CMakeFiles/CloudCompare.dir/ccSubsamplingDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccSubsamplingDlg.cpp -o CMakeFiles/CloudCompare.dir/ccSubsamplingDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccTracePolylineTool.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccTracePolylineTool.cpp.o: ../qCC/ccTracePolylineTool.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccTracePolylineTool.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccTracePolylineTool.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccTracePolylineTool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccTracePolylineTool.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccTracePolylineTool.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccTracePolylineTool.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccTracePolylineTool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccTracePolylineTool.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccTracePolylineTool.cpp > CMakeFiles/CloudCompare.dir/ccTracePolylineTool.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccTracePolylineTool.cpp > CMakeFiles/CloudCompare.dir/ccTracePolylineTool.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccTracePolylineTool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccTracePolylineTool.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccTracePolylineTool.cpp -o CMakeFiles/CloudCompare.dir/ccTracePolylineTool.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccTracePolylineTool.cpp -o CMakeFiles/CloudCompare.dir/ccTracePolylineTool.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccUnrollDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccUnrollDlg.cpp.o: ../qCC/ccUnrollDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccUnrollDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccUnrollDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccUnrollDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccUnrollDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccUnrollDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccUnrollDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccUnrollDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccUnrollDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccUnrollDlg.cpp > CMakeFiles/CloudCompare.dir/ccUnrollDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccUnrollDlg.cpp > CMakeFiles/CloudCompare.dir/ccUnrollDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccUnrollDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccUnrollDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccUnrollDlg.cpp -o CMakeFiles/CloudCompare.dir/ccUnrollDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccUnrollDlg.cpp -o CMakeFiles/CloudCompare.dir/ccUnrollDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccUtils.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccUtils.cpp.o: ../qCC/ccUtils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccUtils.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccUtils.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccUtils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccUtils.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccUtils.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccUtils.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccUtils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccUtils.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccUtils.cpp > CMakeFiles/CloudCompare.dir/ccUtils.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccUtils.cpp > CMakeFiles/CloudCompare.dir/ccUtils.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccUtils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccUtils.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccUtils.cpp -o CMakeFiles/CloudCompare.dir/ccUtils.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccUtils.cpp -o CMakeFiles/CloudCompare.dir/ccUtils.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccVolumeCalcTool.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccVolumeCalcTool.cpp.o: ../qCC/ccVolumeCalcTool.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccVolumeCalcTool.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccVolumeCalcTool.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccVolumeCalcTool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccVolumeCalcTool.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccVolumeCalcTool.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccVolumeCalcTool.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccVolumeCalcTool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccVolumeCalcTool.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccVolumeCalcTool.cpp > CMakeFiles/CloudCompare.dir/ccVolumeCalcTool.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccVolumeCalcTool.cpp > CMakeFiles/CloudCompare.dir/ccVolumeCalcTool.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccVolumeCalcTool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccVolumeCalcTool.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccVolumeCalcTool.cpp -o CMakeFiles/CloudCompare.dir/ccVolumeCalcTool.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccVolumeCalcTool.cpp -o CMakeFiles/CloudCompare.dir/ccVolumeCalcTool.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/ccWaveformDialog.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/ccWaveformDialog.cpp.o: ../qCC/ccWaveformDialog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccWaveformDialog.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccWaveformDialog.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccWaveformDialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/ccWaveformDialog.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/ccWaveformDialog.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccWaveformDialog.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/ccWaveformDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/ccWaveformDialog.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccWaveformDialog.cpp > CMakeFiles/CloudCompare.dir/ccWaveformDialog.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccWaveformDialog.cpp > CMakeFiles/CloudCompare.dir/ccWaveformDialog.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/ccWaveformDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/ccWaveformDialog.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccWaveformDialog.cpp -o CMakeFiles/CloudCompare.dir/ccWaveformDialog.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccWaveformDialog.cpp -o CMakeFiles/CloudCompare.dir/ccWaveformDialog.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/main.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/main.cpp.o: ../qCC/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/main.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/main.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/main.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/main.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/main.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/main.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/main.cpp > CMakeFiles/CloudCompare.dir/main.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/main.cpp > CMakeFiles/CloudCompare.dir/main.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/main.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/main.cpp -o CMakeFiles/CloudCompare.dir/main.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/main.cpp -o CMakeFiles/CloudCompare.dir/main.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/mainwindow.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/mainwindow.cpp.o: ../qCC/mainwindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/mainwindow.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/mainwindow.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/mainwindow.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/mainwindow.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/mainwindow.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/mainwindow.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/mainwindow.cpp > CMakeFiles/CloudCompare.dir/mainwindow.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/mainwindow.cpp > CMakeFiles/CloudCompare.dir/mainwindow.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/mainwindow.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/mainwindow.cpp -o CMakeFiles/CloudCompare.dir/mainwindow.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/mainwindow.cpp -o CMakeFiles/CloudCompare.dir/mainwindow.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/db_tree/ccDBRoot.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/db_tree/ccDBRoot.cpp.o: ../qCC/db_tree/ccDBRoot.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/db_tree/ccDBRoot.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/db_tree/ccDBRoot.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/db_tree/ccDBRoot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/db_tree/ccDBRoot.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/db_tree/ccDBRoot.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/db_tree/ccDBRoot.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/db_tree/ccDBRoot.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/db_tree/ccDBRoot.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/db_tree/ccDBRoot.cpp > CMakeFiles/CloudCompare.dir/db_tree/ccDBRoot.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/db_tree/ccDBRoot.cpp > CMakeFiles/CloudCompare.dir/db_tree/ccDBRoot.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/db_tree/ccDBRoot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/db_tree/ccDBRoot.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/db_tree/ccDBRoot.cpp -o CMakeFiles/CloudCompare.dir/db_tree/ccDBRoot.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/db_tree/ccDBRoot.cpp -o CMakeFiles/CloudCompare.dir/db_tree/ccDBRoot.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/db_tree/ccPropertiesTreeDelegate.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/db_tree/ccPropertiesTreeDelegate.cpp.o: ../qCC/db_tree/ccPropertiesTreeDelegate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/db_tree/ccPropertiesTreeDelegate.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/db_tree/ccPropertiesTreeDelegate.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/db_tree/ccPropertiesTreeDelegate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/db_tree/ccPropertiesTreeDelegate.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/db_tree/ccPropertiesTreeDelegate.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/db_tree/ccPropertiesTreeDelegate.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/db_tree/ccPropertiesTreeDelegate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/db_tree/ccPropertiesTreeDelegate.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/db_tree/ccPropertiesTreeDelegate.cpp > CMakeFiles/CloudCompare.dir/db_tree/ccPropertiesTreeDelegate.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/db_tree/ccPropertiesTreeDelegate.cpp > CMakeFiles/CloudCompare.dir/db_tree/ccPropertiesTreeDelegate.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/db_tree/ccPropertiesTreeDelegate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/db_tree/ccPropertiesTreeDelegate.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/db_tree/ccPropertiesTreeDelegate.cpp -o CMakeFiles/CloudCompare.dir/db_tree/ccPropertiesTreeDelegate.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/db_tree/ccPropertiesTreeDelegate.cpp -o CMakeFiles/CloudCompare.dir/db_tree/ccPropertiesTreeDelegate.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/db_tree/matrixDisplayDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/db_tree/matrixDisplayDlg.cpp.o: ../qCC/db_tree/matrixDisplayDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/db_tree/matrixDisplayDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/db_tree/matrixDisplayDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/db_tree/matrixDisplayDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/db_tree/matrixDisplayDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/db_tree/matrixDisplayDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/db_tree/matrixDisplayDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/db_tree/matrixDisplayDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/db_tree/matrixDisplayDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/db_tree/matrixDisplayDlg.cpp > CMakeFiles/CloudCompare.dir/db_tree/matrixDisplayDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/db_tree/matrixDisplayDlg.cpp > CMakeFiles/CloudCompare.dir/db_tree/matrixDisplayDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/db_tree/matrixDisplayDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/db_tree/matrixDisplayDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/db_tree/matrixDisplayDlg.cpp -o CMakeFiles/CloudCompare.dir/db_tree/matrixDisplayDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/db_tree/matrixDisplayDlg.cpp -o CMakeFiles/CloudCompare.dir/db_tree/matrixDisplayDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/db_tree/sfEditDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/db_tree/sfEditDlg.cpp.o: ../qCC/db_tree/sfEditDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/db_tree/sfEditDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/db_tree/sfEditDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/db_tree/sfEditDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/db_tree/sfEditDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/db_tree/sfEditDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/db_tree/sfEditDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/db_tree/sfEditDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/db_tree/sfEditDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/db_tree/sfEditDlg.cpp > CMakeFiles/CloudCompare.dir/db_tree/sfEditDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/db_tree/sfEditDlg.cpp > CMakeFiles/CloudCompare.dir/db_tree/sfEditDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/db_tree/sfEditDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/db_tree/sfEditDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/db_tree/sfEditDlg.cpp -o CMakeFiles/CloudCompare.dir/db_tree/sfEditDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/db_tree/sfEditDlg.cpp -o CMakeFiles/CloudCompare.dir/db_tree/sfEditDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/pluginManager/ccPluginInfoDlg.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/pluginManager/ccPluginInfoDlg.cpp.o: ../qCC/pluginManager/ccPluginInfoDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/pluginManager/ccPluginInfoDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/pluginManager/ccPluginInfoDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/pluginManager/ccPluginInfoDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/pluginManager/ccPluginInfoDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/pluginManager/ccPluginInfoDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/pluginManager/ccPluginInfoDlg.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/pluginManager/ccPluginInfoDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/pluginManager/ccPluginInfoDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/pluginManager/ccPluginInfoDlg.cpp > CMakeFiles/CloudCompare.dir/pluginManager/ccPluginInfoDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/pluginManager/ccPluginInfoDlg.cpp > CMakeFiles/CloudCompare.dir/pluginManager/ccPluginInfoDlg.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/pluginManager/ccPluginInfoDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/pluginManager/ccPluginInfoDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/pluginManager/ccPluginInfoDlg.cpp -o CMakeFiles/CloudCompare.dir/pluginManager/ccPluginInfoDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/pluginManager/ccPluginInfoDlg.cpp -o CMakeFiles/CloudCompare.dir/pluginManager/ccPluginInfoDlg.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/pluginManager/ccPluginManager.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/pluginManager/ccPluginManager.cpp.o: ../qCC/pluginManager/ccPluginManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/pluginManager/ccPluginManager.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/pluginManager/ccPluginManager.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/pluginManager/ccPluginManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/pluginManager/ccPluginManager.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/pluginManager/ccPluginManager.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/pluginManager/ccPluginManager.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/pluginManager/ccPluginManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/pluginManager/ccPluginManager.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/pluginManager/ccPluginManager.cpp > CMakeFiles/CloudCompare.dir/pluginManager/ccPluginManager.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/pluginManager/ccPluginManager.cpp > CMakeFiles/CloudCompare.dir/pluginManager/ccPluginManager.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/pluginManager/ccPluginManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/pluginManager/ccPluginManager.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/pluginManager/ccPluginManager.cpp -o CMakeFiles/CloudCompare.dir/pluginManager/ccPluginManager.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/pluginManager/ccPluginManager.cpp -o CMakeFiles/CloudCompare.dir/pluginManager/ccPluginManager.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/pluginManager/ccPluginUIManager.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/pluginManager/ccPluginUIManager.cpp.o: ../qCC/pluginManager/ccPluginUIManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/pluginManager/ccPluginUIManager.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/pluginManager/ccPluginUIManager.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/pluginManager/ccPluginUIManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/pluginManager/ccPluginUIManager.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/pluginManager/ccPluginUIManager.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/pluginManager/ccPluginUIManager.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/pluginManager/ccPluginUIManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/pluginManager/ccPluginUIManager.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/pluginManager/ccPluginUIManager.cpp > CMakeFiles/CloudCompare.dir/pluginManager/ccPluginUIManager.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/pluginManager/ccPluginUIManager.cpp > CMakeFiles/CloudCompare.dir/pluginManager/ccPluginUIManager.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/pluginManager/ccPluginUIManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/pluginManager/ccPluginUIManager.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/pluginManager/ccPluginUIManager.cpp -o CMakeFiles/CloudCompare.dir/pluginManager/ccPluginUIManager.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/pluginManager/ccPluginUIManager.cpp -o CMakeFiles/CloudCompare.dir/pluginManager/ccPluginUIManager.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/qrc_icones.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/qrc_icones.cpp.o: qCC/qrc_icones.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/qrc_icones.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/qrc_icones.cpp.o -c /home/debster/DELETETHiS/qCMAT/build/qCC/qrc_icones.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/qrc_icones.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/qrc_icones.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/build/qCC/qrc_icones.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/qrc_icones.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/qrc_icones.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/build/qCC/qrc_icones.cpp > CMakeFiles/CloudCompare.dir/qrc_icones.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/build/qCC/qrc_icones.cpp > CMakeFiles/CloudCompare.dir/qrc_icones.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/qrc_icones.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/qrc_icones.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/build/qCC/qrc_icones.cpp -o CMakeFiles/CloudCompare.dir/qrc_icones.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/build/qCC/qrc_icones.cpp -o CMakeFiles/CloudCompare.dir/qrc_icones.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/qrc_pluginManager.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/qrc_pluginManager.cpp.o: qCC/qrc_pluginManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/qrc_pluginManager.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/qrc_pluginManager.cpp.o -c /home/debster/DELETETHiS/qCMAT/build/qCC/qrc_pluginManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/qrc_pluginManager.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/qrc_pluginManager.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/build/qCC/qrc_pluginManager.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/qrc_pluginManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/qrc_pluginManager.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/build/qCC/qrc_pluginManager.cpp > CMakeFiles/CloudCompare.dir/qrc_pluginManager.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/build/qCC/qrc_pluginManager.cpp > CMakeFiles/CloudCompare.dir/qrc_pluginManager.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/qrc_pluginManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/qrc_pluginManager.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/build/qCC/qrc_pluginManager.cpp -o CMakeFiles/CloudCompare.dir/qrc_pluginManager.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/build/qCC/qrc_pluginManager.cpp -o CMakeFiles/CloudCompare.dir/qrc_pluginManager.cpp.s
 
 qCC/CMakeFiles/CloudCompare.dir/CloudCompare_autogen/mocs_compilation.cpp.o: qCC/CMakeFiles/CloudCompare.dir/flags.make
 qCC/CMakeFiles/CloudCompare.dir/CloudCompare_autogen/mocs_compilation.cpp.o: qCC/CloudCompare_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/CloudCompare_autogen/mocs_compilation.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/CloudCompare_autogen/mocs_compilation.cpp.o -c /home/debster/DELETETHiS/qCMAT/build/qCC/CloudCompare_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building CXX object qCC/CMakeFiles/CloudCompare.dir/CloudCompare_autogen/mocs_compilation.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CloudCompare.dir/CloudCompare_autogen/mocs_compilation.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/build/qCC/CloudCompare_autogen/mocs_compilation.cpp
 
 qCC/CMakeFiles/CloudCompare.dir/CloudCompare_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CloudCompare.dir/CloudCompare_autogen/mocs_compilation.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/build/qCC/CloudCompare_autogen/mocs_compilation.cpp > CMakeFiles/CloudCompare.dir/CloudCompare_autogen/mocs_compilation.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/build/qCC/CloudCompare_autogen/mocs_compilation.cpp > CMakeFiles/CloudCompare.dir/CloudCompare_autogen/mocs_compilation.cpp.i
 
 qCC/CMakeFiles/CloudCompare.dir/CloudCompare_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CloudCompare.dir/CloudCompare_autogen/mocs_compilation.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/build/qCC/CloudCompare_autogen/mocs_compilation.cpp -o CMakeFiles/CloudCompare.dir/CloudCompare_autogen/mocs_compilation.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/build/qCC/CloudCompare_autogen/mocs_compilation.cpp -o CMakeFiles/CloudCompare.dir/CloudCompare_autogen/mocs_compilation.cpp.s
 
 # Object files for target CloudCompare
 CloudCompare_OBJECTS = \
@@ -1870,19 +1870,19 @@ qCC/CloudCompare: libs/CCFbo/libCC_FBO_LIB.a
 qCC/CloudCompare: libs/qCC_io/libQCC_IO_LIB.so
 qCC/CloudCompare: libs/qCC_glWindow/libQCC_GL_LIB.a
 qCC/CloudCompare: libs/qcustomplot/libqcustomplot.a
-qCC/CloudCompare: /usr/lib/libQt5PrintSupport.so.5.11.0
+qCC/CloudCompare: /usr/lib/libQt5PrintSupport.so.5.10.1
 qCC/CloudCompare: libs/qCC_db/libQCC_DB_LIB.so
 qCC/CloudCompare: libs/CCFbo/libCC_FBO_LIB.a
 qCC/CloudCompare: CC/libCC_CORE_LIB.so
-qCC/CloudCompare: /usr/lib/libQt5Concurrent.so.5.11.0
-qCC/CloudCompare: /usr/lib/libQt5OpenGL.so.5.11.0
+qCC/CloudCompare: /usr/lib/libQt5Concurrent.so.5.10.1
+qCC/CloudCompare: /usr/lib/libQt5OpenGL.so.5.10.1
 qCC/CloudCompare: /usr/lib/libQt5OpenGLExtensions.a
-qCC/CloudCompare: /usr/lib/libQt5Widgets.so.5.11.0
-qCC/CloudCompare: /usr/lib/libQt5Gui.so.5.11.0
-qCC/CloudCompare: /usr/lib/libQt5Core.so.5.11.0
+qCC/CloudCompare: /usr/lib/libQt5Widgets.so.5.10.1
+qCC/CloudCompare: /usr/lib/libQt5Gui.so.5.10.1
+qCC/CloudCompare: /usr/lib/libQt5Core.so.5.10.1
 qCC/CloudCompare: qCC/CMakeFiles/CloudCompare.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Linking CXX executable CloudCompare"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CloudCompare.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Linking CXX executable CloudCompare"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CloudCompare.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 qCC/CMakeFiles/CloudCompare.dir/build: qCC/CloudCompare
@@ -1890,7 +1890,7 @@ qCC/CMakeFiles/CloudCompare.dir/build: qCC/CloudCompare
 .PHONY : qCC/CMakeFiles/CloudCompare.dir/build
 
 qCC/CMakeFiles/CloudCompare.dir/clean:
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && $(CMAKE_COMMAND) -P CMakeFiles/CloudCompare.dir/cmake_clean.cmake
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && $(CMAKE_COMMAND) -P CMakeFiles/CloudCompare.dir/cmake_clean.cmake
 .PHONY : qCC/CMakeFiles/CloudCompare.dir/clean
 
 qCC/CMakeFiles/CloudCompare.dir/depend: qCC/ui_aboutDlg.h
@@ -1968,6 +1968,6 @@ qCC/CMakeFiles/CloudCompare.dir/depend: qCC/ui_waveDlg.h
 qCC/CMakeFiles/CloudCompare.dir/depend: qCC/ui_ccPluginInfoDlg.h
 qCC/CMakeFiles/CloudCompare.dir/depend: qCC/qrc_icones.cpp
 qCC/CMakeFiles/CloudCompare.dir/depend: qCC/qrc_pluginManager.cpp
-	cd /home/debster/DELETETHiS/qCMAT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/debster/DELETETHiS/qCMAT /home/debster/DELETETHiS/qCMAT/qCC /home/debster/DELETETHiS/qCMAT/build /home/debster/DELETETHiS/qCMAT/build/qCC /home/debster/DELETETHiS/qCMAT/build/qCC/CMakeFiles/CloudCompare.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chrome/work/CloudCompare/qCMAT /home/chrome/work/CloudCompare/qCMAT/qCC /home/chrome/work/CloudCompare/qCMAT/build /home/chrome/work/CloudCompare/qCMAT/build/qCC /home/chrome/work/CloudCompare/qCMAT/build/qCC/CMakeFiles/CloudCompare.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : qCC/CMakeFiles/CloudCompare.dir/depend
 

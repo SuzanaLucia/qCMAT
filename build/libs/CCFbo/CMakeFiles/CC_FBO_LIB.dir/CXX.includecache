@@ -32,27 +32,27 @@ QString
 QOpenGLShaderProgram
 -
 
-/home/debster/DELETETHiS/qCMAT/build/libs/CCFbo/CC_FBO_LIB_autogen/6YEA5652QU/moc_ccShader.cpp
+/home/chrome/work/CloudCompare/qCMAT/build/libs/CCFbo/CC_FBO_LIB_autogen/6YEA5652QU/moc_ccShader.cpp
 ../../../../../libs/CCFbo/include/ccShader.h
-/home/debster/DELETETHiS/qCMAT/libs/CCFbo/include/ccShader.h
+/home/chrome/work/CloudCompare/qCMAT/libs/CCFbo/include/ccShader.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/debster/DELETETHiS/qCMAT/build/libs/CCFbo/CC_FBO_LIB_autogen/mocs_compilation.cpp
+/home/chrome/work/CloudCompare/qCMAT/build/libs/CCFbo/CC_FBO_LIB_autogen/mocs_compilation.cpp
 6YEA5652QU/moc_ccShader.cpp
-/home/debster/DELETETHiS/qCMAT/build/libs/CCFbo/CC_FBO_LIB_autogen/6YEA5652QU/moc_ccShader.cpp
+/home/chrome/work/CloudCompare/qCMAT/build/libs/CCFbo/CC_FBO_LIB_autogen/6YEA5652QU/moc_ccShader.cpp
 
-/home/debster/DELETETHiS/qCMAT/libs/CCFbo/include/ccShader.h
+/home/chrome/work/CloudCompare/qCMAT/libs/CCFbo/include/ccShader.h
 QString
 -
 QOpenGLShaderProgram
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/CCFbo/src/ccBilateralFilter.cpp
+/home/chrome/work/CloudCompare/qCMAT/libs/CCFbo/src/ccBilateralFilter.cpp
 ccBilateralFilter.h
-/home/debster/DELETETHiS/qCMAT/libs/CCFbo/src/ccBilateralFilter.h
+/home/chrome/work/CloudCompare/qCMAT/libs/CCFbo/src/ccBilateralFilter.h
 algorithm
 -
 assert.h
@@ -60,15 +60,15 @@ assert.h
 cmath
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/CCFbo/src/ccFrameBufferObject.cpp
+/home/chrome/work/CloudCompare/qCMAT/libs/CCFbo/src/ccFrameBufferObject.cpp
 ccFrameBufferObject.h
-/home/debster/DELETETHiS/qCMAT/libs/CCFbo/src/ccFrameBufferObject.h
+/home/chrome/work/CloudCompare/qCMAT/libs/CCFbo/src/ccFrameBufferObject.h
 assert.h
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/CCFbo/src/ccShader.cpp
+/home/chrome/work/CloudCompare/qCMAT/libs/CCFbo/src/ccShader.cpp
 ccShader.h
-/home/debster/DELETETHiS/qCMAT/libs/CCFbo/src/ccShader.h
+/home/chrome/work/CloudCompare/qCMAT/libs/CCFbo/src/ccShader.h
 QFile
 -
 assert.h

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/debster/DELETETHiS/qCMAT
+CMAKE_SOURCE_DIR = /home/chrome/work/CloudCompare/qCMAT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/debster/DELETETHiS/qCMAT/build
+CMAKE_BINARY_DIR = /home/chrome/work/CloudCompare/qCMAT/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/debster/DELETETHiS/qCMAT/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/debster/DELETETHiS/qCMAT/build/CMakeFiles /home/debster/DELETETHiS/qCMAT/build/libs/qCC_glWindow/CMakeFiles/progress.marks
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 libs/qCC_glWindow/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/debster/DELETETHiS/qCMAT/build/CMakeFiles 0
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles /home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_glWindow/CMakeFiles/progress.marks
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 libs/qCC_glWindow/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 libs/qCC_glWindow/clean
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 libs/qCC_glWindow/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 libs/qCC_glWindow/preinstall
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 libs/qCC_glWindow/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 libs/qCC_glWindow/preinstall
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 libs/qCC_glWindow/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/rule:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/rule
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/rule
 .PHONY : libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ QCC_GL_LIB: libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/rule
 
 # fast build rule for target.
 QCC_GL_LIB/fast:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/build.make libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/build
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/build.make libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/build
 .PHONY : QCC_GL_LIB/fast
 
 # Convenience name for target.
 libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB_autogen.dir/rule:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB_autogen.dir/rule
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB_autogen.dir/rule
 .PHONY : libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB_autogen.dir/rule
 
 # Convenience name for target.
@@ -183,7 +183,7 @@ QCC_GL_LIB_autogen: libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB_autogen.dir/rule
 
 # fast build rule for target.
 QCC_GL_LIB_autogen/fast:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB_autogen.dir/build.make libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB_autogen.dir/build
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB_autogen.dir/build.make libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB_autogen.dir/build
 .PHONY : QCC_GL_LIB_autogen/fast
 
 QCC_GL_LIB_autogen/mocs_compilation.o: QCC_GL_LIB_autogen/mocs_compilation.cpp.o
@@ -192,7 +192,7 @@ QCC_GL_LIB_autogen/mocs_compilation.o: QCC_GL_LIB_autogen/mocs_compilation.cpp.o
 
 # target to build an object file
 QCC_GL_LIB_autogen/mocs_compilation.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/build.make libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/QCC_GL_LIB_autogen/mocs_compilation.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/build.make libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/QCC_GL_LIB_autogen/mocs_compilation.cpp.o
 .PHONY : QCC_GL_LIB_autogen/mocs_compilation.cpp.o
 
 QCC_GL_LIB_autogen/mocs_compilation.i: QCC_GL_LIB_autogen/mocs_compilation.cpp.i
@@ -201,7 +201,7 @@ QCC_GL_LIB_autogen/mocs_compilation.i: QCC_GL_LIB_autogen/mocs_compilation.cpp.i
 
 # target to preprocess a source file
 QCC_GL_LIB_autogen/mocs_compilation.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/build.make libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/QCC_GL_LIB_autogen/mocs_compilation.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/build.make libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/QCC_GL_LIB_autogen/mocs_compilation.cpp.i
 .PHONY : QCC_GL_LIB_autogen/mocs_compilation.cpp.i
 
 QCC_GL_LIB_autogen/mocs_compilation.s: QCC_GL_LIB_autogen/mocs_compilation.cpp.s
@@ -210,7 +210,7 @@ QCC_GL_LIB_autogen/mocs_compilation.s: QCC_GL_LIB_autogen/mocs_compilation.cpp.s
 
 # target to generate assembly for a file
 QCC_GL_LIB_autogen/mocs_compilation.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/build.make libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/QCC_GL_LIB_autogen/mocs_compilation.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/build.make libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/QCC_GL_LIB_autogen/mocs_compilation.cpp.s
 .PHONY : QCC_GL_LIB_autogen/mocs_compilation.cpp.s
 
 ccGLUtils.o: ccGLUtils.cpp.o
@@ -219,7 +219,7 @@ ccGLUtils.o: ccGLUtils.cpp.o
 
 # target to build an object file
 ccGLUtils.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/build.make libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccGLUtils.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/build.make libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccGLUtils.cpp.o
 .PHONY : ccGLUtils.cpp.o
 
 ccGLUtils.i: ccGLUtils.cpp.i
@@ -228,7 +228,7 @@ ccGLUtils.i: ccGLUtils.cpp.i
 
 # target to preprocess a source file
 ccGLUtils.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/build.make libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccGLUtils.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/build.make libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccGLUtils.cpp.i
 .PHONY : ccGLUtils.cpp.i
 
 ccGLUtils.s: ccGLUtils.cpp.s
@@ -237,7 +237,7 @@ ccGLUtils.s: ccGLUtils.cpp.s
 
 # target to generate assembly for a file
 ccGLUtils.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/build.make libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccGLUtils.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/build.make libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccGLUtils.cpp.s
 .PHONY : ccGLUtils.cpp.s
 
 ccGLWindow.o: ccGLWindow.cpp.o
@@ -246,7 +246,7 @@ ccGLWindow.o: ccGLWindow.cpp.o
 
 # target to build an object file
 ccGLWindow.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/build.make libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccGLWindow.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/build.make libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccGLWindow.cpp.o
 .PHONY : ccGLWindow.cpp.o
 
 ccGLWindow.i: ccGLWindow.cpp.i
@@ -255,7 +255,7 @@ ccGLWindow.i: ccGLWindow.cpp.i
 
 # target to preprocess a source file
 ccGLWindow.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/build.make libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccGLWindow.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/build.make libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccGLWindow.cpp.i
 .PHONY : ccGLWindow.cpp.i
 
 ccGLWindow.s: ccGLWindow.cpp.s
@@ -264,7 +264,7 @@ ccGLWindow.s: ccGLWindow.cpp.s
 
 # target to generate assembly for a file
 ccGLWindow.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/build.make libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccGLWindow.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/build.make libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccGLWindow.cpp.s
 .PHONY : ccGLWindow.cpp.s
 
 ccGuiParameters.o: ccGuiParameters.cpp.o
@@ -273,7 +273,7 @@ ccGuiParameters.o: ccGuiParameters.cpp.o
 
 # target to build an object file
 ccGuiParameters.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/build.make libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccGuiParameters.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/build.make libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccGuiParameters.cpp.o
 .PHONY : ccGuiParameters.cpp.o
 
 ccGuiParameters.i: ccGuiParameters.cpp.i
@@ -282,7 +282,7 @@ ccGuiParameters.i: ccGuiParameters.cpp.i
 
 # target to preprocess a source file
 ccGuiParameters.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/build.make libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccGuiParameters.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/build.make libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccGuiParameters.cpp.i
 .PHONY : ccGuiParameters.cpp.i
 
 ccGuiParameters.s: ccGuiParameters.cpp.s
@@ -291,7 +291,7 @@ ccGuiParameters.s: ccGuiParameters.cpp.s
 
 # target to generate assembly for a file
 ccGuiParameters.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/build.make libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccGuiParameters.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/build.make libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccGuiParameters.cpp.s
 .PHONY : ccGuiParameters.cpp.s
 
 ccRenderingTools.o: ccRenderingTools.cpp.o
@@ -300,7 +300,7 @@ ccRenderingTools.o: ccRenderingTools.cpp.o
 
 # target to build an object file
 ccRenderingTools.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/build.make libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccRenderingTools.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/build.make libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccRenderingTools.cpp.o
 .PHONY : ccRenderingTools.cpp.o
 
 ccRenderingTools.i: ccRenderingTools.cpp.i
@@ -309,7 +309,7 @@ ccRenderingTools.i: ccRenderingTools.cpp.i
 
 # target to preprocess a source file
 ccRenderingTools.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/build.make libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccRenderingTools.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/build.make libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccRenderingTools.cpp.i
 .PHONY : ccRenderingTools.cpp.i
 
 ccRenderingTools.s: ccRenderingTools.cpp.s
@@ -318,7 +318,7 @@ ccRenderingTools.s: ccRenderingTools.cpp.s
 
 # target to generate assembly for a file
 ccRenderingTools.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/build.make libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccRenderingTools.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/build.make libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/ccRenderingTools.cpp.s
 .PHONY : ccRenderingTools.cpp.s
 
 # Help Target
@@ -361,6 +361,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/debster/DELETETHiS/qCMAT
+CMAKE_SOURCE_DIR = /home/chrome/work/CloudCompare/qCMAT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/debster/DELETETHiS/qCMAT/build
+CMAKE_BINARY_DIR = /home/chrome/work/CloudCompare/qCMAT/build
 
 # Include any dependencies generated for this target.
 include ccViewer/CMakeFiles/ccViewer.dir/depend.make
@@ -58,28 +58,28 @@ include ccViewer/CMakeFiles/ccViewer.dir/progress.make
 include ccViewer/CMakeFiles/ccViewer.dir/flags.make
 
 ccViewer/ui_ccviewer.h: ../ccViewer/ui_templates/ccviewer.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ui_ccviewer.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/ccViewer/ui_ccviewer.h /home/debster/DELETETHiS/qCMAT/ccViewer/ui_templates/ccviewer.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ui_ccviewer.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/ccViewer/ui_ccviewer.h /home/chrome/work/CloudCompare/qCMAT/ccViewer/ui_templates/ccviewer.ui
 
 ccViewer/ui_ccviewerAbout.h: ../ccViewer/ui_templates/ccviewerAbout.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ui_ccviewerAbout.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/ccViewer/ui_ccviewerAbout.h /home/debster/DELETETHiS/qCMAT/ccViewer/ui_templates/ccviewerAbout.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ui_ccviewerAbout.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/ccViewer/ui_ccviewerAbout.h /home/chrome/work/CloudCompare/qCMAT/ccViewer/ui_templates/ccviewerAbout.ui
 
 ccViewer/ui_cameraParamDlg.h: ../qCC/ui_templates/cameraParamDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ui_cameraParamDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/ccViewer/ui_cameraParamDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/cameraParamDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ui_cameraParamDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/ccViewer/ui_cameraParamDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/cameraParamDlg.ui
 
 ccViewer/ui_displayOptionsDlg.h: ../qCC/ui_templates/displayOptionsDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating ui_displayOptionsDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/ccViewer/ui_displayOptionsDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/displayOptionsDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating ui_displayOptionsDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/ccViewer/ui_displayOptionsDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/displayOptionsDlg.ui
 
 ccViewer/ui_pickOneElementDlg.h: ../qCC/ui_templates/pickOneElementDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating ui_pickOneElementDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/ccViewer/ui_pickOneElementDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/pickOneElementDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating ui_pickOneElementDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/ccViewer/ui_pickOneElementDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/pickOneElementDlg.ui
 
 ccViewer/ui_stereoModeDlg.h: ../qCC/ui_templates/stereoModeDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating ui_stereoModeDlg.h"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /usr/bin/uic -o /home/debster/DELETETHiS/qCMAT/build/ccViewer/ui_stereoModeDlg.h /home/debster/DELETETHiS/qCMAT/qCC/ui_templates/stereoModeDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating ui_stereoModeDlg.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/ccViewer/ui_stereoModeDlg.h /home/chrome/work/CloudCompare/qCMAT/qCC/ui_templates/stereoModeDlg.ui
 
 ccViewer/qrc_icones.cpp: ../qCC/images/donate.png
 ccViewer/qrc_icones.cpp: ../qCC/images/ccPickCenterAuto.png
@@ -231,177 +231,177 @@ ccViewer/qrc_icones.cpp: ../qCC/images/icon/cc_icon_16.png
 ccViewer/qrc_icones.cpp: ../qCC/images/icon/cc_icon_32.png
 ccViewer/qrc_icones.cpp: ../qCC/images/icon/cc_icon_64.png
 ccViewer/qrc_icones.cpp: ../qCC/icones.qrc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating qrc_icones.cpp"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /usr/bin/rcc --name icones --output /home/debster/DELETETHiS/qCMAT/build/ccViewer/qrc_icones.cpp /home/debster/DELETETHiS/qCMAT/qCC/icones.qrc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating qrc_icones.cpp"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/rcc --name icones --output /home/chrome/work/CloudCompare/qCMAT/build/ccViewer/qrc_icones.cpp /home/chrome/work/CloudCompare/qCMAT/qCC/icones.qrc
 
 ccViewer/CMakeFiles/ccViewer.dir/ccViewerApplication.cpp.o: ccViewer/CMakeFiles/ccViewer.dir/flags.make
 ccViewer/CMakeFiles/ccViewer.dir/ccViewerApplication.cpp.o: ../ccViewer/ccViewerApplication.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object ccViewer/CMakeFiles/ccViewer.dir/ccViewerApplication.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ccViewer.dir/ccViewerApplication.cpp.o -c /home/debster/DELETETHiS/qCMAT/ccViewer/ccViewerApplication.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object ccViewer/CMakeFiles/ccViewer.dir/ccViewerApplication.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ccViewer.dir/ccViewerApplication.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/ccViewer/ccViewerApplication.cpp
 
 ccViewer/CMakeFiles/ccViewer.dir/ccViewerApplication.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ccViewer.dir/ccViewerApplication.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/ccViewer/ccViewerApplication.cpp > CMakeFiles/ccViewer.dir/ccViewerApplication.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/ccViewer/ccViewerApplication.cpp > CMakeFiles/ccViewer.dir/ccViewerApplication.cpp.i
 
 ccViewer/CMakeFiles/ccViewer.dir/ccViewerApplication.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ccViewer.dir/ccViewerApplication.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/ccViewer/ccViewerApplication.cpp -o CMakeFiles/ccViewer.dir/ccViewerApplication.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/ccViewer/ccViewerApplication.cpp -o CMakeFiles/ccViewer.dir/ccViewerApplication.cpp.s
 
 ccViewer/CMakeFiles/ccViewer.dir/ccviewer.cpp.o: ccViewer/CMakeFiles/ccViewer.dir/flags.make
 ccViewer/CMakeFiles/ccViewer.dir/ccviewer.cpp.o: ../ccViewer/ccviewer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object ccViewer/CMakeFiles/ccViewer.dir/ccviewer.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ccViewer.dir/ccviewer.cpp.o -c /home/debster/DELETETHiS/qCMAT/ccViewer/ccviewer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object ccViewer/CMakeFiles/ccViewer.dir/ccviewer.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ccViewer.dir/ccviewer.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/ccViewer/ccviewer.cpp
 
 ccViewer/CMakeFiles/ccViewer.dir/ccviewer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ccViewer.dir/ccviewer.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/ccViewer/ccviewer.cpp > CMakeFiles/ccViewer.dir/ccviewer.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/ccViewer/ccviewer.cpp > CMakeFiles/ccViewer.dir/ccviewer.cpp.i
 
 ccViewer/CMakeFiles/ccViewer.dir/ccviewer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ccViewer.dir/ccviewer.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/ccViewer/ccviewer.cpp -o CMakeFiles/ccViewer.dir/ccviewer.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/ccViewer/ccviewer.cpp -o CMakeFiles/ccViewer.dir/ccviewer.cpp.s
 
 ccViewer/CMakeFiles/ccViewer.dir/main.cpp.o: ccViewer/CMakeFiles/ccViewer.dir/flags.make
 ccViewer/CMakeFiles/ccViewer.dir/main.cpp.o: ../ccViewer/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object ccViewer/CMakeFiles/ccViewer.dir/main.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ccViewer.dir/main.cpp.o -c /home/debster/DELETETHiS/qCMAT/ccViewer/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object ccViewer/CMakeFiles/ccViewer.dir/main.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ccViewer.dir/main.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/ccViewer/main.cpp
 
 ccViewer/CMakeFiles/ccViewer.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ccViewer.dir/main.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/ccViewer/main.cpp > CMakeFiles/ccViewer.dir/main.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/ccViewer/main.cpp > CMakeFiles/ccViewer.dir/main.cpp.i
 
 ccViewer/CMakeFiles/ccViewer.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ccViewer.dir/main.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/ccViewer/main.cpp -o CMakeFiles/ccViewer.dir/main.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/ccViewer/main.cpp -o CMakeFiles/ccViewer.dir/main.cpp.s
 
 ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccCameraParamEditDlg.cpp.o: ccViewer/CMakeFiles/ccViewer.dir/flags.make
 ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccCameraParamEditDlg.cpp.o: ../qCC/ccCameraParamEditDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccCameraParamEditDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ccViewer.dir/__/qCC/ccCameraParamEditDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccCameraParamEditDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccCameraParamEditDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ccViewer.dir/__/qCC/ccCameraParamEditDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccCameraParamEditDlg.cpp
 
 ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccCameraParamEditDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ccViewer.dir/__/qCC/ccCameraParamEditDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccCameraParamEditDlg.cpp > CMakeFiles/ccViewer.dir/__/qCC/ccCameraParamEditDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccCameraParamEditDlg.cpp > CMakeFiles/ccViewer.dir/__/qCC/ccCameraParamEditDlg.cpp.i
 
 ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccCameraParamEditDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ccViewer.dir/__/qCC/ccCameraParamEditDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccCameraParamEditDlg.cpp -o CMakeFiles/ccViewer.dir/__/qCC/ccCameraParamEditDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccCameraParamEditDlg.cpp -o CMakeFiles/ccViewer.dir/__/qCC/ccCameraParamEditDlg.cpp.s
 
 ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccDisplayOptionsDlg.cpp.o: ccViewer/CMakeFiles/ccViewer.dir/flags.make
 ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccDisplayOptionsDlg.cpp.o: ../qCC/ccDisplayOptionsDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccDisplayOptionsDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ccViewer.dir/__/qCC/ccDisplayOptionsDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccDisplayOptionsDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccDisplayOptionsDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ccViewer.dir/__/qCC/ccDisplayOptionsDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccDisplayOptionsDlg.cpp
 
 ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccDisplayOptionsDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ccViewer.dir/__/qCC/ccDisplayOptionsDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccDisplayOptionsDlg.cpp > CMakeFiles/ccViewer.dir/__/qCC/ccDisplayOptionsDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccDisplayOptionsDlg.cpp > CMakeFiles/ccViewer.dir/__/qCC/ccDisplayOptionsDlg.cpp.i
 
 ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccDisplayOptionsDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ccViewer.dir/__/qCC/ccDisplayOptionsDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccDisplayOptionsDlg.cpp -o CMakeFiles/ccViewer.dir/__/qCC/ccDisplayOptionsDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccDisplayOptionsDlg.cpp -o CMakeFiles/ccViewer.dir/__/qCC/ccDisplayOptionsDlg.cpp.s
 
 ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccOptions.cpp.o: ccViewer/CMakeFiles/ccViewer.dir/flags.make
 ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccOptions.cpp.o: ../qCC/ccOptions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccOptions.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ccViewer.dir/__/qCC/ccOptions.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccOptions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccOptions.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ccViewer.dir/__/qCC/ccOptions.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccOptions.cpp
 
 ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccOptions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ccViewer.dir/__/qCC/ccOptions.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccOptions.cpp > CMakeFiles/ccViewer.dir/__/qCC/ccOptions.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccOptions.cpp > CMakeFiles/ccViewer.dir/__/qCC/ccOptions.cpp.i
 
 ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccOptions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ccViewer.dir/__/qCC/ccOptions.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccOptions.cpp -o CMakeFiles/ccViewer.dir/__/qCC/ccOptions.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccOptions.cpp -o CMakeFiles/ccViewer.dir/__/qCC/ccOptions.cpp.s
 
 ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccOverlayDialog.cpp.o: ccViewer/CMakeFiles/ccViewer.dir/flags.make
 ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccOverlayDialog.cpp.o: ../qCC/ccOverlayDialog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccOverlayDialog.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ccViewer.dir/__/qCC/ccOverlayDialog.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccOverlayDialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccOverlayDialog.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ccViewer.dir/__/qCC/ccOverlayDialog.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccOverlayDialog.cpp
 
 ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccOverlayDialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ccViewer.dir/__/qCC/ccOverlayDialog.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccOverlayDialog.cpp > CMakeFiles/ccViewer.dir/__/qCC/ccOverlayDialog.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccOverlayDialog.cpp > CMakeFiles/ccViewer.dir/__/qCC/ccOverlayDialog.cpp.i
 
 ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccOverlayDialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ccViewer.dir/__/qCC/ccOverlayDialog.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccOverlayDialog.cpp -o CMakeFiles/ccViewer.dir/__/qCC/ccOverlayDialog.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccOverlayDialog.cpp -o CMakeFiles/ccViewer.dir/__/qCC/ccOverlayDialog.cpp.s
 
 ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccPickingHub.cpp.o: ccViewer/CMakeFiles/ccViewer.dir/flags.make
 ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccPickingHub.cpp.o: ../qCC/ccPickingHub.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccPickingHub.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ccViewer.dir/__/qCC/ccPickingHub.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccPickingHub.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccPickingHub.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ccViewer.dir/__/qCC/ccPickingHub.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccPickingHub.cpp
 
 ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccPickingHub.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ccViewer.dir/__/qCC/ccPickingHub.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccPickingHub.cpp > CMakeFiles/ccViewer.dir/__/qCC/ccPickingHub.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccPickingHub.cpp > CMakeFiles/ccViewer.dir/__/qCC/ccPickingHub.cpp.i
 
 ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccPickingHub.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ccViewer.dir/__/qCC/ccPickingHub.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccPickingHub.cpp -o CMakeFiles/ccViewer.dir/__/qCC/ccPickingHub.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccPickingHub.cpp -o CMakeFiles/ccViewer.dir/__/qCC/ccPickingHub.cpp.s
 
 ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccPickOneElementDlg.cpp.o: ccViewer/CMakeFiles/ccViewer.dir/flags.make
 ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccPickOneElementDlg.cpp.o: ../qCC/ccPickOneElementDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccPickOneElementDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ccViewer.dir/__/qCC/ccPickOneElementDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccPickOneElementDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccPickOneElementDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ccViewer.dir/__/qCC/ccPickOneElementDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccPickOneElementDlg.cpp
 
 ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccPickOneElementDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ccViewer.dir/__/qCC/ccPickOneElementDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccPickOneElementDlg.cpp > CMakeFiles/ccViewer.dir/__/qCC/ccPickOneElementDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccPickOneElementDlg.cpp > CMakeFiles/ccViewer.dir/__/qCC/ccPickOneElementDlg.cpp.i
 
 ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccPickOneElementDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ccViewer.dir/__/qCC/ccPickOneElementDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccPickOneElementDlg.cpp -o CMakeFiles/ccViewer.dir/__/qCC/ccPickOneElementDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccPickOneElementDlg.cpp -o CMakeFiles/ccViewer.dir/__/qCC/ccPickOneElementDlg.cpp.s
 
 ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccStereoModeDlg.cpp.o: ccViewer/CMakeFiles/ccViewer.dir/flags.make
 ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccStereoModeDlg.cpp.o: ../qCC/ccStereoModeDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccStereoModeDlg.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ccViewer.dir/__/qCC/ccStereoModeDlg.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/ccStereoModeDlg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccStereoModeDlg.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ccViewer.dir/__/qCC/ccStereoModeDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/ccStereoModeDlg.cpp
 
 ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccStereoModeDlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ccViewer.dir/__/qCC/ccStereoModeDlg.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/ccStereoModeDlg.cpp > CMakeFiles/ccViewer.dir/__/qCC/ccStereoModeDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/ccStereoModeDlg.cpp > CMakeFiles/ccViewer.dir/__/qCC/ccStereoModeDlg.cpp.i
 
 ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccStereoModeDlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ccViewer.dir/__/qCC/ccStereoModeDlg.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/ccStereoModeDlg.cpp -o CMakeFiles/ccViewer.dir/__/qCC/ccStereoModeDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/ccStereoModeDlg.cpp -o CMakeFiles/ccViewer.dir/__/qCC/ccStereoModeDlg.cpp.s
 
 ccViewer/CMakeFiles/ccViewer.dir/__/qCC/pluginManager/ccPluginManager.cpp.o: ccViewer/CMakeFiles/ccViewer.dir/flags.make
 ccViewer/CMakeFiles/ccViewer.dir/__/qCC/pluginManager/ccPluginManager.cpp.o: ../qCC/pluginManager/ccPluginManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object ccViewer/CMakeFiles/ccViewer.dir/__/qCC/pluginManager/ccPluginManager.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ccViewer.dir/__/qCC/pluginManager/ccPluginManager.cpp.o -c /home/debster/DELETETHiS/qCMAT/qCC/pluginManager/ccPluginManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object ccViewer/CMakeFiles/ccViewer.dir/__/qCC/pluginManager/ccPluginManager.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ccViewer.dir/__/qCC/pluginManager/ccPluginManager.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/qCC/pluginManager/ccPluginManager.cpp
 
 ccViewer/CMakeFiles/ccViewer.dir/__/qCC/pluginManager/ccPluginManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ccViewer.dir/__/qCC/pluginManager/ccPluginManager.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/qCC/pluginManager/ccPluginManager.cpp > CMakeFiles/ccViewer.dir/__/qCC/pluginManager/ccPluginManager.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/qCC/pluginManager/ccPluginManager.cpp > CMakeFiles/ccViewer.dir/__/qCC/pluginManager/ccPluginManager.cpp.i
 
 ccViewer/CMakeFiles/ccViewer.dir/__/qCC/pluginManager/ccPluginManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ccViewer.dir/__/qCC/pluginManager/ccPluginManager.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/qCC/pluginManager/ccPluginManager.cpp -o CMakeFiles/ccViewer.dir/__/qCC/pluginManager/ccPluginManager.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/qCC/pluginManager/ccPluginManager.cpp -o CMakeFiles/ccViewer.dir/__/qCC/pluginManager/ccPluginManager.cpp.s
 
 ccViewer/CMakeFiles/ccViewer.dir/qrc_icones.cpp.o: ccViewer/CMakeFiles/ccViewer.dir/flags.make
 ccViewer/CMakeFiles/ccViewer.dir/qrc_icones.cpp.o: ccViewer/qrc_icones.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object ccViewer/CMakeFiles/ccViewer.dir/qrc_icones.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ccViewer.dir/qrc_icones.cpp.o -c /home/debster/DELETETHiS/qCMAT/build/ccViewer/qrc_icones.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object ccViewer/CMakeFiles/ccViewer.dir/qrc_icones.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ccViewer.dir/qrc_icones.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/build/ccViewer/qrc_icones.cpp
 
 ccViewer/CMakeFiles/ccViewer.dir/qrc_icones.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ccViewer.dir/qrc_icones.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/build/ccViewer/qrc_icones.cpp > CMakeFiles/ccViewer.dir/qrc_icones.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/build/ccViewer/qrc_icones.cpp > CMakeFiles/ccViewer.dir/qrc_icones.cpp.i
 
 ccViewer/CMakeFiles/ccViewer.dir/qrc_icones.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ccViewer.dir/qrc_icones.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/build/ccViewer/qrc_icones.cpp -o CMakeFiles/ccViewer.dir/qrc_icones.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/build/ccViewer/qrc_icones.cpp -o CMakeFiles/ccViewer.dir/qrc_icones.cpp.s
 
 ccViewer/CMakeFiles/ccViewer.dir/ccViewer_autogen/mocs_compilation.cpp.o: ccViewer/CMakeFiles/ccViewer.dir/flags.make
 ccViewer/CMakeFiles/ccViewer.dir/ccViewer_autogen/mocs_compilation.cpp.o: ccViewer/ccViewer_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object ccViewer/CMakeFiles/ccViewer.dir/ccViewer_autogen/mocs_compilation.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ccViewer.dir/ccViewer_autogen/mocs_compilation.cpp.o -c /home/debster/DELETETHiS/qCMAT/build/ccViewer/ccViewer_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object ccViewer/CMakeFiles/ccViewer.dir/ccViewer_autogen/mocs_compilation.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ccViewer.dir/ccViewer_autogen/mocs_compilation.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/build/ccViewer/ccViewer_autogen/mocs_compilation.cpp
 
 ccViewer/CMakeFiles/ccViewer.dir/ccViewer_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ccViewer.dir/ccViewer_autogen/mocs_compilation.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/build/ccViewer/ccViewer_autogen/mocs_compilation.cpp > CMakeFiles/ccViewer.dir/ccViewer_autogen/mocs_compilation.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/build/ccViewer/ccViewer_autogen/mocs_compilation.cpp > CMakeFiles/ccViewer.dir/ccViewer_autogen/mocs_compilation.cpp.i
 
 ccViewer/CMakeFiles/ccViewer.dir/ccViewer_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ccViewer.dir/ccViewer_autogen/mocs_compilation.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/build/ccViewer/ccViewer_autogen/mocs_compilation.cpp -o CMakeFiles/ccViewer.dir/ccViewer_autogen/mocs_compilation.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/build/ccViewer/ccViewer_autogen/mocs_compilation.cpp -o CMakeFiles/ccViewer.dir/ccViewer_autogen/mocs_compilation.cpp.s
 
 # Object files for target ccViewer
 ccViewer_OBJECTS = \
@@ -442,15 +442,15 @@ ccViewer/ccViewer: libs/qCC_glWindow/libQCC_GL_LIB.a
 ccViewer/ccViewer: libs/qCC_db/libQCC_DB_LIB.so
 ccViewer/ccViewer: libs/CCFbo/libCC_FBO_LIB.a
 ccViewer/ccViewer: CC/libCC_CORE_LIB.so
-ccViewer/ccViewer: /usr/lib/libQt5Concurrent.so.5.11.0
-ccViewer/ccViewer: /usr/lib/libQt5OpenGL.so.5.11.0
-ccViewer/ccViewer: /usr/lib/libQt5Widgets.so.5.11.0
+ccViewer/ccViewer: /usr/lib/libQt5Concurrent.so.5.10.1
+ccViewer/ccViewer: /usr/lib/libQt5OpenGL.so.5.10.1
+ccViewer/ccViewer: /usr/lib/libQt5Widgets.so.5.10.1
 ccViewer/ccViewer: /usr/lib/libQt5OpenGLExtensions.a
-ccViewer/ccViewer: /usr/lib/libQt5Gui.so.5.11.0
-ccViewer/ccViewer: /usr/lib/libQt5Core.so.5.11.0
+ccViewer/ccViewer: /usr/lib/libQt5Gui.so.5.10.1
+ccViewer/ccViewer: /usr/lib/libQt5Core.so.5.10.1
 ccViewer/ccViewer: ccViewer/CMakeFiles/ccViewer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable ccViewer"
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ccViewer.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable ccViewer"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ccViewer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 ccViewer/CMakeFiles/ccViewer.dir/build: ccViewer/ccViewer
@@ -458,7 +458,7 @@ ccViewer/CMakeFiles/ccViewer.dir/build: ccViewer/ccViewer
 .PHONY : ccViewer/CMakeFiles/ccViewer.dir/build
 
 ccViewer/CMakeFiles/ccViewer.dir/clean:
-	cd /home/debster/DELETETHiS/qCMAT/build/ccViewer && $(CMAKE_COMMAND) -P CMakeFiles/ccViewer.dir/cmake_clean.cmake
+	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && $(CMAKE_COMMAND) -P CMakeFiles/ccViewer.dir/cmake_clean.cmake
 .PHONY : ccViewer/CMakeFiles/ccViewer.dir/clean
 
 ccViewer/CMakeFiles/ccViewer.dir/depend: ccViewer/ui_ccviewer.h
@@ -468,6 +468,6 @@ ccViewer/CMakeFiles/ccViewer.dir/depend: ccViewer/ui_displayOptionsDlg.h
 ccViewer/CMakeFiles/ccViewer.dir/depend: ccViewer/ui_pickOneElementDlg.h
 ccViewer/CMakeFiles/ccViewer.dir/depend: ccViewer/ui_stereoModeDlg.h
 ccViewer/CMakeFiles/ccViewer.dir/depend: ccViewer/qrc_icones.cpp
-	cd /home/debster/DELETETHiS/qCMAT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/debster/DELETETHiS/qCMAT /home/debster/DELETETHiS/qCMAT/ccViewer /home/debster/DELETETHiS/qCMAT/build /home/debster/DELETETHiS/qCMAT/build/ccViewer /home/debster/DELETETHiS/qCMAT/build/ccViewer/CMakeFiles/ccViewer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chrome/work/CloudCompare/qCMAT /home/chrome/work/CloudCompare/qCMAT/ccViewer /home/chrome/work/CloudCompare/qCMAT/build /home/chrome/work/CloudCompare/qCMAT/build/ccViewer /home/chrome/work/CloudCompare/qCMAT/build/ccViewer/CMakeFiles/ccViewer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ccViewer/CMakeFiles/ccViewer.dir/depend
 

@@ -500,39 +500,39 @@ ccIncludeGL.h
 QImage
 -
 
-/home/debster/DELETETHiS/qCMAT/build/libs/qCC_glWindow/QCC_GL_LIB_autogen/EWIEGA46WW/moc_ccGLWidget.cpp
+/home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_glWindow/QCC_GL_LIB_autogen/EWIEGA46WW/moc_ccGLWidget.cpp
 
-/home/debster/DELETETHiS/qCMAT/build/libs/qCC_glWindow/QCC_GL_LIB_autogen/EWIEGA46WW/moc_ccGLWindow.cpp
+/home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_glWindow/QCC_GL_LIB_autogen/EWIEGA46WW/moc_ccGLWindow.cpp
 ../../../../../libs/qCC_glWindow/ccGLWindow.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_glWindow/ccGLWindow.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_glWindow/ccGLWindow.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/debster/DELETETHiS/qCMAT/build/libs/qCC_glWindow/QCC_GL_LIB_autogen/mocs_compilation.cpp
+/home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_glWindow/QCC_GL_LIB_autogen/mocs_compilation.cpp
 EWIEGA46WW/moc_ccGLWidget.cpp
-/home/debster/DELETETHiS/qCMAT/build/libs/qCC_glWindow/QCC_GL_LIB_autogen/EWIEGA46WW/moc_ccGLWidget.cpp
+/home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_glWindow/QCC_GL_LIB_autogen/EWIEGA46WW/moc_ccGLWidget.cpp
 EWIEGA46WW/moc_ccGLWindow.cpp
-/home/debster/DELETETHiS/qCMAT/build/libs/qCC_glWindow/QCC_GL_LIB_autogen/EWIEGA46WW/moc_ccGLWindow.cpp
+/home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_glWindow/QCC_GL_LIB_autogen/EWIEGA46WW/moc_ccGLWindow.cpp
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_glWindow/ccGLUtils.cpp
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_glWindow/ccGLUtils.cpp
 ccGLUtils.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_glWindow/ccGLUtils.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_glWindow/ccGLUtils.h
 QOpenGLTexture
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_glWindow/ccGLUtils.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_glWindow/ccGLUtils.h
 ccIncludeGL.h
 -
 QImage
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_glWindow/ccGLWindow.cpp
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_glWindow/ccGLWindow.cpp
 ccGLWindow.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_glWindow/ccGLWindow.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_glWindow/ccGLWindow.h
 ccRenderingTools.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_glWindow/ccRenderingTools.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_glWindow/ccRenderingTools.h
 cc2DLabel.h
 -
 ccClipBox.h
@@ -578,11 +578,11 @@ QDir
 QOpenGLPaintDevice
 -
 oculus/ccOculus.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_glWindow/oculus/ccOculus.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_glWindow/oculus/ccOculus.h
 vld.h
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_glWindow/ccGLWindow.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_glWindow/ccGLWindow.h
 ccDrawableObject.h
 -
 ccGenericGLDisplay.h
@@ -590,7 +590,7 @@ ccGenericGLDisplay.h
 ccGLUtils.h
 -
 ccGuiParameters.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_glWindow/ccGuiParameters.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_glWindow/ccGuiParameters.h
 QElapsedTimer
 -
 QOpenGLExtensions
@@ -608,9 +608,9 @@ list
 unordered_set
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_glWindow/ccGuiParameters.cpp
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_glWindow/ccGuiParameters.cpp
 ccGuiParameters.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_glWindow/ccGuiParameters.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_glWindow/ccGuiParameters.h
 QSettings
 -
 ccBasicTypes.h
@@ -620,17 +620,17 @@ ccSingleton.h
 string.h
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_glWindow/ccGuiParameters.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_glWindow/ccGuiParameters.h
 QString
 -
 ccColorTypes.h
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_glWindow/ccRenderingTools.cpp
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_glWindow/ccRenderingTools.cpp
 ccRenderingTools.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_glWindow/ccRenderingTools.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_glWindow/ccRenderingTools.h
 ccGLWindow.h
-/home/debster/DELETETHiS/qCMAT/libs/qCC_glWindow/ccGLWindow.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_glWindow/ccGLWindow.h
 ccColorScalesManager.h
 -
 ccGBLSensor.h
@@ -646,11 +646,11 @@ QLabel
 QVBoxLayout
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_glWindow/ccRenderingTools.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_glWindow/ccRenderingTools.h
 ccDrawableObject.h
 -
 
-/home/debster/DELETETHiS/qCMAT/libs/qCC_glWindow/oculus/ccOculus.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qCC_glWindow/oculus/ccOculus.h
 ccIncludeGL.h
 -
 ccLog.h

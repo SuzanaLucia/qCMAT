@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'qcustomplot.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.11.0)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.10.1)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -14,7 +14,7 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'qcustomplot.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.11.0. It"
+#error "This file was generated using the moc from 5.10.1. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -409,7 +409,7 @@ void QCPLayerable::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
         {
-            using _t = void (QCPLayerable::*)(QCPLayer * );
+            typedef void (QCPLayerable::*_t)(QCPLayer * );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QCPLayerable::layerChanged)) {
                 *result = 0;
                 return;
@@ -1558,42 +1558,42 @@ void QCPAxis::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, voi
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
         {
-            using _t = void (QCPAxis::*)();
+            typedef void (QCPAxis::*_t)();
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QCPAxis::ticksRequest)) {
                 *result = 0;
                 return;
             }
         }
         {
-            using _t = void (QCPAxis::*)(const QCPRange & );
+            typedef void (QCPAxis::*_t)(const QCPRange & );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QCPAxis::rangeChanged)) {
                 *result = 1;
                 return;
             }
         }
         {
-            using _t = void (QCPAxis::*)(const QCPRange & , const QCPRange & );
+            typedef void (QCPAxis::*_t)(const QCPRange & , const QCPRange & );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QCPAxis::rangeChanged)) {
                 *result = 2;
                 return;
             }
         }
         {
-            using _t = void (QCPAxis::*)(QCPAxis::ScaleType );
+            typedef void (QCPAxis::*_t)(QCPAxis::ScaleType );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QCPAxis::scaleTypeChanged)) {
                 *result = 3;
                 return;
             }
         }
         {
-            using _t = void (QCPAxis::*)(const QCPAxis::SelectableParts & );
+            typedef void (QCPAxis::*_t)(const QCPAxis::SelectableParts & );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QCPAxis::selectionChanged)) {
                 *result = 4;
                 return;
             }
         }
         {
-            using _t = void (QCPAxis::*)(const QCPAxis::SelectableParts & );
+            typedef void (QCPAxis::*_t)(const QCPAxis::SelectableParts & );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QCPAxis::selectableChanged)) {
                 *result = 5;
                 return;
@@ -1944,14 +1944,14 @@ void QCPAbstractPlottable::qt_static_metacall(QObject *_o, QMetaObject::Call _c,
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
         {
-            using _t = void (QCPAbstractPlottable::*)(bool );
+            typedef void (QCPAbstractPlottable::*_t)(bool );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QCPAbstractPlottable::selectionChanged)) {
                 *result = 0;
                 return;
             }
         }
         {
-            using _t = void (QCPAbstractPlottable::*)(bool );
+            typedef void (QCPAbstractPlottable::*_t)(bool );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QCPAbstractPlottable::selectableChanged)) {
                 *result = 1;
                 return;
@@ -2166,14 +2166,14 @@ void QCPAbstractItem::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int 
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
         {
-            using _t = void (QCPAbstractItem::*)(bool );
+            typedef void (QCPAbstractItem::*_t)(bool );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QCPAbstractItem::selectionChanged)) {
                 *result = 0;
                 return;
             }
         }
         {
-            using _t = void (QCPAbstractItem::*)(bool );
+            typedef void (QCPAbstractItem::*_t)(bool );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QCPAbstractItem::selectableChanged)) {
                 *result = 1;
                 return;
@@ -2579,126 +2579,126 @@ void QCustomPlot::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
         {
-            using _t = void (QCustomPlot::*)(QMouseEvent * );
+            typedef void (QCustomPlot::*_t)(QMouseEvent * );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QCustomPlot::mouseDoubleClick)) {
                 *result = 0;
                 return;
             }
         }
         {
-            using _t = void (QCustomPlot::*)(QMouseEvent * );
+            typedef void (QCustomPlot::*_t)(QMouseEvent * );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QCustomPlot::mousePress)) {
                 *result = 1;
                 return;
             }
         }
         {
-            using _t = void (QCustomPlot::*)(QMouseEvent * );
+            typedef void (QCustomPlot::*_t)(QMouseEvent * );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QCustomPlot::mouseMove)) {
                 *result = 2;
                 return;
             }
         }
         {
-            using _t = void (QCustomPlot::*)(QMouseEvent * );
+            typedef void (QCustomPlot::*_t)(QMouseEvent * );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QCustomPlot::mouseRelease)) {
                 *result = 3;
                 return;
             }
         }
         {
-            using _t = void (QCustomPlot::*)(QWheelEvent * );
+            typedef void (QCustomPlot::*_t)(QWheelEvent * );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QCustomPlot::mouseWheel)) {
                 *result = 4;
                 return;
             }
         }
         {
-            using _t = void (QCustomPlot::*)(QCPAbstractPlottable * , QMouseEvent * );
+            typedef void (QCustomPlot::*_t)(QCPAbstractPlottable * , QMouseEvent * );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QCustomPlot::plottableClick)) {
                 *result = 5;
                 return;
             }
         }
         {
-            using _t = void (QCustomPlot::*)(QCPAbstractPlottable * , QMouseEvent * );
+            typedef void (QCustomPlot::*_t)(QCPAbstractPlottable * , QMouseEvent * );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QCustomPlot::plottableDoubleClick)) {
                 *result = 6;
                 return;
             }
         }
         {
-            using _t = void (QCustomPlot::*)(QCPAbstractItem * , QMouseEvent * );
+            typedef void (QCustomPlot::*_t)(QCPAbstractItem * , QMouseEvent * );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QCustomPlot::itemClick)) {
                 *result = 7;
                 return;
             }
         }
         {
-            using _t = void (QCustomPlot::*)(QCPAbstractItem * , QMouseEvent * );
+            typedef void (QCustomPlot::*_t)(QCPAbstractItem * , QMouseEvent * );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QCustomPlot::itemDoubleClick)) {
                 *result = 8;
                 return;
             }
         }
         {
-            using _t = void (QCustomPlot::*)(QCPAxis * , QCPAxis::SelectablePart , QMouseEvent * );
+            typedef void (QCustomPlot::*_t)(QCPAxis * , QCPAxis::SelectablePart , QMouseEvent * );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QCustomPlot::axisClick)) {
                 *result = 9;
                 return;
             }
         }
         {
-            using _t = void (QCustomPlot::*)(QCPAxis * , QCPAxis::SelectablePart , QMouseEvent * );
+            typedef void (QCustomPlot::*_t)(QCPAxis * , QCPAxis::SelectablePart , QMouseEvent * );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QCustomPlot::axisDoubleClick)) {
                 *result = 10;
                 return;
             }
         }
         {
-            using _t = void (QCustomPlot::*)(QCPLegend * , QCPAbstractLegendItem * , QMouseEvent * );
+            typedef void (QCustomPlot::*_t)(QCPLegend * , QCPAbstractLegendItem * , QMouseEvent * );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QCustomPlot::legendClick)) {
                 *result = 11;
                 return;
             }
         }
         {
-            using _t = void (QCustomPlot::*)(QCPLegend * , QCPAbstractLegendItem * , QMouseEvent * );
+            typedef void (QCustomPlot::*_t)(QCPLegend * , QCPAbstractLegendItem * , QMouseEvent * );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QCustomPlot::legendDoubleClick)) {
                 *result = 12;
                 return;
             }
         }
         {
-            using _t = void (QCustomPlot::*)(QMouseEvent * , QCPPlotTitle * );
+            typedef void (QCustomPlot::*_t)(QMouseEvent * , QCPPlotTitle * );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QCustomPlot::titleClick)) {
                 *result = 13;
                 return;
             }
         }
         {
-            using _t = void (QCustomPlot::*)(QMouseEvent * , QCPPlotTitle * );
+            typedef void (QCustomPlot::*_t)(QMouseEvent * , QCPPlotTitle * );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QCustomPlot::titleDoubleClick)) {
                 *result = 14;
                 return;
             }
         }
         {
-            using _t = void (QCustomPlot::*)();
+            typedef void (QCustomPlot::*_t)();
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QCustomPlot::selectionChangedByUser)) {
                 *result = 15;
                 return;
             }
         }
         {
-            using _t = void (QCustomPlot::*)();
+            typedef void (QCustomPlot::*_t)();
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QCustomPlot::beforeReplot)) {
                 *result = 16;
                 return;
             }
         }
         {
-            using _t = void (QCustomPlot::*)();
+            typedef void (QCustomPlot::*_t)();
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QCustomPlot::afterReplot)) {
                 *result = 17;
                 return;
@@ -3234,14 +3234,14 @@ void QCPAbstractLegendItem::qt_static_metacall(QObject *_o, QMetaObject::Call _c
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
         {
-            using _t = void (QCPAbstractLegendItem::*)(bool );
+            typedef void (QCPAbstractLegendItem::*_t)(bool );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QCPAbstractLegendItem::selectionChanged)) {
                 *result = 0;
                 return;
             }
         }
         {
-            using _t = void (QCPAbstractLegendItem::*)(bool );
+            typedef void (QCPAbstractLegendItem::*_t)(bool );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QCPAbstractLegendItem::selectableChanged)) {
                 *result = 1;
                 return;
@@ -3565,14 +3565,14 @@ void QCPLegend::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
         {
-            using _t = void (QCPLegend::*)(QCPLegend::SelectableParts );
+            typedef void (QCPLegend::*_t)(QCPLegend::SelectableParts );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QCPLegend::selectionChanged)) {
                 *result = 0;
                 return;
             }
         }
         {
-            using _t = void (QCPLegend::*)(QCPLegend::SelectableParts );
+            typedef void (QCPLegend::*_t)(QCPLegend::SelectableParts );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QCPLegend::selectableChanged)) {
                 *result = 1;
                 return;
@@ -3791,14 +3791,14 @@ void QCPPlotTitle::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
         {
-            using _t = void (QCPPlotTitle::*)(bool );
+            typedef void (QCPPlotTitle::*_t)(bool );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QCPPlotTitle::selectionChanged)) {
                 *result = 0;
                 return;
             }
         }
         {
-            using _t = void (QCPPlotTitle::*)(bool );
+            typedef void (QCPPlotTitle::*_t)(bool );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QCPPlotTitle::selectableChanged)) {
                 *result = 1;
                 return;
@@ -4124,21 +4124,21 @@ void QCPColorScale::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
         {
-            using _t = void (QCPColorScale::*)(QCPRange );
+            typedef void (QCPColorScale::*_t)(QCPRange );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QCPColorScale::dataRangeChanged)) {
                 *result = 0;
                 return;
             }
         }
         {
-            using _t = void (QCPColorScale::*)(QCPAxis::ScaleType );
+            typedef void (QCPColorScale::*_t)(QCPAxis::ScaleType );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QCPColorScale::dataScaleTypeChanged)) {
                 *result = 1;
                 return;
             }
         }
         {
-            using _t = void (QCPColorScale::*)(QCPColorGradient );
+            typedef void (QCPColorScale::*_t)(QCPColorGradient );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QCPColorScale::gradientChanged)) {
                 *result = 2;
                 return;
@@ -5124,21 +5124,21 @@ void QCPColorMap::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
         {
-            using _t = void (QCPColorMap::*)(QCPRange );
+            typedef void (QCPColorMap::*_t)(QCPRange );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QCPColorMap::dataRangeChanged)) {
                 *result = 0;
                 return;
             }
         }
         {
-            using _t = void (QCPColorMap::*)(QCPAxis::ScaleType );
+            typedef void (QCPColorMap::*_t)(QCPAxis::ScaleType );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QCPColorMap::dataScaleTypeChanged)) {
                 *result = 1;
                 return;
             }
         }
         {
-            using _t = void (QCPColorMap::*)(QCPColorGradient );
+            typedef void (QCPColorMap::*_t)(QCPColorGradient );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QCPColorMap::gradientChanged)) {
                 *result = 2;
                 return;

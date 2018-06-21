@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/debster/DELETETHiS/qCMAT
+CMAKE_SOURCE_DIR = /home/chrome/work/CloudCompare/qCMAT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/debster/DELETETHiS/qCMAT/build
+CMAKE_BINARY_DIR = /home/chrome/work/CloudCompare/qCMAT/build
 
 # Include any dependencies generated for this target.
 include libs/qcustomplot/CMakeFiles/qcustomplot.dir/depend.make
@@ -59,29 +59,29 @@ include libs/qcustomplot/CMakeFiles/qcustomplot.dir/flags.make
 
 libs/qcustomplot/CMakeFiles/qcustomplot.dir/qcustomplot.cpp.o: libs/qcustomplot/CMakeFiles/qcustomplot.dir/flags.make
 libs/qcustomplot/CMakeFiles/qcustomplot.dir/qcustomplot.cpp.o: ../libs/qcustomplot/qcustomplot.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libs/qcustomplot/CMakeFiles/qcustomplot.dir/qcustomplot.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/libs/qcustomplot && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qcustomplot.dir/qcustomplot.cpp.o -c /home/debster/DELETETHiS/qCMAT/libs/qcustomplot/qcustomplot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libs/qcustomplot/CMakeFiles/qcustomplot.dir/qcustomplot.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/libs/qcustomplot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qcustomplot.dir/qcustomplot.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/libs/qcustomplot/qcustomplot.cpp
 
 libs/qcustomplot/CMakeFiles/qcustomplot.dir/qcustomplot.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qcustomplot.dir/qcustomplot.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/libs/qcustomplot && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/libs/qcustomplot/qcustomplot.cpp > CMakeFiles/qcustomplot.dir/qcustomplot.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/libs/qcustomplot && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/libs/qcustomplot/qcustomplot.cpp > CMakeFiles/qcustomplot.dir/qcustomplot.cpp.i
 
 libs/qcustomplot/CMakeFiles/qcustomplot.dir/qcustomplot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qcustomplot.dir/qcustomplot.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/libs/qcustomplot && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/libs/qcustomplot/qcustomplot.cpp -o CMakeFiles/qcustomplot.dir/qcustomplot.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/libs/qcustomplot && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/libs/qcustomplot/qcustomplot.cpp -o CMakeFiles/qcustomplot.dir/qcustomplot.cpp.s
 
 libs/qcustomplot/CMakeFiles/qcustomplot.dir/qcustomplot_autogen/mocs_compilation.cpp.o: libs/qcustomplot/CMakeFiles/qcustomplot.dir/flags.make
 libs/qcustomplot/CMakeFiles/qcustomplot.dir/qcustomplot_autogen/mocs_compilation.cpp.o: libs/qcustomplot/qcustomplot_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libs/qcustomplot/CMakeFiles/qcustomplot.dir/qcustomplot_autogen/mocs_compilation.cpp.o"
-	cd /home/debster/DELETETHiS/qCMAT/build/libs/qcustomplot && /bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qcustomplot.dir/qcustomplot_autogen/mocs_compilation.cpp.o -c /home/debster/DELETETHiS/qCMAT/build/libs/qcustomplot/qcustomplot_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libs/qcustomplot/CMakeFiles/qcustomplot.dir/qcustomplot_autogen/mocs_compilation.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/libs/qcustomplot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qcustomplot.dir/qcustomplot_autogen/mocs_compilation.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/build/libs/qcustomplot/qcustomplot_autogen/mocs_compilation.cpp
 
 libs/qcustomplot/CMakeFiles/qcustomplot.dir/qcustomplot_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qcustomplot.dir/qcustomplot_autogen/mocs_compilation.cpp.i"
-	cd /home/debster/DELETETHiS/qCMAT/build/libs/qcustomplot && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/debster/DELETETHiS/qCMAT/build/libs/qcustomplot/qcustomplot_autogen/mocs_compilation.cpp > CMakeFiles/qcustomplot.dir/qcustomplot_autogen/mocs_compilation.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build/libs/qcustomplot && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/build/libs/qcustomplot/qcustomplot_autogen/mocs_compilation.cpp > CMakeFiles/qcustomplot.dir/qcustomplot_autogen/mocs_compilation.cpp.i
 
 libs/qcustomplot/CMakeFiles/qcustomplot.dir/qcustomplot_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qcustomplot.dir/qcustomplot_autogen/mocs_compilation.cpp.s"
-	cd /home/debster/DELETETHiS/qCMAT/build/libs/qcustomplot && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/debster/DELETETHiS/qCMAT/build/libs/qcustomplot/qcustomplot_autogen/mocs_compilation.cpp -o CMakeFiles/qcustomplot.dir/qcustomplot_autogen/mocs_compilation.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build/libs/qcustomplot && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/build/libs/qcustomplot/qcustomplot_autogen/mocs_compilation.cpp -o CMakeFiles/qcustomplot.dir/qcustomplot_autogen/mocs_compilation.cpp.s
 
 # Object files for target qcustomplot
 qcustomplot_OBJECTS = \
@@ -95,9 +95,9 @@ libs/qcustomplot/libqcustomplot.a: libs/qcustomplot/CMakeFiles/qcustomplot.dir/q
 libs/qcustomplot/libqcustomplot.a: libs/qcustomplot/CMakeFiles/qcustomplot.dir/qcustomplot_autogen/mocs_compilation.cpp.o
 libs/qcustomplot/libqcustomplot.a: libs/qcustomplot/CMakeFiles/qcustomplot.dir/build.make
 libs/qcustomplot/libqcustomplot.a: libs/qcustomplot/CMakeFiles/qcustomplot.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libqcustomplot.a"
-	cd /home/debster/DELETETHiS/qCMAT/build/libs/qcustomplot && $(CMAKE_COMMAND) -P CMakeFiles/qcustomplot.dir/cmake_clean_target.cmake
-	cd /home/debster/DELETETHiS/qCMAT/build/libs/qcustomplot && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/qcustomplot.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libqcustomplot.a"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/libs/qcustomplot && $(CMAKE_COMMAND) -P CMakeFiles/qcustomplot.dir/cmake_clean_target.cmake
+	cd /home/chrome/work/CloudCompare/qCMAT/build/libs/qcustomplot && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/qcustomplot.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 libs/qcustomplot/CMakeFiles/qcustomplot.dir/build: libs/qcustomplot/libqcustomplot.a
@@ -105,10 +105,10 @@ libs/qcustomplot/CMakeFiles/qcustomplot.dir/build: libs/qcustomplot/libqcustompl
 .PHONY : libs/qcustomplot/CMakeFiles/qcustomplot.dir/build
 
 libs/qcustomplot/CMakeFiles/qcustomplot.dir/clean:
-	cd /home/debster/DELETETHiS/qCMAT/build/libs/qcustomplot && $(CMAKE_COMMAND) -P CMakeFiles/qcustomplot.dir/cmake_clean.cmake
+	cd /home/chrome/work/CloudCompare/qCMAT/build/libs/qcustomplot && $(CMAKE_COMMAND) -P CMakeFiles/qcustomplot.dir/cmake_clean.cmake
 .PHONY : libs/qcustomplot/CMakeFiles/qcustomplot.dir/clean
 
 libs/qcustomplot/CMakeFiles/qcustomplot.dir/depend:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/debster/DELETETHiS/qCMAT /home/debster/DELETETHiS/qCMAT/libs/qcustomplot /home/debster/DELETETHiS/qCMAT/build /home/debster/DELETETHiS/qCMAT/build/libs/qcustomplot /home/debster/DELETETHiS/qCMAT/build/libs/qcustomplot/CMakeFiles/qcustomplot.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chrome/work/CloudCompare/qCMAT /home/chrome/work/CloudCompare/qCMAT/libs/qcustomplot /home/chrome/work/CloudCompare/qCMAT/build /home/chrome/work/CloudCompare/qCMAT/build/libs/qcustomplot /home/chrome/work/CloudCompare/qCMAT/build/libs/qcustomplot/CMakeFiles/qcustomplot.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libs/qcustomplot/CMakeFiles/qcustomplot.dir/depend
 

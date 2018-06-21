@@ -1,4 +1,4 @@
-# Install script for directory: /home/debster/DELETETHiS/qCMAT/libs/CCFbo
+# Install script for directory: /home/chrome/work/CloudCompare/qCMAT/libs/CCFbo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

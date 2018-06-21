@@ -1,4 +1,4 @@
-# Install script for directory: /home/debster/DELETETHiS/qCMAT/qCC
+# Install script for directory: /home/chrome/work/CloudCompare/qCMAT/qCC
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,47 +44,47 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/CloudCompare"
          RPATH "/usr/local/lib/cloudcompare")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/debster/DELETETHiS/qCMAT/build/qCC/CloudCompare")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/chrome/work/CloudCompare/qCMAT/build/qCC/CloudCompare")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/CloudCompare" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/CloudCompare")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/CloudCompare"
-         OLD_RPATH "/home/debster/DELETETHiS/qCMAT/build/libs/qCC_io:/home/debster/DELETETHiS/qCMAT/build/libs/qCC_db:/home/debster/DELETETHiS/qCMAT/build/CC:"
+         OLD_RPATH "/home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_io:/home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_db:/home/chrome/work/CloudCompare/qCMAT/build/CC:"
          NEW_RPATH "/usr/local/lib/cloudcompare")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/CloudCompare")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/CloudCompare")
     endif()
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cloudcompare" TYPE FILE FILES "/home/debster/DELETETHiS/qCMAT/CHANGELOG.md")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cloudcompare" TYPE FILE FILES "/home/chrome/work/CloudCompare/qCMAT/CHANGELOG.md")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cloudcompare" TYPE FILE FILES "/home/debster/DELETETHiS/qCMAT/qCC/bin_other/license.txt")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cloudcompare" TYPE FILE FILES "/home/chrome/work/CloudCompare/qCMAT/qCC/bin_other/license.txt")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cloudcompare" TYPE FILE FILES "/home/debster/DELETETHiS/qCMAT/qCC/bin_other/global_shift_list_template.txt")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cloudcompare" TYPE FILE FILES "/home/chrome/work/CloudCompare/qCMAT/qCC/bin_other/global_shift_list_template.txt")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cloudcompare/shaders/Bilateral" TYPE FILE FILES "/home/debster/DELETETHiS/qCMAT/libs/CCFbo/shaders/Bilateral/bilateral.frag")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cloudcompare/shaders/Bilateral" TYPE FILE FILES "/home/chrome/work/CloudCompare/qCMAT/libs/CCFbo/shaders/Bilateral/bilateral.frag")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cloudcompare/shaders/Bilateral" TYPE FILE FILES "/home/debster/DELETETHiS/qCMAT/libs/CCFbo/shaders/Bilateral/bilateral.vert")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cloudcompare/shaders/Bilateral" TYPE FILE FILES "/home/chrome/work/CloudCompare/qCMAT/libs/CCFbo/shaders/Bilateral/bilateral.vert")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cloudcompare/shaders/ColorRamp" TYPE FILE FILES "/home/debster/DELETETHiS/qCMAT/qCC/shaders/ColorRamp/color_ramp.frag")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cloudcompare/shaders/ColorRamp" TYPE FILE FILES "/home/chrome/work/CloudCompare/qCMAT/qCC/shaders/ColorRamp/color_ramp.frag")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/debster/DELETETHiS/qCMAT/build/qCC/db_tree/cmake_install.cmake")
-  include("/home/debster/DELETETHiS/qCMAT/build/qCC/pluginManager/cmake_install.cmake")
+  include("/home/chrome/work/CloudCompare/qCMAT/build/qCC/db_tree/cmake_install.cmake")
+  include("/home/chrome/work/CloudCompare/qCMAT/build/qCC/pluginManager/cmake_install.cmake")
 
 endif()
 

@@ -18,39 +18,39 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/QCC_DB_LIB_autogen/mocs_compilation.cpp.o
  ../CC/include/ReferenceCloud.h
  ../CC/include/SquareMatrix.h
  ../libs/CCFbo/include/ccShader.h
- /home/debster/DELETETHiS/qCMAT/build/libs/qCC_db/QCC_DB_LIB_autogen/EWIEGA46WW/moc_ccClipBox.cpp
- /home/debster/DELETETHiS/qCMAT/build/libs/qCC_db/QCC_DB_LIB_autogen/EWIEGA46WW/moc_ccColorRampShader.cpp
- /home/debster/DELETETHiS/qCMAT/build/libs/qCC_db/QCC_DB_LIB_autogen/EWIEGA46WW/moc_ccOctree.cpp
- /home/debster/DELETETHiS/qCMAT/build/libs/qCC_db/QCC_DB_LIB_autogen/EWIEGA46WW/moc_ccOctreeSpinBox.cpp
- /home/debster/DELETETHiS/qCMAT/build/libs/qCC_db/QCC_DB_LIB_autogen/EWIEGA46WW/moc_ccProgressDialog.cpp
- /home/debster/DELETETHiS/qCMAT/build/libs/qCC_db/QCC_DB_LIB_autogen/mocs_compilation.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccAdvancedTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBasicTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccChunkedArray.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccClipBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorRampShader.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorScale.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLDrawContext.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIncludeGL.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccInteractor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalCompressor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccOctree.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccOctreeSpinBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccProgressDialog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccShiftedObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_db/QCC_DB_LIB_autogen/EWIEGA46WW/moc_ccClipBox.cpp
+ /home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_db/QCC_DB_LIB_autogen/EWIEGA46WW/moc_ccColorRampShader.cpp
+ /home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_db/QCC_DB_LIB_autogen/EWIEGA46WW/moc_ccOctree.cpp
+ /home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_db/QCC_DB_LIB_autogen/EWIEGA46WW/moc_ccOctreeSpinBox.cpp
+ /home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_db/QCC_DB_LIB_autogen/EWIEGA46WW/moc_ccProgressDialog.cpp
+ /home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_db/QCC_DB_LIB_autogen/mocs_compilation.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccAdvancedTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBasicTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccChunkedArray.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccClipBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorRampShader.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorScale.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLDrawContext.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIncludeGL.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccInteractor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterial.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalCompressor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccOctree.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccOctreeSpinBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccProgressDialog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccShiftedObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QAtomicInt
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
@@ -220,39 +220,39 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/cc2DLabel.cpp.o
  ../CC/include/ScalarField.h
  ../CC/include/SimpleTriangle.h
  ../CC/include/SquareMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/cc2DLabel.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/cc2DLabel.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccAdvancedTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBasicTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccChunkedArray.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorScale.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLDrawContext.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPrimitive.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIncludeGL.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccInteractor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalCompressor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalVectors.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccOctree.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccScalarField.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccShiftedObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSphere.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccWaveform.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/cc2DLabel.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/cc2DLabel.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccAdvancedTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBasicTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccChunkedArray.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorScale.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLDrawContext.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPrimitive.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIncludeGL.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccInteractor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterial.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalCompressor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalVectors.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccOctree.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccScalarField.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccShiftedObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSphere.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccWaveform.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QObject
@@ -396,23 +396,23 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/cc2DViewportLabel.cpp.o
  ../CC/include/CCTypes.h
  ../CC/include/GenericChunkedArray.h
  ../CC/include/SquareMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/cc2DViewportLabel.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/cc2DViewportLabel.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/cc2DViewportObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLDrawContext.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIncludeGL.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/cc2DViewportLabel.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/cc2DViewportLabel.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/cc2DViewportObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLDrawContext.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIncludeGL.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterial.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QObject
@@ -521,22 +521,22 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/cc2DViewportObject.cpp.o
  ../CC/include/CCTypes.h
  ../CC/include/GenericChunkedArray.h
  ../CC/include/SquareMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/cc2DViewportObject.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/cc2DViewportObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLDrawContext.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIncludeGL.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/cc2DViewportObject.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/cc2DViewportObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLDrawContext.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIncludeGL.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterial.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QObject
@@ -640,24 +640,24 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccAdvancedTypes.cpp.o
  ../CC/include/CCTypes.h
  ../CC/include/GenericChunkedArray.h
  ../CC/include/SquareMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccAdvancedTypes.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccAdvancedTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBasicTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccChunkedArray.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLDrawContext.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIncludeGL.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalCompressor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccAdvancedTypes.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccAdvancedTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBasicTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccChunkedArray.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLDrawContext.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIncludeGL.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterial.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalCompressor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QObject
@@ -757,18 +757,18 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccBBox.cpp.o
  ../CC/include/CCTypes.h
  ../CC/include/GenericChunkedArray.h
  ../CC/include/SquareMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBBox.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLDrawContext.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIncludeGL.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBBox.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLDrawContext.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIncludeGL.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterial.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QObject
@@ -886,35 +886,35 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccBox.cpp.o
  ../libs/qCC_db/ccGLDrawContext.h
  ../libs/qCC_db/ccIncludeGL.h
  ../libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccAdvancedTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBasicTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBox.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccChunkedArray.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorScale.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPrimitive.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalCompressor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalVectors.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccOctree.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPlanarEntityInterface.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPlane.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccShiftedObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccWaveform.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccAdvancedTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBasicTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBox.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccChunkedArray.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorScale.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPrimitive.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalCompressor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalVectors.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccOctree.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPlanarEntityInterface.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPlane.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccShiftedObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccWaveform.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QObject
@@ -1074,39 +1074,39 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccCameraSensor.cpp.o
  ../CC/include/ReferenceCloud.h
  ../CC/include/SimpleTriangle.h
  ../CC/include/SquareMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccAdvancedTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBasicTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccCameraSensor.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccCameraSensor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccChunkedArray.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorScale.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLDrawContext.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccImage.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIncludeGL.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIndexedTransformation.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIndexedTransformationBuffer.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalCompressor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalVectors.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccOctree.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSensor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccShiftedObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccWaveform.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccAdvancedTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBasicTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccCameraSensor.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccCameraSensor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccChunkedArray.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorScale.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLDrawContext.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccImage.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIncludeGL.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIndexedTransformation.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIndexedTransformationBuffer.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterial.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalCompressor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalVectors.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccOctree.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSensor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccShiftedObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccWaveform.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QDir
  /usr/include/qt/QtCore/QFile
@@ -1264,38 +1264,38 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccClipBox.cpp.o
  ../CC/include/ReferenceCloud.h
  ../CC/include/SimpleTriangle.h
  ../CC/include/SquareMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccAdvancedTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBasicTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccChunkedArray.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccClipBox.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccClipBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccCone.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccCylinder.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLDrawContext.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPrimitive.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObjectCaster.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIncludeGL.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccInteractor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalCompressor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccOctree.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccShiftedObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSphere.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccTorus.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccAdvancedTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBasicTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccChunkedArray.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccClipBox.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccClipBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccCone.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccCylinder.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLDrawContext.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPrimitive.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObjectCaster.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIncludeGL.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccInteractor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterial.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalCompressor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccOctree.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccShiftedObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSphere.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccTorus.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QObject
@@ -1401,16 +1401,16 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccColorRampShader.cpp.o
  ../CC/include/GenericChunkedArray.h
  ../CC/include/SquareMatrix.h
  ../libs/CCFbo/include/ccShader.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorRampShader.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorRampShader.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorScale.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIncludeGL.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorRampShader.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorRampShader.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorScale.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIncludeGL.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QObject
@@ -1527,12 +1527,12 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccColorScale.cpp.o
  ../CC/include/CCShareable.h
  ../CC/include/CCTypes.h
  ../CC/include/GenericChunkedArray.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorScale.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorScale.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorScale.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorScale.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QSharedPointer
@@ -1634,14 +1634,14 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccColorScalesManager.cpp.o
  ../CC/include/CCTypes.h
  ../CC/include/GenericChunkedArray.h
  ../CC/include/MeshSamplingTools.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorScale.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorScalesManager.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorScalesManager.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSingleton.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorScale.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorScalesManager.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorScalesManager.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSingleton.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QMap
@@ -1734,9 +1734,9 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccColorScalesManager.cpp.o
  /usr/include/qt/QtGui/qwindowdefs.h
  /usr/include/qt/QtGui/qwindowdefs_win.h
 libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccColorTypes.cpp.o
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/qalgorithms.h
  /usr/include/qt/QtCore/qarraydata.h
  /usr/include/qt/QtCore/qatomic.h
@@ -1807,36 +1807,36 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccCone.cpp.o
  ../CC/include/ReferenceCloud.h
  ../CC/include/SimpleTriangle.h
  ../CC/include/SquareMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccAdvancedTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBasicTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccChunkedArray.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorScale.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccCone.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccCone.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLDrawContext.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPrimitive.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIncludeGL.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalCompressor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalVectors.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccOctree.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccShiftedObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccWaveform.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccAdvancedTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBasicTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccChunkedArray.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorScale.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccCone.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccCone.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLDrawContext.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPrimitive.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIncludeGL.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterial.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalCompressor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalVectors.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccOctree.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccShiftedObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccWaveform.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QObject
@@ -1984,30 +1984,30 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccCylinder.cpp.o
  ../CC/include/PointProjectionTools.h
  ../CC/include/SimpleTriangle.h
  ../CC/include/SquareMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccAdvancedTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBasicTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccChunkedArray.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccCone.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccCylinder.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccCylinder.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLDrawContext.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPrimitive.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIncludeGL.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalCompressor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccAdvancedTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBasicTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccChunkedArray.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccCone.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccCylinder.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccCylinder.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLDrawContext.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPrimitive.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIncludeGL.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterial.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalCompressor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QObject
@@ -2127,36 +2127,36 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccDish.cpp.o
  ../CC/include/ReferenceCloud.h
  ../CC/include/SimpleTriangle.h
  ../CC/include/SquareMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccAdvancedTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBasicTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccChunkedArray.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorScale.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDish.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDish.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLDrawContext.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPrimitive.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIncludeGL.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalCompressor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalVectors.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccOctree.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccShiftedObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccWaveform.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccAdvancedTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBasicTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccChunkedArray.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorScale.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDish.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDish.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLDrawContext.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPrimitive.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIncludeGL.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterial.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalCompressor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalVectors.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccOctree.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccShiftedObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccWaveform.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QObject
@@ -2298,18 +2298,18 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccDrawableObject.cpp.o
  ../CC/include/CCTypes.h
  ../CC/include/GenericChunkedArray.h
  ../CC/include/SquareMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLDrawContext.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIncludeGL.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLDrawContext.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIncludeGL.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterial.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QObject
@@ -2412,21 +2412,21 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccExternalFactory.cpp.o
  ../CC/include/CCTypes.h
  ../CC/include/GenericChunkedArray.h
  ../CC/include/SquareMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccExternalFactory.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccExternalFactory.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLDrawContext.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIncludeGL.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccExternalFactory.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccExternalFactory.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLDrawContext.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIncludeGL.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterial.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QMap
@@ -2544,36 +2544,36 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccExtru.cpp.o
  ../CC/include/ReferenceCloud.h
  ../CC/include/SimpleTriangle.h
  ../CC/include/SquareMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccAdvancedTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBasicTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccChunkedArray.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorScale.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccExtru.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccExtru.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLDrawContext.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPrimitive.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIncludeGL.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalCompressor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalVectors.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccOctree.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccShiftedObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccWaveform.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccAdvancedTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBasicTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccChunkedArray.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorScale.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccExtru.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccExtru.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLDrawContext.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPrimitive.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIncludeGL.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterial.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalCompressor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalVectors.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccOctree.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccShiftedObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccWaveform.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QObject
@@ -2739,34 +2739,34 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccFacet.cpp.o
  ../libs/qCC_db/ccGLDrawContext.h
  ../libs/qCC_db/ccIncludeGL.h
  ../libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccAdvancedTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBasicTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccChunkedArray.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorScale.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccFacet.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccFacet.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalCompressor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalVectors.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccOctree.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPlanarEntityInterface.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPolyline.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccShiftedObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccWaveform.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccAdvancedTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBasicTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccChunkedArray.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorScale.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccFacet.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccFacet.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalCompressor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalVectors.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccOctree.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPlanarEntityInterface.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPolyline.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccShiftedObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccWaveform.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QObject
@@ -2923,35 +2923,35 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccFastMarchingForNormsDirection.cpp.o
  ../CC/include/ReferenceCloud.h
  ../CC/include/ScalarField.h
  ../CC/include/SquareMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccAdvancedTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBasicTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccChunkedArray.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorScale.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccFastMarchingForNormsDirection.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccFastMarchingForNormsDirection.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLDrawContext.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIncludeGL.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalCompressor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalVectors.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccOctree.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccProgressDialog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccScalarField.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccShiftedObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccWaveform.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccAdvancedTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBasicTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccChunkedArray.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorScale.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccFastMarchingForNormsDirection.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccFastMarchingForNormsDirection.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLDrawContext.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIncludeGL.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterial.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalCompressor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalVectors.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccOctree.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccProgressDialog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccScalarField.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccShiftedObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccWaveform.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QAtomicInt
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
@@ -3117,41 +3117,41 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccGBLSensor.cpp.o
  ../CC/include/ReferenceCloud.h
  ../CC/include/SimpleTriangle.h
  ../CC/include/SquareMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccAdvancedTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBasicTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccChunkedArray.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorScale.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGBLSensor.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGBLSensor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLDrawContext.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPrimitive.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIncludeGL.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIndexedTransformation.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIndexedTransformationBuffer.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalCompressor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalVectors.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccOctree.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccProgressDialog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSensor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccShiftedObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSphere.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccWaveform.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccAdvancedTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBasicTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccChunkedArray.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorScale.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGBLSensor.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGBLSensor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLDrawContext.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPrimitive.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIncludeGL.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIndexedTransformation.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIndexedTransformationBuffer.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterial.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalCompressor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalVectors.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccOctree.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccProgressDialog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSensor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccShiftedObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSphere.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccWaveform.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QAtomicInt
  /usr/include/qt/QtCore/QCoreApplication
  /usr/include/qt/QtCore/QDataStream
@@ -3303,14 +3303,14 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccGenericGLDisplay.cpp.o
  ../CC/include/CCTypes.h
  ../CC/include/GenericChunkedArray.h
  ../CC/include/SquareMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericGLDisplay.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIncludeGL.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericGLDisplay.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIncludeGL.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QObject
@@ -3427,37 +3427,37 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccGenericMesh.cpp.o
  ../CC/include/ScalarField.h
  ../CC/include/SimpleCloud.h
  ../CC/include/SquareMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccAdvancedTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBasicTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccChunkedArray.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorScale.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorScalesManager.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLDrawContext.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericMesh.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObjectCaster.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIncludeGL.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterialSet.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalCompressor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalVectors.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccOctree.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccScalarField.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccShiftedObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccWaveform.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccAdvancedTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBasicTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccChunkedArray.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorScale.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorScalesManager.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLDrawContext.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericMesh.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObjectCaster.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIncludeGL.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterial.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterialSet.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalCompressor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalVectors.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccOctree.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccScalarField.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccShiftedObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccWaveform.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QMap
@@ -3615,38 +3615,38 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccGenericPointCloud.cpp.o
  ../CC/include/ReferenceCloud.h
  ../CC/include/ScalarField.h
  ../CC/include/SquareMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccAdvancedTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBasicTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccChunkedArray.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorScale.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLDrawContext.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPointCloud.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIncludeGL.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIndexedTransformation.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIndexedTransformationBuffer.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalCompressor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalVectors.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccOctree.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccOctreeProxy.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccProgressDialog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccScalarField.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSensor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccShiftedObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccWaveform.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccAdvancedTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBasicTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccChunkedArray.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorScale.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLDrawContext.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPointCloud.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIncludeGL.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIndexedTransformation.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIndexedTransformationBuffer.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterial.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalCompressor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalVectors.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccOctree.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccOctreeProxy.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccProgressDialog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccScalarField.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSensor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccShiftedObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccWaveform.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QAtomicInt
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
@@ -3811,35 +3811,35 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccGenericPrimitive.cpp.o
  ../CC/include/ReferenceCloud.h
  ../CC/include/SimpleTriangle.h
  ../CC/include/SquareMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccAdvancedTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBasicTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccChunkedArray.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorScale.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLDrawContext.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPrimitive.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPrimitive.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIncludeGL.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalCompressor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalVectors.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccOctree.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccShiftedObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccWaveform.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccAdvancedTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBasicTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccChunkedArray.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorScale.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLDrawContext.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPrimitive.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPrimitive.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIncludeGL.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterial.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalCompressor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalVectors.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccOctree.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccShiftedObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccWaveform.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QObject
@@ -3993,37 +3993,37 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccGriddedTools.cpp.o
  ../CC/include/PointProjectionTools.h
  ../CC/include/ReferenceCloud.h
  ../CC/include/SquareMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccAdvancedTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBasicTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccChunkedArray.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorScale.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGBLSensor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLDrawContext.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGriddedTools.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGriddedTools.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIncludeGL.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIndexedTransformation.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIndexedTransformationBuffer.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalCompressor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalVectors.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccOctree.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSensor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccShiftedObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccWaveform.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccAdvancedTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBasicTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccChunkedArray.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorScale.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGBLSensor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLDrawContext.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGriddedTools.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGriddedTools.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIncludeGL.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIndexedTransformation.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIndexedTransformationBuffer.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterial.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalCompressor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalVectors.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccOctree.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSensor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccShiftedObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccWaveform.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QObject
@@ -4184,60 +4184,60 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccHObject.cpp.o
  ../CC/include/SquareMatrix.h
  ../libs/qCC_db/ccGLDrawContext.h
  ../libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/cc2DLabel.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/cc2DViewportLabel.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/cc2DViewportObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccAdvancedTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBasicTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccCameraSensor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccChunkedArray.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorScale.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccCone.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccCustomObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccCylinder.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDish.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccExternalFactory.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccExtru.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccFacet.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGBLSensor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPrimitive.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObject.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccImage.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIncludeGL.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIndexedTransformation.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIndexedTransformationBuffer.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccInteractor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterialSet.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMeshGroup.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalCompressor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalVectors.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccOctree.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPlanarEntityInterface.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPlane.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPolyline.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccQuadric.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSensor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccShiftedObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSphere.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSubMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccTorus.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccWaveform.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/cc2DLabel.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/cc2DViewportLabel.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/cc2DViewportObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccAdvancedTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBasicTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccCameraSensor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccChunkedArray.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorScale.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccCone.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccCustomObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccCylinder.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDish.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccExternalFactory.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccExtru.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccFacet.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGBLSensor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPrimitive.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObject.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccImage.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIncludeGL.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIndexedTransformation.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIndexedTransformationBuffer.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccInteractor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterialSet.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMeshGroup.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalCompressor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalVectors.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccOctree.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPlanarEntityInterface.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPlane.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPolyline.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccQuadric.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSensor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccShiftedObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSphere.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSubMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccTorus.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccWaveform.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QMap
@@ -4406,57 +4406,57 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccHObjectCaster.cpp.o
  ../CC/include/TrueKdTree.h
  ../libs/qCC_db/ccGLDrawContext.h
  ../libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/cc2DLabel.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/cc2DViewportLabel.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/cc2DViewportObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccAdvancedTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBasicTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccCameraSensor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccChunkedArray.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorScale.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccCone.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccCylinder.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDish.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccExtru.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccFacet.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGBLSensor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPrimitive.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObjectCaster.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObjectCaster.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccImage.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIncludeGL.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIndexedTransformation.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIndexedTransformationBuffer.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccInteractor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccKdTree.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalCompressor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalVectors.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccOctree.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccOctreeProxy.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPlanarEntityInterface.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPlane.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPolyline.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSensor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccShiftedObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSphere.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSubMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccTorus.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccWaveform.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/cc2DLabel.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/cc2DViewportLabel.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/cc2DViewportObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccAdvancedTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBasicTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccCameraSensor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccChunkedArray.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorScale.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccCone.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccCylinder.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDish.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccExtru.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccFacet.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGBLSensor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPrimitive.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObjectCaster.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObjectCaster.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccImage.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIncludeGL.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIndexedTransformation.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIndexedTransformationBuffer.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccInteractor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccKdTree.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalCompressor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalVectors.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccOctree.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccOctreeProxy.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPlanarEntityInterface.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPlane.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPolyline.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSensor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccShiftedObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSphere.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSubMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccTorus.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccWaveform.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QObject
@@ -4607,27 +4607,27 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccImage.cpp.o
  ../CC/include/GenericOctree.h
  ../CC/include/ReferenceCloud.h
  ../CC/include/SquareMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccCameraSensor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLDrawContext.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccImage.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccImage.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIncludeGL.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIndexedTransformation.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIndexedTransformationBuffer.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccOctree.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSensor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccCameraSensor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLDrawContext.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccImage.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccImage.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIncludeGL.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIndexedTransformation.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIndexedTransformationBuffer.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterial.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccOctree.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSensor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QFileInfo
@@ -4758,13 +4758,13 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccIndexedTransformation.cpp.o
  ../CC/include/CCTypes.h
  ../CC/include/GenericChunkedArray.h
  ../CC/include/SquareMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIndexedTransformation.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIndexedTransformation.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIndexedTransformation.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIndexedTransformation.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QString
@@ -4844,22 +4844,22 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccIndexedTransformationBuffer.cpp.o
  ../CC/include/GenericChunkedArray.h
  ../CC/include/ParallelSort.h
  ../CC/include/SquareMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLDrawContext.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIncludeGL.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIndexedTransformation.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIndexedTransformationBuffer.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIndexedTransformationBuffer.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLDrawContext.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIncludeGL.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIndexedTransformation.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIndexedTransformationBuffer.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIndexedTransformationBuffer.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterial.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QObject
@@ -4974,34 +4974,34 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccKdTree.cpp.o
  ../CC/include/ScalarField.h
  ../CC/include/SquareMatrix.h
  ../CC/include/TrueKdTree.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccAdvancedTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBasicTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccChunkedArray.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorScale.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLDrawContext.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIncludeGL.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccKdTree.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccKdTree.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalCompressor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalVectors.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccOctree.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccScalarField.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccShiftedObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccWaveform.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccAdvancedTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBasicTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccChunkedArray.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorScale.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLDrawContext.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIncludeGL.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccKdTree.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccKdTree.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterial.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalCompressor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalVectors.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccOctree.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccScalarField.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccShiftedObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccWaveform.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QObject
@@ -5136,9 +5136,9 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccKdTree.cpp.o
  /usr/include/qt/QtWidgets/qwidget.h
 libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccLog.cpp.o
  ../CC/include/CCPlatform.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QString
  /usr/include/qt/QtCore/qarraydata.h
  /usr/include/qt/QtCore/qatomic.h
@@ -5179,15 +5179,15 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccMaterial.cpp.o
  ../CC/include/CCTypes.h
  ../CC/include/GenericChunkedArray.h
  ../CC/include/SquareMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIncludeGL.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterial.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIncludeGL.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterial.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterial.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QObject
@@ -5304,22 +5304,22 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccMaterialSet.cpp.o
  ../CC/include/CCTypes.h
  ../CC/include/GenericChunkedArray.h
  ../CC/include/SquareMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLDrawContext.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIncludeGL.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterialSet.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterialSet.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLDrawContext.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIncludeGL.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterial.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterialSet.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterialSet.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QFileInfo
@@ -5460,40 +5460,40 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccMesh.cpp.o
  ../CC/include/ScalarField.h
  ../CC/include/SimpleTriangle.h
  ../CC/include/SquareMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccAdvancedTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBasicTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccChunkedArray.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorScale.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorScalesManager.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLDrawContext.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIncludeGL.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterialSet.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMesh.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalCompressor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalVectors.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccOctree.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPolyline.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccProgressDialog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccScalarField.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccShiftedObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSubMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccWaveform.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccAdvancedTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBasicTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccChunkedArray.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorScale.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorScalesManager.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLDrawContext.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIncludeGL.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterial.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterialSet.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMesh.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalCompressor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalVectors.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccOctree.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPolyline.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccProgressDialog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccScalarField.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccShiftedObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSubMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccWaveform.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QAtomicInt
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
@@ -5645,27 +5645,27 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccMeshGroup.cpp.o
  ../CC/include/GenericIndexedMesh.h
  ../CC/include/GenericMesh.h
  ../CC/include/SquareMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccAdvancedTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBasicTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccChunkedArray.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLDrawContext.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIncludeGL.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMeshGroup.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMeshGroup.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalCompressor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccAdvancedTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBasicTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccChunkedArray.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLDrawContext.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIncludeGL.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterial.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMeshGroup.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMeshGroup.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalCompressor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QObject
@@ -5783,35 +5783,35 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccMinimumSpanningTreeForNormsDirection.cpp
  ../CC/include/ReferenceCloud.h
  ../CC/include/ScalarField.h
  ../CC/include/SquareMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccAdvancedTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBasicTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccChunkedArray.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorScale.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLDrawContext.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIncludeGL.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMinimumSpanningTreeForNormsDirection.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMinimumSpanningTreeForNormsDirection.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalCompressor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalVectors.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccOctree.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccProgressDialog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccScalarField.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccShiftedObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccWaveform.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccAdvancedTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBasicTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccChunkedArray.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorScale.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLDrawContext.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIncludeGL.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterial.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMinimumSpanningTreeForNormsDirection.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMinimumSpanningTreeForNormsDirection.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalCompressor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalVectors.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccOctree.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccProgressDialog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccScalarField.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccShiftedObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccWaveform.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QAtomicInt
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
@@ -5956,11 +5956,11 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccNormalCompressor.cpp.o
  ../CC/include/CCCoreLib.h
  ../CC/include/CCGeom.h
  ../CC/include/CCTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBasicTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalCompressor.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalCompressor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBasicTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalCompressor.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalCompressor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/qalgorithms.h
  /usr/include/qt/QtCore/qarraydata.h
  /usr/include/qt/QtCore/qatomic.h
@@ -6029,30 +6029,30 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccNormalVectors.cpp.o
  ../CC/include/Neighbourhood.h
  ../CC/include/ReferenceCloud.h
  ../CC/include/SquareMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccAdvancedTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBasicTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccChunkedArray.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLDrawContext.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIncludeGL.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalCompressor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalVectors.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalVectors.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccOctree.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccShiftedObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSingleton.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccAdvancedTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBasicTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccChunkedArray.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLDrawContext.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIncludeGL.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterial.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalCompressor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalVectors.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalVectors.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccOctree.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccShiftedObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSingleton.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QObject
@@ -6153,11 +6153,11 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccObject.cpp.o
  ../CC/include/CCShareable.h
  ../CC/include/CCTypes.h
  ../CC/include/GenericChunkedArray.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccObject.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccObject.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QSettings
@@ -6258,41 +6258,41 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccOctree.cpp.o
  ../CC/include/ScalarFieldTools.h
  ../CC/include/SimpleTriangle.h
  ../CC/include/SquareMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccAdvancedTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBasicTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccCameraSensor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccChunkedArray.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorScale.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLDrawContext.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPrimitive.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIncludeGL.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIndexedTransformation.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIndexedTransformationBuffer.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalCompressor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalVectors.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccOctree.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccOctree.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccScalarField.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSensor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccShiftedObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccWaveform.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccAdvancedTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBasicTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccCameraSensor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccChunkedArray.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorScale.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLDrawContext.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPrimitive.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIncludeGL.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIndexedTransformation.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIndexedTransformationBuffer.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterial.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalCompressor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalVectors.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccOctree.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccOctree.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccScalarField.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSensor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccShiftedObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccWaveform.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QObject
@@ -6445,18 +6445,18 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccOctreeProxy.cpp.o
  ../libs/qCC_db/ccGenericGLDisplay.h
  ../libs/qCC_db/ccIncludeGL.h
  ../libs/qCC_db/ccOctree.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLDrawContext.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccOctreeProxy.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccOctreeProxy.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLDrawContext.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterial.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccOctreeProxy.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccOctreeProxy.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QObject
@@ -6588,9 +6588,9 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccOctreeSpinBox.cpp.o
  ../libs/qCC_db/ccOctree.h
  ../libs/qCC_db/ccSerializableObject.h
  ../libs/qCC_db/ccShiftedObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccOctreeSpinBox.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccOctreeSpinBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccOctreeSpinBox.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccOctreeSpinBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QObject
@@ -6756,8 +6756,8 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccPlanarEntityInterface.cpp.o
  ../libs/qCC_db/ccObject.h
  ../libs/qCC_db/ccSerializableObject.h
  ../libs/qCC_db/qCC_db.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPlanarEntityInterface.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPlanarEntityInterface.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPlanarEntityInterface.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPlanarEntityInterface.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QObject
@@ -6880,36 +6880,36 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccPlane.cpp.o
  ../CC/include/SquareMatrix.h
  ../libs/qCC_db/ccGLDrawContext.h
  ../libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccAdvancedTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBasicTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccChunkedArray.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorScale.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPrimitive.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIncludeGL.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterialSet.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalCompressor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalVectors.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccOctree.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPlanarEntityInterface.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPlane.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPlane.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccShiftedObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccWaveform.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccAdvancedTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBasicTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccChunkedArray.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorScale.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPrimitive.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIncludeGL.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterialSet.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalCompressor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalVectors.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccOctree.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPlanarEntityInterface.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPlane.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPlane.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccShiftedObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccWaveform.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QObject
@@ -7076,51 +7076,51 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccPointCloud.cpp.o
  ../CC/include/SquareMatrix.h
  ../CC/include/TrueKdTree.h
  ../libs/CCFbo/include/ccShader.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/cc2DLabel.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccAdvancedTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBasicTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccChunkedArray.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorRampShader.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorScale.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorScalesManager.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccFastMarchingForNormsDirection.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccFrustum.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGBLSensor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLDrawContext.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccImage.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIncludeGL.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIndexedTransformation.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIndexedTransformationBuffer.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccInteractor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccKdTree.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMinimumSpanningTreeForNormsDirection.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalCompressor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalVectors.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccOctree.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPointCloud.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPointCloudLOD.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPolyline.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccProgressDialog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccScalarField.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSensor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccShiftedObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccWaveform.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/cc2DLabel.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccAdvancedTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBasicTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccChunkedArray.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorRampShader.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorScale.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorScalesManager.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccFastMarchingForNormsDirection.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccFrustum.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGBLSensor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLDrawContext.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccImage.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIncludeGL.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIndexedTransformation.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIndexedTransformationBuffer.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccInteractor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccKdTree.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterial.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMinimumSpanningTreeForNormsDirection.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalCompressor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalVectors.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccOctree.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPointCloud.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPointCloudLOD.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPolyline.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccProgressDialog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccScalarField.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSensor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccShiftedObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccWaveform.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QAtomicInt
  /usr/include/qt/QtCore/QCoreApplication
  /usr/include/qt/QtCore/QDataStream
@@ -7301,33 +7301,33 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccPointCloudInterpolator.cpp.o
  ../CC/include/ReferenceCloud.h
  ../CC/include/ScalarField.h
  ../CC/include/SquareMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccAdvancedTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBasicTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccChunkedArray.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorScale.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLDrawContext.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIncludeGL.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalCompressor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalVectors.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccOctree.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPointCloudInterpolator.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPointCloudInterpolator.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccShiftedObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccWaveform.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccAdvancedTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBasicTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccChunkedArray.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorScale.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLDrawContext.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIncludeGL.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterial.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalCompressor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalVectors.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccOctree.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPointCloudInterpolator.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPointCloudInterpolator.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccShiftedObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccWaveform.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QObject
@@ -7494,22 +7494,22 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccPointCloudLOD.cpp.o
  ../libs/qCC_db/ccMaterial.h
  ../libs/qCC_db/ccObject.h
  ../libs/qCC_db/ccOctree.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccAdvancedTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBasicTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccChunkedArray.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorScale.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalCompressor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalVectors.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPointCloudLOD.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPointCloudLOD.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccShiftedObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccWaveform.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccAdvancedTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBasicTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccChunkedArray.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorScale.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalCompressor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalVectors.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPointCloudLOD.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPointCloudLOD.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccShiftedObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccWaveform.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QElapsedTimer
  /usr/include/qt/QtCore/QFile
@@ -7674,37 +7674,37 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccPolyline.cpp.o
  ../CC/include/ReferenceCloud.h
  ../CC/include/SimpleTriangle.h
  ../CC/include/SquareMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccAdvancedTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBasicTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccChunkedArray.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorScale.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccCone.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLDrawContext.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPrimitive.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIncludeGL.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalCompressor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalVectors.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccOctree.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPolyline.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPolyline.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccShiftedObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccWaveform.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccAdvancedTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBasicTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccChunkedArray.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorScale.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccCone.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLDrawContext.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPrimitive.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIncludeGL.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterial.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalCompressor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalVectors.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccOctree.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPolyline.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPolyline.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccShiftedObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccWaveform.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QObject
@@ -7842,9 +7842,9 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccProgressDialog.cpp.o
  ../CC/include/CCCoreLib.h
  ../CC/include/CCTypes.h
  ../CC/include/GenericProgressCallback.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccProgressDialog.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccProgressDialog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccProgressDialog.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccProgressDialog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QAtomicInt
  /usr/include/qt/QtCore/QCoreApplication
  /usr/include/qt/QtCore/QTimer
@@ -7989,37 +7989,37 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccQuadric.cpp.o
  ../CC/include/ReferenceCloud.h
  ../CC/include/SimpleTriangle.h
  ../CC/include/SquareMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccAdvancedTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBasicTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccChunkedArray.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorScale.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLDrawContext.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPrimitive.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIncludeGL.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterialSet.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalCompressor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalVectors.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccOctree.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccQuadric.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccQuadric.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccShiftedObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccWaveform.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccAdvancedTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBasicTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccChunkedArray.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorScale.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLDrawContext.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPrimitive.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIncludeGL.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterial.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterialSet.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalCompressor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalVectors.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccOctree.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccQuadric.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccQuadric.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccShiftedObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccWaveform.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QObject
@@ -8180,35 +8180,35 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccRasterGrid.cpp.o
  ../CC/include/ScalarField.h
  ../CC/include/SimpleTriangle.h
  ../CC/include/SquareMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccAdvancedTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBasicTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccChunkedArray.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorScale.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLDrawContext.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIncludeGL.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalCompressor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalVectors.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccOctree.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccProgressDialog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccRasterGrid.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccRasterGrid.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccScalarField.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccShiftedObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccWaveform.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccAdvancedTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBasicTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccChunkedArray.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorScale.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLDrawContext.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIncludeGL.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterial.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalCompressor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalVectors.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccOctree.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccProgressDialog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccRasterGrid.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccRasterGrid.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccScalarField.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccShiftedObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccWaveform.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QAtomicInt
  /usr/include/qt/QtCore/QCoreApplication
  /usr/include/qt/QtCore/QDataStream
@@ -8360,14 +8360,14 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccScalarField.cpp.o
  ../CC/include/CCTypes.h
  ../CC/include/GenericChunkedArray.h
  ../CC/include/ScalarField.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorScale.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorScalesManager.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccScalarField.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccScalarField.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorScale.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorScalesManager.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccScalarField.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccScalarField.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QMap
@@ -8466,23 +8466,23 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccSensor.cpp.o
  ../CC/include/CCTypes.h
  ../CC/include/GenericChunkedArray.h
  ../CC/include/SquareMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLDrawContext.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIncludeGL.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIndexedTransformation.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIndexedTransformationBuffer.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSensor.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSensor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLDrawContext.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIncludeGL.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIndexedTransformation.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIndexedTransformationBuffer.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterial.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSensor.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSensor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QObject
@@ -8582,21 +8582,21 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccShiftedObject.cpp.o
  ../CC/include/CCTypes.h
  ../CC/include/GenericChunkedArray.h
  ../CC/include/SquareMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLDrawContext.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIncludeGL.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccShiftedObject.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccShiftedObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLDrawContext.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIncludeGL.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterial.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccShiftedObject.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccShiftedObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QObject
@@ -8712,36 +8712,36 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccSphere.cpp.o
  ../CC/include/ReferenceCloud.h
  ../CC/include/SimpleTriangle.h
  ../CC/include/SquareMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccAdvancedTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBasicTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccChunkedArray.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorScale.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLDrawContext.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPrimitive.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIncludeGL.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalCompressor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalVectors.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccOctree.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccShiftedObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSphere.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSphere.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccWaveform.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccAdvancedTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBasicTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccChunkedArray.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorScale.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLDrawContext.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPrimitive.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIncludeGL.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterial.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalCompressor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalVectors.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccOctree.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccShiftedObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSphere.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSphere.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccWaveform.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QObject
@@ -8898,32 +8898,32 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccSubMesh.cpp.o
  ../CC/include/ReferenceCloud.h
  ../CC/include/SimpleTriangle.h
  ../CC/include/SquareMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccAdvancedTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBasicTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccChunkedArray.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLDrawContext.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIncludeGL.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterialSet.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalCompressor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccOctree.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccShiftedObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSubMesh.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSubMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccAdvancedTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBasicTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccChunkedArray.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLDrawContext.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIncludeGL.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterial.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterialSet.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalCompressor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccOctree.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccShiftedObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSubMesh.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSubMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QObject
@@ -9043,36 +9043,36 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccTorus.cpp.o
  ../CC/include/ReferenceCloud.h
  ../CC/include/SimpleTriangle.h
  ../CC/include/SquareMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccAdvancedTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBBox.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccBasicTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccChunkedArray.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorScale.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccColorTypes.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccDrawableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLDrawContext.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGenericPrimitive.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccHObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccIncludeGL.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMaterial.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccMesh.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalCompressor.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccNormalVectors.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccOctree.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccPointCloud.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccShiftedObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccTorus.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccTorus.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccWaveform.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccAdvancedTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBBox.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccBasicTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccChunkedArray.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorScale.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccColorTypes.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccDrawableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLDrawContext.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericGLDisplay.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGenericPrimitive.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccHObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccIncludeGL.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMaterial.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccMesh.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalCompressor.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccNormalVectors.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccOctree.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccPointCloud.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccShiftedObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccTorus.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccTorus.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccWaveform.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QObject
@@ -9214,13 +9214,13 @@ libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/ccWaveform.cpp.o
  ../CC/include/CCTypes.h
  ../CC/include/GenericChunkedArray.h
  ../CC/include/SquareMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrix.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccLog.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccSerializableObject.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccWaveform.cpp
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/ccWaveform.h
- /home/debster/DELETETHiS/qCMAT/libs/qCC_db/qCC_db.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrix.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccGLMatrixTpl.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccLog.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccSerializableObject.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccWaveform.cpp
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/ccWaveform.h
+ /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db/qCC_db.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QString

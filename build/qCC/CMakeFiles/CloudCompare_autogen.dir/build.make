@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/debster/DELETETHiS/qCMAT
+CMAKE_SOURCE_DIR = /home/chrome/work/CloudCompare/qCMAT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/debster/DELETETHiS/qCMAT/build
+CMAKE_BINARY_DIR = /home/chrome/work/CloudCompare/qCMAT/build
 
 # Utility rule file for CloudCompare_autogen.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/debster/DELETETHiS/qCMAT/build
 include qCC/CMakeFiles/CloudCompare_autogen.dir/progress.make
 
 qCC/CMakeFiles/CloudCompare_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target CloudCompare"
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && /usr/bin/cmake -E cmake_autogen /home/debster/DELETETHiS/qCMAT/build/qCC/CMakeFiles/CloudCompare_autogen.dir/AutogenInfo.cmake ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target CloudCompare"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && /usr/bin/cmake -E cmake_autogen /home/chrome/work/CloudCompare/qCMAT/build/qCC/CMakeFiles/CloudCompare_autogen.dir/AutogenInfo.cmake ""
 
 CloudCompare_autogen: qCC/CMakeFiles/CloudCompare_autogen
 CloudCompare_autogen: qCC/CMakeFiles/CloudCompare_autogen.dir/build.make
@@ -68,10 +68,10 @@ qCC/CMakeFiles/CloudCompare_autogen.dir/build: CloudCompare_autogen
 .PHONY : qCC/CMakeFiles/CloudCompare_autogen.dir/build
 
 qCC/CMakeFiles/CloudCompare_autogen.dir/clean:
-	cd /home/debster/DELETETHiS/qCMAT/build/qCC && $(CMAKE_COMMAND) -P CMakeFiles/CloudCompare_autogen.dir/cmake_clean.cmake
+	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && $(CMAKE_COMMAND) -P CMakeFiles/CloudCompare_autogen.dir/cmake_clean.cmake
 .PHONY : qCC/CMakeFiles/CloudCompare_autogen.dir/clean
 
 qCC/CMakeFiles/CloudCompare_autogen.dir/depend:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/debster/DELETETHiS/qCMAT /home/debster/DELETETHiS/qCMAT/qCC /home/debster/DELETETHiS/qCMAT/build /home/debster/DELETETHiS/qCMAT/build/qCC /home/debster/DELETETHiS/qCMAT/build/qCC/CMakeFiles/CloudCompare_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chrome/work/CloudCompare/qCMAT /home/chrome/work/CloudCompare/qCMAT/qCC /home/chrome/work/CloudCompare/qCMAT/build /home/chrome/work/CloudCompare/qCMAT/build/qCC /home/chrome/work/CloudCompare/qCMAT/build/qCC/CMakeFiles/CloudCompare_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : qCC/CMakeFiles/CloudCompare_autogen.dir/depend
 

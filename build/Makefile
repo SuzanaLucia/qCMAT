@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/debster/DELETETHiS/qCMAT
+CMAKE_SOURCE_DIR = /home/chrome/work/CloudCompare/qCMAT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/debster/DELETETHiS/qCMAT/build
+CMAKE_BINARY_DIR = /home/chrome/work/CloudCompare/qCMAT/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,9 +126,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/debster/DELETETHiS/qCMAT/build/CMakeFiles /home/debster/DELETETHiS/qCMAT/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/debster/DELETETHiS/qCMAT/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -313,30 +313,30 @@ qcustomplot_autogen/fast:
 .PHONY : qcustomplot_autogen/fast
 
 #=============================================================================
-# Target rules for targets named qCMAT
+# Target rules for targets named qTestPlug
 
 # Build rule for target.
-qCMAT: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 qCMAT
-.PHONY : qCMAT
+qTestPlug: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 qTestPlug
+.PHONY : qTestPlug
 
 # fast build rule for target.
-qCMAT/fast:
-	$(MAKE) -f plugins/example/qCMAT/CMakeFiles/qCMAT.dir/build.make plugins/example/qCMAT/CMakeFiles/qCMAT.dir/build
-.PHONY : qCMAT/fast
+qTestPlug/fast:
+	$(MAKE) -f plugins/qTestPlug/CMakeFiles/qTestPlug.dir/build.make plugins/qTestPlug/CMakeFiles/qTestPlug.dir/build
+.PHONY : qTestPlug/fast
 
 #=============================================================================
-# Target rules for targets named qCMAT_autogen
+# Target rules for targets named qTestPlug_autogen
 
 # Build rule for target.
-qCMAT_autogen: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 qCMAT_autogen
-.PHONY : qCMAT_autogen
+qTestPlug_autogen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 qTestPlug_autogen
+.PHONY : qTestPlug_autogen
 
 # fast build rule for target.
-qCMAT_autogen/fast:
-	$(MAKE) -f plugins/example/qCMAT/CMakeFiles/qCMAT_autogen.dir/build.make plugins/example/qCMAT/CMakeFiles/qCMAT_autogen.dir/build
-.PHONY : qCMAT_autogen/fast
+qTestPlug_autogen/fast:
+	$(MAKE) -f plugins/qTestPlug/CMakeFiles/qTestPlug_autogen.dir/build.make plugins/qTestPlug/CMakeFiles/qTestPlug_autogen.dir/build
+.PHONY : qTestPlug_autogen/fast
 
 #=============================================================================
 # Target rules for targets named CloudCompare
@@ -414,8 +414,8 @@ help:
 	@echo "... QCC_GL_LIB_autogen"
 	@echo "... qcustomplot"
 	@echo "... qcustomplot_autogen"
-	@echo "... qCMAT"
-	@echo "... qCMAT_autogen"
+	@echo "... qTestPlug"
+	@echo "... qTestPlug_autogen"
 	@echo "... CloudCompare"
 	@echo "... CloudCompare_autogen"
 	@echo "... ccViewer"

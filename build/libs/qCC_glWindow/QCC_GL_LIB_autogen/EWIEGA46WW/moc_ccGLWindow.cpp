@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'ccGLWindow.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.11.0)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.10.1)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -12,7 +12,7 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'ccGLWindow.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.11.0. It"
+#error "This file was generated using the moc from 5.10.1. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -277,175 +277,175 @@ void ccGLWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
         {
-            using _t = void (ccGLWindow::*)(ccHObject * );
+            typedef void (ccGLWindow::*_t)(ccHObject * );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&ccGLWindow::entitySelectionChanged)) {
                 *result = 0;
                 return;
             }
         }
         {
-            using _t = void (ccGLWindow::*)(std::unordered_set<int> );
+            typedef void (ccGLWindow::*_t)(std::unordered_set<int> );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&ccGLWindow::entitiesSelectionChanged)) {
                 *result = 1;
                 return;
             }
         }
         {
-            using _t = void (ccGLWindow::*)(ccHObject * , unsigned  , int , int , const CCVector3 & );
+            typedef void (ccGLWindow::*_t)(ccHObject * , unsigned  , int , int , const CCVector3 & );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&ccGLWindow::itemPicked)) {
                 *result = 2;
                 return;
             }
         }
         {
-            using _t = void (ccGLWindow::*)(ccHObject * , int , int , int );
+            typedef void (ccGLWindow::*_t)(ccHObject * , int , int , int );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&ccGLWindow::itemPickedFast)) {
                 *result = 3;
                 return;
             }
         }
         {
-            using _t = void (ccGLWindow::*)();
+            typedef void (ccGLWindow::*_t)();
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&ccGLWindow::fastPickingFinished)) {
                 *result = 4;
                 return;
             }
         }
         {
-            using _t = void (ccGLWindow::*)(const ccGLMatrixd & );
+            typedef void (ccGLWindow::*_t)(const ccGLMatrixd & );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&ccGLWindow::viewMatRotated)) {
                 *result = 5;
                 return;
             }
         }
         {
-            using _t = void (ccGLWindow::*)(float , float );
+            typedef void (ccGLWindow::*_t)(float , float );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&ccGLWindow::cameraDisplaced)) {
                 *result = 6;
                 return;
             }
         }
         {
-            using _t = void (ccGLWindow::*)(float );
+            typedef void (ccGLWindow::*_t)(float );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&ccGLWindow::mouseWheelRotated)) {
                 *result = 7;
                 return;
             }
         }
         {
-            using _t = void (ccGLWindow::*)();
+            typedef void (ccGLWindow::*_t)();
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&ccGLWindow::perspectiveStateChanged)) {
                 *result = 8;
                 return;
             }
         }
         {
-            using _t = void (ccGLWindow::*)(const ccGLMatrixd & );
+            typedef void (ccGLWindow::*_t)(const ccGLMatrixd & );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&ccGLWindow::baseViewMatChanged)) {
                 *result = 9;
                 return;
             }
         }
         {
-            using _t = void (ccGLWindow::*)(float );
+            typedef void (ccGLWindow::*_t)(float );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&ccGLWindow::pixelSizeChanged)) {
                 *result = 10;
                 return;
             }
         }
         {
-            using _t = void (ccGLWindow::*)(float );
+            typedef void (ccGLWindow::*_t)(float );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&ccGLWindow::fovChanged)) {
                 *result = 11;
                 return;
             }
         }
         {
-            using _t = void (ccGLWindow::*)(float );
+            typedef void (ccGLWindow::*_t)(float );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&ccGLWindow::zNearCoefChanged)) {
                 *result = 12;
                 return;
             }
         }
         {
-            using _t = void (ccGLWindow::*)(const CCVector3d & );
+            typedef void (ccGLWindow::*_t)(const CCVector3d & );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&ccGLWindow::pivotPointChanged)) {
                 *result = 13;
                 return;
             }
         }
         {
-            using _t = void (ccGLWindow::*)(const CCVector3d & );
+            typedef void (ccGLWindow::*_t)(const CCVector3d & );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&ccGLWindow::cameraPosChanged)) {
                 *result = 14;
                 return;
             }
         }
         {
-            using _t = void (ccGLWindow::*)(const CCVector3d & );
+            typedef void (ccGLWindow::*_t)(const CCVector3d & );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&ccGLWindow::translation)) {
                 *result = 15;
                 return;
             }
         }
         {
-            using _t = void (ccGLWindow::*)(const ccGLMatrixd & );
+            typedef void (ccGLWindow::*_t)(const ccGLMatrixd & );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&ccGLWindow::rotation)) {
                 *result = 16;
                 return;
             }
         }
         {
-            using _t = void (ccGLWindow::*)(int , int );
+            typedef void (ccGLWindow::*_t)(int , int );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&ccGLWindow::leftButtonClicked)) {
                 *result = 17;
                 return;
             }
         }
         {
-            using _t = void (ccGLWindow::*)(int , int );
+            typedef void (ccGLWindow::*_t)(int , int );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&ccGLWindow::rightButtonClicked)) {
                 *result = 18;
                 return;
             }
         }
         {
-            using _t = void (ccGLWindow::*)(int , int , Qt::MouseButtons );
+            typedef void (ccGLWindow::*_t)(int , int , Qt::MouseButtons );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&ccGLWindow::mouseMoved)) {
                 *result = 19;
                 return;
             }
         }
         {
-            using _t = void (ccGLWindow::*)();
+            typedef void (ccGLWindow::*_t)();
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&ccGLWindow::buttonReleased)) {
                 *result = 20;
                 return;
             }
         }
         {
-            using _t = void (ccGLWindow::*)();
+            typedef void (ccGLWindow::*_t)();
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&ccGLWindow::drawing3D)) {
                 *result = 21;
                 return;
             }
         }
         {
-            using _t = void (ccGLWindow::*)(const QStringList & );
+            typedef void (ccGLWindow::*_t)(const QStringList & );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&ccGLWindow::filesDropped)) {
                 *result = 22;
                 return;
             }
         }
         {
-            using _t = void (ccGLWindow::*)(ccHObject * );
+            typedef void (ccGLWindow::*_t)(ccHObject * );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&ccGLWindow::newLabel)) {
                 *result = 23;
                 return;
             }
         }
         {
-            using _t = void (ccGLWindow::*)(bool );
+            typedef void (ccGLWindow::*_t)(bool );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&ccGLWindow::exclusiveFullScreenToggled)) {
                 *result = 24;
                 return;

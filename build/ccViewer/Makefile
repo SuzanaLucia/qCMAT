@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/debster/DELETETHiS/qCMAT
+CMAKE_SOURCE_DIR = /home/chrome/work/CloudCompare/qCMAT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/debster/DELETETHiS/qCMAT/build
+CMAKE_BINARY_DIR = /home/chrome/work/CloudCompare/qCMAT/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/debster/DELETETHiS/qCMAT/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/debster/DELETETHiS/qCMAT/build/CMakeFiles /home/debster/DELETETHiS/qCMAT/build/ccViewer/CMakeFiles/progress.marks
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 ccViewer/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/debster/DELETETHiS/qCMAT/build/CMakeFiles 0
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles /home/chrome/work/CloudCompare/qCMAT/build/ccViewer/CMakeFiles/progress.marks
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 ccViewer/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 ccViewer/clean
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 ccViewer/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 ccViewer/preinstall
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 ccViewer/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 ccViewer/preinstall
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 ccViewer/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ccViewer/CMakeFiles/ccViewer.dir/rule:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 ccViewer/CMakeFiles/ccViewer.dir/rule
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 ccViewer/CMakeFiles/ccViewer.dir/rule
 .PHONY : ccViewer/CMakeFiles/ccViewer.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ ccViewer: ccViewer/CMakeFiles/ccViewer.dir/rule
 
 # fast build rule for target.
 ccViewer/fast:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/build
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/build
 .PHONY : ccViewer/fast
 
 # Convenience name for target.
 ccViewer/CMakeFiles/ccViewer_autogen.dir/rule:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 ccViewer/CMakeFiles/ccViewer_autogen.dir/rule
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 ccViewer/CMakeFiles/ccViewer_autogen.dir/rule
 .PHONY : ccViewer/CMakeFiles/ccViewer_autogen.dir/rule
 
 # Convenience name for target.
@@ -183,7 +183,7 @@ ccViewer_autogen: ccViewer/CMakeFiles/ccViewer_autogen.dir/rule
 
 # fast build rule for target.
 ccViewer_autogen/fast:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer_autogen.dir/build.make ccViewer/CMakeFiles/ccViewer_autogen.dir/build
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer_autogen.dir/build.make ccViewer/CMakeFiles/ccViewer_autogen.dir/build
 .PHONY : ccViewer_autogen/fast
 
 __/qCC/ccCameraParamEditDlg.o: __/qCC/ccCameraParamEditDlg.cpp.o
@@ -192,7 +192,7 @@ __/qCC/ccCameraParamEditDlg.o: __/qCC/ccCameraParamEditDlg.cpp.o
 
 # target to build an object file
 __/qCC/ccCameraParamEditDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccCameraParamEditDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccCameraParamEditDlg.cpp.o
 .PHONY : __/qCC/ccCameraParamEditDlg.cpp.o
 
 __/qCC/ccCameraParamEditDlg.i: __/qCC/ccCameraParamEditDlg.cpp.i
@@ -201,7 +201,7 @@ __/qCC/ccCameraParamEditDlg.i: __/qCC/ccCameraParamEditDlg.cpp.i
 
 # target to preprocess a source file
 __/qCC/ccCameraParamEditDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccCameraParamEditDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccCameraParamEditDlg.cpp.i
 .PHONY : __/qCC/ccCameraParamEditDlg.cpp.i
 
 __/qCC/ccCameraParamEditDlg.s: __/qCC/ccCameraParamEditDlg.cpp.s
@@ -210,7 +210,7 @@ __/qCC/ccCameraParamEditDlg.s: __/qCC/ccCameraParamEditDlg.cpp.s
 
 # target to generate assembly for a file
 __/qCC/ccCameraParamEditDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccCameraParamEditDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccCameraParamEditDlg.cpp.s
 .PHONY : __/qCC/ccCameraParamEditDlg.cpp.s
 
 __/qCC/ccDisplayOptionsDlg.o: __/qCC/ccDisplayOptionsDlg.cpp.o
@@ -219,7 +219,7 @@ __/qCC/ccDisplayOptionsDlg.o: __/qCC/ccDisplayOptionsDlg.cpp.o
 
 # target to build an object file
 __/qCC/ccDisplayOptionsDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccDisplayOptionsDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccDisplayOptionsDlg.cpp.o
 .PHONY : __/qCC/ccDisplayOptionsDlg.cpp.o
 
 __/qCC/ccDisplayOptionsDlg.i: __/qCC/ccDisplayOptionsDlg.cpp.i
@@ -228,7 +228,7 @@ __/qCC/ccDisplayOptionsDlg.i: __/qCC/ccDisplayOptionsDlg.cpp.i
 
 # target to preprocess a source file
 __/qCC/ccDisplayOptionsDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccDisplayOptionsDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccDisplayOptionsDlg.cpp.i
 .PHONY : __/qCC/ccDisplayOptionsDlg.cpp.i
 
 __/qCC/ccDisplayOptionsDlg.s: __/qCC/ccDisplayOptionsDlg.cpp.s
@@ -237,7 +237,7 @@ __/qCC/ccDisplayOptionsDlg.s: __/qCC/ccDisplayOptionsDlg.cpp.s
 
 # target to generate assembly for a file
 __/qCC/ccDisplayOptionsDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccDisplayOptionsDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccDisplayOptionsDlg.cpp.s
 .PHONY : __/qCC/ccDisplayOptionsDlg.cpp.s
 
 __/qCC/ccOptions.o: __/qCC/ccOptions.cpp.o
@@ -246,7 +246,7 @@ __/qCC/ccOptions.o: __/qCC/ccOptions.cpp.o
 
 # target to build an object file
 __/qCC/ccOptions.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccOptions.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccOptions.cpp.o
 .PHONY : __/qCC/ccOptions.cpp.o
 
 __/qCC/ccOptions.i: __/qCC/ccOptions.cpp.i
@@ -255,7 +255,7 @@ __/qCC/ccOptions.i: __/qCC/ccOptions.cpp.i
 
 # target to preprocess a source file
 __/qCC/ccOptions.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccOptions.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccOptions.cpp.i
 .PHONY : __/qCC/ccOptions.cpp.i
 
 __/qCC/ccOptions.s: __/qCC/ccOptions.cpp.s
@@ -264,7 +264,7 @@ __/qCC/ccOptions.s: __/qCC/ccOptions.cpp.s
 
 # target to generate assembly for a file
 __/qCC/ccOptions.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccOptions.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccOptions.cpp.s
 .PHONY : __/qCC/ccOptions.cpp.s
 
 __/qCC/ccOverlayDialog.o: __/qCC/ccOverlayDialog.cpp.o
@@ -273,7 +273,7 @@ __/qCC/ccOverlayDialog.o: __/qCC/ccOverlayDialog.cpp.o
 
 # target to build an object file
 __/qCC/ccOverlayDialog.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccOverlayDialog.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccOverlayDialog.cpp.o
 .PHONY : __/qCC/ccOverlayDialog.cpp.o
 
 __/qCC/ccOverlayDialog.i: __/qCC/ccOverlayDialog.cpp.i
@@ -282,7 +282,7 @@ __/qCC/ccOverlayDialog.i: __/qCC/ccOverlayDialog.cpp.i
 
 # target to preprocess a source file
 __/qCC/ccOverlayDialog.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccOverlayDialog.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccOverlayDialog.cpp.i
 .PHONY : __/qCC/ccOverlayDialog.cpp.i
 
 __/qCC/ccOverlayDialog.s: __/qCC/ccOverlayDialog.cpp.s
@@ -291,7 +291,7 @@ __/qCC/ccOverlayDialog.s: __/qCC/ccOverlayDialog.cpp.s
 
 # target to generate assembly for a file
 __/qCC/ccOverlayDialog.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccOverlayDialog.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccOverlayDialog.cpp.s
 .PHONY : __/qCC/ccOverlayDialog.cpp.s
 
 __/qCC/ccPickOneElementDlg.o: __/qCC/ccPickOneElementDlg.cpp.o
@@ -300,7 +300,7 @@ __/qCC/ccPickOneElementDlg.o: __/qCC/ccPickOneElementDlg.cpp.o
 
 # target to build an object file
 __/qCC/ccPickOneElementDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccPickOneElementDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccPickOneElementDlg.cpp.o
 .PHONY : __/qCC/ccPickOneElementDlg.cpp.o
 
 __/qCC/ccPickOneElementDlg.i: __/qCC/ccPickOneElementDlg.cpp.i
@@ -309,7 +309,7 @@ __/qCC/ccPickOneElementDlg.i: __/qCC/ccPickOneElementDlg.cpp.i
 
 # target to preprocess a source file
 __/qCC/ccPickOneElementDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccPickOneElementDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccPickOneElementDlg.cpp.i
 .PHONY : __/qCC/ccPickOneElementDlg.cpp.i
 
 __/qCC/ccPickOneElementDlg.s: __/qCC/ccPickOneElementDlg.cpp.s
@@ -318,7 +318,7 @@ __/qCC/ccPickOneElementDlg.s: __/qCC/ccPickOneElementDlg.cpp.s
 
 # target to generate assembly for a file
 __/qCC/ccPickOneElementDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccPickOneElementDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccPickOneElementDlg.cpp.s
 .PHONY : __/qCC/ccPickOneElementDlg.cpp.s
 
 __/qCC/ccPickingHub.o: __/qCC/ccPickingHub.cpp.o
@@ -327,7 +327,7 @@ __/qCC/ccPickingHub.o: __/qCC/ccPickingHub.cpp.o
 
 # target to build an object file
 __/qCC/ccPickingHub.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccPickingHub.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccPickingHub.cpp.o
 .PHONY : __/qCC/ccPickingHub.cpp.o
 
 __/qCC/ccPickingHub.i: __/qCC/ccPickingHub.cpp.i
@@ -336,7 +336,7 @@ __/qCC/ccPickingHub.i: __/qCC/ccPickingHub.cpp.i
 
 # target to preprocess a source file
 __/qCC/ccPickingHub.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccPickingHub.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccPickingHub.cpp.i
 .PHONY : __/qCC/ccPickingHub.cpp.i
 
 __/qCC/ccPickingHub.s: __/qCC/ccPickingHub.cpp.s
@@ -345,7 +345,7 @@ __/qCC/ccPickingHub.s: __/qCC/ccPickingHub.cpp.s
 
 # target to generate assembly for a file
 __/qCC/ccPickingHub.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccPickingHub.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccPickingHub.cpp.s
 .PHONY : __/qCC/ccPickingHub.cpp.s
 
 __/qCC/ccStereoModeDlg.o: __/qCC/ccStereoModeDlg.cpp.o
@@ -354,7 +354,7 @@ __/qCC/ccStereoModeDlg.o: __/qCC/ccStereoModeDlg.cpp.o
 
 # target to build an object file
 __/qCC/ccStereoModeDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccStereoModeDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccStereoModeDlg.cpp.o
 .PHONY : __/qCC/ccStereoModeDlg.cpp.o
 
 __/qCC/ccStereoModeDlg.i: __/qCC/ccStereoModeDlg.cpp.i
@@ -363,7 +363,7 @@ __/qCC/ccStereoModeDlg.i: __/qCC/ccStereoModeDlg.cpp.i
 
 # target to preprocess a source file
 __/qCC/ccStereoModeDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccStereoModeDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccStereoModeDlg.cpp.i
 .PHONY : __/qCC/ccStereoModeDlg.cpp.i
 
 __/qCC/ccStereoModeDlg.s: __/qCC/ccStereoModeDlg.cpp.s
@@ -372,7 +372,7 @@ __/qCC/ccStereoModeDlg.s: __/qCC/ccStereoModeDlg.cpp.s
 
 # target to generate assembly for a file
 __/qCC/ccStereoModeDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccStereoModeDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/ccStereoModeDlg.cpp.s
 .PHONY : __/qCC/ccStereoModeDlg.cpp.s
 
 __/qCC/pluginManager/ccPluginManager.o: __/qCC/pluginManager/ccPluginManager.cpp.o
@@ -381,7 +381,7 @@ __/qCC/pluginManager/ccPluginManager.o: __/qCC/pluginManager/ccPluginManager.cpp
 
 # target to build an object file
 __/qCC/pluginManager/ccPluginManager.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/pluginManager/ccPluginManager.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/pluginManager/ccPluginManager.cpp.o
 .PHONY : __/qCC/pluginManager/ccPluginManager.cpp.o
 
 __/qCC/pluginManager/ccPluginManager.i: __/qCC/pluginManager/ccPluginManager.cpp.i
@@ -390,7 +390,7 @@ __/qCC/pluginManager/ccPluginManager.i: __/qCC/pluginManager/ccPluginManager.cpp
 
 # target to preprocess a source file
 __/qCC/pluginManager/ccPluginManager.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/pluginManager/ccPluginManager.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/pluginManager/ccPluginManager.cpp.i
 .PHONY : __/qCC/pluginManager/ccPluginManager.cpp.i
 
 __/qCC/pluginManager/ccPluginManager.s: __/qCC/pluginManager/ccPluginManager.cpp.s
@@ -399,7 +399,7 @@ __/qCC/pluginManager/ccPluginManager.s: __/qCC/pluginManager/ccPluginManager.cpp
 
 # target to generate assembly for a file
 __/qCC/pluginManager/ccPluginManager.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/pluginManager/ccPluginManager.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/__/qCC/pluginManager/ccPluginManager.cpp.s
 .PHONY : __/qCC/pluginManager/ccPluginManager.cpp.s
 
 ccViewerApplication.o: ccViewerApplication.cpp.o
@@ -408,7 +408,7 @@ ccViewerApplication.o: ccViewerApplication.cpp.o
 
 # target to build an object file
 ccViewerApplication.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/ccViewerApplication.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/ccViewerApplication.cpp.o
 .PHONY : ccViewerApplication.cpp.o
 
 ccViewerApplication.i: ccViewerApplication.cpp.i
@@ -417,7 +417,7 @@ ccViewerApplication.i: ccViewerApplication.cpp.i
 
 # target to preprocess a source file
 ccViewerApplication.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/ccViewerApplication.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/ccViewerApplication.cpp.i
 .PHONY : ccViewerApplication.cpp.i
 
 ccViewerApplication.s: ccViewerApplication.cpp.s
@@ -426,7 +426,7 @@ ccViewerApplication.s: ccViewerApplication.cpp.s
 
 # target to generate assembly for a file
 ccViewerApplication.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/ccViewerApplication.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/ccViewerApplication.cpp.s
 .PHONY : ccViewerApplication.cpp.s
 
 ccViewer_autogen/mocs_compilation.o: ccViewer_autogen/mocs_compilation.cpp.o
@@ -435,7 +435,7 @@ ccViewer_autogen/mocs_compilation.o: ccViewer_autogen/mocs_compilation.cpp.o
 
 # target to build an object file
 ccViewer_autogen/mocs_compilation.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/ccViewer_autogen/mocs_compilation.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/ccViewer_autogen/mocs_compilation.cpp.o
 .PHONY : ccViewer_autogen/mocs_compilation.cpp.o
 
 ccViewer_autogen/mocs_compilation.i: ccViewer_autogen/mocs_compilation.cpp.i
@@ -444,7 +444,7 @@ ccViewer_autogen/mocs_compilation.i: ccViewer_autogen/mocs_compilation.cpp.i
 
 # target to preprocess a source file
 ccViewer_autogen/mocs_compilation.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/ccViewer_autogen/mocs_compilation.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/ccViewer_autogen/mocs_compilation.cpp.i
 .PHONY : ccViewer_autogen/mocs_compilation.cpp.i
 
 ccViewer_autogen/mocs_compilation.s: ccViewer_autogen/mocs_compilation.cpp.s
@@ -453,7 +453,7 @@ ccViewer_autogen/mocs_compilation.s: ccViewer_autogen/mocs_compilation.cpp.s
 
 # target to generate assembly for a file
 ccViewer_autogen/mocs_compilation.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/ccViewer_autogen/mocs_compilation.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/ccViewer_autogen/mocs_compilation.cpp.s
 .PHONY : ccViewer_autogen/mocs_compilation.cpp.s
 
 ccviewer.o: ccviewer.cpp.o
@@ -462,7 +462,7 @@ ccviewer.o: ccviewer.cpp.o
 
 # target to build an object file
 ccviewer.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/ccviewer.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/ccviewer.cpp.o
 .PHONY : ccviewer.cpp.o
 
 ccviewer.i: ccviewer.cpp.i
@@ -471,7 +471,7 @@ ccviewer.i: ccviewer.cpp.i
 
 # target to preprocess a source file
 ccviewer.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/ccviewer.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/ccviewer.cpp.i
 .PHONY : ccviewer.cpp.i
 
 ccviewer.s: ccviewer.cpp.s
@@ -480,7 +480,7 @@ ccviewer.s: ccviewer.cpp.s
 
 # target to generate assembly for a file
 ccviewer.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/ccviewer.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/ccviewer.cpp.s
 .PHONY : ccviewer.cpp.s
 
 main.o: main.cpp.o
@@ -489,7 +489,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/main.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -498,7 +498,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/main.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -507,7 +507,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/main.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 qrc_icones.o: qrc_icones.cpp.o
@@ -516,7 +516,7 @@ qrc_icones.o: qrc_icones.cpp.o
 
 # target to build an object file
 qrc_icones.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/qrc_icones.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/qrc_icones.cpp.o
 .PHONY : qrc_icones.cpp.o
 
 qrc_icones.i: qrc_icones.cpp.i
@@ -525,7 +525,7 @@ qrc_icones.i: qrc_icones.cpp.i
 
 # target to preprocess a source file
 qrc_icones.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/qrc_icones.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/qrc_icones.cpp.i
 .PHONY : qrc_icones.cpp.i
 
 qrc_icones.s: qrc_icones.cpp.s
@@ -534,7 +534,7 @@ qrc_icones.s: qrc_icones.cpp.s
 
 # target to generate assembly for a file
 qrc_icones.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/qrc_icones.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/qrc_icones.cpp.s
 .PHONY : qrc_icones.cpp.s
 
 # Help Target
@@ -601,6 +601,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

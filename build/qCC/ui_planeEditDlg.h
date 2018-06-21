@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'planeEditDlg.ui'
 **
-** Created by: Qt User Interface Compiler version 5.11.0
+** Created by: Qt User Interface Compiler version 5.10.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,14 +10,16 @@
 #define UI_PLANEEDITDLG_H
 
 #include <QtCore/QVariant>
-#include <QtGui/QIcon>
+#include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QCheckBox>
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QDialogButtonBox>
 #include <QtWidgets/QDoubleSpinBox>
 #include <QtWidgets/QGridLayout>
 #include <QtWidgets/QGroupBox>
+#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QSpacerItem>
 #include <QtWidgets/QTabWidget>

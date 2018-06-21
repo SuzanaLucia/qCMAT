@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/debster/DELETETHiS/qCMAT
+CMAKE_SOURCE_DIR = /home/chrome/work/CloudCompare/qCMAT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/debster/DELETETHiS/qCMAT/build
+CMAKE_BINARY_DIR = /home/chrome/work/CloudCompare/qCMAT/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/debster/DELETETHiS/qCMAT/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/debster/DELETETHiS/qCMAT/build/CMakeFiles /home/debster/DELETETHiS/qCMAT/build/qCC/CMakeFiles/progress.marks
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 qCC/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/debster/DELETETHiS/qCMAT/build/CMakeFiles 0
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles /home/chrome/work/CloudCompare/qCMAT/build/qCC/CMakeFiles/progress.marks
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 qCC/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 qCC/clean
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 qCC/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 qCC/preinstall
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 qCC/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 qCC/preinstall
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 qCC/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 qCC/CMakeFiles/CloudCompare.dir/rule:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 qCC/CMakeFiles/CloudCompare.dir/rule
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 qCC/CMakeFiles/CloudCompare.dir/rule
 .PHONY : qCC/CMakeFiles/CloudCompare.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ CloudCompare: qCC/CMakeFiles/CloudCompare.dir/rule
 
 # fast build rule for target.
 CloudCompare/fast:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/build
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/build
 .PHONY : CloudCompare/fast
 
 # Convenience name for target.
 qCC/CMakeFiles/CloudCompare_autogen.dir/rule:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 qCC/CMakeFiles/CloudCompare_autogen.dir/rule
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 qCC/CMakeFiles/CloudCompare_autogen.dir/rule
 .PHONY : qCC/CMakeFiles/CloudCompare_autogen.dir/rule
 
 # Convenience name for target.
@@ -183,7 +183,7 @@ CloudCompare_autogen: qCC/CMakeFiles/CloudCompare_autogen.dir/rule
 
 # fast build rule for target.
 CloudCompare_autogen/fast:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare_autogen.dir/build.make qCC/CMakeFiles/CloudCompare_autogen.dir/build
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare_autogen.dir/build.make qCC/CMakeFiles/CloudCompare_autogen.dir/build
 .PHONY : CloudCompare_autogen/fast
 
 CloudCompare_autogen/mocs_compilation.o: CloudCompare_autogen/mocs_compilation.cpp.o
@@ -192,7 +192,7 @@ CloudCompare_autogen/mocs_compilation.o: CloudCompare_autogen/mocs_compilation.c
 
 # target to build an object file
 CloudCompare_autogen/mocs_compilation.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/CloudCompare_autogen/mocs_compilation.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/CloudCompare_autogen/mocs_compilation.cpp.o
 .PHONY : CloudCompare_autogen/mocs_compilation.cpp.o
 
 CloudCompare_autogen/mocs_compilation.i: CloudCompare_autogen/mocs_compilation.cpp.i
@@ -201,7 +201,7 @@ CloudCompare_autogen/mocs_compilation.i: CloudCompare_autogen/mocs_compilation.c
 
 # target to preprocess a source file
 CloudCompare_autogen/mocs_compilation.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/CloudCompare_autogen/mocs_compilation.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/CloudCompare_autogen/mocs_compilation.cpp.i
 .PHONY : CloudCompare_autogen/mocs_compilation.cpp.i
 
 CloudCompare_autogen/mocs_compilation.s: CloudCompare_autogen/mocs_compilation.cpp.s
@@ -210,7 +210,7 @@ CloudCompare_autogen/mocs_compilation.s: CloudCompare_autogen/mocs_compilation.c
 
 # target to generate assembly for a file
 CloudCompare_autogen/mocs_compilation.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/CloudCompare_autogen/mocs_compilation.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/CloudCompare_autogen/mocs_compilation.cpp.s
 .PHONY : CloudCompare_autogen/mocs_compilation.cpp.s
 
 cc2.5DimEditor.o: cc2.5DimEditor.cpp.o
@@ -219,7 +219,7 @@ cc2.5DimEditor.o: cc2.5DimEditor.cpp.o
 
 # target to build an object file
 cc2.5DimEditor.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/cc2.5DimEditor.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/cc2.5DimEditor.cpp.o
 .PHONY : cc2.5DimEditor.cpp.o
 
 cc2.5DimEditor.i: cc2.5DimEditor.cpp.i
@@ -228,7 +228,7 @@ cc2.5DimEditor.i: cc2.5DimEditor.cpp.i
 
 # target to preprocess a source file
 cc2.5DimEditor.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/cc2.5DimEditor.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/cc2.5DimEditor.cpp.i
 .PHONY : cc2.5DimEditor.cpp.i
 
 cc2.5DimEditor.s: cc2.5DimEditor.cpp.s
@@ -237,7 +237,7 @@ cc2.5DimEditor.s: cc2.5DimEditor.cpp.s
 
 # target to generate assembly for a file
 cc2.5DimEditor.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/cc2.5DimEditor.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/cc2.5DimEditor.cpp.s
 .PHONY : cc2.5DimEditor.cpp.s
 
 ccAboutDialog.o: ccAboutDialog.cpp.o
@@ -246,7 +246,7 @@ ccAboutDialog.o: ccAboutDialog.cpp.o
 
 # target to build an object file
 ccAboutDialog.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccAboutDialog.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccAboutDialog.cpp.o
 .PHONY : ccAboutDialog.cpp.o
 
 ccAboutDialog.i: ccAboutDialog.cpp.i
@@ -255,7 +255,7 @@ ccAboutDialog.i: ccAboutDialog.cpp.i
 
 # target to preprocess a source file
 ccAboutDialog.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccAboutDialog.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccAboutDialog.cpp.i
 .PHONY : ccAboutDialog.cpp.i
 
 ccAboutDialog.s: ccAboutDialog.cpp.s
@@ -264,7 +264,7 @@ ccAboutDialog.s: ccAboutDialog.cpp.s
 
 # target to generate assembly for a file
 ccAboutDialog.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccAboutDialog.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccAboutDialog.cpp.s
 .PHONY : ccAboutDialog.cpp.s
 
 ccAdjustZoomDlg.o: ccAdjustZoomDlg.cpp.o
@@ -273,7 +273,7 @@ ccAdjustZoomDlg.o: ccAdjustZoomDlg.cpp.o
 
 # target to build an object file
 ccAdjustZoomDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccAdjustZoomDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccAdjustZoomDlg.cpp.o
 .PHONY : ccAdjustZoomDlg.cpp.o
 
 ccAdjustZoomDlg.i: ccAdjustZoomDlg.cpp.i
@@ -282,7 +282,7 @@ ccAdjustZoomDlg.i: ccAdjustZoomDlg.cpp.i
 
 # target to preprocess a source file
 ccAdjustZoomDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccAdjustZoomDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccAdjustZoomDlg.cpp.i
 .PHONY : ccAdjustZoomDlg.cpp.i
 
 ccAdjustZoomDlg.s: ccAdjustZoomDlg.cpp.s
@@ -291,7 +291,7 @@ ccAdjustZoomDlg.s: ccAdjustZoomDlg.cpp.s
 
 # target to generate assembly for a file
 ccAdjustZoomDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccAdjustZoomDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccAdjustZoomDlg.cpp.s
 .PHONY : ccAdjustZoomDlg.cpp.s
 
 ccAlignDlg.o: ccAlignDlg.cpp.o
@@ -300,7 +300,7 @@ ccAlignDlg.o: ccAlignDlg.cpp.o
 
 # target to build an object file
 ccAlignDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccAlignDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccAlignDlg.cpp.o
 .PHONY : ccAlignDlg.cpp.o
 
 ccAlignDlg.i: ccAlignDlg.cpp.i
@@ -309,7 +309,7 @@ ccAlignDlg.i: ccAlignDlg.cpp.i
 
 # target to preprocess a source file
 ccAlignDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccAlignDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccAlignDlg.cpp.i
 .PHONY : ccAlignDlg.cpp.i
 
 ccAlignDlg.s: ccAlignDlg.cpp.s
@@ -318,7 +318,7 @@ ccAlignDlg.s: ccAlignDlg.cpp.s
 
 # target to generate assembly for a file
 ccAlignDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccAlignDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccAlignDlg.cpp.s
 .PHONY : ccAlignDlg.cpp.s
 
 ccApplication.o: ccApplication.cpp.o
@@ -327,7 +327,7 @@ ccApplication.o: ccApplication.cpp.o
 
 # target to build an object file
 ccApplication.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccApplication.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccApplication.cpp.o
 .PHONY : ccApplication.cpp.o
 
 ccApplication.i: ccApplication.cpp.i
@@ -336,7 +336,7 @@ ccApplication.i: ccApplication.cpp.i
 
 # target to preprocess a source file
 ccApplication.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccApplication.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccApplication.cpp.i
 .PHONY : ccApplication.cpp.i
 
 ccApplication.s: ccApplication.cpp.s
@@ -345,7 +345,7 @@ ccApplication.s: ccApplication.cpp.s
 
 # target to generate assembly for a file
 ccApplication.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccApplication.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccApplication.cpp.s
 .PHONY : ccApplication.cpp.s
 
 ccApplyTransformationDlg.o: ccApplyTransformationDlg.cpp.o
@@ -354,7 +354,7 @@ ccApplyTransformationDlg.o: ccApplyTransformationDlg.cpp.o
 
 # target to build an object file
 ccApplyTransformationDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccApplyTransformationDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccApplyTransformationDlg.cpp.o
 .PHONY : ccApplyTransformationDlg.cpp.o
 
 ccApplyTransformationDlg.i: ccApplyTransformationDlg.cpp.i
@@ -363,7 +363,7 @@ ccApplyTransformationDlg.i: ccApplyTransformationDlg.cpp.i
 
 # target to preprocess a source file
 ccApplyTransformationDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccApplyTransformationDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccApplyTransformationDlg.cpp.i
 .PHONY : ccApplyTransformationDlg.cpp.i
 
 ccApplyTransformationDlg.s: ccApplyTransformationDlg.cpp.s
@@ -372,7 +372,7 @@ ccApplyTransformationDlg.s: ccApplyTransformationDlg.cpp.s
 
 # target to generate assembly for a file
 ccApplyTransformationDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccApplyTransformationDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccApplyTransformationDlg.cpp.s
 .PHONY : ccApplyTransformationDlg.cpp.s
 
 ccAskThreeDoubleValuesDlg.o: ccAskThreeDoubleValuesDlg.cpp.o
@@ -381,7 +381,7 @@ ccAskThreeDoubleValuesDlg.o: ccAskThreeDoubleValuesDlg.cpp.o
 
 # target to build an object file
 ccAskThreeDoubleValuesDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccAskThreeDoubleValuesDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccAskThreeDoubleValuesDlg.cpp.o
 .PHONY : ccAskThreeDoubleValuesDlg.cpp.o
 
 ccAskThreeDoubleValuesDlg.i: ccAskThreeDoubleValuesDlg.cpp.i
@@ -390,7 +390,7 @@ ccAskThreeDoubleValuesDlg.i: ccAskThreeDoubleValuesDlg.cpp.i
 
 # target to preprocess a source file
 ccAskThreeDoubleValuesDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccAskThreeDoubleValuesDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccAskThreeDoubleValuesDlg.cpp.i
 .PHONY : ccAskThreeDoubleValuesDlg.cpp.i
 
 ccAskThreeDoubleValuesDlg.s: ccAskThreeDoubleValuesDlg.cpp.s
@@ -399,7 +399,7 @@ ccAskThreeDoubleValuesDlg.s: ccAskThreeDoubleValuesDlg.cpp.s
 
 # target to generate assembly for a file
 ccAskThreeDoubleValuesDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccAskThreeDoubleValuesDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccAskThreeDoubleValuesDlg.cpp.s
 .PHONY : ccAskThreeDoubleValuesDlg.cpp.s
 
 ccAskTwoDoubleValuesDlg.o: ccAskTwoDoubleValuesDlg.cpp.o
@@ -408,7 +408,7 @@ ccAskTwoDoubleValuesDlg.o: ccAskTwoDoubleValuesDlg.cpp.o
 
 # target to build an object file
 ccAskTwoDoubleValuesDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccAskTwoDoubleValuesDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccAskTwoDoubleValuesDlg.cpp.o
 .PHONY : ccAskTwoDoubleValuesDlg.cpp.o
 
 ccAskTwoDoubleValuesDlg.i: ccAskTwoDoubleValuesDlg.cpp.i
@@ -417,7 +417,7 @@ ccAskTwoDoubleValuesDlg.i: ccAskTwoDoubleValuesDlg.cpp.i
 
 # target to preprocess a source file
 ccAskTwoDoubleValuesDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccAskTwoDoubleValuesDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccAskTwoDoubleValuesDlg.cpp.i
 .PHONY : ccAskTwoDoubleValuesDlg.cpp.i
 
 ccAskTwoDoubleValuesDlg.s: ccAskTwoDoubleValuesDlg.cpp.s
@@ -426,7 +426,7 @@ ccAskTwoDoubleValuesDlg.s: ccAskTwoDoubleValuesDlg.cpp.s
 
 # target to generate assembly for a file
 ccAskTwoDoubleValuesDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccAskTwoDoubleValuesDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccAskTwoDoubleValuesDlg.cpp.s
 .PHONY : ccAskTwoDoubleValuesDlg.cpp.s
 
 ccBoundingBoxEditorDlg.o: ccBoundingBoxEditorDlg.cpp.o
@@ -435,7 +435,7 @@ ccBoundingBoxEditorDlg.o: ccBoundingBoxEditorDlg.cpp.o
 
 # target to build an object file
 ccBoundingBoxEditorDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccBoundingBoxEditorDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccBoundingBoxEditorDlg.cpp.o
 .PHONY : ccBoundingBoxEditorDlg.cpp.o
 
 ccBoundingBoxEditorDlg.i: ccBoundingBoxEditorDlg.cpp.i
@@ -444,7 +444,7 @@ ccBoundingBoxEditorDlg.i: ccBoundingBoxEditorDlg.cpp.i
 
 # target to preprocess a source file
 ccBoundingBoxEditorDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccBoundingBoxEditorDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccBoundingBoxEditorDlg.cpp.i
 .PHONY : ccBoundingBoxEditorDlg.cpp.i
 
 ccBoundingBoxEditorDlg.s: ccBoundingBoxEditorDlg.cpp.s
@@ -453,7 +453,7 @@ ccBoundingBoxEditorDlg.s: ccBoundingBoxEditorDlg.cpp.s
 
 # target to generate assembly for a file
 ccBoundingBoxEditorDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccBoundingBoxEditorDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccBoundingBoxEditorDlg.cpp.s
 .PHONY : ccBoundingBoxEditorDlg.cpp.s
 
 ccCamSensorProjectionDlg.o: ccCamSensorProjectionDlg.cpp.o
@@ -462,7 +462,7 @@ ccCamSensorProjectionDlg.o: ccCamSensorProjectionDlg.cpp.o
 
 # target to build an object file
 ccCamSensorProjectionDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccCamSensorProjectionDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccCamSensorProjectionDlg.cpp.o
 .PHONY : ccCamSensorProjectionDlg.cpp.o
 
 ccCamSensorProjectionDlg.i: ccCamSensorProjectionDlg.cpp.i
@@ -471,7 +471,7 @@ ccCamSensorProjectionDlg.i: ccCamSensorProjectionDlg.cpp.i
 
 # target to preprocess a source file
 ccCamSensorProjectionDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccCamSensorProjectionDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccCamSensorProjectionDlg.cpp.i
 .PHONY : ccCamSensorProjectionDlg.cpp.i
 
 ccCamSensorProjectionDlg.s: ccCamSensorProjectionDlg.cpp.s
@@ -480,7 +480,7 @@ ccCamSensorProjectionDlg.s: ccCamSensorProjectionDlg.cpp.s
 
 # target to generate assembly for a file
 ccCamSensorProjectionDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccCamSensorProjectionDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccCamSensorProjectionDlg.cpp.s
 .PHONY : ccCamSensorProjectionDlg.cpp.s
 
 ccCameraParamEditDlg.o: ccCameraParamEditDlg.cpp.o
@@ -489,7 +489,7 @@ ccCameraParamEditDlg.o: ccCameraParamEditDlg.cpp.o
 
 # target to build an object file
 ccCameraParamEditDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccCameraParamEditDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccCameraParamEditDlg.cpp.o
 .PHONY : ccCameraParamEditDlg.cpp.o
 
 ccCameraParamEditDlg.i: ccCameraParamEditDlg.cpp.i
@@ -498,7 +498,7 @@ ccCameraParamEditDlg.i: ccCameraParamEditDlg.cpp.i
 
 # target to preprocess a source file
 ccCameraParamEditDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccCameraParamEditDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccCameraParamEditDlg.cpp.i
 .PHONY : ccCameraParamEditDlg.cpp.i
 
 ccCameraParamEditDlg.s: ccCameraParamEditDlg.cpp.s
@@ -507,7 +507,7 @@ ccCameraParamEditDlg.s: ccCameraParamEditDlg.cpp.s
 
 # target to generate assembly for a file
 ccCameraParamEditDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccCameraParamEditDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccCameraParamEditDlg.cpp.s
 .PHONY : ccCameraParamEditDlg.cpp.s
 
 ccClippingBoxRepeatDlg.o: ccClippingBoxRepeatDlg.cpp.o
@@ -516,7 +516,7 @@ ccClippingBoxRepeatDlg.o: ccClippingBoxRepeatDlg.cpp.o
 
 # target to build an object file
 ccClippingBoxRepeatDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccClippingBoxRepeatDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccClippingBoxRepeatDlg.cpp.o
 .PHONY : ccClippingBoxRepeatDlg.cpp.o
 
 ccClippingBoxRepeatDlg.i: ccClippingBoxRepeatDlg.cpp.i
@@ -525,7 +525,7 @@ ccClippingBoxRepeatDlg.i: ccClippingBoxRepeatDlg.cpp.i
 
 # target to preprocess a source file
 ccClippingBoxRepeatDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccClippingBoxRepeatDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccClippingBoxRepeatDlg.cpp.i
 .PHONY : ccClippingBoxRepeatDlg.cpp.i
 
 ccClippingBoxRepeatDlg.s: ccClippingBoxRepeatDlg.cpp.s
@@ -534,7 +534,7 @@ ccClippingBoxRepeatDlg.s: ccClippingBoxRepeatDlg.cpp.s
 
 # target to generate assembly for a file
 ccClippingBoxRepeatDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccClippingBoxRepeatDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccClippingBoxRepeatDlg.cpp.s
 .PHONY : ccClippingBoxRepeatDlg.cpp.s
 
 ccClippingBoxTool.o: ccClippingBoxTool.cpp.o
@@ -543,7 +543,7 @@ ccClippingBoxTool.o: ccClippingBoxTool.cpp.o
 
 # target to build an object file
 ccClippingBoxTool.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccClippingBoxTool.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccClippingBoxTool.cpp.o
 .PHONY : ccClippingBoxTool.cpp.o
 
 ccClippingBoxTool.i: ccClippingBoxTool.cpp.i
@@ -552,7 +552,7 @@ ccClippingBoxTool.i: ccClippingBoxTool.cpp.i
 
 # target to preprocess a source file
 ccClippingBoxTool.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccClippingBoxTool.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccClippingBoxTool.cpp.i
 .PHONY : ccClippingBoxTool.cpp.i
 
 ccClippingBoxTool.s: ccClippingBoxTool.cpp.s
@@ -561,7 +561,7 @@ ccClippingBoxTool.s: ccClippingBoxTool.cpp.s
 
 # target to generate assembly for a file
 ccClippingBoxTool.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccClippingBoxTool.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccClippingBoxTool.cpp.s
 .PHONY : ccClippingBoxTool.cpp.s
 
 ccColorGradientDlg.o: ccColorGradientDlg.cpp.o
@@ -570,7 +570,7 @@ ccColorGradientDlg.o: ccColorGradientDlg.cpp.o
 
 # target to build an object file
 ccColorGradientDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccColorGradientDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccColorGradientDlg.cpp.o
 .PHONY : ccColorGradientDlg.cpp.o
 
 ccColorGradientDlg.i: ccColorGradientDlg.cpp.i
@@ -579,7 +579,7 @@ ccColorGradientDlg.i: ccColorGradientDlg.cpp.i
 
 # target to preprocess a source file
 ccColorGradientDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccColorGradientDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccColorGradientDlg.cpp.i
 .PHONY : ccColorGradientDlg.cpp.i
 
 ccColorGradientDlg.s: ccColorGradientDlg.cpp.s
@@ -588,7 +588,7 @@ ccColorGradientDlg.s: ccColorGradientDlg.cpp.s
 
 # target to generate assembly for a file
 ccColorGradientDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccColorGradientDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccColorGradientDlg.cpp.s
 .PHONY : ccColorGradientDlg.cpp.s
 
 ccColorLevelsDlg.o: ccColorLevelsDlg.cpp.o
@@ -597,7 +597,7 @@ ccColorLevelsDlg.o: ccColorLevelsDlg.cpp.o
 
 # target to build an object file
 ccColorLevelsDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccColorLevelsDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccColorLevelsDlg.cpp.o
 .PHONY : ccColorLevelsDlg.cpp.o
 
 ccColorLevelsDlg.i: ccColorLevelsDlg.cpp.i
@@ -606,7 +606,7 @@ ccColorLevelsDlg.i: ccColorLevelsDlg.cpp.i
 
 # target to preprocess a source file
 ccColorLevelsDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccColorLevelsDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccColorLevelsDlg.cpp.i
 .PHONY : ccColorLevelsDlg.cpp.i
 
 ccColorLevelsDlg.s: ccColorLevelsDlg.cpp.s
@@ -615,7 +615,7 @@ ccColorLevelsDlg.s: ccColorLevelsDlg.cpp.s
 
 # target to generate assembly for a file
 ccColorLevelsDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccColorLevelsDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccColorLevelsDlg.cpp.s
 .PHONY : ccColorLevelsDlg.cpp.s
 
 ccColorScaleEditorDlg.o: ccColorScaleEditorDlg.cpp.o
@@ -624,7 +624,7 @@ ccColorScaleEditorDlg.o: ccColorScaleEditorDlg.cpp.o
 
 # target to build an object file
 ccColorScaleEditorDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccColorScaleEditorDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccColorScaleEditorDlg.cpp.o
 .PHONY : ccColorScaleEditorDlg.cpp.o
 
 ccColorScaleEditorDlg.i: ccColorScaleEditorDlg.cpp.i
@@ -633,7 +633,7 @@ ccColorScaleEditorDlg.i: ccColorScaleEditorDlg.cpp.i
 
 # target to preprocess a source file
 ccColorScaleEditorDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccColorScaleEditorDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccColorScaleEditorDlg.cpp.i
 .PHONY : ccColorScaleEditorDlg.cpp.i
 
 ccColorScaleEditorDlg.s: ccColorScaleEditorDlg.cpp.s
@@ -642,7 +642,7 @@ ccColorScaleEditorDlg.s: ccColorScaleEditorDlg.cpp.s
 
 # target to generate assembly for a file
 ccColorScaleEditorDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccColorScaleEditorDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccColorScaleEditorDlg.cpp.s
 .PHONY : ccColorScaleEditorDlg.cpp.s
 
 ccColorScaleEditorWidget.o: ccColorScaleEditorWidget.cpp.o
@@ -651,7 +651,7 @@ ccColorScaleEditorWidget.o: ccColorScaleEditorWidget.cpp.o
 
 # target to build an object file
 ccColorScaleEditorWidget.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccColorScaleEditorWidget.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccColorScaleEditorWidget.cpp.o
 .PHONY : ccColorScaleEditorWidget.cpp.o
 
 ccColorScaleEditorWidget.i: ccColorScaleEditorWidget.cpp.i
@@ -660,7 +660,7 @@ ccColorScaleEditorWidget.i: ccColorScaleEditorWidget.cpp.i
 
 # target to preprocess a source file
 ccColorScaleEditorWidget.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccColorScaleEditorWidget.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccColorScaleEditorWidget.cpp.i
 .PHONY : ccColorScaleEditorWidget.cpp.i
 
 ccColorScaleEditorWidget.s: ccColorScaleEditorWidget.cpp.s
@@ -669,7 +669,7 @@ ccColorScaleEditorWidget.s: ccColorScaleEditorWidget.cpp.s
 
 # target to generate assembly for a file
 ccColorScaleEditorWidget.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccColorScaleEditorWidget.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccColorScaleEditorWidget.cpp.s
 .PHONY : ccColorScaleEditorWidget.cpp.s
 
 ccColorScaleSelector.o: ccColorScaleSelector.cpp.o
@@ -678,7 +678,7 @@ ccColorScaleSelector.o: ccColorScaleSelector.cpp.o
 
 # target to build an object file
 ccColorScaleSelector.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccColorScaleSelector.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccColorScaleSelector.cpp.o
 .PHONY : ccColorScaleSelector.cpp.o
 
 ccColorScaleSelector.i: ccColorScaleSelector.cpp.i
@@ -687,7 +687,7 @@ ccColorScaleSelector.i: ccColorScaleSelector.cpp.i
 
 # target to preprocess a source file
 ccColorScaleSelector.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccColorScaleSelector.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccColorScaleSelector.cpp.i
 .PHONY : ccColorScaleSelector.cpp.i
 
 ccColorScaleSelector.s: ccColorScaleSelector.cpp.s
@@ -696,7 +696,7 @@ ccColorScaleSelector.s: ccColorScaleSelector.cpp.s
 
 # target to generate assembly for a file
 ccColorScaleSelector.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccColorScaleSelector.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccColorScaleSelector.cpp.s
 .PHONY : ccColorScaleSelector.cpp.s
 
 ccCommandLineParser.o: ccCommandLineParser.cpp.o
@@ -705,7 +705,7 @@ ccCommandLineParser.o: ccCommandLineParser.cpp.o
 
 # target to build an object file
 ccCommandLineParser.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccCommandLineParser.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccCommandLineParser.cpp.o
 .PHONY : ccCommandLineParser.cpp.o
 
 ccCommandLineParser.i: ccCommandLineParser.cpp.i
@@ -714,7 +714,7 @@ ccCommandLineParser.i: ccCommandLineParser.cpp.i
 
 # target to preprocess a source file
 ccCommandLineParser.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccCommandLineParser.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccCommandLineParser.cpp.i
 .PHONY : ccCommandLineParser.cpp.i
 
 ccCommandLineParser.s: ccCommandLineParser.cpp.s
@@ -723,7 +723,7 @@ ccCommandLineParser.s: ccCommandLineParser.cpp.s
 
 # target to generate assembly for a file
 ccCommandLineParser.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccCommandLineParser.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccCommandLineParser.cpp.s
 .PHONY : ccCommandLineParser.cpp.s
 
 ccComparisonDlg.o: ccComparisonDlg.cpp.o
@@ -732,7 +732,7 @@ ccComparisonDlg.o: ccComparisonDlg.cpp.o
 
 # target to build an object file
 ccComparisonDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccComparisonDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccComparisonDlg.cpp.o
 .PHONY : ccComparisonDlg.cpp.o
 
 ccComparisonDlg.i: ccComparisonDlg.cpp.i
@@ -741,7 +741,7 @@ ccComparisonDlg.i: ccComparisonDlg.cpp.i
 
 # target to preprocess a source file
 ccComparisonDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccComparisonDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccComparisonDlg.cpp.i
 .PHONY : ccComparisonDlg.cpp.i
 
 ccComparisonDlg.s: ccComparisonDlg.cpp.s
@@ -750,7 +750,7 @@ ccComparisonDlg.s: ccComparisonDlg.cpp.s
 
 # target to generate assembly for a file
 ccComparisonDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccComparisonDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccComparisonDlg.cpp.s
 .PHONY : ccComparisonDlg.cpp.s
 
 ccComputeOctreeDlg.o: ccComputeOctreeDlg.cpp.o
@@ -759,7 +759,7 @@ ccComputeOctreeDlg.o: ccComputeOctreeDlg.cpp.o
 
 # target to build an object file
 ccComputeOctreeDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccComputeOctreeDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccComputeOctreeDlg.cpp.o
 .PHONY : ccComputeOctreeDlg.cpp.o
 
 ccComputeOctreeDlg.i: ccComputeOctreeDlg.cpp.i
@@ -768,7 +768,7 @@ ccComputeOctreeDlg.i: ccComputeOctreeDlg.cpp.i
 
 # target to preprocess a source file
 ccComputeOctreeDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccComputeOctreeDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccComputeOctreeDlg.cpp.i
 .PHONY : ccComputeOctreeDlg.cpp.i
 
 ccComputeOctreeDlg.s: ccComputeOctreeDlg.cpp.s
@@ -777,7 +777,7 @@ ccComputeOctreeDlg.s: ccComputeOctreeDlg.cpp.s
 
 # target to generate assembly for a file
 ccComputeOctreeDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccComputeOctreeDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccComputeOctreeDlg.cpp.s
 .PHONY : ccComputeOctreeDlg.cpp.s
 
 ccConsole.o: ccConsole.cpp.o
@@ -786,7 +786,7 @@ ccConsole.o: ccConsole.cpp.o
 
 # target to build an object file
 ccConsole.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccConsole.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccConsole.cpp.o
 .PHONY : ccConsole.cpp.o
 
 ccConsole.i: ccConsole.cpp.i
@@ -795,7 +795,7 @@ ccConsole.i: ccConsole.cpp.i
 
 # target to preprocess a source file
 ccConsole.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccConsole.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccConsole.cpp.i
 .PHONY : ccConsole.cpp.i
 
 ccConsole.s: ccConsole.cpp.s
@@ -804,7 +804,7 @@ ccConsole.s: ccConsole.cpp.s
 
 # target to generate assembly for a file
 ccConsole.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccConsole.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccConsole.cpp.s
 .PHONY : ccConsole.cpp.s
 
 ccContourExtractor.o: ccContourExtractor.cpp.o
@@ -813,7 +813,7 @@ ccContourExtractor.o: ccContourExtractor.cpp.o
 
 # target to build an object file
 ccContourExtractor.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccContourExtractor.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccContourExtractor.cpp.o
 .PHONY : ccContourExtractor.cpp.o
 
 ccContourExtractor.i: ccContourExtractor.cpp.i
@@ -822,7 +822,7 @@ ccContourExtractor.i: ccContourExtractor.cpp.i
 
 # target to preprocess a source file
 ccContourExtractor.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccContourExtractor.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccContourExtractor.cpp.i
 .PHONY : ccContourExtractor.cpp.i
 
 ccContourExtractor.s: ccContourExtractor.cpp.s
@@ -831,7 +831,7 @@ ccContourExtractor.s: ccContourExtractor.cpp.s
 
 # target to generate assembly for a file
 ccContourExtractor.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccContourExtractor.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccContourExtractor.cpp.s
 .PHONY : ccContourExtractor.cpp.s
 
 ccContourExtractorDlg.o: ccContourExtractorDlg.cpp.o
@@ -840,7 +840,7 @@ ccContourExtractorDlg.o: ccContourExtractorDlg.cpp.o
 
 # target to build an object file
 ccContourExtractorDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccContourExtractorDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccContourExtractorDlg.cpp.o
 .PHONY : ccContourExtractorDlg.cpp.o
 
 ccContourExtractorDlg.i: ccContourExtractorDlg.cpp.i
@@ -849,7 +849,7 @@ ccContourExtractorDlg.i: ccContourExtractorDlg.cpp.i
 
 # target to preprocess a source file
 ccContourExtractorDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccContourExtractorDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccContourExtractorDlg.cpp.i
 .PHONY : ccContourExtractorDlg.cpp.i
 
 ccContourExtractorDlg.s: ccContourExtractorDlg.cpp.s
@@ -858,7 +858,7 @@ ccContourExtractorDlg.s: ccContourExtractorDlg.cpp.s
 
 # target to generate assembly for a file
 ccContourExtractorDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccContourExtractorDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccContourExtractorDlg.cpp.s
 .PHONY : ccContourExtractorDlg.cpp.s
 
 ccCropTool.o: ccCropTool.cpp.o
@@ -867,7 +867,7 @@ ccCropTool.o: ccCropTool.cpp.o
 
 # target to build an object file
 ccCropTool.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccCropTool.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccCropTool.cpp.o
 .PHONY : ccCropTool.cpp.o
 
 ccCropTool.i: ccCropTool.cpp.i
@@ -876,7 +876,7 @@ ccCropTool.i: ccCropTool.cpp.i
 
 # target to preprocess a source file
 ccCropTool.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccCropTool.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccCropTool.cpp.i
 .PHONY : ccCropTool.cpp.i
 
 ccCropTool.s: ccCropTool.cpp.s
@@ -885,7 +885,7 @@ ccCropTool.s: ccCropTool.cpp.s
 
 # target to generate assembly for a file
 ccCropTool.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccCropTool.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccCropTool.cpp.s
 .PHONY : ccCropTool.cpp.s
 
 ccCurvatureDlg.o: ccCurvatureDlg.cpp.o
@@ -894,7 +894,7 @@ ccCurvatureDlg.o: ccCurvatureDlg.cpp.o
 
 # target to build an object file
 ccCurvatureDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccCurvatureDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccCurvatureDlg.cpp.o
 .PHONY : ccCurvatureDlg.cpp.o
 
 ccCurvatureDlg.i: ccCurvatureDlg.cpp.i
@@ -903,7 +903,7 @@ ccCurvatureDlg.i: ccCurvatureDlg.cpp.i
 
 # target to preprocess a source file
 ccCurvatureDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccCurvatureDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccCurvatureDlg.cpp.i
 .PHONY : ccCurvatureDlg.cpp.i
 
 ccCurvatureDlg.s: ccCurvatureDlg.cpp.s
@@ -912,7 +912,7 @@ ccCurvatureDlg.s: ccCurvatureDlg.cpp.s
 
 # target to generate assembly for a file
 ccCurvatureDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccCurvatureDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccCurvatureDlg.cpp.s
 .PHONY : ccCurvatureDlg.cpp.s
 
 ccDensityDlg.o: ccDensityDlg.cpp.o
@@ -921,7 +921,7 @@ ccDensityDlg.o: ccDensityDlg.cpp.o
 
 # target to build an object file
 ccDensityDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccDensityDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccDensityDlg.cpp.o
 .PHONY : ccDensityDlg.cpp.o
 
 ccDensityDlg.i: ccDensityDlg.cpp.i
@@ -930,7 +930,7 @@ ccDensityDlg.i: ccDensityDlg.cpp.i
 
 # target to preprocess a source file
 ccDensityDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccDensityDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccDensityDlg.cpp.i
 .PHONY : ccDensityDlg.cpp.i
 
 ccDensityDlg.s: ccDensityDlg.cpp.s
@@ -939,7 +939,7 @@ ccDensityDlg.s: ccDensityDlg.cpp.s
 
 # target to generate assembly for a file
 ccDensityDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccDensityDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccDensityDlg.cpp.s
 .PHONY : ccDensityDlg.cpp.s
 
 ccDisplayOptionsDlg.o: ccDisplayOptionsDlg.cpp.o
@@ -948,7 +948,7 @@ ccDisplayOptionsDlg.o: ccDisplayOptionsDlg.cpp.o
 
 # target to build an object file
 ccDisplayOptionsDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccDisplayOptionsDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccDisplayOptionsDlg.cpp.o
 .PHONY : ccDisplayOptionsDlg.cpp.o
 
 ccDisplayOptionsDlg.i: ccDisplayOptionsDlg.cpp.i
@@ -957,7 +957,7 @@ ccDisplayOptionsDlg.i: ccDisplayOptionsDlg.cpp.i
 
 # target to preprocess a source file
 ccDisplayOptionsDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccDisplayOptionsDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccDisplayOptionsDlg.cpp.i
 .PHONY : ccDisplayOptionsDlg.cpp.i
 
 ccDisplayOptionsDlg.s: ccDisplayOptionsDlg.cpp.s
@@ -966,7 +966,7 @@ ccDisplayOptionsDlg.s: ccDisplayOptionsDlg.cpp.s
 
 # target to generate assembly for a file
 ccDisplayOptionsDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccDisplayOptionsDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccDisplayOptionsDlg.cpp.s
 .PHONY : ccDisplayOptionsDlg.cpp.s
 
 ccEntityAction.o: ccEntityAction.cpp.o
@@ -975,7 +975,7 @@ ccEntityAction.o: ccEntityAction.cpp.o
 
 # target to build an object file
 ccEntityAction.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccEntityAction.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccEntityAction.cpp.o
 .PHONY : ccEntityAction.cpp.o
 
 ccEntityAction.i: ccEntityAction.cpp.i
@@ -984,7 +984,7 @@ ccEntityAction.i: ccEntityAction.cpp.i
 
 # target to preprocess a source file
 ccEntityAction.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccEntityAction.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccEntityAction.cpp.i
 .PHONY : ccEntityAction.cpp.i
 
 ccEntityAction.s: ccEntityAction.cpp.s
@@ -993,7 +993,7 @@ ccEntityAction.s: ccEntityAction.cpp.s
 
 # target to generate assembly for a file
 ccEntityAction.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccEntityAction.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccEntityAction.cpp.s
 .PHONY : ccEntityAction.cpp.s
 
 ccExportCoordToSFDlg.o: ccExportCoordToSFDlg.cpp.o
@@ -1002,7 +1002,7 @@ ccExportCoordToSFDlg.o: ccExportCoordToSFDlg.cpp.o
 
 # target to build an object file
 ccExportCoordToSFDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccExportCoordToSFDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccExportCoordToSFDlg.cpp.o
 .PHONY : ccExportCoordToSFDlg.cpp.o
 
 ccExportCoordToSFDlg.i: ccExportCoordToSFDlg.cpp.i
@@ -1011,7 +1011,7 @@ ccExportCoordToSFDlg.i: ccExportCoordToSFDlg.cpp.i
 
 # target to preprocess a source file
 ccExportCoordToSFDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccExportCoordToSFDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccExportCoordToSFDlg.cpp.i
 .PHONY : ccExportCoordToSFDlg.cpp.i
 
 ccExportCoordToSFDlg.s: ccExportCoordToSFDlg.cpp.s
@@ -1020,7 +1020,7 @@ ccExportCoordToSFDlg.s: ccExportCoordToSFDlg.cpp.s
 
 # target to generate assembly for a file
 ccExportCoordToSFDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccExportCoordToSFDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccExportCoordToSFDlg.cpp.s
 .PHONY : ccExportCoordToSFDlg.cpp.s
 
 ccFilterByValueDlg.o: ccFilterByValueDlg.cpp.o
@@ -1029,7 +1029,7 @@ ccFilterByValueDlg.o: ccFilterByValueDlg.cpp.o
 
 # target to build an object file
 ccFilterByValueDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccFilterByValueDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccFilterByValueDlg.cpp.o
 .PHONY : ccFilterByValueDlg.cpp.o
 
 ccFilterByValueDlg.i: ccFilterByValueDlg.cpp.i
@@ -1038,7 +1038,7 @@ ccFilterByValueDlg.i: ccFilterByValueDlg.cpp.i
 
 # target to preprocess a source file
 ccFilterByValueDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccFilterByValueDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccFilterByValueDlg.cpp.i
 .PHONY : ccFilterByValueDlg.cpp.i
 
 ccFilterByValueDlg.s: ccFilterByValueDlg.cpp.s
@@ -1047,7 +1047,7 @@ ccFilterByValueDlg.s: ccFilterByValueDlg.cpp.s
 
 # target to generate assembly for a file
 ccFilterByValueDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccFilterByValueDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccFilterByValueDlg.cpp.s
 .PHONY : ccFilterByValueDlg.cpp.s
 
 ccGBLSensorProjectionDlg.o: ccGBLSensorProjectionDlg.cpp.o
@@ -1056,7 +1056,7 @@ ccGBLSensorProjectionDlg.o: ccGBLSensorProjectionDlg.cpp.o
 
 # target to build an object file
 ccGBLSensorProjectionDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccGBLSensorProjectionDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccGBLSensorProjectionDlg.cpp.o
 .PHONY : ccGBLSensorProjectionDlg.cpp.o
 
 ccGBLSensorProjectionDlg.i: ccGBLSensorProjectionDlg.cpp.i
@@ -1065,7 +1065,7 @@ ccGBLSensorProjectionDlg.i: ccGBLSensorProjectionDlg.cpp.i
 
 # target to preprocess a source file
 ccGBLSensorProjectionDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccGBLSensorProjectionDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccGBLSensorProjectionDlg.cpp.i
 .PHONY : ccGBLSensorProjectionDlg.cpp.i
 
 ccGBLSensorProjectionDlg.s: ccGBLSensorProjectionDlg.cpp.s
@@ -1074,7 +1074,7 @@ ccGBLSensorProjectionDlg.s: ccGBLSensorProjectionDlg.cpp.s
 
 # target to generate assembly for a file
 ccGBLSensorProjectionDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccGBLSensorProjectionDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccGBLSensorProjectionDlg.cpp.s
 .PHONY : ccGBLSensorProjectionDlg.cpp.s
 
 ccGraphicalSegmentationTool.o: ccGraphicalSegmentationTool.cpp.o
@@ -1083,7 +1083,7 @@ ccGraphicalSegmentationTool.o: ccGraphicalSegmentationTool.cpp.o
 
 # target to build an object file
 ccGraphicalSegmentationTool.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccGraphicalSegmentationTool.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccGraphicalSegmentationTool.cpp.o
 .PHONY : ccGraphicalSegmentationTool.cpp.o
 
 ccGraphicalSegmentationTool.i: ccGraphicalSegmentationTool.cpp.i
@@ -1092,7 +1092,7 @@ ccGraphicalSegmentationTool.i: ccGraphicalSegmentationTool.cpp.i
 
 # target to preprocess a source file
 ccGraphicalSegmentationTool.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccGraphicalSegmentationTool.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccGraphicalSegmentationTool.cpp.i
 .PHONY : ccGraphicalSegmentationTool.cpp.i
 
 ccGraphicalSegmentationTool.s: ccGraphicalSegmentationTool.cpp.s
@@ -1101,7 +1101,7 @@ ccGraphicalSegmentationTool.s: ccGraphicalSegmentationTool.cpp.s
 
 # target to generate assembly for a file
 ccGraphicalSegmentationTool.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccGraphicalSegmentationTool.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccGraphicalSegmentationTool.cpp.s
 .PHONY : ccGraphicalSegmentationTool.cpp.s
 
 ccGraphicalTransformationTool.o: ccGraphicalTransformationTool.cpp.o
@@ -1110,7 +1110,7 @@ ccGraphicalTransformationTool.o: ccGraphicalTransformationTool.cpp.o
 
 # target to build an object file
 ccGraphicalTransformationTool.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccGraphicalTransformationTool.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccGraphicalTransformationTool.cpp.o
 .PHONY : ccGraphicalTransformationTool.cpp.o
 
 ccGraphicalTransformationTool.i: ccGraphicalTransformationTool.cpp.i
@@ -1119,7 +1119,7 @@ ccGraphicalTransformationTool.i: ccGraphicalTransformationTool.cpp.i
 
 # target to preprocess a source file
 ccGraphicalTransformationTool.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccGraphicalTransformationTool.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccGraphicalTransformationTool.cpp.i
 .PHONY : ccGraphicalTransformationTool.cpp.i
 
 ccGraphicalTransformationTool.s: ccGraphicalTransformationTool.cpp.s
@@ -1128,7 +1128,7 @@ ccGraphicalTransformationTool.s: ccGraphicalTransformationTool.cpp.s
 
 # target to generate assembly for a file
 ccGraphicalTransformationTool.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccGraphicalTransformationTool.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccGraphicalTransformationTool.cpp.s
 .PHONY : ccGraphicalTransformationTool.cpp.s
 
 ccHistogramWindow.o: ccHistogramWindow.cpp.o
@@ -1137,7 +1137,7 @@ ccHistogramWindow.o: ccHistogramWindow.cpp.o
 
 # target to build an object file
 ccHistogramWindow.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccHistogramWindow.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccHistogramWindow.cpp.o
 .PHONY : ccHistogramWindow.cpp.o
 
 ccHistogramWindow.i: ccHistogramWindow.cpp.i
@@ -1146,7 +1146,7 @@ ccHistogramWindow.i: ccHistogramWindow.cpp.i
 
 # target to preprocess a source file
 ccHistogramWindow.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccHistogramWindow.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccHistogramWindow.cpp.i
 .PHONY : ccHistogramWindow.cpp.i
 
 ccHistogramWindow.s: ccHistogramWindow.cpp.s
@@ -1155,7 +1155,7 @@ ccHistogramWindow.s: ccHistogramWindow.cpp.s
 
 # target to generate assembly for a file
 ccHistogramWindow.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccHistogramWindow.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccHistogramWindow.cpp.s
 .PHONY : ccHistogramWindow.cpp.s
 
 ccInnerRect2DFinder.o: ccInnerRect2DFinder.cpp.o
@@ -1164,7 +1164,7 @@ ccInnerRect2DFinder.o: ccInnerRect2DFinder.cpp.o
 
 # target to build an object file
 ccInnerRect2DFinder.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccInnerRect2DFinder.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccInnerRect2DFinder.cpp.o
 .PHONY : ccInnerRect2DFinder.cpp.o
 
 ccInnerRect2DFinder.i: ccInnerRect2DFinder.cpp.i
@@ -1173,7 +1173,7 @@ ccInnerRect2DFinder.i: ccInnerRect2DFinder.cpp.i
 
 # target to preprocess a source file
 ccInnerRect2DFinder.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccInnerRect2DFinder.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccInnerRect2DFinder.cpp.i
 .PHONY : ccInnerRect2DFinder.cpp.i
 
 ccInnerRect2DFinder.s: ccInnerRect2DFinder.cpp.s
@@ -1182,7 +1182,7 @@ ccInnerRect2DFinder.s: ccInnerRect2DFinder.cpp.s
 
 # target to generate assembly for a file
 ccInnerRect2DFinder.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccInnerRect2DFinder.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccInnerRect2DFinder.cpp.s
 .PHONY : ccInnerRect2DFinder.cpp.s
 
 ccInterpolationDlg.o: ccInterpolationDlg.cpp.o
@@ -1191,7 +1191,7 @@ ccInterpolationDlg.o: ccInterpolationDlg.cpp.o
 
 # target to build an object file
 ccInterpolationDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccInterpolationDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccInterpolationDlg.cpp.o
 .PHONY : ccInterpolationDlg.cpp.o
 
 ccInterpolationDlg.i: ccInterpolationDlg.cpp.i
@@ -1200,7 +1200,7 @@ ccInterpolationDlg.i: ccInterpolationDlg.cpp.i
 
 # target to preprocess a source file
 ccInterpolationDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccInterpolationDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccInterpolationDlg.cpp.i
 .PHONY : ccInterpolationDlg.cpp.i
 
 ccInterpolationDlg.s: ccInterpolationDlg.cpp.s
@@ -1209,7 +1209,7 @@ ccInterpolationDlg.s: ccInterpolationDlg.cpp.s
 
 # target to generate assembly for a file
 ccInterpolationDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccInterpolationDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccInterpolationDlg.cpp.s
 .PHONY : ccInterpolationDlg.cpp.s
 
 ccItemSelectionDlg.o: ccItemSelectionDlg.cpp.o
@@ -1218,7 +1218,7 @@ ccItemSelectionDlg.o: ccItemSelectionDlg.cpp.o
 
 # target to build an object file
 ccItemSelectionDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccItemSelectionDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccItemSelectionDlg.cpp.o
 .PHONY : ccItemSelectionDlg.cpp.o
 
 ccItemSelectionDlg.i: ccItemSelectionDlg.cpp.i
@@ -1227,7 +1227,7 @@ ccItemSelectionDlg.i: ccItemSelectionDlg.cpp.i
 
 # target to preprocess a source file
 ccItemSelectionDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccItemSelectionDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccItemSelectionDlg.cpp.i
 .PHONY : ccItemSelectionDlg.cpp.i
 
 ccItemSelectionDlg.s: ccItemSelectionDlg.cpp.s
@@ -1236,7 +1236,7 @@ ccItemSelectionDlg.s: ccItemSelectionDlg.cpp.s
 
 # target to generate assembly for a file
 ccItemSelectionDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccItemSelectionDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccItemSelectionDlg.cpp.s
 .PHONY : ccItemSelectionDlg.cpp.s
 
 ccLabelingDlg.o: ccLabelingDlg.cpp.o
@@ -1245,7 +1245,7 @@ ccLabelingDlg.o: ccLabelingDlg.cpp.o
 
 # target to build an object file
 ccLabelingDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccLabelingDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccLabelingDlg.cpp.o
 .PHONY : ccLabelingDlg.cpp.o
 
 ccLabelingDlg.i: ccLabelingDlg.cpp.i
@@ -1254,7 +1254,7 @@ ccLabelingDlg.i: ccLabelingDlg.cpp.i
 
 # target to preprocess a source file
 ccLabelingDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccLabelingDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccLabelingDlg.cpp.i
 .PHONY : ccLabelingDlg.cpp.i
 
 ccLabelingDlg.s: ccLabelingDlg.cpp.s
@@ -1263,7 +1263,7 @@ ccLabelingDlg.s: ccLabelingDlg.cpp.s
 
 # target to generate assembly for a file
 ccLabelingDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccLabelingDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccLabelingDlg.cpp.s
 .PHONY : ccLabelingDlg.cpp.s
 
 ccLibAlgorithms.o: ccLibAlgorithms.cpp.o
@@ -1272,7 +1272,7 @@ ccLibAlgorithms.o: ccLibAlgorithms.cpp.o
 
 # target to build an object file
 ccLibAlgorithms.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccLibAlgorithms.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccLibAlgorithms.cpp.o
 .PHONY : ccLibAlgorithms.cpp.o
 
 ccLibAlgorithms.i: ccLibAlgorithms.cpp.i
@@ -1281,7 +1281,7 @@ ccLibAlgorithms.i: ccLibAlgorithms.cpp.i
 
 # target to preprocess a source file
 ccLibAlgorithms.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccLibAlgorithms.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccLibAlgorithms.cpp.i
 .PHONY : ccLibAlgorithms.cpp.i
 
 ccLibAlgorithms.s: ccLibAlgorithms.cpp.s
@@ -1290,7 +1290,7 @@ ccLibAlgorithms.s: ccLibAlgorithms.cpp.s
 
 # target to generate assembly for a file
 ccLibAlgorithms.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccLibAlgorithms.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccLibAlgorithms.cpp.s
 .PHONY : ccLibAlgorithms.cpp.s
 
 ccMatchScalesDlg.o: ccMatchScalesDlg.cpp.o
@@ -1299,7 +1299,7 @@ ccMatchScalesDlg.o: ccMatchScalesDlg.cpp.o
 
 # target to build an object file
 ccMatchScalesDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccMatchScalesDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccMatchScalesDlg.cpp.o
 .PHONY : ccMatchScalesDlg.cpp.o
 
 ccMatchScalesDlg.i: ccMatchScalesDlg.cpp.i
@@ -1308,7 +1308,7 @@ ccMatchScalesDlg.i: ccMatchScalesDlg.cpp.i
 
 # target to preprocess a source file
 ccMatchScalesDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccMatchScalesDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccMatchScalesDlg.cpp.i
 .PHONY : ccMatchScalesDlg.cpp.i
 
 ccMatchScalesDlg.s: ccMatchScalesDlg.cpp.s
@@ -1317,7 +1317,7 @@ ccMatchScalesDlg.s: ccMatchScalesDlg.cpp.s
 
 # target to generate assembly for a file
 ccMatchScalesDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccMatchScalesDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccMatchScalesDlg.cpp.s
 .PHONY : ccMatchScalesDlg.cpp.s
 
 ccNoiseFilterDlg.o: ccNoiseFilterDlg.cpp.o
@@ -1326,7 +1326,7 @@ ccNoiseFilterDlg.o: ccNoiseFilterDlg.cpp.o
 
 # target to build an object file
 ccNoiseFilterDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccNoiseFilterDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccNoiseFilterDlg.cpp.o
 .PHONY : ccNoiseFilterDlg.cpp.o
 
 ccNoiseFilterDlg.i: ccNoiseFilterDlg.cpp.i
@@ -1335,7 +1335,7 @@ ccNoiseFilterDlg.i: ccNoiseFilterDlg.cpp.i
 
 # target to preprocess a source file
 ccNoiseFilterDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccNoiseFilterDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccNoiseFilterDlg.cpp.i
 .PHONY : ccNoiseFilterDlg.cpp.i
 
 ccNoiseFilterDlg.s: ccNoiseFilterDlg.cpp.s
@@ -1344,7 +1344,7 @@ ccNoiseFilterDlg.s: ccNoiseFilterDlg.cpp.s
 
 # target to generate assembly for a file
 ccNoiseFilterDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccNoiseFilterDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccNoiseFilterDlg.cpp.s
 .PHONY : ccNoiseFilterDlg.cpp.s
 
 ccNormalComputationDlg.o: ccNormalComputationDlg.cpp.o
@@ -1353,7 +1353,7 @@ ccNormalComputationDlg.o: ccNormalComputationDlg.cpp.o
 
 # target to build an object file
 ccNormalComputationDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccNormalComputationDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccNormalComputationDlg.cpp.o
 .PHONY : ccNormalComputationDlg.cpp.o
 
 ccNormalComputationDlg.i: ccNormalComputationDlg.cpp.i
@@ -1362,7 +1362,7 @@ ccNormalComputationDlg.i: ccNormalComputationDlg.cpp.i
 
 # target to preprocess a source file
 ccNormalComputationDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccNormalComputationDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccNormalComputationDlg.cpp.i
 .PHONY : ccNormalComputationDlg.cpp.i
 
 ccNormalComputationDlg.s: ccNormalComputationDlg.cpp.s
@@ -1371,7 +1371,7 @@ ccNormalComputationDlg.s: ccNormalComputationDlg.cpp.s
 
 # target to generate assembly for a file
 ccNormalComputationDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccNormalComputationDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccNormalComputationDlg.cpp.s
 .PHONY : ccNormalComputationDlg.cpp.s
 
 ccOptions.o: ccOptions.cpp.o
@@ -1380,7 +1380,7 @@ ccOptions.o: ccOptions.cpp.o
 
 # target to build an object file
 ccOptions.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccOptions.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccOptions.cpp.o
 .PHONY : ccOptions.cpp.o
 
 ccOptions.i: ccOptions.cpp.i
@@ -1389,7 +1389,7 @@ ccOptions.i: ccOptions.cpp.i
 
 # target to preprocess a source file
 ccOptions.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccOptions.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccOptions.cpp.i
 .PHONY : ccOptions.cpp.i
 
 ccOptions.s: ccOptions.cpp.s
@@ -1398,7 +1398,7 @@ ccOptions.s: ccOptions.cpp.s
 
 # target to generate assembly for a file
 ccOptions.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccOptions.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccOptions.cpp.s
 .PHONY : ccOptions.cpp.s
 
 ccOrderChoiceDlg.o: ccOrderChoiceDlg.cpp.o
@@ -1407,7 +1407,7 @@ ccOrderChoiceDlg.o: ccOrderChoiceDlg.cpp.o
 
 # target to build an object file
 ccOrderChoiceDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccOrderChoiceDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccOrderChoiceDlg.cpp.o
 .PHONY : ccOrderChoiceDlg.cpp.o
 
 ccOrderChoiceDlg.i: ccOrderChoiceDlg.cpp.i
@@ -1416,7 +1416,7 @@ ccOrderChoiceDlg.i: ccOrderChoiceDlg.cpp.i
 
 # target to preprocess a source file
 ccOrderChoiceDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccOrderChoiceDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccOrderChoiceDlg.cpp.i
 .PHONY : ccOrderChoiceDlg.cpp.i
 
 ccOrderChoiceDlg.s: ccOrderChoiceDlg.cpp.s
@@ -1425,7 +1425,7 @@ ccOrderChoiceDlg.s: ccOrderChoiceDlg.cpp.s
 
 # target to generate assembly for a file
 ccOrderChoiceDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccOrderChoiceDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccOrderChoiceDlg.cpp.s
 .PHONY : ccOrderChoiceDlg.cpp.s
 
 ccOrthoSectionGenerationDlg.o: ccOrthoSectionGenerationDlg.cpp.o
@@ -1434,7 +1434,7 @@ ccOrthoSectionGenerationDlg.o: ccOrthoSectionGenerationDlg.cpp.o
 
 # target to build an object file
 ccOrthoSectionGenerationDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccOrthoSectionGenerationDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccOrthoSectionGenerationDlg.cpp.o
 .PHONY : ccOrthoSectionGenerationDlg.cpp.o
 
 ccOrthoSectionGenerationDlg.i: ccOrthoSectionGenerationDlg.cpp.i
@@ -1443,7 +1443,7 @@ ccOrthoSectionGenerationDlg.i: ccOrthoSectionGenerationDlg.cpp.i
 
 # target to preprocess a source file
 ccOrthoSectionGenerationDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccOrthoSectionGenerationDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccOrthoSectionGenerationDlg.cpp.i
 .PHONY : ccOrthoSectionGenerationDlg.cpp.i
 
 ccOrthoSectionGenerationDlg.s: ccOrthoSectionGenerationDlg.cpp.s
@@ -1452,7 +1452,7 @@ ccOrthoSectionGenerationDlg.s: ccOrthoSectionGenerationDlg.cpp.s
 
 # target to generate assembly for a file
 ccOrthoSectionGenerationDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccOrthoSectionGenerationDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccOrthoSectionGenerationDlg.cpp.s
 .PHONY : ccOrthoSectionGenerationDlg.cpp.s
 
 ccOverlayDialog.o: ccOverlayDialog.cpp.o
@@ -1461,7 +1461,7 @@ ccOverlayDialog.o: ccOverlayDialog.cpp.o
 
 # target to build an object file
 ccOverlayDialog.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccOverlayDialog.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccOverlayDialog.cpp.o
 .PHONY : ccOverlayDialog.cpp.o
 
 ccOverlayDialog.i: ccOverlayDialog.cpp.i
@@ -1470,7 +1470,7 @@ ccOverlayDialog.i: ccOverlayDialog.cpp.i
 
 # target to preprocess a source file
 ccOverlayDialog.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccOverlayDialog.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccOverlayDialog.cpp.i
 .PHONY : ccOverlayDialog.cpp.i
 
 ccOverlayDialog.s: ccOverlayDialog.cpp.s
@@ -1479,7 +1479,7 @@ ccOverlayDialog.s: ccOverlayDialog.cpp.s
 
 # target to generate assembly for a file
 ccOverlayDialog.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccOverlayDialog.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccOverlayDialog.cpp.s
 .PHONY : ccOverlayDialog.cpp.s
 
 ccPickOneElementDlg.o: ccPickOneElementDlg.cpp.o
@@ -1488,7 +1488,7 @@ ccPickOneElementDlg.o: ccPickOneElementDlg.cpp.o
 
 # target to build an object file
 ccPickOneElementDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPickOneElementDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPickOneElementDlg.cpp.o
 .PHONY : ccPickOneElementDlg.cpp.o
 
 ccPickOneElementDlg.i: ccPickOneElementDlg.cpp.i
@@ -1497,7 +1497,7 @@ ccPickOneElementDlg.i: ccPickOneElementDlg.cpp.i
 
 # target to preprocess a source file
 ccPickOneElementDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPickOneElementDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPickOneElementDlg.cpp.i
 .PHONY : ccPickOneElementDlg.cpp.i
 
 ccPickOneElementDlg.s: ccPickOneElementDlg.cpp.s
@@ -1506,7 +1506,7 @@ ccPickOneElementDlg.s: ccPickOneElementDlg.cpp.s
 
 # target to generate assembly for a file
 ccPickOneElementDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPickOneElementDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPickOneElementDlg.cpp.s
 .PHONY : ccPickOneElementDlg.cpp.s
 
 ccPickingHub.o: ccPickingHub.cpp.o
@@ -1515,7 +1515,7 @@ ccPickingHub.o: ccPickingHub.cpp.o
 
 # target to build an object file
 ccPickingHub.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPickingHub.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPickingHub.cpp.o
 .PHONY : ccPickingHub.cpp.o
 
 ccPickingHub.i: ccPickingHub.cpp.i
@@ -1524,7 +1524,7 @@ ccPickingHub.i: ccPickingHub.cpp.i
 
 # target to preprocess a source file
 ccPickingHub.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPickingHub.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPickingHub.cpp.i
 .PHONY : ccPickingHub.cpp.i
 
 ccPickingHub.s: ccPickingHub.cpp.s
@@ -1533,7 +1533,7 @@ ccPickingHub.s: ccPickingHub.cpp.s
 
 # target to generate assembly for a file
 ccPickingHub.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPickingHub.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPickingHub.cpp.s
 .PHONY : ccPickingHub.cpp.s
 
 ccPlaneEditDlg.o: ccPlaneEditDlg.cpp.o
@@ -1542,7 +1542,7 @@ ccPlaneEditDlg.o: ccPlaneEditDlg.cpp.o
 
 # target to build an object file
 ccPlaneEditDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPlaneEditDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPlaneEditDlg.cpp.o
 .PHONY : ccPlaneEditDlg.cpp.o
 
 ccPlaneEditDlg.i: ccPlaneEditDlg.cpp.i
@@ -1551,7 +1551,7 @@ ccPlaneEditDlg.i: ccPlaneEditDlg.cpp.i
 
 # target to preprocess a source file
 ccPlaneEditDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPlaneEditDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPlaneEditDlg.cpp.i
 .PHONY : ccPlaneEditDlg.cpp.i
 
 ccPlaneEditDlg.s: ccPlaneEditDlg.cpp.s
@@ -1560,7 +1560,7 @@ ccPlaneEditDlg.s: ccPlaneEditDlg.cpp.s
 
 # target to generate assembly for a file
 ccPlaneEditDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPlaneEditDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPlaneEditDlg.cpp.s
 .PHONY : ccPlaneEditDlg.cpp.s
 
 ccPointListPickingDlg.o: ccPointListPickingDlg.cpp.o
@@ -1569,7 +1569,7 @@ ccPointListPickingDlg.o: ccPointListPickingDlg.cpp.o
 
 # target to build an object file
 ccPointListPickingDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPointListPickingDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPointListPickingDlg.cpp.o
 .PHONY : ccPointListPickingDlg.cpp.o
 
 ccPointListPickingDlg.i: ccPointListPickingDlg.cpp.i
@@ -1578,7 +1578,7 @@ ccPointListPickingDlg.i: ccPointListPickingDlg.cpp.i
 
 # target to preprocess a source file
 ccPointListPickingDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPointListPickingDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPointListPickingDlg.cpp.i
 .PHONY : ccPointListPickingDlg.cpp.i
 
 ccPointListPickingDlg.s: ccPointListPickingDlg.cpp.s
@@ -1587,7 +1587,7 @@ ccPointListPickingDlg.s: ccPointListPickingDlg.cpp.s
 
 # target to generate assembly for a file
 ccPointListPickingDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPointListPickingDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPointListPickingDlg.cpp.s
 .PHONY : ccPointListPickingDlg.cpp.s
 
 ccPointPairRegistrationDlg.o: ccPointPairRegistrationDlg.cpp.o
@@ -1596,7 +1596,7 @@ ccPointPairRegistrationDlg.o: ccPointPairRegistrationDlg.cpp.o
 
 # target to build an object file
 ccPointPairRegistrationDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPointPairRegistrationDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPointPairRegistrationDlg.cpp.o
 .PHONY : ccPointPairRegistrationDlg.cpp.o
 
 ccPointPairRegistrationDlg.i: ccPointPairRegistrationDlg.cpp.i
@@ -1605,7 +1605,7 @@ ccPointPairRegistrationDlg.i: ccPointPairRegistrationDlg.cpp.i
 
 # target to preprocess a source file
 ccPointPairRegistrationDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPointPairRegistrationDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPointPairRegistrationDlg.cpp.i
 .PHONY : ccPointPairRegistrationDlg.cpp.i
 
 ccPointPairRegistrationDlg.s: ccPointPairRegistrationDlg.cpp.s
@@ -1614,7 +1614,7 @@ ccPointPairRegistrationDlg.s: ccPointPairRegistrationDlg.cpp.s
 
 # target to generate assembly for a file
 ccPointPairRegistrationDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPointPairRegistrationDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPointPairRegistrationDlg.cpp.s
 .PHONY : ccPointPairRegistrationDlg.cpp.s
 
 ccPointPickingGenericInterface.o: ccPointPickingGenericInterface.cpp.o
@@ -1623,7 +1623,7 @@ ccPointPickingGenericInterface.o: ccPointPickingGenericInterface.cpp.o
 
 # target to build an object file
 ccPointPickingGenericInterface.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPointPickingGenericInterface.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPointPickingGenericInterface.cpp.o
 .PHONY : ccPointPickingGenericInterface.cpp.o
 
 ccPointPickingGenericInterface.i: ccPointPickingGenericInterface.cpp.i
@@ -1632,7 +1632,7 @@ ccPointPickingGenericInterface.i: ccPointPickingGenericInterface.cpp.i
 
 # target to preprocess a source file
 ccPointPickingGenericInterface.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPointPickingGenericInterface.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPointPickingGenericInterface.cpp.i
 .PHONY : ccPointPickingGenericInterface.cpp.i
 
 ccPointPickingGenericInterface.s: ccPointPickingGenericInterface.cpp.s
@@ -1641,7 +1641,7 @@ ccPointPickingGenericInterface.s: ccPointPickingGenericInterface.cpp.s
 
 # target to generate assembly for a file
 ccPointPickingGenericInterface.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPointPickingGenericInterface.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPointPickingGenericInterface.cpp.s
 .PHONY : ccPointPickingGenericInterface.cpp.s
 
 ccPointPropertiesDlg.o: ccPointPropertiesDlg.cpp.o
@@ -1650,7 +1650,7 @@ ccPointPropertiesDlg.o: ccPointPropertiesDlg.cpp.o
 
 # target to build an object file
 ccPointPropertiesDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPointPropertiesDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPointPropertiesDlg.cpp.o
 .PHONY : ccPointPropertiesDlg.cpp.o
 
 ccPointPropertiesDlg.i: ccPointPropertiesDlg.cpp.i
@@ -1659,7 +1659,7 @@ ccPointPropertiesDlg.i: ccPointPropertiesDlg.cpp.i
 
 # target to preprocess a source file
 ccPointPropertiesDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPointPropertiesDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPointPropertiesDlg.cpp.i
 .PHONY : ccPointPropertiesDlg.cpp.i
 
 ccPointPropertiesDlg.s: ccPointPropertiesDlg.cpp.s
@@ -1668,7 +1668,7 @@ ccPointPropertiesDlg.s: ccPointPropertiesDlg.cpp.s
 
 # target to generate assembly for a file
 ccPointPropertiesDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPointPropertiesDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPointPropertiesDlg.cpp.s
 .PHONY : ccPointPropertiesDlg.cpp.s
 
 ccPrimitiveFactoryDlg.o: ccPrimitiveFactoryDlg.cpp.o
@@ -1677,7 +1677,7 @@ ccPrimitiveFactoryDlg.o: ccPrimitiveFactoryDlg.cpp.o
 
 # target to build an object file
 ccPrimitiveFactoryDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPrimitiveFactoryDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPrimitiveFactoryDlg.cpp.o
 .PHONY : ccPrimitiveFactoryDlg.cpp.o
 
 ccPrimitiveFactoryDlg.i: ccPrimitiveFactoryDlg.cpp.i
@@ -1686,7 +1686,7 @@ ccPrimitiveFactoryDlg.i: ccPrimitiveFactoryDlg.cpp.i
 
 # target to preprocess a source file
 ccPrimitiveFactoryDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPrimitiveFactoryDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPrimitiveFactoryDlg.cpp.i
 .PHONY : ccPrimitiveFactoryDlg.cpp.i
 
 ccPrimitiveFactoryDlg.s: ccPrimitiveFactoryDlg.cpp.s
@@ -1695,7 +1695,7 @@ ccPrimitiveFactoryDlg.s: ccPrimitiveFactoryDlg.cpp.s
 
 # target to generate assembly for a file
 ccPrimitiveFactoryDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPrimitiveFactoryDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPrimitiveFactoryDlg.cpp.s
 .PHONY : ccPrimitiveFactoryDlg.cpp.s
 
 ccPtsSamplingDlg.o: ccPtsSamplingDlg.cpp.o
@@ -1704,7 +1704,7 @@ ccPtsSamplingDlg.o: ccPtsSamplingDlg.cpp.o
 
 # target to build an object file
 ccPtsSamplingDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPtsSamplingDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPtsSamplingDlg.cpp.o
 .PHONY : ccPtsSamplingDlg.cpp.o
 
 ccPtsSamplingDlg.i: ccPtsSamplingDlg.cpp.i
@@ -1713,7 +1713,7 @@ ccPtsSamplingDlg.i: ccPtsSamplingDlg.cpp.i
 
 # target to preprocess a source file
 ccPtsSamplingDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPtsSamplingDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPtsSamplingDlg.cpp.i
 .PHONY : ccPtsSamplingDlg.cpp.i
 
 ccPtsSamplingDlg.s: ccPtsSamplingDlg.cpp.s
@@ -1722,7 +1722,7 @@ ccPtsSamplingDlg.s: ccPtsSamplingDlg.cpp.s
 
 # target to generate assembly for a file
 ccPtsSamplingDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPtsSamplingDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccPtsSamplingDlg.cpp.s
 .PHONY : ccPtsSamplingDlg.cpp.s
 
 ccRasterizeTool.o: ccRasterizeTool.cpp.o
@@ -1731,7 +1731,7 @@ ccRasterizeTool.o: ccRasterizeTool.cpp.o
 
 # target to build an object file
 ccRasterizeTool.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccRasterizeTool.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccRasterizeTool.cpp.o
 .PHONY : ccRasterizeTool.cpp.o
 
 ccRasterizeTool.i: ccRasterizeTool.cpp.i
@@ -1740,7 +1740,7 @@ ccRasterizeTool.i: ccRasterizeTool.cpp.i
 
 # target to preprocess a source file
 ccRasterizeTool.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccRasterizeTool.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccRasterizeTool.cpp.i
 .PHONY : ccRasterizeTool.cpp.i
 
 ccRasterizeTool.s: ccRasterizeTool.cpp.s
@@ -1749,7 +1749,7 @@ ccRasterizeTool.s: ccRasterizeTool.cpp.s
 
 # target to generate assembly for a file
 ccRasterizeTool.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccRasterizeTool.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccRasterizeTool.cpp.s
 .PHONY : ccRasterizeTool.cpp.s
 
 ccRecentFiles.o: ccRecentFiles.cpp.o
@@ -1758,7 +1758,7 @@ ccRecentFiles.o: ccRecentFiles.cpp.o
 
 # target to build an object file
 ccRecentFiles.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccRecentFiles.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccRecentFiles.cpp.o
 .PHONY : ccRecentFiles.cpp.o
 
 ccRecentFiles.i: ccRecentFiles.cpp.i
@@ -1767,7 +1767,7 @@ ccRecentFiles.i: ccRecentFiles.cpp.i
 
 # target to preprocess a source file
 ccRecentFiles.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccRecentFiles.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccRecentFiles.cpp.i
 .PHONY : ccRecentFiles.cpp.i
 
 ccRecentFiles.s: ccRecentFiles.cpp.s
@@ -1776,7 +1776,7 @@ ccRecentFiles.s: ccRecentFiles.cpp.s
 
 # target to generate assembly for a file
 ccRecentFiles.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccRecentFiles.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccRecentFiles.cpp.s
 .PHONY : ccRecentFiles.cpp.s
 
 ccRegistrationDlg.o: ccRegistrationDlg.cpp.o
@@ -1785,7 +1785,7 @@ ccRegistrationDlg.o: ccRegistrationDlg.cpp.o
 
 # target to build an object file
 ccRegistrationDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccRegistrationDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccRegistrationDlg.cpp.o
 .PHONY : ccRegistrationDlg.cpp.o
 
 ccRegistrationDlg.i: ccRegistrationDlg.cpp.i
@@ -1794,7 +1794,7 @@ ccRegistrationDlg.i: ccRegistrationDlg.cpp.i
 
 # target to preprocess a source file
 ccRegistrationDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccRegistrationDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccRegistrationDlg.cpp.i
 .PHONY : ccRegistrationDlg.cpp.i
 
 ccRegistrationDlg.s: ccRegistrationDlg.cpp.s
@@ -1803,7 +1803,7 @@ ccRegistrationDlg.s: ccRegistrationDlg.cpp.s
 
 # target to generate assembly for a file
 ccRegistrationDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccRegistrationDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccRegistrationDlg.cpp.s
 .PHONY : ccRegistrationDlg.cpp.s
 
 ccRegistrationTools.o: ccRegistrationTools.cpp.o
@@ -1812,7 +1812,7 @@ ccRegistrationTools.o: ccRegistrationTools.cpp.o
 
 # target to build an object file
 ccRegistrationTools.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccRegistrationTools.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccRegistrationTools.cpp.o
 .PHONY : ccRegistrationTools.cpp.o
 
 ccRegistrationTools.i: ccRegistrationTools.cpp.i
@@ -1821,7 +1821,7 @@ ccRegistrationTools.i: ccRegistrationTools.cpp.i
 
 # target to preprocess a source file
 ccRegistrationTools.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccRegistrationTools.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccRegistrationTools.cpp.i
 .PHONY : ccRegistrationTools.cpp.i
 
 ccRegistrationTools.s: ccRegistrationTools.cpp.s
@@ -1830,7 +1830,7 @@ ccRegistrationTools.s: ccRegistrationTools.cpp.s
 
 # target to generate assembly for a file
 ccRegistrationTools.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccRegistrationTools.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccRegistrationTools.cpp.s
 .PHONY : ccRegistrationTools.cpp.s
 
 ccRenderToFileDlg.o: ccRenderToFileDlg.cpp.o
@@ -1839,7 +1839,7 @@ ccRenderToFileDlg.o: ccRenderToFileDlg.cpp.o
 
 # target to build an object file
 ccRenderToFileDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccRenderToFileDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccRenderToFileDlg.cpp.o
 .PHONY : ccRenderToFileDlg.cpp.o
 
 ccRenderToFileDlg.i: ccRenderToFileDlg.cpp.i
@@ -1848,7 +1848,7 @@ ccRenderToFileDlg.i: ccRenderToFileDlg.cpp.i
 
 # target to preprocess a source file
 ccRenderToFileDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccRenderToFileDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccRenderToFileDlg.cpp.i
 .PHONY : ccRenderToFileDlg.cpp.i
 
 ccRenderToFileDlg.s: ccRenderToFileDlg.cpp.s
@@ -1857,7 +1857,7 @@ ccRenderToFileDlg.s: ccRenderToFileDlg.cpp.s
 
 # target to generate assembly for a file
 ccRenderToFileDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccRenderToFileDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccRenderToFileDlg.cpp.s
 .PHONY : ccRenderToFileDlg.cpp.s
 
 ccSORFilterDlg.o: ccSORFilterDlg.cpp.o
@@ -1866,7 +1866,7 @@ ccSORFilterDlg.o: ccSORFilterDlg.cpp.o
 
 # target to build an object file
 ccSORFilterDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccSORFilterDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccSORFilterDlg.cpp.o
 .PHONY : ccSORFilterDlg.cpp.o
 
 ccSORFilterDlg.i: ccSORFilterDlg.cpp.i
@@ -1875,7 +1875,7 @@ ccSORFilterDlg.i: ccSORFilterDlg.cpp.i
 
 # target to preprocess a source file
 ccSORFilterDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccSORFilterDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccSORFilterDlg.cpp.i
 .PHONY : ccSORFilterDlg.cpp.i
 
 ccSORFilterDlg.s: ccSORFilterDlg.cpp.s
@@ -1884,7 +1884,7 @@ ccSORFilterDlg.s: ccSORFilterDlg.cpp.s
 
 # target to generate assembly for a file
 ccSORFilterDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccSORFilterDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccSORFilterDlg.cpp.s
 .PHONY : ccSORFilterDlg.cpp.s
 
 ccScalarFieldArithmeticsDlg.o: ccScalarFieldArithmeticsDlg.cpp.o
@@ -1893,7 +1893,7 @@ ccScalarFieldArithmeticsDlg.o: ccScalarFieldArithmeticsDlg.cpp.o
 
 # target to build an object file
 ccScalarFieldArithmeticsDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccScalarFieldArithmeticsDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccScalarFieldArithmeticsDlg.cpp.o
 .PHONY : ccScalarFieldArithmeticsDlg.cpp.o
 
 ccScalarFieldArithmeticsDlg.i: ccScalarFieldArithmeticsDlg.cpp.i
@@ -1902,7 +1902,7 @@ ccScalarFieldArithmeticsDlg.i: ccScalarFieldArithmeticsDlg.cpp.i
 
 # target to preprocess a source file
 ccScalarFieldArithmeticsDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccScalarFieldArithmeticsDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccScalarFieldArithmeticsDlg.cpp.i
 .PHONY : ccScalarFieldArithmeticsDlg.cpp.i
 
 ccScalarFieldArithmeticsDlg.s: ccScalarFieldArithmeticsDlg.cpp.s
@@ -1911,7 +1911,7 @@ ccScalarFieldArithmeticsDlg.s: ccScalarFieldArithmeticsDlg.cpp.s
 
 # target to generate assembly for a file
 ccScalarFieldArithmeticsDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccScalarFieldArithmeticsDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccScalarFieldArithmeticsDlg.cpp.s
 .PHONY : ccScalarFieldArithmeticsDlg.cpp.s
 
 ccScalarFieldFromColorDlg.o: ccScalarFieldFromColorDlg.cpp.o
@@ -1920,7 +1920,7 @@ ccScalarFieldFromColorDlg.o: ccScalarFieldFromColorDlg.cpp.o
 
 # target to build an object file
 ccScalarFieldFromColorDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccScalarFieldFromColorDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccScalarFieldFromColorDlg.cpp.o
 .PHONY : ccScalarFieldFromColorDlg.cpp.o
 
 ccScalarFieldFromColorDlg.i: ccScalarFieldFromColorDlg.cpp.i
@@ -1929,7 +1929,7 @@ ccScalarFieldFromColorDlg.i: ccScalarFieldFromColorDlg.cpp.i
 
 # target to preprocess a source file
 ccScalarFieldFromColorDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccScalarFieldFromColorDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccScalarFieldFromColorDlg.cpp.i
 .PHONY : ccScalarFieldFromColorDlg.cpp.i
 
 ccScalarFieldFromColorDlg.s: ccScalarFieldFromColorDlg.cpp.s
@@ -1938,7 +1938,7 @@ ccScalarFieldFromColorDlg.s: ccScalarFieldFromColorDlg.cpp.s
 
 # target to generate assembly for a file
 ccScalarFieldFromColorDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccScalarFieldFromColorDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccScalarFieldFromColorDlg.cpp.s
 .PHONY : ccScalarFieldFromColorDlg.cpp.s
 
 ccScaleDlg.o: ccScaleDlg.cpp.o
@@ -1947,7 +1947,7 @@ ccScaleDlg.o: ccScaleDlg.cpp.o
 
 # target to build an object file
 ccScaleDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccScaleDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccScaleDlg.cpp.o
 .PHONY : ccScaleDlg.cpp.o
 
 ccScaleDlg.i: ccScaleDlg.cpp.i
@@ -1956,7 +1956,7 @@ ccScaleDlg.i: ccScaleDlg.cpp.i
 
 # target to preprocess a source file
 ccScaleDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccScaleDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccScaleDlg.cpp.i
 .PHONY : ccScaleDlg.cpp.i
 
 ccScaleDlg.s: ccScaleDlg.cpp.s
@@ -1965,7 +1965,7 @@ ccScaleDlg.s: ccScaleDlg.cpp.s
 
 # target to generate assembly for a file
 ccScaleDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccScaleDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccScaleDlg.cpp.s
 .PHONY : ccScaleDlg.cpp.s
 
 ccSectionExtractionSubDlg.o: ccSectionExtractionSubDlg.cpp.o
@@ -1974,7 +1974,7 @@ ccSectionExtractionSubDlg.o: ccSectionExtractionSubDlg.cpp.o
 
 # target to build an object file
 ccSectionExtractionSubDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccSectionExtractionSubDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccSectionExtractionSubDlg.cpp.o
 .PHONY : ccSectionExtractionSubDlg.cpp.o
 
 ccSectionExtractionSubDlg.i: ccSectionExtractionSubDlg.cpp.i
@@ -1983,7 +1983,7 @@ ccSectionExtractionSubDlg.i: ccSectionExtractionSubDlg.cpp.i
 
 # target to preprocess a source file
 ccSectionExtractionSubDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccSectionExtractionSubDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccSectionExtractionSubDlg.cpp.i
 .PHONY : ccSectionExtractionSubDlg.cpp.i
 
 ccSectionExtractionSubDlg.s: ccSectionExtractionSubDlg.cpp.s
@@ -1992,7 +1992,7 @@ ccSectionExtractionSubDlg.s: ccSectionExtractionSubDlg.cpp.s
 
 # target to generate assembly for a file
 ccSectionExtractionSubDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccSectionExtractionSubDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccSectionExtractionSubDlg.cpp.s
 .PHONY : ccSectionExtractionSubDlg.cpp.s
 
 ccSectionExtractionTool.o: ccSectionExtractionTool.cpp.o
@@ -2001,7 +2001,7 @@ ccSectionExtractionTool.o: ccSectionExtractionTool.cpp.o
 
 # target to build an object file
 ccSectionExtractionTool.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccSectionExtractionTool.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccSectionExtractionTool.cpp.o
 .PHONY : ccSectionExtractionTool.cpp.o
 
 ccSectionExtractionTool.i: ccSectionExtractionTool.cpp.i
@@ -2010,7 +2010,7 @@ ccSectionExtractionTool.i: ccSectionExtractionTool.cpp.i
 
 # target to preprocess a source file
 ccSectionExtractionTool.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccSectionExtractionTool.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccSectionExtractionTool.cpp.i
 .PHONY : ccSectionExtractionTool.cpp.i
 
 ccSectionExtractionTool.s: ccSectionExtractionTool.cpp.s
@@ -2019,7 +2019,7 @@ ccSectionExtractionTool.s: ccSectionExtractionTool.cpp.s
 
 # target to generate assembly for a file
 ccSectionExtractionTool.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccSectionExtractionTool.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccSectionExtractionTool.cpp.s
 .PHONY : ccSectionExtractionTool.cpp.s
 
 ccSelectChildrenDlg.o: ccSelectChildrenDlg.cpp.o
@@ -2028,7 +2028,7 @@ ccSelectChildrenDlg.o: ccSelectChildrenDlg.cpp.o
 
 # target to build an object file
 ccSelectChildrenDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccSelectChildrenDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccSelectChildrenDlg.cpp.o
 .PHONY : ccSelectChildrenDlg.cpp.o
 
 ccSelectChildrenDlg.i: ccSelectChildrenDlg.cpp.i
@@ -2037,7 +2037,7 @@ ccSelectChildrenDlg.i: ccSelectChildrenDlg.cpp.i
 
 # target to preprocess a source file
 ccSelectChildrenDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccSelectChildrenDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccSelectChildrenDlg.cpp.i
 .PHONY : ccSelectChildrenDlg.cpp.i
 
 ccSelectChildrenDlg.s: ccSelectChildrenDlg.cpp.s
@@ -2046,7 +2046,7 @@ ccSelectChildrenDlg.s: ccSelectChildrenDlg.cpp.s
 
 # target to generate assembly for a file
 ccSelectChildrenDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccSelectChildrenDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccSelectChildrenDlg.cpp.s
 .PHONY : ccSelectChildrenDlg.cpp.s
 
 ccSensorComputeDistancesDlg.o: ccSensorComputeDistancesDlg.cpp.o
@@ -2055,7 +2055,7 @@ ccSensorComputeDistancesDlg.o: ccSensorComputeDistancesDlg.cpp.o
 
 # target to build an object file
 ccSensorComputeDistancesDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccSensorComputeDistancesDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccSensorComputeDistancesDlg.cpp.o
 .PHONY : ccSensorComputeDistancesDlg.cpp.o
 
 ccSensorComputeDistancesDlg.i: ccSensorComputeDistancesDlg.cpp.i
@@ -2064,7 +2064,7 @@ ccSensorComputeDistancesDlg.i: ccSensorComputeDistancesDlg.cpp.i
 
 # target to preprocess a source file
 ccSensorComputeDistancesDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccSensorComputeDistancesDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccSensorComputeDistancesDlg.cpp.i
 .PHONY : ccSensorComputeDistancesDlg.cpp.i
 
 ccSensorComputeDistancesDlg.s: ccSensorComputeDistancesDlg.cpp.s
@@ -2073,7 +2073,7 @@ ccSensorComputeDistancesDlg.s: ccSensorComputeDistancesDlg.cpp.s
 
 # target to generate assembly for a file
 ccSensorComputeDistancesDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccSensorComputeDistancesDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccSensorComputeDistancesDlg.cpp.s
 .PHONY : ccSensorComputeDistancesDlg.cpp.s
 
 ccSensorComputeScatteringAnglesDlg.o: ccSensorComputeScatteringAnglesDlg.cpp.o
@@ -2082,7 +2082,7 @@ ccSensorComputeScatteringAnglesDlg.o: ccSensorComputeScatteringAnglesDlg.cpp.o
 
 # target to build an object file
 ccSensorComputeScatteringAnglesDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccSensorComputeScatteringAnglesDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccSensorComputeScatteringAnglesDlg.cpp.o
 .PHONY : ccSensorComputeScatteringAnglesDlg.cpp.o
 
 ccSensorComputeScatteringAnglesDlg.i: ccSensorComputeScatteringAnglesDlg.cpp.i
@@ -2091,7 +2091,7 @@ ccSensorComputeScatteringAnglesDlg.i: ccSensorComputeScatteringAnglesDlg.cpp.i
 
 # target to preprocess a source file
 ccSensorComputeScatteringAnglesDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccSensorComputeScatteringAnglesDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccSensorComputeScatteringAnglesDlg.cpp.i
 .PHONY : ccSensorComputeScatteringAnglesDlg.cpp.i
 
 ccSensorComputeScatteringAnglesDlg.s: ccSensorComputeScatteringAnglesDlg.cpp.s
@@ -2100,7 +2100,7 @@ ccSensorComputeScatteringAnglesDlg.s: ccSensorComputeScatteringAnglesDlg.cpp.s
 
 # target to generate assembly for a file
 ccSensorComputeScatteringAnglesDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccSensorComputeScatteringAnglesDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccSensorComputeScatteringAnglesDlg.cpp.s
 .PHONY : ccSensorComputeScatteringAnglesDlg.cpp.s
 
 ccStatisticalTestDlg.o: ccStatisticalTestDlg.cpp.o
@@ -2109,7 +2109,7 @@ ccStatisticalTestDlg.o: ccStatisticalTestDlg.cpp.o
 
 # target to build an object file
 ccStatisticalTestDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccStatisticalTestDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccStatisticalTestDlg.cpp.o
 .PHONY : ccStatisticalTestDlg.cpp.o
 
 ccStatisticalTestDlg.i: ccStatisticalTestDlg.cpp.i
@@ -2118,7 +2118,7 @@ ccStatisticalTestDlg.i: ccStatisticalTestDlg.cpp.i
 
 # target to preprocess a source file
 ccStatisticalTestDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccStatisticalTestDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccStatisticalTestDlg.cpp.i
 .PHONY : ccStatisticalTestDlg.cpp.i
 
 ccStatisticalTestDlg.s: ccStatisticalTestDlg.cpp.s
@@ -2127,7 +2127,7 @@ ccStatisticalTestDlg.s: ccStatisticalTestDlg.cpp.s
 
 # target to generate assembly for a file
 ccStatisticalTestDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccStatisticalTestDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccStatisticalTestDlg.cpp.s
 .PHONY : ccStatisticalTestDlg.cpp.s
 
 ccStereoModeDlg.o: ccStereoModeDlg.cpp.o
@@ -2136,7 +2136,7 @@ ccStereoModeDlg.o: ccStereoModeDlg.cpp.o
 
 # target to build an object file
 ccStereoModeDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccStereoModeDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccStereoModeDlg.cpp.o
 .PHONY : ccStereoModeDlg.cpp.o
 
 ccStereoModeDlg.i: ccStereoModeDlg.cpp.i
@@ -2145,7 +2145,7 @@ ccStereoModeDlg.i: ccStereoModeDlg.cpp.i
 
 # target to preprocess a source file
 ccStereoModeDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccStereoModeDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccStereoModeDlg.cpp.i
 .PHONY : ccStereoModeDlg.cpp.i
 
 ccStereoModeDlg.s: ccStereoModeDlg.cpp.s
@@ -2154,7 +2154,7 @@ ccStereoModeDlg.s: ccStereoModeDlg.cpp.s
 
 # target to generate assembly for a file
 ccStereoModeDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccStereoModeDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccStereoModeDlg.cpp.s
 .PHONY : ccStereoModeDlg.cpp.s
 
 ccSubsamplingDlg.o: ccSubsamplingDlg.cpp.o
@@ -2163,7 +2163,7 @@ ccSubsamplingDlg.o: ccSubsamplingDlg.cpp.o
 
 # target to build an object file
 ccSubsamplingDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccSubsamplingDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccSubsamplingDlg.cpp.o
 .PHONY : ccSubsamplingDlg.cpp.o
 
 ccSubsamplingDlg.i: ccSubsamplingDlg.cpp.i
@@ -2172,7 +2172,7 @@ ccSubsamplingDlg.i: ccSubsamplingDlg.cpp.i
 
 # target to preprocess a source file
 ccSubsamplingDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccSubsamplingDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccSubsamplingDlg.cpp.i
 .PHONY : ccSubsamplingDlg.cpp.i
 
 ccSubsamplingDlg.s: ccSubsamplingDlg.cpp.s
@@ -2181,7 +2181,7 @@ ccSubsamplingDlg.s: ccSubsamplingDlg.cpp.s
 
 # target to generate assembly for a file
 ccSubsamplingDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccSubsamplingDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccSubsamplingDlg.cpp.s
 .PHONY : ccSubsamplingDlg.cpp.s
 
 ccTracePolylineTool.o: ccTracePolylineTool.cpp.o
@@ -2190,7 +2190,7 @@ ccTracePolylineTool.o: ccTracePolylineTool.cpp.o
 
 # target to build an object file
 ccTracePolylineTool.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccTracePolylineTool.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccTracePolylineTool.cpp.o
 .PHONY : ccTracePolylineTool.cpp.o
 
 ccTracePolylineTool.i: ccTracePolylineTool.cpp.i
@@ -2199,7 +2199,7 @@ ccTracePolylineTool.i: ccTracePolylineTool.cpp.i
 
 # target to preprocess a source file
 ccTracePolylineTool.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccTracePolylineTool.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccTracePolylineTool.cpp.i
 .PHONY : ccTracePolylineTool.cpp.i
 
 ccTracePolylineTool.s: ccTracePolylineTool.cpp.s
@@ -2208,7 +2208,7 @@ ccTracePolylineTool.s: ccTracePolylineTool.cpp.s
 
 # target to generate assembly for a file
 ccTracePolylineTool.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccTracePolylineTool.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccTracePolylineTool.cpp.s
 .PHONY : ccTracePolylineTool.cpp.s
 
 ccUnrollDlg.o: ccUnrollDlg.cpp.o
@@ -2217,7 +2217,7 @@ ccUnrollDlg.o: ccUnrollDlg.cpp.o
 
 # target to build an object file
 ccUnrollDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccUnrollDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccUnrollDlg.cpp.o
 .PHONY : ccUnrollDlg.cpp.o
 
 ccUnrollDlg.i: ccUnrollDlg.cpp.i
@@ -2226,7 +2226,7 @@ ccUnrollDlg.i: ccUnrollDlg.cpp.i
 
 # target to preprocess a source file
 ccUnrollDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccUnrollDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccUnrollDlg.cpp.i
 .PHONY : ccUnrollDlg.cpp.i
 
 ccUnrollDlg.s: ccUnrollDlg.cpp.s
@@ -2235,7 +2235,7 @@ ccUnrollDlg.s: ccUnrollDlg.cpp.s
 
 # target to generate assembly for a file
 ccUnrollDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccUnrollDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccUnrollDlg.cpp.s
 .PHONY : ccUnrollDlg.cpp.s
 
 ccUtils.o: ccUtils.cpp.o
@@ -2244,7 +2244,7 @@ ccUtils.o: ccUtils.cpp.o
 
 # target to build an object file
 ccUtils.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccUtils.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccUtils.cpp.o
 .PHONY : ccUtils.cpp.o
 
 ccUtils.i: ccUtils.cpp.i
@@ -2253,7 +2253,7 @@ ccUtils.i: ccUtils.cpp.i
 
 # target to preprocess a source file
 ccUtils.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccUtils.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccUtils.cpp.i
 .PHONY : ccUtils.cpp.i
 
 ccUtils.s: ccUtils.cpp.s
@@ -2262,7 +2262,7 @@ ccUtils.s: ccUtils.cpp.s
 
 # target to generate assembly for a file
 ccUtils.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccUtils.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccUtils.cpp.s
 .PHONY : ccUtils.cpp.s
 
 ccVolumeCalcTool.o: ccVolumeCalcTool.cpp.o
@@ -2271,7 +2271,7 @@ ccVolumeCalcTool.o: ccVolumeCalcTool.cpp.o
 
 # target to build an object file
 ccVolumeCalcTool.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccVolumeCalcTool.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccVolumeCalcTool.cpp.o
 .PHONY : ccVolumeCalcTool.cpp.o
 
 ccVolumeCalcTool.i: ccVolumeCalcTool.cpp.i
@@ -2280,7 +2280,7 @@ ccVolumeCalcTool.i: ccVolumeCalcTool.cpp.i
 
 # target to preprocess a source file
 ccVolumeCalcTool.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccVolumeCalcTool.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccVolumeCalcTool.cpp.i
 .PHONY : ccVolumeCalcTool.cpp.i
 
 ccVolumeCalcTool.s: ccVolumeCalcTool.cpp.s
@@ -2289,7 +2289,7 @@ ccVolumeCalcTool.s: ccVolumeCalcTool.cpp.s
 
 # target to generate assembly for a file
 ccVolumeCalcTool.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccVolumeCalcTool.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccVolumeCalcTool.cpp.s
 .PHONY : ccVolumeCalcTool.cpp.s
 
 ccWaveformDialog.o: ccWaveformDialog.cpp.o
@@ -2298,7 +2298,7 @@ ccWaveformDialog.o: ccWaveformDialog.cpp.o
 
 # target to build an object file
 ccWaveformDialog.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccWaveformDialog.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccWaveformDialog.cpp.o
 .PHONY : ccWaveformDialog.cpp.o
 
 ccWaveformDialog.i: ccWaveformDialog.cpp.i
@@ -2307,7 +2307,7 @@ ccWaveformDialog.i: ccWaveformDialog.cpp.i
 
 # target to preprocess a source file
 ccWaveformDialog.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccWaveformDialog.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccWaveformDialog.cpp.i
 .PHONY : ccWaveformDialog.cpp.i
 
 ccWaveformDialog.s: ccWaveformDialog.cpp.s
@@ -2316,7 +2316,7 @@ ccWaveformDialog.s: ccWaveformDialog.cpp.s
 
 # target to generate assembly for a file
 ccWaveformDialog.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccWaveformDialog.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/ccWaveformDialog.cpp.s
 .PHONY : ccWaveformDialog.cpp.s
 
 db_tree/ccDBRoot.o: db_tree/ccDBRoot.cpp.o
@@ -2325,7 +2325,7 @@ db_tree/ccDBRoot.o: db_tree/ccDBRoot.cpp.o
 
 # target to build an object file
 db_tree/ccDBRoot.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/db_tree/ccDBRoot.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/db_tree/ccDBRoot.cpp.o
 .PHONY : db_tree/ccDBRoot.cpp.o
 
 db_tree/ccDBRoot.i: db_tree/ccDBRoot.cpp.i
@@ -2334,7 +2334,7 @@ db_tree/ccDBRoot.i: db_tree/ccDBRoot.cpp.i
 
 # target to preprocess a source file
 db_tree/ccDBRoot.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/db_tree/ccDBRoot.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/db_tree/ccDBRoot.cpp.i
 .PHONY : db_tree/ccDBRoot.cpp.i
 
 db_tree/ccDBRoot.s: db_tree/ccDBRoot.cpp.s
@@ -2343,7 +2343,7 @@ db_tree/ccDBRoot.s: db_tree/ccDBRoot.cpp.s
 
 # target to generate assembly for a file
 db_tree/ccDBRoot.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/db_tree/ccDBRoot.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/db_tree/ccDBRoot.cpp.s
 .PHONY : db_tree/ccDBRoot.cpp.s
 
 db_tree/ccPropertiesTreeDelegate.o: db_tree/ccPropertiesTreeDelegate.cpp.o
@@ -2352,7 +2352,7 @@ db_tree/ccPropertiesTreeDelegate.o: db_tree/ccPropertiesTreeDelegate.cpp.o
 
 # target to build an object file
 db_tree/ccPropertiesTreeDelegate.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/db_tree/ccPropertiesTreeDelegate.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/db_tree/ccPropertiesTreeDelegate.cpp.o
 .PHONY : db_tree/ccPropertiesTreeDelegate.cpp.o
 
 db_tree/ccPropertiesTreeDelegate.i: db_tree/ccPropertiesTreeDelegate.cpp.i
@@ -2361,7 +2361,7 @@ db_tree/ccPropertiesTreeDelegate.i: db_tree/ccPropertiesTreeDelegate.cpp.i
 
 # target to preprocess a source file
 db_tree/ccPropertiesTreeDelegate.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/db_tree/ccPropertiesTreeDelegate.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/db_tree/ccPropertiesTreeDelegate.cpp.i
 .PHONY : db_tree/ccPropertiesTreeDelegate.cpp.i
 
 db_tree/ccPropertiesTreeDelegate.s: db_tree/ccPropertiesTreeDelegate.cpp.s
@@ -2370,7 +2370,7 @@ db_tree/ccPropertiesTreeDelegate.s: db_tree/ccPropertiesTreeDelegate.cpp.s
 
 # target to generate assembly for a file
 db_tree/ccPropertiesTreeDelegate.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/db_tree/ccPropertiesTreeDelegate.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/db_tree/ccPropertiesTreeDelegate.cpp.s
 .PHONY : db_tree/ccPropertiesTreeDelegate.cpp.s
 
 db_tree/matrixDisplayDlg.o: db_tree/matrixDisplayDlg.cpp.o
@@ -2379,7 +2379,7 @@ db_tree/matrixDisplayDlg.o: db_tree/matrixDisplayDlg.cpp.o
 
 # target to build an object file
 db_tree/matrixDisplayDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/db_tree/matrixDisplayDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/db_tree/matrixDisplayDlg.cpp.o
 .PHONY : db_tree/matrixDisplayDlg.cpp.o
 
 db_tree/matrixDisplayDlg.i: db_tree/matrixDisplayDlg.cpp.i
@@ -2388,7 +2388,7 @@ db_tree/matrixDisplayDlg.i: db_tree/matrixDisplayDlg.cpp.i
 
 # target to preprocess a source file
 db_tree/matrixDisplayDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/db_tree/matrixDisplayDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/db_tree/matrixDisplayDlg.cpp.i
 .PHONY : db_tree/matrixDisplayDlg.cpp.i
 
 db_tree/matrixDisplayDlg.s: db_tree/matrixDisplayDlg.cpp.s
@@ -2397,7 +2397,7 @@ db_tree/matrixDisplayDlg.s: db_tree/matrixDisplayDlg.cpp.s
 
 # target to generate assembly for a file
 db_tree/matrixDisplayDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/db_tree/matrixDisplayDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/db_tree/matrixDisplayDlg.cpp.s
 .PHONY : db_tree/matrixDisplayDlg.cpp.s
 
 db_tree/sfEditDlg.o: db_tree/sfEditDlg.cpp.o
@@ -2406,7 +2406,7 @@ db_tree/sfEditDlg.o: db_tree/sfEditDlg.cpp.o
 
 # target to build an object file
 db_tree/sfEditDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/db_tree/sfEditDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/db_tree/sfEditDlg.cpp.o
 .PHONY : db_tree/sfEditDlg.cpp.o
 
 db_tree/sfEditDlg.i: db_tree/sfEditDlg.cpp.i
@@ -2415,7 +2415,7 @@ db_tree/sfEditDlg.i: db_tree/sfEditDlg.cpp.i
 
 # target to preprocess a source file
 db_tree/sfEditDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/db_tree/sfEditDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/db_tree/sfEditDlg.cpp.i
 .PHONY : db_tree/sfEditDlg.cpp.i
 
 db_tree/sfEditDlg.s: db_tree/sfEditDlg.cpp.s
@@ -2424,7 +2424,7 @@ db_tree/sfEditDlg.s: db_tree/sfEditDlg.cpp.s
 
 # target to generate assembly for a file
 db_tree/sfEditDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/db_tree/sfEditDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/db_tree/sfEditDlg.cpp.s
 .PHONY : db_tree/sfEditDlg.cpp.s
 
 main.o: main.cpp.o
@@ -2433,7 +2433,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/main.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -2442,7 +2442,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/main.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -2451,7 +2451,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/main.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 mainwindow.o: mainwindow.cpp.o
@@ -2460,7 +2460,7 @@ mainwindow.o: mainwindow.cpp.o
 
 # target to build an object file
 mainwindow.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/mainwindow.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/mainwindow.cpp.o
 .PHONY : mainwindow.cpp.o
 
 mainwindow.i: mainwindow.cpp.i
@@ -2469,7 +2469,7 @@ mainwindow.i: mainwindow.cpp.i
 
 # target to preprocess a source file
 mainwindow.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/mainwindow.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/mainwindow.cpp.i
 .PHONY : mainwindow.cpp.i
 
 mainwindow.s: mainwindow.cpp.s
@@ -2478,7 +2478,7 @@ mainwindow.s: mainwindow.cpp.s
 
 # target to generate assembly for a file
 mainwindow.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/mainwindow.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
 pluginManager/ccPluginInfoDlg.o: pluginManager/ccPluginInfoDlg.cpp.o
@@ -2487,7 +2487,7 @@ pluginManager/ccPluginInfoDlg.o: pluginManager/ccPluginInfoDlg.cpp.o
 
 # target to build an object file
 pluginManager/ccPluginInfoDlg.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/pluginManager/ccPluginInfoDlg.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/pluginManager/ccPluginInfoDlg.cpp.o
 .PHONY : pluginManager/ccPluginInfoDlg.cpp.o
 
 pluginManager/ccPluginInfoDlg.i: pluginManager/ccPluginInfoDlg.cpp.i
@@ -2496,7 +2496,7 @@ pluginManager/ccPluginInfoDlg.i: pluginManager/ccPluginInfoDlg.cpp.i
 
 # target to preprocess a source file
 pluginManager/ccPluginInfoDlg.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/pluginManager/ccPluginInfoDlg.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/pluginManager/ccPluginInfoDlg.cpp.i
 .PHONY : pluginManager/ccPluginInfoDlg.cpp.i
 
 pluginManager/ccPluginInfoDlg.s: pluginManager/ccPluginInfoDlg.cpp.s
@@ -2505,7 +2505,7 @@ pluginManager/ccPluginInfoDlg.s: pluginManager/ccPluginInfoDlg.cpp.s
 
 # target to generate assembly for a file
 pluginManager/ccPluginInfoDlg.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/pluginManager/ccPluginInfoDlg.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/pluginManager/ccPluginInfoDlg.cpp.s
 .PHONY : pluginManager/ccPluginInfoDlg.cpp.s
 
 pluginManager/ccPluginManager.o: pluginManager/ccPluginManager.cpp.o
@@ -2514,7 +2514,7 @@ pluginManager/ccPluginManager.o: pluginManager/ccPluginManager.cpp.o
 
 # target to build an object file
 pluginManager/ccPluginManager.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/pluginManager/ccPluginManager.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/pluginManager/ccPluginManager.cpp.o
 .PHONY : pluginManager/ccPluginManager.cpp.o
 
 pluginManager/ccPluginManager.i: pluginManager/ccPluginManager.cpp.i
@@ -2523,7 +2523,7 @@ pluginManager/ccPluginManager.i: pluginManager/ccPluginManager.cpp.i
 
 # target to preprocess a source file
 pluginManager/ccPluginManager.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/pluginManager/ccPluginManager.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/pluginManager/ccPluginManager.cpp.i
 .PHONY : pluginManager/ccPluginManager.cpp.i
 
 pluginManager/ccPluginManager.s: pluginManager/ccPluginManager.cpp.s
@@ -2532,7 +2532,7 @@ pluginManager/ccPluginManager.s: pluginManager/ccPluginManager.cpp.s
 
 # target to generate assembly for a file
 pluginManager/ccPluginManager.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/pluginManager/ccPluginManager.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/pluginManager/ccPluginManager.cpp.s
 .PHONY : pluginManager/ccPluginManager.cpp.s
 
 pluginManager/ccPluginUIManager.o: pluginManager/ccPluginUIManager.cpp.o
@@ -2541,7 +2541,7 @@ pluginManager/ccPluginUIManager.o: pluginManager/ccPluginUIManager.cpp.o
 
 # target to build an object file
 pluginManager/ccPluginUIManager.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/pluginManager/ccPluginUIManager.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/pluginManager/ccPluginUIManager.cpp.o
 .PHONY : pluginManager/ccPluginUIManager.cpp.o
 
 pluginManager/ccPluginUIManager.i: pluginManager/ccPluginUIManager.cpp.i
@@ -2550,7 +2550,7 @@ pluginManager/ccPluginUIManager.i: pluginManager/ccPluginUIManager.cpp.i
 
 # target to preprocess a source file
 pluginManager/ccPluginUIManager.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/pluginManager/ccPluginUIManager.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/pluginManager/ccPluginUIManager.cpp.i
 .PHONY : pluginManager/ccPluginUIManager.cpp.i
 
 pluginManager/ccPluginUIManager.s: pluginManager/ccPluginUIManager.cpp.s
@@ -2559,7 +2559,7 @@ pluginManager/ccPluginUIManager.s: pluginManager/ccPluginUIManager.cpp.s
 
 # target to generate assembly for a file
 pluginManager/ccPluginUIManager.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/pluginManager/ccPluginUIManager.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/pluginManager/ccPluginUIManager.cpp.s
 .PHONY : pluginManager/ccPluginUIManager.cpp.s
 
 qrc_icones.o: qrc_icones.cpp.o
@@ -2568,7 +2568,7 @@ qrc_icones.o: qrc_icones.cpp.o
 
 # target to build an object file
 qrc_icones.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/qrc_icones.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/qrc_icones.cpp.o
 .PHONY : qrc_icones.cpp.o
 
 qrc_icones.i: qrc_icones.cpp.i
@@ -2577,7 +2577,7 @@ qrc_icones.i: qrc_icones.cpp.i
 
 # target to preprocess a source file
 qrc_icones.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/qrc_icones.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/qrc_icones.cpp.i
 .PHONY : qrc_icones.cpp.i
 
 qrc_icones.s: qrc_icones.cpp.s
@@ -2586,7 +2586,7 @@ qrc_icones.s: qrc_icones.cpp.s
 
 # target to generate assembly for a file
 qrc_icones.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/qrc_icones.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/qrc_icones.cpp.s
 .PHONY : qrc_icones.cpp.s
 
 qrc_pluginManager.o: qrc_pluginManager.cpp.o
@@ -2595,7 +2595,7 @@ qrc_pluginManager.o: qrc_pluginManager.cpp.o
 
 # target to build an object file
 qrc_pluginManager.cpp.o:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/qrc_pluginManager.cpp.o
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/qrc_pluginManager.cpp.o
 .PHONY : qrc_pluginManager.cpp.o
 
 qrc_pluginManager.i: qrc_pluginManager.cpp.i
@@ -2604,7 +2604,7 @@ qrc_pluginManager.i: qrc_pluginManager.cpp.i
 
 # target to preprocess a source file
 qrc_pluginManager.cpp.i:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/qrc_pluginManager.cpp.i
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/qrc_pluginManager.cpp.i
 .PHONY : qrc_pluginManager.cpp.i
 
 qrc_pluginManager.s: qrc_pluginManager.cpp.s
@@ -2613,7 +2613,7 @@ qrc_pluginManager.s: qrc_pluginManager.cpp.s
 
 # target to generate assembly for a file
 qrc_pluginManager.cpp.s:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/qrc_pluginManager.cpp.s
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/qrc_pluginManager.cpp.s
 .PHONY : qrc_pluginManager.cpp.s
 
 # Help Target
@@ -2911,6 +2911,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

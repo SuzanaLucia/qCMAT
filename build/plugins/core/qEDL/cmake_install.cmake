@@ -1,4 +1,4 @@
-# Install script for directory: /home/debster/DELETETHiS/qCMAT/plugins/core/qEDL
+# Install script for directory: /home/chrome/work/CloudCompare/qCMAT/plugins/core/qEDL
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

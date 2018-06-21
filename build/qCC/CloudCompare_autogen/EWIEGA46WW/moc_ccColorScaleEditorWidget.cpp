@@ -1,18 +1,18 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'ccColorScaleEditorWidget.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.11.0)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.10.1)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../../../../../../git-src/trunk/qCC/ccColorScaleEditorWidget.h"
+#include "../../../../qCC/ccColorScaleEditorWidget.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'ccColorScaleEditorWidget.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.11.0. It"
+#error "This file was generated using the moc from 5.10.1. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -209,7 +209,7 @@ void ColorBarWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
         {
-            using _t = void (ColorBarWidget::*)(double );
+            typedef void (ColorBarWidget::*_t)(double );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&ColorBarWidget::pointClicked)) {
                 *result = 0;
                 return;
@@ -320,14 +320,14 @@ void SlidersWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
         {
-            using _t = void (SlidersWidget::*)(int );
+            typedef void (SlidersWidget::*_t)(int );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&SlidersWidget::sliderModified)) {
                 *result = 0;
                 return;
             }
         }
         {
-            using _t = void (SlidersWidget::*)(int );
+            typedef void (SlidersWidget::*_t)(int );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&SlidersWidget::sliderSelected)) {
                 *result = 1;
                 return;
@@ -531,14 +531,14 @@ void ccColorScaleEditorWidget::qt_static_metacall(QObject *_o, QMetaObject::Call
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
         {
-            using _t = void (ccColorScaleEditorWidget::*)(int );
+            typedef void (ccColorScaleEditorWidget::*_t)(int );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&ccColorScaleEditorWidget::stepSelected)) {
                 *result = 0;
                 return;
             }
         }
         {
-            using _t = void (ccColorScaleEditorWidget::*)(int );
+            typedef void (ccColorScaleEditorWidget::*_t)(int );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&ccColorScaleEditorWidget::stepModified)) {
                 *result = 1;
                 return;

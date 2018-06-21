@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/debster/DELETETHiS/qCMAT/build/libs/qcustomplot/qcustomplot_autogen/EWIEGA46WW/moc_qcustomplot.cpp
+/home/chrome/work/CloudCompare/qCMAT/build/libs/qcustomplot/qcustomplot_autogen/EWIEGA46WW/moc_qcustomplot.cpp
 ../../../../../libs/qcustomplot/qcustomplot.h
-/home/debster/DELETETHiS/qCMAT/libs/qcustomplot/qcustomplot.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qcustomplot/qcustomplot.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
@@ -18,15 +18,15 @@ QtCore/QList
 QtCore/QVector
 -
 
-/home/debster/DELETETHiS/qCMAT/build/libs/qcustomplot/qcustomplot_autogen/mocs_compilation.cpp
+/home/chrome/work/CloudCompare/qCMAT/build/libs/qcustomplot/qcustomplot_autogen/mocs_compilation.cpp
 EWIEGA46WW/moc_qcustomplot.cpp
-/home/debster/DELETETHiS/qCMAT/build/libs/qcustomplot/qcustomplot_autogen/EWIEGA46WW/moc_qcustomplot.cpp
+/home/chrome/work/CloudCompare/qCMAT/build/libs/qcustomplot/qcustomplot_autogen/EWIEGA46WW/moc_qcustomplot.cpp
 
-/home/debster/DELETETHiS/qCMAT/libs/qcustomplot/qcustomplot.cpp
+/home/chrome/work/CloudCompare/qCMAT/libs/qcustomplot/qcustomplot.cpp
 qcustomplot.h
-/home/debster/DELETETHiS/qCMAT/libs/qcustomplot/qcustomplot.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qcustomplot/qcustomplot.h
 
-/home/debster/DELETETHiS/qCMAT/libs/qcustomplot/qcustomplot.h
+/home/chrome/work/CloudCompare/qCMAT/libs/qcustomplot/qcustomplot.h
 QObject
 -
 QPointer

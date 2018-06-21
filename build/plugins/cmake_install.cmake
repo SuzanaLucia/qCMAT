@@ -1,4 +1,4 @@
-# Install script for directory: /home/debster/DELETETHiS/qCMAT/plugins
+# Install script for directory: /home/chrome/work/CloudCompare/qCMAT/plugins
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,9 +39,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/debster/DELETETHiS/qCMAT/build/plugins/core/cmake_install.cmake")
-  include("/home/debster/DELETETHiS/qCMAT/build/plugins/example/cmake_install.cmake")
-  include("/home/debster/DELETETHiS/qCMAT/build/plugins/3rdParty/cmake_install.cmake")
+  include("/home/chrome/work/CloudCompare/qCMAT/build/plugins/core/cmake_install.cmake")
+  include("/home/chrome/work/CloudCompare/qCMAT/build/plugins/example/cmake_install.cmake")
+  include("/home/chrome/work/CloudCompare/qCMAT/build/plugins/3rdParty/cmake_install.cmake")
+  include("/home/chrome/work/CloudCompare/qCMAT/build/plugins/qTestPlug/cmake_install.cmake")
 
 endif()
 

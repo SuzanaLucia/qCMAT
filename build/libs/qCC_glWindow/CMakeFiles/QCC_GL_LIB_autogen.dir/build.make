@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/debster/DELETETHiS/qCMAT
+CMAKE_SOURCE_DIR = /home/chrome/work/CloudCompare/qCMAT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/debster/DELETETHiS/qCMAT/build
+CMAKE_BINARY_DIR = /home/chrome/work/CloudCompare/qCMAT/build
 
 # Utility rule file for QCC_GL_LIB_autogen.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/debster/DELETETHiS/qCMAT/build
 include libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB_autogen.dir/progress.make
 
 libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/debster/DELETETHiS/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target QCC_GL_LIB"
-	cd /home/debster/DELETETHiS/qCMAT/build/libs/qCC_glWindow && /usr/bin/cmake -E cmake_autogen /home/debster/DELETETHiS/qCMAT/build/libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB_autogen.dir/AutogenInfo.cmake ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target QCC_GL_LIB"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_glWindow && /usr/bin/cmake -E cmake_autogen /home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB_autogen.dir/AutogenInfo.cmake ""
 
 QCC_GL_LIB_autogen: libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB_autogen
 QCC_GL_LIB_autogen: libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB_autogen.dir/build.make
@@ -68,10 +68,10 @@ libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB_autogen.dir/build: QCC_GL_LIB_autogen
 .PHONY : libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB_autogen.dir/build
 
 libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB_autogen.dir/clean:
-	cd /home/debster/DELETETHiS/qCMAT/build/libs/qCC_glWindow && $(CMAKE_COMMAND) -P CMakeFiles/QCC_GL_LIB_autogen.dir/cmake_clean.cmake
+	cd /home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_glWindow && $(CMAKE_COMMAND) -P CMakeFiles/QCC_GL_LIB_autogen.dir/cmake_clean.cmake
 .PHONY : libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB_autogen.dir/clean
 
 libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB_autogen.dir/depend:
-	cd /home/debster/DELETETHiS/qCMAT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/debster/DELETETHiS/qCMAT /home/debster/DELETETHiS/qCMAT/libs/qCC_glWindow /home/debster/DELETETHiS/qCMAT/build /home/debster/DELETETHiS/qCMAT/build/libs/qCC_glWindow /home/debster/DELETETHiS/qCMAT/build/libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chrome/work/CloudCompare/qCMAT /home/chrome/work/CloudCompare/qCMAT/libs/qCC_glWindow /home/chrome/work/CloudCompare/qCMAT/build /home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_glWindow /home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB_autogen.dir/depend
 
