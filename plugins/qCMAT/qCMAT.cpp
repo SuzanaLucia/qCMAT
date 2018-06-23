@@ -20,7 +20,7 @@
 #include <QMainWindow>
 // Plugin Libraries/Dependencies
 #include "qCMAT.h"
-#include "qCMATDlg.h"
+#include "src/qCMATDlg.h"
 // CloudCompare Libraries
 #include <ccPointCloud.h>
 
