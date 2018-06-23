@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo "== CLEANING EXECUTABLES  =="
+cd /usr/local/bin/
+echo "Removing CloudCompare..."
+sudo rm CloudCompare
+echo "Removing ccViewer..."
+sudo rm ccViewer
+echo " "
+echo "== CLEANING OUT CLOUDCOMPARE FOLDER =="
+cd /usr/local/lib/
+sudo rm -rf cloudcompare/
+echo "Removing old CloudCompare libraries..."
+echo " "
+echo "== FINISHED CLEANING =="

@@ -10,10 +10,11 @@ if ( INSTALL_QCMAT )
     project( qCMAT )
 
     # load any subdirectories (see qAdditionalIO for an example)
-    # add_subdirectory( LIB1 )
+    #add_subdirectory( ui/ )
 
     find_package(Qt5 COMPONENTS Widgets REQUIRED)
     include( ../CMakePluginTpl.cmake )
+		#include("ui/")
 
     # set dependencies to necessary libraries (see qPCV for an example)
     # target_link_libraries( ${PROJECT_NAME} LIB1 )

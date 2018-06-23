@@ -1,9 +1,9 @@
-#ifndef Q_TEST_PLUGIN_HEADER
-#define Q_TEST_PLUGIN_HEADER
+#ifndef Q_CMAT_PLUGIN_HEADER
+#define Q_CMAT_PLUGIN_HEADER
 
 //##########################################################################
 //#                                                                        #
-//#                CLOUDCOMPARE PLUGIN: ExamplePlugin                      #
+//#                CLOUDCOMPARE PLUGIN: qCMAT                              #
 //#                                                                        #
 //#  This program is free software; you can redistribute it and/or modify  #
 //#  it under the terms of the GNU General Public License as published by  #
@@ -14,19 +14,13 @@
 //#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         #
 //#  GNU General Public License for more details.                          #
 //#                                                                        #
-//#                             COPYRIGHT: XXX                             #
+//#                             COPYRIGHT: Lancaster University            #
 //#                                                                        #
 //##########################################################################
 
 #include "ccStdPluginInterface.h"
 
-//! Example qCC plugin
-/** Replace 'ExamplePlugin' by your own plugin class name throughout and then
-	check 'ExamplePlugin.cpp' for more directions.
-
-	Each plugin requires an info.json file to provide information about itself -
-	the name, authors, maintainers, icon, etc..
-
+/**
 	The one method you are required to implement is 'getActions'. This should
 	return all actions (QAction objects) for the plugin. CloudCompare will
 	automatically add these with their icons in the plugin toolbar and to the
@@ -42,14 +36,12 @@ class qCMAT : public QObject, public ccStdPluginInterface
 {
 	Q_OBJECT
 	Q_INTERFACES(ccStdPluginInterface)
-
-	// Replace "Example" by your plugin name (IID should be unique - let's hope your plugin name is unique ;)
-	// The info.json file provides information about the plugin to the loading system and
-	// it is displayed in the plugin information dialog.
-	Q_PLUGIN_METADATA(IID "cccorp.cloudcompare.plugin.Example" FILE "info.json")
+	Q_PLUGIN_METADATA(IID "cccorp.cloudcompare.plugin.qCMAT" FILE "info.json")
 
 public:
+	// Default Constructor
 	explicit qCMAT( QObject *parent = nullptr );
+	// Destructor
 	virtual ~qCMAT() = default;
 
 	// inherited from ccStdPluginInterface
@@ -62,11 +54,14 @@ private:
 	void doAction();
 
 	//! Default action
-	/** You can add as many actions as you want in a plugin.
+	/**
 		Each action will correspond to an icon in the dedicated
 		toolbar and an entry in the plugin menu.
 	**/
 	QAction* m_action;
+
+	// Selected entities
+	ccHObject::Container m_selectedEntities;
 };
 
 #endif
