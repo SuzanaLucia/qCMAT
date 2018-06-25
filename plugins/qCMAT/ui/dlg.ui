@@ -126,7 +126,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="displayPushButton">
+       <widget class="QPushButton" name="volumePushButton">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
           <horstretch>0</horstretch>
@@ -134,10 +134,10 @@
          </sizepolicy>
         </property>
         <property name="toolTip">
-         <string>Generate and display the processed cloud point.</string>
+         <string>Calculate beach volume</string>
         </property>
         <property name="text">
-         <string>Display</string>
+         <string>Volume</string>
         </property>
        </widget>
       </item>
@@ -145,7 +145,7 @@
     </widget>
    </item>
    <item>
-    <widget class="QDialogButtonBox" name="buttonBox">
+    <widget class="QDialogButtonBox" name="cancelButton">
      <property name="standardButtons">
       <set>QDialogButtonBox::Cancel</set>
      </property>

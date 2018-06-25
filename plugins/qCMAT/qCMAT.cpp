@@ -126,7 +126,9 @@ void qCMAT::doAction()
 		return;
 
   // Declare CMAT Dialog and show
+//TODO: this looks nicer if only m_app is provided as an argument
 	qCMATDlg cdlg(m_app->getMainWindow());
+	cdlg.initializeTool(m_app);
 	cdlg.exec();
 
 	// If user has not input two point clouds, terminate program.

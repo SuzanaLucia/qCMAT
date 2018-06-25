@@ -497,10 +497,16 @@ ccStdPluginInterface.h
 /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/qCMATDlg.cpp
 qCMATDlg.h
 /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/qCMATDlg.h
+cstdlib
+-
+iostream
+-
 
 /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/qCMATDlg.h
 ui_dlg.h
 /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ui_dlg.h
+ccStdPluginInterface.h
+/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccStdPluginInterface.h
 
 /usr/include/qt/QtCore/QDataStream
 qdatastream.h

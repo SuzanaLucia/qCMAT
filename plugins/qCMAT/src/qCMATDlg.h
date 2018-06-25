@@ -19,6 +19,7 @@
 #define CC_QCMAT_DLG_HEADER
 
 #include "ui_dlg.h"
+#include "ccStdPluginInterface.h"
 
 // Dialog for qCMAT plugin
 class qCMATDlg : public QDialog, public Ui::CMATDlg
@@ -29,6 +30,8 @@ public:
 
 	// Default constructor
 	explicit qCMATDlg(QWidget* parent = 0);
+
+	void initializeTool(ccMainAppInterface* app);
 
 	// Supported CSG operations
 	//enum CSG_OPERATION { UNION, INTERSECT, DIFF, SYM_DIFF };
@@ -43,6 +46,8 @@ public:
 	//bool isSwapped() const { return m_isSwapped; }
 
 protected slots:
+	void cancelButtonClicked();
+	void startVolumeDialog();
 	/**
 	void unionSelected();
 	void intersectSelected();
@@ -51,6 +56,10 @@ protected slots:
 	void swap();**/
 
 protected:
+
+	//link to the main plugin interface
+	ccMainAppInterface* m_app;
+
 
 	//CSG_OPERATION m_selectedOperation;
 	//bool m_isSwapped;

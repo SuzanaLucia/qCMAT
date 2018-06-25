@@ -45,8 +45,8 @@ public:
     QVBoxLayout *verticalLayout_3;
     QPushButton *optionsPushButton;
     QPushButton *viewPushButton;
-    QPushButton *displayPushButton;
-    QDialogButtonBox *buttonBox;
+    QPushButton *volumePushButton;
+    QDialogButtonBox *cancelButton;
 
     void setupUi(QDialog *CMATDlg)
     {
@@ -138,21 +138,21 @@ public:
 
         verticalLayout_3->addWidget(viewPushButton);
 
-        displayPushButton = new QPushButton(frame);
-        displayPushButton->setObjectName(QStringLiteral("displayPushButton"));
-        sizePolicy.setHeightForWidth(displayPushButton->sizePolicy().hasHeightForWidth());
-        displayPushButton->setSizePolicy(sizePolicy);
+        volumePushButton = new QPushButton(frame);
+        volumePushButton->setObjectName(QStringLiteral("volumePushButton"));
+        sizePolicy.setHeightForWidth(volumePushButton->sizePolicy().hasHeightForWidth());
+        volumePushButton->setSizePolicy(sizePolicy);
 
-        verticalLayout_3->addWidget(displayPushButton);
+        verticalLayout_3->addWidget(volumePushButton);
 
 
         verticalLayout_2->addWidget(frame);
 
-        buttonBox = new QDialogButtonBox(CMATDlg);
-        buttonBox->setObjectName(QStringLiteral("buttonBox"));
-        buttonBox->setStandardButtons(QDialogButtonBox::Cancel);
+        cancelButton = new QDialogButtonBox(CMATDlg);
+        cancelButton->setObjectName(QStringLiteral("cancelButton"));
+        cancelButton->setStandardButtons(QDialogButtonBox::Cancel);
 
-        verticalLayout_2->addWidget(buttonBox);
+        verticalLayout_2->addWidget(cancelButton);
 
 
         retranslateUi(CMATDlg);
@@ -175,9 +175,9 @@ public:
 #endif // QT_NO_TOOLTIP
         viewPushButton->setText(QApplication::translate("CMATDlg", "View ", nullptr));
 #ifndef QT_NO_TOOLTIP
-        displayPushButton->setToolTip(QApplication::translate("CMATDlg", "Generate and display the processed cloud point.", nullptr));
+        volumePushButton->setToolTip(QApplication::translate("CMATDlg", "Calculate beach volume", nullptr));
 #endif // QT_NO_TOOLTIP
-        displayPushButton->setText(QApplication::translate("CMATDlg", "Display", nullptr));
+        volumePushButton->setText(QApplication::translate("CMATDlg", "Volume", nullptr));
     } // retranslateUi
 
 };

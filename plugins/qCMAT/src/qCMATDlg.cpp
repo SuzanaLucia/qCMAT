@@ -16,6 +16,9 @@
 //##########################################################################
 
 #include "qCMATDlg.h"
+#include <cstdlib>
+#include <iostream>
+
 
 qCMATDlg::qCMATDlg(QWidget* parent)
 	: QDialog(parent, Qt::Tool)
@@ -25,18 +28,51 @@ qCMATDlg::qCMATDlg(QWidget* parent)
 {
 	setupUi(this);
 
+	//store a copy of the app
+	//m_app = app
+	//Connect the cancel button
+	connect( cancelButton, SIGNAL(rejected()), this, SLOT(cancelButtonClicked()));
+	connect( volumePushButton,	SIGNAL(clicked()), this, SLOT( startVolumeDialog()));
+
+
 	/**connect(unionPushButton,	SIGNAL(clicked()), this, SLOT(unionSelected()));
+	connect( viewPushButton,	SIGNAL(clicked()), this, SLOT( cancelButtonClicked() ));
 	connect(interPushButton,	SIGNAL(clicked()), this, SLOT(intersectSelected()));
 	connect(diffPushButton,		SIGNAL(clicked()), this, SLOT(diffSelected()));
 	connect(symDiffPushButton,	SIGNAL(clicked()), this, SLOT(symDiffSelected()));
 	connect(swapToolButton,		SIGNAL(clicked()), this, SLOT(swap()));**/
 }
+
+
+void qCMATDlg::startVolumeDialog(){
+	//start a dialog to query user + calculate volumes
+
+}
+
+
+
+void qCMATDlg::cancelButtonClicked(){
+	//the cancel button has been pressed, quit plugin execution
+	m_app->dispToConsole( "Quitting CMAP...", ccMainAppInterface::STD_CONSOLE_MESSAGE );
+	//close anything spawned by qCMATDlg
+	this->close();
+
+}
+
+
+//store a copy of m_app
+void qCMATDlg::initializeTool(ccMainAppInterface* app)
+{
+	m_app = app; //store copy of app
+}
+
 /**
 void qCMATDlg::setNames(QString A, QString B)
 {
 	meshALineEdit->setText(A);
 	meshBLineEdit->setText(B);
 }
+
 
 void qCMATDlg::unionSelected()
 {
