@@ -313,32 +313,6 @@ qcustomplot_autogen/fast:
 .PHONY : qcustomplot_autogen/fast
 
 #=============================================================================
-# Target rules for targets named QCOMPASS_PLUGIN
-
-# Build rule for target.
-QCOMPASS_PLUGIN: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 QCOMPASS_PLUGIN
-.PHONY : QCOMPASS_PLUGIN
-
-# fast build rule for target.
-QCOMPASS_PLUGIN/fast:
-	$(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build
-.PHONY : QCOMPASS_PLUGIN/fast
-
-#=============================================================================
-# Target rules for targets named QCOMPASS_PLUGIN_autogen
-
-# Build rule for target.
-QCOMPASS_PLUGIN_autogen: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 QCOMPASS_PLUGIN_autogen
-.PHONY : QCOMPASS_PLUGIN_autogen
-
-# fast build rule for target.
-QCOMPASS_PLUGIN_autogen/fast:
-	$(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN_autogen.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN_autogen.dir/build
-.PHONY : QCOMPASS_PLUGIN_autogen/fast
-
-#=============================================================================
 # Target rules for targets named qCMAT
 
 # Build rule for target.
@@ -440,8 +414,6 @@ help:
 	@echo "... QCC_GL_LIB_autogen"
 	@echo "... qcustomplot"
 	@echo "... qcustomplot_autogen"
-	@echo "... QCOMPASS_PLUGIN"
-	@echo "... QCOMPASS_PLUGIN_autogen"
 	@echo "... qCMAT"
 	@echo "... qCMAT_autogen"
 	@echo "... CloudCompare"

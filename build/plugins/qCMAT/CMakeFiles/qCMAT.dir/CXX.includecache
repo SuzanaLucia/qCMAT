@@ -400,6 +400,14 @@ QtCore/qmetatype.h
 QtCore/qplugin.h
 -
 
+/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qCMAT_autogen/UVLADIE3JM/moc_ccVolumeTool.cpp
+../../../../../plugins/qCMAT/src/ccVolumeTool.h
+/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccVolumeTool.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
 /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qCMAT_autogen/UVLADIE3JM/moc_qCMATDlg.cpp
 ../../../../../plugins/qCMAT/src/qCMATDlg.h
 /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/qCMATDlg.h
@@ -411,6 +419,8 @@ QtCore/qmetatype.h
 /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qCMAT_autogen/mocs_compilation.cpp
 EWIEGA46WW/moc_qCMAT.cpp
 /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qCMAT_autogen/EWIEGA46WW/moc_qCMAT.cpp
+UVLADIE3JM/moc_ccVolumeTool.cpp
+/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qCMAT_autogen/UVLADIE3JM/moc_ccVolumeTool.cpp
 UVLADIE3JM/moc_qCMATDlg.cpp
 /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qCMAT_autogen/UVLADIE3JM/moc_qCMATDlg.cpp
 
@@ -494,6 +504,24 @@ ccPointCloud.h
 ccStdPluginInterface.h
 /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/ccStdPluginInterface.h
 
+/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccVolumeTool.cpp
+ccVolumeTool.h
+/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccVolumeTool.h
+cstdlib
+-
+iostream
+-
+QMainWindow
+-
+
+/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccVolumeTool.h
+ui_ccVolumeTool.h
+/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ui_ccVolumeTool.h
+ccStdPluginInterface.h
+/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccStdPluginInterface.h
+QMainWindow
+-
+
 /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/qCMATDlg.cpp
 qCMATDlg.h
 /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/qCMATDlg.h
@@ -501,6 +529,8 @@ cstdlib
 -
 iostream
 -
+ccVolumeTool.h
+/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccVolumeTool.h
 
 /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/qCMATDlg.h
 ui_dlg.h
@@ -4296,6 +4326,22 @@ QtGui/qcursor.h
 QtGui/qkeysequence.h
 -
 QtGui/qevent.h
+-
+
+plugins/qCMAT/ui_ccVolumeTool.h
+QtCore/QVariant
+-
+QtWidgets/QAction
+-
+QtWidgets/QApplication
+-
+QtWidgets/QButtonGroup
+-
+QtWidgets/QDialog
+-
+QtWidgets/QHeaderView
+-
+QtWidgets/QPushButton
 -
 
 plugins/qCMAT/ui_dlg.h

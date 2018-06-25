@@ -15,28 +15,18 @@
 //#                                                                        #
 //##########################################################################
 
-#include "qCMATDlg.h"
+#include "ccVolumeTool.h"
 #include <cstdlib>
 #include <iostream>
-
-//include plugin features
-#include "ccVolumeTool.h"
+#include <QMainWindow>
 
 
-qCMATDlg::qCMATDlg(QWidget* parent)
+ccVolumeTool::ccVolumeTool(QWidget* parent)
 	: QDialog(parent, Qt::Tool)
-	, Ui::CMATDlg()
-	//, m_selectedOperation(UNION)
-	//, m_isSwapped(false)
+	, Ui::ccVolumeTool()
+
 {
 	setupUi(this);
-
-	//store a copy of the app
-	//m_app = app
-	//Connect the cancel button
-	connect( cancelButton, SIGNAL(rejected()), this, SLOT(cancelButtonClicked()));
-	connect( volumePushButton,	SIGNAL(clicked()), this, SLOT( startVolumeDialog()));
-
 
 	/**connect(unionPushButton,	SIGNAL(clicked()), this, SLOT(unionSelected()));
 	connect( viewPushButton,	SIGNAL(clicked()), this, SLOT( cancelButtonClicked() ));
@@ -47,71 +37,9 @@ qCMATDlg::qCMATDlg(QWidget* parent)
 }
 
 
-void qCMATDlg::startVolumeDialog(){
-	//start a dialog to query user + calculate volumes
-		//close this dialog
-		this->close();
-		//create the volume dialog
-		ccVolumeTool volt(m_app->getMainWindow());
-		volt.initializeTool(m_app);
-		volt.exec();
-}
-
-
-
-void qCMATDlg::cancelButtonClicked(){
-	//the cancel button has been pressed, quit plugin execution
-	m_app->dispToConsole( "Quitting CMAP...", ccMainAppInterface::STD_CONSOLE_MESSAGE );
-	//close anything spawned by qCMATDlg
-	this->close();
-
-}
-
-
 //store a copy of m_app
-void qCMATDlg::initializeTool(ccMainAppInterface* app)
+void ccVolumeTool::initializeTool(ccMainAppInterface* app)
 {
 	m_app = app; //store copy of app
 }
 
-/**
-void qCMATDlg::setNames(QString A, QString B)
-{
-	meshALineEdit->setText(A);
-	meshBLineEdit->setText(B);
-}
-
-
-void qCMATDlg::unionSelected()
-{
-	m_selectedOperation = UNION;
-	accept();
-}
-
-void qCMATDlg::intersectSelected()
-{
-	m_selectedOperation = INTERSECT;
-	accept();
-}
-
-void qCMATDlg::diffSelected()
-{
-	m_selectedOperation = DIFF;
-	accept();
-}
-
-void qCMATDlg::symDiffSelected()
-{
-	m_selectedOperation = SYM_DIFF;
-	accept();
-}
-
-void qCMATDlg::swap()
-{
-	m_isSwapped = !m_isSwapped;
-
-	QString A = meshALineEdit->text();
-	QString B = meshBLineEdit->text();
-	setNames(B,A);
-}
-**/

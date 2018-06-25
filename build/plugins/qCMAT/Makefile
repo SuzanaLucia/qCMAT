@@ -321,6 +321,33 @@ qrc_qCMAT.cpp.s:
 	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/qCMAT/CMakeFiles/qCMAT.dir/build.make plugins/qCMAT/CMakeFiles/qCMAT.dir/qrc_qCMAT.cpp.s
 .PHONY : qrc_qCMAT.cpp.s
 
+src/ccVolumeTool.o: src/ccVolumeTool.cpp.o
+
+.PHONY : src/ccVolumeTool.o
+
+# target to build an object file
+src/ccVolumeTool.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/qCMAT/CMakeFiles/qCMAT.dir/build.make plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o
+.PHONY : src/ccVolumeTool.cpp.o
+
+src/ccVolumeTool.i: src/ccVolumeTool.cpp.i
+
+.PHONY : src/ccVolumeTool.i
+
+# target to preprocess a source file
+src/ccVolumeTool.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/qCMAT/CMakeFiles/qCMAT.dir/build.make plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.i
+.PHONY : src/ccVolumeTool.cpp.i
+
+src/ccVolumeTool.s: src/ccVolumeTool.cpp.s
+
+.PHONY : src/ccVolumeTool.s
+
+# target to generate assembly for a file
+src/ccVolumeTool.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/qCMAT/CMakeFiles/qCMAT.dir/build.make plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.s
+.PHONY : src/ccVolumeTool.cpp.s
+
 src/qCMATDlg.o: src/qCMATDlg.cpp.o
 
 .PHONY : src/qCMATDlg.o
@@ -377,6 +404,9 @@ help:
 	@echo "... qrc_qCMAT.o"
 	@echo "... qrc_qCMAT.i"
 	@echo "... qrc_qCMAT.s"
+	@echo "... src/ccVolumeTool.o"
+	@echo "... src/ccVolumeTool.i"
+	@echo "... src/ccVolumeTool.s"
 	@echo "... src/qCMATDlg.o"
 	@echo "... src/qCMATDlg.i"
 	@echo "... src/qCMATDlg.s"
