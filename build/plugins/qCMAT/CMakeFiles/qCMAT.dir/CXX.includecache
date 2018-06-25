@@ -511,8 +511,6 @@ cstdlib
 -
 iostream
 -
-QMainWindow
--
 
 /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccVolumeTool.h
 ui_ccVolumeTool.h
@@ -3982,6 +3980,10 @@ qmainwindow.h
 qpushbutton.h
 /usr/include/qt/QtWidgets/qpushbutton.h
 
+/usr/include/qt/QtWidgets/QSlider
+qslider.h
+/usr/include/qt/QtWidgets/qslider.h
+
 /usr/include/qt/QtWidgets/QToolButton
 qtoolbutton.h
 /usr/include/qt/QtWidgets/qtoolbutton.h
@@ -4339,9 +4341,17 @@ QtWidgets/QButtonGroup
 -
 QtWidgets/QDialog
 -
+QtWidgets/QFrame
+-
 QtWidgets/QHeaderView
 -
+QtWidgets/QLabel
+-
+QtWidgets/QLineEdit
+-
 QtWidgets/QPushButton
+-
+QtWidgets/QSlider
 -
 
 plugins/qCMAT/ui_dlg.h

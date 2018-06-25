@@ -908,6 +908,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o: /usr/in
 plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o: /usr/include/qt/QtWidgets/QLineEdit
 plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o: /usr/include/qt/QtWidgets/QMainWindow
 plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o: /usr/include/qt/QtWidgets/QPushButton
+plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o: /usr/include/qt/QtWidgets/QSlider
 plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o: /usr/include/qt/QtWidgets/QToolButton
 plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o: /usr/include/qt/QtWidgets/QVBoxLayout
 plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o: /usr/include/qt/QtWidgets/QWidget
@@ -1095,6 +1096,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtGui
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtGui/qpaintdevice.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtGui/qpainterpath.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtGui/qpalette.h
+plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtGui/qpen.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtGui/qpixelformat.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtGui/qpixmap.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtGui/qpolygon.h
@@ -1102,6 +1104,9 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtGui
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtGui/qrgb.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtGui/qrgba64.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtGui/qsurfaceformat.h
+plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtGui/qtextcursor.h
+plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtGui/qtextformat.h
+plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtGui/qtextoption.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtGui/qtgui-config.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtGui/qtguiglobal.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtGui/qtouchdevice.h
@@ -1115,9 +1120,13 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtWid
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtWidgets/QApplication
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtWidgets/QButtonGroup
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtWidgets/QDialog
+plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtWidgets/QFrame
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtWidgets/QHeaderView
+plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtWidgets/QLabel
+plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtWidgets/QLineEdit
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtWidgets/QMainWindow
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtWidgets/QPushButton
+plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtWidgets/QSlider
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtWidgets/QWidget
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtWidgets/qabstractbutton.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtWidgets/qabstractitemdelegate.h
@@ -1133,6 +1142,8 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtWid
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtWidgets/qdialog.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtWidgets/qframe.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtWidgets/qheaderview.h
+plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtWidgets/qlabel.h
+plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtWidgets/qlineedit.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtWidgets/qmainwindow.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtWidgets/qpushbutton.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtWidgets/qrubberband.h
@@ -1325,6 +1336,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o: /usr/include/qt/QtWidgets
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o: /usr/include/qt/QtWidgets/QLineEdit
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o: /usr/include/qt/QtWidgets/QMainWindow
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o: /usr/include/qt/QtWidgets/QPushButton
+plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o: /usr/include/qt/QtWidgets/QSlider
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o: /usr/include/qt/QtWidgets/QToolButton
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o: /usr/include/qt/QtWidgets/QVBoxLayout
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o: /usr/include/qt/QtWidgets/QWidget

@@ -61,6 +61,10 @@ protected:
 
 	//link to the main plugin interface
 	ccMainAppInterface* m_app;
+	//point cloud / beach for which to calculate volume
+	
+	//calculates volume of beach between top and bottom
+	float volumeBetweenHeights(int, int);
 
 
 	//CSG_OPERATION m_selectedOperation;

@@ -909,6 +909,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o
  /usr/include/qt/QtWidgets/QLineEdit
  /usr/include/qt/QtWidgets/QMainWindow
  /usr/include/qt/QtWidgets/QPushButton
+ /usr/include/qt/QtWidgets/QSlider
  /usr/include/qt/QtWidgets/QToolButton
  /usr/include/qt/QtWidgets/QVBoxLayout
  /usr/include/qt/QtWidgets/QWidget
@@ -1096,6 +1097,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o
  /usr/include/qt/QtGui/qpaintdevice.h
  /usr/include/qt/QtGui/qpainterpath.h
  /usr/include/qt/QtGui/qpalette.h
+ /usr/include/qt/QtGui/qpen.h
  /usr/include/qt/QtGui/qpixelformat.h
  /usr/include/qt/QtGui/qpixmap.h
  /usr/include/qt/QtGui/qpolygon.h
@@ -1103,6 +1105,9 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o
  /usr/include/qt/QtGui/qrgb.h
  /usr/include/qt/QtGui/qrgba64.h
  /usr/include/qt/QtGui/qsurfaceformat.h
+ /usr/include/qt/QtGui/qtextcursor.h
+ /usr/include/qt/QtGui/qtextformat.h
+ /usr/include/qt/QtGui/qtextoption.h
  /usr/include/qt/QtGui/qtgui-config.h
  /usr/include/qt/QtGui/qtguiglobal.h
  /usr/include/qt/QtGui/qtouchdevice.h
@@ -1116,9 +1121,13 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o
  /usr/include/qt/QtWidgets/QApplication
  /usr/include/qt/QtWidgets/QButtonGroup
  /usr/include/qt/QtWidgets/QDialog
+ /usr/include/qt/QtWidgets/QFrame
  /usr/include/qt/QtWidgets/QHeaderView
+ /usr/include/qt/QtWidgets/QLabel
+ /usr/include/qt/QtWidgets/QLineEdit
  /usr/include/qt/QtWidgets/QMainWindow
  /usr/include/qt/QtWidgets/QPushButton
+ /usr/include/qt/QtWidgets/QSlider
  /usr/include/qt/QtWidgets/QWidget
  /usr/include/qt/QtWidgets/qabstractbutton.h
  /usr/include/qt/QtWidgets/qabstractitemdelegate.h
@@ -1134,6 +1143,8 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o
  /usr/include/qt/QtWidgets/qdialog.h
  /usr/include/qt/QtWidgets/qframe.h
  /usr/include/qt/QtWidgets/qheaderview.h
+ /usr/include/qt/QtWidgets/qlabel.h
+ /usr/include/qt/QtWidgets/qlineedit.h
  /usr/include/qt/QtWidgets/qmainwindow.h
  /usr/include/qt/QtWidgets/qpushbutton.h
  /usr/include/qt/QtWidgets/qrubberband.h
@@ -1326,6 +1337,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o
  /usr/include/qt/QtWidgets/QLineEdit
  /usr/include/qt/QtWidgets/QMainWindow
  /usr/include/qt/QtWidgets/QPushButton
+ /usr/include/qt/QtWidgets/QSlider
  /usr/include/qt/QtWidgets/QToolButton
  /usr/include/qt/QtWidgets/QVBoxLayout
  /usr/include/qt/QtWidgets/QWidget

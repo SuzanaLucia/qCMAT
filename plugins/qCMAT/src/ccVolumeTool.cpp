@@ -18,7 +18,7 @@
 #include "ccVolumeTool.h"
 #include <cstdlib>
 #include <iostream>
-#include <QMainWindow>
+
 
 
 ccVolumeTool::ccVolumeTool(QWidget* parent)
@@ -43,3 +43,9 @@ void ccVolumeTool::initializeTool(ccMainAppInterface* app)
 	m_app = app; //store copy of app
 }
 
+
+float ccVolumeTool::volumeBetweenHeights(int bottom, int top){
+	//int a = m_app->getSelectedEntities();
+	return 0;
+
+}
