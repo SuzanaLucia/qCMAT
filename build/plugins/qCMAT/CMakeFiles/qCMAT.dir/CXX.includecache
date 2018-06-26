@@ -54,6 +54,22 @@ GenericIndexedCloudPersist.h
 PointProjectionTools.h
 ../CC/include/PointProjectionTools.h
 
+../CC/include/CloudSamplingTools.h
+CCToolbox.h
+../CC/include/CCToolbox.h
+DgmOctree.h
+../CC/include/DgmOctree.h
+
+../CC/include/Delaunay2dMesh.h
+GenericIndexedMesh.h
+../CC/include/GenericIndexedMesh.h
+SimpleTriangle.h
+../CC/include/SimpleTriangle.h
+cstddef
+-
+vector
+-
+
 ../CC/include/DgmOctree.h
 GenericOctree.h
 ../CC/include/GenericOctree.h
@@ -96,7 +112,27 @@ GenericCloud.h
 GenericIndexedCloud.h
 ../CC/include/GenericIndexedCloud.h
 
+../CC/include/GenericIndexedMesh.h
+GenericMesh.h
+../CC/include/GenericMesh.h
+
+../CC/include/GenericMesh.h
+functional
+-
+CCGeom.h
+../CC/include/CCGeom.h
+
 ../CC/include/GenericOctree.h
+CCGeom.h
+../CC/include/CCGeom.h
+
+../CC/include/GenericProgressCallback.h
+CCConst.h
+../CC/include/CCConst.h
+CCCoreLib.h
+../CC/include/CCCoreLib.h
+
+../CC/include/GenericTriangle.h
 CCGeom.h
 ../CC/include/CCGeom.h
 
@@ -129,6 +165,18 @@ GenericChunkedArray.h
 ../CC/include/GenericChunkedArray.h
 GenericIndexedCloudPersist.h
 ../CC/include/GenericIndexedCloudPersist.h
+
+../CC/include/SimpleCloud.h
+GenericChunkedArray.h
+../CC/include/GenericChunkedArray.h
+GenericIndexedCloudPersist.h
+../CC/include/GenericIndexedCloudPersist.h
+PointProjectionTools.h
+../CC/include/PointProjectionTools.h
+
+../CC/include/SimpleTriangle.h
+GenericTriangle.h
+../CC/include/GenericTriangle.h
 
 ../CC/include/SquareMatrix.h
 CCGeom.h
@@ -304,6 +352,26 @@ ccNormalVectors.h
 ccWaveform.h
 ../libs/qCC_db/ccWaveform.h
 QGLBuffer
+-
+
+../libs/qCC_db/ccProgressDialog.h
+qCC_db.h
+../libs/qCC_db/qCC_db.h
+QProgressDialog
+-
+QAtomicInt
+-
+QTimer
+-
+GenericProgressCallback.h
+-
+
+../libs/qCC_db/ccRasterGrid.h
+qCC_db.h
+../libs/qCC_db/qCC_db.h
+ccBBox.h
+../libs/qCC_db/ccBBox.h
+limits
 -
 
 ../libs/qCC_db/ccSerializableObject.h
@@ -507,9 +575,29 @@ ccStdPluginInterface.h
 /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccVolumeTool.cpp
 ccVolumeTool.h
 /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccVolumeTool.h
+ccHObject.h
+/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccHObject.h
+SimpleCloud.h
+/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/SimpleCloud.h
 cstdlib
 -
 iostream
+-
+vector
+-
+CloudSamplingTools.h
+-
+string
+-
+Delaunay2dMesh.h
+-
+PointProjectionTools.h
+-
+ccProgressDialog.h
+-
+QMessageBox
+-
+QSettings
 -
 
 /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccVolumeTool.h
@@ -518,6 +606,10 @@ ui_ccVolumeTool.h
 ccStdPluginInterface.h
 /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccStdPluginInterface.h
 QMainWindow
+-
+SimpleCloud.h
+-
+ccRasterGrid.h
 -
 
 /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/qCMATDlg.cpp
@@ -535,6 +627,10 @@ ui_dlg.h
 /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ui_dlg.h
 ccStdPluginInterface.h
 /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccStdPluginInterface.h
+
+/usr/include/qt/QtCore/QAtomicInt
+qatomic.h
+/usr/include/qt/QtCore/qatomic.h
 
 /usr/include/qt/QtCore/QDataStream
 qdatastream.h
@@ -588,6 +684,10 @@ qrect.h
 qscopedpointer.h
 /usr/include/qt/QtCore/qscopedpointer.h
 
+/usr/include/qt/QtCore/QSettings
+qsettings.h
+/usr/include/qt/QtCore/qsettings.h
+
 /usr/include/qt/QtCore/QSharedDataPointer
 qshareddata.h
 /usr/include/qt/QtCore/qshareddata.h
@@ -615,6 +715,10 @@ qstringlist.h
 /usr/include/qt/QtCore/QTextStream
 qtextstream.h
 /usr/include/qt/QtCore/qtextstream.h
+
+/usr/include/qt/QtCore/QTimer
+qtimer.h
+/usr/include/qt/QtCore/qtimer.h
 
 /usr/include/qt/QtCore/QVariant
 qvariant.h
@@ -3976,6 +4080,14 @@ qlineedit.h
 qmainwindow.h
 /usr/include/qt/QtWidgets/qmainwindow.h
 
+/usr/include/qt/QtWidgets/QMessageBox
+qmessagebox.h
+/usr/include/qt/QtWidgets/qmessagebox.h
+
+/usr/include/qt/QtWidgets/QProgressDialog
+qprogressdialog.h
+/usr/include/qt/QtWidgets/qprogressdialog.h
+
 /usr/include/qt/QtWidgets/QPushButton
 qpushbutton.h
 /usr/include/qt/QtWidgets/qpushbutton.h
@@ -4196,6 +4308,18 @@ QtWidgets/qtwidgetsglobal.h
 QtWidgets/qwidget.h
 -
 QtWidgets/qtabwidget.h
+-
+
+/usr/include/qt/QtWidgets/qmessagebox.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qdialog.h
+-
+
+/usr/include/qt/QtWidgets/qprogressdialog.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qdialog.h
 -
 
 /usr/include/qt/QtWidgets/qpushbutton.h

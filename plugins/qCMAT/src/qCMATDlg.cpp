@@ -86,7 +86,7 @@ void qCMATDlg::unionSelected()
 {
 	m_selectedOperation = UNION;
 	accept();
-}
+}m_action(nullptr)
 
 void qCMATDlg::intersectSelected()
 {

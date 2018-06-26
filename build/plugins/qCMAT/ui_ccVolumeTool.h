@@ -27,13 +27,13 @@ class Ui_ccVolumeTool
 {
 public:
     QPushButton *pushButton_2;
-    QPushButton *pushButton_3;
+    QPushButton *DisplayVolume;
     QLabel *label;
     QFrame *frame;
     QPushButton *pushButton_4;
     QLabel *label_5;
     QFrame *frame_2;
-    QPushButton *pushButton;
+    QPushButton *CalcVolButton;
     QSlider *horizontalSlider;
     QLineEdit *lineEdit_2;
     QLineEdit *lineEdit;
@@ -50,9 +50,12 @@ public:
         pushButton_2 = new QPushButton(ccVolumeTool);
         pushButton_2->setObjectName(QStringLiteral("pushButton_2"));
         pushButton_2->setGeometry(QRect(20, 250, 91, 41));
-        pushButton_3 = new QPushButton(ccVolumeTool);
-        pushButton_3->setObjectName(QStringLiteral("pushButton_3"));
-        pushButton_3->setGeometry(QRect(130, 250, 91, 41));
+        DisplayVolume = new QPushButton(ccVolumeTool);
+        DisplayVolume->setObjectName(QStringLiteral("DisplayVolume"));
+        DisplayVolume->setGeometry(QRect(130, 250, 91, 41));
+        DisplayVolume->setCheckable(false);
+        DisplayVolume->setAutoRepeat(false);
+        DisplayVolume->setAutoDefault(false);
         label = new QLabel(ccVolumeTool);
         label->setObjectName(QStringLiteral("label"));
         label->setGeometry(QRect(120, 6, 381, 20));
@@ -72,9 +75,9 @@ public:
         frame_2->setGeometry(QRect(10, 140, 381, 101));
         frame_2->setFrameShape(QFrame::StyledPanel);
         frame_2->setFrameShadow(QFrame::Raised);
-        pushButton = new QPushButton(frame_2);
-        pushButton->setObjectName(QStringLiteral("pushButton"));
-        pushButton->setGeometry(QRect(250, 70, 121, 21));
+        CalcVolButton = new QPushButton(frame_2);
+        CalcVolButton->setObjectName(QStringLiteral("CalcVolButton"));
+        CalcVolButton->setGeometry(QRect(250, 70, 121, 21));
         horizontalSlider = new QSlider(frame_2);
         horizontalSlider->setObjectName(QStringLiteral("horizontalSlider"));
         horizontalSlider->setGeometry(QRect(20, 70, 160, 16));
@@ -107,11 +110,14 @@ public:
     {
         ccVolumeTool->setWindowTitle(QApplication::translate("ccVolumeTool", "ccVolumeTool", nullptr));
         pushButton_2->setText(QApplication::translate("ccVolumeTool", "Save", nullptr));
-        pushButton_3->setText(QApplication::translate("ccVolumeTool", "Display", nullptr));
+#ifndef QT_NO_TOOLTIP
+        DisplayVolume->setToolTip(QApplication::translate("ccVolumeTool", "Display beach volume", nullptr));
+#endif // QT_NO_TOOLTIP
+        DisplayVolume->setText(QApplication::translate("ccVolumeTool", "Display", nullptr));
         label->setText(QApplication::translate("ccVolumeTool", "Calculate Beach Volumes", nullptr));
         pushButton_4->setText(QApplication::translate("ccVolumeTool", "Calculate Volumes", nullptr));
         label_5->setText(QApplication::translate("ccVolumeTool", "Calculate Abreviations", nullptr));
-        pushButton->setText(QApplication::translate("ccVolumeTool", "Calculate Volumes", nullptr));
+        CalcVolButton->setText(QApplication::translate("ccVolumeTool", "Calculate Volumes", nullptr));
         label_2->setText(QApplication::translate("ccVolumeTool", "Top:", nullptr));
         label_3->setText(QApplication::translate("ccVolumeTool", "Bottom:", nullptr));
         label_4->setText(QApplication::translate("ccVolumeTool", "Interval:", nullptr));

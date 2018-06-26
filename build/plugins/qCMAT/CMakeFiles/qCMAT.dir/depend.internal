@@ -728,8 +728,14 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o
  ../CC/include/CCGeom.h
  ../CC/include/CCPlatform.h
  ../CC/include/CCShareable.h
+ ../CC/include/CCToolbox.h
  ../CC/include/CCTypes.h
  ../CC/include/GenericChunkedArray.h
+ ../CC/include/GenericCloud.h
+ ../CC/include/GenericIndexedCloud.h
+ ../CC/include/GenericIndexedCloudPersist.h
+ ../CC/include/PointProjectionTools.h
+ ../CC/include/SimpleCloud.h
  ../CC/include/SquareMatrix.h
  ../libs/qCC_db/ccBBox.h
  ../libs/qCC_db/ccColorTypes.h
@@ -743,6 +749,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o
  ../libs/qCC_db/ccLog.h
  ../libs/qCC_db/ccMaterial.h
  ../libs/qCC_db/ccObject.h
+ ../libs/qCC_db/ccRasterGrid.h
  ../libs/qCC_db/ccSerializableObject.h
  ../libs/qCC_db/qCC_db.h
  ../libs/qCC_glWindow/ccGLUtils.h
@@ -957,8 +964,23 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o
  ../CC/include/CCGeom.h
  ../CC/include/CCPlatform.h
  ../CC/include/CCShareable.h
+ ../CC/include/CCToolbox.h
  ../CC/include/CCTypes.h
+ ../CC/include/CloudSamplingTools.h
+ ../CC/include/Delaunay2dMesh.h
+ ../CC/include/DgmOctree.h
  ../CC/include/GenericChunkedArray.h
+ ../CC/include/GenericCloud.h
+ ../CC/include/GenericIndexedCloud.h
+ ../CC/include/GenericIndexedCloudPersist.h
+ ../CC/include/GenericIndexedMesh.h
+ ../CC/include/GenericMesh.h
+ ../CC/include/GenericOctree.h
+ ../CC/include/GenericProgressCallback.h
+ ../CC/include/GenericTriangle.h
+ ../CC/include/PointProjectionTools.h
+ ../CC/include/SimpleCloud.h
+ ../CC/include/SimpleTriangle.h
  ../CC/include/SquareMatrix.h
  ../libs/qCC_db/ccBBox.h
  ../libs/qCC_db/ccColorTypes.h
@@ -972,6 +994,8 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o
  ../libs/qCC_db/ccLog.h
  ../libs/qCC_db/ccMaterial.h
  ../libs/qCC_db/ccObject.h
+ ../libs/qCC_db/ccProgressDialog.h
+ ../libs/qCC_db/ccRasterGrid.h
  ../libs/qCC_db/ccSerializableObject.h
  ../libs/qCC_db/qCC_db.h
  ../libs/qCC_glWindow/ccGLUtils.h
@@ -981,14 +1005,17 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o
  ../plugins/ccStdPluginInterface.h
  /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccVolumeTool.cpp
  /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccVolumeTool.h
+ /usr/include/qt/QtCore/QAtomicInt
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
  /usr/include/qt/QtCore/QObject
  /usr/include/qt/QtCore/QPair
  /usr/include/qt/QtCore/QScopedPointer
+ /usr/include/qt/QtCore/QSettings
  /usr/include/qt/QtCore/QSharedPointer
  /usr/include/qt/QtCore/QString
  /usr/include/qt/QtCore/QTextStream
+ /usr/include/qt/QtCore/QTimer
  /usr/include/qt/QtCore/QVariant
  /usr/include/qt/QtCore/qabstractitemmodel.h
  /usr/include/qt/QtCore/qalgorithms.h
@@ -998,6 +1025,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o
  /usr/include/qt/QtCore/qatomic_cxx11.h
  /usr/include/qt/QtCore/qatomic_msvc.h
  /usr/include/qt/QtCore/qbasicatomic.h
+ /usr/include/qt/QtCore/qbasictimer.h
  /usr/include/qt/QtCore/qbytearray.h
  /usr/include/qt/QtCore/qbytearraylist.h
  /usr/include/qt/QtCore/qchar.h
@@ -1045,6 +1073,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o
  /usr/include/qt/QtCore/qregularexpression.h
  /usr/include/qt/QtCore/qscopedpointer.h
  /usr/include/qt/QtCore/qset.h
+ /usr/include/qt/QtCore/qsettings.h
  /usr/include/qt/QtCore/qshareddata.h
  /usr/include/qt/QtCore/qsharedpointer.h
  /usr/include/qt/QtCore/qsharedpointer_impl.h
@@ -1061,6 +1090,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o
  /usr/include/qt/QtCore/qt_windows.h
  /usr/include/qt/QtCore/qtcore-config.h
  /usr/include/qt/QtCore/qtextstream.h
+ /usr/include/qt/QtCore/qtimer.h
  /usr/include/qt/QtCore/qtypeinfo.h
  /usr/include/qt/QtCore/qurl.h
  /usr/include/qt/QtCore/qurlquery.h
@@ -1126,6 +1156,8 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o
  /usr/include/qt/QtWidgets/QLabel
  /usr/include/qt/QtWidgets/QLineEdit
  /usr/include/qt/QtWidgets/QMainWindow
+ /usr/include/qt/QtWidgets/QMessageBox
+ /usr/include/qt/QtWidgets/QProgressDialog
  /usr/include/qt/QtWidgets/QPushButton
  /usr/include/qt/QtWidgets/QSlider
  /usr/include/qt/QtWidgets/QWidget
@@ -1146,6 +1178,8 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o
  /usr/include/qt/QtWidgets/qlabel.h
  /usr/include/qt/QtWidgets/qlineedit.h
  /usr/include/qt/QtWidgets/qmainwindow.h
+ /usr/include/qt/QtWidgets/qmessagebox.h
+ /usr/include/qt/QtWidgets/qprogressdialog.h
  /usr/include/qt/QtWidgets/qpushbutton.h
  /usr/include/qt/QtWidgets/qrubberband.h
  /usr/include/qt/QtWidgets/qsizepolicy.h
@@ -1164,8 +1198,14 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o
  ../CC/include/CCGeom.h
  ../CC/include/CCPlatform.h
  ../CC/include/CCShareable.h
+ ../CC/include/CCToolbox.h
  ../CC/include/CCTypes.h
  ../CC/include/GenericChunkedArray.h
+ ../CC/include/GenericCloud.h
+ ../CC/include/GenericIndexedCloud.h
+ ../CC/include/GenericIndexedCloudPersist.h
+ ../CC/include/PointProjectionTools.h
+ ../CC/include/SimpleCloud.h
  ../CC/include/SquareMatrix.h
  ../libs/qCC_db/ccBBox.h
  ../libs/qCC_db/ccColorTypes.h
@@ -1179,6 +1219,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o
  ../libs/qCC_db/ccLog.h
  ../libs/qCC_db/ccMaterial.h
  ../libs/qCC_db/ccObject.h
+ ../libs/qCC_db/ccRasterGrid.h
  ../libs/qCC_db/ccSerializableObject.h
  ../libs/qCC_db/qCC_db.h
  ../libs/qCC_glWindow/ccGLUtils.h

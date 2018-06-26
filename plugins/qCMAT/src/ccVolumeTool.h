@@ -20,9 +20,11 @@
 
 #include "ui_ccVolumeTool.h"
 #include "ccStdPluginInterface.h"
-
 //"no matching call for main window" bug
 #include <QMainWindow>
+#include <SimpleCloud.h>
+#include <ccRasterGrid.h>
+
 
 
 // Dialog for qCMAT plugin
@@ -36,6 +38,9 @@ public:
 	explicit ccVolumeTool(QWidget* parent = 0);
 
 	void initializeTool(ccMainAppInterface* app);
+
+
+
 
 	// Supported CSG operations
 	//enum CSG_OPERATION { UNION, INTERSECT, DIFF, SYM_DIFF };
@@ -56,19 +61,64 @@ protected slots:
 	void diffSelected();
 	void symDiffSelected();
 	void swap();**/
-
+	void testConsole();
+	void processClouds();
 protected:
 
 	//link to the main plugin interface
 	ccMainAppInterface* m_app;
 	//point cloud / beach for which to calculate volume
-	
-	//calculates volume of beach between top and bottom
-	float volumeBetweenHeights(int, int);
 
 
 	//CSG_OPERATION m_selectedOperation;
 	//bool m_isSwapped;
+private:
+
+	//Struct for reporting volume info
+	struct ReportInfo
+	{
+		ReportInfo()
+			: volume(0)
+			, addedVolume(0)
+			, removedVolume(0)
+			, surface(0)
+			, matchingPrecent(0)
+			, ceilNonMatchingPercent(0)
+			, groundNonMatchingPercent(0)
+			, averageNeighborsPerCell(0)
+		{}
+
+		QString toText(int precision = 6) const;
+
+		double volume;
+		double addedVolume;
+		double removedVolume;
+		double surface;
+		float matchingPrecent;
+		float ceilNonMatchingPercent;
+		float groundNonMatchingPercent;
+		double averageNeighborsPerCell;
+	};
+
+	//calculates volume of beach between top and bottom
+	float volumeBetweenHeights(ccHObject*, int, int);
+	//get clouds to operate on, calculate based on user input
+	bool ComputeVolume(	ccRasterGrid&,
+										ccGenericPointCloud*,
+										ccGenericPointCloud*,
+										const ccBBox&,
+										unsigned char,
+										double,
+										unsigned,
+										unsigned,
+										ccRasterGrid::ProjectionType,
+										ccRasterGrid::EmptyCellFillOption,
+										ccRasterGrid::EmptyCellFillOption,
+										ccVolumeTool::ReportInfo&,
+										double groundHeight = std::numeric_limits<double>::quiet_NaN(),
+										double ceilHeight = std::numeric_limits<double>::quiet_NaN(),
+										QWidget* parentWidget = 0);
+
 };
 
 #endif //CC_VOLUME_TOOL_H
