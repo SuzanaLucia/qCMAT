@@ -23,7 +23,7 @@
       <enum>QFrame::StyledPanel</enum>
      </property>
      <property name="frameShadow">
-      <enum>QFrame::Raised</enum>
+      <enum>QFrame::Sunken</enum>
      </property>
      <layout class="QHBoxLayout" name="horizontalLayout_3">
       <item>
@@ -32,8 +32,14 @@
          <layout class="QHBoxLayout" name="horizontalLayout">
           <item>
            <widget class="QLabel" name="label1">
+            <property name="font">
+             <font>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
             <property name="text">
-             <string>Point Cloud 1</string>
+             <string>Point Cloud 1: </string>
             </property>
            </widget>
           </item>
@@ -50,8 +56,15 @@
          <layout class="QHBoxLayout" name="horizontalLayout_2">
           <item>
            <widget class="QLabel" name="label2">
+            <property name="font">
+             <font>
+              <weight>75</weight>
+              <bold>true</bold>
+              <underline>false</underline>
+             </font>
+            </property>
             <property name="text">
-             <string>Point Cloud 2</string>
+             <string>Point Cloud 2: </string>
             </property>
            </widget>
           </item>
@@ -64,22 +77,7 @@
           </item>
          </layout>
         </item>
-        <item>
-         <widget class="QPushButton" name="clearPushButton">
-          <property name="text">
-           <string>Make a thing appear</string>
-          </property>
-         </widget>
-        </item>
        </layout>
-      </item>
-      <item>
-       <widget class="QToolButton" name="swapToolButton">
-        <property name="icon">
-         <iconset resource="../qCMAT.qrc">
-          <normaloff>:/CC/plugin/qCMAT/images/iconSwap.png</normaloff>:/CC/plugin/qCMAT/images/iconSwap.png</iconset>
-        </property>
-       </widget>
       </item>
      </layout>
     </widget>
@@ -90,7 +88,7 @@
       <enum>QFrame::StyledPanel</enum>
      </property>
      <property name="frameShadow">
-      <enum>QFrame::Raised</enum>
+      <enum>QFrame::Sunken</enum>
      </property>
      <layout class="QVBoxLayout" name="verticalLayout_3">
       <item>
