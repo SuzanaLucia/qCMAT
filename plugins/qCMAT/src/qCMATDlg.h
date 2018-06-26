@@ -27,11 +27,13 @@ class qCMATDlg : public QDialog, public Ui::CMATDlg
 	Q_OBJECT
 
 public:
+	void printConsole();
 
 	// Default constructor
 	explicit qCMATDlg(QWidget* parent = 0);
 
 	void initializeTool(ccMainAppInterface* app);
+	void initPointClouds();
 
 	// Supported CSG operations
 	//enum CSG_OPERATION { UNION, INTERSECT, DIFF, SYM_DIFF };
@@ -48,6 +50,9 @@ public:
 protected slots:
 	void cancelButtonClicked();
 	void startVolumeDialog();
+	void printConsole(std::string);
+	void printError(std::string);
+
 	/**
 	void unionSelected();
 	void intersectSelected();

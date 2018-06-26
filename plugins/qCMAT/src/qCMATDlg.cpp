@@ -16,9 +16,13 @@
 //##########################################################################
 
 #include "qCMATDlg.h"
+#include <QString>
+#include "../qCMAT.h"
 #include <cstdlib>
 #include <iostream>
-
+#include <ccPointCloud.h>
+#include <QtGui>
+#include <QMainWindow>
 //include plugin features
 #include "ccVolumeTool.h"
 
@@ -38,12 +42,13 @@ qCMATDlg::qCMATDlg(QWidget* parent)
 	connect( volumePushButton,	SIGNAL(clicked()), this, SLOT( startVolumeDialog()));
 
 
-	/**connect(unionPushButton,	SIGNAL(clicked()), this, SLOT(unionSelected()));
-	connect( viewPushButton,	SIGNAL(clicked()), this, SLOT( cancelButtonClicked() ));
+	//connect(clearPushButton,	SIGNAL(clicked()), this, SLOT(clearPointClouds()));
+	/**connect( viewPushButton,	SIGNAL(clicked()), this, SLOT( cancelButtonClicked() ));
 	connect(interPushButton,	SIGNAL(clicked()), this, SLOT(intersectSelected()));
 	connect(diffPushButton,		SIGNAL(clicked()), this, SLOT(diffSelected()));
 	connect(symDiffPushButton,	SIGNAL(clicked()), this, SLOT(symDiffSelected()));
 	connect(swapToolButton,		SIGNAL(clicked()), this, SLOT(swap()));**/
+	//initPointClouds();
 }
 
 
@@ -57,6 +62,43 @@ void qCMATDlg::startVolumeDialog(){
 		volt.exec();
 }
 
+/**
+* Initialises point clouds selected by user and displays point clouds' names in text boxes.
+* Also ensures that point clouds are indeed of type POINT_CLOUD and that they are accessible
+* to the qCMATDlg file.
+**/
+void qCMATDlg::initPointClouds()
+{
+	//FIXME: Elements MUST BE HIGHLIGHTED!!!!!!!!!! (not an issue just something to be wary of)
+
+	// Declare clouds to be equal to point clouds selected in DB Tree (Sidebar)
+	std::vector<ccHObject*> clouds = m_app->getSelectedEntities();
+	// Declare the two point clouds to operate on
+	ccPointCloud* cloud1 = ccHObjectCaster::ToPointCloud(clouds[0]);
+	ccPointCloud* cloud2 = ccHObjectCaster::ToPointCloud(clouds[1]);
+	// Make sure clouds is not empty, and if it is display error.
+	if(clouds.empty())
+	{
+		m_app->dispToConsole("No point clouds selected",ccMainAppInterface::STD_CONSOLE_MESSAGE);
+	}
+	// If clouds is not empty, continue...
+	else if(!clouds.empty())
+	{
+		// Declare boolean and cast to QString for conditional.
+		bool c1_isCloudPoint = cloud1->isA(CC_TYPES::POINT_CLOUD); QString c1Bool = QString::number(c1_isCloudPoint);
+		bool c2_isCloudPoint = cloud2->isA(CC_TYPES::POINT_CLOUD); QString c2Bool = QString::number(c2_isCloudPoint);
+		// Ensure selected point clouds are now accessible by the plugin and are indeed of type POINT_CLOUD
+		if(c1Bool == "1") {	m_app->dispToConsole("Point Cloud 1 loaded... ",ccMainAppInterface::STD_CONSOLE_MESSAGE);	}
+		if(c2Bool == "1") {	m_app->dispToConsole("Point Cloud 2 loaded... ",ccMainAppInterface::STD_CONSOLE_MESSAGE);	}
+	}
+	else { m_app->dispToConsole("Something went wrong, quitting...",ccMainAppInterface::ERR_CONSOLE_MESSAGE); this->close(); }
+	// Find names of point clouds...
+	QString cloud1Name = cloud1->getName();
+	QString cloud2Name = cloud2->getName();
+	// ...and set the text boxes to display them.
+	pointCloudPath1->setText(cloud1Name);
+	pointCloudPath2->setText(cloud2Name);
+}
 
 
 void qCMATDlg::cancelButtonClicked(){
@@ -64,7 +106,6 @@ void qCMATDlg::cancelButtonClicked(){
 	m_app->dispToConsole( "Quitting CMAP...", ccMainAppInterface::STD_CONSOLE_MESSAGE );
 	//close anything spawned by qCMATDlg
 	this->close();
-
 }
 
 
@@ -72,6 +113,18 @@ void qCMATDlg::cancelButtonClicked(){
 void qCMATDlg::initializeTool(ccMainAppInterface* app)
 {
 	m_app = app; //store copy of app
+}
+
+// Takes in std::string to print to CC console.
+void qCMATDlg::printConsole(std::string inWord){
+	QString msg = QString::fromStdString(inWord);
+	m_app->dispToConsole(msg, ccMainAppInterface::STD_CONSOLE_MESSAGE);
+}
+
+// Takes in std::string to print to CC console.
+void qCMATDlg::printError(std::string inWord){
+	QString msg = QString::fromStdString(inWord);
+	m_app->dispToConsole(msg, ccMainAppInterface::ERR_CONSOLE_MESSAGE);
 }
 
 /**

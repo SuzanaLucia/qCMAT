@@ -24,6 +24,7 @@
 // CloudCompare Libraries
 #include <ccPointCloud.h>
 
+
 // Default constructor:
 // Constructor should mainly be used to initialize actions and other members
 qCMAT::qCMAT(QObject *parent)
@@ -110,7 +111,7 @@ QList<QAction *> qCMAT::getActions()
  		class in ccMainAppInterface.h). **/
 void qCMAT::doAction()
 {
-	m_app->dispToConsole( "[DEBUG] PlUgOn Initialooted", ccMainAppInterface::STD_CONSOLE_MESSAGE );
+	m_app->dispToConsole( "[DEBUG] Starting qCMAT", ccMainAppInterface::STD_CONSOLE_MESSAGE );
 	/**if ( m_app == nullptr )
 	{
 		// m_app should have already been initialized by CC when plugin is loaded
@@ -119,7 +120,6 @@ void qCMAT::doAction()
 		return;
 	}**/
 
-
 	// Terminate program if m_app has not been initialised yet
 	assert(m_app);
 	if(!m_app)
@@ -127,25 +127,21 @@ void qCMAT::doAction()
 
   // Declare CMAT Dialog and show
 //TODO: this looks nicer if only m_app is provided as an argument
-	qCMATDlg cdlg(m_app->getMainWindow());
-	cdlg.initializeTool(m_app);
-	cdlg.exec();
 
-	// If user has not input two point clouds, terminate program.
-	/**if(m_selectedEntities.size() != 2
+	if(m_selectedEntities.size() != 2
 		|| !m_selectedEntities[0]->isA(CC_TYPES::POINT_CLOUD)
 		|| !m_selectedEntities[0]->isA(CC_TYPES::POINT_CLOUD))
 	{
+		// If user has not input two point clouds, display error message.
 		m_app->dispToConsole("[!] Requires TWO point clouds [!]", ccMainAppInterface::ERR_CONSOLE_MESSAGE);
-	}**/
+	}
+	else if (m_selectedEntities.size() == 2) {
+		// Otherwise launch qCMAT Dialog UI
+		qCMATDlg cdlg(m_app->getMainWindow());
+		cdlg.initializeTool(m_app);
+		// Initialise point clouds loaded
+		cdlg.initPointClouds();
+		cdlg.exec();
+	}
 
-		// Define point clouds by converting "selectedEntities" elements to Point Clouds
-		//ccPointCloud* cloud1 = ccHObjectCaster::ToPointCloud(m_selectedEntities[0]);
-		//ccPointCloud* cloud2 = ccHObjectCaster::ToPointCloud(m_selectedEntities[1]);
-
-
-	/*** HERE STARTS THE ACTION ***/
-	// Put your code here
-	// --> you may want to start by asking for parameters (with a custom dialog, etc.)
-	/*** HERE ENDS THE ACTION ***/
 }
