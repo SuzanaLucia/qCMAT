@@ -36,7 +36,7 @@
 //cute <3
 #include <QMessageBox>
 #include <QSettings>
-
+#include <QLineEdit>
 
 ccVolumeTool::ccVolumeTool(QWidget* parent)
 	: QDialog(parent, Qt::Tool)
@@ -48,7 +48,7 @@ ccVolumeTool::ccVolumeTool(QWidget* parent)
 	connect( DisplayVolume,	SIGNAL(clicked()), this, SLOT( processClouds() ));
 	connect( CalcVolButton,	SIGNAL(clicked()), this, SLOT( testConsole()));
 	//connect( pushButton_3,	SIGNAL(clicked()), this, SLOT( testConsole()));
-	connect( pushButton_2,	SIGNAL(clicked()), this, SLOT( testConsole()));
+	connect( saveButton,	SIGNAL(clicked()), this, SLOT( contourVolume())); //presumably save
 	//connect( pushButton_1,	SIGNAL(clicked()), this, SLOT( testConsole()));
 	/**connect(unionPushButton,	SIGNAL(clicked()), this, SLOT(unionSelected()));
 	connect( viewPushButton,	SIGNAL(clicked()), this, SLOT( cancelButtonClicked() ));
@@ -67,6 +67,30 @@ void ccVolumeTool::testConsole(){
 void ccVolumeTool::initializeTool(ccMainAppInterface* app)
 {
 	m_app = app; //store copy of app
+
+
+	//do calculations regarding cloud height
+		//chop up cloud based on user input
+		//get the height of the whole cloud
+	//well need z coordinates from bbox min and max
+			//get coresponding ccBBox
+		ccHObject* cloud = m_app->getSelectedEntities()[0];
+
+
+			ccBBox cBox = cloud->getOwnBB();
+			//get top and bottom out of it
+			CCVector3f cMin = cBox.minCorner();
+			CCVector3f cMax = cBox.maxCorner();
+			//take max z - min z
+			height = cMax[2] - cMin[2];
+//TESTING CODE
+//This now works! m_app->dispToConsole(std::to_string(height).c_str());
+		std::string message = std::to_string(cBox.minCorner()[2]) + " - " + std::to_string(cBox.maxCorner()[2]) + " : " + std::to_string(height) + " tot.";
+		//display default value to the user
+			heightDisplay->setText(QString::fromStdString(message));
+			topText->setText(QString::fromStdString(std::to_string(cBox.maxCorner()[2])));
+			bottomText->setText(QString::fromStdString(std::to_string(cBox.minCorner()[2])));
+			
 }
 
 void ccVolumeTool::processClouds(){
@@ -74,14 +98,33 @@ void ccVolumeTool::processClouds(){
 	Loop through selected entities and calculate the volume based on user parameters,
 	then display or save it appropriatly
 	*/
-	//PRETTY MUCH JUST TESTING CODE AT THIS POINT
 
 
 //TODO: Assumtion is that theyre all legit clouds	
 	const std::vector<ccHObject*> clouds = m_app->getSelectedEntities();
-	//get clouds bounding box
-	//lets operate on clouds
+
+	//chop up cloud based on user input
+		//get the height of the whole cloud
+
+		//display it to the user somehow
+
+		//query size of users section
+
 	volumeBetweenHeights( clouds[0], 0, 0 );
+}
+
+
+void ccVolumeTool::contourVolume(){
+
+		//get users chunk size
+
+		//calculate the size of each chunk
+
+		//calculate its volume
+
+		//report it
+//TODO: store this into some sort of sensible data structure
+
 }
 
 

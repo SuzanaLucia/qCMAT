@@ -63,6 +63,7 @@ protected slots:
 	void swap();**/
 	void testConsole();
 	void processClouds();
+	void contourVolume();
 protected:
 
 	//link to the main plugin interface
@@ -74,6 +75,7 @@ protected:
 	//bool m_isSwapped;
 private:
 
+	float height;
 	//Struct for reporting volume info
 	struct ReportInfo
 	{
