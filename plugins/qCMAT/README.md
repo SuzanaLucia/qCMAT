@@ -8,14 +8,22 @@ CloudCompare Plug-in developed by Liam O'Hanlon and Arthur-Louis Heath for the L
 
 
 ## Features
-Feature | Description
---------|---
-Feature 1 | `description`
-Feature 2 | `description`
-Feature 3 | `description`
-Feature 4 | `description`
+ Feature                        |  Description  | Status
+--------------------------------|---------------|--------
+__Volume  Calculation__         | _description_ | `WIP`
+__Edge Detection__              | _description_ | `Not Started`
+__Point Cloud Visualisation__   | _description_ | `WIP`
+__Cropping/Sub-cloud Creation__ | _description_ | `WIP`
+<!--
+Template:
+Feature| _description_ | `status`
+-->
 
 ## Installation
+<!--
+With (and without) CloudCompare
+TODO: consider script for easy plugin installtaion
+-->
 1. ...
 2. ...
 3. ...

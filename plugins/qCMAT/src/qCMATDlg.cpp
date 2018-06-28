@@ -25,7 +25,9 @@
 #include <QMainWindow>
 //include plugin features
 #include "ccVolumeTool.h"
-
+#include <ccGenericPointCloud.h>
+#include <GenericIndexedCloudPersist.h>
+#include <ccPolyline.h>
 
 qCMATDlg::qCMATDlg(QWidget* parent)
 	: QDialog(parent, Qt::Tool)
@@ -35,20 +37,42 @@ qCMATDlg::qCMATDlg(QWidget* parent)
 {
 	setupUi(this);
 
-	//store a copy of the app
+	// Store a copy of the app
 	//m_app = app
-	//Connect the cancel button
+
+	// - SIGNAL and SLOTS section. -
 	connect( cancelButton, SIGNAL(rejected()), this, SLOT(cancelButtonClicked()));
 	connect( volumePushButton,	SIGNAL(clicked()), this, SLOT( startVolumeDialog()));
-
-
 	//connect(clearPushButton,	SIGNAL(clicked()), this, SLOT(clearPointClouds()));
 	/**connect( viewPushButton,	SIGNAL(clicked()), this, SLOT( cancelButtonClicked() ));
 	connect(interPushButton,	SIGNAL(clicked()), this, SLOT(intersectSelected()));
 	connect(diffPushButton,		SIGNAL(clicked()), this, SLOT(diffSelected()));
 	connect(symDiffPushButton,	SIGNAL(clicked()), this, SLOT(symDiffSelected()));
-	connect(swapToolButton,		SIGNAL(clicked()), this, SLOT(swap()));**/
-	//initPointClouds();
+	connect(swapToolButton,		SIGNAL(clicked()), this, SLOT(swap)**/
+}
+
+// Takes in a ccPointCloud and returns a ccGenericPointCloud
+ccGenericPointCloud* qCMATDlg::pointCloudToGeneric(ccPointCloud* pc)
+{
+	ccGenericPointCloud* out = pc;
+	return out;
+}
+
+// Takes in a GenericPointCloud and returns a GenericIndexedCloudPersist object
+CCLib::GenericIndexedCloudPersist* qCMATDlg::genericToIndexed(ccGenericPointCloud* gc)
+{
+	CCLib::GenericIndexedCloudPersist* out = gc;
+	return out;
+}
+
+// Creates ccPolyline object based on input ccPointCloud
+ccPolyline qCMATDlg::createPolyline(ccPointCloud* pc)
+{
+	ccPointCloud* pcTemp = pc;
+	ccGenericPointCloud* gpcTemp = pointCloudToGeneric(pcTemp);
+	CCLib::GenericIndexedCloudPersist* gicpTemp = genericToIndexed(gpcTemp);
+	ccPolyline poly = ccPolyline(gicpTemp);
+	return poly;
 }
 
 
@@ -98,6 +122,8 @@ void qCMATDlg::initPointClouds()
 	// ...and set the text boxes to display them.
 	pointCloudPath1->setText(cloud1Name);
 	pointCloudPath2->setText(cloud2Name);
+
+
 }
 
 
@@ -121,7 +147,7 @@ void qCMATDlg::printConsole(std::string inWord){
 	m_app->dispToConsole(msg, ccMainAppInterface::STD_CONSOLE_MESSAGE);
 }
 
-// Takes in std::string to print to CC console.
+// Takes in std::string to print to CC console as an error.
 void qCMATDlg::printError(std::string inWord){
 	QString msg = QString::fromStdString(inWord);
 	m_app->dispToConsole(msg, ccMainAppInterface::ERR_CONSOLE_MESSAGE);

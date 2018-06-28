@@ -20,7 +20,7 @@
 
 #include "ui_dlg.h"
 #include "ccStdPluginInterface.h"
-
+#include <GenericIndexedCloudPersist.h>
 // Dialog for qCMAT plugin
 class qCMATDlg : public QDialog, public Ui::CMATDlg
 {
@@ -28,6 +28,10 @@ class qCMATDlg : public QDialog, public Ui::CMATDlg
 
 public:
 	void printConsole();
+	ccGenericPointCloud* pointCloudToGeneric(ccPointCloud* pc);
+	CCLib::GenericIndexedCloudPersist* genericToIndexed(ccGenericPointCloud* gc);
+	ccPolyline createPolyline(ccPointCloud* pc);
+
 
 	// Default constructor
 	explicit qCMATDlg(QWidget* parent = 0);

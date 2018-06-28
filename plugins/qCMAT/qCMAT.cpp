@@ -34,32 +34,6 @@ qCMAT::qCMAT(QObject *parent)
 {
 }
 
-/**
-static ccPointClouds* GetCloudFromCombo(QComboBox* comboBox, ccHObject* ccDbRoot) {
-	assert(comboBox && ccDbRoot); // Terminate program if combo box if params are empty
-	if(!comboBox || !ccDbRoot)
-	{
-		assert(false); //Terminate
-		return 0;
-	}
-	// Else...
-	// Set i to be current index of comboBox (which point clouds have we selected?)
-	int i = comboBox->currentIndex();
-	// Ensure index counter is valid, else temrinate program.
-	if(i<0) { assert(false); return 0;}
-	// Ensure itemData is valid before...
-	assert(comboBox->itemData(i).isValid());
-	// ...casting to UINT and declaring as unique ID
-	unsigned uid = comboBox->itemData(i).toUInt();
-	ccHObject* item = ccDbRoot->find(uid);
-	// If item is empty or is not a point cloud, terminate program.
-	if(!item || !item->isA(CC_TYPES::POINT_CLOUD)) { assert(false); return 0;}
-	// Return point cloud
-	return static_cast<ccPointCloud*>(item);
-
-}
-**/
-
 /** This method should enable or disable your plugin actions
     depending on the currently selected entities ('selectedEntities').**/
 void qCMAT::onNewSelection(const ccHObject::Container &selectedEntities)
@@ -111,7 +85,7 @@ QList<QAction *> qCMAT::getActions()
  		class in ccMainAppInterface.h). **/
 void qCMAT::doAction()
 {
-	m_app->dispToConsole( "[DEBUG] Starting qCMAT", ccMainAppInterface::STD_CONSOLE_MESSAGE );
+	m_app->dispToConsole( "Starting qCMAT", ccMainAppInterface::STD_CONSOLE_MESSAGE );
 	/**if ( m_app == nullptr )
 	{
 		// m_app should have already been initialized by CC when plugin is loaded
@@ -130,7 +104,7 @@ void qCMAT::doAction()
 
 	if(m_selectedEntities.size() != 2
 		|| !m_selectedEntities[0]->isA(CC_TYPES::POINT_CLOUD)
-		|| !m_selectedEntities[0]->isA(CC_TYPES::POINT_CLOUD))
+		|| !m_selectedEntities[0]->isA(CC_TYPES::POINT_CLOUD) )
 	{
 		// If user has not input two point clouds, display error message.
 		m_app->dispToConsole("[!] Requires TWO point clouds [!]", ccMainAppInterface::ERR_CONSOLE_MESSAGE);
