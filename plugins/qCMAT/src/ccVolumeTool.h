@@ -25,6 +25,7 @@
 #include <SimpleCloud.h>
 #include <ccRasterGrid.h>
 
+#define MAX_SLICES 3
 
 
 // Dialog for qCMAT plugin
@@ -40,7 +41,12 @@ public:
 	void initializeTool(ccMainAppInterface* app);
 
 
-
+	//top and bottom of pointcloud
+	float maxTop;
+	float maxBottom;
+	// noSlices of sliceSize slices
+	float sliceSize;
+	int noSlices;
 
 	// Supported CSG operations
 	//enum CSG_OPERATION { UNION, INTERSECT, DIFF, SYM_DIFF };
@@ -120,7 +126,8 @@ private:
 										double groundHeight = std::numeric_limits<double>::quiet_NaN(),
 										double ceilHeight = std::numeric_limits<double>::quiet_NaN(),
 										QWidget* parentWidget = 0);
-
+	//data structure to save [Volume][Bottom][Top] of slices
+	float sliceInfo[MAX_SLICES][3];
 };
 
 #endif //CC_VOLUME_TOOL_H

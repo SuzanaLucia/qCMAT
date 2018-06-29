@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>400</width>
-    <height>515</height>
+    <height>440</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,7 +17,7 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>460</y>
+     <y>390</y>
      <width>91</width>
      <height>41</height>
     </rect>
@@ -30,7 +30,7 @@
    <property name="geometry">
     <rect>
      <x>110</x>
-     <y>460</y>
+     <y>390</y>
      <width>91</width>
      <height>41</height>
     </rect>
@@ -112,7 +112,7 @@
      <x>10</x>
      <y>140</y>
      <width>381</width>
-     <height>181</height>
+     <height>121</height>
     </rect>
    </property>
    <property name="frameShape">
@@ -124,8 +124,8 @@
    <widget class="QPushButton" name="CalcVolButton">
     <property name="geometry">
      <rect>
-      <x>250</x>
-      <y>120</y>
+      <x>240</x>
+      <y>90</y>
       <width>121</width>
       <height>21</height>
      </rect>
@@ -134,33 +134,10 @@
      <string>Calculate Volumes</string>
     </property>
    </widget>
-   <widget class="QSlider" name="horizontalSlider">
+   <widget class="QLineEdit" name="bottomInput">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>70</y>
-      <width>160</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="topText">
-    <property name="geometry">
-     <rect>
-      <x>290</x>
-      <y>62</y>
-      <width>81</width>
-      <height>21</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="bottomText">
-    <property name="geometry">
-     <rect>
-      <x>290</x>
+      <x>100</x>
       <y>90</y>
       <width>81</width>
       <height>23</height>
@@ -170,7 +147,7 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>250</x>
+      <x>50</x>
       <y>70</y>
       <width>31</width>
       <height>16</height>
@@ -183,7 +160,7 @@
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>230</x>
+      <x>30</x>
       <y>90</y>
       <width>59</width>
       <height>15</height>
@@ -196,14 +173,14 @@
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>50</y>
-      <width>59</width>
+      <x>210</x>
+      <y>60</y>
+      <width>71</width>
       <height>21</height>
      </rect>
     </property>
     <property name="text">
-     <string>Interval:</string>
+     <string>No. slices:</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_6">
@@ -245,12 +222,32 @@
      <bool>true</bool>
     </property>
    </widget>
+   <widget class="QLineEdit" name="topInput">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>60</y>
+      <width>81</width>
+      <height>23</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="noSliceInput">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>60</y>
+      <width>81</width>
+      <height>23</height>
+     </rect>
+    </property>
+   </widget>
   </widget>
   <widget class="QFrame" name="frame_3">
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>330</y>
+     <y>270</y>
      <width>381</width>
      <height>111</height>
     </rect>

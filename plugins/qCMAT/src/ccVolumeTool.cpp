@@ -19,7 +19,7 @@
 #include "ccVolumeTool.h"
 #include "ccHObject.h"
 #include "SimpleCloud.h"
-
+#include "ui_ccVolumeTool.h"
 
 
 #include <cstdlib>
@@ -88,8 +88,8 @@ void ccVolumeTool::initializeTool(ccMainAppInterface* app)
 		std::string message = std::to_string(cBox.minCorner()[2]) + " - " + std::to_string(cBox.maxCorner()[2]) + " : " + std::to_string(height) + " tot.";
 		//display default value to the user
 			heightDisplay->setText(QString::fromStdString(message));
-			topText->setText(QString::fromStdString(std::to_string(cBox.maxCorner()[2])));
-			bottomText->setText(QString::fromStdString(std::to_string(cBox.minCorner()[2])));
+			topInput->setText(QString::fromStdString(std::to_string(cBox.maxCorner()[2])));
+			bottomInput->setText(QString::fromStdString(std::to_string(cBox.minCorner()[2])));
 			
 }
 
@@ -115,14 +115,30 @@ void ccVolumeTool::processClouds(){
 
 
 void ccVolumeTool::contourVolume(){
-
 		//get users chunk size
-
+		float userBottom = maxBottom;
+		float userTop = maxTop;
+		userBottom = bottomInput->text().toFloat() + 0.01;  //Need to add small amount for float accuracy
+		userTop = topInput->text().toFloat() - 0.01;       
+		//get number of slices
+		noSlices = noSliceInput->text().toFloat();
+		//make sure its legit
+		//if(userTop > maxTop || userBottom < maxBottom){
+		//	m_app->dispToConsole("Error, chosen contrours not in cloud!");
+		//	return;
+		//}
 		//calculate the size of each chunk
+		sliceSize = height / noSlices;
 
-		//calculate its volume
+		//for each slice
+		for(int i = 0; i < noSlices; i++){
+			//save top and bottom
+			sliceInfo[i][1] = userBottom + i * sliceSize;		//Bottom of slice
+			sliceInfo[i][2] = userBottom + (i + 1) * sliceSize;	//Top of slice
+			//calculate its volume
 
-		//report it
+			//report and save it
+		}
 //TODO: store this into some sort of sensible data structure
 
 }
