@@ -73,17 +73,18 @@ ccVolumeTool::ccVolumeTool(QWidget* parent)
 void readContours(){
 	//read contours from a file and calculate those volumes
 }
-
+/**
 void loadCSVcontours(){
 		QString fileName = QFileDialog::getSaveFileName(this,
-        tr("Save contours"), "",
-        tr("Save contours(*.csv);;All Files (*)"));
-}
+        tr("Save contours"),
+				 "",
+        tr("Save contours(*.csv);;All Files (*)") );
+}**/
 
 
 
 
-void ccVolumeTool::saveVolume(){ 
+void ccVolumeTool::saveVolume(){
 		//RELIES ON: float volumes[][3], int noSlices
 		//Save the volumes into a file
 
@@ -149,7 +150,7 @@ void ccVolumeTool::initializeTool(ccMainAppInterface* app)
 			heightDisplay->setText(QString::fromStdString(message));
 			topInput->setText(QString::fromStdString(std::to_string(cBox.maxCorner()[2])));
 			bottomInput->setText(QString::fromStdString(std::to_string(cBox.minCorner()[2])));
-			
+
 }
 
 
@@ -172,7 +173,7 @@ void ccVolumeTool::processClouds(){
 	then display or save it appropriatly
 	*/
 
-//TODO: Assumtion is that theyre all legit clouds	
+//TODO: Assumtion is that theyre all legit clouds
 	const std::vector<ccHObject*> clouds = m_app->getSelectedEntities();
 //TODO: Add code for handling multiple clouds
 	mainCloud = clouds[0];
@@ -200,7 +201,7 @@ void ccVolumeTool::contourVolume(){
 		userBottom = maxBottom;
 		userTop = maxTop;
 		userBottom = bottomInput->text().toFloat() + 0.01;  //Need to add small amount for float accuracy
-		userTop = topInput->text().toFloat() - 0.01;       
+		userTop = topInput->text().toFloat() - 0.01;
 		//get number of slices
 		noSlices = noSliceInput->text().toFloat();
 		//make sure its legit
@@ -234,7 +235,7 @@ void ccVolumeTool::contourVolume(){
 
 ccPointCloud* ccVolumeTool::normalizeCloud(ccPointCloud* cloud, int bottom, int top){
 	//remember to pass this method a memeber
-	//forEach(genericPointAction &  anAction)	
+	//forEach(genericPointAction &  anAction)
 	//cloud->forEach( ccVolumeTool::contourPoints );
 	ccPointCloud* tempCloud = new ccPointCloud();
 	//copy all points, but wait! normalize where z isnt within the slice boundries
@@ -253,7 +254,7 @@ ccPointCloud* ccVolumeTool::normalizeCloud(ccPointCloud* cloud, int bottom, int 
 		}
 		//add it to the new cloud
 //TODO make + - bottom more elegant
-		//remove bottom of cloud from z coord 
+		//remove bottom of cloud from z coord
 		tempVect[2] -= bottom;
 		tempCloud->addPoint(tempVect);
 	}
@@ -460,7 +461,7 @@ float ccVolumeTool::ComputeVolume(	ccRasterGrid& grid,
 			QCoreApplication::processEvents();
 		}
 		CCLib::NormalizedProgress nProgress(pDlg.data(), grid.width * grid.height);
-		
+
 		size_t ceilNonMatchingCount = 0;
 		size_t groundNonMatchingCount = 0;
 		size_t cellCount = 0;
@@ -586,4 +587,3 @@ float ccVolumeTool::ComputeVolume(	ccRasterGrid& grid,
 
 	return reportInfo.volume;
 }
-
