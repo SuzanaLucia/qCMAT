@@ -70,6 +70,19 @@ ccVolumeTool::ccVolumeTool(QWidget* parent)
 	connect(swapToolButton,		SIGNAL(clicked()), this, SLOT(swap()));**/
 }
 
+void readContours(){
+	//read contours from a file and calculate those volumes
+}
+
+void loadCSVcontours(){
+		QString fileName = QFileDialog::getSaveFileName(this,
+        tr("Save contours"), "",
+        tr("Save contours(*.csv);;All Files (*)"));
+}
+
+
+
+
 void ccVolumeTool::saveVolume(){ 
 		//RELIES ON: float volumes[][3], int noSlices
 		//Save the volumes into a file
@@ -99,7 +112,6 @@ void ccVolumeTool::saveVolume(){
   		volsFile.close();
   		m_app->dispToConsole(QString::fromStdString("Saved file: " + fileName.toStdString() + ".csv"));
 }
-
 
 void ccVolumeTool::testConsole(){
 	m_app->dispToConsole("Hi there from testConsole()!");

@@ -89,6 +89,7 @@ protected slots:
 	//declaration for display volume
 	void displayVolmes();
 	void saveVolume();
+	void readContours();
 protected:
 
 	//link to the main plugin interface
