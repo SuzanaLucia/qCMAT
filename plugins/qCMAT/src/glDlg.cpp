@@ -86,7 +86,7 @@ void glDlg::setup()
 	ccPickingHub* justPointer = &ampersans; // Type: pointer ccPickingHub
 	/**ccGLWindow* win = m_app->getActiveGLWindow();
 
-	printConsole("fck off");
+	
 
 	std::vector<ccHObject*> clouds = m_app->getSelectedEntities();
 	// Declare the two point clouds to operate on

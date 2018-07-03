@@ -73,13 +73,12 @@ ccVolumeTool::ccVolumeTool(QWidget* parent)
 void readContours(){
 	//read contours from a file and calculate those volumes
 }
-/**
+
 void loadCSVcontours(){
-		QString fileName = QFileDialog::getSaveFileName(this,
-        tr("Save contours"),
-				 "",
-        tr("Save contours(*.csv);;All Files (*)") );
-}**/
+	/**	QString fileName = QFileDialog::getSaveFileName(this,
+        tr("Save contours"), "",
+        tr("Save contours(*.csv);;All Files (*)"));**/
+}
 
 
 
