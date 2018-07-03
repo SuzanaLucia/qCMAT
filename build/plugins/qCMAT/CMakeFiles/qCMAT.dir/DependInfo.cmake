@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qCMAT_autogen/mocs_compilation.cpp" "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o"
   "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qrc_qCMAT.cpp" "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/CMakeFiles/qCMAT.dir/qrc_qCMAT.cpp.o"
   "/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccVolumeTool.cpp" "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o"
+  "/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displayVolume.cpp" "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displayVolume.cpp.o"
   "/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/qCMATDlg.cpp" "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

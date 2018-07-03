@@ -18,6 +18,7 @@
 #ifndef CC_VOLUME_TOOL_H
 #define CC_VOLUME_TOOL_H
 
+#include "displayVolume.h"
 #include "ui_ccVolumeTool.h"
 #include "ccStdPluginInterface.h"
 //"no matching call for main window" bug
@@ -33,7 +34,7 @@
 #include <SimpleCloud.h>
 #include <GenericCloud.h>
 
-#define MAX_SLICES 3
+#define MAX_SLICES 100
 
 
 // Dialog for qCMAT plugin
@@ -55,7 +56,7 @@ public:
 	float maxBottom;
 	// noSlices of sliceSize slices
 	float sliceSize;
-	int noSlices;
+	int noSlices = 0;
 	//selected stuff
 	float userTop;
 	float userBottom;
@@ -85,6 +86,9 @@ protected slots:
 	void testConsole();
 	void processClouds();
 	void contourVolume();
+	//declaration for display volume
+	void displayVolmes();
+	void saveVolume();
 protected:
 
 	//link to the main plugin interface
@@ -126,7 +130,7 @@ private:
 	//calculates volume of beach between top and bottom
 	float volumeBetweenHeights(int, int, ccPointCloud*);
 	//get clouds to operate on, calculate based on user input
-	bool ComputeVolume(	ccRasterGrid&,
+	float ComputeVolume(	ccRasterGrid&,
 										ccGenericPointCloud*,
 										ccGenericPointCloud*,
 										const ccBBox&,
@@ -146,7 +150,6 @@ private:
 	//crop a point cloud
 	//ccHObject* Crop(ccHObject* entity, const ccBBox& box, bool inside/*=true*/, const ccGLMatrix* meshRotation/*=0*/);
 	ccPointCloud* normalizeCloud(ccPointCloud* cloud, int bottom, int top);
-
 	//void contourPoints(const CCVector3 &, ScalarType &);
 
 };

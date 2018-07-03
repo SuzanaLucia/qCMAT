@@ -10,15 +10,15 @@ set(AM_CMAKE_INCLUDE_DIRECTORIES_PROJECT_BEFORE "")
 set(AM_BUILD_DIR "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qCMAT_autogen")
 set(AM_INCLUDE_DIR "include")
 # Files
-set(AM_SOURCES "/home/chrome/work/CloudCompare/qCMAT/plugins/ccDefaultPluginInterface.cpp;/home/chrome/work/CloudCompare/qCMAT/plugins/ccStdPluginInterface.cpp;/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/qCMAT.cpp;/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccVolumeTool.cpp;/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/qCMATDlg.cpp")
-set(AM_HEADERS "/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/qCMAT.h;/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccVolumeTool.h;/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/qCMATDlg.h")
+set(AM_SOURCES "/home/chrome/work/CloudCompare/qCMAT/plugins/ccDefaultPluginInterface.cpp;/home/chrome/work/CloudCompare/qCMAT/plugins/ccStdPluginInterface.cpp;/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/qCMAT.cpp;/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccVolumeTool.cpp;/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displayVolume.cpp;/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/qCMATDlg.cpp")
+set(AM_HEADERS "/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/qCMAT.h;/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccVolumeTool.h;/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displayVolume.h;/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/qCMATDlg.h")
 set(AM_SETTINGS_FILE "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/CMakeFiles/qCMAT_autogen.dir/AutogenOldSettings.txt")
 # Qt
 set(AM_QT_VERSION_MAJOR "5")
 set(AM_QT_MOC_EXECUTABLE "/usr/bin/moc")
 set(AM_QT_UIC_EXECUTABLE "")
 # MOC settings
-set(AM_MOC_SKIP "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qCMAT_autogen/mocs_compilation.cpp;/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qrc_qCMAT.cpp;/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/ui_ccVolumeTool.h;/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/ui_dlg.h")
+set(AM_MOC_SKIP "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qCMAT_autogen/mocs_compilation.cpp;/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qrc_qCMAT.cpp;/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/ui_ccVolumeTool.h;/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/ui_displayVolume.h;/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/ui_dlg.h")
 set(AM_MOC_DEFINITIONS "QT_CONCURRENT_LIB;QT_CORE_LIB;QT_GUI_LIB;QT_NO_DEBUG;QT_OPENGLEXTENSIONS_LIB;QT_OPENGL_LIB;QT_USE_QSTRINGBUILDER;QT_WIDGETS_LIB")
 set(AM_MOC_INCLUDES "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT;/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT;/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qCMAT_autogen/include;/usr/include/qt;/usr/include/qt/QtOpenGL;/usr/include/qt/QtWidgets;/usr/include/qt/QtGui;/usr/include/qt/QtCore;/usr/lib/qt/mkspecs/linux-g++;/usr/include/qt/QtConcurrent;/usr/include/qt/QtPrintSupport;/home/chrome/work/CloudCompare/qCMAT/plugins;/home/chrome/work/CloudCompare/qCMAT/CC/include;/home/chrome/work/CloudCompare/qCMAT/libs/CCFbo/include;/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io;/home/chrome/work/CloudCompare/qCMAT/libs/qCC_db;/home/chrome/work/CloudCompare/qCMAT/libs/qCC_glWindow;/usr/include/qt/QtOpenGLExtensions;/usr/include")
 set(AM_MOC_OPTIONS "")

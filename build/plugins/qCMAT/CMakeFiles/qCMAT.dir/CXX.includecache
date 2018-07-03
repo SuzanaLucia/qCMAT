@@ -560,6 +560,14 @@ QtCore/qbytearray.h
 QtCore/qmetatype.h
 -
 
+/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qCMAT_autogen/UVLADIE3JM/moc_displayVolume.cpp
+../../../../../plugins/qCMAT/src/displayVolume.h
+/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displayVolume.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
 /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qCMAT_autogen/UVLADIE3JM/moc_qCMATDlg.cpp
 ../../../../../plugins/qCMAT/src/qCMATDlg.h
 /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/qCMATDlg.h
@@ -573,6 +581,8 @@ EWIEGA46WW/moc_qCMAT.cpp
 /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qCMAT_autogen/EWIEGA46WW/moc_qCMAT.cpp
 UVLADIE3JM/moc_ccVolumeTool.cpp
 /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qCMAT_autogen/UVLADIE3JM/moc_ccVolumeTool.cpp
+UVLADIE3JM/moc_displayVolume.cpp
+/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qCMAT_autogen/UVLADIE3JM/moc_displayVolume.cpp
 UVLADIE3JM/moc_qCMATDlg.cpp
 /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qCMAT_autogen/UVLADIE3JM/moc_qCMATDlg.cpp
 
@@ -657,6 +667,8 @@ ccStdPluginInterface.h
 /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/ccStdPluginInterface.h
 
 /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccVolumeTool.cpp
+displayVolume.h
+/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displayVolume.h
 ccVolumeTool.h
 /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccVolumeTool.h
 ccHObject.h
@@ -665,9 +677,13 @@ SimpleCloud.h
 /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/SimpleCloud.h
 ui_ccVolumeTool.h
 /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ui_ccVolumeTool.h
+iomanip
+-
 cstdlib
 -
 iostream
+-
+fstream
 -
 vector
 -
@@ -693,8 +709,12 @@ QLineEdit
 -
 QSurfaceFormat
 -
+QFileDialog
+-
 
 /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccVolumeTool.h
+displayVolume.h
+/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displayVolume.h
 ui_ccVolumeTool.h
 /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ui_ccVolumeTool.h
 ccStdPluginInterface.h
@@ -716,6 +736,26 @@ ccScalarField.h
 SimpleCloud.h
 -
 GenericCloud.h
+-
+
+/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displayVolume.cpp
+displayVolume.h
+/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displayVolume.h
+ui_displayVolume.h
+/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ui_displayVolume.h
+string
+-
+QString
+-
+
+/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displayVolume.h
+ui_displayVolume.h
+/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ui_displayVolume.h
+QDialog
+-
+QMainWindow
+-
+QLineEdit
 -
 
 /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/qCMATDlg.cpp
@@ -4194,6 +4234,10 @@ qdialog.h
 qdialogbuttonbox.h
 /usr/include/qt/QtWidgets/qdialogbuttonbox.h
 
+/usr/include/qt/QtWidgets/QFileDialog
+qfiledialog.h
+/usr/include/qt/QtWidgets/qfiledialog.h
+
 /usr/include/qt/QtWidgets/QFrame
 qframe.h
 /usr/include/qt/QtWidgets/qframe.h
@@ -4233,6 +4277,10 @@ qprogressdialog.h
 /usr/include/qt/QtWidgets/QPushButton
 qpushbutton.h
 /usr/include/qt/QtWidgets/qpushbutton.h
+
+/usr/include/qt/QtWidgets/QTextEdit
+qtextedit.h
+/usr/include/qt/QtWidgets/qtextedit.h
 
 /usr/include/qt/QtWidgets/QVBoxLayout
 qboxlayout.h
@@ -4364,6 +4412,18 @@ QtWidgets/qwidget.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
+-
+
+/usr/include/qt/QtWidgets/qfiledialog.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtCore/qdir.h
+-
+QtCore/qstring.h
+-
+QtCore/qurl.h
+-
+QtWidgets/qdialog.h
 -
 
 /usr/include/qt/QtWidgets/qframe.h
@@ -4552,6 +4612,20 @@ QtWidgets/qwidget.h
 QtGui/qicon.h
 -
 
+/usr/include/qt/QtWidgets/qtextedit.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qabstractscrollarea.h
+-
+QtGui/qtextdocument.h
+-
+QtGui/qtextoption.h
+-
+QtGui/qtextcursor.h
+-
+QtGui/qtextformat.h
+-
+
 /usr/include/qt/QtWidgets/qtwidgets-config.h
 
 /usr/include/qt/QtWidgets/qtwidgetsglobal.h
@@ -4612,6 +4686,28 @@ QtWidgets/QLabel
 QtWidgets/QLineEdit
 -
 QtWidgets/QPushButton
+-
+
+plugins/qCMAT/ui_displayVolume.h
+QtCore/QVariant
+-
+QtWidgets/QAction
+-
+QtWidgets/QApplication
+-
+QtWidgets/QButtonGroup
+-
+QtWidgets/QDialog
+-
+QtWidgets/QFrame
+-
+QtWidgets/QHeaderView
+-
+QtWidgets/QLabel
+-
+QtWidgets/QPushButton
+-
+QtWidgets/QTextEdit
 -
 
 plugins/qCMAT/ui_dlg.h

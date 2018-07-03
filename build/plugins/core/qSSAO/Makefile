@@ -68,6 +68,40 @@ install/strip/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
@@ -89,40 +123,6 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
-
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
-
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
-
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -156,198 +156,6 @@ depend:
 	cd /home/chrome/work/CloudCompare/qCMAT/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-# Convenience name for target.
-plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN.dir/rule:
-	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN.dir/rule
-.PHONY : plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN.dir/rule
-
-# Convenience name for target.
-QSSAO_PLUGIN: plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN.dir/rule
-
-.PHONY : QSSAO_PLUGIN
-
-# fast build rule for target.
-QSSAO_PLUGIN/fast:
-	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN.dir/build.make plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN.dir/build
-.PHONY : QSSAO_PLUGIN/fast
-
-# Convenience name for target.
-plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN_autogen.dir/rule:
-	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN_autogen.dir/rule
-.PHONY : plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN_autogen.dir/rule
-
-# Convenience name for target.
-QSSAO_PLUGIN_autogen: plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN_autogen.dir/rule
-
-.PHONY : QSSAO_PLUGIN_autogen
-
-# fast build rule for target.
-QSSAO_PLUGIN_autogen/fast:
-	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN_autogen.dir/build.make plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN_autogen.dir/build
-.PHONY : QSSAO_PLUGIN_autogen/fast
-
-QSSAO_PLUGIN_autogen/mocs_compilation.o: QSSAO_PLUGIN_autogen/mocs_compilation.cpp.o
-
-.PHONY : QSSAO_PLUGIN_autogen/mocs_compilation.o
-
-# target to build an object file
-QSSAO_PLUGIN_autogen/mocs_compilation.cpp.o:
-	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN.dir/build.make plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN.dir/QSSAO_PLUGIN_autogen/mocs_compilation.cpp.o
-.PHONY : QSSAO_PLUGIN_autogen/mocs_compilation.cpp.o
-
-QSSAO_PLUGIN_autogen/mocs_compilation.i: QSSAO_PLUGIN_autogen/mocs_compilation.cpp.i
-
-.PHONY : QSSAO_PLUGIN_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-QSSAO_PLUGIN_autogen/mocs_compilation.cpp.i:
-	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN.dir/build.make plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN.dir/QSSAO_PLUGIN_autogen/mocs_compilation.cpp.i
-.PHONY : QSSAO_PLUGIN_autogen/mocs_compilation.cpp.i
-
-QSSAO_PLUGIN_autogen/mocs_compilation.s: QSSAO_PLUGIN_autogen/mocs_compilation.cpp.s
-
-.PHONY : QSSAO_PLUGIN_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-QSSAO_PLUGIN_autogen/mocs_compilation.cpp.s:
-	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN.dir/build.make plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN.dir/QSSAO_PLUGIN_autogen/mocs_compilation.cpp.s
-.PHONY : QSSAO_PLUGIN_autogen/mocs_compilation.cpp.s
-
-__/__/ccDefaultPluginInterface.o: __/__/ccDefaultPluginInterface.cpp.o
-
-.PHONY : __/__/ccDefaultPluginInterface.o
-
-# target to build an object file
-__/__/ccDefaultPluginInterface.cpp.o:
-	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN.dir/build.make plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN.dir/__/__/ccDefaultPluginInterface.cpp.o
-.PHONY : __/__/ccDefaultPluginInterface.cpp.o
-
-__/__/ccDefaultPluginInterface.i: __/__/ccDefaultPluginInterface.cpp.i
-
-.PHONY : __/__/ccDefaultPluginInterface.i
-
-# target to preprocess a source file
-__/__/ccDefaultPluginInterface.cpp.i:
-	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN.dir/build.make plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN.dir/__/__/ccDefaultPluginInterface.cpp.i
-.PHONY : __/__/ccDefaultPluginInterface.cpp.i
-
-__/__/ccDefaultPluginInterface.s: __/__/ccDefaultPluginInterface.cpp.s
-
-.PHONY : __/__/ccDefaultPluginInterface.s
-
-# target to generate assembly for a file
-__/__/ccDefaultPluginInterface.cpp.s:
-	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN.dir/build.make plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN.dir/__/__/ccDefaultPluginInterface.cpp.s
-.PHONY : __/__/ccDefaultPluginInterface.cpp.s
-
-__/__/ccStdPluginInterface.o: __/__/ccStdPluginInterface.cpp.o
-
-.PHONY : __/__/ccStdPluginInterface.o
-
-# target to build an object file
-__/__/ccStdPluginInterface.cpp.o:
-	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN.dir/build.make plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN.dir/__/__/ccStdPluginInterface.cpp.o
-.PHONY : __/__/ccStdPluginInterface.cpp.o
-
-__/__/ccStdPluginInterface.i: __/__/ccStdPluginInterface.cpp.i
-
-.PHONY : __/__/ccStdPluginInterface.i
-
-# target to preprocess a source file
-__/__/ccStdPluginInterface.cpp.i:
-	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN.dir/build.make plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN.dir/__/__/ccStdPluginInterface.cpp.i
-.PHONY : __/__/ccStdPluginInterface.cpp.i
-
-__/__/ccStdPluginInterface.s: __/__/ccStdPluginInterface.cpp.s
-
-.PHONY : __/__/ccStdPluginInterface.s
-
-# target to generate assembly for a file
-__/__/ccStdPluginInterface.cpp.s:
-	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN.dir/build.make plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN.dir/__/__/ccStdPluginInterface.cpp.s
-.PHONY : __/__/ccStdPluginInterface.cpp.s
-
-ccSSAOFilter.o: ccSSAOFilter.cpp.o
-
-.PHONY : ccSSAOFilter.o
-
-# target to build an object file
-ccSSAOFilter.cpp.o:
-	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN.dir/build.make plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN.dir/ccSSAOFilter.cpp.o
-.PHONY : ccSSAOFilter.cpp.o
-
-ccSSAOFilter.i: ccSSAOFilter.cpp.i
-
-.PHONY : ccSSAOFilter.i
-
-# target to preprocess a source file
-ccSSAOFilter.cpp.i:
-	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN.dir/build.make plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN.dir/ccSSAOFilter.cpp.i
-.PHONY : ccSSAOFilter.cpp.i
-
-ccSSAOFilter.s: ccSSAOFilter.cpp.s
-
-.PHONY : ccSSAOFilter.s
-
-# target to generate assembly for a file
-ccSSAOFilter.cpp.s:
-	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN.dir/build.make plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN.dir/ccSSAOFilter.cpp.s
-.PHONY : ccSSAOFilter.cpp.s
-
-qSSAO.o: qSSAO.cpp.o
-
-.PHONY : qSSAO.o
-
-# target to build an object file
-qSSAO.cpp.o:
-	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN.dir/build.make plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN.dir/qSSAO.cpp.o
-.PHONY : qSSAO.cpp.o
-
-qSSAO.i: qSSAO.cpp.i
-
-.PHONY : qSSAO.i
-
-# target to preprocess a source file
-qSSAO.cpp.i:
-	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN.dir/build.make plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN.dir/qSSAO.cpp.i
-.PHONY : qSSAO.cpp.i
-
-qSSAO.s: qSSAO.cpp.s
-
-.PHONY : qSSAO.s
-
-# target to generate assembly for a file
-qSSAO.cpp.s:
-	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN.dir/build.make plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN.dir/qSSAO.cpp.s
-.PHONY : qSSAO.cpp.s
-
-qrc_qSSAO.o: qrc_qSSAO.cpp.o
-
-.PHONY : qrc_qSSAO.o
-
-# target to build an object file
-qrc_qSSAO.cpp.o:
-	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN.dir/build.make plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN.dir/qrc_qSSAO.cpp.o
-.PHONY : qrc_qSSAO.cpp.o
-
-qrc_qSSAO.i: qrc_qSSAO.cpp.i
-
-.PHONY : qrc_qSSAO.i
-
-# target to preprocess a source file
-qrc_qSSAO.cpp.i:
-	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN.dir/build.make plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN.dir/qrc_qSSAO.cpp.i
-.PHONY : qrc_qSSAO.cpp.i
-
-qrc_qSSAO.s: qrc_qSSAO.cpp.s
-
-.PHONY : qrc_qSSAO.s
-
-# target to generate assembly for a file
-qrc_qSSAO.cpp.s:
-	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN.dir/build.make plugins/core/qSSAO/CMakeFiles/QSSAO_PLUGIN.dir/qrc_qSSAO.cpp.s
-.PHONY : qrc_qSSAO.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -355,31 +163,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/strip"
-	@echo "... edit_cache"
-	@echo "... QSSAO_PLUGIN"
-	@echo "... rebuild_cache"
-	@echo "... list_install_components"
-	@echo "... install/local"
 	@echo "... install"
-	@echo "... QSSAO_PLUGIN_autogen"
-	@echo "... QSSAO_PLUGIN_autogen/mocs_compilation.o"
-	@echo "... QSSAO_PLUGIN_autogen/mocs_compilation.i"
-	@echo "... QSSAO_PLUGIN_autogen/mocs_compilation.s"
-	@echo "... __/__/ccDefaultPluginInterface.o"
-	@echo "... __/__/ccDefaultPluginInterface.i"
-	@echo "... __/__/ccDefaultPluginInterface.s"
-	@echo "... __/__/ccStdPluginInterface.o"
-	@echo "... __/__/ccStdPluginInterface.i"
-	@echo "... __/__/ccStdPluginInterface.s"
-	@echo "... ccSSAOFilter.o"
-	@echo "... ccSSAOFilter.i"
-	@echo "... ccSSAOFilter.s"
-	@echo "... qSSAO.o"
-	@echo "... qSSAO.i"
-	@echo "... qSSAO.s"
-	@echo "... qrc_qSSAO.o"
-	@echo "... qrc_qSSAO.i"
-	@echo "... qrc_qSSAO.s"
+	@echo "... install/local"
+	@echo "... list_install_components"
+	@echo "... edit_cache"
+	@echo "... rebuild_cache"
 .PHONY : help
 
 

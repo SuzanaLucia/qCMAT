@@ -785,10 +785,12 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o
  ../plugins/ccStdPluginInterface.h
  /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qCMAT_autogen/EWIEGA46WW/moc_qCMAT.cpp
  /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qCMAT_autogen/UVLADIE3JM/moc_ccVolumeTool.cpp
+ /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qCMAT_autogen/UVLADIE3JM/moc_displayVolume.cpp
  /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qCMAT_autogen/UVLADIE3JM/moc_qCMATDlg.cpp
  /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qCMAT_autogen/mocs_compilation.cpp
  /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/qCMAT.h
  /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccVolumeTool.h
+ /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displayVolume.h
  /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/qCMATDlg.h
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QFile
@@ -922,6 +924,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o
  /usr/include/qt/QtGui/qrgba64.h
  /usr/include/qt/QtGui/qsurfaceformat.h
  /usr/include/qt/QtGui/qtextcursor.h
+ /usr/include/qt/QtGui/qtextdocument.h
  /usr/include/qt/QtGui/qtextformat.h
  /usr/include/qt/QtGui/qtextoption.h
  /usr/include/qt/QtGui/qtgui-config.h
@@ -950,6 +953,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o
  /usr/include/qt/QtWidgets/QLineEdit
  /usr/include/qt/QtWidgets/QMainWindow
  /usr/include/qt/QtWidgets/QPushButton
+ /usr/include/qt/QtWidgets/QTextEdit
  /usr/include/qt/QtWidgets/QVBoxLayout
  /usr/include/qt/QtWidgets/QWidget
  /usr/include/qt/QtWidgets/qabstractbutton.h
@@ -982,10 +986,12 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o
  /usr/include/qt/QtWidgets/qstyleoption.h
  /usr/include/qt/QtWidgets/qtabbar.h
  /usr/include/qt/QtWidgets/qtabwidget.h
+ /usr/include/qt/QtWidgets/qtextedit.h
  /usr/include/qt/QtWidgets/qtwidgets-config.h
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h
  /usr/include/qt/QtWidgets/qwidget.h
  plugins/qCMAT/ui_ccVolumeTool.h
+ plugins/qCMAT/ui_displayVolume.h
  plugins/qCMAT/ui_dlg.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/qrc_qCMAT.cpp.o
  /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qrc_qCMAT.cpp
@@ -1061,6 +1067,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o
  ../plugins/ccStdPluginInterface.h
  /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccVolumeTool.cpp
  /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccVolumeTool.h
+ /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displayVolume.h
  /usr/include/qt/QtCore/QAtomicInt
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QElapsedTimer
@@ -1098,10 +1105,12 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o
  /usr/include/qt/QtCore/qcoreevent.h
  /usr/include/qt/QtCore/qdatastream.h
  /usr/include/qt/QtCore/qdebug.h
+ /usr/include/qt/QtCore/qdir.h
  /usr/include/qt/QtCore/qelapsedtimer.h
  /usr/include/qt/QtCore/qeventloop.h
  /usr/include/qt/QtCore/qfile.h
  /usr/include/qt/QtCore/qfiledevice.h
+ /usr/include/qt/QtCore/qfileinfo.h
  /usr/include/qt/QtCore/qflags.h
  /usr/include/qt/QtCore/qgenericatomic.h
  /usr/include/qt/QtCore/qglobal.h
@@ -1202,6 +1211,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o
  /usr/include/qt/QtGui/qsurface.h
  /usr/include/qt/QtGui/qsurfaceformat.h
  /usr/include/qt/QtGui/qtextcursor.h
+ /usr/include/qt/QtGui/qtextdocument.h
  /usr/include/qt/QtGui/qtextformat.h
  /usr/include/qt/QtGui/qtextoption.h
  /usr/include/qt/QtGui/qtgui-config.h
@@ -1225,6 +1235,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o
  /usr/include/qt/QtWidgets/QApplication
  /usr/include/qt/QtWidgets/QButtonGroup
  /usr/include/qt/QtWidgets/QDialog
+ /usr/include/qt/QtWidgets/QFileDialog
  /usr/include/qt/QtWidgets/QFrame
  /usr/include/qt/QtWidgets/QHBoxLayout
  /usr/include/qt/QtWidgets/QHeaderView
@@ -1235,6 +1246,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o
  /usr/include/qt/QtWidgets/QOpenGLWidget
  /usr/include/qt/QtWidgets/QProgressDialog
  /usr/include/qt/QtWidgets/QPushButton
+ /usr/include/qt/QtWidgets/QTextEdit
  /usr/include/qt/QtWidgets/QWidget
  /usr/include/qt/QtWidgets/qabstractbutton.h
  /usr/include/qt/QtWidgets/qabstractitemdelegate.h
@@ -1249,6 +1261,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o
  /usr/include/qt/QtWidgets/qbuttongroup.h
  /usr/include/qt/QtWidgets/qdesktopwidget.h
  /usr/include/qt/QtWidgets/qdialog.h
+ /usr/include/qt/QtWidgets/qfiledialog.h
  /usr/include/qt/QtWidgets/qframe.h
  /usr/include/qt/QtWidgets/qgridlayout.h
  /usr/include/qt/QtWidgets/qheaderview.h
@@ -1268,10 +1281,170 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o
  /usr/include/qt/QtWidgets/qstyleoption.h
  /usr/include/qt/QtWidgets/qtabbar.h
  /usr/include/qt/QtWidgets/qtabwidget.h
+ /usr/include/qt/QtWidgets/qtextedit.h
  /usr/include/qt/QtWidgets/qtwidgets-config.h
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h
  /usr/include/qt/QtWidgets/qwidget.h
  plugins/qCMAT/ui_ccVolumeTool.h
+ plugins/qCMAT/ui_displayVolume.h
+plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displayVolume.cpp.o
+ /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displayVolume.cpp
+ /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displayVolume.h
+ /usr/include/qt/QtCore/QString
+ /usr/include/qt/QtCore/QVariant
+ /usr/include/qt/QtCore/qabstractitemmodel.h
+ /usr/include/qt/QtCore/qalgorithms.h
+ /usr/include/qt/QtCore/qarraydata.h
+ /usr/include/qt/QtCore/qatomic.h
+ /usr/include/qt/QtCore/qatomic_bootstrap.h
+ /usr/include/qt/QtCore/qatomic_cxx11.h
+ /usr/include/qt/QtCore/qatomic_msvc.h
+ /usr/include/qt/QtCore/qbasicatomic.h
+ /usr/include/qt/QtCore/qbytearray.h
+ /usr/include/qt/QtCore/qbytearraylist.h
+ /usr/include/qt/QtCore/qchar.h
+ /usr/include/qt/QtCore/qcompilerdetection.h
+ /usr/include/qt/QtCore/qconfig-bootstrapped.h
+ /usr/include/qt/QtCore/qconfig.h
+ /usr/include/qt/QtCore/qcontainerfwd.h
+ /usr/include/qt/QtCore/qcontiguouscache.h
+ /usr/include/qt/QtCore/qcoreapplication.h
+ /usr/include/qt/QtCore/qcoreevent.h
+ /usr/include/qt/QtCore/qdatastream.h
+ /usr/include/qt/QtCore/qdebug.h
+ /usr/include/qt/QtCore/qeventloop.h
+ /usr/include/qt/QtCore/qfile.h
+ /usr/include/qt/QtCore/qfiledevice.h
+ /usr/include/qt/QtCore/qflags.h
+ /usr/include/qt/QtCore/qgenericatomic.h
+ /usr/include/qt/QtCore/qglobal.h
+ /usr/include/qt/QtCore/qglobalstatic.h
+ /usr/include/qt/QtCore/qhash.h
+ /usr/include/qt/QtCore/qhashfunctions.h
+ /usr/include/qt/QtCore/qiodevice.h
+ /usr/include/qt/QtCore/qitemselectionmodel.h
+ /usr/include/qt/QtCore/qiterator.h
+ /usr/include/qt/QtCore/qline.h
+ /usr/include/qt/QtCore/qlist.h
+ /usr/include/qt/QtCore/qlocale.h
+ /usr/include/qt/QtCore/qlogging.h
+ /usr/include/qt/QtCore/qmap.h
+ /usr/include/qt/QtCore/qmargins.h
+ /usr/include/qt/QtCore/qmetatype.h
+ /usr/include/qt/QtCore/qmutex.h
+ /usr/include/qt/QtCore/qnamespace.h
+ /usr/include/qt/QtCore/qnumeric.h
+ /usr/include/qt/QtCore/qobject.h
+ /usr/include/qt/QtCore/qobject_impl.h
+ /usr/include/qt/QtCore/qobjectdefs.h
+ /usr/include/qt/QtCore/qobjectdefs_impl.h
+ /usr/include/qt/QtCore/qpair.h
+ /usr/include/qt/QtCore/qpoint.h
+ /usr/include/qt/QtCore/qprocessordetection.h
+ /usr/include/qt/QtCore/qrect.h
+ /usr/include/qt/QtCore/qrefcount.h
+ /usr/include/qt/QtCore/qregexp.h
+ /usr/include/qt/QtCore/qregularexpression.h
+ /usr/include/qt/QtCore/qscopedpointer.h
+ /usr/include/qt/QtCore/qset.h
+ /usr/include/qt/QtCore/qshareddata.h
+ /usr/include/qt/QtCore/qsharedpointer.h
+ /usr/include/qt/QtCore/qsharedpointer_impl.h
+ /usr/include/qt/QtCore/qsize.h
+ /usr/include/qt/QtCore/qstring.h
+ /usr/include/qt/QtCore/qstringalgorithms.h
+ /usr/include/qt/QtCore/qstringbuilder.h
+ /usr/include/qt/QtCore/qstringlist.h
+ /usr/include/qt/QtCore/qstringliteral.h
+ /usr/include/qt/QtCore/qstringmatcher.h
+ /usr/include/qt/QtCore/qstringview.h
+ /usr/include/qt/QtCore/qsysinfo.h
+ /usr/include/qt/QtCore/qsystemdetection.h
+ /usr/include/qt/QtCore/qtcore-config.h
+ /usr/include/qt/QtCore/qtextstream.h
+ /usr/include/qt/QtCore/qtypeinfo.h
+ /usr/include/qt/QtCore/qurl.h
+ /usr/include/qt/QtCore/qurlquery.h
+ /usr/include/qt/QtCore/qvariant.h
+ /usr/include/qt/QtCore/qvarlengtharray.h
+ /usr/include/qt/QtCore/qvector.h
+ /usr/include/qt/QtCore/qversiontagging.h
+ /usr/include/qt/QtGui/qbrush.h
+ /usr/include/qt/QtGui/qcolor.h
+ /usr/include/qt/QtGui/qcursor.h
+ /usr/include/qt/QtGui/qevent.h
+ /usr/include/qt/QtGui/qfont.h
+ /usr/include/qt/QtGui/qfontinfo.h
+ /usr/include/qt/QtGui/qfontmetrics.h
+ /usr/include/qt/QtGui/qguiapplication.h
+ /usr/include/qt/QtGui/qicon.h
+ /usr/include/qt/QtGui/qimage.h
+ /usr/include/qt/QtGui/qinputmethod.h
+ /usr/include/qt/QtGui/qkeysequence.h
+ /usr/include/qt/QtGui/qmatrix.h
+ /usr/include/qt/QtGui/qpaintdevice.h
+ /usr/include/qt/QtGui/qpainterpath.h
+ /usr/include/qt/QtGui/qpalette.h
+ /usr/include/qt/QtGui/qpen.h
+ /usr/include/qt/QtGui/qpixelformat.h
+ /usr/include/qt/QtGui/qpixmap.h
+ /usr/include/qt/QtGui/qpolygon.h
+ /usr/include/qt/QtGui/qregion.h
+ /usr/include/qt/QtGui/qrgb.h
+ /usr/include/qt/QtGui/qrgba64.h
+ /usr/include/qt/QtGui/qtextcursor.h
+ /usr/include/qt/QtGui/qtextdocument.h
+ /usr/include/qt/QtGui/qtextformat.h
+ /usr/include/qt/QtGui/qtextoption.h
+ /usr/include/qt/QtGui/qtgui-config.h
+ /usr/include/qt/QtGui/qtguiglobal.h
+ /usr/include/qt/QtGui/qtouchdevice.h
+ /usr/include/qt/QtGui/qtransform.h
+ /usr/include/qt/QtGui/qvalidator.h
+ /usr/include/qt/QtGui/qvector2d.h
+ /usr/include/qt/QtGui/qwindowdefs.h
+ /usr/include/qt/QtGui/qwindowdefs_win.h
+ /usr/include/qt/QtWidgets/QAction
+ /usr/include/qt/QtWidgets/QApplication
+ /usr/include/qt/QtWidgets/QButtonGroup
+ /usr/include/qt/QtWidgets/QDialog
+ /usr/include/qt/QtWidgets/QFrame
+ /usr/include/qt/QtWidgets/QHeaderView
+ /usr/include/qt/QtWidgets/QLabel
+ /usr/include/qt/QtWidgets/QLineEdit
+ /usr/include/qt/QtWidgets/QMainWindow
+ /usr/include/qt/QtWidgets/QPushButton
+ /usr/include/qt/QtWidgets/QTextEdit
+ /usr/include/qt/QtWidgets/qabstractbutton.h
+ /usr/include/qt/QtWidgets/qabstractitemdelegate.h
+ /usr/include/qt/QtWidgets/qabstractitemview.h
+ /usr/include/qt/QtWidgets/qabstractscrollarea.h
+ /usr/include/qt/QtWidgets/qabstractslider.h
+ /usr/include/qt/QtWidgets/qabstractspinbox.h
+ /usr/include/qt/QtWidgets/qaction.h
+ /usr/include/qt/QtWidgets/qactiongroup.h
+ /usr/include/qt/QtWidgets/qapplication.h
+ /usr/include/qt/QtWidgets/qbuttongroup.h
+ /usr/include/qt/QtWidgets/qdesktopwidget.h
+ /usr/include/qt/QtWidgets/qdialog.h
+ /usr/include/qt/QtWidgets/qframe.h
+ /usr/include/qt/QtWidgets/qheaderview.h
+ /usr/include/qt/QtWidgets/qlabel.h
+ /usr/include/qt/QtWidgets/qlineedit.h
+ /usr/include/qt/QtWidgets/qmainwindow.h
+ /usr/include/qt/QtWidgets/qpushbutton.h
+ /usr/include/qt/QtWidgets/qrubberband.h
+ /usr/include/qt/QtWidgets/qsizepolicy.h
+ /usr/include/qt/QtWidgets/qslider.h
+ /usr/include/qt/QtWidgets/qstyle.h
+ /usr/include/qt/QtWidgets/qstyleoption.h
+ /usr/include/qt/QtWidgets/qtabbar.h
+ /usr/include/qt/QtWidgets/qtabwidget.h
+ /usr/include/qt/QtWidgets/qtextedit.h
+ /usr/include/qt/QtWidgets/qtwidgets-config.h
+ /usr/include/qt/QtWidgets/qtwidgetsglobal.h
+ /usr/include/qt/QtWidgets/qwidget.h
+ plugins/qCMAT/ui_displayVolume.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o
  ../CC/include/CCConst.h
  ../CC/include/CCCoreLib.h
@@ -1339,6 +1512,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o
  ../plugins/ccStdPluginInterface.h
  /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/qCMAT.h
  /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccVolumeTool.h
+ /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displayVolume.h
  /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/qCMATDlg.cpp
  /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/qCMATDlg.h
  /usr/include/qt/QtCore/QDataStream
@@ -1686,6 +1860,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o
  /usr/include/qt/QtWidgets/QLineEdit
  /usr/include/qt/QtWidgets/QMainWindow
  /usr/include/qt/QtWidgets/QPushButton
+ /usr/include/qt/QtWidgets/QTextEdit
  /usr/include/qt/QtWidgets/QVBoxLayout
  /usr/include/qt/QtWidgets/QWidget
  /usr/include/qt/QtWidgets/qabstractbutton.h
@@ -1718,8 +1893,10 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o
  /usr/include/qt/QtWidgets/qstyleoption.h
  /usr/include/qt/QtWidgets/qtabbar.h
  /usr/include/qt/QtWidgets/qtabwidget.h
+ /usr/include/qt/QtWidgets/qtextedit.h
  /usr/include/qt/QtWidgets/qtwidgets-config.h
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h
  /usr/include/qt/QtWidgets/qwidget.h
  plugins/qCMAT/ui_ccVolumeTool.h
+ plugins/qCMAT/ui_displayVolume.h
  plugins/qCMAT/ui_dlg.h

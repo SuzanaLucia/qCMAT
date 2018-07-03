@@ -16,14 +16,17 @@
 //##########################################################################
 
 
+#include "displayVolume.h"
 #include "ccVolumeTool.h"
 #include "ccHObject.h"
 #include "SimpleCloud.h"
 #include "ui_ccVolumeTool.h"
 //#include "ccCropTool.h"
 
+#include <iomanip>
 #include <cstdlib>
 #include <iostream>
+#include <fstream>
 #include <vector>
 #include <CloudSamplingTools.h>
 #include <string>
@@ -42,6 +45,7 @@
 #include <QSettings>
 #include <QLineEdit>
 #include <QSurfaceFormat>
+#include <QFileDialog>
 //#include <genericPointAction>
 
 ccVolumeTool::ccVolumeTool(QWidget* parent)
@@ -51,10 +55,12 @@ ccVolumeTool::ccVolumeTool(QWidget* parent)
 {
 	setupUi(this);
 
-	connect( DisplayVolume,	SIGNAL(clicked()), this, SLOT( processClouds() ));
-	connect( CalcVolButton,	SIGNAL(clicked()), this, SLOT( testConsole()));
+	connect( CalcContours,	SIGNAL(clicked()), this, SLOT( contourVolume() ));
+
+	connect( DisplayVolume,	SIGNAL(clicked()), this, SLOT( displayVolmes() ));
+	//connect( CalcVolButton,	SIGNAL(clicked()), this, SLOT( testConsole()));
 	//connect( pushButton_3,	SIGNAL(clicked()), this, SLOT( testConsole()));
-	connect( saveButton,	SIGNAL(clicked()), this, SLOT( contourVolume())); //presumably save
+	connect( saveButton,	SIGNAL(clicked()), this, SLOT( saveVolume())); //presumably save
 	//connect( pushButton_1,	SIGNAL(clicked()), this, SLOT( testConsole()));
 	/**connect(unionPushButton,	SIGNAL(clicked()), this, SLOT(unionSelected()));
 	connect( viewPushButton,	SIGNAL(clicked()), this, SLOT( cancelButtonClicked() ));
@@ -63,6 +69,37 @@ ccVolumeTool::ccVolumeTool(QWidget* parent)
 	connect(symDiffPushButton,	SIGNAL(clicked()), this, SLOT(symDiffSelected()));
 	connect(swapToolButton,		SIGNAL(clicked()), this, SLOT(swap()));**/
 }
+
+void ccVolumeTool::saveVolume(){ 
+		//RELIES ON: float volumes[][3], int noSlices
+		//Save the volumes into a file
+
+		//get desired destination file
+	    QString fileName = QFileDialog::getSaveFileName(this,
+        tr("Save contours"), "",
+        tr("Save contours(*.csv);;All Files (*)"));
+
+	    if(fileName.size() == 0){
+	    	//user cancelled or didnt enter a filename
+	    	return;
+	    }
+		std::ofstream volsFile;
+  		volsFile.open((fileName.toStdString() + ".csv").c_str(), std::ios::trunc);
+  		//add header line
+  		volsFile << "[Slice no.],[Bottom],[Top],[Volume]" << std::endl;
+  		//add lines of text
+  		for(int i = 0; i < noSlices; i++){
+  			//generate the string
+  			std::string entry = std::to_string(i) + "," + std::to_string(sliceInfo[i][1]) + "," + std::to_string(sliceInfo[i][2]) + "," + std::to_string(sliceInfo[i][0]);
+  			//write string
+  			volsFile << entry << std::endl;
+  		}
+  		//clean up
+ //TODO: tons of error checking
+  		volsFile.close();
+  		m_app->dispToConsole(QString::fromStdString("Saved file: " + fileName.toStdString() + ".csv"));
+}
+
 
 void ccVolumeTool::testConsole(){
 	m_app->dispToConsole("Hi there from testConsole()!");
@@ -135,6 +172,13 @@ void ccVolumeTool::processClouds(){
 		//query size of users section
 
 	volumeBetweenHeights( 0, 0 , ccHObjectCaster::ToPointCloud(mainCloud));
+}
+
+void ccVolumeTool::displayVolmes(){
+	//open the display
+		displayVolume volt(m_app->getMainWindow(), sliceInfo, noSlices);
+		//volt.initializeTool(m_app); //don't forget to pass contours as an argument
+		volt.exec();
 }
 
 
@@ -268,11 +312,11 @@ float ccVolumeTool::volumeBetweenHeights(int bottom, int top, ccPointCloud* theC
 	//Print the computed volume
 	m_app->dispToConsole(std::to_string(result.volume).c_str());
 
-	return 0;
+	return result.volume;
 }
 
 
-bool ccVolumeTool::ComputeVolume(	ccRasterGrid& grid,
+float ccVolumeTool::ComputeVolume(	ccRasterGrid& grid,
 										ccGenericPointCloud* ground,
 										ccGenericPointCloud* ceil,
 										const ccBBox& gridBox,
@@ -295,20 +339,20 @@ bool ccVolumeTool::ComputeVolume(	ccRasterGrid& grid,
 	{
 		assert(false);
 		ccLog::Warning("[Volume] Invalid input parameters");
-		return false;
+		return -1;
 	}
 
 	if (!ground && !ceil)
 	{
 		assert(false);
 		ccLog::Warning("[Volume] No valid input cloud");
-		return false;
+		return -1;
 	}
 
 	if (!gridBox.isValid())
 	{
 		ccLog::Warning("[Volume] Invalid bounding-box");
-		return false;
+		return -1;
 	}
 
 	//grid size
@@ -316,12 +360,12 @@ bool ccVolumeTool::ComputeVolume(	ccRasterGrid& grid,
 	if (gridTotalSize == 1)
 	{
 		if (parentWidget && QMessageBox::question(parentWidget, "Unexpected grid size", "The generated grid will only have 1 cell! Do you want to proceed anyway?", QMessageBox::Yes, QMessageBox::No) == QMessageBox::No)
-			return false;
+			return -1;
 	}
 	else if (gridTotalSize > 10000000)
 	{
 		if (parentWidget && QMessageBox::question(parentWidget, "Big grid size", "The generated grid will have more than 10.000.000 cells! Do you want to proceed anyway?", QMessageBox::Yes, QMessageBox::No) == QMessageBox::No)
-			return false;
+			return -1;
 	}
 
 	//memory allocation
@@ -362,7 +406,7 @@ bool ccVolumeTool::ComputeVolume(	ccRasterGrid& grid,
 		}
 		else
 		{
-			return false;
+			return -1;
 		}
 	}
 
@@ -389,7 +433,7 @@ bool ccVolumeTool::ComputeVolume(	ccRasterGrid& grid,
 		}
 		else
 		{
-			return false;
+			return -1;
 		}
 	}
 
@@ -473,7 +517,7 @@ bool ccVolumeTool::ComputeVolume(	ccRasterGrid& grid,
 				if (pDlg && !nProgress.oneStep())
 				{
 					ccLog::Warning("[Volume] Process cancelled by the user");
-					return false;
+					return -1;
 				}
 			}
 		}
@@ -528,6 +572,6 @@ bool ccVolumeTool::ComputeVolume(	ccRasterGrid& grid,
 
 	grid.setValid(true);
 
-	return true;
+	return reportInfo.volume;
 }
 

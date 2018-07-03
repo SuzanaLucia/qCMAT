@@ -181,10 +181,10 @@ CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //If set, runtime paths are not added when installing shared libraries,
 // but are added when building.
-CMAKE_SKIP_INSTALL_RPATH:BOOL=OFF
+CMAKE_SKIP_INSTALL_RPATH:BOOL=NO
 
 //If set, runtime paths are not added when using shared libraries.
-CMAKE_SKIP_RPATH:BOOL=OFF
+CMAKE_SKIP_RPATH:BOOL=NO
 
 //Flags used by the linker during the creation of static libraries
 // during all build types.
@@ -213,7 +213,7 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 // .SILENT directive, and all commands will be echoed to the console
 // during the make.  This is useful for debugging only. With Visual
 // Studio IDE projects all commands are done without /nologo.
-CMAKE_VERBOSE_MAKEFILE:BOOL=OFF
+CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Check to compile CC_CORE_LIB as a shared library (DLL/so)
 COMPILE_CC_CORE_LIB_SHARED:BOOL=ON
@@ -266,7 +266,7 @@ INSTALL_QBROOM_PLUGIN:BOOL=OFF
 INSTALL_QCMAT:BOOL=ON
 
 //Check to install compass plugin
-INSTALL_QCOMPASS_PLUGIN:BOOL=ON
+INSTALL_QCOMPASS_PLUGIN:BOOL=OFF
 
 //Check to install qCORK plugin
 INSTALL_QCORK_PLUGIN:BOOL=OFF
@@ -299,10 +299,10 @@ INSTALL_QPCL_PLUGIN:BOOL=OFF
 INSTALL_QPCV_PLUGIN:BOOL=OFF
 
 //Check to install qPhotoscan I/O plugin
-INSTALL_QPHOTOSCAN_IO_PLUGIN:BOOL=ON
+INSTALL_QPHOTOSCAN_IO_PLUGIN:BOOL=OFF
 
 //Check to install qPoissonRecon plugin
-INSTALL_QPOISSON_RECON_PLUGIN:BOOL=ON
+INSTALL_QPOISSON_RECON_PLUGIN:BOOL=OFF
 
 //Check to install qRansac_SD (Shape Detection) plugin
 INSTALL_QRANSAC_SD_PLUGIN:BOOL=OFF
@@ -311,7 +311,7 @@ INSTALL_QRANSAC_SD_PLUGIN:BOOL=OFF
 INSTALL_QSRA_PLUGIN:BOOL=OFF
 
 //Check to install qSSAO plugin
-INSTALL_QSSAO_PLUGIN:BOOL=ON
+INSTALL_QSSAO_PLUGIN:BOOL=OFF
 
 //Check to compile CCViewer project
 OPTION_BUILD_CCVIEWER:BOOL=ON
@@ -367,9 +367,6 @@ OpenMP_gomp_LIBRARY:FILEPATH=/usr/lib/libgomp.so
 //Path to the pthread library for OpenMP
 OpenMP_pthread_LIBRARY:FILEPATH=/usr/lib/libpthread.so
 
-//Check to compile PoissonRecon plugin with OpenMP support
-POISSON_RECON_WITH_OPEN_MP:BOOL=OFF
-
 //Value Computed by CMake
 QCC_DB_LIB_BINARY_DIR:STATIC=/home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_db
 
@@ -396,60 +393,6 @@ QCC_IO_LIB_LIB_DEPENDS:STATIC=general;CC_CORE_LIB;general;CC_FBO_LIB;general;QCC
 
 //Value Computed by CMake
 QCC_IO_LIB_SOURCE_DIR:STATIC=/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io
-
-//Value Computed by CMake
-QCOMPASS_PLUGIN_BINARY_DIR:STATIC=/home/chrome/work/CloudCompare/qCMAT/build/plugins/core/qCompass
-
-//Dependencies for the target
-QCOMPASS_PLUGIN_LIB_DEPENDS:STATIC=general;CC_FBO_LIB;general;CC_CORE_LIB;general;QCC_DB_LIB;general;QCC_IO_LIB;general;QCC_GL_LIB;general;Qt5::Core;general;Qt5::Gui;general;Qt5::Widgets;general;Qt5::OpenGL;general;Qt5::Concurrent;
-
-//Value Computed by CMake
-QCOMPASS_PLUGIN_SOURCE_DIR:STATIC=/home/chrome/work/CloudCompare/qCMAT/plugins/core/qCompass
-
-//Value Computed by CMake
-QPHOTOSCAN_IO_PLUGIN_BINARY_DIR:STATIC=/home/chrome/work/CloudCompare/qCMAT/build/plugins/core/qPhotoscanIO
-
-//Dependencies for the target
-QPHOTOSCAN_IO_PLUGIN_LIB_DEPENDS:STATIC=general;CC_FBO_LIB;general;CC_CORE_LIB;general;QCC_DB_LIB;general;QCC_IO_LIB;general;QCC_GL_LIB;general;Qt5::Core;general;Qt5::Gui;general;Qt5::Widgets;general;Qt5::OpenGL;general;Qt5::Concurrent;general;/usr/lib/libz.so;general;quazip_static;
-
-//Value Computed by CMake
-QPHOTOSCAN_IO_PLUGIN_SOURCE_DIR:STATIC=/home/chrome/work/CloudCompare/qCMAT/plugins/core/qPhotoscanIO
-
-//Value Computed by CMake
-QPOISSON_RECON_LIB_BINARY_DIR:STATIC=/home/chrome/work/CloudCompare/qCMAT/build/plugins/core/qPoissonRecon/PoissonReconLib
-
-//Dependencies for target
-QPOISSON_RECON_LIB_LIB_DEPENDS:STATIC=
-
-//Value Computed by CMake
-QPOISSON_RECON_LIB_SOURCE_DIR:STATIC=/home/chrome/work/CloudCompare/qCMAT/plugins/core/qPoissonRecon/PoissonReconLib
-
-//Value Computed by CMake
-QPOISSON_RECON_PLUGIN_BINARY_DIR:STATIC=/home/chrome/work/CloudCompare/qCMAT/build/plugins/core/qPoissonRecon
-
-//Dependencies for the target
-QPOISSON_RECON_PLUGIN_LIB_DEPENDS:STATIC=general;CC_FBO_LIB;general;CC_CORE_LIB;general;QCC_DB_LIB;general;QCC_IO_LIB;general;QCC_GL_LIB;general;Qt5::Core;general;Qt5::Gui;general;Qt5::Widgets;general;Qt5::OpenGL;general;Qt5::Concurrent;general;QPOISSON_RECON_LIB;
-
-//Value Computed by CMake
-QPOISSON_RECON_PLUGIN_SOURCE_DIR:STATIC=/home/chrome/work/CloudCompare/qCMAT/plugins/core/qPoissonRecon
-
-//Value Computed by CMake
-QSSAO_PLUGIN_BINARY_DIR:STATIC=/home/chrome/work/CloudCompare/qCMAT/build/plugins/core/qSSAO
-
-//Dependencies for the target
-QSSAO_PLUGIN_LIB_DEPENDS:STATIC=general;CC_FBO_LIB;general;CC_CORE_LIB;general;QCC_DB_LIB;general;QCC_IO_LIB;general;QCC_GL_LIB;general;Qt5::Core;general;Qt5::Gui;general;Qt5::Widgets;general;Qt5::OpenGL;general;Qt5::Concurrent;general;QSSAO_RANDOMKIT_LIB;
-
-//Value Computed by CMake
-QSSAO_PLUGIN_SOURCE_DIR:STATIC=/home/chrome/work/CloudCompare/qCMAT/plugins/core/qSSAO
-
-//Value Computed by CMake
-QSSAO_RANDOMKIT_LIB_BINARY_DIR:STATIC=/home/chrome/work/CloudCompare/qCMAT/build/plugins/core/qSSAO/Randomkit
-
-//Dependencies for target
-QSSAO_RANDOMKIT_LIB_LIB_DEPENDS:STATIC=
-
-//Value Computed by CMake
-QSSAO_RANDOMKIT_LIB_SOURCE_DIR:STATIC=/home/chrome/work/CloudCompare/qCMAT/plugins/core/qSSAO/Randomkit
 
 //Qt5 root directory (i.e. where the 'bin' folder lies)
 QT5_ROOT_PATH:PATH=
@@ -481,15 +424,6 @@ Qt5Widgets_DIR:PATH=/usr/lib64/cmake/Qt5Widgets
 //The directory containing a CMake configuration file for Qt5.
 Qt5_DIR:PATH=/usr/lib64/cmake/Qt5
 
-//Path to a file.
-ZLIB_INCLUDE_DIR:PATH=/usr/include
-
-//Path to a library.
-ZLIB_LIBRARY_DEBUG:FILEPATH=ZLIB_LIBRARY_DEBUG-NOTFOUND
-
-//Path to a library.
-ZLIB_LIBRARY_RELEASE:FILEPATH=/usr/lib/libz.so
-
 //Value Computed by CMake
 ccViewer_BINARY_DIR:STATIC=/home/chrome/work/CloudCompare/qCMAT/build/ccViewer
 
@@ -513,15 +447,6 @@ qcustomplot_LIB_DEPENDS:STATIC=
 
 //Value Computed by CMake
 qcustomplot_SOURCE_DIR:STATIC=/home/chrome/work/CloudCompare/qCMAT/libs/qcustomplot
-
-//Value Computed by CMake
-quazip_static_BINARY_DIR:STATIC=/home/chrome/work/CloudCompare/qCMAT/build/plugins/core/qPhotoscanIO
-
-//Dependencies for the target
-quazip_static_LIB_DEPENDS:STATIC=general;/usr/lib/libz.so;general;Qt5::Core;
-
-//Value Computed by CMake
-quazip_static_SOURCE_DIR:STATIC=/home/chrome/work/CloudCompare/qCMAT/plugins/core/qPhotoscanIO
 
 
 ########################
@@ -630,7 +555,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=45
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=40
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -673,8 +598,6 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Test COMPILER_SUPPORTS_CXX11
 COMPILER_SUPPORTS_CXX11:INTERNAL=1
-//Details about finding ZLIB
-FIND_PACKAGE_MESSAGE_DETAILS_ZLIB:INTERNAL=[/usr/lib/libz.so][/usr/include][v1.2.11()]
 //Result of TRY_COMPILE
 OpenMP_COMPILE_RESULT_CXX_fopenmp:INTERNAL=TRUE
 //Result of TRY_COMPILE
@@ -699,10 +622,4 @@ OpenMP_SPECTEST_C_:INTERNAL=TRUE
 OpenMP_gomp_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OpenMP_pthread_LIBRARY
 OpenMP_pthread_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: ZLIB_INCLUDE_DIR
-ZLIB_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: ZLIB_LIBRARY_DEBUG
-ZLIB_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: ZLIB_LIBRARY_RELEASE
-ZLIB_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 

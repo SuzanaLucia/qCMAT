@@ -29,10 +29,10 @@ public:
     QPushButton *DisplayVolume;
     QLabel *label;
     QFrame *frame;
-    QPushButton *pushButton_4;
+    QPushButton *CalcAbreviations;
     QLabel *label_5;
     QFrame *frame_2;
-    QPushButton *CalcVolButton;
+    QPushButton *CalcContours;
     QLineEdit *bottomInput;
     QLabel *label_2;
     QLabel *label_3;
@@ -44,6 +44,7 @@ public:
     QLineEdit *noSliceInput;
     QFrame *frame_3;
     QLabel *label_8;
+    QPushButton *CalcLoadFile;
 
     void setupUi(QDialog *ccVolumeTool)
     {
@@ -52,10 +53,10 @@ public:
         ccVolumeTool->resize(400, 440);
         saveButton = new QPushButton(ccVolumeTool);
         saveButton->setObjectName(QStringLiteral("saveButton"));
-        saveButton->setGeometry(QRect(10, 390, 91, 41));
+        saveButton->setGeometry(QRect(190, 390, 91, 41));
         DisplayVolume = new QPushButton(ccVolumeTool);
         DisplayVolume->setObjectName(QStringLiteral("DisplayVolume"));
-        DisplayVolume->setGeometry(QRect(110, 390, 91, 41));
+        DisplayVolume->setGeometry(QRect(290, 390, 91, 41));
         DisplayVolume->setCheckable(false);
         DisplayVolume->setAutoRepeat(false);
         DisplayVolume->setAutoDefault(false);
@@ -67,9 +68,9 @@ public:
         frame->setGeometry(QRect(10, 30, 381, 101));
         frame->setFrameShape(QFrame::StyledPanel);
         frame->setFrameShadow(QFrame::Raised);
-        pushButton_4 = new QPushButton(frame);
-        pushButton_4->setObjectName(QStringLiteral("pushButton_4"));
-        pushButton_4->setGeometry(QRect(250, 70, 121, 21));
+        CalcAbreviations = new QPushButton(frame);
+        CalcAbreviations->setObjectName(QStringLiteral("CalcAbreviations"));
+        CalcAbreviations->setGeometry(QRect(250, 70, 121, 21));
         label_5 = new QLabel(frame);
         label_5->setObjectName(QStringLiteral("label_5"));
         label_5->setGeometry(QRect(10, 10, 141, 16));
@@ -78,9 +79,9 @@ public:
         frame_2->setGeometry(QRect(10, 140, 381, 121));
         frame_2->setFrameShape(QFrame::StyledPanel);
         frame_2->setFrameShadow(QFrame::Raised);
-        CalcVolButton = new QPushButton(frame_2);
-        CalcVolButton->setObjectName(QStringLiteral("CalcVolButton"));
-        CalcVolButton->setGeometry(QRect(240, 90, 121, 21));
+        CalcContours = new QPushButton(frame_2);
+        CalcContours->setObjectName(QStringLiteral("CalcContours"));
+        CalcContours->setGeometry(QRect(250, 90, 121, 21));
         bottomInput = new QLineEdit(frame_2);
         bottomInput->setObjectName(QStringLiteral("bottomInput"));
         bottomInput->setGeometry(QRect(100, 90, 81, 23));
@@ -92,7 +93,7 @@ public:
         label_3->setGeometry(QRect(30, 90, 59, 15));
         label_4 = new QLabel(frame_2);
         label_4->setObjectName(QStringLiteral("label_4"));
-        label_4->setGeometry(QRect(210, 60, 71, 21));
+        label_4->setGeometry(QRect(220, 60, 71, 21));
         label_6 = new QLabel(frame_2);
         label_6->setObjectName(QStringLiteral("label_6"));
         label_6->setGeometry(QRect(10, 10, 201, 16));
@@ -108,7 +109,7 @@ public:
         topInput->setGeometry(QRect(100, 60, 81, 23));
         noSliceInput = new QLineEdit(frame_2);
         noSliceInput->setObjectName(QStringLiteral("noSliceInput"));
-        noSliceInput->setGeometry(QRect(280, 60, 81, 23));
+        noSliceInput->setGeometry(QRect(290, 60, 81, 23));
         frame_3 = new QFrame(ccVolumeTool);
         frame_3->setObjectName(QStringLiteral("frame_3"));
         frame_3->setGeometry(QRect(10, 270, 381, 111));
@@ -117,6 +118,9 @@ public:
         label_8 = new QLabel(frame_3);
         label_8->setObjectName(QStringLiteral("label_8"));
         label_8->setGeometry(QRect(10, 10, 59, 15));
+        CalcLoadFile = new QPushButton(frame_3);
+        CalcLoadFile->setObjectName(QStringLiteral("CalcLoadFile"));
+        CalcLoadFile->setGeometry(QRect(250, 80, 121, 21));
 
         retranslateUi(ccVolumeTool);
 
@@ -126,21 +130,25 @@ public:
     void retranslateUi(QDialog *ccVolumeTool)
     {
         ccVolumeTool->setWindowTitle(QApplication::translate("ccVolumeTool", "ccVolumeTool", nullptr));
+#ifndef QT_NO_TOOLTIP
+        saveButton->setToolTip(QApplication::translate("ccVolumeTool", "Save results as CSV file", nullptr));
+#endif // QT_NO_TOOLTIP
         saveButton->setText(QApplication::translate("ccVolumeTool", "Save", nullptr));
 #ifndef QT_NO_TOOLTIP
         DisplayVolume->setToolTip(QApplication::translate("ccVolumeTool", "Display beach volume", nullptr));
 #endif // QT_NO_TOOLTIP
         DisplayVolume->setText(QApplication::translate("ccVolumeTool", "Display", nullptr));
         label->setText(QApplication::translate("ccVolumeTool", "Calculate Beach Volumes", nullptr));
-        pushButton_4->setText(QApplication::translate("ccVolumeTool", "Calculate Volumes", nullptr));
+        CalcAbreviations->setText(QApplication::translate("ccVolumeTool", "Calculate Volumes", nullptr));
         label_5->setText(QApplication::translate("ccVolumeTool", "Calculate Abreviations", nullptr));
-        CalcVolButton->setText(QApplication::translate("ccVolumeTool", "Calculate Volumes", nullptr));
+        CalcContours->setText(QApplication::translate("ccVolumeTool", "Calculate Volumes", nullptr));
         label_2->setText(QApplication::translate("ccVolumeTool", "Top:", nullptr));
         label_3->setText(QApplication::translate("ccVolumeTool", "Bottom:", nullptr));
         label_4->setText(QApplication::translate("ccVolumeTool", "No. slices:", nullptr));
         label_6->setText(QApplication::translate("ccVolumeTool", "Calculate Between Contour Lines", nullptr));
         label_7->setText(QApplication::translate("ccVolumeTool", "Height:", nullptr));
         label_8->setText(QApplication::translate("ccVolumeTool", "Load File", nullptr));
+        CalcLoadFile->setText(QApplication::translate("ccVolumeTool", "Calculate Volumes", nullptr));
     } // retranslateUi
 
 };

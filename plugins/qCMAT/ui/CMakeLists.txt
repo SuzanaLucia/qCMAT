@@ -2,5 +2,6 @@ set( CC_PLUGIN_CUSTOM_UI_LIST
         ${CC_PLUGIN_CUSTOM_UI_LIST}
         ${CMAKE_CURRENT_SOURCE_DIR}/dlg.ui
         ${CMAKE_CURRENT_SOURCE_DIR}/ccVolumeTool.ui
+        ${CMAKE_CURRENT_SOURCE_DIR}/displayVolume.ui
         PARENT_SCOPE
 )
