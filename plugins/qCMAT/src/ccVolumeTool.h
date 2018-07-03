@@ -24,6 +24,14 @@
 #include <QMainWindow>
 #include <SimpleCloud.h>
 #include <ccRasterGrid.h>
+#include <ccPointCloud.h>
+
+//stuff for crop
+#include <ccMesh.h>
+#include <ccMaterialSet.h>
+#include <ccScalarField.h>
+#include <SimpleCloud.h>
+#include <GenericCloud.h>
 
 #define MAX_SLICES 3
 
@@ -35,6 +43,7 @@ class ccVolumeTool : public QDialog, public Ui::ccVolumeTool
 
 public:
 
+	ccHObject* mainCloud;
 	// Default constructor
 	explicit ccVolumeTool(QWidget* parent = 0);
 
@@ -47,6 +56,12 @@ public:
 	// noSlices of sliceSize slices
 	float sliceSize;
 	int noSlices;
+	//selected stuff
+	float userTop;
+	float userBottom;
+	//current slice and bottom
+	float sliceTop;
+	float sliceBottom;
 
 	// Supported CSG operations
 	//enum CSG_OPERATION { UNION, INTERSECT, DIFF, SYM_DIFF };
@@ -75,7 +90,7 @@ protected:
 	//link to the main plugin interface
 	ccMainAppInterface* m_app;
 	//point cloud / beach for which to calculate volume
-
+	void cropPointCloud(CCLib::SimpleCloud*);
 
 	//CSG_OPERATION m_selectedOperation;
 	//bool m_isSwapped;
@@ -109,7 +124,7 @@ private:
 	};
 
 	//calculates volume of beach between top and bottom
-	float volumeBetweenHeights(ccHObject*, int, int);
+	float volumeBetweenHeights(int, int, ccPointCloud*);
 	//get clouds to operate on, calculate based on user input
 	bool ComputeVolume(	ccRasterGrid&,
 										ccGenericPointCloud*,
@@ -128,6 +143,12 @@ private:
 										QWidget* parentWidget = 0);
 	//data structure to save [Volume][Bottom][Top] of slices
 	float sliceInfo[MAX_SLICES][3];
+	//crop a point cloud
+	//ccHObject* Crop(ccHObject* entity, const ccBBox& box, bool inside/*=true*/, const ccGLMatrix* meshRotation/*=0*/);
+	ccPointCloud* normalizeCloud(ccPointCloud* cloud, int bottom, int top);
+
+	//void contourPoints(const CCVector3 &, ScalarType &);
+
 };
 
 #endif //CC_VOLUME_TOOL_H

@@ -170,6 +170,12 @@ GenericChunkedArray.h
 GenericIndexedCloudPersist.h
 ../CC/include/GenericIndexedCloudPersist.h
 
+../CC/include/ScalarField.h
+CCConst.h
+../CC/include/CCConst.h
+GenericChunkedArray.h
+../CC/include/GenericChunkedArray.h
+
 ../CC/include/SimpleCloud.h
 GenericChunkedArray.h
 ../CC/include/GenericChunkedArray.h
@@ -270,6 +276,14 @@ ccIncludeGL.h
 QFont
 -
 
+../libs/qCC_db/ccGenericMesh.h
+GenericIndexedMesh.h
+-
+ccGenericGLDisplay.h
+../libs/qCC_db/ccGenericGLDisplay.h
+ccAdvancedTypes.h
+../libs/qCC_db/ccAdvancedTypes.h
+
 ../libs/qCC_db/ccGenericPointCloud.h
 ccShiftedObject.h
 ../libs/qCC_db/ccShiftedObject.h
@@ -315,6 +329,18 @@ QtGui/qopengl.h
 -
 QSharedPointer
 -
+
+../libs/qCC_db/ccMaterialSet.h
+ccHObject.h
+../libs/qCC_db/ccHObject.h
+
+../libs/qCC_db/ccMesh.h
+SimpleTriangle.h
+-
+PointProjectionTools.h
+-
+ccGenericMesh.h
+../libs/qCC_db/ccGenericMesh.h
 
 ../libs/qCC_db/ccNormalCompressor.h
 ccBasicTypes.h
@@ -384,6 +410,12 @@ ccBBox.h
 limits
 -
 
+../libs/qCC_db/ccScalarField.h
+ScalarField.h
+-
+ccColorScale.h
+../libs/qCC_db/ccColorScale.h
+
 ../libs/qCC_db/ccSerializableObject.h
 ccLog.h
 ../libs/qCC_db/ccLog.h
@@ -422,6 +454,48 @@ stdlib.h
 ccIncludeGL.h
 -
 QImage
+-
+
+../libs/qCC_glWindow/ccGLWidget.h
+ccGLWindow.h
+-
+QWidget
+-
+QHBoxLayout
+-
+assert.h
+-
+
+../libs/qCC_glWindow/ccGLWindow.h
+ccDrawableObject.h
+-
+ccGenericGLDisplay.h
+-
+ccGLUtils.h
+-
+ccGuiParameters.h
+../libs/qCC_glWindow/ccGuiParameters.h
+QElapsedTimer
+-
+QOpenGLExtensions
+-
+QTimer
+-
+QWidget
+-
+QWindow
+-
+QOpenGLWidget
+-
+list
+-
+unordered_set
+-
+
+../libs/qCC_glWindow/ccGuiParameters.h
+QString
+-
+ccColorTypes.h
 -
 
 ../plugins/ccDefaultPluginInterface.h
@@ -601,17 +675,23 @@ CloudSamplingTools.h
 -
 string
 -
+QOpenGLWidget
+-
 Delaunay2dMesh.h
 -
 PointProjectionTools.h
 -
 ccProgressDialog.h
 -
+ccGLWidget.h
+-
 QMessageBox
 -
 QSettings
 -
 QLineEdit
+-
+QSurfaceFormat
 -
 
 /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccVolumeTool.h
@@ -624,6 +704,18 @@ QMainWindow
 SimpleCloud.h
 -
 ccRasterGrid.h
+-
+ccPointCloud.h
+-
+ccMesh.h
+-
+ccMaterialSet.h
+-
+ccScalarField.h
+-
+SimpleCloud.h
+-
+GenericCloud.h
 -
 
 /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/qCMATDlg.cpp
@@ -671,6 +763,10 @@ qdatastream.h
 /usr/include/qt/QtCore/QDebug
 qdebug.h
 /usr/include/qt/QtCore/qdebug.h
+
+/usr/include/qt/QtCore/QElapsedTimer
+qelapsedtimer.h
+/usr/include/qt/QtCore/qelapsedtimer.h
 
 /usr/include/qt/QtCore/QEvent
 qcoreevent.h
@@ -4064,6 +4160,16 @@ QtOpenGL/qtopenglglobal.h
 QtCore/qglobal.h
 -
 
+/usr/include/qt/QtOpenGLExtensions/QOpenGLExtensions
+qopenglextensions.h
+/usr/include/qt/QtOpenGLExtensions/qopenglextensions.h
+
+/usr/include/qt/QtOpenGLExtensions/qopenglextensions.h
+QtCore/qglobal.h
+-
+QtGui/qopengl.h
+-
+
 /usr/include/qt/QtWidgets/QAction
 qaction.h
 /usr/include/qt/QtWidgets/qaction.h
@@ -4115,6 +4221,10 @@ qmainwindow.h
 /usr/include/qt/QtWidgets/QMessageBox
 qmessagebox.h
 /usr/include/qt/QtWidgets/qmessagebox.h
+
+/usr/include/qt/QtWidgets/QOpenGLWidget
+qopenglwidget.h
+/usr/include/qt/QtWidgets/qopenglwidget.h
 
 /usr/include/qt/QtWidgets/QProgressDialog
 qprogressdialog.h
@@ -4338,6 +4448,16 @@ QtWidgets/qtabwidget.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qdialog.h
+-
+
+/usr/include/qt/QtWidgets/qopenglwidget.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/QWidget
+-
+QtGui/QSurfaceFormat
+-
+QtGui/qopengl.h
 -
 
 /usr/include/qt/QtWidgets/qprogressdialog.h

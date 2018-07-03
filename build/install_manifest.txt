@@ -1,6 +1,14 @@
 /usr/local/lib/cloudcompare/libCC_CORE_LIB.so
 /usr/local/lib/cloudcompare/libQCC_DB_LIB.so
 /usr/local/lib/cloudcompare/libQCC_IO_LIB.so
+/usr/local/lib/cloudcompare/plugins/libQCOMPASS_PLUGIN.so
+/usr/local/lib/cloudcompare/plugins/libQPHOTOSCAN_IO_PLUGIN.so
+/usr/local/lib/cloudcompare/plugins/libQPHOTOSCAN_IO_PLUGIN.so
+/usr/local/lib/cloudcompare/plugins/libQPOISSON_RECON_PLUGIN.so
+/usr/local/lib/cloudcompare/plugins/libQSSAO_PLUGIN.so
+/usr/local/lib/cloudcompare/plugins/libQSSAO_PLUGIN.so
+/usr/local/share/cloudcompare/shaders/SSAO/ssao.frag
+/usr/local/share/cloudcompare/shaders/SSAO/ssao.vert
 /usr/local/lib/cloudcompare/plugins/libqCMAT.so
 /usr/local/bin/CloudCompare
 /usr/local/share/cloudcompare/CHANGELOG.md

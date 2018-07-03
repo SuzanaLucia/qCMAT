@@ -68,40 +68,6 @@ install/strip/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
-
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
-
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
@@ -123,6 +89,40 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -156,6 +156,171 @@ depend:
 	cd /home/chrome/work/CloudCompare/qCMAT/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+plugins/core/qPoissonRecon/CMakeFiles/QPOISSON_RECON_PLUGIN.dir/rule:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/core/qPoissonRecon/CMakeFiles/QPOISSON_RECON_PLUGIN.dir/rule
+.PHONY : plugins/core/qPoissonRecon/CMakeFiles/QPOISSON_RECON_PLUGIN.dir/rule
+
+# Convenience name for target.
+QPOISSON_RECON_PLUGIN: plugins/core/qPoissonRecon/CMakeFiles/QPOISSON_RECON_PLUGIN.dir/rule
+
+.PHONY : QPOISSON_RECON_PLUGIN
+
+# fast build rule for target.
+QPOISSON_RECON_PLUGIN/fast:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPoissonRecon/CMakeFiles/QPOISSON_RECON_PLUGIN.dir/build.make plugins/core/qPoissonRecon/CMakeFiles/QPOISSON_RECON_PLUGIN.dir/build
+.PHONY : QPOISSON_RECON_PLUGIN/fast
+
+# Convenience name for target.
+plugins/core/qPoissonRecon/CMakeFiles/QPOISSON_RECON_PLUGIN_autogen.dir/rule:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/core/qPoissonRecon/CMakeFiles/QPOISSON_RECON_PLUGIN_autogen.dir/rule
+.PHONY : plugins/core/qPoissonRecon/CMakeFiles/QPOISSON_RECON_PLUGIN_autogen.dir/rule
+
+# Convenience name for target.
+QPOISSON_RECON_PLUGIN_autogen: plugins/core/qPoissonRecon/CMakeFiles/QPOISSON_RECON_PLUGIN_autogen.dir/rule
+
+.PHONY : QPOISSON_RECON_PLUGIN_autogen
+
+# fast build rule for target.
+QPOISSON_RECON_PLUGIN_autogen/fast:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPoissonRecon/CMakeFiles/QPOISSON_RECON_PLUGIN_autogen.dir/build.make plugins/core/qPoissonRecon/CMakeFiles/QPOISSON_RECON_PLUGIN_autogen.dir/build
+.PHONY : QPOISSON_RECON_PLUGIN_autogen/fast
+
+QPOISSON_RECON_PLUGIN_autogen/mocs_compilation.o: QPOISSON_RECON_PLUGIN_autogen/mocs_compilation.cpp.o
+
+.PHONY : QPOISSON_RECON_PLUGIN_autogen/mocs_compilation.o
+
+# target to build an object file
+QPOISSON_RECON_PLUGIN_autogen/mocs_compilation.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPoissonRecon/CMakeFiles/QPOISSON_RECON_PLUGIN.dir/build.make plugins/core/qPoissonRecon/CMakeFiles/QPOISSON_RECON_PLUGIN.dir/QPOISSON_RECON_PLUGIN_autogen/mocs_compilation.cpp.o
+.PHONY : QPOISSON_RECON_PLUGIN_autogen/mocs_compilation.cpp.o
+
+QPOISSON_RECON_PLUGIN_autogen/mocs_compilation.i: QPOISSON_RECON_PLUGIN_autogen/mocs_compilation.cpp.i
+
+.PHONY : QPOISSON_RECON_PLUGIN_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+QPOISSON_RECON_PLUGIN_autogen/mocs_compilation.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPoissonRecon/CMakeFiles/QPOISSON_RECON_PLUGIN.dir/build.make plugins/core/qPoissonRecon/CMakeFiles/QPOISSON_RECON_PLUGIN.dir/QPOISSON_RECON_PLUGIN_autogen/mocs_compilation.cpp.i
+.PHONY : QPOISSON_RECON_PLUGIN_autogen/mocs_compilation.cpp.i
+
+QPOISSON_RECON_PLUGIN_autogen/mocs_compilation.s: QPOISSON_RECON_PLUGIN_autogen/mocs_compilation.cpp.s
+
+.PHONY : QPOISSON_RECON_PLUGIN_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+QPOISSON_RECON_PLUGIN_autogen/mocs_compilation.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPoissonRecon/CMakeFiles/QPOISSON_RECON_PLUGIN.dir/build.make plugins/core/qPoissonRecon/CMakeFiles/QPOISSON_RECON_PLUGIN.dir/QPOISSON_RECON_PLUGIN_autogen/mocs_compilation.cpp.s
+.PHONY : QPOISSON_RECON_PLUGIN_autogen/mocs_compilation.cpp.s
+
+__/__/ccDefaultPluginInterface.o: __/__/ccDefaultPluginInterface.cpp.o
+
+.PHONY : __/__/ccDefaultPluginInterface.o
+
+# target to build an object file
+__/__/ccDefaultPluginInterface.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPoissonRecon/CMakeFiles/QPOISSON_RECON_PLUGIN.dir/build.make plugins/core/qPoissonRecon/CMakeFiles/QPOISSON_RECON_PLUGIN.dir/__/__/ccDefaultPluginInterface.cpp.o
+.PHONY : __/__/ccDefaultPluginInterface.cpp.o
+
+__/__/ccDefaultPluginInterface.i: __/__/ccDefaultPluginInterface.cpp.i
+
+.PHONY : __/__/ccDefaultPluginInterface.i
+
+# target to preprocess a source file
+__/__/ccDefaultPluginInterface.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPoissonRecon/CMakeFiles/QPOISSON_RECON_PLUGIN.dir/build.make plugins/core/qPoissonRecon/CMakeFiles/QPOISSON_RECON_PLUGIN.dir/__/__/ccDefaultPluginInterface.cpp.i
+.PHONY : __/__/ccDefaultPluginInterface.cpp.i
+
+__/__/ccDefaultPluginInterface.s: __/__/ccDefaultPluginInterface.cpp.s
+
+.PHONY : __/__/ccDefaultPluginInterface.s
+
+# target to generate assembly for a file
+__/__/ccDefaultPluginInterface.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPoissonRecon/CMakeFiles/QPOISSON_RECON_PLUGIN.dir/build.make plugins/core/qPoissonRecon/CMakeFiles/QPOISSON_RECON_PLUGIN.dir/__/__/ccDefaultPluginInterface.cpp.s
+.PHONY : __/__/ccDefaultPluginInterface.cpp.s
+
+__/__/ccStdPluginInterface.o: __/__/ccStdPluginInterface.cpp.o
+
+.PHONY : __/__/ccStdPluginInterface.o
+
+# target to build an object file
+__/__/ccStdPluginInterface.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPoissonRecon/CMakeFiles/QPOISSON_RECON_PLUGIN.dir/build.make plugins/core/qPoissonRecon/CMakeFiles/QPOISSON_RECON_PLUGIN.dir/__/__/ccStdPluginInterface.cpp.o
+.PHONY : __/__/ccStdPluginInterface.cpp.o
+
+__/__/ccStdPluginInterface.i: __/__/ccStdPluginInterface.cpp.i
+
+.PHONY : __/__/ccStdPluginInterface.i
+
+# target to preprocess a source file
+__/__/ccStdPluginInterface.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPoissonRecon/CMakeFiles/QPOISSON_RECON_PLUGIN.dir/build.make plugins/core/qPoissonRecon/CMakeFiles/QPOISSON_RECON_PLUGIN.dir/__/__/ccStdPluginInterface.cpp.i
+.PHONY : __/__/ccStdPluginInterface.cpp.i
+
+__/__/ccStdPluginInterface.s: __/__/ccStdPluginInterface.cpp.s
+
+.PHONY : __/__/ccStdPluginInterface.s
+
+# target to generate assembly for a file
+__/__/ccStdPluginInterface.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPoissonRecon/CMakeFiles/QPOISSON_RECON_PLUGIN.dir/build.make plugins/core/qPoissonRecon/CMakeFiles/QPOISSON_RECON_PLUGIN.dir/__/__/ccStdPluginInterface.cpp.s
+.PHONY : __/__/ccStdPluginInterface.cpp.s
+
+qPoissonRecon.o: qPoissonRecon.cpp.o
+
+.PHONY : qPoissonRecon.o
+
+# target to build an object file
+qPoissonRecon.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPoissonRecon/CMakeFiles/QPOISSON_RECON_PLUGIN.dir/build.make plugins/core/qPoissonRecon/CMakeFiles/QPOISSON_RECON_PLUGIN.dir/qPoissonRecon.cpp.o
+.PHONY : qPoissonRecon.cpp.o
+
+qPoissonRecon.i: qPoissonRecon.cpp.i
+
+.PHONY : qPoissonRecon.i
+
+# target to preprocess a source file
+qPoissonRecon.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPoissonRecon/CMakeFiles/QPOISSON_RECON_PLUGIN.dir/build.make plugins/core/qPoissonRecon/CMakeFiles/QPOISSON_RECON_PLUGIN.dir/qPoissonRecon.cpp.i
+.PHONY : qPoissonRecon.cpp.i
+
+qPoissonRecon.s: qPoissonRecon.cpp.s
+
+.PHONY : qPoissonRecon.s
+
+# target to generate assembly for a file
+qPoissonRecon.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPoissonRecon/CMakeFiles/QPOISSON_RECON_PLUGIN.dir/build.make plugins/core/qPoissonRecon/CMakeFiles/QPOISSON_RECON_PLUGIN.dir/qPoissonRecon.cpp.s
+.PHONY : qPoissonRecon.cpp.s
+
+qrc_qPoissonRecon.o: qrc_qPoissonRecon.cpp.o
+
+.PHONY : qrc_qPoissonRecon.o
+
+# target to build an object file
+qrc_qPoissonRecon.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPoissonRecon/CMakeFiles/QPOISSON_RECON_PLUGIN.dir/build.make plugins/core/qPoissonRecon/CMakeFiles/QPOISSON_RECON_PLUGIN.dir/qrc_qPoissonRecon.cpp.o
+.PHONY : qrc_qPoissonRecon.cpp.o
+
+qrc_qPoissonRecon.i: qrc_qPoissonRecon.cpp.i
+
+.PHONY : qrc_qPoissonRecon.i
+
+# target to preprocess a source file
+qrc_qPoissonRecon.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPoissonRecon/CMakeFiles/QPOISSON_RECON_PLUGIN.dir/build.make plugins/core/qPoissonRecon/CMakeFiles/QPOISSON_RECON_PLUGIN.dir/qrc_qPoissonRecon.cpp.i
+.PHONY : qrc_qPoissonRecon.cpp.i
+
+qrc_qPoissonRecon.s: qrc_qPoissonRecon.cpp.s
+
+.PHONY : qrc_qPoissonRecon.s
+
+# target to generate assembly for a file
+qrc_qPoissonRecon.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPoissonRecon/CMakeFiles/QPOISSON_RECON_PLUGIN.dir/build.make plugins/core/qPoissonRecon/CMakeFiles/QPOISSON_RECON_PLUGIN.dir/qrc_qPoissonRecon.cpp.s
+.PHONY : qrc_qPoissonRecon.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -163,11 +328,28 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/strip"
-	@echo "... install"
-	@echo "... install/local"
-	@echo "... list_install_components"
 	@echo "... edit_cache"
+	@echo "... QPOISSON_RECON_PLUGIN"
 	@echo "... rebuild_cache"
+	@echo "... list_install_components"
+	@echo "... install/local"
+	@echo "... install"
+	@echo "... QPOISSON_RECON_PLUGIN_autogen"
+	@echo "... QPOISSON_RECON_PLUGIN_autogen/mocs_compilation.o"
+	@echo "... QPOISSON_RECON_PLUGIN_autogen/mocs_compilation.i"
+	@echo "... QPOISSON_RECON_PLUGIN_autogen/mocs_compilation.s"
+	@echo "... __/__/ccDefaultPluginInterface.o"
+	@echo "... __/__/ccDefaultPluginInterface.i"
+	@echo "... __/__/ccDefaultPluginInterface.s"
+	@echo "... __/__/ccStdPluginInterface.o"
+	@echo "... __/__/ccStdPluginInterface.i"
+	@echo "... __/__/ccStdPluginInterface.s"
+	@echo "... qPoissonRecon.o"
+	@echo "... qPoissonRecon.i"
+	@echo "... qPoissonRecon.s"
+	@echo "... qrc_qPoissonRecon.o"
+	@echo "... qrc_qPoissonRecon.i"
+	@echo "... qrc_qPoissonRecon.s"
 .PHONY : help
 
 

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libQPOISSON_RECON_LIB.a  CMakeFiles/QPOISSON_RECON_LIB.dir/Src_CC_wrap/PoissonReconLib.cpp.o CMakeFiles/QPOISSON_RECON_LIB.dir/Src/CmdLineParser.cpp.o CMakeFiles/QPOISSON_RECON_LIB.dir/Src/Factor.cpp.o CMakeFiles/QPOISSON_RECON_LIB.dir/Src/Geometry.cpp.o CMakeFiles/QPOISSON_RECON_LIB.dir/Src/MarchingCubes.cpp.o CMakeFiles/QPOISSON_RECON_LIB.dir/Src/PlyFile.cpp.o CMakeFiles/QPOISSON_RECON_LIB.dir/QPOISSON_RECON_LIB_autogen/mocs_compilation.cpp.o
+/usr/bin/ranlib libQPOISSON_RECON_LIB.a

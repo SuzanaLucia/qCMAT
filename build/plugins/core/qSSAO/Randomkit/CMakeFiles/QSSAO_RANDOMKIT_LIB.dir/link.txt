@@ -1,0 +1,2 @@
+/usr/bin/ar qc libQSSAO_RANDOMKIT_LIB.a  CMakeFiles/QSSAO_RANDOMKIT_LIB.dir/rk_isaac.c.o CMakeFiles/QSSAO_RANDOMKIT_LIB.dir/rk_mt.c.o CMakeFiles/QSSAO_RANDOMKIT_LIB.dir/rk_primitive.c.o CMakeFiles/QSSAO_RANDOMKIT_LIB.dir/rk_sobol.c.o
+/usr/bin/ranlib libQSSAO_RANDOMKIT_LIB.a

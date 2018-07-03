@@ -724,31 +724,59 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o
  ../CC/include/CCConst.h
  ../CC/include/CCCoreLib.h
  ../CC/include/CCGeom.h
+ ../CC/include/CCMiscTools.h
  ../CC/include/CCPlatform.h
  ../CC/include/CCShareable.h
  ../CC/include/CCToolbox.h
  ../CC/include/CCTypes.h
+ ../CC/include/ChunkedPointCloud.h
+ ../CC/include/DgmOctree.h
  ../CC/include/GenericChunkedArray.h
  ../CC/include/GenericCloud.h
  ../CC/include/GenericIndexedCloud.h
  ../CC/include/GenericIndexedCloudPersist.h
+ ../CC/include/GenericIndexedMesh.h
+ ../CC/include/GenericMesh.h
+ ../CC/include/GenericOctree.h
+ ../CC/include/GenericTriangle.h
+ ../CC/include/GeometricalAnalysisTools.h
+ ../CC/include/Neighbourhood.h
  ../CC/include/PointProjectionTools.h
+ ../CC/include/ReferenceCloud.h
+ ../CC/include/ScalarField.h
  ../CC/include/SimpleCloud.h
+ ../CC/include/SimpleTriangle.h
  ../CC/include/SquareMatrix.h
+ ../libs/qCC_db/ccAdvancedTypes.h
  ../libs/qCC_db/ccBBox.h
+ ../libs/qCC_db/ccBasicTypes.h
+ ../libs/qCC_db/ccChunkedArray.h
+ ../libs/qCC_db/ccColorScale.h
  ../libs/qCC_db/ccColorTypes.h
  ../libs/qCC_db/ccDrawableObject.h
  ../libs/qCC_db/ccGLDrawContext.h
  ../libs/qCC_db/ccGLMatrix.h
  ../libs/qCC_db/ccGLMatrixTpl.h
+ ../libs/qCC_db/ccGenericGLDisplay.h
+ ../libs/qCC_db/ccGenericMesh.h
+ ../libs/qCC_db/ccGenericPointCloud.h
  ../libs/qCC_db/ccHObject.h
  ../libs/qCC_db/ccHObjectCaster.h
  ../libs/qCC_db/ccIncludeGL.h
  ../libs/qCC_db/ccLog.h
  ../libs/qCC_db/ccMaterial.h
+ ../libs/qCC_db/ccMaterialSet.h
+ ../libs/qCC_db/ccMesh.h
+ ../libs/qCC_db/ccNormalCompressor.h
+ ../libs/qCC_db/ccNormalVectors.h
  ../libs/qCC_db/ccObject.h
+ ../libs/qCC_db/ccOctree.h
+ ../libs/qCC_db/ccPointCloud.h
  ../libs/qCC_db/ccRasterGrid.h
+ ../libs/qCC_db/ccScalarField.h
  ../libs/qCC_db/ccSerializableObject.h
+ ../libs/qCC_db/ccShiftedObject.h
+ ../libs/qCC_db/ccWaveform.h
  ../libs/qCC_db/qCC_db.h
  ../libs/qCC_glWindow/ccGLUtils.h
  ../plugins/ccDefaultPluginInterface.h
@@ -854,6 +882,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o
  /usr/include/qt/QtCore/qvector.h
  /usr/include/qt/QtCore/qversiontagging.h
  /usr/include/qt/QtGui/QColor
+ /usr/include/qt/QtGui/QFont
  /usr/include/qt/QtGui/QIcon
  /usr/include/qt/QtGui/QImage
  /usr/include/qt/QtGui/QList
@@ -880,6 +909,8 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o
  /usr/include/qt/QtGui/qopenglfunctions_2_1.h
  /usr/include/qt/QtGui/qopenglversionfunctions.h
  /usr/include/qt/QtGui/qpaintdevice.h
+ /usr/include/qt/QtGui/qpaintengine.h
+ /usr/include/qt/QtGui/qpainter.h
  /usr/include/qt/QtGui/qpainterpath.h
  /usr/include/qt/QtGui/qpalette.h
  /usr/include/qt/QtGui/qpen.h
@@ -901,6 +932,11 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o
  /usr/include/qt/QtGui/qvector2d.h
  /usr/include/qt/QtGui/qwindowdefs.h
  /usr/include/qt/QtGui/qwindowdefs_win.h
+ /usr/include/qt/QtOpenGL/QGLBuffer
+ /usr/include/qt/QtOpenGL/qgl.h
+ /usr/include/qt/QtOpenGL/qglbuffer.h
+ /usr/include/qt/QtOpenGL/qglcolormap.h
+ /usr/include/qt/QtOpenGL/qtopenglglobal.h
  /usr/include/qt/QtWidgets/QAction
  /usr/include/qt/QtWidgets/QActionGroup
  /usr/include/qt/QtWidgets/QApplication
@@ -957,10 +993,12 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o
  ../CC/include/CCConst.h
  ../CC/include/CCCoreLib.h
  ../CC/include/CCGeom.h
+ ../CC/include/CCMiscTools.h
  ../CC/include/CCPlatform.h
  ../CC/include/CCShareable.h
  ../CC/include/CCToolbox.h
  ../CC/include/CCTypes.h
+ ../CC/include/ChunkedPointCloud.h
  ../CC/include/CloudSamplingTools.h
  ../CC/include/Delaunay2dMesh.h
  ../CC/include/DgmOctree.h
@@ -973,27 +1011,50 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o
  ../CC/include/GenericOctree.h
  ../CC/include/GenericProgressCallback.h
  ../CC/include/GenericTriangle.h
+ ../CC/include/GeometricalAnalysisTools.h
+ ../CC/include/Neighbourhood.h
  ../CC/include/PointProjectionTools.h
+ ../CC/include/ReferenceCloud.h
+ ../CC/include/ScalarField.h
  ../CC/include/SimpleCloud.h
  ../CC/include/SimpleTriangle.h
  ../CC/include/SquareMatrix.h
+ ../libs/qCC_db/ccAdvancedTypes.h
  ../libs/qCC_db/ccBBox.h
+ ../libs/qCC_db/ccBasicTypes.h
+ ../libs/qCC_db/ccChunkedArray.h
+ ../libs/qCC_db/ccColorScale.h
  ../libs/qCC_db/ccColorTypes.h
  ../libs/qCC_db/ccDrawableObject.h
  ../libs/qCC_db/ccGLDrawContext.h
  ../libs/qCC_db/ccGLMatrix.h
  ../libs/qCC_db/ccGLMatrixTpl.h
+ ../libs/qCC_db/ccGenericGLDisplay.h
+ ../libs/qCC_db/ccGenericMesh.h
+ ../libs/qCC_db/ccGenericPointCloud.h
  ../libs/qCC_db/ccHObject.h
  ../libs/qCC_db/ccHObjectCaster.h
  ../libs/qCC_db/ccIncludeGL.h
  ../libs/qCC_db/ccLog.h
  ../libs/qCC_db/ccMaterial.h
+ ../libs/qCC_db/ccMaterialSet.h
+ ../libs/qCC_db/ccMesh.h
+ ../libs/qCC_db/ccNormalCompressor.h
+ ../libs/qCC_db/ccNormalVectors.h
  ../libs/qCC_db/ccObject.h
+ ../libs/qCC_db/ccOctree.h
+ ../libs/qCC_db/ccPointCloud.h
  ../libs/qCC_db/ccProgressDialog.h
  ../libs/qCC_db/ccRasterGrid.h
+ ../libs/qCC_db/ccScalarField.h
  ../libs/qCC_db/ccSerializableObject.h
+ ../libs/qCC_db/ccShiftedObject.h
+ ../libs/qCC_db/ccWaveform.h
  ../libs/qCC_db/qCC_db.h
  ../libs/qCC_glWindow/ccGLUtils.h
+ ../libs/qCC_glWindow/ccGLWidget.h
+ ../libs/qCC_glWindow/ccGLWindow.h
+ ../libs/qCC_glWindow/ccGuiParameters.h
  ../plugins/ccDefaultPluginInterface.h
  ../plugins/ccMainAppInterface.h
  ../plugins/ccPluginInterface.h
@@ -1002,9 +1063,13 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o
  /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccVolumeTool.h
  /usr/include/qt/QtCore/QAtomicInt
  /usr/include/qt/QtCore/QDataStream
+ /usr/include/qt/QtCore/QElapsedTimer
+ /usr/include/qt/QtCore/QEvent
  /usr/include/qt/QtCore/QFile
+ /usr/include/qt/QtCore/QMargins
  /usr/include/qt/QtCore/QObject
  /usr/include/qt/QtCore/QPair
+ /usr/include/qt/QtCore/QRect
  /usr/include/qt/QtCore/QScopedPointer
  /usr/include/qt/QtCore/QSettings
  /usr/include/qt/QtCore/QSharedPointer
@@ -1033,6 +1098,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o
  /usr/include/qt/QtCore/qcoreevent.h
  /usr/include/qt/QtCore/qdatastream.h
  /usr/include/qt/QtCore/qdebug.h
+ /usr/include/qt/QtCore/qelapsedtimer.h
  /usr/include/qt/QtCore/qeventloop.h
  /usr/include/qt/QtCore/qfile.h
  /usr/include/qt/QtCore/qfiledevice.h
@@ -1094,12 +1160,14 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o
  /usr/include/qt/QtCore/qvector.h
  /usr/include/qt/QtCore/qversiontagging.h
  /usr/include/qt/QtGui/QColor
+ /usr/include/qt/QtGui/QFont
  /usr/include/qt/QtGui/QIcon
  /usr/include/qt/QtGui/QImage
  /usr/include/qt/QtGui/QList
  /usr/include/qt/QtGui/QOpenGLFunctions_2_1
  /usr/include/qt/QtGui/QOpenGLVersionFunctions
  /usr/include/qt/QtGui/QSurfaceFormat
+ /usr/include/qt/QtGui/QWindow
  /usr/include/qt/QtGui/qbrush.h
  /usr/include/qt/QtGui/qcolor.h
  /usr/include/qt/QtGui/qcursor.h
@@ -1120,6 +1188,8 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o
  /usr/include/qt/QtGui/qopenglfunctions_2_1.h
  /usr/include/qt/QtGui/qopenglversionfunctions.h
  /usr/include/qt/QtGui/qpaintdevice.h
+ /usr/include/qt/QtGui/qpaintengine.h
+ /usr/include/qt/QtGui/qpainter.h
  /usr/include/qt/QtGui/qpainterpath.h
  /usr/include/qt/QtGui/qpalette.h
  /usr/include/qt/QtGui/qpen.h
@@ -1129,6 +1199,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o
  /usr/include/qt/QtGui/qregion.h
  /usr/include/qt/QtGui/qrgb.h
  /usr/include/qt/QtGui/qrgba64.h
+ /usr/include/qt/QtGui/qsurface.h
  /usr/include/qt/QtGui/qsurfaceformat.h
  /usr/include/qt/QtGui/qtextcursor.h
  /usr/include/qt/QtGui/qtextformat.h
@@ -1139,19 +1210,29 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o
  /usr/include/qt/QtGui/qtransform.h
  /usr/include/qt/QtGui/qvalidator.h
  /usr/include/qt/QtGui/qvector2d.h
+ /usr/include/qt/QtGui/qwindow.h
  /usr/include/qt/QtGui/qwindowdefs.h
  /usr/include/qt/QtGui/qwindowdefs_win.h
+ /usr/include/qt/QtOpenGL/QGLBuffer
+ /usr/include/qt/QtOpenGL/qgl.h
+ /usr/include/qt/QtOpenGL/qglbuffer.h
+ /usr/include/qt/QtOpenGL/qglcolormap.h
+ /usr/include/qt/QtOpenGL/qtopenglglobal.h
+ /usr/include/qt/QtOpenGLExtensions/QOpenGLExtensions
+ /usr/include/qt/QtOpenGLExtensions/qopenglextensions.h
  /usr/include/qt/QtWidgets/QAction
  /usr/include/qt/QtWidgets/QActionGroup
  /usr/include/qt/QtWidgets/QApplication
  /usr/include/qt/QtWidgets/QButtonGroup
  /usr/include/qt/QtWidgets/QDialog
  /usr/include/qt/QtWidgets/QFrame
+ /usr/include/qt/QtWidgets/QHBoxLayout
  /usr/include/qt/QtWidgets/QHeaderView
  /usr/include/qt/QtWidgets/QLabel
  /usr/include/qt/QtWidgets/QLineEdit
  /usr/include/qt/QtWidgets/QMainWindow
  /usr/include/qt/QtWidgets/QMessageBox
+ /usr/include/qt/QtWidgets/QOpenGLWidget
  /usr/include/qt/QtWidgets/QProgressDialog
  /usr/include/qt/QtWidgets/QPushButton
  /usr/include/qt/QtWidgets/QWidget
@@ -1164,15 +1245,20 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o
  /usr/include/qt/QtWidgets/qaction.h
  /usr/include/qt/QtWidgets/qactiongroup.h
  /usr/include/qt/QtWidgets/qapplication.h
+ /usr/include/qt/QtWidgets/qboxlayout.h
  /usr/include/qt/QtWidgets/qbuttongroup.h
  /usr/include/qt/QtWidgets/qdesktopwidget.h
  /usr/include/qt/QtWidgets/qdialog.h
  /usr/include/qt/QtWidgets/qframe.h
+ /usr/include/qt/QtWidgets/qgridlayout.h
  /usr/include/qt/QtWidgets/qheaderview.h
  /usr/include/qt/QtWidgets/qlabel.h
+ /usr/include/qt/QtWidgets/qlayout.h
+ /usr/include/qt/QtWidgets/qlayoutitem.h
  /usr/include/qt/QtWidgets/qlineedit.h
  /usr/include/qt/QtWidgets/qmainwindow.h
  /usr/include/qt/QtWidgets/qmessagebox.h
+ /usr/include/qt/QtWidgets/qopenglwidget.h
  /usr/include/qt/QtWidgets/qprogressdialog.h
  /usr/include/qt/QtWidgets/qpushbutton.h
  /usr/include/qt/QtWidgets/qrubberband.h
@@ -1201,13 +1287,18 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o
  ../CC/include/GenericCloud.h
  ../CC/include/GenericIndexedCloud.h
  ../CC/include/GenericIndexedCloudPersist.h
+ ../CC/include/GenericIndexedMesh.h
+ ../CC/include/GenericMesh.h
  ../CC/include/GenericOctree.h
+ ../CC/include/GenericTriangle.h
  ../CC/include/GeometricalAnalysisTools.h
  ../CC/include/Neighbourhood.h
  ../CC/include/PointProjectionTools.h
  ../CC/include/Polyline.h
  ../CC/include/ReferenceCloud.h
+ ../CC/include/ScalarField.h
  ../CC/include/SimpleCloud.h
+ ../CC/include/SimpleTriangle.h
  ../CC/include/SquareMatrix.h
  ../libs/qCC_db/ccAdvancedTypes.h
  ../libs/qCC_db/ccBBox.h
@@ -1220,12 +1311,15 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o
  ../libs/qCC_db/ccGLMatrix.h
  ../libs/qCC_db/ccGLMatrixTpl.h
  ../libs/qCC_db/ccGenericGLDisplay.h
+ ../libs/qCC_db/ccGenericMesh.h
  ../libs/qCC_db/ccGenericPointCloud.h
  ../libs/qCC_db/ccHObject.h
  ../libs/qCC_db/ccHObjectCaster.h
  ../libs/qCC_db/ccIncludeGL.h
  ../libs/qCC_db/ccLog.h
  ../libs/qCC_db/ccMaterial.h
+ ../libs/qCC_db/ccMaterialSet.h
+ ../libs/qCC_db/ccMesh.h
  ../libs/qCC_db/ccNormalCompressor.h
  ../libs/qCC_db/ccNormalVectors.h
  ../libs/qCC_db/ccObject.h
@@ -1233,6 +1327,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o
  ../libs/qCC_db/ccPointCloud.h
  ../libs/qCC_db/ccPolyline.h
  ../libs/qCC_db/ccRasterGrid.h
+ ../libs/qCC_db/ccScalarField.h
  ../libs/qCC_db/ccSerializableObject.h
  ../libs/qCC_db/ccShiftedObject.h
  ../libs/qCC_db/ccWaveform.h

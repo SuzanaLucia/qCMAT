@@ -1,0 +1,3 @@
+file(REMOVE_RECURSE
+  "libQSSAO_RANDOMKIT_LIB.a"
+)

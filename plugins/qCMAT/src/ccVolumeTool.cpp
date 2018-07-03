@@ -20,23 +20,29 @@
 #include "ccHObject.h"
 #include "SimpleCloud.h"
 #include "ui_ccVolumeTool.h"
-
+//#include "ccCropTool.h"
 
 #include <cstdlib>
 #include <iostream>
 #include <vector>
 #include <CloudSamplingTools.h>
 #include <string>
+#include <QOpenGLWidget>
+
 
 //ccLib
 #include <Delaunay2dMesh.h>
 #include <PointProjectionTools.h>
 #include <ccProgressDialog.h>
+#include <ccGLWidget.h>
+
 
 //cute <3
 #include <QMessageBox>
 #include <QSettings>
 #include <QLineEdit>
+#include <QSurfaceFormat>
+//#include <genericPointAction>
 
 ccVolumeTool::ccVolumeTool(QWidget* parent)
 	: QDialog(parent, Qt::Tool)
@@ -83,6 +89,10 @@ void ccVolumeTool::initializeTool(ccMainAppInterface* app)
 			CCVector3f cMax = cBox.maxCorner();
 			//take max z - min z
 			height = cMax[2] - cMin[2];
+		//initialize main cloud
+		const std::vector<ccHObject*> clouds = m_app->getSelectedEntities();
+//TODO: Add code for handling multiple clouds
+		mainCloud = clouds[0];
 //TESTING CODE
 //This now works! m_app->dispToConsole(std::to_string(height).c_str());
 		std::string message = std::to_string(cBox.minCorner()[2]) + " - " + std::to_string(cBox.maxCorner()[2]) + " : " + std::to_string(height) + " tot.";
@@ -93,16 +103,30 @@ void ccVolumeTool::initializeTool(ccMainAppInterface* app)
 			
 }
 
+
+/*void ccVolumeTool::contourPoints(const CCVector3& vec, ScalarType& scal){
+	//if point not in contour
+	if(vec[2] < sliceBottom || vec[2] > sliceTop){
+		//remove point
+//TODO, make this a delete not a tripple 0, although does it honestly matter? --> it might for the volume algorithm at the 00 chunk
+		vec[0] = 0;
+		vec[1] = 0;
+		vec[2] = 0;
+		scal = 0;
+	}
+}*/
+
+
 void ccVolumeTool::processClouds(){
 	/*
 	Loop through selected entities and calculate the volume based on user parameters,
 	then display or save it appropriatly
 	*/
 
-
 //TODO: Assumtion is that theyre all legit clouds	
 	const std::vector<ccHObject*> clouds = m_app->getSelectedEntities();
-
+//TODO: Add code for handling multiple clouds
+	mainCloud = clouds[0];
 	//chop up cloud based on user input
 		//get the height of the whole cloud
 
@@ -110,14 +134,15 @@ void ccVolumeTool::processClouds(){
 
 		//query size of users section
 
-	volumeBetweenHeights( clouds[0], 0, 0 );
+	volumeBetweenHeights( 0, 0 , ccHObjectCaster::ToPointCloud(mainCloud));
 }
 
 
 void ccVolumeTool::contourVolume(){
+
 		//get users chunk size
-		float userBottom = maxBottom;
-		float userTop = maxTop;
+		userBottom = maxBottom;
+		userTop = maxTop;
 		userBottom = bottomInput->text().toFloat() + 0.01;  //Need to add small amount for float accuracy
 		userTop = topInput->text().toFloat() - 0.01;       
 		//get number of slices
@@ -133,18 +158,57 @@ void ccVolumeTool::contourVolume(){
 		//for each slice
 		for(int i = 0; i < noSlices; i++){
 			//save top and bottom
-			sliceInfo[i][1] = userBottom + i * sliceSize;		//Bottom of slice
-			sliceInfo[i][2] = userBottom + (i + 1) * sliceSize;	//Top of slice
-			//calculate its volume
-
+			sliceTop = userBottom + (i + 1) * sliceSize;
+			sliceBottom = userBottom + i * sliceSize;
+			sliceInfo[i][1] = sliceBottom;		//Bottom of slice
+			sliceInfo[i][2] = sliceTop;	//Top of slice
+			//type cast mainCloud
+			//cainCloud = ccHObjectCaster::ToGenericPointCloud(mainCloud);
+			//assign it to the normalized version of our cloud
+			ccPointCloud* tempCloud = normalizeCloud(ccHObjectCaster::ToPointCloud(mainCloud), sliceBottom, sliceTop);
+//TESTING: for the sake of them sick tests stick it in the pointCloud
+			//calculate volume of the new cloud
+			sliceInfo[i][0] = volumeBetweenHeights(0, 0, tempCloud);
 			//report and save it
+
+			//get rid of memory
 		}
-//TODO: store this into some sort of sensible data structure
+}
+
+
+ccPointCloud* ccVolumeTool::normalizeCloud(ccPointCloud* cloud, int bottom, int top){
+	//remember to pass this method a memeber
+	//forEach(genericPointAction &  anAction)	
+	//cloud->forEach( ccVolumeTool::contourPoints );
+	ccPointCloud* tempCloud = new ccPointCloud();
+	//copy all points, but wait! normalize where z isnt within the slice boundries
+	//make some space for all the new points
+	tempCloud->reserveThePointsTable(cloud->size());
+		//for each point in the cloud
+	for(int i = 0; i < cloud->size(); i++){
+		//get that point
+		CCVector3 tempVect;
+		cloud->getPoint(i, tempVect); //get point values
+		//modify z coordinates if necessery
+		if(tempVect[2] < bottom){ //if below
+			tempVect[2] = bottom;
+		} else if(tempVect[2] > top){
+			tempVect[2] = top;
+		}
+		//add it to the new cloud
+//TODO make + - bottom more elegant
+		//remove bottom of cloud from z coord 
+		tempVect[2] -= bottom;
+		tempCloud->addPoint(tempVect);
+	}
+	//at this point, our boi point cloud should be full and normalized
+	return tempCloud;
 
 }
 
 
-float ccVolumeTool::volumeBetweenHeights( ccHObject* cloud, int bottom, int top){
+
+float ccVolumeTool::volumeBetweenHeights(int bottom, int top, ccPointCloud* theCloud){
 	//get a list of all the clouds i guess | Assume its just one Cloud selected and given as argument
 		//for now ignore min and max limits
 	//start off by just displaying the volume
@@ -157,28 +221,10 @@ float ccVolumeTool::volumeBetweenHeights( ccHObject* cloud, int bottom, int top)
 	ReportInfo result;
 	ccRasterGrid grid;
 
-	//get bbox;
-	/*
-	ccBBox gridBBox = m_cloud1 ? m_cloud1->getOwnBB() : ccBBox(); 
-	if (m_cloud2)
-	{
-		gridBBox += m_cloud2->getOwnBB();
-	}
-	*/
-	//temporary code to get gridBBox
-
-
-	//code for getting the projection dimension
-	/*
-	int dim = projDimComboBox->currentIndex();
-	assert(dim >= 0 && dim < 3);
-
-	return static_cast<unsigned char>(dim);
-	*/
 	//specify grid step, 0.5 seems sensible
 	float gridStep = 0.5;
 
-	ccBBox gridBBox = cloud->getOwnBB();
+	ccBBox gridBBox = theCloud->getOwnBB();
 	//get grid width and height
 	unsigned& gridWidth = *(new unsigned);
 	unsigned& gridHeight = *(new unsigned);
@@ -204,7 +250,7 @@ float ccVolumeTool::volumeBetweenHeights( ccHObject* cloud, int bottom, int top)
 	ComputeVolume(
 			grid, //raster grid
 			0,  //ground
-			ccHObjectCaster::ToGenericPointCloud(cloud),	//cieling
+			ccHObjectCaster::ToGenericPointCloud(theCloud),	//cieling
 			gridBBox,		//grid box
 			2,			//vert dimension, assume z
 			gridStep,			//grid step
@@ -484,3 +530,4 @@ bool ccVolumeTool::ComputeVolume(	ccRasterGrid& grid,
 
 	return true;
 }
+

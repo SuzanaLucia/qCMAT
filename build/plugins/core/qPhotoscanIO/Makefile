@@ -56,30 +56,6 @@ CMAKE_BINARY_DIR = /home/chrome/work/CloudCompare/qCMAT/build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
-
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
-
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -91,6 +67,18 @@ install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
 	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
 
 # Special rule for the target list_install_components
 list_install_components:
@@ -124,6 +112,18 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
 # The main all target
 all: cmake_check_build_system
 	cd /home/chrome/work/CloudCompare/qCMAT/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles /home/chrome/work/CloudCompare/qCMAT/build/plugins/core/qPhotoscanIO/CMakeFiles/progress.marks
@@ -156,18 +156,682 @@ depend:
 	cd /home/chrome/work/CloudCompare/qCMAT/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN.dir/rule:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN.dir/rule
+.PHONY : plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN.dir/rule
+
+# Convenience name for target.
+QPHOTOSCAN_IO_PLUGIN: plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN.dir/rule
+
+.PHONY : QPHOTOSCAN_IO_PLUGIN
+
+# fast build rule for target.
+QPHOTOSCAN_IO_PLUGIN/fast:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN.dir/build
+.PHONY : QPHOTOSCAN_IO_PLUGIN/fast
+
+# Convenience name for target.
+plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/rule:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/rule
+.PHONY : plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/rule
+
+# Convenience name for target.
+quazip_static: plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/rule
+
+.PHONY : quazip_static
+
+# fast build rule for target.
+quazip_static/fast:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/build
+.PHONY : quazip_static/fast
+
+# Convenience name for target.
+plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN_autogen.dir/rule:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN_autogen.dir/rule
+.PHONY : plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN_autogen.dir/rule
+
+# Convenience name for target.
+QPHOTOSCAN_IO_PLUGIN_autogen: plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN_autogen.dir/rule
+
+.PHONY : QPHOTOSCAN_IO_PLUGIN_autogen
+
+# fast build rule for target.
+QPHOTOSCAN_IO_PLUGIN_autogen/fast:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN_autogen.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN_autogen.dir/build
+.PHONY : QPHOTOSCAN_IO_PLUGIN_autogen/fast
+
+# Convenience name for target.
+plugins/core/qPhotoscanIO/CMakeFiles/quazip_static_autogen.dir/rule:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/core/qPhotoscanIO/CMakeFiles/quazip_static_autogen.dir/rule
+.PHONY : plugins/core/qPhotoscanIO/CMakeFiles/quazip_static_autogen.dir/rule
+
+# Convenience name for target.
+quazip_static_autogen: plugins/core/qPhotoscanIO/CMakeFiles/quazip_static_autogen.dir/rule
+
+.PHONY : quazip_static_autogen
+
+# fast build rule for target.
+quazip_static_autogen/fast:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/quazip_static_autogen.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/quazip_static_autogen.dir/build
+.PHONY : quazip_static_autogen/fast
+
+QPHOTOSCAN_IO_PLUGIN_autogen/mocs_compilation.o: QPHOTOSCAN_IO_PLUGIN_autogen/mocs_compilation.cpp.o
+
+.PHONY : QPHOTOSCAN_IO_PLUGIN_autogen/mocs_compilation.o
+
+# target to build an object file
+QPHOTOSCAN_IO_PLUGIN_autogen/mocs_compilation.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN.dir/QPHOTOSCAN_IO_PLUGIN_autogen/mocs_compilation.cpp.o
+.PHONY : QPHOTOSCAN_IO_PLUGIN_autogen/mocs_compilation.cpp.o
+
+QPHOTOSCAN_IO_PLUGIN_autogen/mocs_compilation.i: QPHOTOSCAN_IO_PLUGIN_autogen/mocs_compilation.cpp.i
+
+.PHONY : QPHOTOSCAN_IO_PLUGIN_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+QPHOTOSCAN_IO_PLUGIN_autogen/mocs_compilation.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN.dir/QPHOTOSCAN_IO_PLUGIN_autogen/mocs_compilation.cpp.i
+.PHONY : QPHOTOSCAN_IO_PLUGIN_autogen/mocs_compilation.cpp.i
+
+QPHOTOSCAN_IO_PLUGIN_autogen/mocs_compilation.s: QPHOTOSCAN_IO_PLUGIN_autogen/mocs_compilation.cpp.s
+
+.PHONY : QPHOTOSCAN_IO_PLUGIN_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+QPHOTOSCAN_IO_PLUGIN_autogen/mocs_compilation.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN.dir/QPHOTOSCAN_IO_PLUGIN_autogen/mocs_compilation.cpp.s
+.PHONY : QPHOTOSCAN_IO_PLUGIN_autogen/mocs_compilation.cpp.s
+
+__/__/ccDefaultPluginInterface.o: __/__/ccDefaultPluginInterface.cpp.o
+
+.PHONY : __/__/ccDefaultPluginInterface.o
+
+# target to build an object file
+__/__/ccDefaultPluginInterface.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN.dir/__/__/ccDefaultPluginInterface.cpp.o
+.PHONY : __/__/ccDefaultPluginInterface.cpp.o
+
+__/__/ccDefaultPluginInterface.i: __/__/ccDefaultPluginInterface.cpp.i
+
+.PHONY : __/__/ccDefaultPluginInterface.i
+
+# target to preprocess a source file
+__/__/ccDefaultPluginInterface.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN.dir/__/__/ccDefaultPluginInterface.cpp.i
+.PHONY : __/__/ccDefaultPluginInterface.cpp.i
+
+__/__/ccDefaultPluginInterface.s: __/__/ccDefaultPluginInterface.cpp.s
+
+.PHONY : __/__/ccDefaultPluginInterface.s
+
+# target to generate assembly for a file
+__/__/ccDefaultPluginInterface.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN.dir/__/__/ccDefaultPluginInterface.cpp.s
+.PHONY : __/__/ccDefaultPluginInterface.cpp.s
+
+__/__/ccStdPluginInterface.o: __/__/ccStdPluginInterface.cpp.o
+
+.PHONY : __/__/ccStdPluginInterface.o
+
+# target to build an object file
+__/__/ccStdPluginInterface.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN.dir/__/__/ccStdPluginInterface.cpp.o
+.PHONY : __/__/ccStdPluginInterface.cpp.o
+
+__/__/ccStdPluginInterface.i: __/__/ccStdPluginInterface.cpp.i
+
+.PHONY : __/__/ccStdPluginInterface.i
+
+# target to preprocess a source file
+__/__/ccStdPluginInterface.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN.dir/__/__/ccStdPluginInterface.cpp.i
+.PHONY : __/__/ccStdPluginInterface.cpp.i
+
+__/__/ccStdPluginInterface.s: __/__/ccStdPluginInterface.cpp.s
+
+.PHONY : __/__/ccStdPluginInterface.s
+
+# target to generate assembly for a file
+__/__/ccStdPluginInterface.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN.dir/__/__/ccStdPluginInterface.cpp.s
+.PHONY : __/__/ccStdPluginInterface.cpp.s
+
+qPhotoscanIO.o: qPhotoscanIO.cpp.o
+
+.PHONY : qPhotoscanIO.o
+
+# target to build an object file
+qPhotoscanIO.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN.dir/qPhotoscanIO.cpp.o
+.PHONY : qPhotoscanIO.cpp.o
+
+qPhotoscanIO.i: qPhotoscanIO.cpp.i
+
+.PHONY : qPhotoscanIO.i
+
+# target to preprocess a source file
+qPhotoscanIO.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN.dir/qPhotoscanIO.cpp.i
+.PHONY : qPhotoscanIO.cpp.i
+
+qPhotoscanIO.s: qPhotoscanIO.cpp.s
+
+.PHONY : qPhotoscanIO.s
+
+# target to generate assembly for a file
+qPhotoscanIO.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN.dir/qPhotoscanIO.cpp.s
+.PHONY : qPhotoscanIO.cpp.s
+
+qrc_qPhotoscanIO.o: qrc_qPhotoscanIO.cpp.o
+
+.PHONY : qrc_qPhotoscanIO.o
+
+# target to build an object file
+qrc_qPhotoscanIO.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN.dir/qrc_qPhotoscanIO.cpp.o
+.PHONY : qrc_qPhotoscanIO.cpp.o
+
+qrc_qPhotoscanIO.i: qrc_qPhotoscanIO.cpp.i
+
+.PHONY : qrc_qPhotoscanIO.i
+
+# target to preprocess a source file
+qrc_qPhotoscanIO.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN.dir/qrc_qPhotoscanIO.cpp.i
+.PHONY : qrc_qPhotoscanIO.cpp.i
+
+qrc_qPhotoscanIO.s: qrc_qPhotoscanIO.cpp.s
+
+.PHONY : qrc_qPhotoscanIO.s
+
+# target to generate assembly for a file
+qrc_qPhotoscanIO.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN.dir/qrc_qPhotoscanIO.cpp.s
+.PHONY : qrc_qPhotoscanIO.cpp.s
+
+quazip_static_autogen/mocs_compilation.o: quazip_static_autogen/mocs_compilation.cpp.o
+
+.PHONY : quazip_static_autogen/mocs_compilation.o
+
+# target to build an object file
+quazip_static_autogen/mocs_compilation.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/quazip_static_autogen/mocs_compilation.cpp.o
+.PHONY : quazip_static_autogen/mocs_compilation.cpp.o
+
+quazip_static_autogen/mocs_compilation.i: quazip_static_autogen/mocs_compilation.cpp.i
+
+.PHONY : quazip_static_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+quazip_static_autogen/mocs_compilation.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/quazip_static_autogen/mocs_compilation.cpp.i
+.PHONY : quazip_static_autogen/mocs_compilation.cpp.i
+
+quazip_static_autogen/mocs_compilation.s: quazip_static_autogen/mocs_compilation.cpp.s
+
+.PHONY : quazip_static_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+quazip_static_autogen/mocs_compilation.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/quazip_static_autogen/mocs_compilation.cpp.s
+.PHONY : quazip_static_autogen/mocs_compilation.cpp.s
+
+src/PhotoScanFilter.o: src/PhotoScanFilter.cpp.o
+
+.PHONY : src/PhotoScanFilter.o
+
+# target to build an object file
+src/PhotoScanFilter.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN.dir/src/PhotoScanFilter.cpp.o
+.PHONY : src/PhotoScanFilter.cpp.o
+
+src/PhotoScanFilter.i: src/PhotoScanFilter.cpp.i
+
+.PHONY : src/PhotoScanFilter.i
+
+# target to preprocess a source file
+src/PhotoScanFilter.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN.dir/src/PhotoScanFilter.cpp.i
+.PHONY : src/PhotoScanFilter.cpp.i
+
+src/PhotoScanFilter.s: src/PhotoScanFilter.cpp.s
+
+.PHONY : src/PhotoScanFilter.s
+
+# target to generate assembly for a file
+src/PhotoScanFilter.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/QPHOTOSCAN_IO_PLUGIN.dir/src/PhotoScanFilter.cpp.s
+.PHONY : src/PhotoScanFilter.cpp.s
+
+src/contrib/quazip-0.7.3/quazip/JlCompress.o: src/contrib/quazip-0.7.3/quazip/JlCompress.cpp.o
+
+.PHONY : src/contrib/quazip-0.7.3/quazip/JlCompress.o
+
+# target to build an object file
+src/contrib/quazip-0.7.3/quazip/JlCompress.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/src/contrib/quazip-0.7.3/quazip/JlCompress.cpp.o
+.PHONY : src/contrib/quazip-0.7.3/quazip/JlCompress.cpp.o
+
+src/contrib/quazip-0.7.3/quazip/JlCompress.i: src/contrib/quazip-0.7.3/quazip/JlCompress.cpp.i
+
+.PHONY : src/contrib/quazip-0.7.3/quazip/JlCompress.i
+
+# target to preprocess a source file
+src/contrib/quazip-0.7.3/quazip/JlCompress.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/src/contrib/quazip-0.7.3/quazip/JlCompress.cpp.i
+.PHONY : src/contrib/quazip-0.7.3/quazip/JlCompress.cpp.i
+
+src/contrib/quazip-0.7.3/quazip/JlCompress.s: src/contrib/quazip-0.7.3/quazip/JlCompress.cpp.s
+
+.PHONY : src/contrib/quazip-0.7.3/quazip/JlCompress.s
+
+# target to generate assembly for a file
+src/contrib/quazip-0.7.3/quazip/JlCompress.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/src/contrib/quazip-0.7.3/quazip/JlCompress.cpp.s
+.PHONY : src/contrib/quazip-0.7.3/quazip/JlCompress.cpp.s
+
+src/contrib/quazip-0.7.3/quazip/qioapi.o: src/contrib/quazip-0.7.3/quazip/qioapi.cpp.o
+
+.PHONY : src/contrib/quazip-0.7.3/quazip/qioapi.o
+
+# target to build an object file
+src/contrib/quazip-0.7.3/quazip/qioapi.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/src/contrib/quazip-0.7.3/quazip/qioapi.cpp.o
+.PHONY : src/contrib/quazip-0.7.3/quazip/qioapi.cpp.o
+
+src/contrib/quazip-0.7.3/quazip/qioapi.i: src/contrib/quazip-0.7.3/quazip/qioapi.cpp.i
+
+.PHONY : src/contrib/quazip-0.7.3/quazip/qioapi.i
+
+# target to preprocess a source file
+src/contrib/quazip-0.7.3/quazip/qioapi.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/src/contrib/quazip-0.7.3/quazip/qioapi.cpp.i
+.PHONY : src/contrib/quazip-0.7.3/quazip/qioapi.cpp.i
+
+src/contrib/quazip-0.7.3/quazip/qioapi.s: src/contrib/quazip-0.7.3/quazip/qioapi.cpp.s
+
+.PHONY : src/contrib/quazip-0.7.3/quazip/qioapi.s
+
+# target to generate assembly for a file
+src/contrib/quazip-0.7.3/quazip/qioapi.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/src/contrib/quazip-0.7.3/quazip/qioapi.cpp.s
+.PHONY : src/contrib/quazip-0.7.3/quazip/qioapi.cpp.s
+
+src/contrib/quazip-0.7.3/quazip/quaadler32.o: src/contrib/quazip-0.7.3/quazip/quaadler32.cpp.o
+
+.PHONY : src/contrib/quazip-0.7.3/quazip/quaadler32.o
+
+# target to build an object file
+src/contrib/quazip-0.7.3/quazip/quaadler32.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/src/contrib/quazip-0.7.3/quazip/quaadler32.cpp.o
+.PHONY : src/contrib/quazip-0.7.3/quazip/quaadler32.cpp.o
+
+src/contrib/quazip-0.7.3/quazip/quaadler32.i: src/contrib/quazip-0.7.3/quazip/quaadler32.cpp.i
+
+.PHONY : src/contrib/quazip-0.7.3/quazip/quaadler32.i
+
+# target to preprocess a source file
+src/contrib/quazip-0.7.3/quazip/quaadler32.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/src/contrib/quazip-0.7.3/quazip/quaadler32.cpp.i
+.PHONY : src/contrib/quazip-0.7.3/quazip/quaadler32.cpp.i
+
+src/contrib/quazip-0.7.3/quazip/quaadler32.s: src/contrib/quazip-0.7.3/quazip/quaadler32.cpp.s
+
+.PHONY : src/contrib/quazip-0.7.3/quazip/quaadler32.s
+
+# target to generate assembly for a file
+src/contrib/quazip-0.7.3/quazip/quaadler32.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/src/contrib/quazip-0.7.3/quazip/quaadler32.cpp.s
+.PHONY : src/contrib/quazip-0.7.3/quazip/quaadler32.cpp.s
+
+src/contrib/quazip-0.7.3/quazip/quacrc32.o: src/contrib/quazip-0.7.3/quazip/quacrc32.cpp.o
+
+.PHONY : src/contrib/quazip-0.7.3/quazip/quacrc32.o
+
+# target to build an object file
+src/contrib/quazip-0.7.3/quazip/quacrc32.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/src/contrib/quazip-0.7.3/quazip/quacrc32.cpp.o
+.PHONY : src/contrib/quazip-0.7.3/quazip/quacrc32.cpp.o
+
+src/contrib/quazip-0.7.3/quazip/quacrc32.i: src/contrib/quazip-0.7.3/quazip/quacrc32.cpp.i
+
+.PHONY : src/contrib/quazip-0.7.3/quazip/quacrc32.i
+
+# target to preprocess a source file
+src/contrib/quazip-0.7.3/quazip/quacrc32.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/src/contrib/quazip-0.7.3/quazip/quacrc32.cpp.i
+.PHONY : src/contrib/quazip-0.7.3/quazip/quacrc32.cpp.i
+
+src/contrib/quazip-0.7.3/quazip/quacrc32.s: src/contrib/quazip-0.7.3/quazip/quacrc32.cpp.s
+
+.PHONY : src/contrib/quazip-0.7.3/quazip/quacrc32.s
+
+# target to generate assembly for a file
+src/contrib/quazip-0.7.3/quazip/quacrc32.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/src/contrib/quazip-0.7.3/quazip/quacrc32.cpp.s
+.PHONY : src/contrib/quazip-0.7.3/quazip/quacrc32.cpp.s
+
+src/contrib/quazip-0.7.3/quazip/quagzipfile.o: src/contrib/quazip-0.7.3/quazip/quagzipfile.cpp.o
+
+.PHONY : src/contrib/quazip-0.7.3/quazip/quagzipfile.o
+
+# target to build an object file
+src/contrib/quazip-0.7.3/quazip/quagzipfile.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/src/contrib/quazip-0.7.3/quazip/quagzipfile.cpp.o
+.PHONY : src/contrib/quazip-0.7.3/quazip/quagzipfile.cpp.o
+
+src/contrib/quazip-0.7.3/quazip/quagzipfile.i: src/contrib/quazip-0.7.3/quazip/quagzipfile.cpp.i
+
+.PHONY : src/contrib/quazip-0.7.3/quazip/quagzipfile.i
+
+# target to preprocess a source file
+src/contrib/quazip-0.7.3/quazip/quagzipfile.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/src/contrib/quazip-0.7.3/quazip/quagzipfile.cpp.i
+.PHONY : src/contrib/quazip-0.7.3/quazip/quagzipfile.cpp.i
+
+src/contrib/quazip-0.7.3/quazip/quagzipfile.s: src/contrib/quazip-0.7.3/quazip/quagzipfile.cpp.s
+
+.PHONY : src/contrib/quazip-0.7.3/quazip/quagzipfile.s
+
+# target to generate assembly for a file
+src/contrib/quazip-0.7.3/quazip/quagzipfile.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/src/contrib/quazip-0.7.3/quazip/quagzipfile.cpp.s
+.PHONY : src/contrib/quazip-0.7.3/quazip/quagzipfile.cpp.s
+
+src/contrib/quazip-0.7.3/quazip/quaziodevice.o: src/contrib/quazip-0.7.3/quazip/quaziodevice.cpp.o
+
+.PHONY : src/contrib/quazip-0.7.3/quazip/quaziodevice.o
+
+# target to build an object file
+src/contrib/quazip-0.7.3/quazip/quaziodevice.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/src/contrib/quazip-0.7.3/quazip/quaziodevice.cpp.o
+.PHONY : src/contrib/quazip-0.7.3/quazip/quaziodevice.cpp.o
+
+src/contrib/quazip-0.7.3/quazip/quaziodevice.i: src/contrib/quazip-0.7.3/quazip/quaziodevice.cpp.i
+
+.PHONY : src/contrib/quazip-0.7.3/quazip/quaziodevice.i
+
+# target to preprocess a source file
+src/contrib/quazip-0.7.3/quazip/quaziodevice.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/src/contrib/quazip-0.7.3/quazip/quaziodevice.cpp.i
+.PHONY : src/contrib/quazip-0.7.3/quazip/quaziodevice.cpp.i
+
+src/contrib/quazip-0.7.3/quazip/quaziodevice.s: src/contrib/quazip-0.7.3/quazip/quaziodevice.cpp.s
+
+.PHONY : src/contrib/quazip-0.7.3/quazip/quaziodevice.s
+
+# target to generate assembly for a file
+src/contrib/quazip-0.7.3/quazip/quaziodevice.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/src/contrib/quazip-0.7.3/quazip/quaziodevice.cpp.s
+.PHONY : src/contrib/quazip-0.7.3/quazip/quaziodevice.cpp.s
+
+src/contrib/quazip-0.7.3/quazip/quazip.o: src/contrib/quazip-0.7.3/quazip/quazip.cpp.o
+
+.PHONY : src/contrib/quazip-0.7.3/quazip/quazip.o
+
+# target to build an object file
+src/contrib/quazip-0.7.3/quazip/quazip.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/src/contrib/quazip-0.7.3/quazip/quazip.cpp.o
+.PHONY : src/contrib/quazip-0.7.3/quazip/quazip.cpp.o
+
+src/contrib/quazip-0.7.3/quazip/quazip.i: src/contrib/quazip-0.7.3/quazip/quazip.cpp.i
+
+.PHONY : src/contrib/quazip-0.7.3/quazip/quazip.i
+
+# target to preprocess a source file
+src/contrib/quazip-0.7.3/quazip/quazip.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/src/contrib/quazip-0.7.3/quazip/quazip.cpp.i
+.PHONY : src/contrib/quazip-0.7.3/quazip/quazip.cpp.i
+
+src/contrib/quazip-0.7.3/quazip/quazip.s: src/contrib/quazip-0.7.3/quazip/quazip.cpp.s
+
+.PHONY : src/contrib/quazip-0.7.3/quazip/quazip.s
+
+# target to generate assembly for a file
+src/contrib/quazip-0.7.3/quazip/quazip.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/src/contrib/quazip-0.7.3/quazip/quazip.cpp.s
+.PHONY : src/contrib/quazip-0.7.3/quazip/quazip.cpp.s
+
+src/contrib/quazip-0.7.3/quazip/quazipdir.o: src/contrib/quazip-0.7.3/quazip/quazipdir.cpp.o
+
+.PHONY : src/contrib/quazip-0.7.3/quazip/quazipdir.o
+
+# target to build an object file
+src/contrib/quazip-0.7.3/quazip/quazipdir.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/src/contrib/quazip-0.7.3/quazip/quazipdir.cpp.o
+.PHONY : src/contrib/quazip-0.7.3/quazip/quazipdir.cpp.o
+
+src/contrib/quazip-0.7.3/quazip/quazipdir.i: src/contrib/quazip-0.7.3/quazip/quazipdir.cpp.i
+
+.PHONY : src/contrib/quazip-0.7.3/quazip/quazipdir.i
+
+# target to preprocess a source file
+src/contrib/quazip-0.7.3/quazip/quazipdir.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/src/contrib/quazip-0.7.3/quazip/quazipdir.cpp.i
+.PHONY : src/contrib/quazip-0.7.3/quazip/quazipdir.cpp.i
+
+src/contrib/quazip-0.7.3/quazip/quazipdir.s: src/contrib/quazip-0.7.3/quazip/quazipdir.cpp.s
+
+.PHONY : src/contrib/quazip-0.7.3/quazip/quazipdir.s
+
+# target to generate assembly for a file
+src/contrib/quazip-0.7.3/quazip/quazipdir.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/src/contrib/quazip-0.7.3/quazip/quazipdir.cpp.s
+.PHONY : src/contrib/quazip-0.7.3/quazip/quazipdir.cpp.s
+
+src/contrib/quazip-0.7.3/quazip/quazipfile.o: src/contrib/quazip-0.7.3/quazip/quazipfile.cpp.o
+
+.PHONY : src/contrib/quazip-0.7.3/quazip/quazipfile.o
+
+# target to build an object file
+src/contrib/quazip-0.7.3/quazip/quazipfile.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/src/contrib/quazip-0.7.3/quazip/quazipfile.cpp.o
+.PHONY : src/contrib/quazip-0.7.3/quazip/quazipfile.cpp.o
+
+src/contrib/quazip-0.7.3/quazip/quazipfile.i: src/contrib/quazip-0.7.3/quazip/quazipfile.cpp.i
+
+.PHONY : src/contrib/quazip-0.7.3/quazip/quazipfile.i
+
+# target to preprocess a source file
+src/contrib/quazip-0.7.3/quazip/quazipfile.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/src/contrib/quazip-0.7.3/quazip/quazipfile.cpp.i
+.PHONY : src/contrib/quazip-0.7.3/quazip/quazipfile.cpp.i
+
+src/contrib/quazip-0.7.3/quazip/quazipfile.s: src/contrib/quazip-0.7.3/quazip/quazipfile.cpp.s
+
+.PHONY : src/contrib/quazip-0.7.3/quazip/quazipfile.s
+
+# target to generate assembly for a file
+src/contrib/quazip-0.7.3/quazip/quazipfile.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/src/contrib/quazip-0.7.3/quazip/quazipfile.cpp.s
+.PHONY : src/contrib/quazip-0.7.3/quazip/quazipfile.cpp.s
+
+src/contrib/quazip-0.7.3/quazip/quazipfileinfo.o: src/contrib/quazip-0.7.3/quazip/quazipfileinfo.cpp.o
+
+.PHONY : src/contrib/quazip-0.7.3/quazip/quazipfileinfo.o
+
+# target to build an object file
+src/contrib/quazip-0.7.3/quazip/quazipfileinfo.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/src/contrib/quazip-0.7.3/quazip/quazipfileinfo.cpp.o
+.PHONY : src/contrib/quazip-0.7.3/quazip/quazipfileinfo.cpp.o
+
+src/contrib/quazip-0.7.3/quazip/quazipfileinfo.i: src/contrib/quazip-0.7.3/quazip/quazipfileinfo.cpp.i
+
+.PHONY : src/contrib/quazip-0.7.3/quazip/quazipfileinfo.i
+
+# target to preprocess a source file
+src/contrib/quazip-0.7.3/quazip/quazipfileinfo.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/src/contrib/quazip-0.7.3/quazip/quazipfileinfo.cpp.i
+.PHONY : src/contrib/quazip-0.7.3/quazip/quazipfileinfo.cpp.i
+
+src/contrib/quazip-0.7.3/quazip/quazipfileinfo.s: src/contrib/quazip-0.7.3/quazip/quazipfileinfo.cpp.s
+
+.PHONY : src/contrib/quazip-0.7.3/quazip/quazipfileinfo.s
+
+# target to generate assembly for a file
+src/contrib/quazip-0.7.3/quazip/quazipfileinfo.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/src/contrib/quazip-0.7.3/quazip/quazipfileinfo.cpp.s
+.PHONY : src/contrib/quazip-0.7.3/quazip/quazipfileinfo.cpp.s
+
+src/contrib/quazip-0.7.3/quazip/quazipnewinfo.o: src/contrib/quazip-0.7.3/quazip/quazipnewinfo.cpp.o
+
+.PHONY : src/contrib/quazip-0.7.3/quazip/quazipnewinfo.o
+
+# target to build an object file
+src/contrib/quazip-0.7.3/quazip/quazipnewinfo.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/src/contrib/quazip-0.7.3/quazip/quazipnewinfo.cpp.o
+.PHONY : src/contrib/quazip-0.7.3/quazip/quazipnewinfo.cpp.o
+
+src/contrib/quazip-0.7.3/quazip/quazipnewinfo.i: src/contrib/quazip-0.7.3/quazip/quazipnewinfo.cpp.i
+
+.PHONY : src/contrib/quazip-0.7.3/quazip/quazipnewinfo.i
+
+# target to preprocess a source file
+src/contrib/quazip-0.7.3/quazip/quazipnewinfo.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/src/contrib/quazip-0.7.3/quazip/quazipnewinfo.cpp.i
+.PHONY : src/contrib/quazip-0.7.3/quazip/quazipnewinfo.cpp.i
+
+src/contrib/quazip-0.7.3/quazip/quazipnewinfo.s: src/contrib/quazip-0.7.3/quazip/quazipnewinfo.cpp.s
+
+.PHONY : src/contrib/quazip-0.7.3/quazip/quazipnewinfo.s
+
+# target to generate assembly for a file
+src/contrib/quazip-0.7.3/quazip/quazipnewinfo.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/src/contrib/quazip-0.7.3/quazip/quazipnewinfo.cpp.s
+.PHONY : src/contrib/quazip-0.7.3/quazip/quazipnewinfo.cpp.s
+
+src/contrib/quazip-0.7.3/quazip/unzip.o: src/contrib/quazip-0.7.3/quazip/unzip.c.o
+
+.PHONY : src/contrib/quazip-0.7.3/quazip/unzip.o
+
+# target to build an object file
+src/contrib/quazip-0.7.3/quazip/unzip.c.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/src/contrib/quazip-0.7.3/quazip/unzip.c.o
+.PHONY : src/contrib/quazip-0.7.3/quazip/unzip.c.o
+
+src/contrib/quazip-0.7.3/quazip/unzip.i: src/contrib/quazip-0.7.3/quazip/unzip.c.i
+
+.PHONY : src/contrib/quazip-0.7.3/quazip/unzip.i
+
+# target to preprocess a source file
+src/contrib/quazip-0.7.3/quazip/unzip.c.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/src/contrib/quazip-0.7.3/quazip/unzip.c.i
+.PHONY : src/contrib/quazip-0.7.3/quazip/unzip.c.i
+
+src/contrib/quazip-0.7.3/quazip/unzip.s: src/contrib/quazip-0.7.3/quazip/unzip.c.s
+
+.PHONY : src/contrib/quazip-0.7.3/quazip/unzip.s
+
+# target to generate assembly for a file
+src/contrib/quazip-0.7.3/quazip/unzip.c.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/src/contrib/quazip-0.7.3/quazip/unzip.c.s
+.PHONY : src/contrib/quazip-0.7.3/quazip/unzip.c.s
+
+src/contrib/quazip-0.7.3/quazip/zip.o: src/contrib/quazip-0.7.3/quazip/zip.c.o
+
+.PHONY : src/contrib/quazip-0.7.3/quazip/zip.o
+
+# target to build an object file
+src/contrib/quazip-0.7.3/quazip/zip.c.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/src/contrib/quazip-0.7.3/quazip/zip.c.o
+.PHONY : src/contrib/quazip-0.7.3/quazip/zip.c.o
+
+src/contrib/quazip-0.7.3/quazip/zip.i: src/contrib/quazip-0.7.3/quazip/zip.c.i
+
+.PHONY : src/contrib/quazip-0.7.3/quazip/zip.i
+
+# target to preprocess a source file
+src/contrib/quazip-0.7.3/quazip/zip.c.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/src/contrib/quazip-0.7.3/quazip/zip.c.i
+.PHONY : src/contrib/quazip-0.7.3/quazip/zip.c.i
+
+src/contrib/quazip-0.7.3/quazip/zip.s: src/contrib/quazip-0.7.3/quazip/zip.c.s
+
+.PHONY : src/contrib/quazip-0.7.3/quazip/zip.s
+
+# target to generate assembly for a file
+src/contrib/quazip-0.7.3/quazip/zip.c.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/build.make plugins/core/qPhotoscanIO/CMakeFiles/quazip_static.dir/src/contrib/quazip-0.7.3/quazip/zip.c.s
+.PHONY : src/contrib/quazip-0.7.3/quazip/zip.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... install/strip"
-	@echo "... install"
 	@echo "... install/local"
+	@echo "... install/strip"
+	@echo "... QPHOTOSCAN_IO_PLUGIN"
+	@echo "... quazip_static"
 	@echo "... list_install_components"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... install"
+	@echo "... QPHOTOSCAN_IO_PLUGIN_autogen"
+	@echo "... quazip_static_autogen"
+	@echo "... QPHOTOSCAN_IO_PLUGIN_autogen/mocs_compilation.o"
+	@echo "... QPHOTOSCAN_IO_PLUGIN_autogen/mocs_compilation.i"
+	@echo "... QPHOTOSCAN_IO_PLUGIN_autogen/mocs_compilation.s"
+	@echo "... __/__/ccDefaultPluginInterface.o"
+	@echo "... __/__/ccDefaultPluginInterface.i"
+	@echo "... __/__/ccDefaultPluginInterface.s"
+	@echo "... __/__/ccStdPluginInterface.o"
+	@echo "... __/__/ccStdPluginInterface.i"
+	@echo "... __/__/ccStdPluginInterface.s"
+	@echo "... qPhotoscanIO.o"
+	@echo "... qPhotoscanIO.i"
+	@echo "... qPhotoscanIO.s"
+	@echo "... qrc_qPhotoscanIO.o"
+	@echo "... qrc_qPhotoscanIO.i"
+	@echo "... qrc_qPhotoscanIO.s"
+	@echo "... quazip_static_autogen/mocs_compilation.o"
+	@echo "... quazip_static_autogen/mocs_compilation.i"
+	@echo "... quazip_static_autogen/mocs_compilation.s"
+	@echo "... src/PhotoScanFilter.o"
+	@echo "... src/PhotoScanFilter.i"
+	@echo "... src/PhotoScanFilter.s"
+	@echo "... src/contrib/quazip-0.7.3/quazip/JlCompress.o"
+	@echo "... src/contrib/quazip-0.7.3/quazip/JlCompress.i"
+	@echo "... src/contrib/quazip-0.7.3/quazip/JlCompress.s"
+	@echo "... src/contrib/quazip-0.7.3/quazip/qioapi.o"
+	@echo "... src/contrib/quazip-0.7.3/quazip/qioapi.i"
+	@echo "... src/contrib/quazip-0.7.3/quazip/qioapi.s"
+	@echo "... src/contrib/quazip-0.7.3/quazip/quaadler32.o"
+	@echo "... src/contrib/quazip-0.7.3/quazip/quaadler32.i"
+	@echo "... src/contrib/quazip-0.7.3/quazip/quaadler32.s"
+	@echo "... src/contrib/quazip-0.7.3/quazip/quacrc32.o"
+	@echo "... src/contrib/quazip-0.7.3/quazip/quacrc32.i"
+	@echo "... src/contrib/quazip-0.7.3/quazip/quacrc32.s"
+	@echo "... src/contrib/quazip-0.7.3/quazip/quagzipfile.o"
+	@echo "... src/contrib/quazip-0.7.3/quazip/quagzipfile.i"
+	@echo "... src/contrib/quazip-0.7.3/quazip/quagzipfile.s"
+	@echo "... src/contrib/quazip-0.7.3/quazip/quaziodevice.o"
+	@echo "... src/contrib/quazip-0.7.3/quazip/quaziodevice.i"
+	@echo "... src/contrib/quazip-0.7.3/quazip/quaziodevice.s"
+	@echo "... src/contrib/quazip-0.7.3/quazip/quazip.o"
+	@echo "... src/contrib/quazip-0.7.3/quazip/quazip.i"
+	@echo "... src/contrib/quazip-0.7.3/quazip/quazip.s"
+	@echo "... src/contrib/quazip-0.7.3/quazip/quazipdir.o"
+	@echo "... src/contrib/quazip-0.7.3/quazip/quazipdir.i"
+	@echo "... src/contrib/quazip-0.7.3/quazip/quazipdir.s"
+	@echo "... src/contrib/quazip-0.7.3/quazip/quazipfile.o"
+	@echo "... src/contrib/quazip-0.7.3/quazip/quazipfile.i"
+	@echo "... src/contrib/quazip-0.7.3/quazip/quazipfile.s"
+	@echo "... src/contrib/quazip-0.7.3/quazip/quazipfileinfo.o"
+	@echo "... src/contrib/quazip-0.7.3/quazip/quazipfileinfo.i"
+	@echo "... src/contrib/quazip-0.7.3/quazip/quazipfileinfo.s"
+	@echo "... src/contrib/quazip-0.7.3/quazip/quazipnewinfo.o"
+	@echo "... src/contrib/quazip-0.7.3/quazip/quazipnewinfo.i"
+	@echo "... src/contrib/quazip-0.7.3/quazip/quazipnewinfo.s"
+	@echo "... src/contrib/quazip-0.7.3/quazip/unzip.o"
+	@echo "... src/contrib/quazip-0.7.3/quazip/unzip.i"
+	@echo "... src/contrib/quazip-0.7.3/quazip/unzip.s"
+	@echo "... src/contrib/quazip-0.7.3/quazip/zip.o"
+	@echo "... src/contrib/quazip-0.7.3/quazip/zip.i"
+	@echo "... src/contrib/quazip-0.7.3/quazip/zip.s"
 .PHONY : help
 
 
