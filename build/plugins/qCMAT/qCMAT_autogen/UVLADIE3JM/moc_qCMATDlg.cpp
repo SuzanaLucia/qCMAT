@@ -21,8 +21,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_qCMATDlg_t {
-    QByteArrayData data[7];
-    char stringdata0[84];
+    QByteArrayData data[8];
+    char stringdata0[92];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -35,13 +35,14 @@ QT_MOC_LITERAL(0, 0, 8), // "qCMATDlg"
 QT_MOC_LITERAL(1, 9, 19), // "cancelButtonClicked"
 QT_MOC_LITERAL(2, 29, 0), // ""
 QT_MOC_LITERAL(3, 30, 17), // "startVolumeDialog"
-QT_MOC_LITERAL(4, 48, 12), // "printConsole"
-QT_MOC_LITERAL(5, 61, 11), // "std::string"
-QT_MOC_LITERAL(6, 73, 10) // "printError"
+QT_MOC_LITERAL(4, 48, 7), // "startGL"
+QT_MOC_LITERAL(5, 56, 12), // "printConsole"
+QT_MOC_LITERAL(6, 69, 11), // "std::string"
+QT_MOC_LITERAL(7, 81, 10) // "printError"
 
     },
     "qCMATDlg\0cancelButtonClicked\0\0"
-    "startVolumeDialog\0printConsole\0"
+    "startVolumeDialog\0startGL\0printConsole\0"
     "std::string\0printError"
 };
 #undef QT_MOC_LITERAL
@@ -52,7 +53,7 @@ static const uint qt_meta_data_qCMATDlg[] = {
        7,       // revision
        0,       // classname
        0,    0, // classinfo
-       4,   14, // methods
+       5,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -60,16 +61,18 @@ static const uint qt_meta_data_qCMATDlg[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    0,   34,    2, 0x09 /* Protected */,
-       3,    0,   35,    2, 0x09 /* Protected */,
-       4,    1,   36,    2, 0x09 /* Protected */,
-       6,    1,   39,    2, 0x09 /* Protected */,
+       1,    0,   39,    2, 0x09 /* Protected */,
+       3,    0,   40,    2, 0x09 /* Protected */,
+       4,    0,   41,    2, 0x09 /* Protected */,
+       5,    1,   42,    2, 0x09 /* Protected */,
+       7,    1,   45,    2, 0x09 /* Protected */,
 
  // slots: parameters
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Void, 0x80000000 | 5,    2,
-    QMetaType::Void, 0x80000000 | 5,    2,
+    QMetaType::Void,
+    QMetaType::Void, 0x80000000 | 6,    2,
+    QMetaType::Void, 0x80000000 | 6,    2,
 
        0        // eod
 };
@@ -82,8 +85,9 @@ void qCMATDlg::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, vo
         switch (_id) {
         case 0: _t->cancelButtonClicked(); break;
         case 1: _t->startVolumeDialog(); break;
-        case 2: _t->printConsole((*reinterpret_cast< std::string(*)>(_a[1]))); break;
-        case 3: _t->printError((*reinterpret_cast< std::string(*)>(_a[1]))); break;
+        case 2: _t->startGL(); break;
+        case 3: _t->printConsole((*reinterpret_cast< std::string(*)>(_a[1]))); break;
+        case 4: _t->printError((*reinterpret_cast< std::string(*)>(_a[1]))); break;
         default: ;
         }
     }
@@ -116,13 +120,13 @@ int qCMATDlg::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 4)
+        if (_id < 5)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 4;
+        _id -= 5;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 4)
+        if (_id < 5)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 4;
+        _id -= 5;
     }
     return _id;
 }

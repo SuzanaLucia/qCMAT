@@ -2,4 +2,5 @@
 #include "EWIEGA46WW/moc_qCMAT.cpp"
 #include "UVLADIE3JM/moc_ccVolumeTool.cpp"
 #include "UVLADIE3JM/moc_displayVolume.cpp"
+#include "UVLADIE3JM/moc_glDlg.cpp"
 #include "UVLADIE3JM/moc_qCMATDlg.cpp"

@@ -3,6 +3,7 @@
 
 
 #include "ui_displayVolume.h"
+#include "ccStdPluginInterface.h"
 
 #include <QDialog>
 #include <QMainWindow>
@@ -16,7 +17,7 @@ class displayVolume : public QDialog, public Ui::displayVolume
 
 public:
 //TODO: Change it to max Clouds
-	displayVolume(QWidget* parent = 0, float[][102] = 0, int = 0, int = 0);
+	displayVolume(QWidget* parent = 0, float[][102] = 0, int = 0, int = 0, ccMainAppInterface* = 0);
 	~displayVolume();
 protected slots:
 	void closeDisplay();
