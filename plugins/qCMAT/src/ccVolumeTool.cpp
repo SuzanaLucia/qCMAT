@@ -176,6 +176,15 @@ void ccVolumeTool::readCSVContours(){
 	//stick the fies name in the text box
 	    CFileName->setText(fileName);
 }
+<<<<<<< HEAD
+=======
+
+void loadCSVcontours(){
+	/**	QString fileName = QFileDialog::getSaveFileName(this,
+        tr("Save contours"), "",
+        tr("Save contours(*.csv);;All Files (*)"));**/
+}
+>>>>>>> 88ff4c73dffacf95739e4c78890dbd803ea741b6
 
 void ccVolumeTool::loadContVolume(){
 

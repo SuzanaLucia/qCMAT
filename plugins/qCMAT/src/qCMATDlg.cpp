@@ -18,6 +18,7 @@
 #include "qCMATDlg.h"
 #include <QString>
 #include "../qCMAT.h"
+#include "glDlg.h"
 #include <cstdlib>
 #include <iostream>
 #include <ccPointCloud.h>
@@ -41,14 +42,22 @@ qCMATDlg::qCMATDlg(QWidget* parent)
 	//m_app = app
 
 	// - SIGNAL and SLOTS section. -
-	connect( cancelButton, SIGNAL(rejected()), this, SLOT(cancelButtonClicked()));
+	connect( cancelButton, SIGNAL(rejected()), this, SLOT(cancelButtonClicked())); //(cancelButtonClicked()));
 	connect( volumePushButton,	SIGNAL(clicked()), this, SLOT( startVolumeDialog()));
+	connect( optionsPushButton,	SIGNAL(clicked()), this, SLOT( startGL()));
 	//connect(clearPushButton,	SIGNAL(clicked()), this, SLOT(clearPointClouds()));
 	/**connect( viewPushButton,	SIGNAL(clicked()), this, SLOT( cancelButtonClicked() ));
 	connect(interPushButton,	SIGNAL(clicked()), this, SLOT(intersectSelected()));
 	connect(diffPushButton,		SIGNAL(clicked()), this, SLOT(diffSelected()));
 	connect(symDiffPushButton,	SIGNAL(clicked()), this, SLOT(symDiffSelected()));
 	connect(swapToolButton,		SIGNAL(clicked()), this, SLOT(swap)**/
+}
+
+void qCMATDlg::startGL()
+{
+	glDlg g(m_app->getMainWindow());
+	g.initializeTool(m_app);
+	g.exec();
 }
 
 // Takes in a ccPointCloud and returns a ccGenericPointCloud

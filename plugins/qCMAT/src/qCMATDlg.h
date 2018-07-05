@@ -54,6 +54,7 @@ public:
 protected slots:
 	void cancelButtonClicked();
 	void startVolumeDialog();
+	void startGL();
 	void printConsole(std::string);
 	void printError(std::string);
 
