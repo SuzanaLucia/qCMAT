@@ -8,13 +8,15 @@
 #include <QMainWindow>
 #include <QLineEdit>
 
+
 class displayVolume : public QDialog, public Ui::displayVolume
 {
 	Q_OBJECT
 
 
 public:
-	displayVolume(QWidget* parent = 0, float[][3] = 0, int = 0);
+//TODO: Change it to max Clouds
+	displayVolume(QWidget* parent = 0, float[][102] = 0, int = 0, int = 0);
 	~displayVolume();
 protected slots:
 	void closeDisplay();

@@ -26,7 +26,7 @@
     <string>Save results as CSV file</string>
    </property>
    <property name="text">
-    <string>Save</string>
+    <string>Save .csv</string>
    </property>
   </widget>
   <widget class="QPushButton" name="DisplayVolume">
@@ -287,7 +287,7 @@
      <string>Calculate Volumes</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="LoadCFilename">
+   <widget class="QLineEdit" name="CFileName">
     <property name="geometry">
      <rect>
       <x>110</x>
@@ -326,6 +326,22 @@
      <string>Load csv file of [bottom],[top] pairs</string>
     </property>
    </widget>
+  </widget>
+  <widget class="QPushButton" name="SaveCloudCont">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>390</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Save results as CSV file</string>
+   </property>
+   <property name="text">
+    <string>Save Cloud</string>
+   </property>
   </widget>
  </widget>
  <layoutdefault spacing="6" margin="11"/>

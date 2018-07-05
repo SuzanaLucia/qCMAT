@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="/CC/plugin/qCMAT" >
+    <file>images/icon.png</file>
+    <file>images/iconSwap.png</file>
+    <file>info.json</file>
+    <file>ui/dlg.ui</file>
+  </qresource>
+</RCC>

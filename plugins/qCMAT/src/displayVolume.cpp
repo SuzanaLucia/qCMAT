@@ -3,7 +3,7 @@
 #include <string>
 #include <QString>
 
-displayVolume::displayVolume(QWidget* parent, float volumes[][3], int noSlices)
+displayVolume::displayVolume(QWidget* parent, float volumes[][102], int noSlices, int noClouds)
 	: QDialog(parent, Qt::Tool)
 	, Ui::displayVolume()
 {
@@ -16,12 +16,18 @@ displayVolume::displayVolume(QWidget* parent, float volumes[][3], int noSlices)
 	//write format to the top line
 //TODO: multiple clouds
 	Text->append(QString::fromStdString( std::to_string(noSlices) + " contours"));
-	Text->append("[Slice no.]  ;  [bottom]  |  [top]  =  [volume]");
+	Text->append("[Slice no.]  ;  [bottom]  |  [top]  =  [volume1] [volume2] ...");
 	//go through each contour and report results
 	for(int i = 0; i < noSlices; i++){ //HIGHLY SUSPECT
+		std::string output = std::to_string(i + 1) + "; "+ std::to_string(volumes[i][0]) + " | " + std::to_string(volumes[i][1]) + " = ";
+
+		for(int j = 0; j < noClouds; j++){
+			output += " " + std::to_string(volumes[i][j + 2]);
+		}
+
 		//for each contour line
 			//construct a string in [bottom] - [top] = [volume]
-		Text->append(QString::fromStdString( std::to_string(i + 1) + "; "+ std::to_string(volumes[i][1]) + " | " + std::to_string(volumes[i][2]) + " = " + std::to_string(volumes[i][0]) ));
+		Text->append(QString::fromStdString( output));
 
 	}
 

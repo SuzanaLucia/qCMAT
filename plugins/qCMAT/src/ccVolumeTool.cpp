@@ -38,6 +38,7 @@
 #include <PointProjectionTools.h>
 #include <ccProgressDialog.h>
 #include <ccGLWidget.h>
+#include <ccColorTypes.h>
 
 
 //cute <3
@@ -55,9 +56,11 @@ ccVolumeTool::ccVolumeTool(QWidget* parent)
 {
 	setupUi(this);
 
+	connect( SaveCloudCont,	SIGNAL(clicked()), this, SLOT( saveCloudContours() ));
 	connect( CalcContours,	SIGNAL(clicked()), this, SLOT( contourVolume() ));
-
+	connect( LoadCFile,	SIGNAL(clicked()), this, SLOT( readCSVContours() ));
 	connect( DisplayVolume,	SIGNAL(clicked()), this, SLOT( displayVolmes() ));
+	connect( CalcLoadFile,	SIGNAL(clicked()), this, SLOT( loadContVolume() ));
 	//connect( CalcVolButton,	SIGNAL(clicked()), this, SLOT( testConsole()));
 	//connect( pushButton_3,	SIGNAL(clicked()), this, SLOT( testConsole()));
 	connect( saveButton,	SIGNAL(clicked()), this, SLOT( saveVolume())); //presumably save
@@ -70,19 +73,206 @@ ccVolumeTool::ccVolumeTool(QWidget* parent)
 	connect(swapToolButton,		SIGNAL(clicked()), this, SLOT(swap()));**/
 }
 
-void readContours(){
-	//read contours from a file and calculate those volumes
+void ccVolumeTool::saveCloudContours(){
+	//Color and save cloud contours
+	//we need to map contours to rgb colors
+	ccPointCloud* contouredCloud = new ccPointCloud();
+	//typecast main cloud
+	ccPointCloud* oldCloud = ccHObjectCaster::ToPointCloud(mainCloud);
+
+	//check error
+	if(noSlices == 0){
+		//no data calculated
+		return;
+	}
+	//create a noSlices large array of rgb's
+//TODO; figure our rgb type; make array of rgb's	
+	float contourColors[noSlices][3]; //one each for r g and b
+	//calculate a color for each clice
+	for(int i = 0; i < noSlices; i++){
+		//generate a num between 0 and 1 and multiply them with MAX of scale
+		//this is our total number
+		//static Rgb hsl2rgb(float H, float S, float L), we HSL nao
+		/*
+			float H = (i * (360.0 / noSlices));
+			float S = 100;
+			float L = 50;
+
+			H /= 360;
+			float q = L < 0.5f ? L * (1.0f + S) : L + S - L * S;
+			float p = 2 * L - q;
+
+			float r = hue2rgb(p, q, H + 1.0f / 3.0f);
+			float g = hue2rgb(p, q, H);
+			float b = hue2rgb(p, q, H - 1.0f / 3.0f);
+		*/
+		contourColors[i][0] = (int) 155.0 + sqrt(i * (100.0 * 100 / noSlices)); //(int) i * (255.0 / noSlices);
+		contourColors[i][1] = (int) ( (255.0) * i / noSlices);
+		contourColors[i][2] = 0;
+		
+		//contourColors[i][0] = (int) ((255.0 / noSlices) * i);
+		//contourColors[i][1] = (int) (((255.0 / noSlices) / 2) * i) + 120;
+		//contourColors[i][2] = (int) ((255.0 / noSlices) * i);
+
+
+
+	}
+	//for each point in cloud
+	contouredCloud->reserveThePointsTable(oldCloud->size());
+	contouredCloud->reserveTheRGBTable();	
+
+		//for each point in the cloud
+	for(int i = 0; i < oldCloud->size(); i++){
+		//get point point
+		CCVector3 tempVect;
+		oldCloud->getPoint(i, tempVect); //get point values
+		//check what contours scalar fits in
+		//for each contour
+		bool setPointFlag = false;
+		//go though each contour
+		for(int j = 0; j < noSlices; j++){
+			if(tempVect[2] >= sliceInfo[j][1] && tempVect[2] < sliceInfo[j][2]){
+				contouredCloud->addRGBColor(contourColors[j][0], contourColors[j][1], contourColors[j][2]); //add same crap for testing purposes
+				contouredCloud->addPoint(tempVect);
+				setPointFlag = true;
+				break;
+			}
+		}
+		if(!setPointFlag){
+			contouredCloud->addRGBColor(oldCloud->getPointColor(i)); //add same crap for testing purposes	
+			contouredCloud->addPoint(tempVect);
+		}
+		//copy cloud with different color
+		//default color if not in any contour (black?)
+
+		//add scalar (colorType r, colorType g, colorType b);
+		//contouredCloud->addRGBColor(contourColors[i][0], contourColors[i][1], contourColors[i][2]); //add same crap for testing purposes
+		
+		//(unsigned pointIndex, const colorType* col)
+		//contouredCloud->setPointColor(i, colorType::red );
+	//if(contouredCloud->hasColors()){
+	//	m_app->dispToConsole("Cloud has colors!");
+	//}
+	}
+	//save cloud to DB_tree ->addToDB(ccHObject* obj, bool updateZoom = false, bool autoExpandDBTree = true, bool checkDimensions = false, bool autoRedraw = true) = 0;
+	//contouredCloud->unallocateColors();
+	//contouredCloud->showSFColorsScale(true); //display colors from the getgo
+	contouredCloud->setCurrentDisplayedScalarField(0);
+	//mainCloud->addChild(contouredCloud, 24, -1);
+	m_app->addToDB(contouredCloud, /*updateZoom*/ false, /*autoExpandDBTree*/  true, /*checkDimensions*/ true, /*autoRedraw*/true);
+
+
 }
-/**
-void loadCSVcontours(){
-		QString fileName = QFileDialog::getSaveFileName(this,
-        tr("Save contours"),
-				 "",
-        tr("Save contours(*.csv);;All Files (*)") );
-}**/
 
 
+void ccVolumeTool::readCSVContours(){
+	//read contours from a file and calculate those volumes
+	QString fileName = QFileDialog::getOpenFileName(this, "Load contours (.csv)", "", "Load contours(*.csv);;All Files (*)");
+	//check to see dialog wasn't cancelled / we actualy have a file
+	if(fileName.size() == 0){
+	    	//user cancelled or didnt enter a filename
+	    	return;
+	    }
+	//stick the fies name in the text box
+	    CFileName->setText(fileName);
+}
 
+void ccVolumeTool::loadContVolume(){
+
+// debugging stuff
+//	m_app->dispToConsole("Im here");
+//	usleep(50000);
+
+	//get file name
+	QString fileName = CFileName->text();
+	//open file stream
+	std::ifstream contFile;
+	//report potential errors
+	contFile.open(fileName.toStdString());
+
+
+	std::string line = ""; //empty variable to read line into
+	//remove the first line
+    std::vector<std::string> numbers;
+
+	if(contFile.fail()){
+		//TODO: think of a less patronizing error message
+		m_app->dispToConsole("Error reading file, maybe it isn't there?");
+		return;
+	}
+	getline(contFile, line);
+	if(contFile.eof() || line == ""){
+		m_app->dispToConsole("Error reading file, maybe it isn't there?");
+		contFile.close();
+		return;
+	}
+
+	//assume format [id] [bottom] [top] ...
+
+	//getline(contFile, line);//crop the first line
+	//count the number of slices, if we reach max slices, then complain and exit
+	noSlices = 0;
+
+//TODO: might be nicer with a for loop
+	
+	//Count selected entities
+
+
+	while(true){
+		//check for EOF
+		getline(contFile, line);
+
+		//if not split it up
+
+	    //convert line to char*
+
+	    numbers = split( line.c_str(), std::string(",") );
+		//m_app->dispToConsole(QString::fromStdString(numbers[0] + "  Hi there  " + numbers[1] ));
+		//calculate volumes
+		//int bottom = numbers[0];
+		//int top = numbers[1];
+		sliceInfo[noSlices][1] = std::strtof(numbers[1].c_str(),0);
+		sliceInfo[noSlices][2] = std::strtof(numbers[2].c_str(),0);
+		//normalize and calculate volume || ugy hack, why isnt the first column relevant?
+		ccPointCloud* tempCloud = normalizeCloud(ccHObjectCaster::ToPointCloud(mainCloud), std::strtof(numbers[1].c_str(),0), std::strtof(numbers[2].c_str(),0));
+		sliceInfo[noSlices][0] = volumeBetweenHeights(sliceInfo[noSlices][1], sliceInfo[noSlices][2], tempCloud);
+//	    m_app->dispToConsole(QString::fromStdString("[0]: " + numbers[0] + " [1]: " + numbers[1] + "[2]: " +  numbers[2]));
+
+		noSlices++;
+
+		if(contFile.eof() || line == ""){
+			//next read would fail!
+			contFile.close();
+			return;
+		}
+		//check if we filled the array
+		if(noSlices == MAX_SLICES){
+			m_app->dispToConsole("Maximum number of contours reached, exiting");
+			contFile.close();
+			return;
+		}
+		//finish adding slice
+
+
+	}
+
+	//report errors
+
+	//calculate volumes / store contour internally
+
+	//close file
+	contFile.close();
+}
+
+//TODO: calculate based on contours for file
+/*
+	std::ifstream volsFile;
+  	if(! volsFile.open((fileName.toStdString() + ".csv").c_str())){
+  		//error opening the file, kindly remind the user they messed up
+  		m_app->dispToConsole("Error loading file! Are you sure it exists?" );
+  		return;
+  	}
+*/
 
 void ccVolumeTool::saveVolume(){
 		//RELIES ON: float volumes[][3], int noSlices
@@ -100,7 +290,8 @@ void ccVolumeTool::saveVolume(){
 		std::ofstream volsFile;
   		volsFile.open((fileName.toStdString() + ".csv").c_str(), std::ios::trunc);
   		//add header line
-  		volsFile << "[Slice no.],[Bottom],[Top],[Volume]" << std::endl;
+//probs wont end up doing that
+		volsFile << "[Slice no.],[Bottom],[Top],[Volume]" << std::endl;
   		//add lines of text
   		for(int i = 0; i < noSlices; i++){
   			//generate the string
@@ -113,6 +304,7 @@ void ccVolumeTool::saveVolume(){
   		volsFile.close();
   		m_app->dispToConsole(QString::fromStdString("Saved file: " + fileName.toStdString() + ".csv"));
 }
+
 
 void ccVolumeTool::testConsole(){
 	m_app->dispToConsole("Hi there from testConsole()!");
@@ -128,31 +320,54 @@ void ccVolumeTool::initializeTool(ccMainAppInterface* app)
 	//do calculations regarding cloud height
 		//chop up cloud based on user input
 		//get the height of the whole cloud
+		noClouds = m_app->getSelectedEntities().size();
+
+
+
+	ccHObject* cloud = m_app->getSelectedEntities()[0];
+	ccBBox cBox = cloud->getOwnBB();
+	CCVector3f cMin = cBox.minCorner();
+	CCVector3f cMax = cBox.maxCorner();
+
+	for(int i = 0; i < noClouds; i++){
+	//for each cloud
 	//well need z coordinates from bbox min and max
 			//get coresponding ccBBox
-		ccHObject* cloud = m_app->getSelectedEntities()[0];
+			cloud = m_app->getSelectedEntities()[i];
+			cBox = cloud->getOwnBB();
+			//if max higher
+			if(cBox.minCorner()[2] < cMin[2]){
+				//new min corner
+				cMin = cBox.minCorner();
+			}
+			//if max higher
+			if(cBox.maxCorner()[2] > cMax[2]){
+				//new min corner
+				cMax = cBox.maxCorner();
+			}
+
+		}	
+		height = cMax[2] - cMin[2];
 
 
-			ccBBox cBox = cloud->getOwnBB();
-			//get top and bottom out of it
-			CCVector3f cMin = cBox.minCorner();
-			CCVector3f cMax = cBox.maxCorner();
-			//take max z - min z
-			height = cMax[2] - cMin[2];
+
 		//initialize main cloud
 		const std::vector<ccHObject*> clouds = m_app->getSelectedEntities();
 //TODO: Add code for handling multiple clouds
 		mainCloud = clouds[0];
+		//Count the number of selected clouds
+
+
+
+
 //TESTING CODE
 //This now works! m_app->dispToConsole(std::to_string(height).c_str());
-		std::string message = std::to_string(cBox.minCorner()[2]) + " - " + std::to_string(cBox.maxCorner()[2]) + " : " + std::to_string(height) + " tot.";
+		std::string message = std::to_string(cMin[2]) + " - " + std::to_string(cMax[2]) + " : " + std::to_string(height) + " tot.";
 		//display default value to the user
 			heightDisplay->setText(QString::fromStdString(message));
-			topInput->setText(QString::fromStdString(std::to_string(cBox.maxCorner()[2])));
-			bottomInput->setText(QString::fromStdString(std::to_string(cBox.minCorner()[2])));
-
+			topInput->setText(QString::fromStdString(std::to_string(cMax[2])));
+			bottomInput->setText(QString::fromStdString(std::to_string(cMin[2])));
 }
-
 
 /*void ccVolumeTool::contourPoints(const CCVector3& vec, ScalarType& scal){
 	//if point not in contour
@@ -189,10 +404,11 @@ void ccVolumeTool::processClouds(){
 
 void ccVolumeTool::displayVolmes(){
 	//open the display
-		displayVolume volt(m_app->getMainWindow(), sliceInfo, noSlices);
+		displayVolume volt(m_app->getMainWindow(), sliceInfo, noSlices, noClouds);
 		//volt.initializeTool(m_app); //don't forget to pass contours as an argument
 		volt.exec();
 }
+
 
 
 void ccVolumeTool::contourVolume(){
@@ -200,8 +416,8 @@ void ccVolumeTool::contourVolume(){
 		//get users chunk size
 		userBottom = maxBottom;
 		userTop = maxTop;
-		userBottom = bottomInput->text().toFloat() + 0.01;  //Need to add small amount for float accuracy
-		userTop = topInput->text().toFloat() - 0.01;
+		userBottom = bottomInput->text().toFloat();
+		userTop = topInput->text().toFloat();
 		//get number of slices
 		noSlices = noSliceInput->text().toFloat();
 		//make sure its legit
@@ -210,22 +426,31 @@ void ccVolumeTool::contourVolume(){
 		//	return;
 		//}
 		//calculate the size of each chunk
+//TODO assume top is positive
+		if(userBottom > 0){
+		height = userTop - userBottom;
+		} else {
+		height = userTop + userBottom * -1;
+		}
 		sliceSize = height / noSlices;
-
 		//for each slice
 		for(int i = 0; i < noSlices; i++){
 			//save top and bottom
 			sliceTop = userBottom + (i + 1) * sliceSize;
 			sliceBottom = userBottom + i * sliceSize;
-			sliceInfo[i][1] = sliceBottom;		//Bottom of slice
-			sliceInfo[i][2] = sliceTop;	//Top of slice
+			sliceInfo[i][0] = sliceBottom;		//Bottom of slice
+			sliceInfo[i][1] = sliceTop;	//Top of slice
 			//type cast mainCloud
 			//cainCloud = ccHObjectCaster::ToGenericPointCloud(mainCloud);
 			//assign it to the normalized version of our cloud
-			ccPointCloud* tempCloud = normalizeCloud(ccHObjectCaster::ToPointCloud(mainCloud), sliceBottom, sliceTop);
 //TESTING: for the sake of them sick tests stick it in the pointCloud
 			//calculate volume of the new cloud
-			sliceInfo[i][0] = volumeBetweenHeights(0, 0, tempCloud);
+
+			//for each slice
+			for(int j = 0; j < noClouds; j++){
+				ccPointCloud* tempCloud = normalizeCloud(ccHObjectCaster::ToPointCloud((m_app->getSelectedEntities())[j] ), sliceBottom, sliceTop);
+				sliceInfo[i][j + 2] = volumeBetweenHeights(sliceInfo[i][0], sliceInfo[i][1], tempCloud);
+			}
 			//report and save it
 
 			//get rid of memory
@@ -233,13 +458,18 @@ void ccVolumeTool::contourVolume(){
 }
 
 
-ccPointCloud* ccVolumeTool::normalizeCloud(ccPointCloud* cloud, int bottom, int top){
+ccPointCloud* ccVolumeTool::normalizeCloud(ccPointCloud* cloud, float bottom, float top){
 	//remember to pass this method a memeber
 	//forEach(genericPointAction &  anAction)
 	//cloud->forEach( ccVolumeTool::contourPoints );
 	ccPointCloud* tempCloud = new ccPointCloud();
 	//copy all points, but wait! normalize where z isnt within the slice boundries
 	//make some space for all the new points
+//TODO dont assume top is positive
+	if(bottom < 0){
+		bottom += bottom;
+		top += bottom;
+	}
 	tempCloud->reserveThePointsTable(cloud->size());
 		//for each point in the cloud
 	for(int i = 0; i < cloud->size(); i++){
@@ -265,7 +495,7 @@ ccPointCloud* ccVolumeTool::normalizeCloud(ccPointCloud* cloud, int bottom, int 
 
 
 
-float ccVolumeTool::volumeBetweenHeights(int bottom, int top, ccPointCloud* theCloud){
+float ccVolumeTool::volumeBetweenHeights(float bottom, float top, ccPointCloud* theCloud){
 	//get a list of all the clouds i guess | Assume its just one Cloud selected and given as argument
 		//for now ignore min and max limits
 	//start off by just displaying the volume
@@ -279,7 +509,7 @@ float ccVolumeTool::volumeBetweenHeights(int bottom, int top, ccPointCloud* theC
 	ccRasterGrid grid;
 
 	//specify grid step, 0.5 seems sensible
-	float gridStep = 0.5;
+	float gridStep = 0.1;
 
 	ccBBox gridBBox = theCloud->getOwnBB();
 	//get grid width and height
@@ -586,4 +816,38 @@ float ccVolumeTool::ComputeVolume(	ccRasterGrid& grid,
 	grid.setValid(true);
 
 	return reportInfo.volume;
+}
+
+
+//Helper fuction to do some splitting
+std::vector<std::string> split(const char *phrase, std::string delimiter){
+    std::vector<std::string> list;
+    std::string s = std::string(phrase);
+    s = s + ","; //Ugly hack
+    size_t pos = 0;
+    std::string token;
+    while ((pos = s.find(delimiter)) != std::string::npos) {
+        token = s.substr(0, pos);
+        list.push_back(token);
+        s.erase(0, pos + delimiter.length());
+    }
+    return list;
+}
+
+
+static float hue2rgb(float m1, float m2, float hue)
+	{
+	if (hue < 0)
+		hue += 1.0f;
+	else if (hue > 1.0f)
+		hue -= 1.0f;
+
+	if (6 * hue < 1.0f)
+		return m1 + (m2 - m1) * hue * 6;
+	else if (2 * hue < 1.0f)
+		return m2;
+	else if (3 * hue < 2.0f)
+		return m1 + (m2 - m1) * (4.0f - hue * 6);
+	else
+		return m1;
 }

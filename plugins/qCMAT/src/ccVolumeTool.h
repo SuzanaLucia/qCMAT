@@ -21,11 +21,13 @@
 #include "displayVolume.h"
 #include "ui_ccVolumeTool.h"
 #include "ccStdPluginInterface.h"
+
 //"no matching call for main window" bug
 #include <QMainWindow>
 #include <SimpleCloud.h>
 #include <ccRasterGrid.h>
 #include <ccPointCloud.h>
+#include <unistd.h>
 
 //stuff for crop
 #include <ccMesh.h>
@@ -35,6 +37,7 @@
 #include <GenericCloud.h>
 
 #define MAX_SLICES 100
+#define MAX_CLOUDS 100
 
 
 // Dialog for qCMAT plugin
@@ -57,6 +60,7 @@ public:
 	// noSlices of sliceSize slices
 	float sliceSize;
 	int noSlices = 0;
+	int noClouds = 0; //number of selected clouds
 	//selected stuff
 	float userTop;
 	float userBottom;
@@ -89,7 +93,9 @@ protected slots:
 	//declaration for display volume
 	void displayVolmes();
 	void saveVolume();
-	void readContours();
+	void readCSVContours();
+	void loadContVolume();
+	void saveCloudContours();
 protected:
 
 	//link to the main plugin interface
@@ -129,7 +135,7 @@ private:
 	};
 
 	//calculates volume of beach between top and bottom
-	float volumeBetweenHeights(int, int, ccPointCloud*);
+	float volumeBetweenHeights(float, float, ccPointCloud*);
 	//get clouds to operate on, calculate based on user input
 	float ComputeVolume(	ccRasterGrid&,
 										ccGenericPointCloud*,
@@ -147,12 +153,19 @@ private:
 										double ceilHeight = std::numeric_limits<double>::quiet_NaN(),
 										QWidget* parentWidget = 0);
 	//data structure to save [Volume][Bottom][Top] of slices
-	float sliceInfo[MAX_SLICES][3];
+	float sliceInfo[MAX_SLICES][MAX_CLOUDS + 2]; //[bottom] [top] : [Cloud volumes in order][][][]
 	//crop a point cloud
 	//ccHObject* Crop(ccHObject* entity, const ccBBox& box, bool inside/*=true*/, const ccGLMatrix* meshRotation/*=0*/);
-	ccPointCloud* normalizeCloud(ccPointCloud* cloud, int bottom, int top);
+	ccPointCloud* normalizeCloud(ccPointCloud* cloud, float bottom, float top);
 	//void contourPoints(const CCVector3 &, ScalarType &);
 
+	
+
 };
+
+//split extra funtion
+std::vector<std::string> split(const char *phrase, std::string delimiter);
+//hue2rgb extra function
+static float hue2rgb(float m1, float m2, float hue);
 
 #endif //CC_VOLUME_TOOL_H
