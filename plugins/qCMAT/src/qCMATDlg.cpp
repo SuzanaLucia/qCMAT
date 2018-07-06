@@ -107,8 +107,10 @@ void qCMATDlg::initPointClouds()
 	// Declare clouds to be equal to point clouds selected in DB Tree (Sidebar)
 	std::vector<ccHObject*> clouds = m_app->getSelectedEntities();
 	// Declare the two point clouds to operate on
-	ccPointCloud* cloud1 = ccHObjectCaster::ToPointCloud(clouds[0]);
-	ccPointCloud* cloud2 = ccHObjectCaster::ToPointCloud(clouds[1]);
+
+//TODO: Sorry fam, needed to kill this feature :(
+	//ccPointCloud* cloud1 = ccHObjectCaster::ToPointCloud(clouds[0]);
+	//ccPointCloud* cloud2 = ccHObjectCaster::ToPointCloud(clouds[1]);
 	// Make sure clouds is not empty, and if it is display error.
 	if(clouds.empty())
 	{
@@ -117,20 +119,23 @@ void qCMATDlg::initPointClouds()
 	// If clouds is not empty, continue...
 	else if(!clouds.empty())
 	{
+
+/*
 		// Declare boolean and cast to QString for conditional.
 		bool c1_isCloudPoint = cloud1->isA(CC_TYPES::POINT_CLOUD); QString c1Bool = QString::number(c1_isCloudPoint);
 		bool c2_isCloudPoint = cloud2->isA(CC_TYPES::POINT_CLOUD); QString c2Bool = QString::number(c2_isCloudPoint);
 		// Ensure selected point clouds are now accessible by the plugin and are indeed of type POINT_CLOUD
 		if(c1Bool == "1") {	m_app->dispToConsole("Point Cloud 1 loaded... ",ccMainAppInterface::STD_CONSOLE_MESSAGE);	}
 		if(c2Bool == "1") {	m_app->dispToConsole("Point Cloud 2 loaded... ",ccMainAppInterface::STD_CONSOLE_MESSAGE);	}
+*/		
 	}
 	else { m_app->dispToConsole("Something went wrong, quitting...",ccMainAppInterface::ERR_CONSOLE_MESSAGE); this->close(); }
 	// Find names of point clouds...
-	QString cloud1Name = cloud1->getName();
-	QString cloud2Name = cloud2->getName();
+//	QString cloud1Name = cloud1->getName();
+//	QString cloud2Name = cloud2->getName();
 	// ...and set the text boxes to display them.
-	pointCloudPath1->setText(cloud1Name);
-	pointCloudPath2->setText(cloud2Name);
+//	pointCloudPath1->setText(cloud1Name);
+//	pointCloudPath2->setText(cloud2Name);
 
 
 }
