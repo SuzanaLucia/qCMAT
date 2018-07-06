@@ -41,11 +41,11 @@ void qCMAT::onNewSelection(const ccHObject::Container &selectedEntities)
 	if(m_action)
 	{
 		// Maximum number of input point clouds (2)
-		m_action->setEnabled( selectedEntities.size() == 2
+		//m_action->setEnabled( selectedEntities.size() == 2
 		/** Entities are what will be operating on,
 		in this case we check to make sure what the user has input is indeed a point cloud**/
-		&& selectedEntities[0]->isA(CC_TYPES::POINT_CLOUD)
-		&& selectedEntities[1]->isA(CC_TYPES::POINT_CLOUD) );
+		//&& selectedEntities[0]->isA(CC_TYPES::POINT_CLOUD)
+		//&& selectedEntities[1]->isA(CC_TYPES::POINT_CLOUD) );
 		//return; TODO: Get rid of this, just quits program...
 	}
 
@@ -102,20 +102,20 @@ void qCMAT::doAction()
   // Declare CMAT Dialog and show
 //TODO: this looks nicer if only m_app is provided as an argument
 
-	if(m_selectedEntities.size() != 2
-		|| !m_selectedEntities[0]->isA(CC_TYPES::POINT_CLOUD)
-		|| !m_selectedEntities[0]->isA(CC_TYPES::POINT_CLOUD) )
-	{
+	//if(m_selectedEntities.size() != 2
+	//	|| !m_selectedEntities[0]->isA(CC_TYPES::POINT_CLOUD)
+	//	|| !m_selectedEntities[0]->isA(CC_TYPES::POINT_CLOUD) )
+	//{
 		// If user has not input two point clouds, display error message.
-		m_app->dispToConsole("[!] Requires TWO point clouds [!]", ccMainAppInterface::ERR_CONSOLE_MESSAGE);
-	}
-	else if (m_selectedEntities.size() == 2) {
+	//	m_app->dispToConsole("[!] Requires TWO point clouds [!]", ccMainAppInterface::ERR_CONSOLE_MESSAGE);
+	//}
+	//else if (m_selectedEntities.size() == 2) {
 		// Otherwise launch qCMAT Dialog UI
 		qCMATDlg cdlg(m_app->getMainWindow());
 		cdlg.initializeTool(m_app);
 		// Initialise point clouds loaded
 		cdlg.initPointClouds();
 		cdlg.exec();
-	}
+	//}
 
 }

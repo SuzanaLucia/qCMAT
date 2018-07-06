@@ -89,7 +89,7 @@ void ccVolumeTool::saveCloudContours(){
 	for(int i = 0; i < noSlices; i++){
 		//generate a num between 0 and 1 and multiply them with MAX of scale
 		//this is our total number
-		contourColors[i][0] = (int) 155.0 + sqrt(i * (100.0 * 100 / noSlices)); //(int) i * (255.0 / noSlices);
+		contourColors[i][0] = (int) 155.0 +  sqrt( (i * 100.0 * 100.0) / noSlices); //(int) i * (255.0 / noSlices);
 		contourColors[i][1] = (int) ( (255.0) * i / noSlices);
 		contourColors[i][2] = 0;
 	}
@@ -193,6 +193,7 @@ void ccVolumeTool::loadContVolume(){
 		return;
 	}
 	getline(contFile, line);
+	
 	if(contFile.eof() || line == ""){
 		m_app->dispToConsole("Error reading file, maybe it isn't there?");
 		contFile.close();
@@ -223,9 +224,10 @@ void ccVolumeTool::loadContVolume(){
 		sliceInfo[noSlices][0] = std::strtof(numbers[1].c_str(),0);
 		sliceInfo[noSlices][1] = std::strtof(numbers[2].c_str(),0);
 		//normalize and calculate volume || ugy hack, why isnt the first column relevant?
-		ccPointCloud* tempCloud = normalizeCloud(ccHObjectCaster::ToPointCloud(mainCloud), std::strtof(numbers[0].c_str(),0), std::strtof(numbers[1].c_str(),0));
+		
 		for(int j = 0; j < noClouds; j++){
-		sliceInfo[noSlices][2 + j] = volumeBetweenHeights(sliceInfo[noSlices][0], sliceInfo[noSlices][1], ccHObjectCaster::ToPointCloud(m_app->getSelectedEntities()[j]));
+			ccPointCloud* tempCloud = normalizeCloud(ccHObjectCaster::ToPointCloud(m_app->getSelectedEntities()[j]), sliceInfo[noSlices][0], sliceInfo[noSlices][1]);
+			sliceInfo[noSlices][2 + j] = volumeBetweenHeights(sliceInfo[noSlices][0], sliceInfo[noSlices][1], tempCloud);
 		}
 //	    m_app->dispToConsole(QString::fromStdString("[0]: " + numbers[0] + " [1]: " + numbers[1] + "[2]: " +  numbers[2]));
 
