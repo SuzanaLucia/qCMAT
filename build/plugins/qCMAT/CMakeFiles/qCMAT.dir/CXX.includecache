@@ -771,6 +771,10 @@ string
 -
 QString
 -
+fstream
+-
+QFileDialog
+-
 
 /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displaySurface.h
 ui_displaySurface.h
@@ -853,8 +857,6 @@ ccPolyline.h
 -
 ccGLWindow.h
 -
-displaySurface.h
-/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displaySurface.h
 ../../../qCC/ccPointPickingGenericInterface.h
 /home/chrome/work/CloudCompare/qCMAT/qCC/ccPointPickingGenericInterface.h
 ../../../qCC/ccPickingHub.h

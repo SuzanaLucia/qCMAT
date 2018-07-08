@@ -37,6 +37,7 @@ public:
 	~qDisplaySurface();
 protected slots:
 	void closeDisplay();
+	void saveCSV();
 
 private:
 	float surfaces[MAX_CLOUDS];

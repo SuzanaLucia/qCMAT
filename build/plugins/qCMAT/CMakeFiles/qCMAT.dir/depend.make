@@ -1403,9 +1403,11 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displaySurface.cpp.o: /usr/include/qt/QtC
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displaySurface.cpp.o: /usr/include/qt/QtCore/qcoreevent.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displaySurface.cpp.o: /usr/include/qt/QtCore/qdatastream.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displaySurface.cpp.o: /usr/include/qt/QtCore/qdebug.h
+plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displaySurface.cpp.o: /usr/include/qt/QtCore/qdir.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displaySurface.cpp.o: /usr/include/qt/QtCore/qeventloop.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displaySurface.cpp.o: /usr/include/qt/QtCore/qfile.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displaySurface.cpp.o: /usr/include/qt/QtCore/qfiledevice.h
+plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displaySurface.cpp.o: /usr/include/qt/QtCore/qfileinfo.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displaySurface.cpp.o: /usr/include/qt/QtCore/qflags.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displaySurface.cpp.o: /usr/include/qt/QtCore/qgenericatomic.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displaySurface.cpp.o: /usr/include/qt/QtCore/qglobal.h
@@ -1524,6 +1526,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displaySurface.cpp.o: /usr/include/qt/QtW
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displaySurface.cpp.o: /usr/include/qt/QtWidgets/QApplication
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displaySurface.cpp.o: /usr/include/qt/QtWidgets/QButtonGroup
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displaySurface.cpp.o: /usr/include/qt/QtWidgets/QDialog
+plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displaySurface.cpp.o: /usr/include/qt/QtWidgets/QFileDialog
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displaySurface.cpp.o: /usr/include/qt/QtWidgets/QFrame
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displaySurface.cpp.o: /usr/include/qt/QtWidgets/QHeaderView
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displaySurface.cpp.o: /usr/include/qt/QtWidgets/QLabel
@@ -1546,6 +1549,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displaySurface.cpp.o: /usr/include/qt/QtW
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displaySurface.cpp.o: /usr/include/qt/QtWidgets/qbuttongroup.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displaySurface.cpp.o: /usr/include/qt/QtWidgets/qdesktopwidget.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displaySurface.cpp.o: /usr/include/qt/QtWidgets/qdialog.h
+plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displaySurface.cpp.o: /usr/include/qt/QtWidgets/qfiledialog.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displaySurface.cpp.o: /usr/include/qt/QtWidgets/qframe.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displaySurface.cpp.o: /usr/include/qt/QtWidgets/qheaderview.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displaySurface.cpp.o: /usr/include/qt/QtWidgets/qlabel.h
@@ -1785,7 +1789,6 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: ../CC/include/CCShareable.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: ../CC/include/CCToolbox.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: ../CC/include/CCTypes.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: ../CC/include/ChunkedPointCloud.h
-plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: ../CC/include/Delaunay2dMesh.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: ../CC/include/DgmOctree.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: ../CC/include/GenericChunkedArray.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: ../CC/include/GenericCloud.h
@@ -1794,7 +1797,6 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: ../CC/include/GenericIndexed
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: ../CC/include/GenericIndexedMesh.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: ../CC/include/GenericMesh.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: ../CC/include/GenericOctree.h
-plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: ../CC/include/GenericProgressCallback.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: ../CC/include/GenericTriangle.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: ../CC/include/GeometricalAnalysisTools.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: ../CC/include/Neighbourhood.h
@@ -1831,7 +1833,6 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: ../libs/qCC_db/ccObject.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: ../libs/qCC_db/ccOctree.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: ../libs/qCC_db/ccPointCloud.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: ../libs/qCC_db/ccPolyline.h
-plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: ../libs/qCC_db/ccProgressDialog.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: ../libs/qCC_db/ccRasterGrid.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: ../libs/qCC_db/ccScalarField.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: ../libs/qCC_db/ccSerializableObject.h
@@ -1848,7 +1849,6 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: ../plugins/ccPluginInterface
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: ../plugins/ccStdPluginInterface.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: ../plugins/qCMAT/qCMAT.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: ../plugins/qCMAT/src/ccVolumeTool.h
-plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: ../plugins/qCMAT/src/displaySurface.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: ../plugins/qCMAT/src/displayVolume.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: ../plugins/qCMAT/src/glDlg.cpp
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: ../plugins/qCMAT/src/glDlg.h
@@ -1857,7 +1857,6 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: ../qCC/ccOverlayDialog.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: ../qCC/ccPickingHub.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: ../qCC/ccPickingListener.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: ../qCC/ccPointPickingGenericInterface.h
-plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: /usr/include/qt/QtCore/QAtomicInt
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: /usr/include/qt/QtCore/QDataStream
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: /usr/include/qt/QtCore/QElapsedTimer
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: /usr/include/qt/QtCore/QEvent
@@ -2207,9 +2206,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: /usr/include/qt/QtWidgets/QH
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: /usr/include/qt/QtWidgets/QLabel
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: /usr/include/qt/QtWidgets/QLineEdit
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: /usr/include/qt/QtWidgets/QMainWindow
-plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: /usr/include/qt/QtWidgets/QMessageBox
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: /usr/include/qt/QtWidgets/QOpenGLWidget
-plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: /usr/include/qt/QtWidgets/QProgressDialog
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: /usr/include/qt/QtWidgets/QPushButton
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: /usr/include/qt/QtWidgets/QTextEdit
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: /usr/include/qt/QtWidgets/QVBoxLayout
@@ -2236,9 +2233,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: /usr/include/qt/QtWidgets/ql
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: /usr/include/qt/QtWidgets/qlayoutitem.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: /usr/include/qt/QtWidgets/qlineedit.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: /usr/include/qt/QtWidgets/qmainwindow.h
-plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: /usr/include/qt/QtWidgets/qmessagebox.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: /usr/include/qt/QtWidgets/qopenglwidget.h
-plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: /usr/include/qt/QtWidgets/qprogressdialog.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: /usr/include/qt/QtWidgets/qpushbutton.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: /usr/include/qt/QtWidgets/qrubberband.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: /usr/include/qt/QtWidgets/qsizepolicy.h
@@ -2252,7 +2247,6 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: /usr/include/qt/QtWidgets/qt
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: /usr/include/qt/QtWidgets/qtwidgetsglobal.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: /usr/include/qt/QtWidgets/qwidget.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: plugins/qCMAT/ui_ccVolumeTool.h
-plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: plugins/qCMAT/ui_displaySurface.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: plugins/qCMAT/ui_displayVolume.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: plugins/qCMAT/ui_glDlg.h
 

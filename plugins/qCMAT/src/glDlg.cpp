@@ -30,7 +30,6 @@
 #include <ccPolyline.h>
 #include <ccGLWindow.h>
 
-#include "displaySurface.h"
 
 //TODO: Most unaccessible libraries must be accessed through ../../../qCC
 #include "../../../qCC/ccPointPickingGenericInterface.h"

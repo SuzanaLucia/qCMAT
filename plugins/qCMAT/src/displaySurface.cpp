@@ -2,6 +2,9 @@
 #include "ui_displaySurface.h"
 #include <string>
 #include <QString>
+#include <fstream>
+#include <QFileDialog>
+
 qDisplaySurface::qDisplaySurface(QWidget* parent, ccMainAppInterface* app, int numberOfClouds)
 	: QDialog(parent, Qt::Tool)
 	, Ui::displaySurface()
@@ -9,6 +12,7 @@ qDisplaySurface::qDisplaySurface(QWidget* parent, ccMainAppInterface* app, int n
 	setupUi(this);
 	//connect cancel button
 	connect( Close,	SIGNAL(clicked()), this, SLOT( closeDisplay() ));
+	connect( SaveCSV,	SIGNAL(clicked()), this, SLOT( saveCSV() ));
 
 	//set local variables
 	noClouds = numberOfClouds;
@@ -18,11 +22,13 @@ qDisplaySurface::qDisplaySurface(QWidget* parent, ccMainAppInterface* app, int n
 //TODO: check its not empty, if so display a generate first message
 	//write format to the top line
 //TODO: multiple clouds
-	Text->append(QString::fromStdString(" [Cloud Name] | [Surface Area]"));
+	Text->append(QString::fromStdString("[Id] | [Cloud Name] | [Surface Area]"));
 	std::string str;
 	for(int i = 0; i < noClouds; i++){
 		//display each clouds surface area seperatly
-		str = m_app->getSelectedEntities()[i]->getName().toStdString();
+		str = std::to_string(i);
+		str += " | ";
+		str += m_app->getSelectedEntities()[i]->getName().toStdString();
 		str += " | ";
 		surfaces[i] = volumeBetweenHeights(ccHObjectCaster::ToPointCloud(m_app->getSelectedEntities()[i]));
 		str += std::to_string(surfaces[i]);
@@ -35,7 +41,34 @@ qDisplaySurface::qDisplaySurface(QWidget* parent, ccMainAppInterface* app, int n
 	}
 }
 
+void qDisplaySurface::saveCSV(){
+	//get fileName
+	QString fileName = QFileDialog::getSaveFileName(this,
+    tr("Save contours"), "",
+    tr("Save contours(*.csv);;All Files (*)"));
 
+	if(fileName.size() == 0){
+		//user cancelled or didnt enter a filename
+		//dont report just close, since nothing has been selected
+		//m_app->dispToConsole("Error selecting fileName");
+		return;
+	}
+	std::ofstream surfFile;
+	//check file can be opened
+  	surfFile.open((fileName.toStdString() + ".csv").c_str(), std::ios::trunc);
+	//save volumes names and ID's into file
+	//save format string [Id],[Name],[Surface Area]
+	surfFile << "[Id],[Name],[Surface Area]" << std::endl;
+	for(int i = 0; i < noClouds; i++){
+		std::string str = std::to_string(i) + ",";
+		str += m_app->getSelectedEntities()[i]->getName().toStdString() + ",";
+		str += std::to_string(surfaces[i]);
+		surfFile << str << std::endl;
+	}
+	//close the fileSteam
+	surfFile.close();
+	m_app->dispToConsole(QString::fromStdString("Finished saving to: ") + fileName + QString::fromStdString(".csv"));
+}
 
 void qDisplaySurface::closeDisplay(){
 	this->close();

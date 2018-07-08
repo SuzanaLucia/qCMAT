@@ -1404,9 +1404,11 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displaySurface.cpp.o
  /usr/include/qt/QtCore/qcoreevent.h
  /usr/include/qt/QtCore/qdatastream.h
  /usr/include/qt/QtCore/qdebug.h
+ /usr/include/qt/QtCore/qdir.h
  /usr/include/qt/QtCore/qeventloop.h
  /usr/include/qt/QtCore/qfile.h
  /usr/include/qt/QtCore/qfiledevice.h
+ /usr/include/qt/QtCore/qfileinfo.h
  /usr/include/qt/QtCore/qflags.h
  /usr/include/qt/QtCore/qgenericatomic.h
  /usr/include/qt/QtCore/qglobal.h
@@ -1525,6 +1527,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displaySurface.cpp.o
  /usr/include/qt/QtWidgets/QApplication
  /usr/include/qt/QtWidgets/QButtonGroup
  /usr/include/qt/QtWidgets/QDialog
+ /usr/include/qt/QtWidgets/QFileDialog
  /usr/include/qt/QtWidgets/QFrame
  /usr/include/qt/QtWidgets/QHeaderView
  /usr/include/qt/QtWidgets/QLabel
@@ -1547,6 +1550,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displaySurface.cpp.o
  /usr/include/qt/QtWidgets/qbuttongroup.h
  /usr/include/qt/QtWidgets/qdesktopwidget.h
  /usr/include/qt/QtWidgets/qdialog.h
+ /usr/include/qt/QtWidgets/qfiledialog.h
  /usr/include/qt/QtWidgets/qframe.h
  /usr/include/qt/QtWidgets/qheaderview.h
  /usr/include/qt/QtWidgets/qlabel.h
@@ -1786,7 +1790,6 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o
  ../CC/include/CCToolbox.h
  ../CC/include/CCTypes.h
  ../CC/include/ChunkedPointCloud.h
- ../CC/include/Delaunay2dMesh.h
  ../CC/include/DgmOctree.h
  ../CC/include/GenericChunkedArray.h
  ../CC/include/GenericCloud.h
@@ -1795,7 +1798,6 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o
  ../CC/include/GenericIndexedMesh.h
  ../CC/include/GenericMesh.h
  ../CC/include/GenericOctree.h
- ../CC/include/GenericProgressCallback.h
  ../CC/include/GenericTriangle.h
  ../CC/include/GeometricalAnalysisTools.h
  ../CC/include/Neighbourhood.h
@@ -1832,7 +1834,6 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o
  ../libs/qCC_db/ccOctree.h
  ../libs/qCC_db/ccPointCloud.h
  ../libs/qCC_db/ccPolyline.h
- ../libs/qCC_db/ccProgressDialog.h
  ../libs/qCC_db/ccRasterGrid.h
  ../libs/qCC_db/ccScalarField.h
  ../libs/qCC_db/ccSerializableObject.h
@@ -1849,7 +1850,6 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o
  ../plugins/ccStdPluginInterface.h
  /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/qCMAT.h
  /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccVolumeTool.h
- /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displaySurface.h
  /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displayVolume.h
  /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/glDlg.cpp
  /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/glDlg.h
@@ -1858,7 +1858,6 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o
  /home/chrome/work/CloudCompare/qCMAT/qCC/ccPickingHub.h
  /home/chrome/work/CloudCompare/qCMAT/qCC/ccPickingListener.h
  /home/chrome/work/CloudCompare/qCMAT/qCC/ccPointPickingGenericInterface.h
- /usr/include/qt/QtCore/QAtomicInt
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QElapsedTimer
  /usr/include/qt/QtCore/QEvent
@@ -2208,9 +2207,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o
  /usr/include/qt/QtWidgets/QLabel
  /usr/include/qt/QtWidgets/QLineEdit
  /usr/include/qt/QtWidgets/QMainWindow
- /usr/include/qt/QtWidgets/QMessageBox
  /usr/include/qt/QtWidgets/QOpenGLWidget
- /usr/include/qt/QtWidgets/QProgressDialog
  /usr/include/qt/QtWidgets/QPushButton
  /usr/include/qt/QtWidgets/QTextEdit
  /usr/include/qt/QtWidgets/QVBoxLayout
@@ -2237,9 +2234,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o
  /usr/include/qt/QtWidgets/qlayoutitem.h
  /usr/include/qt/QtWidgets/qlineedit.h
  /usr/include/qt/QtWidgets/qmainwindow.h
- /usr/include/qt/QtWidgets/qmessagebox.h
  /usr/include/qt/QtWidgets/qopenglwidget.h
- /usr/include/qt/QtWidgets/qprogressdialog.h
  /usr/include/qt/QtWidgets/qpushbutton.h
  /usr/include/qt/QtWidgets/qrubberband.h
  /usr/include/qt/QtWidgets/qsizepolicy.h
@@ -2253,7 +2248,6 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h
  /usr/include/qt/QtWidgets/qwidget.h
  plugins/qCMAT/ui_ccVolumeTool.h
- plugins/qCMAT/ui_displaySurface.h
  plugins/qCMAT/ui_displayVolume.h
  plugins/qCMAT/ui_glDlg.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o
