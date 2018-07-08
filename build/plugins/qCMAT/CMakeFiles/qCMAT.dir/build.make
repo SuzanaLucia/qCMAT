@@ -69,8 +69,12 @@ plugins/qCMAT/ui_displayVolume.h: ../plugins/qCMAT/ui/displayVolume.ui
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ui_displayVolume.h"
 	cd /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/ui_displayVolume.h /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/ui/displayVolume.ui
 
+plugins/qCMAT/ui_displaySurface.h: ../plugins/qCMAT/ui/displaySurface.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating ui_displaySurface.h"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/ui_displaySurface.h /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/ui/displaySurface.ui
+
 plugins/qCMAT/ui_glDlg.h: ../plugins/qCMAT/ui/glDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating ui_glDlg.h"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating ui_glDlg.h"
 	cd /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT && /usr/bin/uic -o /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/ui_glDlg.h /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/ui/glDlg.ui
 
 plugins/qCMAT/qrc_qCMAT.cpp: ../plugins/qCMAT/images/icon.png
@@ -78,12 +82,12 @@ plugins/qCMAT/qrc_qCMAT.cpp: ../plugins/qCMAT/images/iconSwap.png
 plugins/qCMAT/qrc_qCMAT.cpp: ../plugins/qCMAT/info.json
 plugins/qCMAT/qrc_qCMAT.cpp: ../plugins/qCMAT/ui/dlg.ui
 plugins/qCMAT/qrc_qCMAT.cpp: ../plugins/qCMAT/qCMAT.qrc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating qrc_qCMAT.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating qrc_qCMAT.cpp"
 	cd /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT && /usr/bin/rcc --name qCMAT --output /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qrc_qCMAT.cpp /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/qCMAT.qrc
 
 plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT.cpp.o: plugins/qCMAT/CMakeFiles/qCMAT.dir/flags.make
 plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT.cpp.o: ../plugins/qCMAT/qCMAT.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT.cpp.o"
 	cd /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qCMAT.dir/qCMAT.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/qCMAT.cpp
 
 plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT.cpp.i: cmake_force
@@ -96,7 +100,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT.cpp.s: cmake_force
 
 plugins/qCMAT/CMakeFiles/qCMAT.dir/__/ccDefaultPluginInterface.cpp.o: plugins/qCMAT/CMakeFiles/qCMAT.dir/flags.make
 plugins/qCMAT/CMakeFiles/qCMAT.dir/__/ccDefaultPluginInterface.cpp.o: ../plugins/ccDefaultPluginInterface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object plugins/qCMAT/CMakeFiles/qCMAT.dir/__/ccDefaultPluginInterface.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object plugins/qCMAT/CMakeFiles/qCMAT.dir/__/ccDefaultPluginInterface.cpp.o"
 	cd /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qCMAT.dir/__/ccDefaultPluginInterface.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/plugins/ccDefaultPluginInterface.cpp
 
 plugins/qCMAT/CMakeFiles/qCMAT.dir/__/ccDefaultPluginInterface.cpp.i: cmake_force
@@ -109,7 +113,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/__/ccDefaultPluginInterface.cpp.s: cmake_forc
 
 plugins/qCMAT/CMakeFiles/qCMAT.dir/__/ccStdPluginInterface.cpp.o: plugins/qCMAT/CMakeFiles/qCMAT.dir/flags.make
 plugins/qCMAT/CMakeFiles/qCMAT.dir/__/ccStdPluginInterface.cpp.o: ../plugins/ccStdPluginInterface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object plugins/qCMAT/CMakeFiles/qCMAT.dir/__/ccStdPluginInterface.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object plugins/qCMAT/CMakeFiles/qCMAT.dir/__/ccStdPluginInterface.cpp.o"
 	cd /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qCMAT.dir/__/ccStdPluginInterface.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/plugins/ccStdPluginInterface.cpp
 
 plugins/qCMAT/CMakeFiles/qCMAT.dir/__/ccStdPluginInterface.cpp.i: cmake_force
@@ -122,7 +126,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/__/ccStdPluginInterface.cpp.s: cmake_force
 
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o: plugins/qCMAT/CMakeFiles/qCMAT.dir/flags.make
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o: ../plugins/qCMAT/src/qCMATDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o"
 	cd /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/qCMATDlg.cpp
 
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.i: cmake_force
@@ -135,7 +139,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.s: cmake_force
 
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: plugins/qCMAT/CMakeFiles/qCMAT.dir/flags.make
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: ../plugins/qCMAT/src/ccVolumeTool.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o"
 	cd /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccVolumeTool.cpp
 
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.i: cmake_force
@@ -148,7 +152,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.s: cmake_force
 
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displayVolume.cpp.o: plugins/qCMAT/CMakeFiles/qCMAT.dir/flags.make
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displayVolume.cpp.o: ../plugins/qCMAT/src/displayVolume.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displayVolume.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displayVolume.cpp.o"
 	cd /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qCMAT.dir/src/displayVolume.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displayVolume.cpp
 
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displayVolume.cpp.i: cmake_force
@@ -159,9 +163,22 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displayVolume.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qCMAT.dir/src/displayVolume.cpp.s"
 	cd /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displayVolume.cpp -o CMakeFiles/qCMAT.dir/src/displayVolume.cpp.s
 
+plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displaySurface.cpp.o: plugins/qCMAT/CMakeFiles/qCMAT.dir/flags.make
+plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displaySurface.cpp.o: ../plugins/qCMAT/src/displaySurface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displaySurface.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qCMAT.dir/src/displaySurface.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displaySurface.cpp
+
+plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displaySurface.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qCMAT.dir/src/displaySurface.cpp.i"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displaySurface.cpp > CMakeFiles/qCMAT.dir/src/displaySurface.cpp.i
+
+plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displaySurface.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qCMAT.dir/src/displaySurface.cpp.s"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displaySurface.cpp -o CMakeFiles/qCMAT.dir/src/displaySurface.cpp.s
+
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: plugins/qCMAT/CMakeFiles/qCMAT.dir/flags.make
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: ../plugins/qCMAT/src/glDlg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o"
 	cd /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qCMAT.dir/src/glDlg.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/glDlg.cpp
 
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.i: cmake_force
@@ -174,7 +191,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.s: cmake_force
 
 plugins/qCMAT/CMakeFiles/qCMAT.dir/qrc_qCMAT.cpp.o: plugins/qCMAT/CMakeFiles/qCMAT.dir/flags.make
 plugins/qCMAT/CMakeFiles/qCMAT.dir/qrc_qCMAT.cpp.o: plugins/qCMAT/qrc_qCMAT.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object plugins/qCMAT/CMakeFiles/qCMAT.dir/qrc_qCMAT.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object plugins/qCMAT/CMakeFiles/qCMAT.dir/qrc_qCMAT.cpp.o"
 	cd /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qCMAT.dir/qrc_qCMAT.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qrc_qCMAT.cpp
 
 plugins/qCMAT/CMakeFiles/qCMAT.dir/qrc_qCMAT.cpp.i: cmake_force
@@ -187,7 +204,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/qrc_qCMAT.cpp.s: cmake_force
 
 plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o: plugins/qCMAT/CMakeFiles/qCMAT.dir/flags.make
 plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o: plugins/qCMAT/qCMAT_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o"
 	cd /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qCMAT_autogen/mocs_compilation.cpp
 
 plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.i: cmake_force
@@ -206,6 +223,7 @@ qCMAT_OBJECTS = \
 "CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o" \
 "CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o" \
 "CMakeFiles/qCMAT.dir/src/displayVolume.cpp.o" \
+"CMakeFiles/qCMAT.dir/src/displaySurface.cpp.o" \
 "CMakeFiles/qCMAT.dir/src/glDlg.cpp.o" \
 "CMakeFiles/qCMAT.dir/qrc_qCMAT.cpp.o" \
 "CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o"
@@ -219,6 +237,7 @@ plugins/qCMAT/libqCMAT.so: plugins/qCMAT/CMakeFiles/qCMAT.dir/__/ccStdPluginInte
 plugins/qCMAT/libqCMAT.so: plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o
 plugins/qCMAT/libqCMAT.so: plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o
 plugins/qCMAT/libqCMAT.so: plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displayVolume.cpp.o
+plugins/qCMAT/libqCMAT.so: plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displaySurface.cpp.o
 plugins/qCMAT/libqCMAT.so: plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o
 plugins/qCMAT/libqCMAT.so: plugins/qCMAT/CMakeFiles/qCMAT.dir/qrc_qCMAT.cpp.o
 plugins/qCMAT/libqCMAT.so: plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o
@@ -236,7 +255,7 @@ plugins/qCMAT/libqCMAT.so: /usr/lib/libQt5OpenGLExtensions.a
 plugins/qCMAT/libqCMAT.so: /usr/lib/libQt5Gui.so.5.10.1
 plugins/qCMAT/libqCMAT.so: /usr/lib/libQt5Core.so.5.10.1
 plugins/qCMAT/libqCMAT.so: plugins/qCMAT/CMakeFiles/qCMAT.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX shared library libqCMAT.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX shared library libqCMAT.so"
 	cd /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/qCMAT.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -251,6 +270,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/clean:
 plugins/qCMAT/CMakeFiles/qCMAT.dir/depend: plugins/qCMAT/ui_dlg.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/depend: plugins/qCMAT/ui_ccVolumeTool.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/depend: plugins/qCMAT/ui_displayVolume.h
+plugins/qCMAT/CMakeFiles/qCMAT.dir/depend: plugins/qCMAT/ui_displaySurface.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/depend: plugins/qCMAT/ui_glDlg.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/depend: plugins/qCMAT/qrc_qCMAT.cpp
 	cd /home/chrome/work/CloudCompare/qCMAT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chrome/work/CloudCompare/qCMAT /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT /home/chrome/work/CloudCompare/qCMAT/build /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/CMakeFiles/qCMAT.dir/DependInfo.cmake --color=$(COLOR)

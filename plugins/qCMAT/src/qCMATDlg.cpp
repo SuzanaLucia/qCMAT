@@ -26,6 +26,8 @@
 #include <QMainWindow>
 //include plugin features
 #include "ccVolumeTool.h"
+#include "displaySurface.h"
+
 #include <ccGenericPointCloud.h>
 #include <GenericIndexedCloudPersist.h>
 #include <ccPolyline.h>
@@ -44,6 +46,7 @@ qCMATDlg::qCMATDlg(QWidget* parent)
 	// - SIGNAL and SLOTS section. -
 	connect( cancelButton, SIGNAL(rejected()), this, SLOT(cancelButtonClicked())); //(cancelButtonClicked()));
 	connect( volumePushButton,	SIGNAL(clicked()), this, SLOT( startVolumeDialog()));
+	connect( surfacePushButton,	SIGNAL(clicked()), this, SLOT( startSurfaceDialog()));
 	connect( optionsPushButton,	SIGNAL(clicked()), this, SLOT( startGL()));
 	//connect(clearPushButton,	SIGNAL(clicked()), this, SLOT(clearPointClouds()));
 	/**connect( viewPushButton,	SIGNAL(clicked()), this, SLOT( cancelButtonClicked() ));
@@ -94,6 +97,17 @@ void qCMATDlg::startVolumeDialog(){
 		volt.initializeTool(m_app);
 		volt.exec();
 }
+
+void qCMATDlg::startSurfaceDialog(){
+	//start a dialog to query user + calculate volumes
+		//close this dialog
+		this->close();
+		//create the volume dialog
+		qDisplaySurface surf(m_app->getMainWindow(), m_app, m_app->getSelectedEntities().size());
+		//.initializeTool(m_app);
+		surf.exec();
+}
+
 
 /**
 * Initialises point clouds selected by user and displays point clouds' names in text boxes.
