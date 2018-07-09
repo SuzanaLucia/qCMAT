@@ -58,6 +58,7 @@ protected slots:
 	void startGL();
 	void printConsole(std::string);
 	void printError(std::string);
+	void startShorelineDialog();
 
 	/**
 	void unionSelected();

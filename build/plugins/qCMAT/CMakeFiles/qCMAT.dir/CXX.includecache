@@ -897,6 +897,8 @@ ccVolumeTool.h
 /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccVolumeTool.h
 displaySurface.h
 /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displaySurface.h
+shorelinePlot.h
+/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/shorelinePlot.h
 ccGenericPointCloud.h
 -
 GenericIndexedCloudPersist.h
@@ -911,6 +913,8 @@ ccStdPluginInterface.h
 /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccStdPluginInterface.h
 GenericIndexedCloudPersist.h
 -
+
+/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/shorelinePlot.h
 
 /home/chrome/work/CloudCompare/qCMAT/qCC/ccCommon.h
 

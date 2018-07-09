@@ -313,6 +313,33 @@ INSTALL_QSRA_PLUGIN:BOOL=OFF
 //Check to install qSSAO plugin
 INSTALL_QSSAO_PLUGIN:BOOL=OFF
 
+//Path to a file.
+OPENGL_EGL_INCLUDE_DIR:PATH=/usr/include
+
+//Path to a file.
+OPENGL_GLX_INCLUDE_DIR:PATH=/usr/include
+
+//Path to a file.
+OPENGL_INCLUDE_DIR:PATH=/usr/include
+
+//Path to a library.
+OPENGL_egl_LIBRARY:FILEPATH=/usr/lib/libEGL.so
+
+//Path to a library.
+OPENGL_gl_LIBRARY:FILEPATH=/usr/lib/libGL.so
+
+//Path to a library.
+OPENGL_glu_LIBRARY:FILEPATH=/usr/lib/libGLU.so
+
+//Path to a library.
+OPENGL_glx_LIBRARY:FILEPATH=/usr/lib/libGLX.so
+
+//Path to a library.
+OPENGL_opengl_LIBRARY:FILEPATH=/usr/lib/libOpenGL.so
+
+//Path to a file.
+OPENGL_xmesa_INCLUDE_DIR:PATH=OPENGL_xmesa_INCLUDE_DIR-NOTFOUND
+
 //Check to compile CCViewer project
 OPTION_BUILD_CCVIEWER:BOOL=ON
 
@@ -434,7 +461,7 @@ ccViewer_SOURCE_DIR:STATIC=/home/chrome/work/CloudCompare/qCMAT/ccViewer
 qCMAT_BINARY_DIR:STATIC=/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT
 
 //Dependencies for the target
-qCMAT_LIB_DEPENDS:STATIC=general;CC_FBO_LIB;general;CC_CORE_LIB;general;QCC_DB_LIB;general;QCC_IO_LIB;general;QCC_GL_LIB;general;Qt5::Core;general;Qt5::Gui;general;Qt5::Widgets;general;Qt5::OpenGL;general;Qt5::Concurrent;
+qCMAT_LIB_DEPENDS:STATIC=general;CC_FBO_LIB;general;CC_CORE_LIB;general;QCC_DB_LIB;general;QCC_IO_LIB;general;QCC_GL_LIB;general;Qt5::Core;general;Qt5::Gui;general;Qt5::Widgets;general;Qt5::OpenGL;general;Qt5::Concurrent;general;/usr/lib/libGL.so;general;/usr/lib/libGLU.so;
 
 //Value Computed by CMake
 qCMAT_SOURCE_DIR:STATIC=/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT
@@ -598,6 +625,26 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Test COMPILER_SUPPORTS_CXX11
 COMPILER_SUPPORTS_CXX11:INTERNAL=1
+//Details about finding OpenGL
+FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[/usr/lib/libOpenGL.so][/usr/lib/libGLX.so][/usr/include][c ][v()]
+//ADVANCED property for variable: OPENGL_EGL_INCLUDE_DIR
+OPENGL_EGL_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: OPENGL_GLX_INCLUDE_DIR
+OPENGL_GLX_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: OPENGL_INCLUDE_DIR
+OPENGL_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: OPENGL_egl_LIBRARY
+OPENGL_egl_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: OPENGL_gl_LIBRARY
+OPENGL_gl_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: OPENGL_glu_LIBRARY
+OPENGL_glu_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: OPENGL_glx_LIBRARY
+OPENGL_glx_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: OPENGL_opengl_LIBRARY
+OPENGL_opengl_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: OPENGL_xmesa_INCLUDE_DIR
+OPENGL_xmesa_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //Result of TRY_COMPILE
 OpenMP_COMPILE_RESULT_CXX_fopenmp:INTERNAL=TRUE
 //Result of TRY_COMPILE

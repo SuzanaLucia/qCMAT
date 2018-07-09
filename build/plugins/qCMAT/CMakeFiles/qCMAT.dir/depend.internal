@@ -2325,6 +2325,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o
  /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/glDlg.h
  /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/qCMATDlg.cpp
  /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/qCMATDlg.h
+ /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/shorelinePlot.h
  /usr/include/qt/QtCore/QAtomicInt
  /usr/include/qt/QtCore/QDataStream
  /usr/include/qt/QtCore/QEvent

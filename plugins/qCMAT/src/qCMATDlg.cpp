@@ -27,6 +27,7 @@
 //include plugin features
 #include "ccVolumeTool.h"
 #include "displaySurface.h"
+#include "shorelinePlot.h"
 
 #include <ccGenericPointCloud.h>
 #include <GenericIndexedCloudPersist.h>
@@ -47,6 +48,7 @@ qCMATDlg::qCMATDlg(QWidget* parent)
 	connect( cancelButton, SIGNAL(rejected()), this, SLOT(cancelButtonClicked())); //(cancelButtonClicked()));
 	connect( volumePushButton,	SIGNAL(clicked()), this, SLOT( startVolumeDialog()));
 	connect( surfacePushButton,	SIGNAL(clicked()), this, SLOT( startSurfaceDialog()));
+	connect( shorelinePushButton,	SIGNAL(clicked()), this, SLOT( startShorelineDialog()));
 	connect( optionsPushButton,	SIGNAL(clicked()), this, SLOT( startGL()));
 	//connect(clearPushButton,	SIGNAL(clicked()), this, SLOT(clearPointClouds()));
 	/**connect( viewPushButton,	SIGNAL(clicked()), this, SLOT( cancelButtonClicked() ));
@@ -55,6 +57,12 @@ qCMATDlg::qCMATDlg(QWidget* parent)
 	connect(symDiffPushButton,	SIGNAL(clicked()), this, SLOT(symDiffSelected()));
 	connect(swapToolButton,		SIGNAL(clicked()), this, SLOT(swap)**/
 }
+
+void qCMATDlg::startShorelineDialog(){
+	//pass
+
+}
+
 
 void qCMATDlg::startGL()
 {

@@ -2324,6 +2324,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o: ../plugins/qCMAT/src/disp
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o: ../plugins/qCMAT/src/glDlg.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o: ../plugins/qCMAT/src/qCMATDlg.cpp
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o: ../plugins/qCMAT/src/qCMATDlg.h
+plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o: ../plugins/qCMAT/src/shorelinePlot.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o: /usr/include/qt/QtCore/QAtomicInt
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o: /usr/include/qt/QtCore/QDataStream
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o: /usr/include/qt/QtCore/QEvent

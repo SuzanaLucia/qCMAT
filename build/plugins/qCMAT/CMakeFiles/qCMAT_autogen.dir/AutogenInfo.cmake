@@ -11,7 +11,7 @@ set(AM_BUILD_DIR "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qCMAT
 set(AM_INCLUDE_DIR "include")
 # Files
 set(AM_SOURCES "/home/chrome/work/CloudCompare/qCMAT/plugins/ccDefaultPluginInterface.cpp;/home/chrome/work/CloudCompare/qCMAT/plugins/ccStdPluginInterface.cpp;/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/qCMAT.cpp;/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccVolumeTool.cpp;/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displaySurface.cpp;/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displayVolume.cpp;/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/glDlg.cpp;/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/qCMATDlg.cpp")
-set(AM_HEADERS "/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/qCMAT.h;/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccVolumeTool.h;/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displaySurface.h;/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displayVolume.h;/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/glDlg.h;/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/qCMATDlg.h")
+set(AM_HEADERS "/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/qCMAT.h;/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccVolumeTool.h;/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displaySurface.h;/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displayVolume.h;/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/glDlg.h;/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/qCMATDlg.h;/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/shorelinePlot.h")
 set(AM_SETTINGS_FILE "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/CMakeFiles/qCMAT_autogen.dir/AutogenOldSettings.txt")
 # Qt
 set(AM_QT_VERSION_MAJOR "5")

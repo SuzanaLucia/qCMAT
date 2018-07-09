@@ -44,6 +44,7 @@ public:
     QPushButton *viewPushButton;
     QPushButton *volumePushButton;
     QPushButton *surfacePushButton;
+    QPushButton *shorelinePushButton;
     QDialogButtonBox *cancelButton;
 
     void setupUi(QDialog *CMATDlg)
@@ -146,6 +147,13 @@ public:
 
         verticalLayout_3->addWidget(surfacePushButton);
 
+        shorelinePushButton = new QPushButton(frame);
+        shorelinePushButton->setObjectName(QStringLiteral("shorelinePushButton"));
+        sizePolicy.setHeightForWidth(shorelinePushButton->sizePolicy().hasHeightForWidth());
+        shorelinePushButton->setSizePolicy(sizePolicy);
+
+        verticalLayout_3->addWidget(shorelinePushButton);
+
 
         verticalLayout_2->addWidget(frame);
 
@@ -182,6 +190,10 @@ public:
         surfacePushButton->setToolTip(QApplication::translate("CMATDlg", "Calculate beach volume", nullptr));
 #endif // QT_NO_TOOLTIP
         surfacePushButton->setText(QApplication::translate("CMATDlg", "Surface", nullptr));
+#ifndef QT_NO_TOOLTIP
+        shorelinePushButton->setToolTip(QApplication::translate("CMATDlg", "Calculate beach volume", nullptr));
+#endif // QT_NO_TOOLTIP
+        shorelinePushButton->setText(QApplication::translate("CMATDlg", "Shoreline", nullptr));
     } // retranslateUi
 
 };

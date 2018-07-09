@@ -245,6 +245,8 @@ plugins/qCMAT/libqCMAT.so: plugins/qCMAT/CMakeFiles/qCMAT.dir/build.make
 plugins/qCMAT/libqCMAT.so: libs/CCFbo/libCC_FBO_LIB.a
 plugins/qCMAT/libqCMAT.so: libs/qCC_io/libQCC_IO_LIB.so
 plugins/qCMAT/libqCMAT.so: libs/qCC_glWindow/libQCC_GL_LIB.a
+plugins/qCMAT/libqCMAT.so: /usr/lib/libGL.so
+plugins/qCMAT/libqCMAT.so: /usr/lib/libGLU.so
 plugins/qCMAT/libqCMAT.so: libs/qCC_db/libQCC_DB_LIB.so
 plugins/qCMAT/libqCMAT.so: libs/CCFbo/libCC_FBO_LIB.a
 plugins/qCMAT/libqCMAT.so: CC/libCC_CORE_LIB.so

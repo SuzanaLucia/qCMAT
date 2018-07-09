@@ -18,6 +18,20 @@ if ( INSTALL_QCMAT )
 		#include("ui/")
     #include ( ui )
 
+    #we need that open gl
+    find_package( OpenGL REQUIRED )
+
+    if( NOT OPENGL_FOUND )
+        message( SEND_ERROR "OpenGL required, but not found with 'find_package()'" )
+    endif()
+    
+    include_directories( ${OpenGL_INCLUDE_DIR} )
+    include_directories( ${PCV_LIB_SOURCE_DIR} )
+    
+    #target_link_libraries( ${PROJECT_NAME} PCV_LIB )
+    target_link_libraries( ${PROJECT_NAME} ${OPENGL_LIBRARIES} )
+
+
     # set dependencies to necessary libraries (see qPCV for an example)
     # target_link_libraries( ${PROJECT_NAME} LIB1 )
     # include_directories( ${LIB1_INCLUDE_DIR} )

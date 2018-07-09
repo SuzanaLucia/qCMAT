@@ -4,6 +4,7 @@ set( CC_PLUGIN_CUSTOM_HEADER_LIST
         ${CMAKE_CURRENT_SOURCE_DIR}/ccVolumeTool.h
         ${CMAKE_CURRENT_SOURCE_DIR}/displayVolume.h
         ${CMAKE_CURRENT_SOURCE_DIR}/displaySurface.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/shorelinePlot.h
         ${CMAKE_CURRENT_SOURCE_DIR}/glDlg.h
         PARENT_SCOPE
 )
