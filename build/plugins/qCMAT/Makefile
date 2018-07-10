@@ -348,6 +348,33 @@ src/ccVolumeTool.cpp.s:
 	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/qCMAT/CMakeFiles/qCMAT.dir/build.make plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.s
 .PHONY : src/ccVolumeTool.cpp.s
 
+src/displayShoreline.o: src/displayShoreline.cpp.o
+
+.PHONY : src/displayShoreline.o
+
+# target to build an object file
+src/displayShoreline.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/qCMAT/CMakeFiles/qCMAT.dir/build.make plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displayShoreline.cpp.o
+.PHONY : src/displayShoreline.cpp.o
+
+src/displayShoreline.i: src/displayShoreline.cpp.i
+
+.PHONY : src/displayShoreline.i
+
+# target to preprocess a source file
+src/displayShoreline.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/qCMAT/CMakeFiles/qCMAT.dir/build.make plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displayShoreline.cpp.i
+.PHONY : src/displayShoreline.cpp.i
+
+src/displayShoreline.s: src/displayShoreline.cpp.s
+
+.PHONY : src/displayShoreline.s
+
+# target to generate assembly for a file
+src/displayShoreline.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/qCMAT/CMakeFiles/qCMAT.dir/build.make plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displayShoreline.cpp.s
+.PHONY : src/displayShoreline.cpp.s
+
 src/displaySurface.o: src/displaySurface.cpp.o
 
 .PHONY : src/displaySurface.o
@@ -488,6 +515,9 @@ help:
 	@echo "... src/ccVolumeTool.o"
 	@echo "... src/ccVolumeTool.i"
 	@echo "... src/ccVolumeTool.s"
+	@echo "... src/displayShoreline.o"
+	@echo "... src/displayShoreline.i"
+	@echo "... src/displayShoreline.s"
 	@echo "... src/displaySurface.o"
 	@echo "... src/displaySurface.i"
 	@echo "... src/displaySurface.s"

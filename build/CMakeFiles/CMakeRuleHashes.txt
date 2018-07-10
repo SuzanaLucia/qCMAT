@@ -26,6 +26,7 @@ d1eaaa1116d39ca2e7d4834183435827 libs/qcustomplot/CMakeFiles/qcustomplot_autogen
 6d0d0937914683461289b0a707a6d97f plugins/qCMAT/CMakeFiles/qCMAT_autogen
 cad7917100e02a1170b766d0089ab00a plugins/qCMAT/qrc_qCMAT.cpp
 6d8b14c6313fec669cfbb6e2c597df2c plugins/qCMAT/ui_ccVolumeTool.h
+1ee8193c174d314b6c23ecffe5f5d894 plugins/qCMAT/ui_displayShoreline.h
 87ae8bfb4ce3cbd173330557295742be plugins/qCMAT/ui_displaySurface.h
 782467be7c8195cb7a6020d2c31b8492 plugins/qCMAT/ui_displayVolume.h
 02e263c12e1dfa16ed0ed10e63e34db4 plugins/qCMAT/ui_dlg.h

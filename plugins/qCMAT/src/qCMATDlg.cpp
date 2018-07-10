@@ -27,7 +27,7 @@
 //include plugin features
 #include "ccVolumeTool.h"
 #include "displaySurface.h"
-#include "shorelinePlot.h"
+#include "displayShoreline.h"
 
 #include <ccGenericPointCloud.h>
 #include <GenericIndexedCloudPersist.h>
@@ -60,6 +60,8 @@ qCMATDlg::qCMATDlg(QWidget* parent)
 
 void qCMATDlg::startShorelineDialog(){
 	//pass
+	qDisplayShoreline dispsh(m_app->getMainWindow(), m_app, m_app->getSelectedEntities().size());
+	dispsh.exec();
 
 }
 

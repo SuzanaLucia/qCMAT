@@ -560,6 +560,14 @@ QtCore/qbytearray.h
 QtCore/qmetatype.h
 -
 
+/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qCMAT_autogen/UVLADIE3JM/moc_displayShoreline.cpp
+../../../../../plugins/qCMAT/src/displayShoreline.h
+/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displayShoreline.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
 /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qCMAT_autogen/UVLADIE3JM/moc_displaySurface.cpp
 ../../../../../plugins/qCMAT/src/displaySurface.h
 /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displaySurface.h
@@ -597,6 +605,8 @@ EWIEGA46WW/moc_qCMAT.cpp
 /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qCMAT_autogen/EWIEGA46WW/moc_qCMAT.cpp
 UVLADIE3JM/moc_ccVolumeTool.cpp
 /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qCMAT_autogen/UVLADIE3JM/moc_ccVolumeTool.cpp
+UVLADIE3JM/moc_displayShoreline.cpp
+/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qCMAT_autogen/UVLADIE3JM/moc_displayShoreline.cpp
 UVLADIE3JM/moc_displaySurface.cpp
 /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qCMAT_autogen/UVLADIE3JM/moc_displaySurface.cpp
 UVLADIE3JM/moc_displayVolume.cpp
@@ -762,6 +772,56 @@ SimpleCloud.h
 GenericCloud.h
 -
 
+/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displayShoreline.cpp
+displayShoreline.h
+/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displayShoreline.h
+ui_displayShoreline.h
+/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ui_displayShoreline.h
+string
+-
+QString
+-
+fstream
+-
+QFileDialog
+-
+ccHObject.h
+/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccHObject.h
+ccPointCloud.h
+/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccPointCloud.h
+
+/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displayShoreline.h
+ui_displayShoreline.h
+/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ui_displayShoreline.h
+ccStdPluginInterface.h
+/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccStdPluginInterface.h
+QDialog
+-
+QMainWindow
+-
+QLineEdit
+-
+QMessageBox
+-
+Delaunay2dMesh.h
+-
+PointProjectionTools.h
+-
+ccProgressDialog.h
+-
+ccRasterGrid.h
+-
+ccPointCloud.h
+-
+ccMaterialSet.h
+-
+ccScalarField.h
+-
+SimpleCloud.h
+-
+GenericCloud.h
+-
+
 /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displaySurface.cpp
 displaySurface.h
 /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displaySurface.h
@@ -897,8 +957,8 @@ ccVolumeTool.h
 /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccVolumeTool.h
 displaySurface.h
 /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displaySurface.h
-shorelinePlot.h
-/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/shorelinePlot.h
+displayShoreline.h
+/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displayShoreline.h
 ccGenericPointCloud.h
 -
 GenericIndexedCloudPersist.h
@@ -913,8 +973,6 @@ ccStdPluginInterface.h
 /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccStdPluginInterface.h
 GenericIndexedCloudPersist.h
 -
-
-/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/shorelinePlot.h
 
 /home/chrome/work/CloudCompare/qCMAT/qCC/ccCommon.h
 
@@ -4408,6 +4466,10 @@ qfiledialog.h
 qframe.h
 /usr/include/qt/QtWidgets/qframe.h
 
+/usr/include/qt/QtWidgets/QGridLayout
+qgridlayout.h
+/usr/include/qt/QtWidgets/qgridlayout.h
+
 /usr/include/qt/QtWidgets/QHBoxLayout
 qboxlayout.h
 /usr/include/qt/QtWidgets/qboxlayout.h
@@ -4443,6 +4505,10 @@ qprogressdialog.h
 /usr/include/qt/QtWidgets/QPushButton
 qpushbutton.h
 /usr/include/qt/QtWidgets/qpushbutton.h
+
+/usr/include/qt/QtWidgets/QSlider
+qslider.h
+/usr/include/qt/QtWidgets/qslider.h
 
 /usr/include/qt/QtWidgets/QTextEdit
 qtextedit.h
@@ -4852,6 +4918,32 @@ QtWidgets/QLabel
 QtWidgets/QLineEdit
 -
 QtWidgets/QPushButton
+-
+
+plugins/qCMAT/ui_displayShoreline.h
+QtCore/QVariant
+-
+QtWidgets/QAction
+-
+QtWidgets/QApplication
+-
+QtWidgets/QButtonGroup
+-
+QtWidgets/QDialog
+-
+QtWidgets/QFrame
+-
+QtWidgets/QGridLayout
+-
+QtWidgets/QHeaderView
+-
+QtWidgets/QLabel
+-
+QtWidgets/QLineEdit
+-
+QtWidgets/QPushButton
+-
+QtWidgets/QSlider
 -
 
 plugins/qCMAT/ui_displaySurface.h
