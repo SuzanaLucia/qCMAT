@@ -13,3 +13,6 @@ sudo rm -rf cloudcompare/
 echo "Removing old CloudCompare libraries..."
 echo " "
 echo "== FINISHED CLEANING =="
+
+
+sudo /sbin/ldconfig -v

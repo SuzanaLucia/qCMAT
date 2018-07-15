@@ -429,6 +429,33 @@ src/displayVolume.cpp.s:
 	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/qCMAT/CMakeFiles/qCMAT.dir/build.make plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displayVolume.cpp.s
 .PHONY : src/displayVolume.cpp.s
 
+src/dummyFeat.o: src/dummyFeat.cpp.o
+
+.PHONY : src/dummyFeat.o
+
+# target to build an object file
+src/dummyFeat.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/qCMAT/CMakeFiles/qCMAT.dir/build.make plugins/qCMAT/CMakeFiles/qCMAT.dir/src/dummyFeat.cpp.o
+.PHONY : src/dummyFeat.cpp.o
+
+src/dummyFeat.i: src/dummyFeat.cpp.i
+
+.PHONY : src/dummyFeat.i
+
+# target to preprocess a source file
+src/dummyFeat.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/qCMAT/CMakeFiles/qCMAT.dir/build.make plugins/qCMAT/CMakeFiles/qCMAT.dir/src/dummyFeat.cpp.i
+.PHONY : src/dummyFeat.cpp.i
+
+src/dummyFeat.s: src/dummyFeat.cpp.s
+
+.PHONY : src/dummyFeat.s
+
+# target to generate assembly for a file
+src/dummyFeat.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/qCMAT/CMakeFiles/qCMAT.dir/build.make plugins/qCMAT/CMakeFiles/qCMAT.dir/src/dummyFeat.cpp.s
+.PHONY : src/dummyFeat.cpp.s
+
 src/glDlg.o: src/glDlg.cpp.o
 
 .PHONY : src/glDlg.o
@@ -524,6 +551,9 @@ help:
 	@echo "... src/displayVolume.o"
 	@echo "... src/displayVolume.i"
 	@echo "... src/displayVolume.s"
+	@echo "... src/dummyFeat.o"
+	@echo "... src/dummyFeat.i"
+	@echo "... src/dummyFeat.s"
 	@echo "... src/glDlg.o"
 	@echo "... src/glDlg.i"
 	@echo "... src/glDlg.s"

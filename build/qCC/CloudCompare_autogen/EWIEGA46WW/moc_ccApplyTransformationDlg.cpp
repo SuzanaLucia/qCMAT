@@ -105,17 +105,6 @@ void ccApplyTransformationDlg::qt_static_metacall(QObject *_o, QMetaObject::Call
         case 7: _t->buttonClicked((*reinterpret_cast< QAbstractButton*(*)>(_a[1]))); break;
         default: ;
         }
-    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        switch (_id) {
-        default: *reinterpret_cast<int*>(_a[0]) = -1; break;
-        case 7:
-            switch (*reinterpret_cast<int*>(_a[1])) {
-            default: *reinterpret_cast<int*>(_a[0]) = -1; break;
-            case 0:
-                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QAbstractButton* >(); break;
-            }
-            break;
-        }
     }
 }
 
@@ -151,7 +140,7 @@ int ccApplyTransformationDlg::qt_metacall(QMetaObject::Call _c, int _id, void **
         _id -= 8;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
         if (_id < 8)
-            qt_static_metacall(this, _c, _id, _a);
+            *reinterpret_cast<int*>(_a[0]) = -1;
         _id -= 8;
     }
     return _id;

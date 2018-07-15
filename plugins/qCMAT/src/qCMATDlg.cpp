@@ -28,6 +28,8 @@
 #include "ccVolumeTool.h"
 #include "displaySurface.h"
 #include "displayShoreline.h"
+#include "dummyFeat.h"
+
 
 #include <ccGenericPointCloud.h>
 #include <GenericIndexedCloudPersist.h>
@@ -45,6 +47,7 @@ qCMATDlg::qCMATDlg(QWidget* parent)
 	//m_app = app
 
 	// - SIGNAL and SLOTS section. -
+	connect( dummyFeaturePushButton, SIGNAL(clicked()), this, SLOT(viewButtonClicked()));
 	connect( cancelButton, SIGNAL(rejected()), this, SLOT(cancelButtonClicked())); //(cancelButtonClicked()));
 	connect( volumePushButton,	SIGNAL(clicked()), this, SLOT( startVolumeDialog()));
 	connect( surfacePushButton,	SIGNAL(clicked()), this, SLOT( startSurfaceDialog()));
@@ -56,6 +59,12 @@ qCMATDlg::qCMATDlg(QWidget* parent)
 	connect(diffPushButton,		SIGNAL(clicked()), this, SLOT(diffSelected()));
 	connect(symDiffPushButton,	SIGNAL(clicked()), this, SLOT(symDiffSelected()));
 	connect(swapToolButton,		SIGNAL(clicked()), this, SLOT(swap)**/
+}
+
+void qCMATDlg::viewButtonClicked(){
+	m_app->dispToConsole("I, here!");
+	dummyFeat dummy(m_app->getMainWindow(), m_app, m_app->getSelectedEntities().size());
+	dummy.exec();
 }
 
 void qCMATDlg::startShorelineDialog(){

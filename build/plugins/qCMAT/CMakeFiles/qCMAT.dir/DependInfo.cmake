@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displayShoreline.cpp" "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displayShoreline.cpp.o"
   "/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displaySurface.cpp" "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displaySurface.cpp.o"
   "/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displayVolume.cpp" "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displayVolume.cpp.o"
+  "/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/dummyFeat.cpp" "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/CMakeFiles/qCMAT.dir/src/dummyFeat.cpp.o"
   "/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/glDlg.cpp" "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o"
   "/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/qCMATDlg.cpp" "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o"
   )

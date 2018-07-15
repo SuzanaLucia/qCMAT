@@ -59,6 +59,7 @@ protected slots:
 	void printConsole(std::string);
 	void printError(std::string);
 	void startShorelineDialog();
+	void viewButtonClicked();
 
 	/**
 	void unionSelected();

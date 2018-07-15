@@ -41,7 +41,7 @@ public:
     QFrame *frame;
     QVBoxLayout *verticalLayout_3;
     QPushButton *optionsPushButton;
-    QPushButton *viewPushButton;
+    QPushButton *dummyFeaturePushButton;
     QPushButton *volumePushButton;
     QPushButton *surfacePushButton;
     QPushButton *shorelinePushButton;
@@ -126,12 +126,12 @@ public:
 
         verticalLayout_3->addWidget(optionsPushButton);
 
-        viewPushButton = new QPushButton(frame);
-        viewPushButton->setObjectName(QStringLiteral("viewPushButton"));
-        sizePolicy.setHeightForWidth(viewPushButton->sizePolicy().hasHeightForWidth());
-        viewPushButton->setSizePolicy(sizePolicy);
+        dummyFeaturePushButton = new QPushButton(frame);
+        dummyFeaturePushButton->setObjectName(QStringLiteral("dummyFeaturePushButton"));
+        sizePolicy.setHeightForWidth(dummyFeaturePushButton->sizePolicy().hasHeightForWidth());
+        dummyFeaturePushButton->setSizePolicy(sizePolicy);
 
-        verticalLayout_3->addWidget(viewPushButton);
+        verticalLayout_3->addWidget(dummyFeaturePushButton);
 
         volumePushButton = new QPushButton(frame);
         volumePushButton->setObjectName(QStringLiteral("volumePushButton"));
@@ -179,9 +179,9 @@ public:
 #endif // QT_NO_TOOLTIP
         optionsPushButton->setText(QApplication::translate("CMATDlg", "Options", nullptr));
 #ifndef QT_NO_TOOLTIP
-        viewPushButton->setToolTip(QApplication::translate("CMATDlg", "Choose visualisation style for cloud points being processed.", nullptr));
+        dummyFeaturePushButton->setToolTip(QApplication::translate("CMATDlg", "Choose visualisation style for cloud points being processed.", nullptr));
 #endif // QT_NO_TOOLTIP
-        viewPushButton->setText(QApplication::translate("CMATDlg", "View ", nullptr));
+        dummyFeaturePushButton->setText(QApplication::translate("CMATDlg", "Dummy Feture", nullptr));
 #ifndef QT_NO_TOOLTIP
         volumePushButton->setToolTip(QApplication::translate("CMATDlg", "Calculate beach volume", nullptr));
 #endif // QT_NO_TOOLTIP

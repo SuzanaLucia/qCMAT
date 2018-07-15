@@ -355,7 +355,7 @@ libs/qCC_io/CMakeFiles/QCC_IO_LIB.dir/all: libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir
 libs/qCC_io/CMakeFiles/QCC_IO_LIB.dir/all: libs/qCC_io/CMakeFiles/QCC_IO_LIB_autogen.dir/all
 	$(MAKE) -f libs/qCC_io/CMakeFiles/QCC_IO_LIB.dir/build.make libs/qCC_io/CMakeFiles/QCC_IO_LIB.dir/depend
 	$(MAKE) -f libs/qCC_io/CMakeFiles/QCC_IO_LIB.dir/build.make libs/qCC_io/CMakeFiles/QCC_IO_LIB.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=76,77,78,79,80,81,82,83,84,85,86,87 "Built target QCC_IO_LIB"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=76,77,78,79,80,81,82,83,84,85,86 "Built target QCC_IO_LIB"
 .PHONY : libs/qCC_io/CMakeFiles/QCC_IO_LIB.dir/all
 
 # Include target in all.
@@ -394,12 +394,12 @@ libs/qCC_io/CMakeFiles/QCC_IO_LIB_autogen.dir/all: libs/CCFbo/CMakeFiles/CC_FBO_
 libs/qCC_io/CMakeFiles/QCC_IO_LIB_autogen.dir/all: libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/all
 	$(MAKE) -f libs/qCC_io/CMakeFiles/QCC_IO_LIB_autogen.dir/build.make libs/qCC_io/CMakeFiles/QCC_IO_LIB_autogen.dir/depend
 	$(MAKE) -f libs/qCC_io/CMakeFiles/QCC_IO_LIB_autogen.dir/build.make libs/qCC_io/CMakeFiles/QCC_IO_LIB_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num= "Built target QCC_IO_LIB_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=87 "Built target QCC_IO_LIB_autogen"
 .PHONY : libs/qCC_io/CMakeFiles/QCC_IO_LIB_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 libs/qCC_io/CMakeFiles/QCC_IO_LIB_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles 28
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles 29
 	$(MAKE) -f CMakeFiles/Makefile2 libs/qCC_io/CMakeFiles/QCC_IO_LIB_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles 0
 .PHONY : libs/qCC_io/CMakeFiles/QCC_IO_LIB_autogen.dir/rule
@@ -448,7 +448,7 @@ libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/all: libs/qCC_db/CMakeFiles/QCC_DB_L
 libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/all: libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB_autogen.dir/all
 	$(MAKE) -f libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/build.make libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/depend
 	$(MAKE) -f libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/build.make libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=74,75 "Built target QCC_GL_LIB"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=74 "Built target QCC_GL_LIB"
 .PHONY : libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/all
 
 # Include target in all.
@@ -487,12 +487,12 @@ libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB_autogen.dir/all: libs/CCFbo/CMakeFiles/C
 libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB_autogen.dir/all: libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/all
 	$(MAKE) -f libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB_autogen.dir/build.make libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB_autogen.dir/depend
 	$(MAKE) -f libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB_autogen.dir/build.make libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num= "Built target QCC_GL_LIB_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=75 "Built target QCC_GL_LIB_autogen"
 .PHONY : libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles 28
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles 29
 	$(MAKE) -f CMakeFiles/Makefile2 libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles 0
 .PHONY : libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB_autogen.dir/rule
@@ -1165,15 +1165,15 @@ plugins/qCMAT/preinstall: plugins/qCMAT/src/preinstall
 # Target rules for target plugins/qCMAT/CMakeFiles/qCMAT.dir
 
 # All Build rule for target.
+plugins/qCMAT/CMakeFiles/qCMAT.dir/all: libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/all
 plugins/qCMAT/CMakeFiles/qCMAT.dir/all: CC/CMakeFiles/CC_CORE_LIB.dir/all
 plugins/qCMAT/CMakeFiles/qCMAT.dir/all: libs/CCFbo/CMakeFiles/CC_FBO_LIB.dir/all
 plugins/qCMAT/CMakeFiles/qCMAT.dir/all: libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/all
 plugins/qCMAT/CMakeFiles/qCMAT.dir/all: libs/qCC_io/CMakeFiles/QCC_IO_LIB.dir/all
-plugins/qCMAT/CMakeFiles/qCMAT.dir/all: libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/all
 plugins/qCMAT/CMakeFiles/qCMAT.dir/all: plugins/qCMAT/CMakeFiles/qCMAT_autogen.dir/all
 	$(MAKE) -f plugins/qCMAT/CMakeFiles/qCMAT.dir/build.make plugins/qCMAT/CMakeFiles/qCMAT.dir/depend
 	$(MAKE) -f plugins/qCMAT/CMakeFiles/qCMAT.dir/build.make plugins/qCMAT/CMakeFiles/qCMAT.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=94,95,96,97,98 "Built target qCMAT"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=93,94,95,96,97,98 "Built target qCMAT"
 .PHONY : plugins/qCMAT/CMakeFiles/qCMAT.dir/all
 
 # Include target in all.
@@ -1183,7 +1183,7 @@ all: plugins/qCMAT/CMakeFiles/qCMAT.dir/all
 
 # Build rule for subdir invocation for target.
 plugins/qCMAT/CMakeFiles/qCMAT.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles 47
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles 48
 	$(MAKE) -f CMakeFiles/Makefile2 plugins/qCMAT/CMakeFiles/qCMAT.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles 0
 .PHONY : plugins/qCMAT/CMakeFiles/qCMAT.dir/rule
@@ -1207,11 +1207,11 @@ clean: plugins/qCMAT/CMakeFiles/qCMAT.dir/clean
 # Target rules for target plugins/qCMAT/CMakeFiles/qCMAT_autogen.dir
 
 # All Build rule for target.
+plugins/qCMAT/CMakeFiles/qCMAT_autogen.dir/all: libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/all
 plugins/qCMAT/CMakeFiles/qCMAT_autogen.dir/all: CC/CMakeFiles/CC_CORE_LIB.dir/all
 plugins/qCMAT/CMakeFiles/qCMAT_autogen.dir/all: libs/CCFbo/CMakeFiles/CC_FBO_LIB.dir/all
 plugins/qCMAT/CMakeFiles/qCMAT_autogen.dir/all: libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/all
 plugins/qCMAT/CMakeFiles/qCMAT_autogen.dir/all: libs/qCC_io/CMakeFiles/QCC_IO_LIB.dir/all
-plugins/qCMAT/CMakeFiles/qCMAT_autogen.dir/all: libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/all
 	$(MAKE) -f plugins/qCMAT/CMakeFiles/qCMAT_autogen.dir/build.make plugins/qCMAT/CMakeFiles/qCMAT_autogen.dir/depend
 	$(MAKE) -f plugins/qCMAT/CMakeFiles/qCMAT_autogen.dir/build.make plugins/qCMAT/CMakeFiles/qCMAT_autogen.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num= "Built target qCMAT_autogen"
@@ -1303,12 +1303,12 @@ qCC/preinstall: qCC/pluginManager/preinstall
 # Target rules for target qCC/CMakeFiles/CloudCompare.dir
 
 # All Build rule for target.
+qCC/CMakeFiles/CloudCompare.dir/all: libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/all
+qCC/CMakeFiles/CloudCompare.dir/all: libs/qcustomplot/CMakeFiles/qcustomplot.dir/all
 qCC/CMakeFiles/CloudCompare.dir/all: CC/CMakeFiles/CC_CORE_LIB.dir/all
 qCC/CMakeFiles/CloudCompare.dir/all: libs/CCFbo/CMakeFiles/CC_FBO_LIB.dir/all
 qCC/CMakeFiles/CloudCompare.dir/all: libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/all
 qCC/CMakeFiles/CloudCompare.dir/all: libs/qCC_io/CMakeFiles/QCC_IO_LIB.dir/all
-qCC/CMakeFiles/CloudCompare.dir/all: libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/all
-qCC/CMakeFiles/CloudCompare.dir/all: libs/qcustomplot/CMakeFiles/qcustomplot.dir/all
 qCC/CMakeFiles/CloudCompare.dir/all: qCC/CMakeFiles/CloudCompare_autogen.dir/all
 	$(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/depend
 	$(MAKE) -f qCC/CMakeFiles/CloudCompare.dir/build.make qCC/CMakeFiles/CloudCompare.dir/build
@@ -1346,12 +1346,12 @@ clean: qCC/CMakeFiles/CloudCompare.dir/clean
 # Target rules for target qCC/CMakeFiles/CloudCompare_autogen.dir
 
 # All Build rule for target.
+qCC/CMakeFiles/CloudCompare_autogen.dir/all: libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/all
+qCC/CMakeFiles/CloudCompare_autogen.dir/all: libs/qcustomplot/CMakeFiles/qcustomplot.dir/all
 qCC/CMakeFiles/CloudCompare_autogen.dir/all: CC/CMakeFiles/CC_CORE_LIB.dir/all
 qCC/CMakeFiles/CloudCompare_autogen.dir/all: libs/CCFbo/CMakeFiles/CC_FBO_LIB.dir/all
 qCC/CMakeFiles/CloudCompare_autogen.dir/all: libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/all
 qCC/CMakeFiles/CloudCompare_autogen.dir/all: libs/qCC_io/CMakeFiles/QCC_IO_LIB.dir/all
-qCC/CMakeFiles/CloudCompare_autogen.dir/all: libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/all
-qCC/CMakeFiles/CloudCompare_autogen.dir/all: libs/qcustomplot/CMakeFiles/qcustomplot.dir/all
 	$(MAKE) -f qCC/CMakeFiles/CloudCompare_autogen.dir/build.make qCC/CMakeFiles/CloudCompare_autogen.dir/depend
 	$(MAKE) -f qCC/CMakeFiles/CloudCompare_autogen.dir/build.make qCC/CMakeFiles/CloudCompare_autogen.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num= "Built target CloudCompare_autogen"
@@ -1438,15 +1438,15 @@ ccViewer/preinstall:
 # Target rules for target ccViewer/CMakeFiles/ccViewer.dir
 
 # All Build rule for target.
+ccViewer/CMakeFiles/ccViewer.dir/all: libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/all
 ccViewer/CMakeFiles/ccViewer.dir/all: CC/CMakeFiles/CC_CORE_LIB.dir/all
 ccViewer/CMakeFiles/ccViewer.dir/all: libs/CCFbo/CMakeFiles/CC_FBO_LIB.dir/all
 ccViewer/CMakeFiles/ccViewer.dir/all: libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/all
 ccViewer/CMakeFiles/ccViewer.dir/all: libs/qCC_io/CMakeFiles/QCC_IO_LIB.dir/all
-ccViewer/CMakeFiles/ccViewer.dir/all: libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/all
 ccViewer/CMakeFiles/ccViewer.dir/all: ccViewer/CMakeFiles/ccViewer_autogen.dir/all
 	$(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/depend
 	$(MAKE) -f ccViewer/CMakeFiles/ccViewer.dir/build.make ccViewer/CMakeFiles/ccViewer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=88,89,90,91,92,93 "Built target ccViewer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=88,89,90,91,92 "Built target ccViewer"
 .PHONY : ccViewer/CMakeFiles/ccViewer.dir/all
 
 # Include target in all.
@@ -1456,7 +1456,7 @@ all: ccViewer/CMakeFiles/ccViewer.dir/all
 
 # Build rule for subdir invocation for target.
 ccViewer/CMakeFiles/ccViewer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles 48
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles 47
 	$(MAKE) -f CMakeFiles/Makefile2 ccViewer/CMakeFiles/ccViewer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles 0
 .PHONY : ccViewer/CMakeFiles/ccViewer.dir/rule
@@ -1480,11 +1480,11 @@ clean: ccViewer/CMakeFiles/ccViewer.dir/clean
 # Target rules for target ccViewer/CMakeFiles/ccViewer_autogen.dir
 
 # All Build rule for target.
+ccViewer/CMakeFiles/ccViewer_autogen.dir/all: libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/all
 ccViewer/CMakeFiles/ccViewer_autogen.dir/all: CC/CMakeFiles/CC_CORE_LIB.dir/all
 ccViewer/CMakeFiles/ccViewer_autogen.dir/all: libs/CCFbo/CMakeFiles/CC_FBO_LIB.dir/all
 ccViewer/CMakeFiles/ccViewer_autogen.dir/all: libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/all
 ccViewer/CMakeFiles/ccViewer_autogen.dir/all: libs/qCC_io/CMakeFiles/QCC_IO_LIB.dir/all
-ccViewer/CMakeFiles/ccViewer_autogen.dir/all: libs/qCC_glWindow/CMakeFiles/QCC_GL_LIB.dir/all
 	$(MAKE) -f ccViewer/CMakeFiles/ccViewer_autogen.dir/build.make ccViewer/CMakeFiles/ccViewer_autogen.dir/depend
 	$(MAKE) -f ccViewer/CMakeFiles/ccViewer_autogen.dir/build.make ccViewer/CMakeFiles/ccViewer_autogen.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num= "Built target ccViewer_autogen"
