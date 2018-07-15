@@ -28,7 +28,9 @@
 #include "ccVolumeTool.h"
 #include "displaySurface.h"
 #include "displayShoreline.h"
-#include "dummyFeat.h"
+
+//Include the dummy header for accesing the dummy plugin
+//#include "dummyFeat.h"
 
 
 #include <ccGenericPointCloud.h>
@@ -47,7 +49,9 @@ qCMATDlg::qCMATDlg(QWidget* parent)
 	//m_app = app
 
 	// - SIGNAL and SLOTS section. -
-	connect( dummyFeaturePushButton, SIGNAL(clicked()), this, SLOT(viewButtonClicked()));
+//Connect the dumy Push buton with the viewButtonClicked method
+	//connect( dummyFeaturePushButton, SIGNAL(clicked()), this, SLOT(viewButtonClicked()));
+
 	connect( cancelButton, SIGNAL(rejected()), this, SLOT(cancelButtonClicked())); //(cancelButtonClicked()));
 	connect( volumePushButton,	SIGNAL(clicked()), this, SLOT( startVolumeDialog()));
 	connect( surfacePushButton,	SIGNAL(clicked()), this, SLOT( startSurfaceDialog()));
@@ -62,9 +66,9 @@ qCMATDlg::qCMATDlg(QWidget* parent)
 }
 
 void qCMATDlg::viewButtonClicked(){
-	m_app->dispToConsole("I, here!");
-	dummyFeat dummy(m_app->getMainWindow(), m_app, m_app->getSelectedEntities().size());
-	dummy.exec();
+// Make a dummy feature QObject and run it
+//	dummyFeat dummy(m_app->getMainWindow(), m_app);
+//	dummy.exec();
 }
 
 void qCMATDlg::startShorelineDialog(){

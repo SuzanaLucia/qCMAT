@@ -21,8 +21,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_dummyFeat_t {
-    QByteArrayData data[5];
-    char stringdata0[38];
+    QByteArrayData data[3];
+    char stringdata0[22];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -32,13 +32,11 @@ struct qt_meta_stringdata_dummyFeat_t {
 static const qt_meta_stringdata_dummyFeat_t qt_meta_stringdata_dummyFeat = {
     {
 QT_MOC_LITERAL(0, 0, 9), // "dummyFeat"
-QT_MOC_LITERAL(1, 10, 12), // "closeDisplay"
-QT_MOC_LITERAL(2, 23, 0), // ""
-QT_MOC_LITERAL(3, 24, 6), // "save2D"
-QT_MOC_LITERAL(4, 31, 6) // "save3D"
+QT_MOC_LITERAL(1, 10, 10), // "helloWorld"
+QT_MOC_LITERAL(2, 21, 0) // ""
 
     },
-    "dummyFeat\0closeDisplay\0\0save2D\0save3D"
+    "dummyFeat\0helloWorld\0"
 };
 #undef QT_MOC_LITERAL
 
@@ -48,7 +46,7 @@ static const uint qt_meta_data_dummyFeat[] = {
        7,       // revision
        0,       // classname
        0,    0, // classinfo
-       3,   14, // methods
+       1,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -56,13 +54,9 @@ static const uint qt_meta_data_dummyFeat[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    0,   29,    2, 0x09 /* Protected */,
-       3,    0,   30,    2, 0x09 /* Protected */,
-       4,    0,   31,    2, 0x09 /* Protected */,
+       1,    0,   19,    2, 0x09 /* Protected */,
 
  // slots: parameters
-    QMetaType::Void,
-    QMetaType::Void,
     QMetaType::Void,
 
        0        // eod
@@ -74,9 +68,7 @@ void dummyFeat::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
         dummyFeat *_t = static_cast<dummyFeat *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
-        case 0: _t->closeDisplay(); break;
-        case 1: _t->save2D(); break;
-        case 2: _t->save3D(); break;
+        case 0: _t->helloWorld(); break;
         default: ;
         }
     }
@@ -110,13 +102,13 @@ int dummyFeat::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 3)
+        if (_id < 1)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 3;
+        _id -= 1;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 3)
+        if (_id < 1)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 3;
+        _id -= 1;
     }
     return _id;
 }

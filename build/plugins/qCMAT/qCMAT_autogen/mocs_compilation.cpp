@@ -4,6 +4,5 @@
 #include "UVLADIE3JM/moc_displayShoreline.cpp"
 #include "UVLADIE3JM/moc_displaySurface.cpp"
 #include "UVLADIE3JM/moc_displayVolume.cpp"
-#include "UVLADIE3JM/moc_dummyFeat.cpp"
 #include "UVLADIE3JM/moc_glDlg.cpp"
 #include "UVLADIE3JM/moc_qCMATDlg.cpp"
