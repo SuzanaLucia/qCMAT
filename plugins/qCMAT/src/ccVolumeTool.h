@@ -18,7 +18,7 @@
 #ifndef CC_VOLUME_TOOL_H
 #define CC_VOLUME_TOOL_H
 
-#include "displayVolume.h"
+#include "ccDisplayVolume.h"
 #include "ui_ccVolumeTool.h"
 #include "ccStdPluginInterface.h"
 

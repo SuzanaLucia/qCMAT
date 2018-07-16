@@ -16,7 +16,7 @@
 //##########################################################################
 
 
-#include "displayVolume.h"
+#include "ccDisplayVolume.h"
 #include "ccVolumeTool.h"
 #include "ccHObject.h"
 #include "SimpleCloud.h"
@@ -399,7 +399,7 @@ void ccVolumeTool::processClouds(){
 
 void ccVolumeTool::displayVolmes(){
 	//open the display
-		displayVolume volt(m_app->getMainWindow(), sliceInfo, noSlices, noClouds, m_app);
+		ccDisplayVolume volt(m_app->getMainWindow(), sliceInfo, noSlices, noClouds, m_app);
 		//volt.initializeTool(m_app); //don't forget to pass contours as an argument
 		volt.exec();
 }

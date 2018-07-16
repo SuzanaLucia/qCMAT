@@ -1,11 +1,29 @@
-#include "displaySurface.h"
+//##########################################################################
+//#                                                                        #
+//#                           		 qCMAT								   #
+//#					(Coastal Management Analysis Toolbox)			  	   #
+//#                                                                        #
+//#  This program is free software; you can redistribute it and/or modify  #
+//#  it under the terms of the GNU Library General Public License as       #
+//#  published by the Free Software Foundation; version 2 of the License.  #
+//#                                                                        #
+//#  This program is distributed in the hope that it will be useful,       #
+//#  but WITHOUT ANY WARRANTY; without even the implied warranty of        #
+//#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         #
+//#  GNU General Public License for more details.                          #
+//#                                                                        #
+//#         COPYRIGHT: Lancaster University Environment Center 2017        #
+//#           WRITTEN BY: Liam O'Hanlon & Arthur-Louis Heath               #
+//##########################################################################
+
+#include "ccDisplaySurface.h"
 #include "ui_displaySurface.h"
 #include <string>
 #include <QString>
 #include <fstream>
 #include <QFileDialog>
 
-qDisplaySurface::qDisplaySurface(QWidget* parent, ccMainAppInterface* app, int numberOfClouds)
+ccDisplaySurface::ccDisplaySurface(QWidget* parent, ccMainAppInterface* app, int numberOfClouds)
 	: QDialog(parent, Qt::Tool)
 	, Ui::displaySurface()
 {
@@ -41,7 +59,7 @@ qDisplaySurface::qDisplaySurface(QWidget* parent, ccMainAppInterface* app, int n
 	}
 }
 
-void qDisplaySurface::saveCSV(){
+void ccDisplaySurface::saveCSV(){
 	//get fileName
 	QString fileName = QFileDialog::getSaveFileName(this,
     tr("Save contours"), "",
@@ -70,17 +88,17 @@ void qDisplaySurface::saveCSV(){
 	m_app->dispToConsole(QString::fromStdString("Finished saving to: ") + fileName + QString::fromStdString(".csv"));
 }
 
-void qDisplaySurface::closeDisplay(){
+void ccDisplaySurface::closeDisplay(){
 	this->close();
 }
 
 
-qDisplaySurface::~qDisplaySurface()
+ccDisplaySurface::~ccDisplaySurface()
 {
 }
 
 
-float qDisplaySurface::volumeBetweenHeights(ccPointCloud* theCloud){
+float ccDisplaySurface::volumeBetweenHeights(ccPointCloud* theCloud){
 	//get a list of all the clouds i guess | Assume its just one Cloud selected and given as argument
 		//for now ignore min and max limits
 	//start off by just displaying the volume
@@ -144,7 +162,7 @@ float qDisplaySurface::volumeBetweenHeights(ccPointCloud* theCloud){
 }
 
 
-float qDisplaySurface::ComputeVolume(	ccRasterGrid& grid,
+float ccDisplaySurface::ComputeVolume(	ccRasterGrid& grid,
 										ccGenericPointCloud* ground,
 										ccGenericPointCloud* ceil,
 										const ccBBox& gridBox,
@@ -155,7 +173,7 @@ float qDisplaySurface::ComputeVolume(	ccRasterGrid& grid,
 										ccRasterGrid::ProjectionType projectionType,
 										ccRasterGrid::EmptyCellFillOption groundEmptyCellFillStrategy,
 										ccRasterGrid::EmptyCellFillOption ceilEmptyCellFillStrategy,
-										qDisplaySurface::ReportInfo& reportInfo,
+										ccDisplaySurface::ReportInfo& reportInfo,
 										double groundHeight,
 										double ceilHeight,
 										QWidget* parentWidget)

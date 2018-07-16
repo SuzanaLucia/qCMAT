@@ -26,16 +26,16 @@
 #include <QMainWindow>
 //include plugin features
 #include "ccVolumeTool.h"
-#include "displaySurface.h"
+#include "ccDisplaySurface.h"
 #include "displayShoreline.h"
-
-//Include the dummy header for accesing the dummy plugin
-//#include "dummyFeat.h"
-
 
 #include <ccGenericPointCloud.h>
 #include <GenericIndexedCloudPersist.h>
 #include <ccPolyline.h>
+
+
+//Include the dummy header for accesing the dummy plugin
+//#include "dummyFeat.h"
 
 qCMATDlg::qCMATDlg(QWidget* parent)
 	: QDialog(parent, Qt::Tool)
@@ -49,6 +49,7 @@ qCMATDlg::qCMATDlg(QWidget* parent)
 	//m_app = app
 
 	// - SIGNAL and SLOTS section. -
+
 //Connect the dumy Push buton with the viewButtonClicked method
 	//connect( dummyFeaturePushButton, SIGNAL(clicked()), this, SLOT(viewButtonClicked()));
 
@@ -124,9 +125,9 @@ void qCMATDlg::startVolumeDialog(){
 void qCMATDlg::startSurfaceDialog(){
 	//start a dialog to query user + calculate volumes
 		//close this dialog
-		this->close();
+		//this->close();
 		//create the volume dialog
-		qDisplaySurface surf(m_app->getMainWindow(), m_app, m_app->getSelectedEntities().size());
+		ccDisplaySurface surf(m_app->getMainWindow(), m_app, m_app->getSelectedEntities().size());
 		//.initializeTool(m_app);
 		surf.exec();
 }
