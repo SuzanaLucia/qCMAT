@@ -1,8 +1,8 @@
 //include the UI and main application
-#include "dummyFeat.h"
+#include "ccDummyFeat.h"
 
 
-dummyFeat::dummyFeat(QWidget* parent, ccMainAppInterface* app)
+ccDummyFeat::ccDummyFeat(QWidget* parent, ccMainAppInterface* app)
 	: QDialog(parent, Qt::Tool)
 	, Ui::dummyFeat()
 {
@@ -18,12 +18,12 @@ dummyFeat::dummyFeat(QWidget* parent, ccMainAppInterface* app)
 }
 
 
-void dummyFeat::helloWorld(){
+void ccDummyFeat::helloWorld(){
 	//display Hello World! to CC console
 	m_app->dispToConsole("Hello, World!");
 }
 
 
-dummyFeat::~dummyFeat()
+ccDummyFeat::~ccDummyFeat()
 {
 }

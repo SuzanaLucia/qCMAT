@@ -23,6 +23,9 @@
 #include <fstream>
 #include <QFileDialog>
 
+//TODO: allow user to change grid step
+#define GRID_STEP 0.1
+
 ccDisplaySurface::ccDisplaySurface(QWidget* parent, ccMainAppInterface* app, int numberOfClouds)
 	: QDialog(parent, Qt::Tool)
 	, Ui::displaySurface()
@@ -48,7 +51,7 @@ ccDisplaySurface::ccDisplaySurface(QWidget* parent, ccMainAppInterface* app, int
 		str += " | ";
 		str += m_app->getSelectedEntities()[i]->getName().toStdString();
 		str += " | ";
-		surfaces[i] = volumeBetweenHeights(ccHObjectCaster::ToPointCloud(m_app->getSelectedEntities()[i]));
+		surfaces[i] = calcSurfaceWrapper(ccHObjectCaster::ToPointCloud(m_app->getSelectedEntities()[i]));
 		str += std::to_string(surfaces[i]);
 		//calculate surface area and store it internaly
 
@@ -60,24 +63,38 @@ ccDisplaySurface::ccDisplaySurface(QWidget* parent, ccMainAppInterface* app, int
 }
 
 void ccDisplaySurface::saveCSV(){
-	//get fileName
+	/*
+	Save the contours to a csv file in the following format (fist line records format):
+
+	[Id],[Name],[Surface Area]
+	0	, cloud1 , Val			
+	1   , cloud2 , Val
+	... , ...    , ...		
+
+	*/
+	
+	//Open get save file name
 	QString fileName = QFileDialog::getSaveFileName(this,
     tr("Save contours"), "",
     tr("Save contours(*.csv);;All Files (*)"));
 
 	if(fileName.size() == 0){
-		//user cancelled or didnt enter a filename
-		//dont report just close, since nothing has been selected
-		//m_app->dispToConsole("Error selecting fileName");
+		//Check user entered a file name
 		return;
 	}
+
+	//File stream for output
 	std::ofstream surfFile;
-	//check file can be opened
+
+	//check file can be opened / open file
   	surfFile.open((fileName.toStdString() + ".csv").c_str(), std::ios::trunc);
-	//save volumes names and ID's into file
+
 	//save format string [Id],[Name],[Surface Area]
 	surfFile << "[Id],[Name],[Surface Area]" << std::endl;
+
+	//For each cloud
 	for(int i = 0; i < noClouds; i++){
+		//Generate and output a line to the file
 		std::string str = std::to_string(i) + ",";
 		str += m_app->getSelectedEntities()[i]->getName().toStdString() + ",";
 		str += std::to_string(surfaces[i]);
@@ -89,6 +106,7 @@ void ccDisplaySurface::saveCSV(){
 }
 
 void ccDisplaySurface::closeDisplay(){
+	//close the display
 	this->close();
 }
 
@@ -98,46 +116,27 @@ ccDisplaySurface::~ccDisplaySurface()
 }
 
 
-float ccDisplaySurface::volumeBetweenHeights(ccPointCloud* theCloud){
-	//get a list of all the clouds i guess | Assume its just one Cloud selected and given as argument
-		//for now ignore min and max limits
-	//start off by just displaying the volume
-		//Fool! You thought that would be easy!
+float ccDisplaySurface::calcSurfaceWrapper(ccPointCloud* theCloud){
+	/*
+	Initialize parameters and call surface calculation function
+	*/
 
-	//make a volume tool object, dont display it
-	//force set all the settings and then call its calculate method
-
-	//store the result of the volume computation
-	ReportInfo result;
 	ccRasterGrid grid;
-
-	//specify grid step, 0.5 seems sensible
-	float gridStep = 0.1;
-
+	//specify grid step, 0.1 works well
+	float gridStep = GRID_STEP;
+	//get cloud bounding box
 	ccBBox gridBBox = theCloud->getOwnBB();
 	//get grid width and height
 	unsigned& gridWidth = *(new unsigned);
 	unsigned& gridHeight = *(new unsigned);
-
 	//get volume box size
 	ccBBox box = ccBBox();
 
+	//Compute size of raster grid
 	ccRasterGrid::ComputeGridSize(2, gridBBox, gridStep, gridWidth, gridHeight);
 
-	//std::cerr << "Width : " << gridHeight << std::endl;
-
-	//projection type
-	/*
-	enum ProjectionType {	PROJ_MINIMUM_VALUE			= 0,
-							PROJ_AVERAGE_VALUE			= 1,
-							PROJ_MAXIMUM_VALUE			= 2,
-							INVALID_PROJECTION_TYPE		= 255,
-	};
-	*/
-
-
-
-	ComputeVolume(
+	//Call compute surface
+	double surface = ComputeSurface(
 			grid, //raster grid
 			0,  //ground
 			ccHObjectCaster::ToGenericPointCloud(theCloud),	//cieling
@@ -149,20 +148,19 @@ float ccDisplaySurface::volumeBetweenHeights(ccPointCloud* theCloud){
 			ccRasterGrid::ProjectionType::PROJ_AVERAGE_VALUE,					//projection type
 			ccRasterGrid::EmptyCellFillOption::LEAVE_EMPTY,			//fill ground empty cells strat
 			ccRasterGrid::EmptyCellFillOption::LEAVE_EMPTY,			//fill ciel empty cells strat
-			result,			//report info into result
 			0.0 ,			//ground height
 			0.0 ,			//ciel height
 			m_app->getMainWindow()		//parent widget
 			);
 
 	//Print the computed volume
-	m_app->dispToConsole(std::to_string(result.surface).c_str());
+	m_app->dispToConsole(std::to_string(surface).c_str());
 
-	return result.surface;
+	return surface;
 }
 
 
-float ccDisplaySurface::ComputeVolume(	ccRasterGrid& grid,
+float ccDisplaySurface::ComputeSurface(	ccRasterGrid& grid,
 										ccGenericPointCloud* ground,
 										ccGenericPointCloud* ceil,
 										const ccBBox& gridBox,
@@ -173,11 +171,14 @@ float ccDisplaySurface::ComputeVolume(	ccRasterGrid& grid,
 										ccRasterGrid::ProjectionType projectionType,
 										ccRasterGrid::EmptyCellFillOption groundEmptyCellFillStrategy,
 										ccRasterGrid::EmptyCellFillOption ceilEmptyCellFillStrategy,
-										ccDisplaySurface::ReportInfo& reportInfo,
 										double groundHeight,
 										double ceilHeight,
 										QWidget* parentWidget)
 {
+
+	//store surface
+	double surface = 0;
+
 	if (	gridStep <= 1.0e-8
 		||	gridWidth == 0
 		||	gridHeight == 0
@@ -222,8 +223,8 @@ float ccDisplaySurface::ComputeVolume(	ccRasterGrid& grid,
 		m_app->dispToConsole("Something went terribly wrong!");
 		return -1;
 	}
-//TODO: FIgure out htis progress dialog thing
-	//progress dialog
+
+	//Create process dialog
 	QScopedPointer<ccProgressDialog> pDlg(0);
 	if (parentWidget)
 	{
@@ -266,7 +267,7 @@ float ccDisplaySurface::ComputeVolume(	ccRasterGrid& grid,
 		m_app->dispToConsole("Looks like your a bit short on memory!");
 		return -1;
 		}
-
+		//fill cells with height
 		if (ceilRaster.fillWith(ceil,
 								vertDim,
 								projectionType,
@@ -274,6 +275,7 @@ float ccDisplaySurface::ComputeVolume(	ccRasterGrid& grid,
 								ccRasterGrid::INVALID_PROJECTION_TYPE,
 								pDlg.data()))
 		{
+			//Fill with surface
 			ceilRaster.fillEmptyCells(ceilEmptyCellFillStrategy, ceilHeight);
 			ccLog::Print(QString("[Surface] Ceil raster grid: size: %1 x %2 / heights: [%3 ; %4]").arg(ceilRaster.width).arg(ceilRaster.height).arg(ceilRaster.minHeight).arg(ceilRaster.maxHeight));
 		}
@@ -287,17 +289,20 @@ float ccDisplaySurface::ComputeVolume(	ccRasterGrid& grid,
 	{
 		if (pDlg)
 		{
-			pDlg->setMethodTitle(QObject::tr("Volume computation"));
+			//IName, initialize and display progress dialog
+			pDlg->setMethodTitle(QObject::tr("Surface computation"));
 			pDlg->setInfo(QObject::tr("Cells: %1 x %2").arg(grid.width).arg(grid.height));
 			pDlg->start();
 			pDlg->show();
 			QCoreApplication::processEvents();
 		}
+		//Create progress bar
 		CCLib::NormalizedProgress nProgress(pDlg.data(), grid.width * grid.height);
 
-		size_t ceilNonMatchingCount = 0;
-		size_t groundNonMatchingCount = 0;
-		size_t cellCount = 0;
+
+		long int ceilNonMatchingCount = 0;
+		long int groundNonMatchingCount = 0;
+		long int noCells = 0;
 
 		//at least one of the grid is based on a cloud
 		grid.nonEmptyCellCount = 0;
@@ -328,29 +333,20 @@ float ccDisplaySurface::ComputeVolume(	ccRasterGrid& grid,
 					cell.h = cell.maxHeight - cell.minHeight;
 					cell.nbPoints = 1;
 
-					reportInfo.volume += cell.h;
-					if (cell.h < 0)
-					{
-						reportInfo.removedVolume -= cell.h;
-					}
-					else if (cell.h > 0)
-					{
-						reportInfo.addedVolume += cell.h;
-					}
-					reportInfo.surface += 1.0;
+					surface += 1.0;
 					++grid.nonEmptyCellCount; //= matching count
-					++cellCount;
+					++noCells;
 				}
 				else
 				{
 					if (validGround)
 					{
-						++cellCount;
+						++noCells;
 						++groundNonMatchingCount;
 					}
 					else if (validCeil)
 					{
-						++cellCount;
+						++noCells;
 						++ceilNonMatchingCount;
 					}
 					cell.h = std::numeric_limits<double>::quiet_NaN();
@@ -371,7 +367,6 @@ float ccDisplaySurface::ComputeVolume(	ccRasterGrid& grid,
 
 		//count the average number of valid neighbors
 		{
-			size_t validNeighborsCount = 0;
 			size_t count = 0;
 			for (unsigned i = 1; i < grid.height - 1; ++i)
 			{
@@ -380,43 +375,17 @@ float ccDisplaySurface::ComputeVolume(	ccRasterGrid& grid,
 					ccRasterCell& cell = grid.rows[i][j];
 					if (cell.h == cell.h)
 					{
-						for (unsigned k = i - 1; k <= i + 1; ++k)
-						{
-							for (unsigned l = j - 1; l <= j + 1; ++l)
-							{
-								if (k != i || l != j)
-								{
-									ccRasterCell& otherCell = grid.rows[k][l];
-									if (std::isfinite(otherCell.h))
-									{
-										++validNeighborsCount;
-									}
-								}
-							}
-						}
-
 						++count;
 					}
 				}
 			}
 
-			if (count)
-			{
-				reportInfo.averageNeighborsPerCell = static_cast<double>(validNeighborsCount) / count;
-			}
 		}
 
-		reportInfo.matchingPrecent = static_cast<float>(grid.validCellCount * 100) / cellCount;
-		reportInfo.groundNonMatchingPercent = static_cast<float>(groundNonMatchingCount * 100) / cellCount;
-		reportInfo.ceilNonMatchingPercent = static_cast<float>(ceilNonMatchingCount * 100) / cellCount;
 		float cellArea = static_cast<float>(grid.gridStep * grid.gridStep);
-		reportInfo.volume *= cellArea;
-		reportInfo.addedVolume *= cellArea;
-		reportInfo.removedVolume *= cellArea;
-		reportInfo.surface *= cellArea;
+		surface *= cellArea;
 	}
 
 	grid.setValid(true);
-
-	return reportInfo.volume;
+	return surface;
 }

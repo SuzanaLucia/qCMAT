@@ -29,7 +29,7 @@
 #include <QLineEdit>
 #include <QMessageBox>
 
-//Cloud Compare Includes
+//Cloud Compare Includes 
 #include <Delaunay2dMesh.h>
 #include <PointProjectionTools.h>
 #include <ccProgressDialog.h>
@@ -47,15 +47,15 @@ class ccDisplaySurface : public QDialog, public Ui::displaySurface
 {
 	Q_OBJECT
 /*
-Calculate and display the Surface areas of selected point clouds
+Calculate, display and save the Surface areas of selected point clouds
 */
 
 public:
-//TODO: Change it to max Clouds
 	ccDisplaySurface(QWidget* parent = 0, ccMainAppInterface* = 0, int = 0);
 	~ccDisplaySurface();
 protected slots:
 	void closeDisplay();
+	//Save surfaces to .csv file
 	void saveCSV();
 
 private:
@@ -66,35 +66,10 @@ private:
 
 	ccMainAppInterface* m_app;
 
-	struct ReportInfo
-	{
-		ReportInfo()
-			: volume(0)
-			, addedVolume(0)
-			, removedVolume(0)
-			, surface(0)
-			, matchingPrecent(0)
-			, ceilNonMatchingPercent(0)
-			, groundNonMatchingPercent(0)
-			, averageNeighborsPerCell(0)
-		{}
-
-		QString toText(int precision = 6) const;
-
-		double volume;
-		double addedVolume;
-		double removedVolume;
-		double surface;
-		float matchingPrecent;
-		float ceilNonMatchingPercent;
-		float groundNonMatchingPercent;
-		double averageNeighborsPerCell;
-	};
-
 	//calculates volume of beach between top and bottom
-	float volumeBetweenHeights(ccPointCloud*);
+	float calcSurfaceWrapper(ccPointCloud*);
 	//get clouds to operate on, calculate based on user input
-	float ComputeVolume(	ccRasterGrid&,
+	float ComputeSurface(	ccRasterGrid&,
 										ccGenericPointCloud*,
 										ccGenericPointCloud*,
 										const ccBBox&,
@@ -105,7 +80,6 @@ private:
 										ccRasterGrid::ProjectionType,
 										ccRasterGrid::EmptyCellFillOption,
 										ccRasterGrid::EmptyCellFillOption,
-										ccDisplaySurface::ReportInfo&,
 										double groundHeight = std::numeric_limits<double>::quiet_NaN(),
 										double ceilHeight = std::numeric_limits<double>::quiet_NaN(),
 										QWidget* parentWidget = 0);

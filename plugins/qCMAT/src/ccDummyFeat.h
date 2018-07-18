@@ -12,14 +12,14 @@
 #include <QMainWindow>
 #include <QDialog>
 
-class dummyFeat : public QDialog, public Ui::dummyFeat
+class ccDummyFeat : public QDialog, public Ui::dummyFeat
 {
 	Q_OBJECT //Important; lets Qt know to edit this code
 
 public:
 	//Constructor and Destructor declarations
-	dummyFeat(QWidget* parent = 0, ccMainAppInterface* = 0);
-	~dummyFeat();
+	ccDummyFeat(QWidget* parent = 0, ccMainAppInterface* = 0);
+	~ccDummyFeat();
 
 protected slots:
 	//Protected slots is a feature of Qt, methods that will be connected to
