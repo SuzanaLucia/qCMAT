@@ -2,6 +2,7 @@
 #include "EWIEGA46WW/moc_qCMAT.cpp"
 #include "UVLADIE3JM/moc_ccDisplaySurface.cpp"
 #include "UVLADIE3JM/moc_ccDisplayVolume.cpp"
+#include "UVLADIE3JM/moc_ccSplashScreen.cpp"
 #include "UVLADIE3JM/moc_ccVolumeTool.cpp"
 #include "UVLADIE3JM/moc_displayShoreline.cpp"
 #include "UVLADIE3JM/moc_glDlg.cpp"

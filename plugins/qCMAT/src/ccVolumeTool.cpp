@@ -16,13 +16,14 @@
 //##########################################################################
 
 
+//interface includes
 #include "ccDisplayVolume.h"
 #include "ccVolumeTool.h"
 #include "ccHObject.h"
 #include "SimpleCloud.h"
 #include "ui_ccVolumeTool.h"
-//#include "ccCropTool.h"
 
+//standard library includes
 #include <iomanip>
 #include <cstdlib>
 #include <iostream>
@@ -61,16 +62,8 @@ ccVolumeTool::ccVolumeTool(QWidget* parent)
 	connect( LoadCFile,	SIGNAL(clicked()), this, SLOT( readCSVContours() ));
 	connect( DisplayVolume,	SIGNAL(clicked()), this, SLOT( displayVolmes() ));
 	connect( CalcLoadFile,	SIGNAL(clicked()), this, SLOT( loadContVolume() ));
-	//connect( CalcVolButton,	SIGNAL(clicked()), this, SLOT( testConsole()));
-	//connect( pushButton_3,	SIGNAL(clicked()), this, SLOT( testConsole()));
-	connect( saveButton,	SIGNAL(clicked()), this, SLOT( saveVolume())); //presumably save
-	//connect( pushButton_1,	SIGNAL(clicked()), this, SLOT( testConsole()));
-	/**connect(unionPushButton,	SIGNAL(clicked()), this, SLOT(unionSelected()));
-	connect( viewPushButton,	SIGNAL(clicked()), this, SLOT( cancelButtonClicked() ));
-	connect(interPushButton,	SIGNAL(clicked()), this, SLOT(intersectSelected()));
-	connect(diffPushButton,		SIGNAL(clicked()), this, SLOT(diffSelected()));
-	connect(symDiffPushButton,	SIGNAL(clicked()), this, SLOT(symDiffSelected()));
-	connect(swapToolButton,		SIGNAL(clicked()), this, SLOT(swap()));**/
+	connect( saveButton,	SIGNAL(clicked()), this, SLOT( saveVolume())); 
+
 }
 
 void ccVolumeTool::saveCloudContours(){
@@ -141,7 +134,6 @@ void ccVolumeTool::saveCloudContours(){
 		//contouredCloud->unallocateColors();
 		//contouredCloud->showSFColorsScale(true); //display colors from the getgo
 		contouredCloud->setCurrentDisplayedScalarField(0);
-		//mainCloud->addChild(contouredCloud, 24, -1);
 		m_app->addToDB(contouredCloud, /*updateZoom*/ false, /*autoExpandDBTree*/  true, /*checkDimensions*/ true, /*autoRedraw*/true);
 
 	}
@@ -159,22 +151,9 @@ void ccVolumeTool::readCSVContours(){
 	//stick the fies name in the text box
 	    CFileName->setText(fileName);
 }
-//<<<<<<< HEAD
-//=======
-/*
-void loadCSVcontours(){
-	/**	QString fileName = QFileDialog::getSaveFileName(this,
-        tr("Save contours"), "",
-        tr("Save contours(*.csv);;All Files (*)"));**/
-//}
-//>>>>>>> 88ff4c73dffacf95739e4c78890dbd803ea741b6
+
 
 void ccVolumeTool::loadContVolume(){
-
-// debugging stuff
-//	m_app->dispToConsole("Im here");
-//	usleep(50000);
-
 	//get file name
 	QString fileName = CFileName->text();
 	//open file stream
@@ -212,11 +191,9 @@ void ccVolumeTool::loadContVolume(){
 		//check for EOF
 		getline(contFile, line);
 
-		//if not split it up
-
 	    //convert line to char*
 
-	    numbers = split( line.c_str(), std::string(",") );
+	    numbers = QCMAT::split( line.c_str(), std::string(",") );
 		//m_app->dispToConsole(QString::fromStdString(numbers[0] + "  Hi there  " + numbers[1] ));
 		//calculate volumes
 		//int bottom = numbers[0];
@@ -227,7 +204,7 @@ void ccVolumeTool::loadContVolume(){
 		
 		for(int j = 0; j < noClouds; j++){
 			ccPointCloud* tempCloud = normalizeCloud(ccHObjectCaster::ToPointCloud(m_app->getSelectedEntities()[j]), sliceInfo[noSlices][0], sliceInfo[noSlices][1]);
-			sliceInfo[noSlices][2 + j] = volumeBetweenHeights(sliceInfo[noSlices][0], sliceInfo[noSlices][1], tempCloud);
+			sliceInfo[noSlices][2 + j] = ComputeVolumeWrapper(tempCloud);
 		}
 //	    m_app->dispToConsole(QString::fromStdString("[0]: " + numbers[0] + " [1]: " + numbers[1] + "[2]: " +  numbers[2]));
 
@@ -290,10 +267,14 @@ void ccVolumeTool::saveVolume(){
   		//add lines of text
   		for(int i = 0; i < noSlices; i++){
   			//generate the string
-  			std::string entry = std::to_string(i) + "," + std::to_string(sliceInfo[i][0]) + "," + std::to_string(sliceInfo[i][1]);
+  			std::string bottom = std::to_string(sliceInfo[i][0]);
+  			std::string top = std::to_string(sliceInfo[i][1]);
+  			std::string entry = std::to_string(i + 1) + "," + bottom.substr(0, bottom.length() - 3) + "," + top.substr(0, top.length() - 3);
   			volsFile << entry;
   			for(int j = 0 ; j < noClouds; j++){
-  				volsFile << "," << std::to_string(sliceInfo[i][j + 2]);
+  				//rounded to 3 decimal points
+  				std::string str = std::to_string(sliceInfo[i][j + 2]);
+  				volsFile << "," << str.substr(0, str.length() - 3);
   			}
   			volsFile << std::endl;
   		}
@@ -351,10 +332,7 @@ void ccVolumeTool::initializeTool(ccMainAppInterface* app)
 
 		//initialize main cloud
 		const std::vector<ccHObject*> clouds = m_app->getSelectedEntities();
-//TODO: Add code for handling multiple clouds
-		mainCloud = clouds[0];
-		//Count the number of selected clouds
-
+		
 //TESTING CODE
 //This now works! m_app->dispToConsole(std::to_string(height).c_str());
 		std::string message = std::to_string(cMin[2]) + " - " + std::to_string(cMax[2]) + " : " + std::to_string(height) + " tot.";
@@ -364,38 +342,6 @@ void ccVolumeTool::initializeTool(ccMainAppInterface* app)
 			bottomInput->setText(QString::fromStdString(std::to_string(cMin[2])));
 }
 
-/*void ccVolumeTool::contourPoints(const CCVector3& vec, ScalarType& scal){
-	//if point not in contour
-	if(vec[2] < sliceBottom || vec[2] > sliceTop){
-		//remove point
-//TODO, make this a delete not a tripple 0, although does it honestly matter? --> it might for the volume algorithm at the 00 chunk
-		vec[0] = 0;
-		vec[1] = 0;
-		vec[2] = 0;
-		scal = 0;
-	}
-}*/
-
-
-void ccVolumeTool::processClouds(){
-	/*
-	Loop through selected entities and calculate the volume based on user parameters,
-	then display or save it appropriatly
-	*/
-
-//TODO: Assumtion is that theyre all legit clouds
-	const std::vector<ccHObject*> clouds = m_app->getSelectedEntities();
-//TODO: Add code for handling multiple clouds
-	mainCloud = clouds[0];
-	//chop up cloud based on user input
-		//get the height of the whole cloud
-
-		//display it to the user somehow
-
-		//query size of users section
-
-	volumeBetweenHeights( 0, 0 , ccHObjectCaster::ToPointCloud(mainCloud));
-}
 
 void ccVolumeTool::displayVolmes(){
 	//open the display
@@ -421,12 +367,16 @@ void ccVolumeTool::contourVolume(){
 		//	return;
 		//}
 		//calculate the size of each chunk
-//TODO assume top is positive
-		if(userBottom > 0){
-		height = userTop - userBottom;
-		} else {
+//TODO: Could be written nicer
+		if(userBottom < 0 && userTop > 0){
 		height = userTop + userBottom * -1;
+		} else if (userBottom < 0 && userTop < 0){
+		height = userBottom - userTop;
+		} else {
+		height = userTop - userBottom;
 		}
+
+		//size of each slice
 		sliceSize = height / noSlices;
 		//for each slice
 		for(int i = 0; i < noSlices; i++){
@@ -435,71 +385,67 @@ void ccVolumeTool::contourVolume(){
 			sliceBottom = userBottom + i * sliceSize;
 			sliceInfo[i][0] = sliceBottom;		//Bottom of slice
 			sliceInfo[i][1] = sliceTop;	//Top of slice
-			//type cast mainCloud
-			//cainCloud = ccHObjectCaster::ToGenericPointCloud(mainCloud);
-			//assign it to the normalized version of our cloud
-//TESTING: for the sake of them sick tests stick it in the pointCloud
-			//calculate volume of the new cloud
 
 			//for each slice
 			for(int j = 0; j < noClouds; j++){
+				//Normalize, then compute volume and save it to slice info
 				ccPointCloud* tempCloud = normalizeCloud(ccHObjectCaster::ToPointCloud((m_app->getSelectedEntities())[j] ), sliceBottom, sliceTop);
-				sliceInfo[i][j + 2] = volumeBetweenHeights(sliceInfo[i][0], sliceInfo[i][1], tempCloud);
+				sliceInfo[i][j + 2] = ComputeVolumeWrapper(tempCloud);
 			}
-			//report and save it
-
-			//get rid of memory
 		}
 }
 
 
 ccPointCloud* ccVolumeTool::normalizeCloud(ccPointCloud* cloud, float bottom, float top){
-	//remember to pass this method a memeber
-	//forEach(genericPointAction &  anAction)
-	//cloud->forEach( ccVolumeTool::contourPoints );
+	/*
+	Squeeze all points in cloud to be within [top] - [bottom] for volume calculations
+	_____________________________
+	Top__				  ....|				_________......________ 
+						  |							 |				
+					  ....|		   ===> 		 ....|				
+	Bottom__		  |						_...|__________________ 
+	 				..| 
+	________________|____________
+	*/
+
+	//New cloud to hold the squeezed cloud
 	ccPointCloud* tempCloud = new ccPointCloud();
-	//copy all points, but wait! normalize where z isnt within the slice boundries
-	//make some space for all the new points
-//TODO dont assume top is positive
+
+	//If its a negative, shift both to at least 0
 	if(bottom < 0){
-		bottom += bottom;
-		top += bottom;
+		bottom += (-1) * bottom;
+		top += (-1) * bottom;
 	}
+	//Make space, well be copying points over from the old cloud
 	tempCloud->reserveThePointsTable(cloud->size());
-		//for each point in the cloud
+	//for each point in the cloud
 	for(int i = 0; i < cloud->size(); i++){
 		//get that point
 		CCVector3 tempVect;
 		cloud->getPoint(i, tempVect); //get point values
 		//modify z coordinates if necessery
-		if(tempVect[2] < bottom){ //if below
+		if(tempVect[2] < bottom){
+			//if the point is below
 			tempVect[2] = bottom;
 		} else if(tempVect[2] > top){
+			//if the point is above
 			tempVect[2] = top;
 		}
-		//add it to the new cloud
-//TODO make + - bottom more elegant
-		//remove bottom of cloud from z coord
+		//remove vottom from z coordinate (get it all to 0)
 		tempVect[2] -= bottom;
+		//add it to the new cloud
 		tempCloud->addPoint(tempVect);
 	}
 	//at this point, our boi point cloud should be full and normalized
 	return tempCloud;
-
 }
 
 
 
-float ccVolumeTool::volumeBetweenHeights(float bottom, float top, ccPointCloud* theCloud){
-	//get a list of all the clouds i guess | Assume its just one Cloud selected and given as argument
-		//for now ignore min and max limits
-	//start off by just displaying the volume
-		//Fool! You thought that would be easy!
-
-	//make a volume tool object, dont display it
-	//force set all the settings and then call its calculate method
-
-	//store the result of the volume computation
+float ccVolumeTool::ComputeVolumeWrapper(ccPointCloud* theCloud){
+	/*
+	Wrapper function, sets up arguments and calls ComputeVolume
+	*/
 	ReportInfo result;
 	ccRasterGrid grid;
 
@@ -514,20 +460,8 @@ float ccVolumeTool::volumeBetweenHeights(float bottom, float top, ccPointCloud* 
 	//get volume box size
 	ccBBox box = ccBBox();
 
+	//Get size of raster grid
 	ccRasterGrid::ComputeGridSize(2, gridBBox, gridStep, gridWidth, gridHeight);
-
-	//std::cerr << "Width : " << gridHeight << std::endl;
-
-	//projection type
-	/*
-	enum ProjectionType {	PROJ_MINIMUM_VALUE			= 0,
-							PROJ_AVERAGE_VALUE			= 1,
-							PROJ_MAXIMUM_VALUE			= 2,
-							INVALID_PROJECTION_TYPE		= 255,
-	};
-	*/
-
-
 
 	ComputeVolume(
 			grid, //raster grid
@@ -548,7 +482,7 @@ float ccVolumeTool::volumeBetweenHeights(float bottom, float top, ccPointCloud* 
 			);
 
 	//Print the computed volume
-	m_app->dispToConsole(std::to_string(result.volume).c_str());
+	m_app->dispToConsole(std::to_string(result.volume).substr( 0 , std::to_string(result.volume).length() - 3).c_str());
 
 	return result.volume;
 }
@@ -814,11 +748,19 @@ float ccVolumeTool::ComputeVolume(	ccRasterGrid& grid,
 }
 
 
-//Helper fuction to do some splitting
+
+namespace QCMAT{
+	//Namespace of helper finctions
 std::vector<std::string> split(const char *phrase, std::string delimiter){
+	/*
+	Split std::string into vector of substrings, split in delimiter
+	*/
+
     std::vector<std::string> list;
     std::string s = std::string(phrase);
+    //if(s[s.length() - 1] != ','){
     s = s + ","; //Ugly hack
+	//}
     size_t pos = 0;
     std::string token;
     while ((pos = s.find(delimiter)) != std::string::npos) {
@@ -828,21 +770,4 @@ std::vector<std::string> split(const char *phrase, std::string delimiter){
     }
     return list;
 }
-
-
-static float hue2rgb(float m1, float m2, float hue)
-	{
-	if (hue < 0)
-		hue += 1.0f;
-	else if (hue > 1.0f)
-		hue -= 1.0f;
-
-	if (6 * hue < 1.0f)
-		return m1 + (m2 - m1) * hue * 6;
-	else if (2 * hue < 1.0f)
-		return m2;
-	else if (3 * hue < 2.0f)
-		return m1 + (m2 - m1) * (4.0f - hue * 6);
-	else
-		return m1;
 }

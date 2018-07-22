@@ -15,6 +15,7 @@
 #include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QFrame>
+#include <QtWidgets/QGridLayout>
 #include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QPushButton>
@@ -25,31 +26,49 @@ QT_BEGIN_NAMESPACE
 class Ui_displayVolume
 {
 public:
+    QGridLayout *gridLayout_2;
     QFrame *frame;
+    QGridLayout *gridLayout;
     QLabel *title;
-    QTextEdit *Text;
     QPushButton *Close;
+    QTextEdit *Text;
 
     void setupUi(QDialog *Dialog)
     {
         if (Dialog->objectName().isEmpty())
             Dialog->setObjectName(QStringLiteral("Dialog"));
         Dialog->resize(500, 431);
+        gridLayout_2 = new QGridLayout(Dialog);
+        gridLayout_2->setSpacing(6);
+        gridLayout_2->setContentsMargins(11, 11, 11, 11);
+        gridLayout_2->setObjectName(QStringLiteral("gridLayout_2"));
         frame = new QFrame(Dialog);
         frame->setObjectName(QStringLiteral("frame"));
-        frame->setGeometry(QRect(10, 10, 481, 411));
         frame->setFrameShape(QFrame::StyledPanel);
         frame->setFrameShadow(QFrame::Raised);
+        gridLayout = new QGridLayout(frame);
+        gridLayout->setSpacing(6);
+        gridLayout->setContentsMargins(11, 11, 11, 11);
+        gridLayout->setObjectName(QStringLiteral("gridLayout"));
         title = new QLabel(frame);
         title->setObjectName(QStringLiteral("title"));
-        title->setGeometry(QRect(10, 10, 461, 20));
         title->setAlignment(Qt::AlignCenter);
-        Text = new QTextEdit(frame);
-        Text->setObjectName(QStringLiteral("Text"));
-        Text->setGeometry(QRect(10, 40, 461, 361));
+
+        gridLayout->addWidget(title, 0, 0, 1, 1);
+
         Close = new QPushButton(frame);
         Close->setObjectName(QStringLiteral("Close"));
-        Close->setGeometry(QRect(380, 10, 80, 23));
+
+        gridLayout->addWidget(Close, 0, 1, 1, 1);
+
+        Text = new QTextEdit(frame);
+        Text->setObjectName(QStringLiteral("Text"));
+
+        gridLayout->addWidget(Text, 1, 0, 1, 3);
+
+
+        gridLayout_2->addWidget(frame, 0, 0, 1, 1);
+
 
         retranslateUi(Dialog);
 

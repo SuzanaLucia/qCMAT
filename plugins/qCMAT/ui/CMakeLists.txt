@@ -8,5 +8,6 @@ set( CC_PLUGIN_CUSTOM_UI_LIST
 # Tell CMake to look of dummy UI file
 #        ${CMAKE_CURRENT_SOURCE_DIR}/dummyFeat.ui
         ${CMAKE_CURRENT_SOURCE_DIR}/glDlg.ui
+        ${CMAKE_CURRENT_SOURCE_DIR}/splashScreen.ui
         PARENT_SCOPE
 )

@@ -15,6 +15,7 @@
 #include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QFrame>
+#include <QtWidgets/QGridLayout>
 #include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QPushButton>
@@ -25,35 +26,55 @@ QT_BEGIN_NAMESPACE
 class Ui_displaySurface
 {
 public:
+    QGridLayout *gridLayout;
     QFrame *frame;
+    QGridLayout *gridLayout_2;
     QLabel *title;
     QTextEdit *Text;
-    QPushButton *Close;
     QPushButton *SaveCSV;
+    QPushButton *Close;
 
     void setupUi(QDialog *Dialog)
     {
         if (Dialog->objectName().isEmpty())
             Dialog->setObjectName(QStringLiteral("Dialog"));
         Dialog->resize(500, 461);
+        gridLayout = new QGridLayout(Dialog);
+        gridLayout->setSpacing(6);
+        gridLayout->setContentsMargins(11, 11, 11, 11);
+        gridLayout->setObjectName(QStringLiteral("gridLayout"));
         frame = new QFrame(Dialog);
         frame->setObjectName(QStringLiteral("frame"));
-        frame->setGeometry(QRect(10, 10, 481, 441));
         frame->setFrameShape(QFrame::StyledPanel);
         frame->setFrameShadow(QFrame::Raised);
+        gridLayout_2 = new QGridLayout(frame);
+        gridLayout_2->setSpacing(6);
+        gridLayout_2->setContentsMargins(11, 11, 11, 11);
+        gridLayout_2->setObjectName(QStringLiteral("gridLayout_2"));
         title = new QLabel(frame);
         title->setObjectName(QStringLiteral("title"));
-        title->setGeometry(QRect(10, 10, 461, 20));
         title->setAlignment(Qt::AlignCenter);
+
+        gridLayout_2->addWidget(title, 0, 0, 1, 2);
+
         Text = new QTextEdit(frame);
         Text->setObjectName(QStringLiteral("Text"));
-        Text->setGeometry(QRect(10, 40, 461, 361));
-        Close = new QPushButton(frame);
-        Close->setObjectName(QStringLiteral("Close"));
-        Close->setGeometry(QRect(390, 410, 80, 23));
+
+        gridLayout_2->addWidget(Text, 1, 0, 1, 2);
+
         SaveCSV = new QPushButton(frame);
         SaveCSV->setObjectName(QStringLiteral("SaveCSV"));
-        SaveCSV->setGeometry(QRect(300, 410, 80, 23));
+
+        gridLayout_2->addWidget(SaveCSV, 2, 0, 1, 1);
+
+        Close = new QPushButton(frame);
+        Close->setObjectName(QStringLiteral("Close"));
+
+        gridLayout_2->addWidget(Close, 2, 1, 1, 1);
+
+
+        gridLayout->addWidget(frame, 0, 0, 1, 1);
+
 
         retranslateUi(Dialog);
 
@@ -64,8 +85,8 @@ public:
     {
         Dialog->setWindowTitle(QApplication::translate("displaySurface", "display surfaces", nullptr));
         title->setText(QApplication::translate("displaySurface", "Format: Bottom  -  Top  -  Volume ", nullptr));
-        Close->setText(QApplication::translate("displaySurface", "Close", nullptr));
         SaveCSV->setText(QApplication::translate("displaySurface", "Save .csv", nullptr));
+        Close->setText(QApplication::translate("displaySurface", "Close", nullptr));
     } // retranslateUi
 
 };

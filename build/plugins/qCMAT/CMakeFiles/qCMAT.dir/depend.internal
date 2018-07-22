@@ -789,6 +789,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o
  /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qCMAT_autogen/EWIEGA46WW/moc_qCMAT.cpp
  /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qCMAT_autogen/UVLADIE3JM/moc_ccDisplaySurface.cpp
  /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qCMAT_autogen/UVLADIE3JM/moc_ccDisplayVolume.cpp
+ /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qCMAT_autogen/UVLADIE3JM/moc_ccSplashScreen.cpp
  /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qCMAT_autogen/UVLADIE3JM/moc_ccVolumeTool.cpp
  /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qCMAT_autogen/UVLADIE3JM/moc_displayShoreline.cpp
  /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qCMAT_autogen/UVLADIE3JM/moc_glDlg.cpp
@@ -797,6 +798,8 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o
  /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/qCMAT.h
  /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccDisplaySurface.h
  /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccDisplayVolume.h
+ /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccQCMATTools.h
+ /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccSplashScreen.h
  /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccVolumeTool.h
  /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displayShoreline.h
  /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/glDlg.h
@@ -1017,6 +1020,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o
  plugins/qCMAT/ui_displayVolume.h
  plugins/qCMAT/ui_dlg.h
  plugins/qCMAT/ui_glDlg.h
+ plugins/qCMAT/ui_splashScreen.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/qrc_qCMAT.cpp.o
  /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qrc_qCMAT.cpp
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplaySurface.cpp.o
@@ -1242,6 +1246,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplaySurface.cpp.o
  /usr/include/qt/QtWidgets/QDialog
  /usr/include/qt/QtWidgets/QFileDialog
  /usr/include/qt/QtWidgets/QFrame
+ /usr/include/qt/QtWidgets/QGridLayout
  /usr/include/qt/QtWidgets/QHeaderView
  /usr/include/qt/QtWidgets/QLabel
  /usr/include/qt/QtWidgets/QLineEdit
@@ -1260,13 +1265,17 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplaySurface.cpp.o
  /usr/include/qt/QtWidgets/qaction.h
  /usr/include/qt/QtWidgets/qactiongroup.h
  /usr/include/qt/QtWidgets/qapplication.h
+ /usr/include/qt/QtWidgets/qboxlayout.h
  /usr/include/qt/QtWidgets/qbuttongroup.h
  /usr/include/qt/QtWidgets/qdesktopwidget.h
  /usr/include/qt/QtWidgets/qdialog.h
  /usr/include/qt/QtWidgets/qfiledialog.h
  /usr/include/qt/QtWidgets/qframe.h
+ /usr/include/qt/QtWidgets/qgridlayout.h
  /usr/include/qt/QtWidgets/qheaderview.h
  /usr/include/qt/QtWidgets/qlabel.h
+ /usr/include/qt/QtWidgets/qlayout.h
+ /usr/include/qt/QtWidgets/qlayoutitem.h
  /usr/include/qt/QtWidgets/qlineedit.h
  /usr/include/qt/QtWidgets/qmainwindow.h
  /usr/include/qt/QtWidgets/qmessagebox.h
@@ -1456,6 +1465,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplayVolume.cpp.o
  /usr/include/qt/QtWidgets/QButtonGroup
  /usr/include/qt/QtWidgets/QDialog
  /usr/include/qt/QtWidgets/QFrame
+ /usr/include/qt/QtWidgets/QGridLayout
  /usr/include/qt/QtWidgets/QHeaderView
  /usr/include/qt/QtWidgets/QLabel
  /usr/include/qt/QtWidgets/QLineEdit
@@ -1472,12 +1482,16 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplayVolume.cpp.o
  /usr/include/qt/QtWidgets/qaction.h
  /usr/include/qt/QtWidgets/qactiongroup.h
  /usr/include/qt/QtWidgets/qapplication.h
+ /usr/include/qt/QtWidgets/qboxlayout.h
  /usr/include/qt/QtWidgets/qbuttongroup.h
  /usr/include/qt/QtWidgets/qdesktopwidget.h
  /usr/include/qt/QtWidgets/qdialog.h
  /usr/include/qt/QtWidgets/qframe.h
+ /usr/include/qt/QtWidgets/qgridlayout.h
  /usr/include/qt/QtWidgets/qheaderview.h
  /usr/include/qt/QtWidgets/qlabel.h
+ /usr/include/qt/QtWidgets/qlayout.h
+ /usr/include/qt/QtWidgets/qlayoutitem.h
  /usr/include/qt/QtWidgets/qlineedit.h
  /usr/include/qt/QtWidgets/qmainwindow.h
  /usr/include/qt/QtWidgets/qpushbutton.h
@@ -1493,6 +1507,9 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplayVolume.cpp.o
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h
  /usr/include/qt/QtWidgets/qwidget.h
  plugins/qCMAT/ui_displayVolume.h
+plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccQCMATTools.cpp.o
+ /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccQCMATTools.cpp
+ /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccQCMATTools.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o
  ../CC/include/CCConst.h
  ../CC/include/CCCoreLib.h
@@ -1564,6 +1581,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o
  ../plugins/ccPluginInterface.h
  ../plugins/ccStdPluginInterface.h
  /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccDisplayVolume.h
+ /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccQCMATTools.h
  /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccVolumeTool.cpp
  /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccVolumeTool.h
  /usr/include/qt/QtCore/QAtomicInt
@@ -1735,6 +1753,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o
  /usr/include/qt/QtWidgets/QDialog
  /usr/include/qt/QtWidgets/QFileDialog
  /usr/include/qt/QtWidgets/QFrame
+ /usr/include/qt/QtWidgets/QGridLayout
  /usr/include/qt/QtWidgets/QHBoxLayout
  /usr/include/qt/QtWidgets/QHeaderView
  /usr/include/qt/QtWidgets/QLabel
@@ -2123,6 +2142,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o
  ../plugins/ccStdPluginInterface.h
  /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/qCMAT.h
  /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccDisplayVolume.h
+ /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccQCMATTools.h
  /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccVolumeTool.h
  /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/glDlg.cpp
  /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/glDlg.h
@@ -2475,6 +2495,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o
  /usr/include/qt/QtWidgets/QDialog
  /usr/include/qt/QtWidgets/QDialogButtonBox
  /usr/include/qt/QtWidgets/QFrame
+ /usr/include/qt/QtWidgets/QGridLayout
  /usr/include/qt/QtWidgets/QHBoxLayout
  /usr/include/qt/QtWidgets/QHeaderView
  /usr/include/qt/QtWidgets/QLabel
@@ -2594,6 +2615,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o
  /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/qCMAT.h
  /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccDisplaySurface.h
  /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccDisplayVolume.h
+ /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccQCMATTools.h
  /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccVolumeTool.h
  /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displayShoreline.h
  /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/glDlg.h

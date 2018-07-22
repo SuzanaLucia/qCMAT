@@ -53,7 +53,7 @@ ccDisplayVolume::ccDisplayVolume(QWidget* parent, float volumes[][102], int noSl
 	Text->append(QString::fromStdString( std::to_string(noSlices) + " contours"));
 
 	//string to generate text in; first line has format of output
-	std::string str = "[Slice no.]  ;  [bottom]  |  [top]  = ";
+	std::string str = "[Slice no.]  ;  [bottom]  |  [top] ";
 
 	//for each cloud
 	for(int i = 0; i < noClouds; i++){
@@ -67,12 +67,15 @@ ccDisplayVolume::ccDisplayVolume(QWidget* parent, float volumes[][102], int noSl
 	//for each contour
 	for(int i = 0; i < noSlices; i++){
 		//declare output sting, add Slice no. top and botom to it
-		std::string output = std::to_string(i + 1) + "; "+ std::to_string(volumes[i][0]) + " | " + std::to_string(volumes[i][1]) + " = ";
+		std::string bottom =  std::to_string(volumes[i][0]);
+		std::string top = std::to_string(volumes[i][1]);
+		std::string output = std::to_string(i + 1) + "; "+ bottom.substr(0, bottom.length() - 3) + " | " + top.substr(0, top.length() - 3);
 
 		//for each cloud
 		for(int j = 0; j < noClouds; j++){
-			//append val for slice to the end of output string
-			output += " | " + std::to_string(volumes[i][j + 2]);
+			//round to 3 decimal places; avoid changing volumes
+			std::string str = std::to_string(volumes[i][j+2]);
+			output += " | " + str.substr(0, str.length() - 3);
 		}
 
 		//Display output string

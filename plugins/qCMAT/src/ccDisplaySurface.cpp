@@ -47,12 +47,13 @@ ccDisplaySurface::ccDisplaySurface(QWidget* parent, ccMainAppInterface* app, int
 	std::string str;
 	for(int i = 0; i < noClouds; i++){
 		//display each clouds surface area seperatly
-		str = std::to_string(i);
+		str = std::to_string(i + 1);
 		str += " | ";
 		str += m_app->getSelectedEntities()[i]->getName().toStdString();
 		str += " | ";
 		surfaces[i] = calcSurfaceWrapper(ccHObjectCaster::ToPointCloud(m_app->getSelectedEntities()[i]));
-		str += std::to_string(surfaces[i]);
+		std::string temp = std::to_string(surfaces[i]);
+		str += temp.substr(0, temp.length() - 3);
 		//calculate surface area and store it internaly
 
 		//add it to the string
@@ -95,9 +96,10 @@ void ccDisplaySurface::saveCSV(){
 	//For each cloud
 	for(int i = 0; i < noClouds; i++){
 		//Generate and output a line to the file
-		std::string str = std::to_string(i) + ",";
+		std::string str = std::to_string(i + 1) + ",";
 		str += m_app->getSelectedEntities()[i]->getName().toStdString() + ",";
-		str += std::to_string(surfaces[i]);
+		std::string temp = std::to_string(surfaces[i]);
+		str += temp.substr(0, temp.length() - 3);
 		surfFile << str << std::endl;
 	}
 	//close the fileSteam

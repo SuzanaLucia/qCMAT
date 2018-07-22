@@ -14,100 +14,89 @@
 //#                             COPYRIGHT: Lancaster University            #
 //#                                                                        #
 //##########################################################################
-
 #ifndef CC_VOLUME_TOOL_H
 #define CC_VOLUME_TOOL_H
 
+//Interface includes
 #include "ccDisplayVolume.h"
 #include "ui_ccVolumeTool.h"
 #include "ccStdPluginInterface.h"
 
-//"no matching call for main window" bug
-#include <QMainWindow>
-#include <SimpleCloud.h>
-#include <ccRasterGrid.h>
-#include <ccPointCloud.h>
+//include qCMAT tools
+#include "ccQCMATTools.h"
+
+//Standard lib for closing
 #include <unistd.h>
 
-//stuff for crop
+
+//"no matching call for main window" bug
+#include <QMainWindow>
+#include <ccRasterGrid.h>
+#include <ccPointCloud.h>
+
 #include <ccMesh.h>
 #include <ccMaterialSet.h>
 #include <ccScalarField.h>
 #include <SimpleCloud.h>
 #include <GenericCloud.h>
 
+
+//TODO: stop relying on defines
+//Largest possible getSelectedEntities / noSlices --> used for array size
 #define MAX_SLICES 100
 #define MAX_CLOUDS 100
 
 
-// Dialog for qCMAT plugin
 class ccVolumeTool : public QDialog, public Ui::ccVolumeTool
 {
+/*
+Calculate / define contours and display / save or colour them and their volumes
+*/
 	Q_OBJECT
 
 public:
 
-	ccHObject* mainCloud;
 	// Default constructor
 	explicit ccVolumeTool(QWidget* parent = 0);
 
 	void initializeTool(ccMainAppInterface* app);
-
-
-	//top and bottom of pointcloud
-	float maxTop;
-	float maxBottom;
-	// noSlices of sliceSize slices
-	float sliceSize;
-	int noSlices = 0;
-	int noClouds = 0; //number of selected clouds
-	//selected stuff
-	float userTop;
-	float userBottom;
-	//current slice and bottom
-	float sliceTop;
-	float sliceBottom;
-
-	// Supported CSG operations
-	//enum CSG_OPERATION { UNION, INTERSECT, DIFF, SYM_DIFF };
-
-	// Set meshes names
-	//void setNames(QString A, QString B);
-
-	// Returns the selected operation
-	//CSG_OPERATION getSelectedOperation() const { return m_selectedOperation; }
-
-	// Returns whether mesh order has been swappped or not
-	//bool isSwapped() const { return m_isSwapped; }
-
-protected slots:
-	/**
-	void unionSelected();
-	void intersectSelected();
-	void diffSelected();
-	void symDiffSelected();
-	void swap();**/
-	void testConsole();
-	void processClouds();
-	void contourVolume();
-	//declaration for display volume
-	void displayVolmes();
-	void saveVolume();
-	void readCSVContours();
-	void loadContVolume();
-	void saveCloudContours();
-protected:
 
 	//link to the main plugin interface
 	ccMainAppInterface* m_app;
 	//point cloud / beach for which to calculate volume
 	void cropPointCloud(CCLib::SimpleCloud*);
 
-	//CSG_OPERATION m_selectedOperation;
-	//bool m_isSwapped;
-private:
+	//Variables for storing information about clouds during caluclations
+
+	//top and bottom of pointcloud
+	float maxTop;
+	float maxBottom;
+	//noSlices of sliceSize slices
+	float sliceSize;
+	int noSlices = 0;
+	int noClouds = 0; //number of selected clouds
+	//Slice / Cloud height
+	//Selected cloud
+	float userTop;
+	float userBottom;
+	//current slice and bottom
+	float sliceTop;
+	float sliceBottom;
 
 	float height;
+
+protected slots:
+	void testConsole();
+	void contourVolume();
+	void displayVolmes();
+	void saveVolume();
+	void readCSVContours();
+	void loadContVolume();
+	void saveCloudContours();
+
+private:
+
+
 	//Struct for reporting volume info
 	struct ReportInfo
 	{
@@ -135,9 +124,9 @@ private:
 	};
 
 	//calculates volume of beach between top and bottom
-	float volumeBetweenHeights(float, float, ccPointCloud*);
+	float ComputeVolumeWrapper(ccPointCloud*);
 	//get clouds to operate on, calculate based on user input
-	float ComputeVolume(	ccRasterGrid&,
+	float ComputeVolume(				ccRasterGrid&,
 										ccGenericPointCloud*,
 										ccGenericPointCloud*,
 										const ccBBox&,
@@ -159,13 +148,13 @@ private:
 	ccPointCloud* normalizeCloud(ccPointCloud* cloud, float bottom, float top);
 	//void contourPoints(const CCVector3 &, ScalarType &);
 
-	
-
 };
 
-//split extra funtion
+/*
+Helper function - Splits string along deliminating character
+*/
+namespace QCMAT{
 std::vector<std::string> split(const char *phrase, std::string delimiter);
-//hue2rgb extra function
-static float hue2rgb(float m1, float m2, float hue);
+};
 
 #endif //CC_VOLUME_TOOL_H

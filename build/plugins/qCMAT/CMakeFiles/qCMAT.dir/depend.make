@@ -788,6 +788,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o: ../plug
 plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o: plugins/qCMAT/qCMAT_autogen/EWIEGA46WW/moc_qCMAT.cpp
 plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o: plugins/qCMAT/qCMAT_autogen/UVLADIE3JM/moc_ccDisplaySurface.cpp
 plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o: plugins/qCMAT/qCMAT_autogen/UVLADIE3JM/moc_ccDisplayVolume.cpp
+plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o: plugins/qCMAT/qCMAT_autogen/UVLADIE3JM/moc_ccSplashScreen.cpp
 plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o: plugins/qCMAT/qCMAT_autogen/UVLADIE3JM/moc_ccVolumeTool.cpp
 plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o: plugins/qCMAT/qCMAT_autogen/UVLADIE3JM/moc_displayShoreline.cpp
 plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o: plugins/qCMAT/qCMAT_autogen/UVLADIE3JM/moc_glDlg.cpp
@@ -796,6 +797,8 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o: plugins
 plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o: ../plugins/qCMAT/qCMAT.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o: ../plugins/qCMAT/src/ccDisplaySurface.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o: ../plugins/qCMAT/src/ccDisplayVolume.h
+plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o: ../plugins/qCMAT/src/ccQCMATTools.h
+plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o: ../plugins/qCMAT/src/ccSplashScreen.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o: ../plugins/qCMAT/src/ccVolumeTool.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o: ../plugins/qCMAT/src/displayShoreline.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o: ../plugins/qCMAT/src/glDlg.h
@@ -1016,6 +1019,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o: plugins
 plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o: plugins/qCMAT/ui_displayVolume.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o: plugins/qCMAT/ui_dlg.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o: plugins/qCMAT/ui_glDlg.h
+plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o: plugins/qCMAT/ui_splashScreen.h
 
 plugins/qCMAT/CMakeFiles/qCMAT.dir/qrc_qCMAT.cpp.o: plugins/qCMAT/qrc_qCMAT.cpp
 
@@ -1241,6 +1245,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplaySurface.cpp.o: /usr/include/qt/Q
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplaySurface.cpp.o: /usr/include/qt/QtWidgets/QDialog
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplaySurface.cpp.o: /usr/include/qt/QtWidgets/QFileDialog
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplaySurface.cpp.o: /usr/include/qt/QtWidgets/QFrame
+plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplaySurface.cpp.o: /usr/include/qt/QtWidgets/QGridLayout
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplaySurface.cpp.o: /usr/include/qt/QtWidgets/QHeaderView
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplaySurface.cpp.o: /usr/include/qt/QtWidgets/QLabel
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplaySurface.cpp.o: /usr/include/qt/QtWidgets/QLineEdit
@@ -1259,13 +1264,17 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplaySurface.cpp.o: /usr/include/qt/Q
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplaySurface.cpp.o: /usr/include/qt/QtWidgets/qaction.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplaySurface.cpp.o: /usr/include/qt/QtWidgets/qactiongroup.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplaySurface.cpp.o: /usr/include/qt/QtWidgets/qapplication.h
+plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplaySurface.cpp.o: /usr/include/qt/QtWidgets/qboxlayout.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplaySurface.cpp.o: /usr/include/qt/QtWidgets/qbuttongroup.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplaySurface.cpp.o: /usr/include/qt/QtWidgets/qdesktopwidget.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplaySurface.cpp.o: /usr/include/qt/QtWidgets/qdialog.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplaySurface.cpp.o: /usr/include/qt/QtWidgets/qfiledialog.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplaySurface.cpp.o: /usr/include/qt/QtWidgets/qframe.h
+plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplaySurface.cpp.o: /usr/include/qt/QtWidgets/qgridlayout.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplaySurface.cpp.o: /usr/include/qt/QtWidgets/qheaderview.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplaySurface.cpp.o: /usr/include/qt/QtWidgets/qlabel.h
+plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplaySurface.cpp.o: /usr/include/qt/QtWidgets/qlayout.h
+plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplaySurface.cpp.o: /usr/include/qt/QtWidgets/qlayoutitem.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplaySurface.cpp.o: /usr/include/qt/QtWidgets/qlineedit.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplaySurface.cpp.o: /usr/include/qt/QtWidgets/qmainwindow.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplaySurface.cpp.o: /usr/include/qt/QtWidgets/qmessagebox.h
@@ -1455,6 +1464,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplayVolume.cpp.o: /usr/include/qt/Qt
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplayVolume.cpp.o: /usr/include/qt/QtWidgets/QButtonGroup
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplayVolume.cpp.o: /usr/include/qt/QtWidgets/QDialog
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplayVolume.cpp.o: /usr/include/qt/QtWidgets/QFrame
+plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplayVolume.cpp.o: /usr/include/qt/QtWidgets/QGridLayout
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplayVolume.cpp.o: /usr/include/qt/QtWidgets/QHeaderView
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplayVolume.cpp.o: /usr/include/qt/QtWidgets/QLabel
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplayVolume.cpp.o: /usr/include/qt/QtWidgets/QLineEdit
@@ -1471,12 +1481,16 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplayVolume.cpp.o: /usr/include/qt/Qt
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplayVolume.cpp.o: /usr/include/qt/QtWidgets/qaction.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplayVolume.cpp.o: /usr/include/qt/QtWidgets/qactiongroup.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplayVolume.cpp.o: /usr/include/qt/QtWidgets/qapplication.h
+plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplayVolume.cpp.o: /usr/include/qt/QtWidgets/qboxlayout.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplayVolume.cpp.o: /usr/include/qt/QtWidgets/qbuttongroup.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplayVolume.cpp.o: /usr/include/qt/QtWidgets/qdesktopwidget.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplayVolume.cpp.o: /usr/include/qt/QtWidgets/qdialog.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplayVolume.cpp.o: /usr/include/qt/QtWidgets/qframe.h
+plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplayVolume.cpp.o: /usr/include/qt/QtWidgets/qgridlayout.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplayVolume.cpp.o: /usr/include/qt/QtWidgets/qheaderview.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplayVolume.cpp.o: /usr/include/qt/QtWidgets/qlabel.h
+plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplayVolume.cpp.o: /usr/include/qt/QtWidgets/qlayout.h
+plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplayVolume.cpp.o: /usr/include/qt/QtWidgets/qlayoutitem.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplayVolume.cpp.o: /usr/include/qt/QtWidgets/qlineedit.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplayVolume.cpp.o: /usr/include/qt/QtWidgets/qmainwindow.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplayVolume.cpp.o: /usr/include/qt/QtWidgets/qpushbutton.h
@@ -1492,6 +1506,9 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplayVolume.cpp.o: /usr/include/qt/Qt
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplayVolume.cpp.o: /usr/include/qt/QtWidgets/qtwidgetsglobal.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplayVolume.cpp.o: /usr/include/qt/QtWidgets/qwidget.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplayVolume.cpp.o: plugins/qCMAT/ui_displayVolume.h
+
+plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccQCMATTools.cpp.o: ../plugins/qCMAT/src/ccQCMATTools.cpp
+plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccQCMATTools.cpp.o: ../plugins/qCMAT/src/ccQCMATTools.h
 
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: ../CC/include/CCConst.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: ../CC/include/CCCoreLib.h
@@ -1563,6 +1580,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: ../plugins/ccMainAppI
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: ../plugins/ccPluginInterface.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: ../plugins/ccStdPluginInterface.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: ../plugins/qCMAT/src/ccDisplayVolume.h
+plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: ../plugins/qCMAT/src/ccQCMATTools.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: ../plugins/qCMAT/src/ccVolumeTool.cpp
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: ../plugins/qCMAT/src/ccVolumeTool.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtCore/QAtomicInt
@@ -1734,6 +1752,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtWid
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtWidgets/QDialog
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtWidgets/QFileDialog
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtWidgets/QFrame
+plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtWidgets/QGridLayout
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtWidgets/QHBoxLayout
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtWidgets/QHeaderView
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o: /usr/include/qt/QtWidgets/QLabel
@@ -2122,6 +2141,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: ../plugins/ccPluginInterface
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: ../plugins/ccStdPluginInterface.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: ../plugins/qCMAT/qCMAT.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: ../plugins/qCMAT/src/ccDisplayVolume.h
+plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: ../plugins/qCMAT/src/ccQCMATTools.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: ../plugins/qCMAT/src/ccVolumeTool.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: ../plugins/qCMAT/src/glDlg.cpp
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: ../plugins/qCMAT/src/glDlg.h
@@ -2474,6 +2494,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: /usr/include/qt/QtWidgets/QB
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: /usr/include/qt/QtWidgets/QDialog
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: /usr/include/qt/QtWidgets/QDialogButtonBox
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: /usr/include/qt/QtWidgets/QFrame
+plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: /usr/include/qt/QtWidgets/QGridLayout
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: /usr/include/qt/QtWidgets/QHBoxLayout
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: /usr/include/qt/QtWidgets/QHeaderView
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o: /usr/include/qt/QtWidgets/QLabel
@@ -2593,6 +2614,7 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o: ../plugins/ccStdPluginInt
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o: ../plugins/qCMAT/qCMAT.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o: ../plugins/qCMAT/src/ccDisplaySurface.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o: ../plugins/qCMAT/src/ccDisplayVolume.h
+plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o: ../plugins/qCMAT/src/ccQCMATTools.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o: ../plugins/qCMAT/src/ccVolumeTool.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o: ../plugins/qCMAT/src/displayShoreline.h
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o: ../plugins/qCMAT/src/glDlg.h

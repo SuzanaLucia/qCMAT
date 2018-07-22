@@ -68,40 +68,6 @@ install/strip/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
-
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
-
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
@@ -123,6 +89,40 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -156,6 +156,252 @@ depend:
 	cd /home/chrome/work/CloudCompare/qCMAT/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/rule:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/rule
+.PHONY : plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/rule
+
+# Convenience name for target.
+QM3C2_PLUGIN_DLL: plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/rule
+
+.PHONY : QM3C2_PLUGIN_DLL
+
+# fast build rule for target.
+QM3C2_PLUGIN_DLL/fast:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/build.make plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/build
+.PHONY : QM3C2_PLUGIN_DLL/fast
+
+# Convenience name for target.
+plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL_autogen.dir/rule:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL_autogen.dir/rule
+.PHONY : plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL_autogen.dir/rule
+
+# Convenience name for target.
+QM3C2_PLUGIN_DLL_autogen: plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL_autogen.dir/rule
+
+.PHONY : QM3C2_PLUGIN_DLL_autogen
+
+# fast build rule for target.
+QM3C2_PLUGIN_DLL_autogen/fast:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL_autogen.dir/build.make plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL_autogen.dir/build
+.PHONY : QM3C2_PLUGIN_DLL_autogen/fast
+
+QM3C2_PLUGIN_DLL_autogen/mocs_compilation.o: QM3C2_PLUGIN_DLL_autogen/mocs_compilation.cpp.o
+
+.PHONY : QM3C2_PLUGIN_DLL_autogen/mocs_compilation.o
+
+# target to build an object file
+QM3C2_PLUGIN_DLL_autogen/mocs_compilation.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/build.make plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/QM3C2_PLUGIN_DLL_autogen/mocs_compilation.cpp.o
+.PHONY : QM3C2_PLUGIN_DLL_autogen/mocs_compilation.cpp.o
+
+QM3C2_PLUGIN_DLL_autogen/mocs_compilation.i: QM3C2_PLUGIN_DLL_autogen/mocs_compilation.cpp.i
+
+.PHONY : QM3C2_PLUGIN_DLL_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+QM3C2_PLUGIN_DLL_autogen/mocs_compilation.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/build.make plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/QM3C2_PLUGIN_DLL_autogen/mocs_compilation.cpp.i
+.PHONY : QM3C2_PLUGIN_DLL_autogen/mocs_compilation.cpp.i
+
+QM3C2_PLUGIN_DLL_autogen/mocs_compilation.s: QM3C2_PLUGIN_DLL_autogen/mocs_compilation.cpp.s
+
+.PHONY : QM3C2_PLUGIN_DLL_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+QM3C2_PLUGIN_DLL_autogen/mocs_compilation.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/build.make plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/QM3C2_PLUGIN_DLL_autogen/mocs_compilation.cpp.s
+.PHONY : QM3C2_PLUGIN_DLL_autogen/mocs_compilation.cpp.s
+
+__/__/ccDefaultPluginInterface.o: __/__/ccDefaultPluginInterface.cpp.o
+
+.PHONY : __/__/ccDefaultPluginInterface.o
+
+# target to build an object file
+__/__/ccDefaultPluginInterface.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/build.make plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/__/__/ccDefaultPluginInterface.cpp.o
+.PHONY : __/__/ccDefaultPluginInterface.cpp.o
+
+__/__/ccDefaultPluginInterface.i: __/__/ccDefaultPluginInterface.cpp.i
+
+.PHONY : __/__/ccDefaultPluginInterface.i
+
+# target to preprocess a source file
+__/__/ccDefaultPluginInterface.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/build.make plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/__/__/ccDefaultPluginInterface.cpp.i
+.PHONY : __/__/ccDefaultPluginInterface.cpp.i
+
+__/__/ccDefaultPluginInterface.s: __/__/ccDefaultPluginInterface.cpp.s
+
+.PHONY : __/__/ccDefaultPluginInterface.s
+
+# target to generate assembly for a file
+__/__/ccDefaultPluginInterface.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/build.make plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/__/__/ccDefaultPluginInterface.cpp.s
+.PHONY : __/__/ccDefaultPluginInterface.cpp.s
+
+__/__/ccStdPluginInterface.o: __/__/ccStdPluginInterface.cpp.o
+
+.PHONY : __/__/ccStdPluginInterface.o
+
+# target to build an object file
+__/__/ccStdPluginInterface.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/build.make plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/__/__/ccStdPluginInterface.cpp.o
+.PHONY : __/__/ccStdPluginInterface.cpp.o
+
+__/__/ccStdPluginInterface.i: __/__/ccStdPluginInterface.cpp.i
+
+.PHONY : __/__/ccStdPluginInterface.i
+
+# target to preprocess a source file
+__/__/ccStdPluginInterface.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/build.make plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/__/__/ccStdPluginInterface.cpp.i
+.PHONY : __/__/ccStdPluginInterface.cpp.i
+
+__/__/ccStdPluginInterface.s: __/__/ccStdPluginInterface.cpp.s
+
+.PHONY : __/__/ccStdPluginInterface.s
+
+# target to generate assembly for a file
+__/__/ccStdPluginInterface.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/build.make plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/__/__/ccStdPluginInterface.cpp.s
+.PHONY : __/__/ccStdPluginInterface.cpp.s
+
+qM3C2.o: qM3C2.cpp.o
+
+.PHONY : qM3C2.o
+
+# target to build an object file
+qM3C2.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/build.make plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/qM3C2.cpp.o
+.PHONY : qM3C2.cpp.o
+
+qM3C2.i: qM3C2.cpp.i
+
+.PHONY : qM3C2.i
+
+# target to preprocess a source file
+qM3C2.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/build.make plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/qM3C2.cpp.i
+.PHONY : qM3C2.cpp.i
+
+qM3C2.s: qM3C2.cpp.s
+
+.PHONY : qM3C2.s
+
+# target to generate assembly for a file
+qM3C2.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/build.make plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/qM3C2.cpp.s
+.PHONY : qM3C2.cpp.s
+
+qrc_qM3C2.o: qrc_qM3C2.cpp.o
+
+.PHONY : qrc_qM3C2.o
+
+# target to build an object file
+qrc_qM3C2.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/build.make plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/qrc_qM3C2.cpp.o
+.PHONY : qrc_qM3C2.cpp.o
+
+qrc_qM3C2.i: qrc_qM3C2.cpp.i
+
+.PHONY : qrc_qM3C2.i
+
+# target to preprocess a source file
+qrc_qM3C2.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/build.make plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/qrc_qM3C2.cpp.i
+.PHONY : qrc_qM3C2.cpp.i
+
+qrc_qM3C2.s: qrc_qM3C2.cpp.s
+
+.PHONY : qrc_qM3C2.s
+
+# target to generate assembly for a file
+qrc_qM3C2.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/build.make plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/qrc_qM3C2.cpp.s
+.PHONY : qrc_qM3C2.cpp.s
+
+src/qM3C2Dialog.o: src/qM3C2Dialog.cpp.o
+
+.PHONY : src/qM3C2Dialog.o
+
+# target to build an object file
+src/qM3C2Dialog.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/build.make plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/src/qM3C2Dialog.cpp.o
+.PHONY : src/qM3C2Dialog.cpp.o
+
+src/qM3C2Dialog.i: src/qM3C2Dialog.cpp.i
+
+.PHONY : src/qM3C2Dialog.i
+
+# target to preprocess a source file
+src/qM3C2Dialog.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/build.make plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/src/qM3C2Dialog.cpp.i
+.PHONY : src/qM3C2Dialog.cpp.i
+
+src/qM3C2Dialog.s: src/qM3C2Dialog.cpp.s
+
+.PHONY : src/qM3C2Dialog.s
+
+# target to generate assembly for a file
+src/qM3C2Dialog.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/build.make plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/src/qM3C2Dialog.cpp.s
+.PHONY : src/qM3C2Dialog.cpp.s
+
+src/qM3C2Process.o: src/qM3C2Process.cpp.o
+
+.PHONY : src/qM3C2Process.o
+
+# target to build an object file
+src/qM3C2Process.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/build.make plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/src/qM3C2Process.cpp.o
+.PHONY : src/qM3C2Process.cpp.o
+
+src/qM3C2Process.i: src/qM3C2Process.cpp.i
+
+.PHONY : src/qM3C2Process.i
+
+# target to preprocess a source file
+src/qM3C2Process.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/build.make plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/src/qM3C2Process.cpp.i
+.PHONY : src/qM3C2Process.cpp.i
+
+src/qM3C2Process.s: src/qM3C2Process.cpp.s
+
+.PHONY : src/qM3C2Process.s
+
+# target to generate assembly for a file
+src/qM3C2Process.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/build.make plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/src/qM3C2Process.cpp.s
+.PHONY : src/qM3C2Process.cpp.s
+
+src/qM3C2Tools.o: src/qM3C2Tools.cpp.o
+
+.PHONY : src/qM3C2Tools.o
+
+# target to build an object file
+src/qM3C2Tools.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/build.make plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/src/qM3C2Tools.cpp.o
+.PHONY : src/qM3C2Tools.cpp.o
+
+src/qM3C2Tools.i: src/qM3C2Tools.cpp.i
+
+.PHONY : src/qM3C2Tools.i
+
+# target to preprocess a source file
+src/qM3C2Tools.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/build.make plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/src/qM3C2Tools.cpp.i
+.PHONY : src/qM3C2Tools.cpp.i
+
+src/qM3C2Tools.s: src/qM3C2Tools.cpp.s
+
+.PHONY : src/qM3C2Tools.s
+
+# target to generate assembly for a file
+src/qM3C2Tools.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/build.make plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/src/qM3C2Tools.cpp.s
+.PHONY : src/qM3C2Tools.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -163,11 +409,37 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/strip"
-	@echo "... install"
-	@echo "... install/local"
-	@echo "... list_install_components"
 	@echo "... edit_cache"
+	@echo "... QM3C2_PLUGIN_DLL"
 	@echo "... rebuild_cache"
+	@echo "... list_install_components"
+	@echo "... install/local"
+	@echo "... install"
+	@echo "... QM3C2_PLUGIN_DLL_autogen"
+	@echo "... QM3C2_PLUGIN_DLL_autogen/mocs_compilation.o"
+	@echo "... QM3C2_PLUGIN_DLL_autogen/mocs_compilation.i"
+	@echo "... QM3C2_PLUGIN_DLL_autogen/mocs_compilation.s"
+	@echo "... __/__/ccDefaultPluginInterface.o"
+	@echo "... __/__/ccDefaultPluginInterface.i"
+	@echo "... __/__/ccDefaultPluginInterface.s"
+	@echo "... __/__/ccStdPluginInterface.o"
+	@echo "... __/__/ccStdPluginInterface.i"
+	@echo "... __/__/ccStdPluginInterface.s"
+	@echo "... qM3C2.o"
+	@echo "... qM3C2.i"
+	@echo "... qM3C2.s"
+	@echo "... qrc_qM3C2.o"
+	@echo "... qrc_qM3C2.i"
+	@echo "... qrc_qM3C2.s"
+	@echo "... src/qM3C2Dialog.o"
+	@echo "... src/qM3C2Dialog.i"
+	@echo "... src/qM3C2Dialog.s"
+	@echo "... src/qM3C2Process.o"
+	@echo "... src/qM3C2Process.i"
+	@echo "... src/qM3C2Process.s"
+	@echo "... src/qM3C2Tools.o"
+	@echo "... src/qM3C2Tools.i"
+	@echo "... src/qM3C2Tools.s"
 .PHONY : help
 
 

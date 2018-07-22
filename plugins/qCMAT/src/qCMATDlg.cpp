@@ -24,6 +24,7 @@
 #include <ccPointCloud.h>
 #include <QtGui>
 #include <QMainWindow>
+
 //include plugin features
 #include "ccVolumeTool.h"
 #include "ccDisplaySurface.h"
