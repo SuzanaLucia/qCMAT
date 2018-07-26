@@ -25,9 +25,6 @@
 //include qCMAT tools
 #include "ccQCMATTools.h"
 
-//Standard lib for closing
-#include <unistd.h>
-
 
 //"no matching call for main window" bug
 #include <QMainWindow>

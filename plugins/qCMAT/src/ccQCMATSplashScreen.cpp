@@ -16,44 +16,39 @@
 //#           WRITTEN BY: Liam O'Hanlon & Arthur-Louis Heath               #
 //##########################################################################
 
-//include main dialog
-#include "qCMATDlg.h"
+
 //Include header
-#include "ccSplashScreen.h"
+#include "ccQCMATSplashScreen.h"
+
 //stdlib includes
 #include <string>
 
-//platform dependant include
-#ifdef LINUX
-#include <unistd.h>
-#endif
-#ifdef WINDOWS
-#include <windows.h>
-#endif
 
-ccSplashScreen::ccSplashScreen(QWidget* parent)
+
+ccQCMATSplashScreen::ccQCMATSplashScreen(QWidget* parent, ccMainAppInterface* app)
 	: QDialog(parent, Qt::Tool)
-	, Ui::splashScreen()
+	, Ui::ccQCMATSplashScreen()
 {
 	setupUi(this);
 
+	//initialize m_app
+	m_app = app;
 	//call the startDialog Funcion
 	startDialog();
 }
 
-void ccSplashScreen::startDialog(){
-	//Sleep for DELAY miliseconds 
-	platformIndependantSleep(DELAY);
+void ccQCMATSplashScreen::startDialog(){
+	//Sleep for DELAY miliseconds
+	//platformIndependantSleep(DELAY);
+	//Close the dialog
+	//this->close();
 	//create an object and start the main dialog
-	qCMATDlg cdlg(m_app->getMainWindow());
-	cdlg.initializeTool(m_app);
-	// Initialise point clouds loaded
-	cdlg.initPointClouds();
-	cdlg.exec();
+
+	platformIndependantSleep(500);
 }
 
 
-void ccSplashScreen::platformIndependantSleep(int ms)
+void ccQCMATSplashScreen::platformIndependantSleep(int ms)
 {
 /*
 Pause thread execution for ms miliseconds

@@ -7,7 +7,6 @@ set( CC_PLUGIN_CUSTOM_UI_LIST
         ${CMAKE_CURRENT_SOURCE_DIR}/displayShoreline.ui
 # Tell CMake to look of dummy UI file
 #        ${CMAKE_CURRENT_SOURCE_DIR}/dummyFeat.ui
-        ${CMAKE_CURRENT_SOURCE_DIR}/glDlg.ui
-        ${CMAKE_CURRENT_SOURCE_DIR}/splashScreen.ui
+        ${CMAKE_CURRENT_SOURCE_DIR}/ccQCMATSplashScreen.ui
         PARENT_SCOPE
 )

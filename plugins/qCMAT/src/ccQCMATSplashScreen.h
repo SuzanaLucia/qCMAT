@@ -16,13 +16,17 @@
 //#           WRITTEN BY: Liam O'Hanlon & Arthur-Louis Heath               #
 //##########################################################################
 
-#ifndef CC_SPLASH_SCREEN_H
-#define CC_SPLASH_SCREEN_H
+#ifndef CC_QCMAT_SPLASH_SCREEN_H
+#define CC_QCMAT_SPLASH_SCREEN_H
 
 
 //Interface includes
-#include "ui_splashScreen.h"
+#include "ui_ccQCMATSplashScreen.h"
 #include "ccStdPluginInterface.h"
+#include "ccMainAppInterface.h"
+
+//include main dialog
+#include "qCMATDlg.h"
 
 //Qt includes
 #include <QDialog>
@@ -30,7 +34,7 @@
 #include <QLineEdit>
 #include <QWidget>
 
-class ccSplashScreen : public QDialog, public Ui::splashScreen
+class ccQCMATSplashScreen : public QDialog, public Ui::ccQCMATSplashScreen
 {
 /*
 Display the splash screen ui before opening the main dialog
@@ -39,15 +43,16 @@ Display the splash screen ui before opening the main dialog
 
 public:
 //TODOl fix max slices; const int?
-	ccSplashScreen(QWidget*);
+	explicit ccQCMATSplashScreen(QWidget* ,ccMainAppInterface*);
+	ccMainAppInterface* m_app;
+
 protected slots:
 	//...
 private:
 	//delay; how long we want to show the splash screen for
 	int DELAY = 500;
 	void startDialog();
-	//Sleep function, works for WINDOWS and LINUX
-	void platformIndependantSleep(int sleepMs);
+	void platformIndependantSleep(int ms);
 };
 
 #endif // SPLASH_SCREEN_H

@@ -1,16 +1,16 @@
 /****************************************************************************
-** Meta object code from reading C++ file 'ccSplashScreen.h'
+** Meta object code from reading C++ file 'ccQCMATSplashScreen.h'
 **
 ** Created by: The Qt Meta Object Compiler version 67 (Qt 5.10.1)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../../../../../plugins/qCMAT/src/ccSplashScreen.h"
+#include "../../../../../plugins/qCMAT/src/ccQCMATSplashScreen.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
-#error "The header file 'ccSplashScreen.h' doesn't include <QObject>."
+#error "The header file 'ccQCMATSplashScreen.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
 #error "This file was generated using the moc from 5.10.1. It"
 #error "cannot be used with the include files from this version of Qt."
@@ -20,25 +20,25 @@
 QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
-struct qt_meta_stringdata_ccSplashScreen_t {
+struct qt_meta_stringdata_ccQCMATSplashScreen_t {
     QByteArrayData data[1];
-    char stringdata0[15];
+    char stringdata0[20];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    qptrdiff(offsetof(qt_meta_stringdata_ccSplashScreen_t, stringdata0) + ofs \
+    qptrdiff(offsetof(qt_meta_stringdata_ccQCMATSplashScreen_t, stringdata0) + ofs \
         - idx * sizeof(QByteArrayData)) \
     )
-static const qt_meta_stringdata_ccSplashScreen_t qt_meta_stringdata_ccSplashScreen = {
+static const qt_meta_stringdata_ccQCMATSplashScreen_t qt_meta_stringdata_ccQCMATSplashScreen = {
     {
-QT_MOC_LITERAL(0, 0, 14) // "ccSplashScreen"
+QT_MOC_LITERAL(0, 0, 19) // "ccQCMATSplashScreen"
 
     },
-    "ccSplashScreen"
+    "ccQCMATSplashScreen"
 };
 #undef QT_MOC_LITERAL
 
-static const uint qt_meta_data_ccSplashScreen[] = {
+static const uint qt_meta_data_ccQCMATSplashScreen[] = {
 
  // content:
        7,       // revision
@@ -54,7 +54,7 @@ static const uint qt_meta_data_ccSplashScreen[] = {
        0        // eod
 };
 
-void ccSplashScreen::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+void ccQCMATSplashScreen::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     Q_UNUSED(_o);
     Q_UNUSED(_id);
@@ -62,28 +62,28 @@ void ccSplashScreen::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _
     Q_UNUSED(_a);
 }
 
-QT_INIT_METAOBJECT const QMetaObject ccSplashScreen::staticMetaObject = {
-    { &QDialog::staticMetaObject, qt_meta_stringdata_ccSplashScreen.data,
-      qt_meta_data_ccSplashScreen,  qt_static_metacall, nullptr, nullptr}
+QT_INIT_METAOBJECT const QMetaObject ccQCMATSplashScreen::staticMetaObject = {
+    { &QDialog::staticMetaObject, qt_meta_stringdata_ccQCMATSplashScreen.data,
+      qt_meta_data_ccQCMATSplashScreen,  qt_static_metacall, nullptr, nullptr}
 };
 
 
-const QMetaObject *ccSplashScreen::metaObject() const
+const QMetaObject *ccQCMATSplashScreen::metaObject() const
 {
     return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
-void *ccSplashScreen::qt_metacast(const char *_clname)
+void *ccQCMATSplashScreen::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_meta_stringdata_ccSplashScreen.stringdata0))
+    if (!strcmp(_clname, qt_meta_stringdata_ccQCMATSplashScreen.stringdata0))
         return static_cast<void*>(this);
-    if (!strcmp(_clname, "Ui::ccSplashScreen"))
-        return static_cast< Ui::ccSplashScreen*>(this);
+    if (!strcmp(_clname, "Ui::ccQCMATSplashScreen"))
+        return static_cast< Ui::ccQCMATSplashScreen*>(this);
     return QDialog::qt_metacast(_clname);
 }
 
-int ccSplashScreen::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+int ccQCMATSplashScreen::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = QDialog::qt_metacall(_c, _id, _a);
     return _id;

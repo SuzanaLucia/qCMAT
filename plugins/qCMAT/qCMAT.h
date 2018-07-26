@@ -38,6 +38,7 @@ class qCMAT : public QObject, public ccStdPluginInterface
 	Q_INTERFACES(ccStdPluginInterface)
 	Q_PLUGIN_METADATA(IID "cccorp.cloudcompare.plugin.qCMAT" FILE "info.json")
 
+
 public:
 	// Default Constructor
 	explicit qCMAT( QObject *parent = nullptr );
@@ -52,6 +53,9 @@ private:
 
 	/*** ADD YOUR CUSTOM ACTIONS HERE ***/
 	void doAction();
+
+		//Sleep function, works for WINDOWS and LINUX
+	void platformIndependantSleep(int);
 
 	//! Default action
 	/**

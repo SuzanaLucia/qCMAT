@@ -55,7 +55,6 @@ protected slots:
 	void cancelButtonClicked();
 	void startVolumeDialog();
 	void startSurfaceDialog();
-	void startGL();
 	void printConsole(std::string);
 	void printError(std::string);
 	void startShorelineDialog();

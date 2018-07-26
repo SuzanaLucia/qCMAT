@@ -18,11 +18,34 @@
 // QT Libraries
 #include <QtGui>
 #include <QMainWindow>
+#include <QSplashScreen>
+#include <QPixmap>
+#include <QTimer>
+#include <qthread.h>
 // Plugin Libraries/Dependencies
 #include "qCMAT.h"
+#include "src/ccQCMATSplashScreen.h" //attempted move to starting splash screen
 #include "src/qCMATDlg.h"
 // CloudCompare Libraries
 #include <ccPointCloud.h>
+
+
+//platform dependant includes (for sleep)
+#ifdef LINUX
+#include <unistd.h>
+#endif
+#ifdef WINDOWS
+#include <windows.h>
+#endif
+
+//TODO: REMOVE / RENAME THIS
+class SleepThread : public QThread
+{
+public:
+    static void sleep(unsigned long secs) { QThread::sleep(secs); }
+};
+
+
 
 
 // Default constructor:
@@ -111,11 +134,35 @@ void qCMAT::doAction()
 	//}
 	//else if (m_selectedEntities.size() == 2) {
 		// Otherwise launch qCMAT Dialog UI
-		qCMATDlg cdlg(m_app->getMainWindow());
-		cdlg.initializeTool(m_app);
+
+		//ccQCMATSplashScreen* splScreen = new ccQCMATSplashScreen(m_app->getMainWindow(), m_app);
+		//splScreen->exec();
+
+		Q_INIT_RESOURCE(qCMAT);
+
+	    QPixmap* pixmap = new QPixmap(200, 200);
+	    pixmap->fill(Qt::blue);
+
+	    //TESTING CODE
+	   	//if(*pixmap == QPixmap()){
+	   	//	m_app->dispToConsole("Hello World!");
+	   	//}
+	    
+//	    QSplashScreen splash(*pixmap);
+//	    splash.show();
+
+  	    qCMATDlg cdlg(m_app->getMainWindow());
+	    cdlg.initializeTool(m_app);
 		// Initialise point clouds loaded
 		cdlg.initPointClouds();
+
+		//Works quite nicely actually
+//	    SleepThread::sleep(2);
+
+//		splash.finish(&cdlg);
 		cdlg.exec();
+
 	//}
 
 }
+

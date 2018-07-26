@@ -14,6 +14,7 @@ ccDummyFeat::ccDummyFeat(QWidget* parent, ccMainAppInterface* app)
 
 	//initialize main application interface
 	m_app = app;
+	
 	helloWorld();
 }
 

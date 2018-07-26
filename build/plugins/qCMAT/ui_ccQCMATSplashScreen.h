@@ -1,13 +1,13 @@
 /********************************************************************************
-** Form generated from reading UI file 'splashScreen.ui'
+** Form generated from reading UI file 'ccQCMATSplashScreen.ui'
 **
 ** Created by: Qt User Interface Compiler version 5.10.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
 
-#ifndef UI_SPLASHSCREEN_H
-#define UI_SPLASHSCREEN_H
+#ifndef UI_CCQCMATSPLASHSCREEN_H
+#define UI_CCQCMATSPLASHSCREEN_H
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QAction>
@@ -19,33 +19,33 @@
 
 QT_BEGIN_NAMESPACE
 
-class Ui_ccSplashScreen
+class Ui_ccQCMATSplashScreen
 {
 public:
     QLabel *label;
     QLabel *splashScreen;
 
-    void setupUi(QDialog *ccSplashScreen)
+    void setupUi(QDialog *ccQCMATSplashScreen)
     {
-        if (ccSplashScreen->objectName().isEmpty())
-            ccSplashScreen->setObjectName(QStringLiteral("ccSplashScreen"));
-        ccSplashScreen->resize(396, 396);
-        label = new QLabel(ccSplashScreen);
+        if (ccQCMATSplashScreen->objectName().isEmpty())
+            ccQCMATSplashScreen->setObjectName(QStringLiteral("ccQCMATSplashScreen"));
+        ccQCMATSplashScreen->resize(396, 396);
+        label = new QLabel(ccQCMATSplashScreen);
         label->setObjectName(QStringLiteral("label"));
         label->setGeometry(QRect(411, 412, 16, 16));
-        splashScreen = new QLabel(ccSplashScreen);
+        splashScreen = new QLabel(ccQCMATSplashScreen);
         splashScreen->setObjectName(QStringLiteral("splashScreen"));
         splashScreen->setGeometry(QRect(0, 0, 396, 397));
         splashScreen->setPixmap(QPixmap(QString::fromUtf8("../images/qCMATSplash.png")));
 
-        retranslateUi(ccSplashScreen);
+        retranslateUi(ccQCMATSplashScreen);
 
-        QMetaObject::connectSlotsByName(ccSplashScreen);
+        QMetaObject::connectSlotsByName(ccQCMATSplashScreen);
     } // setupUi
 
-    void retranslateUi(QDialog *ccSplashScreen)
+    void retranslateUi(QDialog *ccQCMATSplashScreen)
     {
-        ccSplashScreen->setWindowTitle(QApplication::translate("ccSplashScreen", "qCMAT", nullptr));
+        ccQCMATSplashScreen->setWindowTitle(QApplication::translate("ccQCMATSplashScreen", "qCMAT", nullptr));
         label->setText(QString());
         splashScreen->setText(QString());
     } // retranslateUi
@@ -53,9 +53,9 @@ public:
 };
 
 namespace Ui {
-    class ccSplashScreen: public Ui_ccSplashScreen {};
+    class ccQCMATSplashScreen: public Ui_ccQCMATSplashScreen {};
 } // namespace Ui
 
 QT_END_NAMESPACE
 
-#endif // UI_SPLASHSCREEN_H
+#endif // UI_CCQCMATSPLASHSCREEN_H

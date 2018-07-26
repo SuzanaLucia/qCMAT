@@ -375,6 +375,33 @@ src/ccDisplayVolume.cpp.s:
 	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/qCMAT/CMakeFiles/qCMAT.dir/build.make plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplayVolume.cpp.s
 .PHONY : src/ccDisplayVolume.cpp.s
 
+src/ccQCMATSplashScreen.o: src/ccQCMATSplashScreen.cpp.o
+
+.PHONY : src/ccQCMATSplashScreen.o
+
+# target to build an object file
+src/ccQCMATSplashScreen.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/qCMAT/CMakeFiles/qCMAT.dir/build.make plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccQCMATSplashScreen.cpp.o
+.PHONY : src/ccQCMATSplashScreen.cpp.o
+
+src/ccQCMATSplashScreen.i: src/ccQCMATSplashScreen.cpp.i
+
+.PHONY : src/ccQCMATSplashScreen.i
+
+# target to preprocess a source file
+src/ccQCMATSplashScreen.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/qCMAT/CMakeFiles/qCMAT.dir/build.make plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccQCMATSplashScreen.cpp.i
+.PHONY : src/ccQCMATSplashScreen.cpp.i
+
+src/ccQCMATSplashScreen.s: src/ccQCMATSplashScreen.cpp.s
+
+.PHONY : src/ccQCMATSplashScreen.s
+
+# target to generate assembly for a file
+src/ccQCMATSplashScreen.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/qCMAT/CMakeFiles/qCMAT.dir/build.make plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccQCMATSplashScreen.cpp.s
+.PHONY : src/ccQCMATSplashScreen.cpp.s
+
 src/ccQCMATTools.o: src/ccQCMATTools.cpp.o
 
 .PHONY : src/ccQCMATTools.o
@@ -456,33 +483,6 @@ src/displayShoreline.cpp.s:
 	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/qCMAT/CMakeFiles/qCMAT.dir/build.make plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displayShoreline.cpp.s
 .PHONY : src/displayShoreline.cpp.s
 
-src/glDlg.o: src/glDlg.cpp.o
-
-.PHONY : src/glDlg.o
-
-# target to build an object file
-src/glDlg.cpp.o:
-	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/qCMAT/CMakeFiles/qCMAT.dir/build.make plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.o
-.PHONY : src/glDlg.cpp.o
-
-src/glDlg.i: src/glDlg.cpp.i
-
-.PHONY : src/glDlg.i
-
-# target to preprocess a source file
-src/glDlg.cpp.i:
-	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/qCMAT/CMakeFiles/qCMAT.dir/build.make plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.i
-.PHONY : src/glDlg.cpp.i
-
-src/glDlg.s: src/glDlg.cpp.s
-
-.PHONY : src/glDlg.s
-
-# target to generate assembly for a file
-src/glDlg.cpp.s:
-	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/qCMAT/CMakeFiles/qCMAT.dir/build.make plugins/qCMAT/CMakeFiles/qCMAT.dir/src/glDlg.cpp.s
-.PHONY : src/glDlg.cpp.s
-
 src/qCMATDlg.o: src/qCMATDlg.cpp.o
 
 .PHONY : src/qCMATDlg.o
@@ -545,6 +545,9 @@ help:
 	@echo "... src/ccDisplayVolume.o"
 	@echo "... src/ccDisplayVolume.i"
 	@echo "... src/ccDisplayVolume.s"
+	@echo "... src/ccQCMATSplashScreen.o"
+	@echo "... src/ccQCMATSplashScreen.i"
+	@echo "... src/ccQCMATSplashScreen.s"
 	@echo "... src/ccQCMATTools.o"
 	@echo "... src/ccQCMATTools.i"
 	@echo "... src/ccQCMATTools.s"
@@ -554,9 +557,6 @@ help:
 	@echo "... src/displayShoreline.o"
 	@echo "... src/displayShoreline.i"
 	@echo "... src/displayShoreline.s"
-	@echo "... src/glDlg.o"
-	@echo "... src/glDlg.i"
-	@echo "... src/glDlg.s"
 	@echo "... src/qCMATDlg.o"
 	@echo "... src/qCMATDlg.i"
 	@echo "... src/qCMATDlg.s"

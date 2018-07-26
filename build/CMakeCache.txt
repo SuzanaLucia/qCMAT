@@ -290,7 +290,7 @@ INSTALL_QHOUGH_NORMALS_PLUGIN:BOOL=OFF
 INSTALL_QHPR_PLUGIN:BOOL=OFF
 
 //Check to install qM3C2 plugin
-INSTALL_QM3C2_PLUGIN:BOOL=ON
+INSTALL_QM3C2_PLUGIN:BOOL=OFF
 
 //Check to install qPCL plugin
 INSTALL_QPCL_PLUGIN:BOOL=OFF
@@ -420,15 +420,6 @@ QCC_IO_LIB_LIB_DEPENDS:STATIC=general;CC_CORE_LIB;general;CC_FBO_LIB;general;QCC
 
 //Value Computed by CMake
 QCC_IO_LIB_SOURCE_DIR:STATIC=/home/chrome/work/CloudCompare/qCMAT/libs/qCC_io
-
-//Value Computed by CMake
-QM3C2_PLUGIN_DLL_BINARY_DIR:STATIC=/home/chrome/work/CloudCompare/qCMAT/build/plugins/core/qM3C2
-
-//Dependencies for the target
-QM3C2_PLUGIN_DLL_LIB_DEPENDS:STATIC=general;CC_FBO_LIB;general;CC_CORE_LIB;general;QCC_DB_LIB;general;QCC_IO_LIB;general;QCC_GL_LIB;general;Qt5::Core;general;Qt5::Gui;general;Qt5::Widgets;general;Qt5::OpenGL;general;Qt5::Concurrent;
-
-//Value Computed by CMake
-QM3C2_PLUGIN_DLL_SOURCE_DIR:STATIC=/home/chrome/work/CloudCompare/qCMAT/plugins/core/qM3C2
 
 //Qt5 root directory (i.e. where the 'bin' folder lies)
 QT5_ROOT_PATH:PATH=
@@ -591,7 +582,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=42
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=40
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

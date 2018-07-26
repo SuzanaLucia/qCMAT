@@ -21,8 +21,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_qCMATDlg_t {
-    QByteArrayData data[11];
-    char stringdata0[150];
+    QByteArrayData data[10];
+    char stringdata0[142];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -36,19 +36,17 @@ QT_MOC_LITERAL(1, 9, 19), // "cancelButtonClicked"
 QT_MOC_LITERAL(2, 29, 0), // ""
 QT_MOC_LITERAL(3, 30, 17), // "startVolumeDialog"
 QT_MOC_LITERAL(4, 48, 18), // "startSurfaceDialog"
-QT_MOC_LITERAL(5, 67, 7), // "startGL"
-QT_MOC_LITERAL(6, 75, 12), // "printConsole"
-QT_MOC_LITERAL(7, 88, 11), // "std::string"
-QT_MOC_LITERAL(8, 100, 10), // "printError"
-QT_MOC_LITERAL(9, 111, 20), // "startShorelineDialog"
-QT_MOC_LITERAL(10, 132, 17) // "viewButtonClicked"
+QT_MOC_LITERAL(5, 67, 12), // "printConsole"
+QT_MOC_LITERAL(6, 80, 11), // "std::string"
+QT_MOC_LITERAL(7, 92, 10), // "printError"
+QT_MOC_LITERAL(8, 103, 20), // "startShorelineDialog"
+QT_MOC_LITERAL(9, 124, 17) // "viewButtonClicked"
 
     },
     "qCMATDlg\0cancelButtonClicked\0\0"
     "startVolumeDialog\0startSurfaceDialog\0"
-    "startGL\0printConsole\0std::string\0"
-    "printError\0startShorelineDialog\0"
-    "viewButtonClicked"
+    "printConsole\0std::string\0printError\0"
+    "startShorelineDialog\0viewButtonClicked"
 };
 #undef QT_MOC_LITERAL
 
@@ -58,7 +56,7 @@ static const uint qt_meta_data_qCMATDlg[] = {
        7,       // revision
        0,       // classname
        0,    0, // classinfo
-       8,   14, // methods
+       7,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -66,22 +64,20 @@ static const uint qt_meta_data_qCMATDlg[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    0,   54,    2, 0x09 /* Protected */,
-       3,    0,   55,    2, 0x09 /* Protected */,
-       4,    0,   56,    2, 0x09 /* Protected */,
-       5,    0,   57,    2, 0x09 /* Protected */,
-       6,    1,   58,    2, 0x09 /* Protected */,
-       8,    1,   61,    2, 0x09 /* Protected */,
-       9,    0,   64,    2, 0x09 /* Protected */,
-      10,    0,   65,    2, 0x09 /* Protected */,
+       1,    0,   49,    2, 0x09 /* Protected */,
+       3,    0,   50,    2, 0x09 /* Protected */,
+       4,    0,   51,    2, 0x09 /* Protected */,
+       5,    1,   52,    2, 0x09 /* Protected */,
+       7,    1,   55,    2, 0x09 /* Protected */,
+       8,    0,   58,    2, 0x09 /* Protected */,
+       9,    0,   59,    2, 0x09 /* Protected */,
 
  // slots: parameters
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Void,
-    QMetaType::Void, 0x80000000 | 7,    2,
-    QMetaType::Void, 0x80000000 | 7,    2,
+    QMetaType::Void, 0x80000000 | 6,    2,
+    QMetaType::Void, 0x80000000 | 6,    2,
     QMetaType::Void,
     QMetaType::Void,
 
@@ -97,11 +93,10 @@ void qCMATDlg::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, vo
         case 0: _t->cancelButtonClicked(); break;
         case 1: _t->startVolumeDialog(); break;
         case 2: _t->startSurfaceDialog(); break;
-        case 3: _t->startGL(); break;
-        case 4: _t->printConsole((*reinterpret_cast< std::string(*)>(_a[1]))); break;
-        case 5: _t->printError((*reinterpret_cast< std::string(*)>(_a[1]))); break;
-        case 6: _t->startShorelineDialog(); break;
-        case 7: _t->viewButtonClicked(); break;
+        case 3: _t->printConsole((*reinterpret_cast< std::string(*)>(_a[1]))); break;
+        case 4: _t->printError((*reinterpret_cast< std::string(*)>(_a[1]))); break;
+        case 5: _t->startShorelineDialog(); break;
+        case 6: _t->viewButtonClicked(); break;
         default: ;
         }
     }
@@ -134,13 +129,13 @@ int qCMATDlg::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 8)
+        if (_id < 7)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 8;
+        _id -= 7;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 8)
+        if (_id < 7)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 8;
+        _id -= 7;
     }
     return _id;
 }

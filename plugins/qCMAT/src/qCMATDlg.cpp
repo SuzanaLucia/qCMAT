@@ -18,7 +18,6 @@
 #include "qCMATDlg.h"
 #include <QString>
 #include "../qCMAT.h"
-#include "glDlg.h"
 #include <cstdlib>
 #include <iostream>
 #include <ccPointCloud.h>
@@ -58,7 +57,7 @@ qCMATDlg::qCMATDlg(QWidget* parent)
 	connect( volumePushButton,	SIGNAL(clicked()), this, SLOT( startVolumeDialog()));
 	connect( surfacePushButton,	SIGNAL(clicked()), this, SLOT( startSurfaceDialog()));
 	connect( shorelinePushButton,	SIGNAL(clicked()), this, SLOT( startShorelineDialog()));
-	connect( optionsPushButton,	SIGNAL(clicked()), this, SLOT( startGL()));
+	//connect( optionsPushButton,	SIGNAL(clicked()), this, SLOT( startGL()));
 	//connect(clearPushButton,	SIGNAL(clicked()), this, SLOT(clearPointClouds()));
 	/**connect( viewPushButton,	SIGNAL(clicked()), this, SLOT( cancelButtonClicked() ));
 	connect(interPushButton,	SIGNAL(clicked()), this, SLOT(intersectSelected()));
@@ -80,13 +79,6 @@ void qCMATDlg::startShorelineDialog(){
 
 }
 
-
-void qCMATDlg::startGL()
-{
-	glDlg g(m_app->getMainWindow());
-	g.initializeTool(m_app);
-	g.exec();
-}
 
 // Takes in a ccPointCloud and returns a ccGenericPointCloud
 ccGenericPointCloud* qCMATDlg::pointCloudToGeneric(ccPointCloud* pc)

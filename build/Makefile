@@ -313,32 +313,6 @@ qcustomplot_autogen/fast:
 .PHONY : qcustomplot_autogen/fast
 
 #=============================================================================
-# Target rules for targets named QM3C2_PLUGIN_DLL
-
-# Build rule for target.
-QM3C2_PLUGIN_DLL: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 QM3C2_PLUGIN_DLL
-.PHONY : QM3C2_PLUGIN_DLL
-
-# fast build rule for target.
-QM3C2_PLUGIN_DLL/fast:
-	$(MAKE) -f plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/build.make plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL.dir/build
-.PHONY : QM3C2_PLUGIN_DLL/fast
-
-#=============================================================================
-# Target rules for targets named QM3C2_PLUGIN_DLL_autogen
-
-# Build rule for target.
-QM3C2_PLUGIN_DLL_autogen: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 QM3C2_PLUGIN_DLL_autogen
-.PHONY : QM3C2_PLUGIN_DLL_autogen
-
-# fast build rule for target.
-QM3C2_PLUGIN_DLL_autogen/fast:
-	$(MAKE) -f plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL_autogen.dir/build.make plugins/core/qM3C2/CMakeFiles/QM3C2_PLUGIN_DLL_autogen.dir/build
-.PHONY : QM3C2_PLUGIN_DLL_autogen/fast
-
-#=============================================================================
 # Target rules for targets named qCMAT
 
 # Build rule for target.
@@ -440,8 +414,6 @@ help:
 	@echo "... QCC_GL_LIB_autogen"
 	@echo "... qcustomplot"
 	@echo "... qcustomplot_autogen"
-	@echo "... QM3C2_PLUGIN_DLL"
-	@echo "... QM3C2_PLUGIN_DLL_autogen"
 	@echo "... qCMAT"
 	@echo "... qCMAT_autogen"
 	@echo "... CloudCompare"

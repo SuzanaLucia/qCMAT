@@ -33,6 +33,8 @@ if ( INSTALL_QCMAT )
 
 
     # set dependencies to necessary libraries (see qPCV for an example)
+    #SET(helloworld_RESOURCES images.qrc)
+
     # target_link_libraries( ${PROJECT_NAME} LIB1 )
     # include_directories( ${LIB1_INCLUDE_DIR} )
 endif()
