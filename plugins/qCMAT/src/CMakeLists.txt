@@ -7,8 +7,9 @@ set( CC_PLUGIN_CUSTOM_HEADER_LIST
         ${CMAKE_CURRENT_SOURCE_DIR}/displayShoreline.h         #
 #Tell CMake to look for the dummy header file
 #        ${CMAKE_CURRENT_SOURCE_DIR}/ccDummyFeat.h             #
+        ${CMAKE_CURRENT_SOURCE_DIR}/ccExtractProfile.h         #
         ${CMAKE_CURRENT_SOURCE_DIR}/ccQCMATTools.h             #
-        ${CMAKE_CURRENT_SOURCE_DIR}/ccQCMATSplashScreen.h             #	
+        ${CMAKE_CURRENT_SOURCE_DIR}/ccQCMATSplashScreen.h      #
         PARENT_SCOPE
 )
 
@@ -21,7 +22,8 @@ set( CC_PLUGIN_CUSTOM_SOURCE_LIST
         ${CMAKE_CURRENT_SOURCE_DIR}/displayShoreline.cpp        #
 #Tell CMake to look for the dummy source file                   
 #        ${CMAKE_CURRENT_SOURCE_DIR}/ccDummyFeat.cpp            #
+        ${CMAKE_CURRENT_SOURCE_DIR}/ccExtractProfile.cpp        #
         ${CMAKE_CURRENT_SOURCE_DIR}/ccQCMATTools.cpp            #        
-        ${CMAKE_CURRENT_SOURCE_DIR}/ccQCMATSplashScreen.cpp            #
+        ${CMAKE_CURRENT_SOURCE_DIR}/ccQCMATSplashScreen.cpp     #
         PARENT_SCOPE
 )

@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'dlg.ui'
 **
-** Created by: Qt User Interface Compiler version 5.10.1
+** Created by: Qt User Interface Compiler version 5.11.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,14 +10,11 @@
 #define UI_DLG_H
 
 #include <QtCore/QVariant>
-#include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QDialogButtonBox>
 #include <QtWidgets/QFrame>
 #include <QtWidgets/QHBoxLayout>
-#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QPushButton>
@@ -44,13 +41,14 @@ public:
     QPushButton *volumePushButton;
     QPushButton *surfacePushButton;
     QPushButton *shorelinePushButton;
+    QPushButton *extractProfilePushButton;
     QDialogButtonBox *cancelButton;
 
     void setupUi(QDialog *CMATDlg)
     {
         if (CMATDlg->objectName().isEmpty())
             CMATDlg->setObjectName(QStringLiteral("CMATDlg"));
-        CMATDlg->resize(567, 450);
+        CMATDlg->resize(567, 452);
         CMATDlg->setSizeGripEnabled(true);
         verticalLayout_2 = new QVBoxLayout(CMATDlg);
         verticalLayout_2->setObjectName(QStringLiteral("verticalLayout_2"));
@@ -146,6 +144,13 @@ public:
 
         verticalLayout_3->addWidget(shorelinePushButton);
 
+        extractProfilePushButton = new QPushButton(frame);
+        extractProfilePushButton->setObjectName(QStringLiteral("extractProfilePushButton"));
+        sizePolicy.setHeightForWidth(extractProfilePushButton->sizePolicy().hasHeightForWidth());
+        extractProfilePushButton->setSizePolicy(sizePolicy);
+
+        verticalLayout_3->addWidget(extractProfilePushButton);
+
 
         verticalLayout_2->addWidget(frame);
 
@@ -182,6 +187,10 @@ public:
         shorelinePushButton->setToolTip(QApplication::translate("CMATDlg", "Calculate beach volume", nullptr));
 #endif // QT_NO_TOOLTIP
         shorelinePushButton->setText(QApplication::translate("CMATDlg", "Shoreline", nullptr));
+#ifndef QT_NO_TOOLTIP
+        extractProfilePushButton->setToolTip(QApplication::translate("CMATDlg", "Calculate beach volume", nullptr));
+#endif // QT_NO_TOOLTIP
+        extractProfilePushButton->setText(QApplication::translate("CMATDlg", "Profiles", nullptr));
     } // retranslateUi
 
 };

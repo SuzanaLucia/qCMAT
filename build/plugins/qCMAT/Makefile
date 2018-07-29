@@ -186,6 +186,60 @@ qCMAT_autogen/fast:
 	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/qCMAT/CMakeFiles/qCMAT_autogen.dir/build.make plugins/qCMAT/CMakeFiles/qCMAT_autogen.dir/build
 .PHONY : qCMAT_autogen/fast
 
+__/__/qCC/ccOverlayDialog.o: __/__/qCC/ccOverlayDialog.cpp.o
+
+.PHONY : __/__/qCC/ccOverlayDialog.o
+
+# target to build an object file
+__/__/qCC/ccOverlayDialog.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/qCMAT/CMakeFiles/qCMAT.dir/build.make plugins/qCMAT/CMakeFiles/qCMAT.dir/__/__/qCC/ccOverlayDialog.cpp.o
+.PHONY : __/__/qCC/ccOverlayDialog.cpp.o
+
+__/__/qCC/ccOverlayDialog.i: __/__/qCC/ccOverlayDialog.cpp.i
+
+.PHONY : __/__/qCC/ccOverlayDialog.i
+
+# target to preprocess a source file
+__/__/qCC/ccOverlayDialog.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/qCMAT/CMakeFiles/qCMAT.dir/build.make plugins/qCMAT/CMakeFiles/qCMAT.dir/__/__/qCC/ccOverlayDialog.cpp.i
+.PHONY : __/__/qCC/ccOverlayDialog.cpp.i
+
+__/__/qCC/ccOverlayDialog.s: __/__/qCC/ccOverlayDialog.cpp.s
+
+.PHONY : __/__/qCC/ccOverlayDialog.s
+
+# target to generate assembly for a file
+__/__/qCC/ccOverlayDialog.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/qCMAT/CMakeFiles/qCMAT.dir/build.make plugins/qCMAT/CMakeFiles/qCMAT.dir/__/__/qCC/ccOverlayDialog.cpp.s
+.PHONY : __/__/qCC/ccOverlayDialog.cpp.s
+
+__/__/qCC/ccPickingHub.o: __/__/qCC/ccPickingHub.cpp.o
+
+.PHONY : __/__/qCC/ccPickingHub.o
+
+# target to build an object file
+__/__/qCC/ccPickingHub.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/qCMAT/CMakeFiles/qCMAT.dir/build.make plugins/qCMAT/CMakeFiles/qCMAT.dir/__/__/qCC/ccPickingHub.cpp.o
+.PHONY : __/__/qCC/ccPickingHub.cpp.o
+
+__/__/qCC/ccPickingHub.i: __/__/qCC/ccPickingHub.cpp.i
+
+.PHONY : __/__/qCC/ccPickingHub.i
+
+# target to preprocess a source file
+__/__/qCC/ccPickingHub.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/qCMAT/CMakeFiles/qCMAT.dir/build.make plugins/qCMAT/CMakeFiles/qCMAT.dir/__/__/qCC/ccPickingHub.cpp.i
+.PHONY : __/__/qCC/ccPickingHub.cpp.i
+
+__/__/qCC/ccPickingHub.s: __/__/qCC/ccPickingHub.cpp.s
+
+.PHONY : __/__/qCC/ccPickingHub.s
+
+# target to generate assembly for a file
+__/__/qCC/ccPickingHub.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/qCMAT/CMakeFiles/qCMAT.dir/build.make plugins/qCMAT/CMakeFiles/qCMAT.dir/__/__/qCC/ccPickingHub.cpp.s
+.PHONY : __/__/qCC/ccPickingHub.cpp.s
+
 __/ccDefaultPluginInterface.o: __/ccDefaultPluginInterface.cpp.o
 
 .PHONY : __/ccDefaultPluginInterface.o
@@ -375,6 +429,33 @@ src/ccDisplayVolume.cpp.s:
 	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/qCMAT/CMakeFiles/qCMAT.dir/build.make plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplayVolume.cpp.s
 .PHONY : src/ccDisplayVolume.cpp.s
 
+src/ccExtractProfile.o: src/ccExtractProfile.cpp.o
+
+.PHONY : src/ccExtractProfile.o
+
+# target to build an object file
+src/ccExtractProfile.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/qCMAT/CMakeFiles/qCMAT.dir/build.make plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccExtractProfile.cpp.o
+.PHONY : src/ccExtractProfile.cpp.o
+
+src/ccExtractProfile.i: src/ccExtractProfile.cpp.i
+
+.PHONY : src/ccExtractProfile.i
+
+# target to preprocess a source file
+src/ccExtractProfile.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/qCMAT/CMakeFiles/qCMAT.dir/build.make plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccExtractProfile.cpp.i
+.PHONY : src/ccExtractProfile.cpp.i
+
+src/ccExtractProfile.s: src/ccExtractProfile.cpp.s
+
+.PHONY : src/ccExtractProfile.s
+
+# target to generate assembly for a file
+src/ccExtractProfile.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/qCMAT/CMakeFiles/qCMAT.dir/build.make plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccExtractProfile.cpp.s
+.PHONY : src/ccExtractProfile.cpp.s
+
 src/ccQCMATSplashScreen.o: src/ccQCMATSplashScreen.cpp.o
 
 .PHONY : src/ccQCMATSplashScreen.o
@@ -524,6 +605,12 @@ help:
 	@echo "... list_install_components"
 	@echo "... install/local"
 	@echo "... qCMAT_autogen"
+	@echo "... __/__/qCC/ccOverlayDialog.o"
+	@echo "... __/__/qCC/ccOverlayDialog.i"
+	@echo "... __/__/qCC/ccOverlayDialog.s"
+	@echo "... __/__/qCC/ccPickingHub.o"
+	@echo "... __/__/qCC/ccPickingHub.i"
+	@echo "... __/__/qCC/ccPickingHub.s"
 	@echo "... __/ccDefaultPluginInterface.o"
 	@echo "... __/ccDefaultPluginInterface.i"
 	@echo "... __/ccDefaultPluginInterface.s"
@@ -545,6 +632,9 @@ help:
 	@echo "... src/ccDisplayVolume.o"
 	@echo "... src/ccDisplayVolume.i"
 	@echo "... src/ccDisplayVolume.s"
+	@echo "... src/ccExtractProfile.o"
+	@echo "... src/ccExtractProfile.i"
+	@echo "... src/ccExtractProfile.s"
 	@echo "... src/ccQCMATSplashScreen.o"
 	@echo "... src/ccQCMATSplashScreen.i"
 	@echo "... src/ccQCMATSplashScreen.s"

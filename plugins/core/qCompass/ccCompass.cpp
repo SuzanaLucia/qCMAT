@@ -43,6 +43,8 @@ int ccCompass::costMode = ccTrace::DARK;
 bool ccCompass::mapMode = false;
 int ccCompass::mapTo = ccGeoObject::LOWER_BOUNDARY;
 
+
+
 ccCompass::ccCompass(QObject* parent) :
 	QObject( parent )
   , ccStdPluginInterface( ":/CC/plugin/qCompass/info.json" )
@@ -635,6 +637,9 @@ void ccCompass::onItemPicked(const ccPickingListener::PickedItem& pi)
 //Process point picks
 void ccCompass::pointPicked(ccHObject* entity, unsigned itemIdx, int x, int y, const CCVector3& P)
 {
+	//Testing stuff
+	//m_app->dispToConsole("You have picked a point!");
+
 	if (!entity) //null pick
 	{
 		return;

@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>567</width>
-    <height>450</height>
+    <height>452</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -107,24 +107,6 @@
         </property>
        </widget>
       </item>
-<!--  Commented out, this is the code for the dummy feature's corresponding push button
-      <item>
-       <widget class="QPushButton" name="dummyFeaturePushButton">
-        <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="toolTip">
-         <string>Choose visualisation style for cloud points being processed.</string>
-        </property>
-        <property name="text">
-         <string>Dummy Feat</string>
-        </property>
-       </widget>
-      </item>
--->
       <item>
        <widget class="QPushButton" name="volumePushButton">
         <property name="sizePolicy">
@@ -170,6 +152,22 @@
         </property>
         <property name="text">
          <string>Shoreline</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="extractProfilePushButton">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="toolTip">
+         <string>Calculate beach volume</string>
+        </property>
+        <property name="text">
+         <string>Profiles</string>
         </property>
        </widget>
       </item>

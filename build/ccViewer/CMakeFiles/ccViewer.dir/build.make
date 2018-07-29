@@ -442,12 +442,12 @@ ccViewer/ccViewer: libs/qCC_glWindow/libQCC_GL_LIB.a
 ccViewer/ccViewer: libs/qCC_db/libQCC_DB_LIB.so
 ccViewer/ccViewer: libs/CCFbo/libCC_FBO_LIB.a
 ccViewer/ccViewer: CC/libCC_CORE_LIB.so
-ccViewer/ccViewer: /usr/lib/libQt5Concurrent.so.5.10.1
-ccViewer/ccViewer: /usr/lib/libQt5OpenGL.so.5.10.1
-ccViewer/ccViewer: /usr/lib/libQt5Widgets.so.5.10.1
+ccViewer/ccViewer: /usr/lib/libQt5Concurrent.so.5.11.1
+ccViewer/ccViewer: /usr/lib/libQt5OpenGL.so.5.11.1
+ccViewer/ccViewer: /usr/lib/libQt5Widgets.so.5.11.1
 ccViewer/ccViewer: /usr/lib/libQt5OpenGLExtensions.a
-ccViewer/ccViewer: /usr/lib/libQt5Gui.so.5.10.1
-ccViewer/ccViewer: /usr/lib/libQt5Core.so.5.10.1
+ccViewer/ccViewer: /usr/lib/libQt5Gui.so.5.11.1
+ccViewer/ccViewer: /usr/lib/libQt5Core.so.5.11.1
 ccViewer/ccViewer: ccViewer/CMakeFiles/ccViewer.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable ccViewer"
 	cd /home/chrome/work/CloudCompare/qCMAT/build/ccViewer && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ccViewer.dir/link.txt --verbose=$(VERBOSE)

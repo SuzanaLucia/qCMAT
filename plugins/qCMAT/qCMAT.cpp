@@ -28,6 +28,7 @@
 #include "src/qCMATDlg.h"
 // CloudCompare Libraries
 #include <ccPointCloud.h>
+#include <ccPickingHub.h>
 
 
 //platform dependant includes (for sleep)
@@ -116,6 +117,7 @@ void qCMAT::doAction()
 
 		return;
 	}**/
+	startPicking();
 
 	// Terminate program if m_app has not been initialised yet
 	assert(m_app);
@@ -151,7 +153,14 @@ void qCMAT::doAction()
 //	    QSplashScreen splash(*pixmap);
 //	    splash.show();
 
+
+
+//TEMPORARY THINGIE
+	    stopPicking();
+
   	    qCMATDlg cdlg(m_app->getMainWindow());
+  	    //Link
+  	    cdlg.linkWith(m_app->getActiveGLWindow());
 	    cdlg.initializeTool(m_app);
 		// Initialise point clouds loaded
 		cdlg.initPointClouds();
@@ -160,9 +169,108 @@ void qCMAT::doAction()
 //	    SleepThread::sleep(2);
 
 //		splash.finish(&cdlg);
+
+		cdlg.start();
 		cdlg.exec();
 
 	//}
 
 }
 
+//This function is called when a point is picked through picking hub
+void qCMAT::onItemPicked(const ccPickingListener::PickedItem& pi)
+{
+	pointPicked(pi.entity, pi.itemIndex, pi.clickPoint.x(), pi.clickPoint.y(), pi.P3D); //map straight to pointPicked function
+}
+
+//Process picked points
+void qCMAT::pointPicked(ccHObject* entity, unsigned itemIdx, int x, int y, const CCVector3& P)
+{
+	if (!entity) //null pick
+	{
+		return;
+	}
+
+	//no active tool (i.e. picking mode) - set selected object as active
+	if (!m_activeTool)
+	{
+		m_app->setSelectedInDB(entity, true);
+		return;
+	}
+/*
+
+	//find relevant node to add data to
+	ccHObject* parentNode = getInsertPoint();
+	
+	if (parentNode == nullptr) //could not get insert point for some reason
+	{
+		return; //bail
+	}
+
+	//ensure what we are writing too is visible (avoids confusion if it is turned off...)
+	parentNode->setEnabled(true); 
+
+	//call generic "point-picked" function of active tool
+	m_activeTool->pointPicked(parentNode, itemIdx, entity, P);
+
+	//have we picked a point cloud?
+	if (entity->isKindOf(CC_TYPES::POINT_CLOUD))
+	{
+		//get point cloud
+		ccPointCloud* cloud = static_cast<ccPointCloud*>(entity); //cast to point cloud
+
+		if (!cloud)
+		{
+			ccLog::Warning("[Item picking] Shit's fubar (Picked point is not in pickable entities DB?)!");
+			return;
+		}
+
+		//pass picked point, cloud & insert point to relevant tool
+		m_activeTool->pointPicked(parentNode, itemIdx, cloud, P);
+	}
+
+	*/
+	//redraw
+	m_app->updateUI();
+	m_app->getActiveGLWindow()->redraw();
+}
+
+
+//registers this plugin with the picking hub
+bool qCMAT::startPicking()
+{
+	if (m_picking) //already picking... don't need to add again
+		return true;
+
+
+	//activate "point picking mode"
+	if (!m_app->pickingHub())  //no valid picking hub
+	{
+		m_app->dispToConsole("[qCMAT] Could not retrieve valid picking hub. Measurement aborted.", ccMainAppInterface::ERR_CONSOLE_MESSAGE);
+		return false;
+	}
+
+
+	if (!m_app->pickingHub()->addListener(this, true, true))
+	{
+		m_app->dispToConsole("Another tool is already using the picking mechanism. Stop it first", ccMainAppInterface::ERR_CONSOLE_MESSAGE);
+		return false;
+	}
+
+	m_picking = true;
+	return true;
+
+}
+
+
+//removes this class from the picking hub
+void  qCMAT::stopPicking()
+{
+	//stop picking
+	if (m_app->pickingHub())
+	{
+		m_app->pickingHub()->removeListener(this);
+	}
+
+	m_picking = false;
+}

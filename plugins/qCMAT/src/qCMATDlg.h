@@ -20,9 +20,15 @@
 
 #include "ui_dlg.h"
 #include "ccStdPluginInterface.h"
+
+//ccOverlay Dialog includes
+#include <ccOverlayDialog.h>
+
 #include <GenericIndexedCloudPersist.h>
+
+
 // Dialog for qCMAT plugin
-class qCMATDlg : public QDialog, public Ui::CMATDlg
+class qCMATDlg : public ccOverlayDialog, public Ui::CMATDlg
 {
 	Q_OBJECT
 
@@ -59,7 +65,7 @@ protected slots:
 	void printError(std::string);
 	void startShorelineDialog();
 	void viewButtonClicked();
-
+	void startExtractProfileDialog();
 	/**
 	void unionSelected();
 	void intersectSelected();

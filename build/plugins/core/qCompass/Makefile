@@ -68,40 +68,6 @@ install/strip/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
-
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
-
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
@@ -123,6 +89,40 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -156,6 +156,765 @@ depend:
 	cd /home/chrome/work/CloudCompare/qCMAT/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/rule:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/rule
+.PHONY : plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/rule
+
+# Convenience name for target.
+QCOMPASS_PLUGIN: plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/rule
+
+.PHONY : QCOMPASS_PLUGIN
+
+# fast build rule for target.
+QCOMPASS_PLUGIN/fast:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build
+.PHONY : QCOMPASS_PLUGIN/fast
+
+# Convenience name for target.
+plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN_autogen.dir/rule:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN_autogen.dir/rule
+.PHONY : plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN_autogen.dir/rule
+
+# Convenience name for target.
+QCOMPASS_PLUGIN_autogen: plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN_autogen.dir/rule
+
+.PHONY : QCOMPASS_PLUGIN_autogen
+
+# fast build rule for target.
+QCOMPASS_PLUGIN_autogen/fast:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN_autogen.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN_autogen.dir/build
+.PHONY : QCOMPASS_PLUGIN_autogen/fast
+
+QCOMPASS_PLUGIN_autogen/mocs_compilation.o: QCOMPASS_PLUGIN_autogen/mocs_compilation.cpp.o
+
+.PHONY : QCOMPASS_PLUGIN_autogen/mocs_compilation.o
+
+# target to build an object file
+QCOMPASS_PLUGIN_autogen/mocs_compilation.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/QCOMPASS_PLUGIN_autogen/mocs_compilation.cpp.o
+.PHONY : QCOMPASS_PLUGIN_autogen/mocs_compilation.cpp.o
+
+QCOMPASS_PLUGIN_autogen/mocs_compilation.i: QCOMPASS_PLUGIN_autogen/mocs_compilation.cpp.i
+
+.PHONY : QCOMPASS_PLUGIN_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+QCOMPASS_PLUGIN_autogen/mocs_compilation.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/QCOMPASS_PLUGIN_autogen/mocs_compilation.cpp.i
+.PHONY : QCOMPASS_PLUGIN_autogen/mocs_compilation.cpp.i
+
+QCOMPASS_PLUGIN_autogen/mocs_compilation.s: QCOMPASS_PLUGIN_autogen/mocs_compilation.cpp.s
+
+.PHONY : QCOMPASS_PLUGIN_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+QCOMPASS_PLUGIN_autogen/mocs_compilation.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/QCOMPASS_PLUGIN_autogen/mocs_compilation.cpp.s
+.PHONY : QCOMPASS_PLUGIN_autogen/mocs_compilation.cpp.s
+
+__/__/__/qCC/ccOverlayDialog.o: __/__/__/qCC/ccOverlayDialog.cpp.o
+
+.PHONY : __/__/__/qCC/ccOverlayDialog.o
+
+# target to build an object file
+__/__/__/qCC/ccOverlayDialog.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/__/__/__/qCC/ccOverlayDialog.cpp.o
+.PHONY : __/__/__/qCC/ccOverlayDialog.cpp.o
+
+__/__/__/qCC/ccOverlayDialog.i: __/__/__/qCC/ccOverlayDialog.cpp.i
+
+.PHONY : __/__/__/qCC/ccOverlayDialog.i
+
+# target to preprocess a source file
+__/__/__/qCC/ccOverlayDialog.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/__/__/__/qCC/ccOverlayDialog.cpp.i
+.PHONY : __/__/__/qCC/ccOverlayDialog.cpp.i
+
+__/__/__/qCC/ccOverlayDialog.s: __/__/__/qCC/ccOverlayDialog.cpp.s
+
+.PHONY : __/__/__/qCC/ccOverlayDialog.s
+
+# target to generate assembly for a file
+__/__/__/qCC/ccOverlayDialog.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/__/__/__/qCC/ccOverlayDialog.cpp.s
+.PHONY : __/__/__/qCC/ccOverlayDialog.cpp.s
+
+__/__/__/qCC/ccPickingHub.o: __/__/__/qCC/ccPickingHub.cpp.o
+
+.PHONY : __/__/__/qCC/ccPickingHub.o
+
+# target to build an object file
+__/__/__/qCC/ccPickingHub.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/__/__/__/qCC/ccPickingHub.cpp.o
+.PHONY : __/__/__/qCC/ccPickingHub.cpp.o
+
+__/__/__/qCC/ccPickingHub.i: __/__/__/qCC/ccPickingHub.cpp.i
+
+.PHONY : __/__/__/qCC/ccPickingHub.i
+
+# target to preprocess a source file
+__/__/__/qCC/ccPickingHub.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/__/__/__/qCC/ccPickingHub.cpp.i
+.PHONY : __/__/__/qCC/ccPickingHub.cpp.i
+
+__/__/__/qCC/ccPickingHub.s: __/__/__/qCC/ccPickingHub.cpp.s
+
+.PHONY : __/__/__/qCC/ccPickingHub.s
+
+# target to generate assembly for a file
+__/__/__/qCC/ccPickingHub.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/__/__/__/qCC/ccPickingHub.cpp.s
+.PHONY : __/__/__/qCC/ccPickingHub.cpp.s
+
+__/__/ccDefaultPluginInterface.o: __/__/ccDefaultPluginInterface.cpp.o
+
+.PHONY : __/__/ccDefaultPluginInterface.o
+
+# target to build an object file
+__/__/ccDefaultPluginInterface.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/__/__/ccDefaultPluginInterface.cpp.o
+.PHONY : __/__/ccDefaultPluginInterface.cpp.o
+
+__/__/ccDefaultPluginInterface.i: __/__/ccDefaultPluginInterface.cpp.i
+
+.PHONY : __/__/ccDefaultPluginInterface.i
+
+# target to preprocess a source file
+__/__/ccDefaultPluginInterface.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/__/__/ccDefaultPluginInterface.cpp.i
+.PHONY : __/__/ccDefaultPluginInterface.cpp.i
+
+__/__/ccDefaultPluginInterface.s: __/__/ccDefaultPluginInterface.cpp.s
+
+.PHONY : __/__/ccDefaultPluginInterface.s
+
+# target to generate assembly for a file
+__/__/ccDefaultPluginInterface.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/__/__/ccDefaultPluginInterface.cpp.s
+.PHONY : __/__/ccDefaultPluginInterface.cpp.s
+
+__/__/ccStdPluginInterface.o: __/__/ccStdPluginInterface.cpp.o
+
+.PHONY : __/__/ccStdPluginInterface.o
+
+# target to build an object file
+__/__/ccStdPluginInterface.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/__/__/ccStdPluginInterface.cpp.o
+.PHONY : __/__/ccStdPluginInterface.cpp.o
+
+__/__/ccStdPluginInterface.i: __/__/ccStdPluginInterface.cpp.i
+
+.PHONY : __/__/ccStdPluginInterface.i
+
+# target to preprocess a source file
+__/__/ccStdPluginInterface.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/__/__/ccStdPluginInterface.cpp.i
+.PHONY : __/__/ccStdPluginInterface.cpp.i
+
+__/__/ccStdPluginInterface.s: __/__/ccStdPluginInterface.cpp.s
+
+.PHONY : __/__/ccStdPluginInterface.s
+
+# target to generate assembly for a file
+__/__/ccStdPluginInterface.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/__/__/ccStdPluginInterface.cpp.s
+.PHONY : __/__/ccStdPluginInterface.cpp.s
+
+ccCompass.o: ccCompass.cpp.o
+
+.PHONY : ccCompass.o
+
+# target to build an object file
+ccCompass.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/ccCompass.cpp.o
+.PHONY : ccCompass.cpp.o
+
+ccCompass.i: ccCompass.cpp.i
+
+.PHONY : ccCompass.i
+
+# target to preprocess a source file
+ccCompass.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/ccCompass.cpp.i
+.PHONY : ccCompass.cpp.i
+
+ccCompass.s: ccCompass.cpp.s
+
+.PHONY : ccCompass.s
+
+# target to generate assembly for a file
+ccCompass.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/ccCompass.cpp.s
+.PHONY : ccCompass.cpp.s
+
+qrc_ccCompass.o: qrc_ccCompass.cpp.o
+
+.PHONY : qrc_ccCompass.o
+
+# target to build an object file
+qrc_ccCompass.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/qrc_ccCompass.cpp.o
+.PHONY : qrc_ccCompass.cpp.o
+
+qrc_ccCompass.i: qrc_ccCompass.cpp.i
+
+.PHONY : qrc_ccCompass.i
+
+# target to preprocess a source file
+qrc_ccCompass.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/qrc_ccCompass.cpp.i
+.PHONY : qrc_ccCompass.cpp.i
+
+qrc_ccCompass.s: qrc_ccCompass.cpp.s
+
+.PHONY : qrc_ccCompass.s
+
+# target to generate assembly for a file
+qrc_ccCompass.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/qrc_ccCompass.cpp.s
+.PHONY : qrc_ccCompass.cpp.s
+
+src/ccCompassDlg.o: src/ccCompassDlg.cpp.o
+
+.PHONY : src/ccCompassDlg.o
+
+# target to build an object file
+src/ccCompassDlg.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccCompassDlg.cpp.o
+.PHONY : src/ccCompassDlg.cpp.o
+
+src/ccCompassDlg.i: src/ccCompassDlg.cpp.i
+
+.PHONY : src/ccCompassDlg.i
+
+# target to preprocess a source file
+src/ccCompassDlg.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccCompassDlg.cpp.i
+.PHONY : src/ccCompassDlg.cpp.i
+
+src/ccCompassDlg.s: src/ccCompassDlg.cpp.s
+
+.PHONY : src/ccCompassDlg.s
+
+# target to generate assembly for a file
+src/ccCompassDlg.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccCompassDlg.cpp.s
+.PHONY : src/ccCompassDlg.cpp.s
+
+src/ccCompassInfo.o: src/ccCompassInfo.cpp.o
+
+.PHONY : src/ccCompassInfo.o
+
+# target to build an object file
+src/ccCompassInfo.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccCompassInfo.cpp.o
+.PHONY : src/ccCompassInfo.cpp.o
+
+src/ccCompassInfo.i: src/ccCompassInfo.cpp.i
+
+.PHONY : src/ccCompassInfo.i
+
+# target to preprocess a source file
+src/ccCompassInfo.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccCompassInfo.cpp.i
+.PHONY : src/ccCompassInfo.cpp.i
+
+src/ccCompassInfo.s: src/ccCompassInfo.cpp.s
+
+.PHONY : src/ccCompassInfo.s
+
+# target to generate assembly for a file
+src/ccCompassInfo.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccCompassInfo.cpp.s
+.PHONY : src/ccCompassInfo.cpp.s
+
+src/ccFitPlane.o: src/ccFitPlane.cpp.o
+
+.PHONY : src/ccFitPlane.o
+
+# target to build an object file
+src/ccFitPlane.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccFitPlane.cpp.o
+.PHONY : src/ccFitPlane.cpp.o
+
+src/ccFitPlane.i: src/ccFitPlane.cpp.i
+
+.PHONY : src/ccFitPlane.i
+
+# target to preprocess a source file
+src/ccFitPlane.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccFitPlane.cpp.i
+.PHONY : src/ccFitPlane.cpp.i
+
+src/ccFitPlane.s: src/ccFitPlane.cpp.s
+
+.PHONY : src/ccFitPlane.s
+
+# target to generate assembly for a file
+src/ccFitPlane.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccFitPlane.cpp.s
+.PHONY : src/ccFitPlane.cpp.s
+
+src/ccFitPlaneTool.o: src/ccFitPlaneTool.cpp.o
+
+.PHONY : src/ccFitPlaneTool.o
+
+# target to build an object file
+src/ccFitPlaneTool.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccFitPlaneTool.cpp.o
+.PHONY : src/ccFitPlaneTool.cpp.o
+
+src/ccFitPlaneTool.i: src/ccFitPlaneTool.cpp.i
+
+.PHONY : src/ccFitPlaneTool.i
+
+# target to preprocess a source file
+src/ccFitPlaneTool.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccFitPlaneTool.cpp.i
+.PHONY : src/ccFitPlaneTool.cpp.i
+
+src/ccFitPlaneTool.s: src/ccFitPlaneTool.cpp.s
+
+.PHONY : src/ccFitPlaneTool.s
+
+# target to generate assembly for a file
+src/ccFitPlaneTool.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccFitPlaneTool.cpp.s
+.PHONY : src/ccFitPlaneTool.cpp.s
+
+src/ccGeoObject.o: src/ccGeoObject.cpp.o
+
+.PHONY : src/ccGeoObject.o
+
+# target to build an object file
+src/ccGeoObject.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccGeoObject.cpp.o
+.PHONY : src/ccGeoObject.cpp.o
+
+src/ccGeoObject.i: src/ccGeoObject.cpp.i
+
+.PHONY : src/ccGeoObject.i
+
+# target to preprocess a source file
+src/ccGeoObject.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccGeoObject.cpp.i
+.PHONY : src/ccGeoObject.cpp.i
+
+src/ccGeoObject.s: src/ccGeoObject.cpp.s
+
+.PHONY : src/ccGeoObject.s
+
+# target to generate assembly for a file
+src/ccGeoObject.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccGeoObject.cpp.s
+.PHONY : src/ccGeoObject.cpp.s
+
+src/ccLineation.o: src/ccLineation.cpp.o
+
+.PHONY : src/ccLineation.o
+
+# target to build an object file
+src/ccLineation.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccLineation.cpp.o
+.PHONY : src/ccLineation.cpp.o
+
+src/ccLineation.i: src/ccLineation.cpp.i
+
+.PHONY : src/ccLineation.i
+
+# target to preprocess a source file
+src/ccLineation.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccLineation.cpp.i
+.PHONY : src/ccLineation.cpp.i
+
+src/ccLineation.s: src/ccLineation.cpp.s
+
+.PHONY : src/ccLineation.s
+
+# target to generate assembly for a file
+src/ccLineation.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccLineation.cpp.s
+.PHONY : src/ccLineation.cpp.s
+
+src/ccLineationTool.o: src/ccLineationTool.cpp.o
+
+.PHONY : src/ccLineationTool.o
+
+# target to build an object file
+src/ccLineationTool.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccLineationTool.cpp.o
+.PHONY : src/ccLineationTool.cpp.o
+
+src/ccLineationTool.i: src/ccLineationTool.cpp.i
+
+.PHONY : src/ccLineationTool.i
+
+# target to preprocess a source file
+src/ccLineationTool.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccLineationTool.cpp.i
+.PHONY : src/ccLineationTool.cpp.i
+
+src/ccLineationTool.s: src/ccLineationTool.cpp.s
+
+.PHONY : src/ccLineationTool.s
+
+# target to generate assembly for a file
+src/ccLineationTool.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccLineationTool.cpp.s
+.PHONY : src/ccLineationTool.cpp.s
+
+src/ccMapDlg.o: src/ccMapDlg.cpp.o
+
+.PHONY : src/ccMapDlg.o
+
+# target to build an object file
+src/ccMapDlg.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccMapDlg.cpp.o
+.PHONY : src/ccMapDlg.cpp.o
+
+src/ccMapDlg.i: src/ccMapDlg.cpp.i
+
+.PHONY : src/ccMapDlg.i
+
+# target to preprocess a source file
+src/ccMapDlg.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccMapDlg.cpp.i
+.PHONY : src/ccMapDlg.cpp.i
+
+src/ccMapDlg.s: src/ccMapDlg.cpp.s
+
+.PHONY : src/ccMapDlg.s
+
+# target to generate assembly for a file
+src/ccMapDlg.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccMapDlg.cpp.s
+.PHONY : src/ccMapDlg.cpp.s
+
+src/ccMouseCircle.o: src/ccMouseCircle.cpp.o
+
+.PHONY : src/ccMouseCircle.o
+
+# target to build an object file
+src/ccMouseCircle.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccMouseCircle.cpp.o
+.PHONY : src/ccMouseCircle.cpp.o
+
+src/ccMouseCircle.i: src/ccMouseCircle.cpp.i
+
+.PHONY : src/ccMouseCircle.i
+
+# target to preprocess a source file
+src/ccMouseCircle.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccMouseCircle.cpp.i
+.PHONY : src/ccMouseCircle.cpp.i
+
+src/ccMouseCircle.s: src/ccMouseCircle.cpp.s
+
+.PHONY : src/ccMouseCircle.s
+
+# target to generate assembly for a file
+src/ccMouseCircle.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccMouseCircle.cpp.s
+.PHONY : src/ccMouseCircle.cpp.s
+
+src/ccNote.o: src/ccNote.cpp.o
+
+.PHONY : src/ccNote.o
+
+# target to build an object file
+src/ccNote.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccNote.cpp.o
+.PHONY : src/ccNote.cpp.o
+
+src/ccNote.i: src/ccNote.cpp.i
+
+.PHONY : src/ccNote.i
+
+# target to preprocess a source file
+src/ccNote.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccNote.cpp.i
+.PHONY : src/ccNote.cpp.i
+
+src/ccNote.s: src/ccNote.cpp.s
+
+.PHONY : src/ccNote.s
+
+# target to generate assembly for a file
+src/ccNote.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccNote.cpp.s
+.PHONY : src/ccNote.cpp.s
+
+src/ccNoteTool.o: src/ccNoteTool.cpp.o
+
+.PHONY : src/ccNoteTool.o
+
+# target to build an object file
+src/ccNoteTool.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccNoteTool.cpp.o
+.PHONY : src/ccNoteTool.cpp.o
+
+src/ccNoteTool.i: src/ccNoteTool.cpp.i
+
+.PHONY : src/ccNoteTool.i
+
+# target to preprocess a source file
+src/ccNoteTool.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccNoteTool.cpp.i
+.PHONY : src/ccNoteTool.cpp.i
+
+src/ccNoteTool.s: src/ccNoteTool.cpp.s
+
+.PHONY : src/ccNoteTool.s
+
+# target to generate assembly for a file
+src/ccNoteTool.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccNoteTool.cpp.s
+.PHONY : src/ccNoteTool.cpp.s
+
+src/ccPinchNode.o: src/ccPinchNode.cpp.o
+
+.PHONY : src/ccPinchNode.o
+
+# target to build an object file
+src/ccPinchNode.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccPinchNode.cpp.o
+.PHONY : src/ccPinchNode.cpp.o
+
+src/ccPinchNode.i: src/ccPinchNode.cpp.i
+
+.PHONY : src/ccPinchNode.i
+
+# target to preprocess a source file
+src/ccPinchNode.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccPinchNode.cpp.i
+.PHONY : src/ccPinchNode.cpp.i
+
+src/ccPinchNode.s: src/ccPinchNode.cpp.s
+
+.PHONY : src/ccPinchNode.s
+
+# target to generate assembly for a file
+src/ccPinchNode.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccPinchNode.cpp.s
+.PHONY : src/ccPinchNode.cpp.s
+
+src/ccPinchNodeTool.o: src/ccPinchNodeTool.cpp.o
+
+.PHONY : src/ccPinchNodeTool.o
+
+# target to build an object file
+src/ccPinchNodeTool.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccPinchNodeTool.cpp.o
+.PHONY : src/ccPinchNodeTool.cpp.o
+
+src/ccPinchNodeTool.i: src/ccPinchNodeTool.cpp.i
+
+.PHONY : src/ccPinchNodeTool.i
+
+# target to preprocess a source file
+src/ccPinchNodeTool.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccPinchNodeTool.cpp.i
+.PHONY : src/ccPinchNodeTool.cpp.i
+
+src/ccPinchNodeTool.s: src/ccPinchNodeTool.cpp.s
+
+.PHONY : src/ccPinchNodeTool.s
+
+# target to generate assembly for a file
+src/ccPinchNodeTool.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccPinchNodeTool.cpp.s
+.PHONY : src/ccPinchNodeTool.cpp.s
+
+src/ccPointPair.o: src/ccPointPair.cpp.o
+
+.PHONY : src/ccPointPair.o
+
+# target to build an object file
+src/ccPointPair.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccPointPair.cpp.o
+.PHONY : src/ccPointPair.cpp.o
+
+src/ccPointPair.i: src/ccPointPair.cpp.i
+
+.PHONY : src/ccPointPair.i
+
+# target to preprocess a source file
+src/ccPointPair.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccPointPair.cpp.i
+.PHONY : src/ccPointPair.cpp.i
+
+src/ccPointPair.s: src/ccPointPair.cpp.s
+
+.PHONY : src/ccPointPair.s
+
+# target to generate assembly for a file
+src/ccPointPair.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccPointPair.cpp.s
+.PHONY : src/ccPointPair.cpp.s
+
+src/ccThickness.o: src/ccThickness.cpp.o
+
+.PHONY : src/ccThickness.o
+
+# target to build an object file
+src/ccThickness.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccThickness.cpp.o
+.PHONY : src/ccThickness.cpp.o
+
+src/ccThickness.i: src/ccThickness.cpp.i
+
+.PHONY : src/ccThickness.i
+
+# target to preprocess a source file
+src/ccThickness.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccThickness.cpp.i
+.PHONY : src/ccThickness.cpp.i
+
+src/ccThickness.s: src/ccThickness.cpp.s
+
+.PHONY : src/ccThickness.s
+
+# target to generate assembly for a file
+src/ccThickness.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccThickness.cpp.s
+.PHONY : src/ccThickness.cpp.s
+
+src/ccThicknessTool.o: src/ccThicknessTool.cpp.o
+
+.PHONY : src/ccThicknessTool.o
+
+# target to build an object file
+src/ccThicknessTool.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccThicknessTool.cpp.o
+.PHONY : src/ccThicknessTool.cpp.o
+
+src/ccThicknessTool.i: src/ccThicknessTool.cpp.i
+
+.PHONY : src/ccThicknessTool.i
+
+# target to preprocess a source file
+src/ccThicknessTool.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccThicknessTool.cpp.i
+.PHONY : src/ccThicknessTool.cpp.i
+
+src/ccThicknessTool.s: src/ccThicknessTool.cpp.s
+
+.PHONY : src/ccThicknessTool.s
+
+# target to generate assembly for a file
+src/ccThicknessTool.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccThicknessTool.cpp.s
+.PHONY : src/ccThicknessTool.cpp.s
+
+src/ccTopologyRelation.o: src/ccTopologyRelation.cpp.o
+
+.PHONY : src/ccTopologyRelation.o
+
+# target to build an object file
+src/ccTopologyRelation.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccTopologyRelation.cpp.o
+.PHONY : src/ccTopologyRelation.cpp.o
+
+src/ccTopologyRelation.i: src/ccTopologyRelation.cpp.i
+
+.PHONY : src/ccTopologyRelation.i
+
+# target to preprocess a source file
+src/ccTopologyRelation.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccTopologyRelation.cpp.i
+.PHONY : src/ccTopologyRelation.cpp.i
+
+src/ccTopologyRelation.s: src/ccTopologyRelation.cpp.s
+
+.PHONY : src/ccTopologyRelation.s
+
+# target to generate assembly for a file
+src/ccTopologyRelation.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccTopologyRelation.cpp.s
+.PHONY : src/ccTopologyRelation.cpp.s
+
+src/ccTopologyTool.o: src/ccTopologyTool.cpp.o
+
+.PHONY : src/ccTopologyTool.o
+
+# target to build an object file
+src/ccTopologyTool.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccTopologyTool.cpp.o
+.PHONY : src/ccTopologyTool.cpp.o
+
+src/ccTopologyTool.i: src/ccTopologyTool.cpp.i
+
+.PHONY : src/ccTopologyTool.i
+
+# target to preprocess a source file
+src/ccTopologyTool.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccTopologyTool.cpp.i
+.PHONY : src/ccTopologyTool.cpp.i
+
+src/ccTopologyTool.s: src/ccTopologyTool.cpp.s
+
+.PHONY : src/ccTopologyTool.s
+
+# target to generate assembly for a file
+src/ccTopologyTool.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccTopologyTool.cpp.s
+.PHONY : src/ccTopologyTool.cpp.s
+
+src/ccTrace.o: src/ccTrace.cpp.o
+
+.PHONY : src/ccTrace.o
+
+# target to build an object file
+src/ccTrace.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccTrace.cpp.o
+.PHONY : src/ccTrace.cpp.o
+
+src/ccTrace.i: src/ccTrace.cpp.i
+
+.PHONY : src/ccTrace.i
+
+# target to preprocess a source file
+src/ccTrace.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccTrace.cpp.i
+.PHONY : src/ccTrace.cpp.i
+
+src/ccTrace.s: src/ccTrace.cpp.s
+
+.PHONY : src/ccTrace.s
+
+# target to generate assembly for a file
+src/ccTrace.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccTrace.cpp.s
+.PHONY : src/ccTrace.cpp.s
+
+src/ccTraceTool.o: src/ccTraceTool.cpp.o
+
+.PHONY : src/ccTraceTool.o
+
+# target to build an object file
+src/ccTraceTool.cpp.o:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccTraceTool.cpp.o
+.PHONY : src/ccTraceTool.cpp.o
+
+src/ccTraceTool.i: src/ccTraceTool.cpp.i
+
+.PHONY : src/ccTraceTool.i
+
+# target to preprocess a source file
+src/ccTraceTool.cpp.i:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccTraceTool.cpp.i
+.PHONY : src/ccTraceTool.cpp.i
+
+src/ccTraceTool.s: src/ccTraceTool.cpp.s
+
+.PHONY : src/ccTraceTool.s
+
+# target to generate assembly for a file
+src/ccTraceTool.cpp.s:
+	cd /home/chrome/work/CloudCompare/qCMAT/build && $(MAKE) -f plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/build.make plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccTraceTool.cpp.s
+.PHONY : src/ccTraceTool.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -163,11 +922,94 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/strip"
-	@echo "... install"
-	@echo "... install/local"
-	@echo "... list_install_components"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... list_install_components"
+	@echo "... install/local"
+	@echo "... QCOMPASS_PLUGIN"
+	@echo "... install"
+	@echo "... QCOMPASS_PLUGIN_autogen"
+	@echo "... QCOMPASS_PLUGIN_autogen/mocs_compilation.o"
+	@echo "... QCOMPASS_PLUGIN_autogen/mocs_compilation.i"
+	@echo "... QCOMPASS_PLUGIN_autogen/mocs_compilation.s"
+	@echo "... __/__/__/qCC/ccOverlayDialog.o"
+	@echo "... __/__/__/qCC/ccOverlayDialog.i"
+	@echo "... __/__/__/qCC/ccOverlayDialog.s"
+	@echo "... __/__/__/qCC/ccPickingHub.o"
+	@echo "... __/__/__/qCC/ccPickingHub.i"
+	@echo "... __/__/__/qCC/ccPickingHub.s"
+	@echo "... __/__/ccDefaultPluginInterface.o"
+	@echo "... __/__/ccDefaultPluginInterface.i"
+	@echo "... __/__/ccDefaultPluginInterface.s"
+	@echo "... __/__/ccStdPluginInterface.o"
+	@echo "... __/__/ccStdPluginInterface.i"
+	@echo "... __/__/ccStdPluginInterface.s"
+	@echo "... ccCompass.o"
+	@echo "... ccCompass.i"
+	@echo "... ccCompass.s"
+	@echo "... qrc_ccCompass.o"
+	@echo "... qrc_ccCompass.i"
+	@echo "... qrc_ccCompass.s"
+	@echo "... src/ccCompassDlg.o"
+	@echo "... src/ccCompassDlg.i"
+	@echo "... src/ccCompassDlg.s"
+	@echo "... src/ccCompassInfo.o"
+	@echo "... src/ccCompassInfo.i"
+	@echo "... src/ccCompassInfo.s"
+	@echo "... src/ccFitPlane.o"
+	@echo "... src/ccFitPlane.i"
+	@echo "... src/ccFitPlane.s"
+	@echo "... src/ccFitPlaneTool.o"
+	@echo "... src/ccFitPlaneTool.i"
+	@echo "... src/ccFitPlaneTool.s"
+	@echo "... src/ccGeoObject.o"
+	@echo "... src/ccGeoObject.i"
+	@echo "... src/ccGeoObject.s"
+	@echo "... src/ccLineation.o"
+	@echo "... src/ccLineation.i"
+	@echo "... src/ccLineation.s"
+	@echo "... src/ccLineationTool.o"
+	@echo "... src/ccLineationTool.i"
+	@echo "... src/ccLineationTool.s"
+	@echo "... src/ccMapDlg.o"
+	@echo "... src/ccMapDlg.i"
+	@echo "... src/ccMapDlg.s"
+	@echo "... src/ccMouseCircle.o"
+	@echo "... src/ccMouseCircle.i"
+	@echo "... src/ccMouseCircle.s"
+	@echo "... src/ccNote.o"
+	@echo "... src/ccNote.i"
+	@echo "... src/ccNote.s"
+	@echo "... src/ccNoteTool.o"
+	@echo "... src/ccNoteTool.i"
+	@echo "... src/ccNoteTool.s"
+	@echo "... src/ccPinchNode.o"
+	@echo "... src/ccPinchNode.i"
+	@echo "... src/ccPinchNode.s"
+	@echo "... src/ccPinchNodeTool.o"
+	@echo "... src/ccPinchNodeTool.i"
+	@echo "... src/ccPinchNodeTool.s"
+	@echo "... src/ccPointPair.o"
+	@echo "... src/ccPointPair.i"
+	@echo "... src/ccPointPair.s"
+	@echo "... src/ccThickness.o"
+	@echo "... src/ccThickness.i"
+	@echo "... src/ccThickness.s"
+	@echo "... src/ccThicknessTool.o"
+	@echo "... src/ccThicknessTool.i"
+	@echo "... src/ccThicknessTool.s"
+	@echo "... src/ccTopologyRelation.o"
+	@echo "... src/ccTopologyRelation.i"
+	@echo "... src/ccTopologyRelation.s"
+	@echo "... src/ccTopologyTool.o"
+	@echo "... src/ccTopologyTool.i"
+	@echo "... src/ccTopologyTool.s"
+	@echo "... src/ccTrace.o"
+	@echo "... src/ccTrace.i"
+	@echo "... src/ccTrace.s"
+	@echo "... src/ccTraceTool.o"
+	@echo "... src/ccTraceTool.i"
+	@echo "... src/ccTraceTool.s"
 .PHONY : help
 
 

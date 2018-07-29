@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/chrome/work/CloudCompare/qCMAT/qCC/ccOverlayDialog.cpp" "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/CMakeFiles/qCMAT.dir/__/__/qCC/ccOverlayDialog.cpp.o"
+  "/home/chrome/work/CloudCompare/qCMAT/qCC/ccPickingHub.cpp" "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/CMakeFiles/qCMAT.dir/__/__/qCC/ccPickingHub.cpp.o"
   "/home/chrome/work/CloudCompare/qCMAT/plugins/ccDefaultPluginInterface.cpp" "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/CMakeFiles/qCMAT.dir/__/ccDefaultPluginInterface.cpp.o"
   "/home/chrome/work/CloudCompare/qCMAT/plugins/ccStdPluginInterface.cpp" "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/CMakeFiles/qCMAT.dir/__/ccStdPluginInterface.cpp.o"
   "/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/qCMAT.cpp" "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT.cpp.o"
@@ -11,6 +13,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qrc_qCMAT.cpp" "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/CMakeFiles/qCMAT.dir/qrc_qCMAT.cpp.o"
   "/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccDisplaySurface.cpp" "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplaySurface.cpp.o"
   "/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccDisplayVolume.cpp" "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplayVolume.cpp.o"
+  "/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccExtractProfile.cpp" "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccExtractProfile.cpp.o"
   "/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccQCMATSplashScreen.cpp" "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccQCMATSplashScreen.cpp.o"
   "/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccQCMATTools.cpp" "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccQCMATTools.cpp.o"
   "/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccVolumeTool.cpp" "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o"
@@ -44,6 +47,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/lib/qt/mkspecs/linux-g++"
   "/usr/include/qt/QtConcurrent"
   "/usr/include/qt/QtPrintSupport"
+  "../qCC"
   "../plugins"
   "../CC/include"
   "../libs/CCFbo/include"

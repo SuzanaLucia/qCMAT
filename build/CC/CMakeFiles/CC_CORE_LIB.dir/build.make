@@ -574,10 +574,10 @@ CC/libCC_CORE_LIB.so: CC/CMakeFiles/CC_CORE_LIB.dir/src/TrueKdTree.cpp.o
 CC/libCC_CORE_LIB.so: CC/CMakeFiles/CC_CORE_LIB.dir/src/WeibullDistribution.cpp.o
 CC/libCC_CORE_LIB.so: CC/CMakeFiles/CC_CORE_LIB.dir/CC_CORE_LIB_autogen/mocs_compilation.cpp.o
 CC/libCC_CORE_LIB.so: CC/CMakeFiles/CC_CORE_LIB.dir/build.make
-CC/libCC_CORE_LIB.so: /usr/lib/libQt5Widgets.so.5.10.1
-CC/libCC_CORE_LIB.so: /usr/lib/libQt5Concurrent.so.5.10.1
-CC/libCC_CORE_LIB.so: /usr/lib/libQt5Gui.so.5.10.1
-CC/libCC_CORE_LIB.so: /usr/lib/libQt5Core.so.5.10.1
+CC/libCC_CORE_LIB.so: /usr/lib/libQt5Widgets.so.5.11.1
+CC/libCC_CORE_LIB.so: /usr/lib/libQt5Concurrent.so.5.11.1
+CC/libCC_CORE_LIB.so: /usr/lib/libQt5Gui.so.5.11.1
+CC/libCC_CORE_LIB.so: /usr/lib/libQt5Core.so.5.11.1
 CC/libCC_CORE_LIB.so: CC/CMakeFiles/CC_CORE_LIB.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Linking CXX shared library libCC_CORE_LIB.so"
 	cd /home/chrome/work/CloudCompare/qCMAT/build/CC && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CC_CORE_LIB.dir/link.txt --verbose=$(VERBOSE)

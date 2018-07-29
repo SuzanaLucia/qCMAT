@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "QCOMPASS_PLUGIN_autogen"
+  "CMakeFiles/QCOMPASS_PLUGIN_autogen.dir/AutogenOldSettings.cmake"
+  "ui_compassDlg.h"
+  "ui_mapDlg.h"
+  "qrc_ccCompass.cpp"
+  "CMakeFiles/QCOMPASS_PLUGIN.dir/ccCompass.cpp.o"
+  "CMakeFiles/QCOMPASS_PLUGIN.dir/__/__/ccDefaultPluginInterface.cpp.o"
+  "CMakeFiles/QCOMPASS_PLUGIN.dir/__/__/ccStdPluginInterface.cpp.o"
+  "CMakeFiles/QCOMPASS_PLUGIN.dir/__/__/__/qCC/ccOverlayDialog.cpp.o"
+  "CMakeFiles/QCOMPASS_PLUGIN.dir/__/__/__/qCC/ccPickingHub.cpp.o"
+  "CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccCompassDlg.cpp.o"
+  "CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccCompassInfo.cpp.o"
+  "CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccFitPlane.cpp.o"
+  "CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccFitPlaneTool.cpp.o"
+  "CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccGeoObject.cpp.o"
+  "CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccLineation.cpp.o"
+  "CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccLineationTool.cpp.o"
+  "CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccMapDlg.cpp.o"
+  "CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccMouseCircle.cpp.o"
+  "CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccNote.cpp.o"
+  "CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccNoteTool.cpp.o"
+  "CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccPinchNode.cpp.o"
+  "CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccPinchNodeTool.cpp.o"
+  "CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccPointPair.cpp.o"
+  "CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccThickness.cpp.o"
+  "CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccThicknessTool.cpp.o"
+  "CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccTopologyRelation.cpp.o"
+  "CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccTopologyTool.cpp.o"
+  "CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccTrace.cpp.o"
+  "CMakeFiles/QCOMPASS_PLUGIN.dir/src/ccTraceTool.cpp.o"
+  "CMakeFiles/QCOMPASS_PLUGIN.dir/qrc_ccCompass.cpp.o"
+  "CMakeFiles/QCOMPASS_PLUGIN.dir/QCOMPASS_PLUGIN_autogen/mocs_compilation.cpp.o"
+  "libQCOMPASS_PLUGIN.pdb"
+  "libQCOMPASS_PLUGIN.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/QCOMPASS_PLUGIN.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

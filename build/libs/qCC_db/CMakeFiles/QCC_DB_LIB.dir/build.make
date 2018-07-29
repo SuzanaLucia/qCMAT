@@ -981,12 +981,12 @@ libs/qCC_db/libQCC_DB_LIB.so: libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/QCC_DB_LIB_a
 libs/qCC_db/libQCC_DB_LIB.so: libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/build.make
 libs/qCC_db/libQCC_DB_LIB.so: CC/libCC_CORE_LIB.so
 libs/qCC_db/libQCC_DB_LIB.so: libs/CCFbo/libCC_FBO_LIB.a
-libs/qCC_db/libQCC_DB_LIB.so: /usr/lib/libQt5OpenGL.so.5.10.1
-libs/qCC_db/libQCC_DB_LIB.so: /usr/lib/libQt5Concurrent.so.5.10.1
-libs/qCC_db/libQCC_DB_LIB.so: /usr/lib/libQt5Widgets.so.5.10.1
+libs/qCC_db/libQCC_DB_LIB.so: /usr/lib/libQt5OpenGL.so.5.11.1
+libs/qCC_db/libQCC_DB_LIB.so: /usr/lib/libQt5Concurrent.so.5.11.1
+libs/qCC_db/libQCC_DB_LIB.so: /usr/lib/libQt5Widgets.so.5.11.1
 libs/qCC_db/libQCC_DB_LIB.so: /usr/lib/libQt5OpenGLExtensions.a
-libs/qCC_db/libQCC_DB_LIB.so: /usr/lib/libQt5Gui.so.5.10.1
-libs/qCC_db/libQCC_DB_LIB.so: /usr/lib/libQt5Core.so.5.10.1
+libs/qCC_db/libQCC_DB_LIB.so: /usr/lib/libQt5Gui.so.5.11.1
+libs/qCC_db/libQCC_DB_LIB.so: /usr/lib/libQt5Core.so.5.11.1
 libs/qCC_db/libQCC_DB_LIB.so: libs/qCC_db/CMakeFiles/QCC_DB_LIB.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Linking CXX shared library libQCC_DB_LIB.so"
 	cd /home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_db && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/QCC_DB_LIB.dir/link.txt --verbose=$(VERBOSE)

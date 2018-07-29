@@ -20,6 +20,8 @@
 
 #include "ccStdPluginInterface.h"
 
+#include <ccPickingListener.h>
+
 /**
 	The one method you are required to implement is 'getActions'. This should
 	return all actions (QAction objects) for the plugin. CloudCompare will
@@ -32,7 +34,7 @@
 	components (database, 3D views, console, etc.) - see the ccMainAppInterface
 	class in ccMainAppInterface.h.
 **/
-class qCMAT : public QObject, public ccStdPluginInterface
+class qCMAT : public QObject, public ccStdPluginInterface, public ccPickingListener
 {
 	Q_OBJECT
 	Q_INTERFACES(ccStdPluginInterface)
@@ -51,11 +53,26 @@ public:
 
 private:
 
+	//picking or not?
+	bool m_picking = false;
+	//start picking
+	bool startPicking();
+//TODO: Change this to a Tool
+	//is there a tool selected
+	bool m_activeTool = false;
+	//inherited from Listner
+	virtual void onItemPicked(const ccPickingListener::PickedItem& pi) override;
+	//proces Listner points
+	void pointPicked(ccHObject* entity, unsigned itemIdx, int x, int y, const CCVector3& P);
+
+
 	/*** ADD YOUR CUSTOM ACTIONS HERE ***/
 	void doAction();
 
 		//Sleep function, works for WINDOWS and LINUX
 	void platformIndependantSleep(int);
+
+	void  stopPicking();
 
 	//! Default action
 	/**

@@ -1870,16 +1870,16 @@ qCC/CloudCompare: libs/CCFbo/libCC_FBO_LIB.a
 qCC/CloudCompare: libs/qCC_io/libQCC_IO_LIB.so
 qCC/CloudCompare: libs/qCC_glWindow/libQCC_GL_LIB.a
 qCC/CloudCompare: libs/qcustomplot/libqcustomplot.a
-qCC/CloudCompare: /usr/lib/libQt5PrintSupport.so.5.10.1
+qCC/CloudCompare: /usr/lib/libQt5PrintSupport.so.5.11.1
 qCC/CloudCompare: libs/qCC_db/libQCC_DB_LIB.so
 qCC/CloudCompare: libs/CCFbo/libCC_FBO_LIB.a
 qCC/CloudCompare: CC/libCC_CORE_LIB.so
-qCC/CloudCompare: /usr/lib/libQt5Concurrent.so.5.10.1
-qCC/CloudCompare: /usr/lib/libQt5OpenGL.so.5.10.1
+qCC/CloudCompare: /usr/lib/libQt5Concurrent.so.5.11.1
+qCC/CloudCompare: /usr/lib/libQt5OpenGL.so.5.11.1
 qCC/CloudCompare: /usr/lib/libQt5OpenGLExtensions.a
-qCC/CloudCompare: /usr/lib/libQt5Widgets.so.5.10.1
-qCC/CloudCompare: /usr/lib/libQt5Gui.so.5.10.1
-qCC/CloudCompare: /usr/lib/libQt5Core.so.5.10.1
+qCC/CloudCompare: /usr/lib/libQt5Widgets.so.5.11.1
+qCC/CloudCompare: /usr/lib/libQt5Gui.so.5.11.1
+qCC/CloudCompare: /usr/lib/libQt5Core.so.5.11.1
 qCC/CloudCompare: qCC/CMakeFiles/CloudCompare.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Linking CXX executable CloudCompare"
 	cd /home/chrome/work/CloudCompare/qCMAT/build/qCC && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CloudCompare.dir/link.txt --verbose=$(VERBOSE)

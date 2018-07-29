@@ -28,17 +28,19 @@
 #include "ccVolumeTool.h"
 #include "ccDisplaySurface.h"
 #include "displayShoreline.h"
+#include "ccExtractProfile.h"
 
 #include <ccGenericPointCloud.h>
 #include <GenericIndexedCloudPersist.h>
 #include <ccPolyline.h>
 
 
+
 //Include the dummy header for accesing the dummy plugin
-//#include "dummyFeat.h"
+//#include <ccExtractProfile.h>
 
 qCMATDlg::qCMATDlg(QWidget* parent)
-	: QDialog(parent, Qt::Tool)
+	: ccOverlayDialog(parent)
 	, Ui::CMATDlg()
 	//, m_selectedOperation(UNION)
 	//, m_isSwapped(false)
@@ -53,10 +55,12 @@ qCMATDlg::qCMATDlg(QWidget* parent)
 //Connect the dumy Push buton with the viewButtonClicked method
 	//connect( dummyFeaturePushButton, SIGNAL(clicked()), this, SLOT(viewButtonClicked()));
 
+	connect( extractProfilePushButton, SIGNAL(clicked()), this, SLOT(startExtractProfileDialog()));
 	connect( cancelButton, SIGNAL(rejected()), this, SLOT(cancelButtonClicked())); //(cancelButtonClicked()));
 	connect( volumePushButton,	SIGNAL(clicked()), this, SLOT( startVolumeDialog()));
 	connect( surfacePushButton,	SIGNAL(clicked()), this, SLOT( startSurfaceDialog()));
 	connect( shorelinePushButton,	SIGNAL(clicked()), this, SLOT( startShorelineDialog()));
+
 	//connect( optionsPushButton,	SIGNAL(clicked()), this, SLOT( startGL()));
 	//connect(clearPushButton,	SIGNAL(clicked()), this, SLOT(clearPointClouds()));
 	/**connect( viewPushButton,	SIGNAL(clicked()), this, SLOT( cancelButtonClicked() ));
@@ -125,6 +129,18 @@ void qCMATDlg::startSurfaceDialog(){
 		surf.exec();
 }
 
+
+void qCMATDlg::startExtractProfileDialog(){
+	/*
+	Start the dialog for extracting and visualizing profiles
+	*/
+	this->close();
+	//create the volume dialog //TODO: check there is a picking hub in the first place etc...
+	ccExtractProfile prof(m_app->pickingHub(), m_app->getMainWindow(), m_app);
+	prof.linkWith(m_app->getActiveGLWindow());
+	prof.start();
+	prof.exec();
+}
 
 /**
 * Initialises point clouds selected by user and displays point clouds' names in text boxes.
@@ -197,6 +213,8 @@ void qCMATDlg::printError(std::string inWord){
 	QString msg = QString::fromStdString(inWord);
 	m_app->dispToConsole(msg, ccMainAppInterface::ERR_CONSOLE_MESSAGE);
 }
+
+
 
 /**
 void qCMATDlg::setNames(QString A, QString B)

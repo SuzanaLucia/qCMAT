@@ -23,6 +23,10 @@ caa5005c800aea904eb3f08dafcab80c libs/qCC_io/ui_saveAsciiFileDlg.h
 54244bf586dc7a2243d7a2f251c8c5be libs/qCC_io/ui_saveMascaretFileDlg.h
 f311e8c160bb5485e0bacd0821a6300f libs/qCC_io/ui_saveSHPFileDlg.h
 d1eaaa1116d39ca2e7d4834183435827 libs/qcustomplot/CMakeFiles/qcustomplot_autogen
+73a88103d434932ef4c8fb6465fc84d1 plugins/core/qCompass/CMakeFiles/QCOMPASS_PLUGIN_autogen
+3de17b7a1ed9bddb2ea6b67e89abdc12 plugins/core/qCompass/qrc_ccCompass.cpp
+0e655c31812fb5c272a6d48cf553523f plugins/core/qCompass/ui_compassDlg.h
+7da1afec4bcd22770e6cc18ef712f536 plugins/core/qCompass/ui_mapDlg.h
 6d0d0937914683461289b0a707a6d97f plugins/qCMAT/CMakeFiles/qCMAT_autogen
 cad7917100e02a1170b766d0089ab00a plugins/qCMAT/qrc_qCMAT.cpp
 5f932ca203c9bb8580fe66c0afb2a3e0 plugins/qCMAT/ui_ccQCMATSplashScreen.h
@@ -31,8 +35,7 @@ cad7917100e02a1170b766d0089ab00a plugins/qCMAT/qrc_qCMAT.cpp
 87ae8bfb4ce3cbd173330557295742be plugins/qCMAT/ui_displaySurface.h
 782467be7c8195cb7a6020d2c31b8492 plugins/qCMAT/ui_displayVolume.h
 02e263c12e1dfa16ed0ed10e63e34db4 plugins/qCMAT/ui_dlg.h
-c2575d09f479831e81802a11d397383e plugins/qCMAT/ui_glDlg.h
-ee2e3157ab7e90f0596dd658c1308828 plugins/qCMAT/ui_splashScreen.h
+55f1ab75070f1376b72a1634eeeda353 plugins/qCMAT/ui_extractProfile.h
 edaf51d33ec4605ae5fafcc3b76538fd qCC/CMakeFiles/CloudCompare_autogen
 856e4ba98fb2b7ba64654daa03890e40 qCC/qrc_icones.cpp
 ae6fcfd68140fb3d41161e65d482989d qCC/qrc_pluginManager.cpp
