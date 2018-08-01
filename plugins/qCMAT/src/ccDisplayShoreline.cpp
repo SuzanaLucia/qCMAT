@@ -42,19 +42,23 @@ ccDisplayShoreline::ccDisplayShoreline(QWidget* parent, ccMainAppInterface* app,
 
 
 //TODO: ADD WATER LEVEL
-
+//Simplify both methods / merge them with (background) flag
 void ccDisplayShoreline::extractShorelines(){
+	bool* isValidWaterlevel = new bool;
+	//get waterlevel
+	float waterLevel = WaterLevel->text().toFloat(isValidWaterlevel);
 	//make sure we have a valid water level
-	if(WaterLevel->text().size() == 0 && WaterLevel->text().toFloat()){
+	if(WaterLevel->text().size() == 0 || (not *isValidWaterlevel)){
 		//report!
 		m_app->dispToConsole("Enter a valid water level first.");
 		//user hasnt entered input yet
 		return;
 	}
-//TODO: handle non float bad input
-	//get waterlevel
-	float waterLevel = WaterLevel->text().toFloat();
-	//get sensetivity; set reasonable default
+
+	delete isValidWaterlevel;
+
+	//get sensetivity;
+//TODO: make this a general setting
 	float Sensetivity = SensetivitySlider->value();; //how 'fuzzy' should out shoreline contour be
 	Sensetivity *= 0.00001;
 	CCVector3f cMin = ccHObjectCaster::ToPointCloud(m_app->getSelectedEntities()[0])->getOwnBB().minCorner();
@@ -62,7 +66,6 @@ void ccDisplayShoreline::extractShorelines(){
 //TODO: Fix math
 	Sensetivity *= std::abs(cMax[2]) - std::abs(cMin[2]);
 //TODO: get color scale
-
 
 	//make empty cloud
 	ccPointCloud* sl3DCloud = new ccPointCloud();
@@ -82,7 +85,6 @@ void ccDisplayShoreline::extractShorelines(){
 	for(int i = 0; i < noClouds; i++){
 		//for each point, save a temp cloud
 		ccPointCloud* currCloud = ccHObjectCaster::ToPointCloud(m_app->getSelectedEntities()[i]);
-		//for(int i = 0; )
 //TODO: Make a nice loading bar
 		for(int j = 0; j < currCloud->size(); j++){
 			//get the point at j
@@ -94,19 +96,8 @@ void ccDisplayShoreline::extractShorelines(){
 				sl3DCloud->addRGBColor(contourShore[i][0], contourShore[i][1], contourShore[i][2]); //add same crap for testing purposes
 				sl3DCloud->addPoint(tempVect);	
 				//add copy to new cloud
-			} else {
-				//if not add the point at the bottom to make it a 2D picture
-//TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO
-		//AVOID MAKING THE GRAPH MASSIVE, MAYBE ONLY DO THIS FOR FIRST CLOUD
-				//Use the color of original pixel
-				sl3DCloud->addRGBColor(currCloud->getPointColor(j)); //add same crap for testing purposes
-				//use the height of 
-				tempVect[2] = waterLevel - Sensetivity;
-				sl3DCloud->addPoint(tempVect);	
 			}
-
 		}
-
 	}
 	sl3DCloud->setCurrentDisplayedScalarField(0);
 	//add cloud to DB
@@ -117,16 +108,19 @@ void ccDisplayShoreline::extractShorelines(){
 }
 
 void ccDisplayShoreline::save2Dplot(){
-	//make sure we have legit input
-	if(WaterLevel->text().size() == 0){
+	bool* isValidWaterlevel = new bool;
+	//get waterlevel
+	float waterLevel = WaterLevel->text().toFloat(isValidWaterlevel);
+	//make sure we have a valid water level
+	if(WaterLevel->text().size() == 0 || (not *isValidWaterlevel)){
 		//report!
-		m_app->dispToConsole("Enter a water level first.");
+		m_app->dispToConsole("Enter a valid water level first.");
 		//user hasnt entered input yet
 		return;
 	}
-//TODO: handle non float bad input
-	//get waterlevel
-	float waterLevel = WaterLevel->text().toFloat();
+
+	delete isValidWaterlevel;
+
 	//get sensetivity; set reasonable default
 	float Sensetivity = SensetivitySlider->value();; //how 'fuzzy' should out shoreline contour be
 	Sensetivity *= 0.00001;
@@ -165,6 +159,9 @@ void ccDisplayShoreline::save2Dplot(){
 			if(tempVect[2] >= (waterLevel - Sensetivity) && tempVect[2] < (waterLevel + Sensetivity)){
 				//add to sl3DCloud and color
 				sl3DCloud->addRGBColor(contourShore[i][0], contourShore[i][1], contourShore[i][2]); //add same crap for testing purposes
+				//collapse Sensativity
+				tempVect[2] = waterLevel;
+				//move temp vect ensetivity above shoreline
 				sl3DCloud->addPoint(tempVect);	
 				//add copy to new cloud
 			} else {
