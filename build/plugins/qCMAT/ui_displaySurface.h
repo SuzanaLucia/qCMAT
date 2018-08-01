@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'displaySurface.ui'
 **
-** Created by: Qt User Interface Compiler version 5.10.1
+** Created by: Qt User Interface Compiler version 5.11.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,13 +10,11 @@
 #define UI_DISPLAYSURFACE_H
 
 #include <QtCore/QVariant>
-#include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QDialog>
+#include <QtWidgets/QDialogButtonBox>
 #include <QtWidgets/QFrame>
 #include <QtWidgets/QGridLayout>
-#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QTextEdit>
@@ -26,67 +24,67 @@ QT_BEGIN_NAMESPACE
 class Ui_displaySurface
 {
 public:
-    QGridLayout *gridLayout;
-    QFrame *frame;
     QGridLayout *gridLayout_2;
+    QFrame *frame;
+    QGridLayout *gridLayout;
     QLabel *title;
     QTextEdit *Text;
     QPushButton *SaveCSV;
-    QPushButton *Close;
+    QDialogButtonBox *cancelButton;
 
-    void setupUi(QDialog *Dialog)
+    void setupUi(QDialog *displaySurface)
     {
-        if (Dialog->objectName().isEmpty())
-            Dialog->setObjectName(QStringLiteral("Dialog"));
-        Dialog->resize(500, 461);
-        gridLayout = new QGridLayout(Dialog);
-        gridLayout->setSpacing(6);
-        gridLayout->setContentsMargins(11, 11, 11, 11);
-        gridLayout->setObjectName(QStringLiteral("gridLayout"));
-        frame = new QFrame(Dialog);
-        frame->setObjectName(QStringLiteral("frame"));
-        frame->setFrameShape(QFrame::StyledPanel);
-        frame->setFrameShadow(QFrame::Raised);
-        gridLayout_2 = new QGridLayout(frame);
+        if (displaySurface->objectName().isEmpty())
+            displaySurface->setObjectName(QStringLiteral("displaySurface"));
+        displaySurface->resize(312, 261);
+        gridLayout_2 = new QGridLayout(displaySurface);
         gridLayout_2->setSpacing(6);
         gridLayout_2->setContentsMargins(11, 11, 11, 11);
         gridLayout_2->setObjectName(QStringLiteral("gridLayout_2"));
+        frame = new QFrame(displaySurface);
+        frame->setObjectName(QStringLiteral("frame"));
+        frame->setFrameShape(QFrame::StyledPanel);
+        frame->setFrameShadow(QFrame::Raised);
+        gridLayout = new QGridLayout(frame);
+        gridLayout->setSpacing(6);
+        gridLayout->setContentsMargins(11, 11, 11, 11);
+        gridLayout->setObjectName(QStringLiteral("gridLayout"));
         title = new QLabel(frame);
         title->setObjectName(QStringLiteral("title"));
         title->setAlignment(Qt::AlignCenter);
 
-        gridLayout_2->addWidget(title, 0, 0, 1, 2);
+        gridLayout->addWidget(title, 0, 0, 1, 2);
 
         Text = new QTextEdit(frame);
         Text->setObjectName(QStringLiteral("Text"));
 
-        gridLayout_2->addWidget(Text, 1, 0, 1, 2);
+        gridLayout->addWidget(Text, 1, 0, 1, 2);
 
         SaveCSV = new QPushButton(frame);
         SaveCSV->setObjectName(QStringLiteral("SaveCSV"));
 
-        gridLayout_2->addWidget(SaveCSV, 2, 0, 1, 1);
+        gridLayout->addWidget(SaveCSV, 2, 0, 1, 1);
 
-        Close = new QPushButton(frame);
-        Close->setObjectName(QStringLiteral("Close"));
+        cancelButton = new QDialogButtonBox(frame);
+        cancelButton->setObjectName(QStringLiteral("cancelButton"));
+        cancelButton->setStandardButtons(QDialogButtonBox::Cancel);
 
-        gridLayout_2->addWidget(Close, 2, 1, 1, 1);
-
-
-        gridLayout->addWidget(frame, 0, 0, 1, 1);
+        gridLayout->addWidget(cancelButton, 2, 1, 1, 1);
 
 
-        retranslateUi(Dialog);
+        gridLayout_2->addWidget(frame, 0, 0, 1, 1);
 
-        QMetaObject::connectSlotsByName(Dialog);
+
+        retranslateUi(displaySurface);
+
+        QMetaObject::connectSlotsByName(displaySurface);
     } // setupUi
 
-    void retranslateUi(QDialog *Dialog)
+    void retranslateUi(QDialog *displaySurface)
     {
-        Dialog->setWindowTitle(QApplication::translate("displaySurface", "display surfaces", nullptr));
+        displaySurface->setWindowTitle(QApplication::translate("displaySurface", "display surfaces", nullptr));
         title->setText(QApplication::translate("displaySurface", "Format: Bottom  -  Top  -  Volume ", nullptr));
         SaveCSV->setText(QApplication::translate("displaySurface", "Save .csv", nullptr));
-        Close->setText(QApplication::translate("displaySurface", "Close", nullptr));
     } // retranslateUi
 
 };

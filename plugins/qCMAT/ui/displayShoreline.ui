@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>displayShoreline</class>
- <widget class="QDialog" name="Dialog">
+ <widget class="QDialog" name="displayShoreline">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -46,7 +46,7 @@
       <item row="2" column="0">
        <widget class="QLabel" name="label_2">
         <property name="text">
-         <string>Sensetivity:</string>
+         <string>Sensativity:</string>
         </property>
        </widget>
       </item>
@@ -71,16 +71,16 @@
        </widget>
       </item>
       <item row="5" column="0">
-       <widget class="QPushButton" name="Plot3D">
+       <widget class="QPushButton" name="Plot2D">
         <property name="text">
          <string>plot 3D</string>
         </property>
        </widget>
       </item>
       <item row="5" column="1">
-       <widget class="QPushButton" name="Plot2D">
+       <widget class="QPushButton" name="Extract">
         <property name="text">
-         <string>plot 2D</string>
+         <string>extract</string>
         </property>
        </widget>
       </item>
@@ -88,9 +88,9 @@
     </widget>
    </item>
    <item row="2" column="0">
-    <widget class="QPushButton" name="Close">
-     <property name="text">
-      <string>Close</string>
+    <widget class="QDialogButtonBox" name="cancelButton">
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel</set>
      </property>
     </widget>
    </item>

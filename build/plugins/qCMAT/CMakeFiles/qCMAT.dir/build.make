@@ -212,18 +212,18 @@ plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplaySurface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qCMAT.dir/src/ccDisplaySurface.cpp.s"
 	cd /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccDisplaySurface.cpp -o CMakeFiles/qCMAT.dir/src/ccDisplaySurface.cpp.s
 
-plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displayShoreline.cpp.o: plugins/qCMAT/CMakeFiles/qCMAT.dir/flags.make
-plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displayShoreline.cpp.o: ../plugins/qCMAT/src/displayShoreline.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displayShoreline.cpp.o"
-	cd /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qCMAT.dir/src/displayShoreline.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displayShoreline.cpp
+plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplayShoreline.cpp.o: plugins/qCMAT/CMakeFiles/qCMAT.dir/flags.make
+plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplayShoreline.cpp.o: ../plugins/qCMAT/src/ccDisplayShoreline.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplayShoreline.cpp.o"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qCMAT.dir/src/ccDisplayShoreline.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccDisplayShoreline.cpp
 
-plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displayShoreline.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qCMAT.dir/src/displayShoreline.cpp.i"
-	cd /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displayShoreline.cpp > CMakeFiles/qCMAT.dir/src/displayShoreline.cpp.i
+plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplayShoreline.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qCMAT.dir/src/ccDisplayShoreline.cpp.i"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccDisplayShoreline.cpp > CMakeFiles/qCMAT.dir/src/ccDisplayShoreline.cpp.i
 
-plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displayShoreline.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qCMAT.dir/src/displayShoreline.cpp.s"
-	cd /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displayShoreline.cpp -o CMakeFiles/qCMAT.dir/src/displayShoreline.cpp.s
+plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplayShoreline.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qCMAT.dir/src/ccDisplayShoreline.cpp.s"
+	cd /home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccDisplayShoreline.cpp -o CMakeFiles/qCMAT.dir/src/ccDisplayShoreline.cpp.s
 
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccExtractProfile.cpp.o: plugins/qCMAT/CMakeFiles/qCMAT.dir/flags.make
 plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccExtractProfile.cpp.o: ../plugins/qCMAT/src/ccExtractProfile.cpp
@@ -301,7 +301,7 @@ qCMAT_OBJECTS = \
 "CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o" \
 "CMakeFiles/qCMAT.dir/src/ccDisplayVolume.cpp.o" \
 "CMakeFiles/qCMAT.dir/src/ccDisplaySurface.cpp.o" \
-"CMakeFiles/qCMAT.dir/src/displayShoreline.cpp.o" \
+"CMakeFiles/qCMAT.dir/src/ccDisplayShoreline.cpp.o" \
 "CMakeFiles/qCMAT.dir/src/ccExtractProfile.cpp.o" \
 "CMakeFiles/qCMAT.dir/src/ccQCMATTools.cpp.o" \
 "CMakeFiles/qCMAT.dir/src/ccQCMATSplashScreen.cpp.o" \
@@ -320,7 +320,7 @@ plugins/qCMAT/libqCMAT.so: plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o
 plugins/qCMAT/libqCMAT.so: plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o
 plugins/qCMAT/libqCMAT.so: plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplayVolume.cpp.o
 plugins/qCMAT/libqCMAT.so: plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplaySurface.cpp.o
-plugins/qCMAT/libqCMAT.so: plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displayShoreline.cpp.o
+plugins/qCMAT/libqCMAT.so: plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplayShoreline.cpp.o
 plugins/qCMAT/libqCMAT.so: plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccExtractProfile.cpp.o
 plugins/qCMAT/libqCMAT.so: plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccQCMATTools.cpp.o
 plugins/qCMAT/libqCMAT.so: plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccQCMATSplashScreen.cpp.o

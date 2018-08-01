@@ -11,13 +11,13 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/qCMAT.cpp" "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT.cpp.o"
   "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qCMAT_autogen/mocs_compilation.cpp" "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/CMakeFiles/qCMAT.dir/qCMAT_autogen/mocs_compilation.cpp.o"
   "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/qrc_qCMAT.cpp" "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/CMakeFiles/qCMAT.dir/qrc_qCMAT.cpp.o"
+  "/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccDisplayShoreline.cpp" "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplayShoreline.cpp.o"
   "/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccDisplaySurface.cpp" "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplaySurface.cpp.o"
   "/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccDisplayVolume.cpp" "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccDisplayVolume.cpp.o"
   "/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccExtractProfile.cpp" "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccExtractProfile.cpp.o"
   "/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccQCMATSplashScreen.cpp" "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccQCMATSplashScreen.cpp.o"
   "/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccQCMATTools.cpp" "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccQCMATTools.cpp.o"
   "/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/ccVolumeTool.cpp" "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o"
-  "/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/displayShoreline.cpp" "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/CMakeFiles/qCMAT.dir/src/displayShoreline.cpp.o"
   "/home/chrome/work/CloudCompare/qCMAT/plugins/qCMAT/src/qCMATDlg.cpp" "/home/chrome/work/CloudCompare/qCMAT/build/plugins/qCMAT/CMakeFiles/qCMAT.dir/src/qCMATDlg.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

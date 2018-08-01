@@ -18,7 +18,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/qCMAT.dir/src/ccVolumeTool.cpp.o"
   "CMakeFiles/qCMAT.dir/src/ccDisplayVolume.cpp.o"
   "CMakeFiles/qCMAT.dir/src/ccDisplaySurface.cpp.o"
-  "CMakeFiles/qCMAT.dir/src/displayShoreline.cpp.o"
+  "CMakeFiles/qCMAT.dir/src/ccDisplayShoreline.cpp.o"
   "CMakeFiles/qCMAT.dir/src/ccExtractProfile.cpp.o"
   "CMakeFiles/qCMAT.dir/src/ccQCMATTools.cpp.o"
   "CMakeFiles/qCMAT.dir/src/ccQCMATSplashScreen.cpp.o"

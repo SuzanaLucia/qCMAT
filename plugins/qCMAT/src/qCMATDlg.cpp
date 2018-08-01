@@ -27,7 +27,7 @@
 //include plugin features
 #include "ccVolumeTool.h"
 #include "ccDisplaySurface.h"
-#include "displayShoreline.h"
+#include "ccDisplayShoreline.h"
 #include "ccExtractProfile.h"
 
 #include <ccGenericPointCloud.h>
@@ -77,8 +77,15 @@ void qCMATDlg::viewButtonClicked(){
 }
 
 void qCMATDlg::startShorelineDialog(){
-	//pass
-	qDisplayShoreline dispsh(m_app->getMainWindow(), m_app, m_app->getSelectedEntities().size());
+	//make sure there are clouds selected
+	if(m_app->getSelectedEntities().empty()){
+//TODO: make sure the selected entityes are clouds
+		m_app->dispToConsole("[Shoreline] You need to select point clouds...");
+		return;
+	}
+	//close and start shoreline dialog
+	this->close();
+	ccDisplayShoreline dispsh(m_app->getMainWindow(), m_app, m_app->getSelectedEntities().size());
 	dispsh.exec();
 
 }
@@ -110,6 +117,12 @@ ccPolyline qCMATDlg::createPolyline(ccPointCloud* pc)
 
 
 void qCMATDlg::startVolumeDialog(){
+	//make sure there are clouds selected
+	if(m_app->getSelectedEntities().empty()){
+//TODO: make sure the selected entityes are clouds
+		m_app->dispToConsole("[Volume] You need to select point clouds...");
+		return;		
+	}
 	//start a dialog to query user + calculate volumes
 		//close this dialog
 		this->close();
@@ -120,9 +133,14 @@ void qCMATDlg::startVolumeDialog(){
 }
 
 void qCMATDlg::startSurfaceDialog(){
+	if(m_app->getSelectedEntities().empty()){
+//TODO: make sure the selected entityes are clouds
+		m_app->dispToConsole("[Surface] You need to select point clouds...");
+		return;		
+	}
 	//start a dialog to query user + calculate volumes
 		//close this dialog
-		//this->close();
+		this->close();
 		//create the volume dialog
 		ccDisplaySurface surf(m_app->getMainWindow(), m_app, m_app->getSelectedEntities().size());
 		//.initializeTool(m_app);
@@ -134,6 +152,12 @@ void qCMATDlg::startExtractProfileDialog(){
 	/*
 	Start the dialog for extracting and visualizing profiles
 	*/
+	//make sure there are clouds selected
+	if(m_app->getSelectedEntities().empty()){
+//TODO: make sure the selected entityes are clouds
+		m_app->dispToConsole("[Profiles] You need to select point clouds...");
+		return;
+	}
 	this->close();
 	//create the volume dialog //TODO: check there is a picking hub in the first place etc...
 	ccExtractProfile prof(m_app->pickingHub(), m_app->getMainWindow(), m_app);
@@ -156,12 +180,9 @@ void qCMATDlg::initPointClouds()
 	// Declare the two point clouds to operate on
 
 //TODO: Sorry fam, needed to kill this feature :(
-	//ccPointCloud* cloud1 = ccHObjectCaster::ToPointCloud(clouds[0]);
-	//ccPointCloud* cloud2 = ccHObjectCaster::ToPointCloud(clouds[1]);
-	// Make sure clouds is not empty, and if it is display error.
 	if(clouds.empty())
 	{
-		m_app->dispToConsole("No point clouds selected",ccMainAppInterface::STD_CONSOLE_MESSAGE);
+		m_app->dispToConsole("[qCMAT] No point clouds selected, select the clouds you wish to analyze",ccMainAppInterface::STD_CONSOLE_MESSAGE);
 	}
 	// If clouds is not empty, continue...
 	else if(!clouds.empty())
@@ -171,30 +192,17 @@ void qCMATDlg::initPointClouds()
 		// Declare boolean and cast to QString for conditional.
 		bool c1_isCloudPoint = cloud1->isA(CC_TYPES::POINT_CLOUD); QString c1Bool = QString::number(c1_isCloudPoint);
 		bool c2_isCloudPoint = cloud2->isA(CC_TYPES::POINT_CLOUD); QString c2Bool = QString::number(c2_isCloudPoint);
-		// Ensure selected point clouds are now accessible by the plugin and are indeed of type POINT_CLOUD
-		if(c1Bool == "1") {	m_app->dispToConsole("Point Cloud 1 loaded... ",ccMainAppInterface::STD_CONSOLE_MESSAGE);	}
-		if(c2Bool == "1") {	m_app->dispToConsole("Point Cloud 2 loaded... ",ccMainAppInterface::STD_CONSOLE_MESSAGE);	}
 */		
 	}
 	else { m_app->dispToConsole("Something went wrong, quitting...",ccMainAppInterface::ERR_CONSOLE_MESSAGE); this->close(); }
-	// Find names of point clouds...
-//	QString cloud1Name = cloud1->getName();
-//	QString cloud2Name = cloud2->getName();
-	// ...and set the text boxes to display them.
-//	pointCloudPath1->setText(cloud1Name);
-//	pointCloudPath2->setText(cloud2Name);
-
-
 }
-
 
 void qCMATDlg::cancelButtonClicked(){
 	//the cancel button has been pressed, quit plugin execution
-	m_app->dispToConsole( "Quitting CMAP...", ccMainAppInterface::STD_CONSOLE_MESSAGE );
+	m_app->dispToConsole( "Quitting qCMAT...", ccMainAppInterface::STD_CONSOLE_MESSAGE );
 	//close anything spawned by qCMATDlg
 	this->close();
 }
-
 
 //store a copy of m_app
 void qCMATDlg::initializeTool(ccMainAppInterface* app)
@@ -216,44 +224,3 @@ void qCMATDlg::printError(std::string inWord){
 
 
 
-/**
-void qCMATDlg::setNames(QString A, QString B)
-{
-	meshALineEdit->setText(A);
-	meshBLineEdit->setText(B);
-}
-
-
-void qCMATDlg::unionSelected()
-{
-	m_selectedOperation = UNION;
-	accept();
-}m_action(nullptr)
-
-void qCMATDlg::intersectSelected()
-{
-	m_selectedOperation = INTERSECT;
-	accept();
-}
-
-void qCMATDlg::diffSelected()
-{
-	m_selectedOperation = DIFF;
-	accept();
-}
-
-void qCMATDlg::symDiffSelected()
-{
-	m_selectedOperation = SYM_DIFF;
-	accept();
-}
-
-void qCMATDlg::swap()
-{
-	m_isSwapped = !m_isSwapped;
-
-	QString A = meshALineEdit->text();
-	QString B = meshBLineEdit->text();
-	setNames(B,A);
-}
-**/

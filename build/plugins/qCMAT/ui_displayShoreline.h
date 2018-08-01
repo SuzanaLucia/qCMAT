@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'displayShoreline.ui'
 **
-** Created by: Qt User Interface Compiler version 5.10.1
+** Created by: Qt User Interface Compiler version 5.11.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,13 +10,11 @@
 #define UI_DISPLAYSHORELINE_H
 
 #include <QtCore/QVariant>
-#include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QDialog>
+#include <QtWidgets/QDialogButtonBox>
 #include <QtWidgets/QFrame>
 #include <QtWidgets/QGridLayout>
-#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QPushButton>
@@ -36,26 +34,26 @@ public:
     QLabel *label_2;
     QSlider *SensetivitySlider;
     QLabel *label;
-    QPushButton *Plot3D;
     QPushButton *Plot2D;
-    QPushButton *Close;
+    QPushButton *Extract;
+    QDialogButtonBox *cancelButton;
 
-    void setupUi(QDialog *Dialog)
+    void setupUi(QDialog *displayShoreline)
     {
-        if (Dialog->objectName().isEmpty())
-            Dialog->setObjectName(QStringLiteral("Dialog"));
-        Dialog->resize(240, 247);
-        gridLayout_2 = new QGridLayout(Dialog);
+        if (displayShoreline->objectName().isEmpty())
+            displayShoreline->setObjectName(QStringLiteral("displayShoreline"));
+        displayShoreline->resize(240, 247);
+        gridLayout_2 = new QGridLayout(displayShoreline);
         gridLayout_2->setSpacing(6);
         gridLayout_2->setContentsMargins(11, 11, 11, 11);
         gridLayout_2->setObjectName(QStringLiteral("gridLayout_2"));
-        title_2 = new QLabel(Dialog);
+        title_2 = new QLabel(displayShoreline);
         title_2->setObjectName(QStringLiteral("title_2"));
         title_2->setAlignment(Qt::AlignCenter);
 
         gridLayout_2->addWidget(title_2, 0, 0, 1, 1);
 
-        frame = new QFrame(Dialog);
+        frame = new QFrame(displayShoreline);
         frame->setObjectName(QStringLiteral("frame"));
         frame->setFrameShape(QFrame::StyledPanel);
         frame->setFrameShadow(QFrame::Raised);
@@ -91,40 +89,40 @@ public:
 
         gridLayout->addWidget(label, 4, 0, 1, 1);
 
-        Plot3D = new QPushButton(frame);
-        Plot3D->setObjectName(QStringLiteral("Plot3D"));
-
-        gridLayout->addWidget(Plot3D, 5, 0, 1, 1);
-
         Plot2D = new QPushButton(frame);
         Plot2D->setObjectName(QStringLiteral("Plot2D"));
 
-        gridLayout->addWidget(Plot2D, 5, 1, 1, 1);
+        gridLayout->addWidget(Plot2D, 5, 0, 1, 1);
+
+        Extract = new QPushButton(frame);
+        Extract->setObjectName(QStringLiteral("Extract"));
+
+        gridLayout->addWidget(Extract, 5, 1, 1, 1);
 
 
         gridLayout_2->addWidget(frame, 1, 0, 1, 1);
 
-        Close = new QPushButton(Dialog);
-        Close->setObjectName(QStringLiteral("Close"));
+        cancelButton = new QDialogButtonBox(displayShoreline);
+        cancelButton->setObjectName(QStringLiteral("cancelButton"));
+        cancelButton->setStandardButtons(QDialogButtonBox::Cancel);
 
-        gridLayout_2->addWidget(Close, 2, 0, 1, 1);
+        gridLayout_2->addWidget(cancelButton, 2, 0, 1, 1);
 
 
-        retranslateUi(Dialog);
+        retranslateUi(displayShoreline);
 
-        QMetaObject::connectSlotsByName(Dialog);
+        QMetaObject::connectSlotsByName(displayShoreline);
     } // setupUi
 
-    void retranslateUi(QDialog *Dialog)
+    void retranslateUi(QDialog *displayShoreline)
     {
-        Dialog->setWindowTitle(QApplication::translate("displayShoreline", "display surfaces", nullptr));
+        displayShoreline->setWindowTitle(QApplication::translate("displayShoreline", "display surfaces", nullptr));
         title_2->setText(QApplication::translate("displayShoreline", "Format: Bottom  -  Top  -  Volume ", nullptr));
         label_3->setText(QApplication::translate("displayShoreline", "Water Level", nullptr));
-        label_2->setText(QApplication::translate("displayShoreline", "Sensetivity:", nullptr));
+        label_2->setText(QApplication::translate("displayShoreline", "Sensativity:", nullptr));
         label->setText(QApplication::translate("displayShoreline", "Plot shorelines:", nullptr));
-        Plot3D->setText(QApplication::translate("displayShoreline", "plot 3D", nullptr));
-        Plot2D->setText(QApplication::translate("displayShoreline", "plot 2D", nullptr));
-        Close->setText(QApplication::translate("displayShoreline", "Close", nullptr));
+        Plot2D->setText(QApplication::translate("displayShoreline", "plot 3D", nullptr));
+        Extract->setText(QApplication::translate("displayShoreline", "extract", nullptr));
     } // retranslateUi
 
 };

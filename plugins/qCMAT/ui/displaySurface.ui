@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>displaySurface</class>
- <widget class="QDialog" name="Dialog">
+ <widget class="QDialog" name="displaySurface">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>500</width>
-    <height>461</height>
+    <width>312</width>
+    <height>261</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>display surfaces</string>
   </property>
-  <layout class="QGridLayout" name="gridLayout">
+  <layout class="QGridLayout" name="gridLayout_2">
    <item row="0" column="0">
     <widget class="QFrame" name="frame">
      <property name="frameShape">
@@ -22,7 +22,7 @@
      <property name="frameShadow">
       <enum>QFrame::Raised</enum>
      </property>
-     <layout class="QGridLayout" name="gridLayout_2">
+     <layout class="QGridLayout" name="gridLayout">
       <item row="0" column="0" colspan="2">
        <widget class="QLabel" name="title">
         <property name="text">
@@ -44,9 +44,9 @@
        </widget>
       </item>
       <item row="2" column="1">
-       <widget class="QPushButton" name="Close">
-        <property name="text">
-         <string>Close</string>
+       <widget class="QDialogButtonBox" name="cancelButton">
+        <property name="standardButtons">
+         <set>QDialogButtonBox::Cancel</set>
         </property>
        </widget>
       </item>

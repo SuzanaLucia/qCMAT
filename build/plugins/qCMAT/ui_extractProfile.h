@@ -12,6 +12,7 @@
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QDialog>
+#include <QtWidgets/QDialogButtonBox>
 #include <QtWidgets/QFrame>
 #include <QtWidgets/QGridLayout>
 #include <QtWidgets/QLabel>
@@ -41,7 +42,7 @@ public:
     QLabel *P2X;
     QSpacerItem *spacerp2;
     QPushButton *PlotProfilesPush;
-    QPushButton *ClosePushButton;
+    QDialogButtonBox *cancelButton;
 
     void setupUi(QDialog *extractProfile)
     {
@@ -132,10 +133,11 @@ public:
 
         gridLayout->addWidget(PlotProfilesPush, 2, 1, 1, 1);
 
-        ClosePushButton = new QPushButton(extractProfile);
-        ClosePushButton->setObjectName(QStringLiteral("ClosePushButton"));
+        cancelButton = new QDialogButtonBox(extractProfile);
+        cancelButton->setObjectName(QStringLiteral("cancelButton"));
+        cancelButton->setStandardButtons(QDialogButtonBox::Cancel);
 
-        gridLayout->addWidget(ClosePushButton, 2, 3, 1, 1);
+        gridLayout->addWidget(cancelButton, 2, 3, 1, 1);
 
 
         retranslateUi(extractProfile);
@@ -156,7 +158,6 @@ public:
         P2Y->setText(QApplication::translate("extractProfile", "Y:", nullptr));
         P2X->setText(QApplication::translate("extractProfile", "X:", nullptr));
         PlotProfilesPush->setText(QApplication::translate("extractProfile", "Plot Profiles", nullptr));
-        ClosePushButton->setText(QApplication::translate("extractProfile", "Close", nullptr));
     } // retranslateUi
 
 };

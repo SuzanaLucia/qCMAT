@@ -50,6 +50,9 @@
 #include <QFileDialog>
 //#include <genericPointAction>
 
+//qCMAt include for close
+#include "qCMATDlg.h"
+
 ccVolumeTool::ccVolumeTool(QWidget* parent)
 	: QDialog(parent, Qt::Tool)
 	, Ui::ccVolumeTool()
@@ -63,7 +66,7 @@ ccVolumeTool::ccVolumeTool(QWidget* parent)
 	connect( DisplayVolume,	SIGNAL(clicked()), this, SLOT( displayVolmes() ));
 	connect( CalcLoadFile,	SIGNAL(clicked()), this, SLOT( loadContVolume() ));
 	connect( saveButton,	SIGNAL(clicked()), this, SLOT( saveVolume())); 
-
+	connect( cancelButton,	SIGNAL(rejected()), this, SLOT( closeDisplay()));
 }
 
 void ccVolumeTool::saveCloudContours(){
@@ -139,6 +142,20 @@ void ccVolumeTool::saveCloudContours(){
 	}
 }
 
+void ccVolumeTool::closeDisplay(){
+	/* 
+	Close the display and reopen the main dialog
+	*/
+	this->close();
+    qCMATDlg cdlg(m_app->getMainWindow());
+    //Link
+    cdlg.linkWith(m_app->getActiveGLWindow());
+    cdlg.initializeTool(m_app);
+	// Initialise point clouds loaded
+	cdlg.initPointClouds();
+	cdlg.start();
+	cdlg.exec();
+}
 
 void ccVolumeTool::readCSVContours(){
 	//read contours from a file and calculate those volumes
@@ -171,6 +188,7 @@ void ccVolumeTool::loadContVolume(){
 		m_app->dispToConsole("Error reading file, maybe it isn't there?");
 		return;
 	}
+	
 	getline(contFile, line);
 	
 	if(contFile.eof() || line == ""){
@@ -191,6 +209,12 @@ void ccVolumeTool::loadContVolume(){
 		//check for EOF
 		getline(contFile, line);
 
+		if(line == ""){
+			//Trailing empty new line
+			contFile.close();
+			return;
+		}
+
 	    //convert line to char*
 
 	    numbers = QCMAT::split( line.c_str(), std::string(",") );
@@ -210,8 +234,8 @@ void ccVolumeTool::loadContVolume(){
 
 		noSlices++;
 
-		if(contFile.eof() || line == ""){
-			//next read would fail!
+		if(contFile.eof()){
+			//next read would fail, weve reached end of file
 			contFile.close();
 			return;
 		}
@@ -225,9 +249,6 @@ void ccVolumeTool::loadContVolume(){
 
 	}
 	//report errors
-
-	//calculate volumes / store contour internally
-
 	//close file
 	contFile.close();
 }
@@ -344,10 +365,12 @@ void ccVolumeTool::initializeTool(ccMainAppInterface* app)
 
 
 void ccVolumeTool::displayVolmes(){
+	//close current display
+	this->close();
 	//open the display
-		ccDisplayVolume volt(m_app->getMainWindow(), sliceInfo, noSlices, noClouds, m_app);
-		//volt.initializeTool(m_app); //don't forget to pass contours as an argument
-		volt.exec();
+	ccDisplayVolume volt(m_app->getMainWindow(), sliceInfo, noSlices, noClouds, m_app);
+	//volt.initializeTool(m_app); //don't forget to pass contours as an argument
+	volt.exec();
 }
 
 

@@ -135,9 +135,9 @@
     </widget>
    </item>
    <item row="2" column="3">
-    <widget class="QPushButton" name="ClosePushButton">
-     <property name="text">
-      <string>Close</string>
+    <widget class="QDialogButtonBox" name="cancelButton">
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel</set>
      </property>
     </widget>
    </item>

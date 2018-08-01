@@ -43,6 +43,7 @@ public:
 protected slots:
 	void closeDisplay();
 private:
+	ccMainAppInterface* m_app;
 };
 
 

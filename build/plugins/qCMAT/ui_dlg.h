@@ -14,9 +14,7 @@
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QDialogButtonBox>
 #include <QtWidgets/QFrame>
-#include <QtWidgets/QHBoxLayout>
-#include <QtWidgets/QLabel>
-#include <QtWidgets/QLineEdit>
+#include <QtWidgets/QGridLayout>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QVBoxLayout>
 
@@ -25,16 +23,7 @@ QT_BEGIN_NAMESPACE
 class Ui_CMATDlg
 {
 public:
-    QVBoxLayout *verticalLayout_2;
-    QFrame *pointCloudframe;
-    QHBoxLayout *horizontalLayout_3;
-    QVBoxLayout *verticalLayout;
-    QHBoxLayout *horizontalLayout;
-    QLabel *label1;
-    QLineEdit *pointCloudPath1;
-    QHBoxLayout *horizontalLayout_2;
-    QLabel *label2;
-    QLineEdit *pointCloudPath2;
+    QGridLayout *gridLayout;
     QFrame *frame;
     QVBoxLayout *verticalLayout_3;
     QPushButton *optionsPushButton;
@@ -48,65 +37,10 @@ public:
     {
         if (CMATDlg->objectName().isEmpty())
             CMATDlg->setObjectName(QStringLiteral("CMATDlg"));
-        CMATDlg->resize(567, 452);
+        CMATDlg->resize(118, 490);
         CMATDlg->setSizeGripEnabled(true);
-        verticalLayout_2 = new QVBoxLayout(CMATDlg);
-        verticalLayout_2->setObjectName(QStringLiteral("verticalLayout_2"));
-        pointCloudframe = new QFrame(CMATDlg);
-        pointCloudframe->setObjectName(QStringLiteral("pointCloudframe"));
-        pointCloudframe->setFrameShape(QFrame::StyledPanel);
-        pointCloudframe->setFrameShadow(QFrame::Sunken);
-        horizontalLayout_3 = new QHBoxLayout(pointCloudframe);
-        horizontalLayout_3->setObjectName(QStringLiteral("horizontalLayout_3"));
-        verticalLayout = new QVBoxLayout();
-        verticalLayout->setObjectName(QStringLiteral("verticalLayout"));
-        horizontalLayout = new QHBoxLayout();
-        horizontalLayout->setObjectName(QStringLiteral("horizontalLayout"));
-        label1 = new QLabel(pointCloudframe);
-        label1->setObjectName(QStringLiteral("label1"));
-        QFont font;
-        font.setBold(true);
-        font.setWeight(75);
-        label1->setFont(font);
-
-        horizontalLayout->addWidget(label1);
-
-        pointCloudPath1 = new QLineEdit(pointCloudframe);
-        pointCloudPath1->setObjectName(QStringLiteral("pointCloudPath1"));
-        pointCloudPath1->setReadOnly(true);
-
-        horizontalLayout->addWidget(pointCloudPath1);
-
-
-        verticalLayout->addLayout(horizontalLayout);
-
-        horizontalLayout_2 = new QHBoxLayout();
-        horizontalLayout_2->setObjectName(QStringLiteral("horizontalLayout_2"));
-        label2 = new QLabel(pointCloudframe);
-        label2->setObjectName(QStringLiteral("label2"));
-        QFont font1;
-        font1.setBold(true);
-        font1.setUnderline(false);
-        font1.setWeight(75);
-        label2->setFont(font1);
-
-        horizontalLayout_2->addWidget(label2);
-
-        pointCloudPath2 = new QLineEdit(pointCloudframe);
-        pointCloudPath2->setObjectName(QStringLiteral("pointCloudPath2"));
-        pointCloudPath2->setReadOnly(true);
-
-        horizontalLayout_2->addWidget(pointCloudPath2);
-
-
-        verticalLayout->addLayout(horizontalLayout_2);
-
-
-        horizontalLayout_3->addLayout(verticalLayout);
-
-
-        verticalLayout_2->addWidget(pointCloudframe);
-
+        gridLayout = new QGridLayout(CMATDlg);
+        gridLayout->setObjectName(QStringLiteral("gridLayout"));
         frame = new QFrame(CMATDlg);
         frame->setObjectName(QStringLiteral("frame"));
         frame->setFrameShape(QFrame::StyledPanel);
@@ -152,13 +86,13 @@ public:
         verticalLayout_3->addWidget(extractProfilePushButton);
 
 
-        verticalLayout_2->addWidget(frame);
+        gridLayout->addWidget(frame, 0, 0, 1, 1);
 
         cancelButton = new QDialogButtonBox(CMATDlg);
         cancelButton->setObjectName(QStringLiteral("cancelButton"));
         cancelButton->setStandardButtons(QDialogButtonBox::Cancel);
 
-        verticalLayout_2->addWidget(cancelButton);
+        gridLayout->addWidget(cancelButton, 1, 0, 1, 1);
 
 
         retranslateUi(CMATDlg);
@@ -169,8 +103,6 @@ public:
     void retranslateUi(QDialog *CMATDlg)
     {
         CMATDlg->setWindowTitle(QApplication::translate("CMATDlg", "qCMAT", nullptr));
-        label1->setText(QApplication::translate("CMATDlg", "Point Cloud 1: ", nullptr));
-        label2->setText(QApplication::translate("CMATDlg", "Point Cloud 2: ", nullptr));
 #ifndef QT_NO_TOOLTIP
         optionsPushButton->setToolTip(QApplication::translate("CMATDlg", "Set options/parameters or perform pre-processing.", nullptr));
 #endif // QT_NO_TOOLTIP

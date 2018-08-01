@@ -1,5 +1,5 @@
-#ifndef DISPLAY__SHORELINE_H
-#define DISPLAY__SHORELINE_H
+#ifndef CC_DISPLAY__SHORELINE_H
+#define CC_DISPLAY__SHORELINE_H
 
 
 #include "ui_displayShoreline.h"
@@ -26,19 +26,19 @@
 
 
 
-class qDisplayShoreline : public QDialog, public Ui::displayShoreline
+class ccDisplayShoreline : public QDialog, public Ui::displayShoreline
 {
 	Q_OBJECT
 
 
 public:
 //TODO: Change it to max Clouds
-	qDisplayShoreline(QWidget* parent = 0, ccMainAppInterface* = 0, int = 0);
-	~qDisplayShoreline();
+	ccDisplayShoreline(QWidget* parent = 0, ccMainAppInterface* = 0, int = 0);
+	~ccDisplayShoreline();
 protected slots:
 	void closeDisplay();
-	void save2D();
-	void save3D();
+	void save2Dplot();
+	void extractShorelines();
 
 private:
 	float surfaces[MAX_CLOUDS];
@@ -48,24 +48,4 @@ private:
 	float contourShore[MAX_CLOUDS][3]; //one each for r g and b
 };
 
-
-/*
-namespace Ui {
-class displaySurface;
-}
-
-class displaySurface : public QDialog
-{
-    Q_OBJECT
-
-public:
-    explicit displaySurface(QWidget *parent = 0);
-    ~displaySurface();
-
-private:
-    Ui::displaySurface *ui;
-};
-*/
-
-
-#endif // DISPLAYVOLUME_H
+#endif // CC_DISPLAY_SHORELINE_H

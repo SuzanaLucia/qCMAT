@@ -90,6 +90,7 @@ protected slots:
 	void readCSVContours();
 	void loadContVolume();
 	void saveCloudContours();
+	void closeDisplay();
 
 private:
 

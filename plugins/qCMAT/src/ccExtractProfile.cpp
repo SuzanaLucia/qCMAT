@@ -2,6 +2,9 @@
 #include "ccExtractProfile.h"
 #include <cmath>
 
+//qCMAT include for close method
+#include "qCMATDlg.h"
+
 //TODO: change this to anything else / let user decide
 #define PROFILE_LINE_RADIUS 0.1
 
@@ -14,7 +17,7 @@ ccExtractProfile::ccExtractProfile(ccPickingHub* pickingHub, QWidget* parent, cc
 	
 	//Connect QObjects to appropriate functions
 	//connect( QObjectClassName , SIGNAL( clicked() ), this, SLOT( functionToBeTriggered()));
-	connect( ClosePushButton,	SIGNAL(clicked()), this, SLOT( closeDisplay() ));
+	connect( cancelButton,	SIGNAL(rejected()), this, SLOT( closeDisplay() ));
 	connect( PlotProfilesPush,	SIGNAL(clicked()), this, SLOT( plotProfiles() ));
 
 	//initialize main application interface
@@ -60,6 +63,15 @@ void ccExtractProfile::processPickedPoint(ccPointCloud* cloud, unsigned pointInd
 void ccExtractProfile::closeDisplay(){
 	/* Close the display */
 	this->close();
+	//reopen main dialog
+	qCMATDlg cdlg(m_app->getMainWindow());
+    //Link
+    cdlg.linkWith(m_app->getActiveGLWindow());
+	cdlg.initializeTool(m_app);
+	//Initialise point clouds loaded
+	cdlg.initPointClouds();
+	cdlg.start();
+	cdlg.exec();
 }
 
 

@@ -18,12 +18,14 @@
 
 //Include header
 #include "ccDisplayVolume.h"
+//qCMAT include for close method
+#include "ccVolumeTool.h"
 //stdlib includes
 #include <string>
 //Qt includes
 #include <QString>
 
-ccDisplayVolume::ccDisplayVolume(QWidget* parent, float volumes[][102], int noSlices, int noClouds, ccMainAppInterface* m_app)
+ccDisplayVolume::ccDisplayVolume(QWidget* parent, float volumes[][102], int noSlices, int noClouds, ccMainAppInterface* app)
 	: QDialog(parent, Qt::Tool)
 	, Ui::displayVolume()
 {
@@ -44,8 +46,10 @@ ccDisplayVolume::ccDisplayVolume(QWidget* parent, float volumes[][102], int noSl
 
 	setupUi(this);
 
+	m_app = app;
+
 	//Connects
-	connect( Close,	SIGNAL(clicked()), this, SLOT( closeDisplay() ));
+	connect( cancelButton, SIGNAL(rejected()), this, SLOT( closeDisplay() ));
 
 	/* Assumption: assumes array is full, if not it will output 0 */
 
@@ -86,5 +90,8 @@ ccDisplayVolume::ccDisplayVolume(QWidget* parent, float volumes[][102], int noSl
 void ccDisplayVolume::closeDisplay(){
 	/* Close the display */
 	this->close();
+	//reopen previoud dialog
+		ccVolumeTool volt(m_app->getMainWindow());
+		volt.initializeTool(m_app);
+		volt.exec();
 }
-

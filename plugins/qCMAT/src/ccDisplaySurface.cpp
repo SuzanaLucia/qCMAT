@@ -23,6 +23,9 @@
 #include <fstream>
 #include <QFileDialog>
 
+//qCMAT includes for close
+#include "qCMATDlg.h"
+
 //TODO: allow user to change grid step
 #define GRID_STEP 0.1
 
@@ -32,7 +35,7 @@ ccDisplaySurface::ccDisplaySurface(QWidget* parent, ccMainAppInterface* app, int
 {
 	setupUi(this);
 	//connect cancel button
-	connect( Close,	SIGNAL(clicked()), this, SLOT( closeDisplay() ));
+	connect( cancelButton,	SIGNAL(rejected()), this, SLOT( closeDisplay() ));
 	connect( SaveCSV,	SIGNAL(clicked()), this, SLOT( saveCSV() ));
 
 	//set local variables
@@ -110,6 +113,16 @@ void ccDisplaySurface::saveCSV(){
 void ccDisplaySurface::closeDisplay(){
 	//close the display
 	this->close();
+	//open the main dialog again
+    qCMATDlg cdlg(m_app->getMainWindow());
+    //Link
+    cdlg.linkWith(m_app->getActiveGLWindow());
+    cdlg.initializeTool(m_app);
+	// Initialise point clouds loaded
+	cdlg.initPointClouds();
+	cdlg.start();
+	cdlg.exec();
+
 }
 
 
