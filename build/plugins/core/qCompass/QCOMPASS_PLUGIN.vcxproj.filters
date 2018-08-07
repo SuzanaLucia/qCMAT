@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\qCMAT-master\plugins\core\qCompass\ccCompass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\plugins\ccDefaultPluginInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\plugins\ccStdPluginInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\qCC\ccOverlayDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\qCC\ccPickingHub.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\plugins\core\qCompass\src\ccCompassDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\plugins\core\qCompass\src\ccCompassInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\plugins\core\qCompass\src\ccFitPlane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\plugins\core\qCompass\src\ccFitPlaneTool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\plugins\core\qCompass\src\ccGeoObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\plugins\core\qCompass\src\ccLineation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\plugins\core\qCompass\src\ccLineationTool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\plugins\core\qCompass\src\ccMapDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\plugins\core\qCompass\src\ccMouseCircle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\plugins\core\qCompass\src\ccNote.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\plugins\core\qCompass\src\ccNoteTool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\plugins\core\qCompass\src\ccPinchNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\plugins\core\qCompass\src\ccPinchNodeTool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\plugins\core\qCompass\src\ccPointPair.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\plugins\core\qCompass\src\ccThickness.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\plugins\core\qCompass\src\ccThicknessTool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\plugins\core\qCompass\src\ccTopologyRelation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\plugins\core\qCompass\src\ccTopologyTool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\plugins\core\qCompass\src\ccTrace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\plugins\core\qCompass\src\ccTraceTool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\build\plugins\core\qCompass\qrc_ccCompass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\build\plugins\core\qCompass\QCOMPASS_PLUGIN_autogen\mocs_compilation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\qCMAT-master\plugins\core\qCompass\ccCompass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\qCC\ccOverlayDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\qCC\ccPickingListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\qCC\ccPickingHub.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\plugins\core\qCompass\src\ccCompassDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\plugins\core\qCompass\src\ccCompassInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\plugins\core\qCompass\src\ccFitPlane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\plugins\core\qCompass\src\ccFitPlaneTool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\plugins\core\qCompass\src\ccGeoObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\plugins\core\qCompass\src\ccLineation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\plugins\core\qCompass\src\ccLineationTool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\plugins\core\qCompass\src\ccMapDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\plugins\core\qCompass\src\ccMeasurement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\plugins\core\qCompass\src\ccMouseCircle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\plugins\core\qCompass\src\ccNote.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\plugins\core\qCompass\src\ccNoteTool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\plugins\core\qCompass\src\ccPinchNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\plugins\core\qCompass\src\ccPinchNodeTool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\plugins\core\qCompass\src\ccPointPair.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\plugins\core\qCompass\src\ccThickness.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\plugins\core\qCompass\src\ccThicknessTool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\plugins\core\qCompass\src\ccTool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\plugins\core\qCompass\src\ccTopologyRelation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\plugins\core\qCompass\src\ccTopologyTool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\plugins\core\qCompass\src\ccTrace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\plugins\core\qCompass\src\ccTraceTool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\build\plugins\core\qCompass\ui_compassDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\build\plugins\core\qCompass\ui_mapDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\qCMAT-master\plugins\core\qCompass\ui\compassDlg.ui" />
+    <CustomBuild Include="C:\qCMAT-master\plugins\core\qCompass\ui\mapDlg.ui" />
+    <CustomBuild Include="C:\qCMAT-master\plugins\core\qCompass\ccCompass.qrc" />
+    <CustomBuild Include="C:\qCMAT-master\plugins\core\qCompass\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\qCMAT-master\plugins\core\qCompass\info.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{29266BC9-90CC-38EE-A5DB-5287B3D79935}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D17B82EC-192C-32A8-A554-A162E801BFE4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

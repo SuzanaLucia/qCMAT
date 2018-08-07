@@ -1,0 +1,73 @@
+﻿  Automatic MOC for target QCC_DB_LIB
+  Building Custom Rule C:/qCMAT-master/libs/qCC_db/CMakeLists.txt
+  CMake does not need to re-run because C:/qCMAT-master/build/libs/qCC_db/CMakeFiles/generate.stamp is up-to-date.
+  cc2DLabel.cpp
+  cc2DViewportLabel.cpp
+  cc2DViewportObject.cpp
+  ccAdvancedTypes.cpp
+  ccBBox.cpp
+  ccBox.cpp
+  ccCameraSensor.cpp
+  ccClipBox.cpp
+  ccColorRampShader.cpp
+  ccColorScale.cpp
+  ccColorScalesManager.cpp
+  ccColorTypes.cpp
+  ccCone.cpp
+  ccCylinder.cpp
+  ccDish.cpp
+  ccDrawableObject.cpp
+  ccExternalFactory.cpp
+  ccExtru.cpp
+  ccFacet.cpp
+  ccFastMarchingForNormsDirection.cpp
+  Generating Code...
+  Compiling...
+  ccGBLSensor.cpp
+  ccGenericGLDisplay.cpp
+  ccGenericMesh.cpp
+  ccGenericPointCloud.cpp
+  ccGenericPrimitive.cpp
+  ccGriddedTools.cpp
+  ccHObject.cpp
+  ccHObjectCaster.cpp
+  ccImage.cpp
+  ccIndexedTransformation.cpp
+  ccIndexedTransformationBuffer.cpp
+  ccKdTree.cpp
+  ccLog.cpp
+  ccMaterial.cpp
+  ccMaterialSet.cpp
+  ccMesh.cpp
+  ccMeshGroup.cpp
+  ccMinimumSpanningTreeForNormsDirection.cpp
+  ccNormalCompressor.cpp
+  ccNormalVectors.cpp
+  Generating Code...
+  Compiling...
+  ccObject.cpp
+  ccOctree.cpp
+  ccOctreeProxy.cpp
+  ccOctreeSpinBox.cpp
+  ccPlanarEntityInterface.cpp
+  ccPlane.cpp
+  ccPointCloud.cpp
+  ccPointCloudInterpolator.cpp
+  ccPointCloudLOD.cpp
+  ccPolyline.cpp
+  ccProgressDialog.cpp
+  ccQuadric.cpp
+  ccRasterGrid.cpp
+  ccScalarField.cpp
+  ccSensor.cpp
+  ccShiftedObject.cpp
+  ccSphere.cpp
+  ccSubMesh.cpp
+  ccTorus.cpp
+  ccWaveform.cpp
+  Generating Code...
+  Compiling...
+  mocs_compilation.cpp
+  Generating Code...
+     Creating library C:/qCMAT-master/build/libs/qCC_db/Debug/QCC_DB_LIBd.lib and object C:/qCMAT-master/build/libs/qCC_db/Debug/QCC_DB_LIBd.exp
+  QCC_DB_LIB.vcxproj -> C:\qCMAT-master\build\libs\qCC_db\Debug\QCC_DB_LIBd.dll

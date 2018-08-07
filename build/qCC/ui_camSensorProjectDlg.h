@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'camSensorProjectDlg.ui'
 **
-** Created by: Qt User Interface Compiler version 5.10.1
+** Created by: Qt User Interface Compiler version 5.11.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,16 +10,13 @@
 #define UI_CAMSENSORPROJECTDLG_H
 
 #include <QtCore/QVariant>
-#include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QDialogButtonBox>
 #include <QtWidgets/QDoubleSpinBox>
 #include <QtWidgets/QFormLayout>
 #include <QtWidgets/QGridLayout>
 #include <QtWidgets/QHBoxLayout>
-#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QSpacerItem>

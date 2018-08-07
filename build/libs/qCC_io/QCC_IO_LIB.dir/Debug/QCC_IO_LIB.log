@@ -1,0 +1,50 @@
+﻿  Automatic MOC for target QCC_IO_LIB
+  Generating ui_globalShiftAndScaleAboutDlg.h
+  Generating ui_globalShiftAndScaleDlg.h
+  Generating ui_importDBFFieldDlg.h
+  Generating ui_openAsciiFileDlg.h
+  Generating ui_openLASFileDlg.h
+  Generating ui_openPlyFileDlg.h
+  Generating ui_saveAsciiFileDlg.h
+  Generating ui_saveLASFileDlg.h
+  Generating ui_saveMascaretFileDlg.h
+  Generating ui_saveSHPFileDlg.h
+  Building Custom Rule C:/qCMAT-master/libs/qCC_io/CMakeLists.txt
+  CMake does not need to re-run because C:/qCMAT-master/build/libs/qCC_io/CMakeFiles/generate.stamp is up-to-date.
+  AsciiFilter.cpp
+  AsciiOpenDlg.cpp
+  AsciiSaveDlg.cpp
+  BinFilter.cpp
+  DepthMapFileFilter.cpp
+  DxfFilter.cpp
+  E57Filter.cpp
+  FBXFilter.cpp
+  FileIO.cpp
+  FileIOFilter.cpp
+  HeightProfileFilter.cpp
+  ImageFileFilter.cpp
+  LASFields.cpp
+  LASFilter.cpp
+  LASOpenDlg.cpp
+  MAFilter.cpp
+  MascaretFilter.cpp
+  OFFFilter.cpp
+  ObjFilter.cpp
+  PTXFilter.cpp
+  Generating Code...
+  Compiling...
+  PlyFilter.cpp
+  PlyOpenDlg.cpp
+  RasterGridFilter.cpp
+  STLFilter.cpp
+  ShpDBFFields.cpp
+  ShpFilter.cpp
+  SimpleBinFilter.cpp
+  VTKFilter.cpp
+  ccGlobalShiftManager.cpp
+  ccShiftAndScaleCloudDlg.cpp
+  mocs_compilation.cpp
+  Generating Code...
+  rply.c
+     Creating library C:/qCMAT-master/build/libs/qCC_io/Debug/QCC_IO_LIBd.lib and object C:/qCMAT-master/build/libs/qCC_io/Debug/QCC_IO_LIBd.exp
+  QCC_IO_LIB.vcxproj -> C:\qCMAT-master\build\libs\qCC_io\Debug\QCC_IO_LIBd.dll

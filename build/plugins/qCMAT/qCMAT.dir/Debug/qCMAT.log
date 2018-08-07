@@ -1,0 +1,6 @@
+﻿  Automatic MOC for target qCMAT
+  qCMATDlg.cpp
+c:\qcmat-master\plugins\qcmat\src\qcmatdlg.cpp(87): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\qcmat-master\plugins\qcmat\src\qcmatdlg.cpp(144): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+     Creating library C:/qCMAT-master/build/plugins/qCMAT/Debug/qCMATd.lib and object C:/qCMAT-master/build/plugins/qCMAT/Debug/qCMATd.exp
+  qCMAT.vcxproj -> C:\qCMAT-master\build\plugins\qCMAT\Debug\qCMATd.dll

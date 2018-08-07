@@ -1,0 +1,12 @@
+# CMake generation dependency list for this directory.
+C:/qCMAT-master/plugins/qCMAT/CMakeLists.txt
+C:/Qt/5.11.1/msvc2017_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake
+C:/Qt/5.11.1/msvc2017_64/lib/cmake/Qt5/Qt5Config.cmake
+C:/Qt/5.11.1/msvc2017_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake
+C:/Qt/5.11.1/msvc2017_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake
+C:/Qt/5.11.1/msvc2017_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake
+C:/qCMAT-master/plugins/CMakePluginTpl.cmake
+C:/qCMAT-master/plugins/qCMAT/qCMAT.qrc
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindOpenGL.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindPackageMessage.cmake

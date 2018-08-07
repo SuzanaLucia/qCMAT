@@ -1,0 +1,96 @@
+﻿  Checking Build System
+  CMake does not need to re-run because C:/qCMAT-master/build/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/qCMAT-master/build/CC/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/qCMAT-master/build/libs/CCFbo/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/qCMAT-master/build/libs/qCC_db/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/qCMAT-master/build/libs/qCC_io/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/qCMAT-master/build/libs/qCC_glWindow/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/qCMAT-master/build/libs/qcustomplot/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/qCMAT-master/build/plugins/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/qCMAT-master/build/plugins/core/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/qCMAT-master/build/plugins/core/qAdditionalIO/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/qCMAT-master/build/plugins/core/qAnimation/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/qCMAT-master/build/plugins/core/qBroom/CMakeFiles/generate.stamp is up-to-date.
+  CMake is re-running because C:/qCMAT-master/build/plugins/core/qCompass/CMakeFiles/generate.stamp is out-of-date.
+    the file 'C:/qCMAT-master/plugins/CMakePluginTpl.cmake'
+    is newer than 'C:/qCMAT-master/build/plugins/core/qCompass/CMakeFiles/generate.stamp.depend'
+    result='-1'
+  CMake Deprecation Warning at cmake/CMakePolicies.cmake:9 (cmake_policy):
+    The OLD behavior for policy CMP0020 will be removed from a future version
+    of CMake.
+  
+    The cmake-policies(7) manual explains that the OLD behaviors of all
+    policies are deprecated and that a policy should be set to OLD only under
+    specific short-term circumstances.  Projects should be ported to the NEW
+    behavior and not rely on setting a policy to OLD.
+  Call Stack (most recent call first):
+    CMakeLists.txt:7 (include)
+  
+  
+  CMake Deprecation Warning at cmake/CMakePolicies.cmake:16 (cmake_policy):
+    The OLD behavior for policy CMP0043 will be removed from a future version
+    of CMake.
+  
+    The cmake-policies(7) manual explains that the OLD behaviors of all
+    policies are deprecated and that a policy should be set to OLD only under
+    specific short-term circumstances.  Projects should be ported to the NEW
+    behavior and not rely on setting a policy to OLD.
+  Call Stack (most recent call first):
+    CMakeLists.txt:7 (include)
+  
+  
+  cmake policies active: CMP0020 CMP0043
+  CMake Deprecation Warning at cmake/CMakePolicies.cmake:9 (cmake_policy):
+    The OLD behavior for policy CMP0020 will be removed from a future version
+    of CMake.
+  
+    The cmake-policies(7) manual explains that the OLD behaviors of all
+    policies are deprecated and that a policy should be set to OLD only under
+    specific short-term circumstances.  Projects should be ported to the NEW
+    behavior and not rely on setting a policy to OLD.
+  Call Stack (most recent call first):
+    CC/CMakeLists.txt:14 (include)
+  
+  
+  CMake Deprecation Warning at cmake/CMakePolicies.cmake:16 (cmake_policy):
+    The OLD behavior for policy CMP0043 will be removed from a future version
+    of CMake.
+  
+    The cmake-policies(7) manual explains that the OLD behaviors of all
+    policies are deprecated and that a policy should be set to OLD only under
+    specific short-term circumstances.  Projects should be ported to the NEW
+    behavior and not rely on setting a policy to OLD.
+  Call Stack (most recent call first):
+    CC/CMakeLists.txt:14 (include)
+  
+  
+  cmake policies active: CMP0020 CMP0043
+  OpenMP found
+  OpenMP found
+  CMake Deprecation Warning at plugins/CMakePluginTpl.cmake:61 (cmake_policy):
+    The OLD behavior for policy CMP0043 will be removed from a future version
+    of CMake.
+  
+    The cmake-policies(7) manual explains that the OLD behaviors of all
+    policies are deprecated and that a policy should be set to OLD only under
+    specific short-term circumstances.  Projects should be ported to the NEW
+    behavior and not rely on setting a policy to OLD.
+  Call Stack (most recent call first):
+    plugins/core/qCompass/CMakeLists.txt:26 (include)
+  
+  
+  CMake Deprecation Warning at plugins/CMakePluginTpl.cmake:61 (cmake_policy):
+    The OLD behavior for policy CMP0043 will be removed from a future version
+    of CMake.
+  
+    The cmake-policies(7) manual explains that the OLD behaviors of all
+    policies are deprecated and that a policy should be set to OLD only under
+    specific short-term circumstances.  Projects should be ported to the NEW
+    behavior and not rely on setting a policy to OLD.
+  Call Stack (most recent call first):
+    plugins/qCMAT/CMakeLists.txt:35 (include)
+  
+  
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: C:/qCMAT-master/build

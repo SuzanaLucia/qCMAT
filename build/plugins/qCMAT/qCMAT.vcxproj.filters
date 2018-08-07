@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\qCMAT-master\plugins\qCMAT\qCMAT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\plugins\ccDefaultPluginInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\plugins\ccStdPluginInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\qCC\ccOverlayDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\qCC\ccPickingHub.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\plugins\qCMAT\src\qCMATDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\plugins\qCMAT\src\ccVolumeTool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\plugins\qCMAT\src\ccDisplayVolume.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\plugins\qCMAT\src\ccDisplaySurface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\plugins\qCMAT\src\ccDisplayShoreline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\plugins\qCMAT\src\ccExtractProfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\plugins\qCMAT\src\ccQCMATTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\plugins\qCMAT\src\ccQCMATSplashScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\build\plugins\qCMAT\qrc_qCMAT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\build\plugins\qCMAT\qCMAT_autogen\mocs_compilation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\qCMAT-master\plugins\qCMAT\qCMAT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\qCC\ccOverlayDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\qCC\ccPickingListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\qCC\ccPickingHub.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\plugins\qCMAT\src\qCMATDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\plugins\qCMAT\src\ccVolumeTool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\plugins\qCMAT\src\ccDisplayVolume.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\plugins\qCMAT\src\ccDisplaySurface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\plugins\qCMAT\src\ccDisplayShoreline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\plugins\qCMAT\src\ccExtractProfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\plugins\qCMAT\src\ccQCMATTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\plugins\qCMAT\src\ccQCMATSplashScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\build\plugins\qCMAT\ui_dlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\build\plugins\qCMAT\ui_ccVolumeTool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\build\plugins\qCMAT\ui_displayVolume.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\build\plugins\qCMAT\ui_displaySurface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\build\plugins\qCMAT\ui_displayShoreline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\build\plugins\qCMAT\ui_extractProfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\build\plugins\qCMAT\ui_ccQCMATSplashScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\qCMAT-master\plugins\qCMAT\ui\dlg.ui" />
+    <CustomBuild Include="C:\qCMAT-master\plugins\qCMAT\ui\ccVolumeTool.ui" />
+    <CustomBuild Include="C:\qCMAT-master\plugins\qCMAT\ui\displayVolume.ui" />
+    <CustomBuild Include="C:\qCMAT-master\plugins\qCMAT\ui\displaySurface.ui" />
+    <CustomBuild Include="C:\qCMAT-master\plugins\qCMAT\ui\displayShoreline.ui" />
+    <CustomBuild Include="C:\qCMAT-master\plugins\qCMAT\ui\extractProfile.ui" />
+    <CustomBuild Include="C:\qCMAT-master\plugins\qCMAT\ui\ccQCMATSplashScreen.ui" />
+    <CustomBuild Include="C:\qCMAT-master\plugins\qCMAT\qCMAT.qrc" />
+    <CustomBuild Include="C:\qCMAT-master\plugins\qCMAT\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\qCMAT-master\plugins\qCMAT\info.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{29266BC9-90CC-38EE-A5DB-5287B3D79935}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D17B82EC-192C-32A8-A554-A162E801BFE4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

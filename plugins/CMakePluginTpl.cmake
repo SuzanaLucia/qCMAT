@@ -60,7 +60,7 @@ if( WIN32 )
 		#(and setting it outside of the function/file doesn't seem to work...)
 		cmake_policy(SET CMP0043 OLD)
 	
-		set_property( TARGET ${PROJECT_NAME} APPEND PROPERTY COMPILE_DEFINITIONS_RELEASE QT_NO_DEBUG)
+		#set_property( TARGET ${PROJECT_NAME} APPEND PROPERTY COMPILE_DEFINITIONS_RELEASE QT_NO_DEBUG)
 	endif()
 endif()
 

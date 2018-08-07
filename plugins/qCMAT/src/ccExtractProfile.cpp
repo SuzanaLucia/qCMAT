@@ -9,8 +9,9 @@
 #define PROFILE_LINE_RADIUS 0.1
 
 ccExtractProfile::ccExtractProfile(ccPickingHub* pickingHub, QWidget* parent, ccMainAppInterface* app)
-	: ccPointPickingGenericInterface(pickingHub, parent)
-	, Ui::extractProfile()
+        : ccOverlayDialog(parent)
+        , ccPickingListener()
+        , Ui::extractProfile()
 {
 	//important for Qt
 	setupUi(this);
@@ -23,10 +24,26 @@ ccExtractProfile::ccExtractProfile(ccPickingHub* pickingHub, QWidget* parent, cc
 	//initialize main application interface
 	m_app = app;
 
+        m_app->pickingHub()->addListener(this, true, true);
+
+}
+
+//This function is called when a point is picked (through the picking hub)
+void ccExtractProfile::onItemPicked(const ccPickingListener::PickedItem& pi)
+{
+        pointPicked(pi.entity, pi.itemIndex, pi.clickPoint.x(), pi.clickPoint.y(), pi.P3D); //map straight to pointPicked function
 }
 
 
-//inherited from ccPointPickingGenericInterface
+void ccExtractProfile::pointPicked(ccHObject* entity, unsigned itemIdx, int x, int y, const CCVector3& P){
+    //map picked point attributes to old processPickedPoint method
+    processPickedPoint( ccHObjectCaster::ToPointCloud(entity) , itemIdx, 0, 0);
+}
+
+
+
+
+
 void ccExtractProfile::processPickedPoint(ccPointCloud* cloud, unsigned pointIndex, int x, int y){
 	//m_app->dispToConsole("Point Picked my dude!");
 	if(noPointsPicked == 0){
@@ -66,7 +83,7 @@ void ccExtractProfile::closeDisplay(){
 	//reopen main dialog
 	qCMATDlg cdlg(m_app->getMainWindow());
     //Link
-    cdlg.linkWith(m_app->getActiveGLWindow());
+    //cdlg.linkWith(m_app->getActiveGLWindow());
 	cdlg.initializeTool(m_app);
 	//Initialise point clouds loaded
 	cdlg.initPointClouds();

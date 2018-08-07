@@ -11,16 +11,22 @@
 //std includes
 #include <vector>
 
+#include <ccPickingListener.h>
+
 //Include the Qt features used
 #include <QMainWindow>
 #include <QDialog>
 
-//qCC includes
-#include <ccPointPickingGenericInterface.h>
+//qCC includes NO LONGER ON CCPOINTPICKINGINTERFACE
+//#include <ccPointPickingGenericInterface.h>
+//#include <ccPointListPickingDlg.h>
+
+#include <ccPickingHub.h>
 #include <ccGLWindow.h>
 #include <ccPointCloud.h>
+#include <ccOverlayDialog.h>
 
-class ccExtractProfile : public ccPointPickingGenericInterface, public Ui::extractProfile
+class ccExtractProfile :  public ccOverlayDialog,  public ccPickingListener, public Ui::extractProfile
 {
 	Q_OBJECT //Important; lets Qt know to edit this code
 
@@ -37,6 +43,10 @@ protected slots:
 	void plotProfiles();
 
 private:
+
+        void onItemPicked(const ccPickingListener::PickedItem& pi);
+        void pointPicked(ccHObject* entity, unsigned itemIdx, int x, int y, const CCVector3& P);
+
 	//number of points picked (0, 1 or 2)
 	unsigned noPointsPicked = 0;
 

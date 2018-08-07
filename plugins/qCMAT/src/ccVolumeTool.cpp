@@ -78,7 +78,7 @@ void ccVolumeTool::saveCloudContours(){
 	}
 	//create a noSlices large array of rgb's
 //TODO; figure our rgb type; make array of rgb's	
-	float contourColors[noSlices][3]; //one each for r g and b
+        float contourColors[102][3]; //one each for r g and b
 	//calculate a color for each clice
 	//calclate contour colors
 

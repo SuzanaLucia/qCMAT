@@ -35,7 +35,6 @@
 #include <ccPolyline.h>
 
 
-
 //Include the dummy header for accesing the dummy plugin
 //#include <ccExtractProfile.h>
 
@@ -161,7 +160,7 @@ void qCMATDlg::startExtractProfileDialog(){
 	this->close();
 	//create the volume dialog //TODO: check there is a picking hub in the first place etc...
 	ccExtractProfile prof(m_app->pickingHub(), m_app->getMainWindow(), m_app);
-	prof.linkWith(m_app->getActiveGLWindow());
+        prof.linkWith(m_app->getActiveGLWindow());
 	prof.start();
 	prof.exec();
 }

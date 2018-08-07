@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1898D9F0-1F1D-3283-BCE6-9FE5EF13692E}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\qCMAT-master\build\CC;C:\qCMAT-master\CC;C:\Qt\5.11.1\msvc2017_64\include;C:\Qt\5.11.1\msvc2017_64\include\QtOpenGL;C:\Qt\5.11.1\msvc2017_64\include\QtWidgets;C:\Qt\5.11.1\msvc2017_64\include\QtGui;C:\Qt\5.11.1\msvc2017_64\include\QtCore;C:\Qt\5.11.1\msvc2017_64\.\mkspecs\win32-msvc;C:\Qt\5.11.1\msvc2017_64\include\QtANGLE;C:\Qt\5.11.1\msvc2017_64\include\QtConcurrent;C:\Qt\5.11.1\msvc2017_64\include\QtPrintSupport;C:\qCMAT-master\CC\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\qCMAT-master\build\CC;C:\qCMAT-master\CC;C:\Qt\5.11.1\msvc2017_64\include;C:\Qt\5.11.1\msvc2017_64\include\QtOpenGL;C:\Qt\5.11.1\msvc2017_64\include\QtWidgets;C:\Qt\5.11.1\msvc2017_64\include\QtGui;C:\Qt\5.11.1\msvc2017_64\include\QtCore;C:\Qt\5.11.1\msvc2017_64\.\mkspecs\win32-msvc;C:\Qt\5.11.1\msvc2017_64\include\QtANGLE;C:\Qt\5.11.1\msvc2017_64\include\QtConcurrent;C:\Qt\5.11.1\msvc2017_64\include\QtPrintSupport;C:\qCMAT-master\CC\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\qCMAT-master\build\CC;C:\qCMAT-master\CC;C:\Qt\5.11.1\msvc2017_64\include;C:\Qt\5.11.1\msvc2017_64\include\QtOpenGL;C:\Qt\5.11.1\msvc2017_64\include\QtWidgets;C:\Qt\5.11.1\msvc2017_64\include\QtGui;C:\Qt\5.11.1\msvc2017_64\include\QtCore;C:\Qt\5.11.1\msvc2017_64\.\mkspecs\win32-msvc;C:\Qt\5.11.1\msvc2017_64\include\QtANGLE;C:\Qt\5.11.1\msvc2017_64\include\QtConcurrent;C:\Qt\5.11.1\msvc2017_64\include\QtPrintSupport;C:\qCMAT-master\CC\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\qCMAT-master\build\CC;C:\qCMAT-master\CC;C:\Qt\5.11.1\msvc2017_64\include;C:\Qt\5.11.1\msvc2017_64\include\QtOpenGL;C:\Qt\5.11.1\msvc2017_64\include\QtWidgets;C:\Qt\5.11.1\msvc2017_64\include\QtGui;C:\Qt\5.11.1\msvc2017_64\include\QtCore;C:\Qt\5.11.1\msvc2017_64\.\mkspecs\win32-msvc;C:\Qt\5.11.1\msvc2017_64\include\QtANGLE;C:\Qt\5.11.1\msvc2017_64\include\QtConcurrent;C:\Qt\5.11.1\msvc2017_64\include\QtPrintSupport;C:\qCMAT-master\CC\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\qCMAT-master\CC\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/qCMAT-master/CC/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/qCMAT-master -BC:/qCMAT-master/build --check-stamp-file C:/qCMAT-master/build/CC/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/qCMAT-master/CC/CMakeLists.txt;C:\qCMAT-master\CC\CMakeLists.txt;C:\qCMAT-master\cmake\CMakePolicies.cmake;C:\qCMAT-master\cmake\CMakeSetCompilerOptions.cmake;C:\qCMAT-master\cmake\CMakeExternalLibs.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QFlatpakThemePlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfigVersion.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfig.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupport_QWindowsPrinterSupportPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfigVersion.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfig.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5OpenGLExtensions\Qt5OpenGLExtensionsConfigVersion.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5OpenGLExtensions\Qt5OpenGLExtensionsConfig.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Svg\Qt5SvgConfigVersion.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Svg\Qt5SvgConfig.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Svg\Qt5Svg_QSvgIconPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Svg\Qt5Svg_QSvgPlugin.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\qCMAT-master\cmake\CMakeInclude.cmake;C:\qCMAT-master\CC\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\qCMAT-master\build\CC\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/qCMAT-master/CC/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/qCMAT-master -BC:/qCMAT-master/build --check-stamp-file C:/qCMAT-master/build/CC/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/qCMAT-master/CC/CMakeLists.txt;C:\qCMAT-master\CC\CMakeLists.txt;C:\qCMAT-master\cmake\CMakePolicies.cmake;C:\qCMAT-master\cmake\CMakeSetCompilerOptions.cmake;C:\qCMAT-master\cmake\CMakeExternalLibs.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QFlatpakThemePlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfigVersion.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfig.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupport_QWindowsPrinterSupportPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfigVersion.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfig.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5OpenGLExtensions\Qt5OpenGLExtensionsConfigVersion.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5OpenGLExtensions\Qt5OpenGLExtensionsConfig.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Svg\Qt5SvgConfigVersion.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Svg\Qt5SvgConfig.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Svg\Qt5Svg_QSvgIconPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Svg\Qt5Svg_QSvgPlugin.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\qCMAT-master\cmake\CMakeInclude.cmake;C:\qCMAT-master\CC\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\qCMAT-master\build\CC\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/qCMAT-master/CC/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/qCMAT-master -BC:/qCMAT-master/build --check-stamp-file C:/qCMAT-master/build/CC/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/qCMAT-master/CC/CMakeLists.txt;C:\qCMAT-master\CC\CMakeLists.txt;C:\qCMAT-master\cmake\CMakePolicies.cmake;C:\qCMAT-master\cmake\CMakeSetCompilerOptions.cmake;C:\qCMAT-master\cmake\CMakeExternalLibs.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QFlatpakThemePlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfigVersion.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfig.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupport_QWindowsPrinterSupportPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfigVersion.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfig.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5OpenGLExtensions\Qt5OpenGLExtensionsConfigVersion.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5OpenGLExtensions\Qt5OpenGLExtensionsConfig.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Svg\Qt5SvgConfigVersion.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Svg\Qt5SvgConfig.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Svg\Qt5Svg_QSvgIconPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Svg\Qt5Svg_QSvgPlugin.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\qCMAT-master\cmake\CMakeInclude.cmake;C:\qCMAT-master\CC\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\qCMAT-master\build\CC\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/qCMAT-master/CC/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/qCMAT-master -BC:/qCMAT-master/build --check-stamp-file C:/qCMAT-master/build/CC/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/qCMAT-master/CC/CMakeLists.txt;C:\qCMAT-master\CC\CMakeLists.txt;C:\qCMAT-master\cmake\CMakePolicies.cmake;C:\qCMAT-master\cmake\CMakeSetCompilerOptions.cmake;C:\qCMAT-master\cmake\CMakeExternalLibs.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QFlatpakThemePlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseArguments.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfigVersion.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfig.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupport_QWindowsPrinterSupportPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfigVersion.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfig.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5OpenGLExtensions\Qt5OpenGLExtensionsConfigVersion.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5OpenGLExtensions\Qt5OpenGLExtensionsConfig.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Svg\Qt5SvgConfigVersion.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Svg\Qt5SvgConfig.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Svg\Qt5Svg_QSvgIconPlugin.cmake;C:\Qt\5.11.1\msvc2017_64\lib\cmake\Qt5Svg\Qt5Svg_QSvgPlugin.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\qCMAT-master\cmake\CMakeInclude.cmake;C:\qCMAT-master\CC\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\qCMAT-master\build\CC\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\qCMAT-master\build\ZERO_CHECK.vcxproj">
+      <Project>{33F4B04D-ED4E-3B47-9A0B-B868189AF094}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\qCMAT-master\build\CC\CC_CORE_LIB.vcxproj">
+      <Project>{FD2CAE91-5648-3F51-BDCE-0C2CC6F5AF04}</Project>
+      <Name>CC_CORE_LIB</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

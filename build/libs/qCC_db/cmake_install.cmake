@@ -1,8 +1,8 @@
-# Install script for directory: /home/chrome/work/CloudCompare/qCMAT/libs/qCC_db
+# Install script for directory: C:/qCMAT-master/libs/qCC_db
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files/CloudCompareProjects")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "")
+    set(CMAKE_INSTALL_CONFIG_NAME "Release")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -27,41 +27,44 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
-# Install shared libraries without execute permission?
-if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  set(CMAKE_INSTALL_SO_NO_EXE "0")
-endif()
-
 # Is this installation the result of a crosscompile?
 if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}/usr/local/lib/cloudcompare/libQCC_DB_LIB.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/lib/cloudcompare/libQCC_DB_LIB.so")
-    file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/usr/local/lib/cloudcompare/libQCC_DB_LIB.so"
-         RPATH "/usr/local/lib/cloudcompare")
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/CloudCompare" TYPE SHARED_LIBRARY FILES "C:/qCMAT-master/build/libs/qCC_db/Release/QCC_DB_LIB.dll")
   endif()
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/local/lib/cloudcompare/libQCC_DB_LIB.so")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/CloudCompare_withDebInfo" TYPE SHARED_LIBRARY FILES "C:/qCMAT-master/build/libs/qCC_db/RelWithDebInfo/QCC_DB_LIB.dll")
   endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/CloudCompare_debug" TYPE SHARED_LIBRARY FILES "C:/qCMAT-master/build/libs/qCC_db/Debug/QCC_DB_LIBd.dll")
   endif()
-file(INSTALL DESTINATION "/usr/local/lib/cloudcompare" TYPE SHARED_LIBRARY FILES "/home/chrome/work/CloudCompare/qCMAT/build/libs/qCC_db/libQCC_DB_LIB.so")
-  if(EXISTS "$ENV{DESTDIR}/usr/local/lib/cloudcompare/libQCC_DB_LIB.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/lib/cloudcompare/libQCC_DB_LIB.so")
-    file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}/usr/local/lib/cloudcompare/libQCC_DB_LIB.so"
-         OLD_RPATH "/home/chrome/work/CloudCompare/qCMAT/build/CC:"
-         NEW_RPATH "/usr/local/lib/cloudcompare")
-    if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/usr/local/lib/cloudcompare/libQCC_DB_LIB.so")
-    endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/ccViewer" TYPE SHARED_LIBRARY FILES "C:/qCMAT-master/build/libs/qCC_db/Release/QCC_DB_LIB.dll")
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/ccViewer_withDebInfo" TYPE SHARED_LIBRARY FILES "C:/qCMAT-master/build/libs/qCC_db/RelWithDebInfo/QCC_DB_LIB.dll")
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/ccViewer_debug" TYPE SHARED_LIBRARY FILES "C:/qCMAT-master/build/libs/qCC_db/Debug/QCC_DB_LIBd.dll")
   endif()
 endif()
 

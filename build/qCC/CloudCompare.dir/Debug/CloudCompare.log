@@ -1,0 +1,179 @@
+﻿  Automatic MOC for target CloudCompare
+  Generating ui_aboutDlg.h
+  Generating ui_adjustZoomDlg.h
+  Generating ui_alignDlg.h
+  Generating ui_applyTransformationDlg.h
+  Generating ui_askOneDoubleValueDlg.h
+  Generating ui_askOneIntValueDlg.h
+  Generating ui_askOneStringDlg.h
+  Generating ui_askThreeDoubleValuesDlg.h
+  Generating ui_askTwoDoubleValuesDlg.h
+  Generating ui_boundingBoxEditorDlg.h
+  Generating ui_camSensorProjectDlg.h
+  Generating ui_cameraParamDlg.h
+  Generating ui_clippingBoxDlg.h
+  Generating ui_clippingBoxRepeatDlg.h
+  Generating ui_colorGradientDlg.h
+  Generating ui_colorLevelsDlg.h
+  Generating ui_colorScaleEditorDlg.h
+  Generating ui_commandLineDlg.h
+  Generating ui_comparisonDlg.h
+  Generating ui_computeOctreeDlg.h
+  Generating ui_contourExtractorDlg.h
+  Generating ui_curvatureDlg.h
+  Generating ui_densityDlg.h
+  Generating ui_dipDirTransformationDlg.h
+  Generating ui_displayOptionsDlg.h
+  Generating ui_distanceMapDlg.h
+  Generating ui_exportCoordToSFDlg.h
+  Generating ui_filterByValueDlg.h
+  Generating ui_gblSensorProjectDlg.h
+  Generating ui_globalShiftSettingsDlg.h
+  Generating ui_graphicalSegmentationDlg.h
+  Generating ui_graphicalTransformationDlg.h
+  Generating ui_heightGridGenerationDlg.h
+  Generating ui_histogramDlg.h
+  Generating ui_interpolationDlg.h
+  Generating ui_itemSelectionDlg.h
+  Generating ui_labelingDlg.h
+  Generating ui_mainWindow.h
+  Generating ui_matchScalesDlg.h
+  Generating ui_matrixDisplayDlg.h
+  Generating ui_noiseFilterDlg.h
+  Generating ui_normalComputationDlg.h
+  Generating ui_orthoSectionGenerationDlg.h
+  Generating ui_pickOneElementDlg.h
+  Generating ui_planeEditDlg.h
+  Generating ui_pointListPickingDlg.h
+  Generating ui_pointPairRegistrationDlg.h
+  Generating ui_pointPropertiesDlg.h
+  Generating ui_primitiveFactoryDlg.h
+  Generating ui_ptsSamplingDlg.h
+  Generating ui_rasterExportOptionsDlg.h
+  Generating ui_rasterizeDlg.h
+  Generating ui_registrationDlg.h
+  Generating ui_renderToFileDialog.h
+  Generating ui_roleChoiceDlg.h
+  Generating ui_scalarFieldFromColorDlg.h
+  Generating ui_scaleDlg.h
+  Generating ui_sectionExtractionDlg.h
+  Generating ui_sectionExtractionSubDlg.h
+  Generating ui_selectChildrenDlg.h
+  Generating ui_sensorComputeDistancesDlg.h
+  Generating ui_sensorComputeScatteringAnglesDlg.h
+  Generating ui_sfArithmeticsDlg.h
+  Generating ui_sfEditDlg.h
+  Generating ui_sorFilterDlg.h
+  Generating ui_statisticalTestDlg.h
+  Generating ui_stereoModeDlg.h
+  Generating ui_subsamplingDlg.h
+  Generating ui_tracePolylineDlg.h
+  Generating ui_unrollDlg.h
+  Generating ui_volumeCalcDlg.h
+  Generating ui_waveDlg.h
+  Generating ui_ccPluginInfoDlg.h
+  Generating qrc_icones.cpp
+  Generating qrc_pluginManager.cpp
+  Building Custom Rule C:/qCMAT-master/qCC/CMakeLists.txt
+  CMake does not need to re-run because C:/qCMAT-master/build/qCC/CMakeFiles/generate.stamp is up-to-date.
+  cc2.5DimEditor.cpp
+  ccAboutDialog.cpp
+  ccAdjustZoomDlg.cpp
+  ccAlignDlg.cpp
+  ccApplication.cpp
+  ccApplyTransformationDlg.cpp
+  ccAskThreeDoubleValuesDlg.cpp
+  ccAskTwoDoubleValuesDlg.cpp
+  ccBoundingBoxEditorDlg.cpp
+  ccCamSensorProjectionDlg.cpp
+  ccCameraParamEditDlg.cpp
+  ccClippingBoxRepeatDlg.cpp
+  ccClippingBoxTool.cpp
+  ccColorGradientDlg.cpp
+  ccColorLevelsDlg.cpp
+  ccColorScaleEditorDlg.cpp
+  ccColorScaleEditorWidget.cpp
+  ccColorScaleSelector.cpp
+  ccCommandLineParser.cpp
+  ccComparisonDlg.cpp
+  Generating Code...
+  Compiling...
+  ccComputeOctreeDlg.cpp
+  ccConsole.cpp
+  ccContourExtractor.cpp
+  ccContourExtractorDlg.cpp
+  ccCropTool.cpp
+  ccCurvatureDlg.cpp
+  ccDensityDlg.cpp
+  ccDisplayOptionsDlg.cpp
+  ccEntityAction.cpp
+c:\qcmat-master\qcc\ccentityaction.cpp(1557): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  ccExportCoordToSFDlg.cpp
+  ccFilterByValueDlg.cpp
+  ccGBLSensorProjectionDlg.cpp
+  ccGraphicalSegmentationTool.cpp
+  ccGraphicalTransformationTool.cpp
+  ccHistogramWindow.cpp
+  ccInnerRect2DFinder.cpp
+  ccInterpolationDlg.cpp
+  ccItemSelectionDlg.cpp
+  ccLabelingDlg.cpp
+  ccLibAlgorithms.cpp
+  Generating Code...
+  Compiling...
+  ccMatchScalesDlg.cpp
+  ccNoiseFilterDlg.cpp
+  ccNormalComputationDlg.cpp
+  ccOptions.cpp
+  ccOrderChoiceDlg.cpp
+  ccOrthoSectionGenerationDlg.cpp
+  ccOverlayDialog.cpp
+  ccPickOneElementDlg.cpp
+  ccPickingHub.cpp
+  ccPlaneEditDlg.cpp
+  ccPointListPickingDlg.cpp
+  ccPointPairRegistrationDlg.cpp
+  ccPointPickingGenericInterface.cpp
+  ccPointPropertiesDlg.cpp
+  ccPrimitiveFactoryDlg.cpp
+  ccPtsSamplingDlg.cpp
+  ccRasterizeTool.cpp
+  ccRecentFiles.cpp
+  ccRegistrationDlg.cpp
+  ccRegistrationTools.cpp
+  Generating Code...
+  Compiling...
+  ccRenderToFileDlg.cpp
+  ccSORFilterDlg.cpp
+  ccScalarFieldArithmeticsDlg.cpp
+  ccScalarFieldFromColorDlg.cpp
+  ccScaleDlg.cpp
+  ccSectionExtractionSubDlg.cpp
+  ccSectionExtractionTool.cpp
+  ccSelectChildrenDlg.cpp
+  ccSensorComputeDistancesDlg.cpp
+  ccSensorComputeScatteringAnglesDlg.cpp
+  ccStatisticalTestDlg.cpp
+  ccStereoModeDlg.cpp
+  ccSubsamplingDlg.cpp
+  ccTracePolylineTool.cpp
+  ccUnrollDlg.cpp
+  ccUtils.cpp
+  ccVolumeCalcTool.cpp
+  ccWaveformDialog.cpp
+  main.cpp
+  mainwindow.cpp
+  Generating Code...
+  Compiling...
+  ccDBRoot.cpp
+  ccPropertiesTreeDelegate.cpp
+  matrixDisplayDlg.cpp
+  sfEditDlg.cpp
+  ccPluginInfoDlg.cpp
+  ccPluginManager.cpp
+  ccPluginUIManager.cpp
+  qrc_icones.cpp
+  qrc_pluginManager.cpp
+  mocs_compilation.cpp
+  Generating Code...
+  CloudCompare.vcxproj -> C:\qCMAT-master\build\qCC\Debug\CloudCompare.exe

@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\qCMAT-master\ccViewer\ccViewerApplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\ccViewer\ccviewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\ccViewer\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\qCC\ccCameraParamEditDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\qCC\ccDisplayOptionsDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\qCC\ccOptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\qCC\ccOverlayDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\qCC\ccPickingHub.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\qCC\ccPickOneElementDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\qCC\ccStereoModeDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\qCC\pluginManager\ccPluginManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\build\ccViewer\qrc_icones.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\qCMAT-master\build\ccViewer\ccViewer_autogen\mocs_compilation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\qCMAT-master\ccViewer\ccViewerApplication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\ccViewer\ccviewer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\ccViewer\ccviewerlog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\qCC\ccCameraParamEditDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\qCC\ccDisplayOptionsDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\qCC\ccOptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\qCC\ccOverlayDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\qCC\ccPickingHub.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\qCC\ccPickOneElementDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\qCC\ccStereoModeDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\qCC\pluginManager\ccPluginManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\build\ccViewer\ui_ccviewer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\build\ccViewer\ui_ccviewerAbout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\build\ccViewer\ui_cameraParamDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\build\ccViewer\ui_displayOptionsDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\build\ccViewer\ui_pickOneElementDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\qCMAT-master\build\ccViewer\ui_stereoModeDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\qCMAT-master\ccViewer\ui_templates\ccviewer.ui" />
+    <CustomBuild Include="C:\qCMAT-master\ccViewer\ui_templates\ccviewerAbout.ui" />
+    <CustomBuild Include="C:\qCMAT-master\qCC\ui_templates\cameraParamDlg.ui" />
+    <CustomBuild Include="C:\qCMAT-master\qCC\ui_templates\displayOptionsDlg.ui" />
+    <CustomBuild Include="C:\qCMAT-master\qCC\ui_templates\pickOneElementDlg.ui" />
+    <CustomBuild Include="C:\qCMAT-master\qCC\ui_templates\stereoModeDlg.ui" />
+    <CustomBuild Include="C:\qCMAT-master\qCC\icones.qrc" />
+    <CustomBuild Include="C:\qCMAT-master\ccViewer\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\qCMAT-master\ccViewer\images\icon\cc_viewer_icon.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{29266BC9-90CC-38EE-A5DB-5287B3D79935}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D17B82EC-192C-32A8-A554-A162E801BFE4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

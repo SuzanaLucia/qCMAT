@@ -1,13 +1,41 @@
-/usr/local/lib/cloudcompare/libCC_CORE_LIB.so
-/usr/local/lib/cloudcompare/libQCC_DB_LIB.so
-/usr/local/lib/cloudcompare/libQCC_IO_LIB.so
-/usr/local/lib/cloudcompare/plugins/libQCOMPASS_PLUGIN.so
-/usr/local/lib/cloudcompare/plugins/libqCMAT.so
-/usr/local/bin/CloudCompare
-/usr/local/share/cloudcompare/CHANGELOG.md
-/usr/local/share/cloudcompare/license.txt
-/usr/local/share/cloudcompare/global_shift_list_template.txt
-/usr/local/share/cloudcompare/shaders/Bilateral/bilateral.frag
-/usr/local/share/cloudcompare/shaders/Bilateral/bilateral.vert
-/usr/local/share/cloudcompare/shaders/ColorRamp/color_ramp.frag
-/usr/local/bin/ccViewer
+C:/Program Files/CloudCompareProjects/CloudCompare_debug/CC_CORE_LIBd.dll
+C:/Program Files/CloudCompareProjects/ccViewer_debug/CC_CORE_LIBd.dll
+C:/Program Files/CloudCompareProjects/CloudCompare_debug/QCC_DB_LIBd.dll
+C:/Program Files/CloudCompareProjects/ccViewer_debug/QCC_DB_LIBd.dll
+C:/Program Files/CloudCompareProjects/CloudCompare_debug/QCC_IO_LIBd.dll
+C:/Program Files/CloudCompareProjects/ccViewer_debug/QCC_IO_LIBd.dll
+C:/Program Files/CloudCompareProjects/CloudCompare_debug/plugins/QCOMPASS_PLUGINd.dll
+C:/Program Files/CloudCompareProjects/CloudCompare_debug/plugins/qCMATd.dll
+C:/Program Files/CloudCompareProjects/CloudCompare_debug/CloudCompare.exe
+C:/Program Files/CloudCompareProjects/CloudCompare_debug/Qt5Cored.dll
+C:/Program Files/CloudCompareProjects/CloudCompare_debug/Qt5Guid.dll
+C:/Program Files/CloudCompareProjects/CloudCompare_debug/Qt5OpenGLd.dll
+C:/Program Files/CloudCompareProjects/CloudCompare_debug/Qt5Widgetsd.dll
+C:/Program Files/CloudCompareProjects/CloudCompare_debug/Qt5Concurrentd.dll
+C:/Program Files/CloudCompareProjects/CloudCompare_debug/Qt5PrintSupportd.dll
+C:/Program Files/CloudCompareProjects/CloudCompare_debug/Qt5Svgd.dll
+C:/Program Files/CloudCompareProjects/CloudCompare_debug/imageformats/qgifd.dll
+C:/Program Files/CloudCompareProjects/CloudCompare_debug/imageformats/qicod.dll
+C:/Program Files/CloudCompareProjects/CloudCompare_debug/imageformats/qjpegd.dll
+C:/Program Files/CloudCompareProjects/CloudCompare_debug/platforms/qwindowsd.dll
+C:/Program Files/CloudCompareProjects/CloudCompare_debug/CHANGELOG.md
+C:/Program Files/CloudCompareProjects/CloudCompare_debug/license.txt
+C:/Program Files/CloudCompareProjects/CloudCompare_debug/global_shift_list_template.txt
+C:/Program Files/CloudCompareProjects/CloudCompare_debug/start.bat
+C:/Program Files/CloudCompareProjects/CloudCompare_debug/start_chinese.bat
+C:/Program Files/CloudCompareProjects/CloudCompare_debug/start_french.bat
+C:/Program Files/CloudCompareProjects/CloudCompare_debug/shaders/Bilateral/bilateral.frag
+C:/Program Files/CloudCompareProjects/CloudCompare_debug/shaders/Bilateral/bilateral.vert
+C:/Program Files/CloudCompareProjects/CloudCompare_debug/shaders/ColorRamp/color_ramp.frag
+C:/Program Files/CloudCompareProjects/ccViewer_debug/ccViewer.exe
+C:/Program Files/CloudCompareProjects/ccViewer_debug/Qt5Cored.dll
+C:/Program Files/CloudCompareProjects/ccViewer_debug/Qt5Guid.dll
+C:/Program Files/CloudCompareProjects/ccViewer_debug/Qt5OpenGLd.dll
+C:/Program Files/CloudCompareProjects/ccViewer_debug/Qt5Widgetsd.dll
+C:/Program Files/CloudCompareProjects/ccViewer_debug/Qt5Concurrentd.dll
+C:/Program Files/CloudCompareProjects/ccViewer_debug/Qt5PrintSupportd.dll
+C:/Program Files/CloudCompareProjects/ccViewer_debug/Qt5Svgd.dll
+C:/Program Files/CloudCompareProjects/ccViewer_debug/platforms/qwindowsd.dll
+C:/Program Files/CloudCompareProjects/ccViewer_debug/license.txt
+C:/Program Files/CloudCompareProjects/ccViewer_debug/start.bat
+C:/Program Files/CloudCompareProjects/ccViewer_debug/shaders/ColorRamp/color_ramp.frag

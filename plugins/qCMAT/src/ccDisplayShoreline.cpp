@@ -48,7 +48,7 @@ void ccDisplayShoreline::extractShorelines(){
 	//get waterlevel
 	float waterLevel = WaterLevel->text().toFloat(isValidWaterlevel);
 	//make sure we have a valid water level
-	if(WaterLevel->text().size() == 0 || (not *isValidWaterlevel)){
+        if(WaterLevel->text().size() == 0 || (! *isValidWaterlevel)){
 		//report!
 		m_app->dispToConsole("Enter a valid water level first.");
 		//user hasnt entered input yet
@@ -112,7 +112,7 @@ void ccDisplayShoreline::save2Dplot(){
 	//get waterlevel
 	float waterLevel = WaterLevel->text().toFloat(isValidWaterlevel);
 	//make sure we have a valid water level
-	if(WaterLevel->text().size() == 0 || (not *isValidWaterlevel)){
+        if(WaterLevel->text().size() == 0 || (! *isValidWaterlevel)){
 		//report!
 		m_app->dispToConsole("Enter a valid water level first.");
 		//user hasnt entered input yet

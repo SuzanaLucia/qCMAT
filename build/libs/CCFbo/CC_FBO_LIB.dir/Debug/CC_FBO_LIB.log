@@ -1,0 +1,9 @@
+﻿  Automatic MOC for target CC_FBO_LIB
+  Building Custom Rule C:/qCMAT-master/libs/CCFbo/CMakeLists.txt
+  CMake does not need to re-run because C:/qCMAT-master/build/libs/CCFbo/CMakeFiles/generate.stamp is up-to-date.
+  ccBilateralFilter.cpp
+  ccFrameBufferObject.cpp
+  ccShader.cpp
+  mocs_compilation.cpp
+  Generating Code...
+  CC_FBO_LIB.vcxproj -> C:\qCMAT-master\build\libs\CCFbo\Debug\CC_FBO_LIBd.lib

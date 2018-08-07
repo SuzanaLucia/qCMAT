@@ -1,330 +1,284 @@
-The system is: Linux - 4.16.9-1-ARCH - x86_64
+The system is: Windows - 10.0.17134 - AMD64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: /usr/bin/cc 
+Compiler:  
 Build flags: 
 Id flags:  
 
 The output was:
 0
+Microsoft (R) Build Engine version 15.7.180.61344 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 01/08/2018 15:26:10.
+Project "C:\qCMAT-master\build\CMakeFiles\3.11.4\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\qCMAT-master\build\CMakeFiles\3.11.4\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\Hostx86\x64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "C:\qCMAT-master\build\CMakeFiles\3.11.4\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:11.16
 
 
-Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
 
-The C compiler identification is GNU, found in "/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/3.11.1/CompilerIdC/a.out"
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/qCMAT-master/build/CMakeFiles/3.11.4/CompilerIdC/CompilerIdC.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /usr/bin/c++ 
+Compiler:  
 Build flags: 
 Id flags:  
 
 The output was:
 0
+Microsoft (R) Build Engine version 15.7.180.61344 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 01/08/2018 15:26:23.
+Project "C:\qCMAT-master\build\CMakeFiles\3.11.4\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\qCMAT-master\build\CMakeFiles\3.11.4\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\Hostx86\x64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "C:\qCMAT-master\build\CMakeFiles\3.11.4\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:07.21
 
 
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
 
-The CXX compiler identification is GNU, found in "/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/3.11.1/CompilerIdCXX/a.out"
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/qCMAT-master/build/CMakeFiles/3.11.4/CompilerIdCXX/CompilerIdCXX.exe"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp
+Change Dir: C:/qCMAT-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_aa94a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_aa94a.dir/build.make CMakeFiles/cmTC_aa94a.dir/build
-make[1]: Entering directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_aa94a.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_aa94a.dir/testCCompiler.c.o   -c /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_aa94a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa94a.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_aa94a.dir/testCCompiler.c.o  -o cmTC_aa94a 
-make[1]: Leaving directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_4fc6e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.7.180.61344 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 01/08/2018 15:26:33.
+Project "C:\qCMAT-master\build\CMakeFiles\CMakeTmp\cmTC_4fc6e.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_4fc6e.dir\Debug\".
+  Creating directory "C:\qCMAT-master\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_4fc6e.dir\Debug\cmTC_4fc6e.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_4fc6e.dir\Debug\cmTC_4fc6e.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4fc6e.dir\Debug\\" /Fd"cmTC_4fc6e.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\qCMAT-master\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.14.26433 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4fc6e.dir\Debug\\" /Fd"cmTC_4fc6e.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\qCMAT-master\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\qCMAT-master\build\CMakeFiles\CMakeTmp\Debug\cmTC_4fc6e.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/qCMAT-master/build/CMakeFiles/CMakeTmp/Debug/cmTC_4fc6e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/qCMAT-master/build/CMakeFiles/CMakeTmp/Debug/cmTC_4fc6e.lib" /MACHINE:X64  /machine:x64 cmTC_4fc6e.dir\Debug\testCCompiler.obj
+  cmTC_4fc6e.vcxproj -> C:\qCMAT-master\build\CMakeFiles\CMakeTmp\Debug\cmTC_4fc6e.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_4fc6e.dir\Debug\cmTC_4fc6e.tlog\unsuccessfulbuild".
+  Touching "cmTC_4fc6e.dir\Debug\cmTC_4fc6e.tlog\cmTC_4fc6e.lastbuildstate".
+Done Building Project "C:\qCMAT-master\build\CMakeFiles\CMakeTmp\cmTC_4fc6e.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:06.39
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp
+Change Dir: C:/qCMAT-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d6e9b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d6e9b.dir/build.make CMakeFiles/cmTC_d6e9b.dir/build
-make[1]: Entering directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d6e9b.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_d6e9b.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.11/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_d6e9b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6e9b.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_d6e9b.dir/CMakeCCompilerABI.c.o  -o cmTC_d6e9b 
-Using built-in specs.
-COLLECT_GCC=/usr/bin/cc
-COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/lto-wrapper
-Target: x86_64-pc-linux-gnu
-Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release --enable-default-pie --enable-default-ssp
-Thread model: posix
-gcc version 8.1.0 (GCC) 
-COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/
-LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d6e9b' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0qmOCU.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d6e9b /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../.. CMakeFiles/cmTC_d6e9b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d6e9b' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-
-
-Parsed C implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp]
-  ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_d6e9b/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_d6e9b.dir/build.make CMakeFiles/cmTC_d6e9b.dir/build]
-  ignore line: [make[1]: Entering directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_d6e9b.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_d6e9b.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.11/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_d6e9b]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6e9b.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_d6e9b.dir/CMakeCCompilerABI.c.o  -o cmTC_d6e9b ]
-  ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/usr/bin/cc]
-  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/lto-wrapper]
-  ignore line: [Target: x86_64-pc-linux-gnu]
-  ignore line: [Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release --enable-default-pie --enable-default-ssp]
-  ignore line: [Thread model: posix]
-  ignore line: [gcc version 8.1.0 (GCC) ]
-  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d6e9b' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0qmOCU.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d6e9b /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../.. CMakeFiles/cmTC_d6e9b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/crtn.o]
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/collect2] ==> ignore
-    arg [-plugin] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/liblto_plugin.so] ==> ignore
-    arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc0qmOCU.res] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-    arg [-plugin-opt=-pass-through=-lc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-    arg [--build-id] ==> ignore
-    arg [--eh-frame-hdr] ==> ignore
-    arg [--hash-style=gnu] ==> ignore
-    arg [-m] ==> ignore
-    arg [elf_x86_64] ==> ignore
-    arg [-export-dynamic] ==> ignore
-    arg [-dynamic-linker] ==> ignore
-    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
-    arg [-pie] ==> ignore
-    arg [-o] ==> ignore
-    arg [cmTC_d6e9b] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/Scrt1.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/crti.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/crtbeginS.o] ==> ignore
-    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0]
-    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib]
-    arg [-L/lib/../lib] ==> dir [/lib/../lib]
-    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
-    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../..]
-    arg [CMakeFiles/cmTC_d6e9b.dir/CMakeCCompilerABI.c.o] ==> ignore
-    arg [-lgcc] ==> lib [gcc]
-    arg [--as-needed] ==> ignore
-    arg [-lgcc_s] ==> lib [gcc_s]
-    arg [--no-as-needed] ==> ignore
-    arg [-lc] ==> lib [c]
-    arg [-lgcc] ==> lib [gcc]
-    arg [--as-needed] ==> ignore
-    arg [-lgcc_s] ==> lib [gcc_s]
-    arg [--no-as-needed] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/crtendS.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/crtn.o] ==> ignore
-  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0]
-  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib] ==> [/usr/lib]
-  collapse library dir [/lib/../lib] ==> [/lib]
-  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
-  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../..] ==> [/usr/lib]
-  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
-  implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0;/usr/lib;/lib]
-  implicit fwks: []
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_45720.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.7.180.61344 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 01/08/2018 15:26:42.
+Project "C:\qCMAT-master\build\CMakeFiles\CMakeTmp\cmTC_45720.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_45720.dir\Debug\".
+  Creating directory "C:\qCMAT-master\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_45720.dir\Debug\cmTC_45720.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_45720.dir\Debug\cmTC_45720.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_45720.dir\Debug\\" /Fd"cmTC_45720.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.14.26433 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_45720.dir\Debug\\" /Fd"cmTC_45720.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\qCMAT-master\build\CMakeFiles\CMakeTmp\Debug\cmTC_45720.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/qCMAT-master/build/CMakeFiles/CMakeTmp/Debug/cmTC_45720.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/qCMAT-master/build/CMakeFiles/CMakeTmp/Debug/cmTC_45720.lib" /MACHINE:X64  /machine:x64 cmTC_45720.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_45720.vcxproj -> C:\qCMAT-master\build\CMakeFiles\CMakeTmp\Debug\cmTC_45720.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_45720.dir\Debug\cmTC_45720.tlog\unsuccessfulbuild".
+  Touching "cmTC_45720.dir\Debug\cmTC_45720.tlog\cmTC_45720.lastbuildstate".
+Done Building Project "C:\qCMAT-master\build\CMakeFiles\CMakeTmp\cmTC_45720.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:07.54
 
 
-
-
-Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_2c880/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2c880.dir/build.make CMakeFiles/cmTC_2c880.dir/build
-make[1]: Entering directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2c880.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_2c880.dir/feature_tests.c.o   -c /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_2c880
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c880.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_2c880.dir/feature_tests.c.o  -o cmTC_2c880 
-make[1]: Leaving directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-
-
-    Feature record: C_FEATURE:1c_function_prototypes
-    Feature record: C_FEATURE:1c_restrict
-    Feature record: C_FEATURE:1c_static_assert
-    Feature record: C_FEATURE:1c_variadic_macros
-
-
-Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_57918/fast"
-/usr/bin/make -f CMakeFiles/cmTC_57918.dir/build.make CMakeFiles/cmTC_57918.dir/build
-make[1]: Entering directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_57918.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_57918.dir/feature_tests.c.o   -c /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_57918
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57918.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_57918.dir/feature_tests.c.o  -o cmTC_57918 
-make[1]: Leaving directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-
-
-    Feature record: C_FEATURE:1c_function_prototypes
-    Feature record: C_FEATURE:1c_restrict
-    Feature record: C_FEATURE:0c_static_assert
-    Feature record: C_FEATURE:1c_variadic_macros
-
-
-Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_eb284/fast"
-/usr/bin/make -f CMakeFiles/cmTC_eb284.dir/build.make CMakeFiles/cmTC_eb284.dir/build
-make[1]: Entering directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_eb284.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_eb284.dir/feature_tests.c.o   -c /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_eb284
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb284.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_eb284.dir/feature_tests.c.o  -o cmTC_eb284 
-make[1]: Leaving directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-
-
-    Feature record: C_FEATURE:1c_function_prototypes
-    Feature record: C_FEATURE:0c_restrict
-    Feature record: C_FEATURE:0c_static_assert
-    Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp
+Change Dir: C:/qCMAT-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_07ae1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_07ae1.dir/build.make CMakeFiles/cmTC_07ae1.dir/build
-make[1]: Entering directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_07ae1.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_07ae1.dir/testCXXCompiler.cxx.o -c /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_07ae1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07ae1.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_07ae1.dir/testCXXCompiler.cxx.o  -o cmTC_07ae1 
-make[1]: Leaving directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_82183.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.7.180.61344 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 01/08/2018 15:26:52.
+Project "C:\qCMAT-master\build\CMakeFiles\CMakeTmp\cmTC_82183.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_82183.dir\Debug\".
+  Creating directory "C:\qCMAT-master\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_82183.dir\Debug\cmTC_82183.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_82183.dir\Debug\cmTC_82183.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_82183.dir\Debug\\" /Fd"cmTC_82183.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\qCMAT-master\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.14.26433 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_82183.dir\Debug\\" /Fd"cmTC_82183.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\qCMAT-master\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  
+  testCXXCompiler.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\qCMAT-master\build\CMakeFiles\CMakeTmp\Debug\cmTC_82183.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/qCMAT-master/build/CMakeFiles/CMakeTmp/Debug/cmTC_82183.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/qCMAT-master/build/CMakeFiles/CMakeTmp/Debug/cmTC_82183.lib" /MACHINE:X64  /machine:x64 cmTC_82183.dir\Debug\testCXXCompiler.obj
+  cmTC_82183.vcxproj -> C:\qCMAT-master\build\CMakeFiles\CMakeTmp\Debug\cmTC_82183.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_82183.dir\Debug\cmTC_82183.tlog\unsuccessfulbuild".
+  Touching "cmTC_82183.dir\Debug\cmTC_82183.tlog\cmTC_82183.lastbuildstate".
+Done Building Project "C:\qCMAT-master\build\CMakeFiles\CMakeTmp\cmTC_82183.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:05.76
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp
+Change Dir: C:/qCMAT-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c0c6d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c0c6d.dir/build.make CMakeFiles/cmTC_c0c6d.dir/build
-make[1]: Entering directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c0c6d.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_c0c6d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_c0c6d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0c6d.dir/link.txt --verbose=1
-/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_c0c6d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c0c6d 
-Using built-in specs.
-COLLECT_GCC=/usr/bin/c++
-COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/lto-wrapper
-Target: x86_64-pc-linux-gnu
-Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release --enable-default-pie --enable-default-ssp
-Thread model: posix
-gcc version 8.1.0 (GCC) 
-COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/
-LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_c0c6d' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDoLjgz.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_c0c6d /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../.. CMakeFiles/cmTC_c0c6d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_c0c6d' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-
-
-Parsed CXX implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp]
-  ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_c0c6d/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_c0c6d.dir/build.make CMakeFiles/cmTC_c0c6d.dir/build]
-  ignore line: [make[1]: Entering directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_c0c6d.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_c0c6d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_c0c6d]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0c6d.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_c0c6d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c0c6d ]
-  ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/usr/bin/c++]
-  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/lto-wrapper]
-  ignore line: [Target: x86_64-pc-linux-gnu]
-  ignore line: [Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release --enable-default-pie --enable-default-ssp]
-  ignore line: [Thread model: posix]
-  ignore line: [gcc version 8.1.0 (GCC) ]
-  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_c0c6d' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDoLjgz.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_c0c6d /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../.. CMakeFiles/cmTC_c0c6d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/crtn.o]
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/collect2] ==> ignore
-    arg [-plugin] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/liblto_plugin.so] ==> ignore
-    arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccDoLjgz.res] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [--build-id] ==> ignore
-    arg [--eh-frame-hdr] ==> ignore
-    arg [--hash-style=gnu] ==> ignore
-    arg [-m] ==> ignore
-    arg [elf_x86_64] ==> ignore
-    arg [-export-dynamic] ==> ignore
-    arg [-dynamic-linker] ==> ignore
-    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
-    arg [-pie] ==> ignore
-    arg [-o] ==> ignore
-    arg [cmTC_c0c6d] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/Scrt1.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/crti.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/crtbeginS.o] ==> ignore
-    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0]
-    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib]
-    arg [-L/lib/../lib] ==> dir [/lib/../lib]
-    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
-    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../..]
-    arg [CMakeFiles/cmTC_c0c6d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
-    arg [-lstdc++] ==> lib [stdc++]
-    arg [-lm] ==> lib [m]
-    arg [-lgcc_s] ==> lib [gcc_s]
-    arg [-lgcc] ==> lib [gcc]
-    arg [-lc] ==> lib [c]
-    arg [-lgcc_s] ==> lib [gcc_s]
-    arg [-lgcc] ==> lib [gcc]
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/crtendS.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/crtn.o] ==> ignore
-  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0]
-  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib] ==> [/usr/lib]
-  collapse library dir [/lib/../lib] ==> [/lib]
-  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
-  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../..] ==> [/usr/lib]
-  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
-  implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0;/usr/lib;/lib]
-  implicit fwks: []
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_af9c4.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.7.180.61344 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 01/08/2018 15:26:59.
+Project "C:\qCMAT-master\build\CMakeFiles\CMakeTmp\cmTC_af9c4.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_af9c4.dir\Debug\".
+  Creating directory "C:\qCMAT-master\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_af9c4.dir\Debug\cmTC_af9c4.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_af9c4.dir\Debug\cmTC_af9c4.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_af9c4.dir\Debug\\" /Fd"cmTC_af9c4.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.14.26433 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_af9c4.dir\Debug\\" /Fd"cmTC_af9c4.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\qCMAT-master\build\CMakeFiles\CMakeTmp\Debug\cmTC_af9c4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/qCMAT-master/build/CMakeFiles/CMakeTmp/Debug/cmTC_af9c4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/qCMAT-master/build/CMakeFiles/CMakeTmp/Debug/cmTC_af9c4.lib" /MACHINE:X64  /machine:x64 cmTC_af9c4.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_af9c4.vcxproj -> C:\qCMAT-master\build\CMakeFiles\CMakeTmp\Debug\cmTC_af9c4.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_af9c4.dir\Debug\cmTC_af9c4.tlog\unsuccessfulbuild".
+  Touching "cmTC_af9c4.dir\Debug\cmTC_af9c4.tlog\cmTC_af9c4.lastbuildstate".
+Done Building Project "C:\qCMAT-master\build\CMakeFiles\CMakeTmp\cmTC_af9c4.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:06.14
 
 
 
 
-Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: C:/qCMAT-master/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2bbd8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2bbd8.dir/build.make CMakeFiles/cmTC_2bbd8.dir/build
-make[1]: Entering directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_2bbd8.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_2bbd8.dir/feature_tests.cxx.o -c /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_2bbd8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2bbd8.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_2bbd8.dir/feature_tests.cxx.o  -o cmTC_2bbd8 
-make[1]: Leaving directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_5afaf.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.7.180.61344 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 01/08/2018 15:27:09.
+Project "C:\qCMAT-master\build\CMakeFiles\CMakeTmp\cmTC_5afaf.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_5afaf.dir\Debug\".
+  Creating directory "C:\qCMAT-master\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_5afaf.dir\Debug\cmTC_5afaf.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_5afaf.dir\Debug\cmTC_5afaf.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5afaf.dir\Debug\\" /Fd"cmTC_5afaf.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\qCMAT-master\build\CMakeFiles\feature_tests.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.14.26433 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5afaf.dir\Debug\\" /Fd"cmTC_5afaf.dir\Debug\vc141.pdb" /Gd /TP /FC /errorReport:queue "C:\qCMAT-master\build\CMakeFiles\feature_tests.cxx"
+  
+  feature_tests.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\qCMAT-master\build\CMakeFiles\CMakeTmp\Debug\cmTC_5afaf.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/qCMAT-master/build/CMakeFiles/CMakeTmp/Debug/cmTC_5afaf.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/qCMAT-master/build/CMakeFiles/CMakeTmp/Debug/cmTC_5afaf.lib" /MACHINE:X64  /machine:x64 cmTC_5afaf.dir\Debug\feature_tests.obj
+  cmTC_5afaf.vcxproj -> C:\qCMAT-master\build\CMakeFiles\CMakeTmp\Debug\cmTC_5afaf.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_5afaf.dir\Debug\cmTC_5afaf.tlog\unsuccessfulbuild".
+  Touching "cmTC_5afaf.dir\Debug\cmTC_5afaf.tlog\cmTC_5afaf.lastbuildstate".
+Done Building Project "C:\qCMAT-master\build\CMakeFiles\CMakeTmp\cmTC_5afaf.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:06.40
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -367,7 +321,6 @@ make[1]: Leaving directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFile
     Feature record: CXX_FEATURE:1cxx_range_for
     Feature record: CXX_FEATURE:1cxx_raw_string_literals
     Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
     Feature record: CXX_FEATURE:1cxx_return_type_deduction
     Feature record: CXX_FEATURE:1cxx_right_angle_brackets
     Feature record: CXX_FEATURE:1cxx_rvalue_references
@@ -384,1204 +337,3 @@ make[1]: Leaving directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFile
     Feature record: CXX_FEATURE:1cxx_variable_templates
     Feature record: CXX_FEATURE:1cxx_variadic_macros
     Feature record: CXX_FEATURE:1cxx_variadic_templates
-
-
-Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_c6525/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c6525.dir/build.make CMakeFiles/cmTC_c6525.dir/build
-make[1]: Entering directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c6525.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_c6525.dir/feature_tests.cxx.o -c /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_c6525
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6525.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_c6525.dir/feature_tests.cxx.o  -o cmTC_c6525 
-make[1]: Leaving directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-
-
-    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
-    Feature record: CXX_FEATURE:1cxx_alias_templates
-    Feature record: CXX_FEATURE:1cxx_alignas
-    Feature record: CXX_FEATURE:1cxx_alignof
-    Feature record: CXX_FEATURE:1cxx_attributes
-    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
-    Feature record: CXX_FEATURE:1cxx_auto_type
-    Feature record: CXX_FEATURE:1cxx_binary_literals
-    Feature record: CXX_FEATURE:1cxx_constexpr
-    Feature record: CXX_FEATURE:1cxx_contextual_conversions
-    Feature record: CXX_FEATURE:1cxx_decltype
-    Feature record: CXX_FEATURE:1cxx_decltype_auto
-    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
-    Feature record: CXX_FEATURE:1cxx_default_function_template_args
-    Feature record: CXX_FEATURE:1cxx_defaulted_functions
-    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
-    Feature record: CXX_FEATURE:1cxx_delegating_constructors
-    Feature record: CXX_FEATURE:1cxx_deleted_functions
-    Feature record: CXX_FEATURE:1cxx_digit_separators
-    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
-    Feature record: CXX_FEATURE:1cxx_explicit_conversions
-    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
-    Feature record: CXX_FEATURE:1cxx_extern_templates
-    Feature record: CXX_FEATURE:1cxx_final
-    Feature record: CXX_FEATURE:1cxx_func_identifier
-    Feature record: CXX_FEATURE:1cxx_generalized_initializers
-    Feature record: CXX_FEATURE:1cxx_generic_lambdas
-    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
-    Feature record: CXX_FEATURE:1cxx_inline_namespaces
-    Feature record: CXX_FEATURE:1cxx_lambdas
-    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
-    Feature record: CXX_FEATURE:1cxx_local_type_template_args
-    Feature record: CXX_FEATURE:1cxx_long_long_type
-    Feature record: CXX_FEATURE:1cxx_noexcept
-    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
-    Feature record: CXX_FEATURE:1cxx_nullptr
-    Feature record: CXX_FEATURE:1cxx_override
-    Feature record: CXX_FEATURE:1cxx_range_for
-    Feature record: CXX_FEATURE:1cxx_raw_string_literals
-    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
-    Feature record: CXX_FEATURE:1cxx_return_type_deduction
-    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
-    Feature record: CXX_FEATURE:1cxx_rvalue_references
-    Feature record: CXX_FEATURE:1cxx_sizeof_member
-    Feature record: CXX_FEATURE:1cxx_static_assert
-    Feature record: CXX_FEATURE:1cxx_strong_enums
-    Feature record: CXX_FEATURE:1cxx_template_template_parameters
-    Feature record: CXX_FEATURE:1cxx_thread_local
-    Feature record: CXX_FEATURE:1cxx_trailing_return_types
-    Feature record: CXX_FEATURE:1cxx_unicode_literals
-    Feature record: CXX_FEATURE:1cxx_uniform_initialization
-    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
-    Feature record: CXX_FEATURE:1cxx_user_literals
-    Feature record: CXX_FEATURE:1cxx_variable_templates
-    Feature record: CXX_FEATURE:1cxx_variadic_macros
-    Feature record: CXX_FEATURE:1cxx_variadic_templates
-
-
-Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_fd49f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_fd49f.dir/build.make CMakeFiles/cmTC_fd49f.dir/build
-make[1]: Entering directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_fd49f.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_fd49f.dir/feature_tests.cxx.o -c /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_fd49f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd49f.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_fd49f.dir/feature_tests.cxx.o  -o cmTC_fd49f 
-make[1]: Leaving directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-
-
-    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
-    Feature record: CXX_FEATURE:1cxx_alias_templates
-    Feature record: CXX_FEATURE:1cxx_alignas
-    Feature record: CXX_FEATURE:1cxx_alignof
-    Feature record: CXX_FEATURE:1cxx_attributes
-    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
-    Feature record: CXX_FEATURE:1cxx_auto_type
-    Feature record: CXX_FEATURE:0cxx_binary_literals
-    Feature record: CXX_FEATURE:1cxx_constexpr
-    Feature record: CXX_FEATURE:0cxx_contextual_conversions
-    Feature record: CXX_FEATURE:1cxx_decltype
-    Feature record: CXX_FEATURE:0cxx_decltype_auto
-    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
-    Feature record: CXX_FEATURE:1cxx_default_function_template_args
-    Feature record: CXX_FEATURE:1cxx_defaulted_functions
-    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
-    Feature record: CXX_FEATURE:1cxx_delegating_constructors
-    Feature record: CXX_FEATURE:1cxx_deleted_functions
-    Feature record: CXX_FEATURE:0cxx_digit_separators
-    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
-    Feature record: CXX_FEATURE:1cxx_explicit_conversions
-    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
-    Feature record: CXX_FEATURE:1cxx_extern_templates
-    Feature record: CXX_FEATURE:1cxx_final
-    Feature record: CXX_FEATURE:1cxx_func_identifier
-    Feature record: CXX_FEATURE:1cxx_generalized_initializers
-    Feature record: CXX_FEATURE:0cxx_generic_lambdas
-    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
-    Feature record: CXX_FEATURE:1cxx_inline_namespaces
-    Feature record: CXX_FEATURE:1cxx_lambdas
-    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
-    Feature record: CXX_FEATURE:1cxx_local_type_template_args
-    Feature record: CXX_FEATURE:1cxx_long_long_type
-    Feature record: CXX_FEATURE:1cxx_noexcept
-    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
-    Feature record: CXX_FEATURE:1cxx_nullptr
-    Feature record: CXX_FEATURE:1cxx_override
-    Feature record: CXX_FEATURE:1cxx_range_for
-    Feature record: CXX_FEATURE:1cxx_raw_string_literals
-    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
-    Feature record: CXX_FEATURE:0cxx_return_type_deduction
-    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
-    Feature record: CXX_FEATURE:1cxx_rvalue_references
-    Feature record: CXX_FEATURE:1cxx_sizeof_member
-    Feature record: CXX_FEATURE:1cxx_static_assert
-    Feature record: CXX_FEATURE:1cxx_strong_enums
-    Feature record: CXX_FEATURE:1cxx_template_template_parameters
-    Feature record: CXX_FEATURE:1cxx_thread_local
-    Feature record: CXX_FEATURE:1cxx_trailing_return_types
-    Feature record: CXX_FEATURE:1cxx_unicode_literals
-    Feature record: CXX_FEATURE:1cxx_uniform_initialization
-    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
-    Feature record: CXX_FEATURE:1cxx_user_literals
-    Feature record: CXX_FEATURE:0cxx_variable_templates
-    Feature record: CXX_FEATURE:1cxx_variadic_macros
-    Feature record: CXX_FEATURE:1cxx_variadic_templates
-
-
-Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_552f2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_552f2.dir/build.make CMakeFiles/cmTC_552f2.dir/build
-make[1]: Entering directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_552f2.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_552f2.dir/feature_tests.cxx.o -c /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_552f2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_552f2.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_552f2.dir/feature_tests.cxx.o  -o cmTC_552f2 
-make[1]: Leaving directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-
-
-    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
-    Feature record: CXX_FEATURE:0cxx_alias_templates
-    Feature record: CXX_FEATURE:0cxx_alignas
-    Feature record: CXX_FEATURE:0cxx_alignof
-    Feature record: CXX_FEATURE:0cxx_attributes
-    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
-    Feature record: CXX_FEATURE:0cxx_auto_type
-    Feature record: CXX_FEATURE:0cxx_binary_literals
-    Feature record: CXX_FEATURE:0cxx_constexpr
-    Feature record: CXX_FEATURE:0cxx_contextual_conversions
-    Feature record: CXX_FEATURE:0cxx_decltype
-    Feature record: CXX_FEATURE:0cxx_decltype_auto
-    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
-    Feature record: CXX_FEATURE:0cxx_default_function_template_args
-    Feature record: CXX_FEATURE:0cxx_defaulted_functions
-    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
-    Feature record: CXX_FEATURE:0cxx_delegating_constructors
-    Feature record: CXX_FEATURE:0cxx_deleted_functions
-    Feature record: CXX_FEATURE:0cxx_digit_separators
-    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
-    Feature record: CXX_FEATURE:0cxx_explicit_conversions
-    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
-    Feature record: CXX_FEATURE:0cxx_extern_templates
-    Feature record: CXX_FEATURE:0cxx_final
-    Feature record: CXX_FEATURE:0cxx_func_identifier
-    Feature record: CXX_FEATURE:0cxx_generalized_initializers
-    Feature record: CXX_FEATURE:0cxx_generic_lambdas
-    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
-    Feature record: CXX_FEATURE:0cxx_inline_namespaces
-    Feature record: CXX_FEATURE:0cxx_lambdas
-    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
-    Feature record: CXX_FEATURE:0cxx_local_type_template_args
-    Feature record: CXX_FEATURE:0cxx_long_long_type
-    Feature record: CXX_FEATURE:0cxx_noexcept
-    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
-    Feature record: CXX_FEATURE:0cxx_nullptr
-    Feature record: CXX_FEATURE:0cxx_override
-    Feature record: CXX_FEATURE:0cxx_range_for
-    Feature record: CXX_FEATURE:0cxx_raw_string_literals
-    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
-    Feature record: CXX_FEATURE:0cxx_return_type_deduction
-    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
-    Feature record: CXX_FEATURE:0cxx_rvalue_references
-    Feature record: CXX_FEATURE:0cxx_sizeof_member
-    Feature record: CXX_FEATURE:0cxx_static_assert
-    Feature record: CXX_FEATURE:0cxx_strong_enums
-    Feature record: CXX_FEATURE:1cxx_template_template_parameters
-    Feature record: CXX_FEATURE:0cxx_thread_local
-    Feature record: CXX_FEATURE:0cxx_trailing_return_types
-    Feature record: CXX_FEATURE:0cxx_unicode_literals
-    Feature record: CXX_FEATURE:0cxx_uniform_initialization
-    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
-    Feature record: CXX_FEATURE:0cxx_user_literals
-    Feature record: CXX_FEATURE:0cxx_variable_templates
-    Feature record: CXX_FEATURE:0cxx_variadic_macros
-    Feature record: CXX_FEATURE:0cxx_variadic_templates
-Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
-Change Dir: /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_e0526/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e0526.dir/build.make CMakeFiles/cmTC_e0526.dir/build
-make[1]: Entering directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_e0526.dir/src.cxx.o
-/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_e0526.dir/src.cxx.o -c /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_e0526
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0526.dir/link.txt --verbose=1
-/usr/bin/c++   -DCOMPILER_SUPPORTS_CXX11    -rdynamic CMakeFiles/cmTC_e0526.dir/src.cxx.o  -o cmTC_e0526 
-make[1]: Leaving directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-
-Source file was:
-int main() { return 0; }
-Detecting C OpenMP compiler ABI info compiled with the following output:
-Change Dir: /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_32c30/fast"
-/usr/bin/make -f CMakeFiles/cmTC_32c30.dir/build.make CMakeFiles/cmTC_32c30.dir/build
-make[1]: Entering directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_32c30.dir/OpenMPTryFlag.c.o
-/usr/bin/cc   -fPIC -fPIC -fopenmp -v   -o CMakeFiles/cmTC_32c30.dir/OpenMPTryFlag.c.o   -c /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
-Using built-in specs.
-COLLECT_GCC=/usr/bin/cc
-Target: x86_64-pc-linux-gnu
-Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release --enable-default-pie --enable-default-ssp
-Thread model: posix
-gcc version 8.1.0 (GCC) 
-COLLECT_GCC_OPTIONS='-fPIC' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_32c30.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread'
- /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/cc1 -quiet -v -D_REENTRANT /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_32c30.dir/OpenMPTryFlag.c.o -version -fPIC -fopenmp -o /tmp/ccyK4AtF.s
-GNU C17 (GCC) version 8.1.0 (x86_64-pc-linux-gnu)
-	compiled by GNU C version 8.1.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.18-GMP
-
-GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../x86_64-pc-linux-gnu/include"
-#include "..." search starts here:
-#include <...> search starts here:
- /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/include
- /usr/local/include
- /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/include-fixed
- /usr/include
-End of search list.
-GNU C17 (GCC) version 8.1.0 (x86_64-pc-linux-gnu)
-	compiled by GNU C version 8.1.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.18-GMP
-
-GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-Compiler executable checksum: e0b8e9bb75f80ef39fd9b089fbecadf2
-COLLECT_GCC_OPTIONS='-fPIC' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_32c30.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread'
- as -v --64 -o CMakeFiles/cmTC_32c30.dir/OpenMPTryFlag.c.o /tmp/ccyK4AtF.s
-GNU assembler version 2.30 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.30
-COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/
-LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-fPIC' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_32c30.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread'
-Linking C executable cmTC_32c30
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32c30.dir/link.txt --verbose=1
-/usr/bin/cc  -fPIC -fPIC -fopenmp -v    -rdynamic CMakeFiles/cmTC_32c30.dir/OpenMPTryFlag.c.o  -o cmTC_32c30 -v 
-Using built-in specs.
-COLLECT_GCC=/usr/bin/cc
-COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/lto-wrapper
-Target: x86_64-pc-linux-gnu
-Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release --enable-default-pie --enable-default-ssp
-Thread model: posix
-gcc version 8.1.0 (GCC) 
-COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/
-LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../:/lib/:/usr/lib/
-Reading specs from /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/libgomp.spec
-COLLECT_GCC_OPTIONS='-fPIC' '-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_32c30' '-v' '-mtune=generic' '-march=x86-64' '-pthread'
- /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFayo7L.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_32c30 /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../.. CMakeFiles/cmTC_32c30.dir/OpenMPTryFlag.c.o -lgomp -lgcc --as-needed -lgcc_s --no-as-needed -lpthread -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/crtn.o
-COLLECT_GCC_OPTIONS='-fPIC' '-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_32c30' '-v' '-mtune=generic' '-march=x86-64' '-pthread'
-make[1]: Leaving directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-
-
-Parsed C OpenMP implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp]
-  ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_32c30/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_32c30.dir/build.make CMakeFiles/cmTC_32c30.dir/build]
-  ignore line: [make[1]: Entering directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_32c30.dir/OpenMPTryFlag.c.o]
-  ignore line: [/usr/bin/cc   -fPIC -fPIC -fopenmp -v   -o CMakeFiles/cmTC_32c30.dir/OpenMPTryFlag.c.o   -c /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c]
-  ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/usr/bin/cc]
-  ignore line: [Target: x86_64-pc-linux-gnu]
-  ignore line: [Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release --enable-default-pie --enable-default-ssp]
-  ignore line: [Thread model: posix]
-  ignore line: [gcc version 8.1.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-fPIC' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_32c30.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread']
-  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/cc1 -quiet -v -D_REENTRANT /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_32c30.dir/OpenMPTryFlag.c.o -version -fPIC -fopenmp -o /tmp/ccyK4AtF.s]
-  ignore line: [GNU C17 (GCC) version 8.1.0 (x86_64-pc-linux-gnu)]
-  ignore line: [	compiled by GNU C version 8.1.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.18-GMP]
-  ignore line: []
-  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../x86_64-pc-linux-gnu/include"]
-  ignore line: [#include "..." search starts here:]
-  ignore line: [#include <...> search starts here:]
-  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/include]
-  ignore line: [ /usr/local/include]
-  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/include-fixed]
-  ignore line: [ /usr/include]
-  ignore line: [End of search list.]
-  ignore line: [GNU C17 (GCC) version 8.1.0 (x86_64-pc-linux-gnu)]
-  ignore line: [	compiled by GNU C version 8.1.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.18-GMP]
-  ignore line: []
-  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [Compiler executable checksum: e0b8e9bb75f80ef39fd9b089fbecadf2]
-  ignore line: [COLLECT_GCC_OPTIONS='-fPIC' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_32c30.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_32c30.dir/OpenMPTryFlag.c.o /tmp/ccyK4AtF.s]
-  ignore line: [GNU assembler version 2.30 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.30]
-  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-fPIC' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_32c30.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread']
-  ignore line: [Linking C executable cmTC_32c30]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32c30.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc  -fPIC -fPIC -fopenmp -v    -rdynamic CMakeFiles/cmTC_32c30.dir/OpenMPTryFlag.c.o  -o cmTC_32c30 -v ]
-  ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/usr/bin/cc]
-  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/lto-wrapper]
-  ignore line: [Target: x86_64-pc-linux-gnu]
-  ignore line: [Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release --enable-default-pie --enable-default-ssp]
-  ignore line: [Thread model: posix]
-  ignore line: [gcc version 8.1.0 (GCC) ]
-  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../:/lib/:/usr/lib/]
-  ignore line: [Reading specs from /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/libgomp.spec]
-  ignore line: [COLLECT_GCC_OPTIONS='-fPIC' '-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_32c30' '-v' '-mtune=generic' '-march=x86-64' '-pthread']
-  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFayo7L.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_32c30 /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../.. CMakeFiles/cmTC_32c30.dir/OpenMPTryFlag.c.o -lgomp -lgcc --as-needed -lgcc_s --no-as-needed -lpthread -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/crtn.o]
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/collect2] ==> ignore
-    arg [-plugin] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/liblto_plugin.so] ==> ignore
-    arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccFayo7L.res] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
-    arg [-plugin-opt=-pass-through=-lc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-    arg [--build-id] ==> ignore
-    arg [--eh-frame-hdr] ==> ignore
-    arg [--hash-style=gnu] ==> ignore
-    arg [-m] ==> ignore
-    arg [elf_x86_64] ==> ignore
-    arg [-export-dynamic] ==> ignore
-    arg [-dynamic-linker] ==> ignore
-    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
-    arg [-pie] ==> ignore
-    arg [-o] ==> ignore
-    arg [cmTC_32c30] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/Scrt1.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/crti.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/crtbeginS.o] ==> ignore
-    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0]
-    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib]
-    arg [-L/lib/../lib] ==> dir [/lib/../lib]
-    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
-    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../..]
-    arg [CMakeFiles/cmTC_32c30.dir/OpenMPTryFlag.c.o] ==> ignore
-    arg [-lgomp] ==> lib [gomp]
-    arg [-lgcc] ==> lib [gcc]
-    arg [--as-needed] ==> ignore
-    arg [-lgcc_s] ==> lib [gcc_s]
-    arg [--no-as-needed] ==> ignore
-    arg [-lpthread] ==> lib [pthread]
-    arg [-lc] ==> lib [c]
-    arg [-lgcc] ==> lib [gcc]
-    arg [--as-needed] ==> ignore
-    arg [-lgcc_s] ==> lib [gcc_s]
-    arg [--no-as-needed] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/crtendS.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/crtn.o] ==> ignore
-  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0]
-  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib] ==> [/usr/lib]
-  collapse library dir [/lib/../lib] ==> [/lib]
-  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
-  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../..] ==> [/usr/lib]
-  implicit libs: [gomp;gcc;gcc_s;pthread;c;gcc;gcc_s]
-  implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0;/usr/lib;/lib]
-  implicit fwks: []
-
-
-Detecting CXX OpenMP compiler ABI info compiled with the following output:
-Change Dir: /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_eab22/fast"
-/usr/bin/make -f CMakeFiles/cmTC_eab22.dir/build.make CMakeFiles/cmTC_eab22.dir/build
-make[1]: Entering directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_eab22.dir/OpenMPTryFlag.cpp.o
-/usr/bin/c++    -std=c++11 -fPIC -std=c++11 -fPIC -fopenmp -v   -o CMakeFiles/cmTC_eab22.dir/OpenMPTryFlag.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
-Using built-in specs.
-COLLECT_GCC=/usr/bin/c++
-Target: x86_64-pc-linux-gnu
-Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release --enable-default-pie --enable-default-ssp
-Thread model: posix
-gcc version 8.1.0 (GCC) 
-COLLECT_GCC_OPTIONS='-std=c++11' '-std=c++11' '-fPIC' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_eab22.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
- /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/cc1plus -quiet -v -D_GNU_SOURCE -D_REENTRANT /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_eab22.dir/OpenMPTryFlag.cpp.o -std=c++11 -std=c++11 -version -fPIC -fopenmp -o /tmp/ccwFoQ4S.s
-GNU C++11 (GCC) version 8.1.0 (x86_64-pc-linux-gnu)
-	compiled by GNU C version 8.1.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.18-GMP
-
-GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../x86_64-pc-linux-gnu/include"
-#include "..." search starts here:
-#include <...> search starts here:
- /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../include/c++/8.1.0
- /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../include/c++/8.1.0/x86_64-pc-linux-gnu
- /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../include/c++/8.1.0/backward
- /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/include
- /usr/local/include
- /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/include-fixed
- /usr/include
-End of search list.
-GNU C++11 (GCC) version 8.1.0 (x86_64-pc-linux-gnu)
-	compiled by GNU C version 8.1.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.18-GMP
-
-GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-Compiler executable checksum: 53aedea07c38eba573c09c413acbfcf8
-COLLECT_GCC_OPTIONS='-std=c++11' '-std=c++11' '-fPIC' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_eab22.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
- as -v --64 -o CMakeFiles/cmTC_eab22.dir/OpenMPTryFlag.cpp.o /tmp/ccwFoQ4S.s
-GNU assembler version 2.30 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.30
-COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/
-LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-std=c++11' '-std=c++11' '-fPIC' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_eab22.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
-Linking CXX executable cmTC_eab22
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eab22.dir/link.txt --verbose=1
-/usr/bin/c++   -std=c++11 -fPIC -std=c++11 -fPIC -fopenmp -v    -rdynamic CMakeFiles/cmTC_eab22.dir/OpenMPTryFlag.cpp.o  -o cmTC_eab22 -v 
-Using built-in specs.
-COLLECT_GCC=/usr/bin/c++
-COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/lto-wrapper
-Target: x86_64-pc-linux-gnu
-Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release --enable-default-pie --enable-default-ssp
-Thread model: posix
-gcc version 8.1.0 (GCC) 
-COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/
-LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../:/lib/:/usr/lib/
-Reading specs from /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/libgomp.spec
-COLLECT_GCC_OPTIONS='-std=c++11' '-std=c++11' '-fPIC' '-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_eab22' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
- /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWmbmXV.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_eab22 /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../.. CMakeFiles/cmTC_eab22.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/crtn.o
-COLLECT_GCC_OPTIONS='-std=c++11' '-std=c++11' '-fPIC' '-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_eab22' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
-make[1]: Leaving directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-
-
-Parsed CXX OpenMP implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp]
-  ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_eab22/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_eab22.dir/build.make CMakeFiles/cmTC_eab22.dir/build]
-  ignore line: [make[1]: Entering directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_eab22.dir/OpenMPTryFlag.cpp.o]
-  ignore line: [/usr/bin/c++    -std=c++11 -fPIC -std=c++11 -fPIC -fopenmp -v   -o CMakeFiles/cmTC_eab22.dir/OpenMPTryFlag.cpp.o -c /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp]
-  ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/usr/bin/c++]
-  ignore line: [Target: x86_64-pc-linux-gnu]
-  ignore line: [Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release --enable-default-pie --enable-default-ssp]
-  ignore line: [Thread model: posix]
-  ignore line: [gcc version 8.1.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-std=c++11' '-std=c++11' '-fPIC' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_eab22.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
-  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/cc1plus -quiet -v -D_GNU_SOURCE -D_REENTRANT /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_eab22.dir/OpenMPTryFlag.cpp.o -std=c++11 -std=c++11 -version -fPIC -fopenmp -o /tmp/ccwFoQ4S.s]
-  ignore line: [GNU C++11 (GCC) version 8.1.0 (x86_64-pc-linux-gnu)]
-  ignore line: [	compiled by GNU C version 8.1.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.18-GMP]
-  ignore line: []
-  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../x86_64-pc-linux-gnu/include"]
-  ignore line: [#include "..." search starts here:]
-  ignore line: [#include <...> search starts here:]
-  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../include/c++/8.1.0]
-  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../include/c++/8.1.0/x86_64-pc-linux-gnu]
-  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../include/c++/8.1.0/backward]
-  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/include]
-  ignore line: [ /usr/local/include]
-  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/include-fixed]
-  ignore line: [ /usr/include]
-  ignore line: [End of search list.]
-  ignore line: [GNU C++11 (GCC) version 8.1.0 (x86_64-pc-linux-gnu)]
-  ignore line: [	compiled by GNU C version 8.1.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.18-GMP]
-  ignore line: []
-  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [Compiler executable checksum: 53aedea07c38eba573c09c413acbfcf8]
-  ignore line: [COLLECT_GCC_OPTIONS='-std=c++11' '-std=c++11' '-fPIC' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_eab22.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_eab22.dir/OpenMPTryFlag.cpp.o /tmp/ccwFoQ4S.s]
-  ignore line: [GNU assembler version 2.30 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.30]
-  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-std=c++11' '-std=c++11' '-fPIC' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_eab22.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
-  ignore line: [Linking CXX executable cmTC_eab22]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eab22.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++   -std=c++11 -fPIC -std=c++11 -fPIC -fopenmp -v    -rdynamic CMakeFiles/cmTC_eab22.dir/OpenMPTryFlag.cpp.o  -o cmTC_eab22 -v ]
-  ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/usr/bin/c++]
-  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/lto-wrapper]
-  ignore line: [Target: x86_64-pc-linux-gnu]
-  ignore line: [Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release --enable-default-pie --enable-default-ssp]
-  ignore line: [Thread model: posix]
-  ignore line: [gcc version 8.1.0 (GCC) ]
-  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../:/lib/:/usr/lib/]
-  ignore line: [Reading specs from /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/libgomp.spec]
-  ignore line: [COLLECT_GCC_OPTIONS='-std=c++11' '-std=c++11' '-fPIC' '-fopenmp' '-v' '-rdynamic' '-o' 'cmTC_eab22' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
-  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWmbmXV.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_eab22 /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../.. CMakeFiles/cmTC_eab22.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/crtn.o]
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/collect2] ==> ignore
-    arg [-plugin] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/liblto_plugin.so] ==> ignore
-    arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccWmbmXV.res] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
-    arg [-plugin-opt=-pass-through=-lc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [--build-id] ==> ignore
-    arg [--eh-frame-hdr] ==> ignore
-    arg [--hash-style=gnu] ==> ignore
-    arg [-m] ==> ignore
-    arg [elf_x86_64] ==> ignore
-    arg [-export-dynamic] ==> ignore
-    arg [-dynamic-linker] ==> ignore
-    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
-    arg [-pie] ==> ignore
-    arg [-o] ==> ignore
-    arg [cmTC_eab22] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/Scrt1.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/crti.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/crtbeginS.o] ==> ignore
-    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0]
-    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib]
-    arg [-L/lib/../lib] ==> dir [/lib/../lib]
-    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
-    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../..]
-    arg [CMakeFiles/cmTC_eab22.dir/OpenMPTryFlag.cpp.o] ==> ignore
-    arg [-lstdc++] ==> lib [stdc++]
-    arg [-lm] ==> lib [m]
-    arg [-lgomp] ==> lib [gomp]
-    arg [-lgcc_s] ==> lib [gcc_s]
-    arg [-lgcc] ==> lib [gcc]
-    arg [-lpthread] ==> lib [pthread]
-    arg [-lc] ==> lib [c]
-    arg [-lgcc_s] ==> lib [gcc_s]
-    arg [-lgcc] ==> lib [gcc]
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/crtendS.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib/crtn.o] ==> ignore
-  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0]
-  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../lib] ==> [/usr/lib]
-  collapse library dir [/lib/../lib] ==> [/lib]
-  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
-  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../..] ==> [/usr/lib]
-  implicit libs: [stdc++;m;gomp;gcc_s;gcc;pthread;c;gcc_s;gcc]
-  implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0;/usr/lib;/lib]
-  implicit fwks: []
-
-
-The system is: Linux - 4.16.9-1-ARCH - x86_64
-Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: /usr/bin/cc 
-Build flags: 
-Id flags:  
-
-The output was:
-0
-
-
-Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
-
-The C compiler identification is GNU, found in "/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/3.11.4/CompilerIdC/a.out"
-
-Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /usr/bin/c++ 
-Build flags: 
-Id flags:  
-
-The output was:
-0
-
-
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
-
-The CXX compiler identification is GNU, found in "/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/3.11.4/CompilerIdCXX/a.out"
-
-Determining if the C compiler works passed with the following output:
-Change Dir: /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_26911/fast"
-make[1]: Entering directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_26911.dir/build.make CMakeFiles/cmTC_26911.dir/build
-make[2]: Entering directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_26911.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_26911.dir/testCCompiler.c.o   -c /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_26911
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26911.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_26911.dir/testCCompiler.c.o  -o cmTC_26911 
-make[2]: Leaving directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-
-
-Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_76a59/fast"
-make[1]: Entering directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_76a59.dir/build.make CMakeFiles/cmTC_76a59.dir/build
-make[2]: Entering directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_76a59.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_76a59.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.11/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_76a59
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76a59.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_76a59.dir/CMakeCCompilerABI.c.o  -o cmTC_76a59 
-Using built-in specs.
-COLLECT_GCC=/usr/bin/cc
-COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/lto-wrapper
-Target: x86_64-pc-linux-gnu
-Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release --enable-default-pie --enable-default-ssp
-Thread model: posix
-gcc version 8.1.1 20180531 (GCC) 
-COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
-LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_76a59' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cceqnsB0.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_76a59 /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../.. CMakeFiles/cmTC_76a59.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_76a59' '-mtune=generic' '-march=x86-64'
-make[2]: Leaving directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-
-
-Parsed C implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp]
-  ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_76a59/fast"]
-  ignore line: [make[1]: Entering directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_76a59.dir/build.make CMakeFiles/cmTC_76a59.dir/build]
-  ignore line: [make[2]: Entering directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_76a59.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_76a59.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.11/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_76a59]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76a59.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_76a59.dir/CMakeCCompilerABI.c.o  -o cmTC_76a59 ]
-  ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/usr/bin/cc]
-  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/lto-wrapper]
-  ignore line: [Target: x86_64-pc-linux-gnu]
-  ignore line: [Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release --enable-default-pie --enable-default-ssp]
-  ignore line: [Thread model: posix]
-  ignore line: [gcc version 8.1.1 20180531 (GCC) ]
-  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_76a59' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cceqnsB0.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_76a59 /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../.. CMakeFiles/cmTC_76a59.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/crtn.o]
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/collect2] ==> ignore
-    arg [-plugin] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/liblto_plugin.so] ==> ignore
-    arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cceqnsB0.res] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-    arg [-plugin-opt=-pass-through=-lc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-    arg [--build-id] ==> ignore
-    arg [--eh-frame-hdr] ==> ignore
-    arg [--hash-style=gnu] ==> ignore
-    arg [-m] ==> ignore
-    arg [elf_x86_64] ==> ignore
-    arg [-export-dynamic] ==> ignore
-    arg [-dynamic-linker] ==> ignore
-    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
-    arg [-pie] ==> ignore
-    arg [-o] ==> ignore
-    arg [cmTC_76a59] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/Scrt1.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/crti.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/crtbeginS.o] ==> ignore
-    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1]
-    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib]
-    arg [-L/lib/../lib] ==> dir [/lib/../lib]
-    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
-    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../..]
-    arg [CMakeFiles/cmTC_76a59.dir/CMakeCCompilerABI.c.o] ==> ignore
-    arg [-lgcc] ==> lib [gcc]
-    arg [--as-needed] ==> ignore
-    arg [-lgcc_s] ==> lib [gcc_s]
-    arg [--no-as-needed] ==> ignore
-    arg [-lc] ==> lib [c]
-    arg [-lgcc] ==> lib [gcc]
-    arg [--as-needed] ==> ignore
-    arg [-lgcc_s] ==> lib [gcc_s]
-    arg [--no-as-needed] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/crtendS.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/crtn.o] ==> ignore
-  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1]
-  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib] ==> [/usr/lib]
-  collapse library dir [/lib/../lib] ==> [/lib]
-  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
-  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../..] ==> [/usr/lib]
-  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
-  implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1;/usr/lib;/lib]
-  implicit fwks: []
-
-
-
-
-Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_3c36e/fast"
-make[1]: Entering directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_3c36e.dir/build.make CMakeFiles/cmTC_3c36e.dir/build
-make[2]: Entering directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3c36e.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_3c36e.dir/feature_tests.c.o   -c /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_3c36e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c36e.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3c36e.dir/feature_tests.c.o  -o cmTC_3c36e 
-make[2]: Leaving directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-
-
-    Feature record: C_FEATURE:1c_function_prototypes
-    Feature record: C_FEATURE:1c_restrict
-    Feature record: C_FEATURE:1c_static_assert
-    Feature record: C_FEATURE:1c_variadic_macros
-
-
-Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_ba49f/fast"
-make[1]: Entering directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_ba49f.dir/build.make CMakeFiles/cmTC_ba49f.dir/build
-make[2]: Entering directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ba49f.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_ba49f.dir/feature_tests.c.o   -c /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_ba49f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba49f.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ba49f.dir/feature_tests.c.o  -o cmTC_ba49f 
-make[2]: Leaving directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-
-
-    Feature record: C_FEATURE:1c_function_prototypes
-    Feature record: C_FEATURE:1c_restrict
-    Feature record: C_FEATURE:0c_static_assert
-    Feature record: C_FEATURE:1c_variadic_macros
-
-
-Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_389af/fast"
-make[1]: Entering directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_389af.dir/build.make CMakeFiles/cmTC_389af.dir/build
-make[2]: Entering directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_389af.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_389af.dir/feature_tests.c.o   -c /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_389af
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_389af.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_389af.dir/feature_tests.c.o  -o cmTC_389af 
-make[2]: Leaving directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-
-
-    Feature record: C_FEATURE:1c_function_prototypes
-    Feature record: C_FEATURE:0c_restrict
-    Feature record: C_FEATURE:0c_static_assert
-    Feature record: C_FEATURE:0c_variadic_macros
-Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_ac404/fast"
-make[1]: Entering directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_ac404.dir/build.make CMakeFiles/cmTC_ac404.dir/build
-make[2]: Entering directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ac404.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_ac404.dir/testCXXCompiler.cxx.o -c /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_ac404
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac404.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_ac404.dir/testCXXCompiler.cxx.o  -o cmTC_ac404 
-make[2]: Leaving directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-
-
-Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_9f0b9/fast"
-make[1]: Entering directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_9f0b9.dir/build.make CMakeFiles/cmTC_9f0b9.dir/build
-make[2]: Entering directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_9f0b9.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_9f0b9.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_9f0b9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f0b9.dir/link.txt --verbose=1
-/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_9f0b9.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_9f0b9 
-Using built-in specs.
-COLLECT_GCC=/usr/bin/c++
-COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/lto-wrapper
-Target: x86_64-pc-linux-gnu
-Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release --enable-default-pie --enable-default-ssp
-Thread model: posix
-gcc version 8.1.1 20180531 (GCC) 
-COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
-LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_9f0b9' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFYhGoC.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_9f0b9 /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../.. CMakeFiles/cmTC_9f0b9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_9f0b9' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[2]: Leaving directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-
-
-Parsed CXX implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp]
-  ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_9f0b9/fast"]
-  ignore line: [make[1]: Entering directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_9f0b9.dir/build.make CMakeFiles/cmTC_9f0b9.dir/build]
-  ignore line: [make[2]: Entering directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_9f0b9.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_9f0b9.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_9f0b9]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f0b9.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_9f0b9.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_9f0b9 ]
-  ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/usr/bin/c++]
-  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/lto-wrapper]
-  ignore line: [Target: x86_64-pc-linux-gnu]
-  ignore line: [Configured with: /build/gcc/src/gcc/configure --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --enable-languages=c,c++,ada,fortran,go,lto,objc,obj-c++ --enable-shared --enable-threads=posix --enable-libmpx --with-system-zlib --with-isl --enable-__cxa_atexit --disable-libunwind-exceptions --enable-clocale=gnu --disable-libstdcxx-pch --disable-libssp --enable-gnu-unique-object --enable-linker-build-id --enable-lto --enable-plugin --enable-install-libiberty --with-linker-hash-style=gnu --enable-gnu-indirect-function --enable-multilib --disable-werror --enable-checking=release --enable-default-pie --enable-default-ssp]
-  ignore line: [Thread model: posix]
-  ignore line: [gcc version 8.1.1 20180531 (GCC) ]
-  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_9f0b9' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFYhGoC.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_9f0b9 /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../.. CMakeFiles/cmTC_9f0b9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/crtn.o]
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/collect2] ==> ignore
-    arg [-plugin] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/liblto_plugin.so] ==> ignore
-    arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccFYhGoC.res] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [--build-id] ==> ignore
-    arg [--eh-frame-hdr] ==> ignore
-    arg [--hash-style=gnu] ==> ignore
-    arg [-m] ==> ignore
-    arg [elf_x86_64] ==> ignore
-    arg [-export-dynamic] ==> ignore
-    arg [-dynamic-linker] ==> ignore
-    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
-    arg [-pie] ==> ignore
-    arg [-o] ==> ignore
-    arg [cmTC_9f0b9] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/Scrt1.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/crti.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/crtbeginS.o] ==> ignore
-    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1]
-    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib]
-    arg [-L/lib/../lib] ==> dir [/lib/../lib]
-    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
-    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../..]
-    arg [CMakeFiles/cmTC_9f0b9.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
-    arg [-lstdc++] ==> lib [stdc++]
-    arg [-lm] ==> lib [m]
-    arg [-lgcc_s] ==> lib [gcc_s]
-    arg [-lgcc] ==> lib [gcc]
-    arg [-lc] ==> lib [c]
-    arg [-lgcc_s] ==> lib [gcc_s]
-    arg [-lgcc] ==> lib [gcc]
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/crtendS.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/crtn.o] ==> ignore
-  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1]
-  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib] ==> [/usr/lib]
-  collapse library dir [/lib/../lib] ==> [/lib]
-  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
-  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../..] ==> [/usr/lib]
-  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
-  implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1;/usr/lib;/lib]
-  implicit fwks: []
-
-
-
-
-Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_64e06/fast"
-make[1]: Entering directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_64e06.dir/build.make CMakeFiles/cmTC_64e06.dir/build
-make[2]: Entering directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_64e06.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_64e06.dir/feature_tests.cxx.o -c /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_64e06
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64e06.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_64e06.dir/feature_tests.cxx.o  -o cmTC_64e06 
-make[2]: Leaving directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-
-
-    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
-    Feature record: CXX_FEATURE:1cxx_alias_templates
-    Feature record: CXX_FEATURE:1cxx_alignas
-    Feature record: CXX_FEATURE:1cxx_alignof
-    Feature record: CXX_FEATURE:1cxx_attributes
-    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
-    Feature record: CXX_FEATURE:1cxx_auto_type
-    Feature record: CXX_FEATURE:1cxx_binary_literals
-    Feature record: CXX_FEATURE:1cxx_constexpr
-    Feature record: CXX_FEATURE:1cxx_contextual_conversions
-    Feature record: CXX_FEATURE:1cxx_decltype
-    Feature record: CXX_FEATURE:1cxx_decltype_auto
-    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
-    Feature record: CXX_FEATURE:1cxx_default_function_template_args
-    Feature record: CXX_FEATURE:1cxx_defaulted_functions
-    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
-    Feature record: CXX_FEATURE:1cxx_delegating_constructors
-    Feature record: CXX_FEATURE:1cxx_deleted_functions
-    Feature record: CXX_FEATURE:1cxx_digit_separators
-    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
-    Feature record: CXX_FEATURE:1cxx_explicit_conversions
-    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
-    Feature record: CXX_FEATURE:1cxx_extern_templates
-    Feature record: CXX_FEATURE:1cxx_final
-    Feature record: CXX_FEATURE:1cxx_func_identifier
-    Feature record: CXX_FEATURE:1cxx_generalized_initializers
-    Feature record: CXX_FEATURE:1cxx_generic_lambdas
-    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
-    Feature record: CXX_FEATURE:1cxx_inline_namespaces
-    Feature record: CXX_FEATURE:1cxx_lambdas
-    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
-    Feature record: CXX_FEATURE:1cxx_local_type_template_args
-    Feature record: CXX_FEATURE:1cxx_long_long_type
-    Feature record: CXX_FEATURE:1cxx_noexcept
-    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
-    Feature record: CXX_FEATURE:1cxx_nullptr
-    Feature record: CXX_FEATURE:1cxx_override
-    Feature record: CXX_FEATURE:1cxx_range_for
-    Feature record: CXX_FEATURE:1cxx_raw_string_literals
-    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
-    Feature record: CXX_FEATURE:1cxx_return_type_deduction
-    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
-    Feature record: CXX_FEATURE:1cxx_rvalue_references
-    Feature record: CXX_FEATURE:1cxx_sizeof_member
-    Feature record: CXX_FEATURE:1cxx_static_assert
-    Feature record: CXX_FEATURE:1cxx_strong_enums
-    Feature record: CXX_FEATURE:1cxx_template_template_parameters
-    Feature record: CXX_FEATURE:1cxx_thread_local
-    Feature record: CXX_FEATURE:1cxx_trailing_return_types
-    Feature record: CXX_FEATURE:1cxx_unicode_literals
-    Feature record: CXX_FEATURE:1cxx_uniform_initialization
-    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
-    Feature record: CXX_FEATURE:1cxx_user_literals
-    Feature record: CXX_FEATURE:1cxx_variable_templates
-    Feature record: CXX_FEATURE:1cxx_variadic_macros
-    Feature record: CXX_FEATURE:1cxx_variadic_templates
-
-
-Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_f7180/fast"
-make[1]: Entering directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_f7180.dir/build.make CMakeFiles/cmTC_f7180.dir/build
-make[2]: Entering directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f7180.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_f7180.dir/feature_tests.cxx.o -c /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_f7180
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7180.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_f7180.dir/feature_tests.cxx.o  -o cmTC_f7180 
-make[2]: Leaving directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-
-
-    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
-    Feature record: CXX_FEATURE:1cxx_alias_templates
-    Feature record: CXX_FEATURE:1cxx_alignas
-    Feature record: CXX_FEATURE:1cxx_alignof
-    Feature record: CXX_FEATURE:1cxx_attributes
-    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
-    Feature record: CXX_FEATURE:1cxx_auto_type
-    Feature record: CXX_FEATURE:1cxx_binary_literals
-    Feature record: CXX_FEATURE:1cxx_constexpr
-    Feature record: CXX_FEATURE:1cxx_contextual_conversions
-    Feature record: CXX_FEATURE:1cxx_decltype
-    Feature record: CXX_FEATURE:1cxx_decltype_auto
-    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
-    Feature record: CXX_FEATURE:1cxx_default_function_template_args
-    Feature record: CXX_FEATURE:1cxx_defaulted_functions
-    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
-    Feature record: CXX_FEATURE:1cxx_delegating_constructors
-    Feature record: CXX_FEATURE:1cxx_deleted_functions
-    Feature record: CXX_FEATURE:1cxx_digit_separators
-    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
-    Feature record: CXX_FEATURE:1cxx_explicit_conversions
-    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
-    Feature record: CXX_FEATURE:1cxx_extern_templates
-    Feature record: CXX_FEATURE:1cxx_final
-    Feature record: CXX_FEATURE:1cxx_func_identifier
-    Feature record: CXX_FEATURE:1cxx_generalized_initializers
-    Feature record: CXX_FEATURE:1cxx_generic_lambdas
-    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
-    Feature record: CXX_FEATURE:1cxx_inline_namespaces
-    Feature record: CXX_FEATURE:1cxx_lambdas
-    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
-    Feature record: CXX_FEATURE:1cxx_local_type_template_args
-    Feature record: CXX_FEATURE:1cxx_long_long_type
-    Feature record: CXX_FEATURE:1cxx_noexcept
-    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
-    Feature record: CXX_FEATURE:1cxx_nullptr
-    Feature record: CXX_FEATURE:1cxx_override
-    Feature record: CXX_FEATURE:1cxx_range_for
-    Feature record: CXX_FEATURE:1cxx_raw_string_literals
-    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
-    Feature record: CXX_FEATURE:1cxx_return_type_deduction
-    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
-    Feature record: CXX_FEATURE:1cxx_rvalue_references
-    Feature record: CXX_FEATURE:1cxx_sizeof_member
-    Feature record: CXX_FEATURE:1cxx_static_assert
-    Feature record: CXX_FEATURE:1cxx_strong_enums
-    Feature record: CXX_FEATURE:1cxx_template_template_parameters
-    Feature record: CXX_FEATURE:1cxx_thread_local
-    Feature record: CXX_FEATURE:1cxx_trailing_return_types
-    Feature record: CXX_FEATURE:1cxx_unicode_literals
-    Feature record: CXX_FEATURE:1cxx_uniform_initialization
-    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
-    Feature record: CXX_FEATURE:1cxx_user_literals
-    Feature record: CXX_FEATURE:1cxx_variable_templates
-    Feature record: CXX_FEATURE:1cxx_variadic_macros
-    Feature record: CXX_FEATURE:1cxx_variadic_templates
-
-
-Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_07d90/fast"
-make[1]: Entering directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_07d90.dir/build.make CMakeFiles/cmTC_07d90.dir/build
-make[2]: Entering directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_07d90.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_07d90.dir/feature_tests.cxx.o -c /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_07d90
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07d90.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_07d90.dir/feature_tests.cxx.o  -o cmTC_07d90 
-make[2]: Leaving directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-
-
-    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
-    Feature record: CXX_FEATURE:1cxx_alias_templates
-    Feature record: CXX_FEATURE:1cxx_alignas
-    Feature record: CXX_FEATURE:1cxx_alignof
-    Feature record: CXX_FEATURE:1cxx_attributes
-    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
-    Feature record: CXX_FEATURE:1cxx_auto_type
-    Feature record: CXX_FEATURE:0cxx_binary_literals
-    Feature record: CXX_FEATURE:1cxx_constexpr
-    Feature record: CXX_FEATURE:0cxx_contextual_conversions
-    Feature record: CXX_FEATURE:1cxx_decltype
-    Feature record: CXX_FEATURE:0cxx_decltype_auto
-    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
-    Feature record: CXX_FEATURE:1cxx_default_function_template_args
-    Feature record: CXX_FEATURE:1cxx_defaulted_functions
-    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
-    Feature record: CXX_FEATURE:1cxx_delegating_constructors
-    Feature record: CXX_FEATURE:1cxx_deleted_functions
-    Feature record: CXX_FEATURE:0cxx_digit_separators
-    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
-    Feature record: CXX_FEATURE:1cxx_explicit_conversions
-    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
-    Feature record: CXX_FEATURE:1cxx_extern_templates
-    Feature record: CXX_FEATURE:1cxx_final
-    Feature record: CXX_FEATURE:1cxx_func_identifier
-    Feature record: CXX_FEATURE:1cxx_generalized_initializers
-    Feature record: CXX_FEATURE:0cxx_generic_lambdas
-    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
-    Feature record: CXX_FEATURE:1cxx_inline_namespaces
-    Feature record: CXX_FEATURE:1cxx_lambdas
-    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
-    Feature record: CXX_FEATURE:1cxx_local_type_template_args
-    Feature record: CXX_FEATURE:1cxx_long_long_type
-    Feature record: CXX_FEATURE:1cxx_noexcept
-    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
-    Feature record: CXX_FEATURE:1cxx_nullptr
-    Feature record: CXX_FEATURE:1cxx_override
-    Feature record: CXX_FEATURE:1cxx_range_for
-    Feature record: CXX_FEATURE:1cxx_raw_string_literals
-    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
-    Feature record: CXX_FEATURE:0cxx_return_type_deduction
-    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
-    Feature record: CXX_FEATURE:1cxx_rvalue_references
-    Feature record: CXX_FEATURE:1cxx_sizeof_member
-    Feature record: CXX_FEATURE:1cxx_static_assert
-    Feature record: CXX_FEATURE:1cxx_strong_enums
-    Feature record: CXX_FEATURE:1cxx_template_template_parameters
-    Feature record: CXX_FEATURE:1cxx_thread_local
-    Feature record: CXX_FEATURE:1cxx_trailing_return_types
-    Feature record: CXX_FEATURE:1cxx_unicode_literals
-    Feature record: CXX_FEATURE:1cxx_uniform_initialization
-    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
-    Feature record: CXX_FEATURE:1cxx_user_literals
-    Feature record: CXX_FEATURE:0cxx_variable_templates
-    Feature record: CXX_FEATURE:1cxx_variadic_macros
-    Feature record: CXX_FEATURE:1cxx_variadic_templates
-
-
-Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_de82b/fast"
-make[1]: Entering directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_de82b.dir/build.make CMakeFiles/cmTC_de82b.dir/build
-make[2]: Entering directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_de82b.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_de82b.dir/feature_tests.cxx.o -c /home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_de82b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de82b.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_de82b.dir/feature_tests.cxx.o  -o cmTC_de82b 
-make[2]: Leaving directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/chrome/work/CloudCompare/qCMAT/build/CMakeFiles/CMakeTmp'
-
-
-    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
-    Feature record: CXX_FEATURE:0cxx_alias_templates
-    Feature record: CXX_FEATURE:0cxx_alignas
-    Feature record: CXX_FEATURE:0cxx_alignof
-    Feature record: CXX_FEATURE:0cxx_attributes
-    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
-    Feature record: CXX_FEATURE:0cxx_auto_type
-    Feature record: CXX_FEATURE:0cxx_binary_literals
-    Feature record: CXX_FEATURE:0cxx_constexpr
-    Feature record: CXX_FEATURE:0cxx_contextual_conversions
-    Feature record: CXX_FEATURE:0cxx_decltype
-    Feature record: CXX_FEATURE:0cxx_decltype_auto
-    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
-    Feature record: CXX_FEATURE:0cxx_default_function_template_args
-    Feature record: CXX_FEATURE:0cxx_defaulted_functions
-    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
-    Feature record: CXX_FEATURE:0cxx_delegating_constructors
-    Feature record: CXX_FEATURE:0cxx_deleted_functions
-    Feature record: CXX_FEATURE:0cxx_digit_separators
-    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
-    Feature record: CXX_FEATURE:0cxx_explicit_conversions
-    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
-    Feature record: CXX_FEATURE:0cxx_extern_templates
-    Feature record: CXX_FEATURE:0cxx_final
-    Feature record: CXX_FEATURE:0cxx_func_identifier
-    Feature record: CXX_FEATURE:0cxx_generalized_initializers
-    Feature record: CXX_FEATURE:0cxx_generic_lambdas
-    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
-    Feature record: CXX_FEATURE:0cxx_inline_namespaces
-    Feature record: CXX_FEATURE:0cxx_lambdas
-    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
-    Feature record: CXX_FEATURE:0cxx_local_type_template_args
-    Feature record: CXX_FEATURE:0cxx_long_long_type
-    Feature record: CXX_FEATURE:0cxx_noexcept
-    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
-    Feature record: CXX_FEATURE:0cxx_nullptr
-    Feature record: CXX_FEATURE:0cxx_override
-    Feature record: CXX_FEATURE:0cxx_range_for
-    Feature record: CXX_FEATURE:0cxx_raw_string_literals
-    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
-    Feature record: CXX_FEATURE:0cxx_return_type_deduction
-    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
-    Feature record: CXX_FEATURE:0cxx_rvalue_references
-    Feature record: CXX_FEATURE:0cxx_sizeof_member
-    Feature record: CXX_FEATURE:0cxx_static_assert
-    Feature record: CXX_FEATURE:0cxx_strong_enums
-    Feature record: CXX_FEATURE:1cxx_template_template_parameters
-    Feature record: CXX_FEATURE:0cxx_thread_local
-    Feature record: CXX_FEATURE:0cxx_trailing_return_types
-    Feature record: CXX_FEATURE:0cxx_unicode_literals
-    Feature record: CXX_FEATURE:0cxx_uniform_initialization
-    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
-    Feature record: CXX_FEATURE:0cxx_user_literals
-    Feature record: CXX_FEATURE:0cxx_variable_templates
-    Feature record: CXX_FEATURE:0cxx_variadic_macros
-    Feature record: CXX_FEATURE:0cxx_variadic_templates

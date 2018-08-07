@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+C:/qCMAT-master/plugins/core/qCompass/CMakeLists.txt
+C:/qCMAT-master/plugins/CMakePluginTpl.cmake
+C:/qCMAT-master/plugins/core/qCompass/ccCompass.qrc

@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{428DDE38-8EBE-37ED-8D88-872D1BE8B7D3}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>CC_FBO_LIB</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\qCMAT-master\build\libs\CCFbo\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CC_FBO_LIB.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CC_FBO_LIBd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\qCMAT-master\build\libs\CCFbo\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CC_FBO_LIB.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CC_FBO_LIB</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\qCMAT-master\build\libs\CCFbo\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CC_FBO_LIB.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CC_FBO_LIB</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\qCMAT-master\build\libs\CCFbo\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CC_FBO_LIB.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CC_FBO_LIB</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\qCMAT-master\build\libs\CCFbo;C:\qCMAT-master\libs\CCFbo;C:\qCMAT-master\build\libs\CCFbo\CC_FBO_LIB_autogen\include_Debug;C:\Qt\5.11.1\msvc2017_64\include;C:\Qt\5.11.1\msvc2017_64\include\QtOpenGL;C:\Qt\5.11.1\msvc2017_64\include\QtWidgets;C:\Qt\5.11.1\msvc2017_64\include\QtGui;C:\Qt\5.11.1\msvc2017_64\include\QtCore;C:\Qt\5.11.1\msvc2017_64\.\mkspecs\win32-msvc;C:\Qt\5.11.1\msvc2017_64\include\QtANGLE;C:\Qt\5.11.1\msvc2017_64\include\QtConcurrent;C:\Qt\5.11.1\msvc2017_64\include\QtPrintSupport;C:\qCMAT-master\libs\CCFbo\include;C:\Qt\5.11.1\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;QT_USE_QSTRINGBUILDER;QT_CORE_LIB;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGLEXTENSIONS_LIB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;QT_USE_QSTRINGBUILDER;QT_CORE_LIB;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGLEXTENSIONS_LIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\qCMAT-master\build\libs\CCFbo;C:\qCMAT-master\libs\CCFbo;C:\qCMAT-master\build\libs\CCFbo\CC_FBO_LIB_autogen\include_Debug;C:\Qt\5.11.1\msvc2017_64\include;C:\Qt\5.11.1\msvc2017_64\include\QtOpenGL;C:\Qt\5.11.1\msvc2017_64\include\QtWidgets;C:\Qt\5.11.1\msvc2017_64\include\QtGui;C:\Qt\5.11.1\msvc2017_64\include\QtCore;C:\Qt\5.11.1\msvc2017_64\.\mkspecs\win32-msvc;C:\Qt\5.11.1\msvc2017_64\include\QtANGLE;C:\Qt\5.11.1\msvc2017_64\include\QtConcurrent;C:\Qt\5.11.1\msvc2017_64\include\QtPrintSupport;C:\qCMAT-master\libs\CCFbo\include;C:\Qt\5.11.1\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\qCMAT-master\build\libs\CCFbo;C:\qCMAT-master\libs\CCFbo;C:\qCMAT-master\build\libs\CCFbo\CC_FBO_LIB_autogen\include_Debug;C:\Qt\5.11.1\msvc2017_64\include;C:\Qt\5.11.1\msvc2017_64\include\QtOpenGL;C:\Qt\5.11.1\msvc2017_64\include\QtWidgets;C:\Qt\5.11.1\msvc2017_64\include\QtGui;C:\Qt\5.11.1\msvc2017_64\include\QtCore;C:\Qt\5.11.1\msvc2017_64\.\mkspecs\win32-msvc;C:\Qt\5.11.1\msvc2017_64\include\QtANGLE;C:\Qt\5.11.1\msvc2017_64\include\QtConcurrent;C:\Qt\5.11.1\msvc2017_64\include\QtPrintSupport;C:\qCMAT-master\libs\CCFbo\include;C:\Qt\5.11.1\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC for target CC_FBO_LIB</Message>
+      <Command>setlocal
+cd C:\qCMAT-master\build\libs\CCFbo
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/qCMAT-master/build/libs/CCFbo/CMakeFiles/CC_FBO_LIB_autogen.dir/AutogenInfo.cmake Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\qCMAT-master\build\libs\CCFbo;C:\qCMAT-master\libs\CCFbo;C:\qCMAT-master\build\libs\CCFbo\CC_FBO_LIB_autogen\include_Release;C:\Qt\5.11.1\msvc2017_64\include;C:\Qt\5.11.1\msvc2017_64\include\QtOpenGL;C:\Qt\5.11.1\msvc2017_64\include\QtWidgets;C:\Qt\5.11.1\msvc2017_64\include\QtGui;C:\Qt\5.11.1\msvc2017_64\include\QtCore;C:\Qt\5.11.1\msvc2017_64\.\mkspecs\win32-msvc;C:\Qt\5.11.1\msvc2017_64\include\QtANGLE;C:\Qt\5.11.1\msvc2017_64\include\QtConcurrent;C:\Qt\5.11.1\msvc2017_64\include\QtPrintSupport;C:\qCMAT-master\libs\CCFbo\include;C:\Qt\5.11.1\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SECURE_SCL=0;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;QT_USE_QSTRINGBUILDER;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGLEXTENSIONS_LIB;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SECURE_SCL=0;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;QT_USE_QSTRINGBUILDER;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGLEXTENSIONS_LIB;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\qCMAT-master\build\libs\CCFbo;C:\qCMAT-master\libs\CCFbo;C:\qCMAT-master\build\libs\CCFbo\CC_FBO_LIB_autogen\include_Release;C:\Qt\5.11.1\msvc2017_64\include;C:\Qt\5.11.1\msvc2017_64\include\QtOpenGL;C:\Qt\5.11.1\msvc2017_64\include\QtWidgets;C:\Qt\5.11.1\msvc2017_64\include\QtGui;C:\Qt\5.11.1\msvc2017_64\include\QtCore;C:\Qt\5.11.1\msvc2017_64\.\mkspecs\win32-msvc;C:\Qt\5.11.1\msvc2017_64\include\QtANGLE;C:\Qt\5.11.1\msvc2017_64\include\QtConcurrent;C:\Qt\5.11.1\msvc2017_64\include\QtPrintSupport;C:\qCMAT-master\libs\CCFbo\include;C:\Qt\5.11.1\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\qCMAT-master\build\libs\CCFbo;C:\qCMAT-master\libs\CCFbo;C:\qCMAT-master\build\libs\CCFbo\CC_FBO_LIB_autogen\include_Release;C:\Qt\5.11.1\msvc2017_64\include;C:\Qt\5.11.1\msvc2017_64\include\QtOpenGL;C:\Qt\5.11.1\msvc2017_64\include\QtWidgets;C:\Qt\5.11.1\msvc2017_64\include\QtGui;C:\Qt\5.11.1\msvc2017_64\include\QtCore;C:\Qt\5.11.1\msvc2017_64\.\mkspecs\win32-msvc;C:\Qt\5.11.1\msvc2017_64\include\QtANGLE;C:\Qt\5.11.1\msvc2017_64\include\QtConcurrent;C:\Qt\5.11.1\msvc2017_64\include\QtPrintSupport;C:\qCMAT-master\libs\CCFbo\include;C:\Qt\5.11.1\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC for target CC_FBO_LIB</Message>
+      <Command>setlocal
+cd C:\qCMAT-master\build\libs\CCFbo
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/qCMAT-master/build/libs/CCFbo/CMakeFiles/CC_FBO_LIB_autogen.dir/AutogenInfo.cmake Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\qCMAT-master\build\libs\CCFbo;C:\qCMAT-master\libs\CCFbo;C:\qCMAT-master\build\libs\CCFbo\CC_FBO_LIB_autogen\include_MinSizeRel;C:\Qt\5.11.1\msvc2017_64\include;C:\Qt\5.11.1\msvc2017_64\include\QtOpenGL;C:\Qt\5.11.1\msvc2017_64\include\QtWidgets;C:\Qt\5.11.1\msvc2017_64\include\QtGui;C:\Qt\5.11.1\msvc2017_64\include\QtCore;C:\Qt\5.11.1\msvc2017_64\.\mkspecs\win32-msvc;C:\Qt\5.11.1\msvc2017_64\include\QtANGLE;C:\Qt\5.11.1\msvc2017_64\include\QtConcurrent;C:\Qt\5.11.1\msvc2017_64\include\QtPrintSupport;C:\qCMAT-master\libs\CCFbo\include;C:\Qt\5.11.1\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;QT_USE_QSTRINGBUILDER;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGLEXTENSIONS_LIB;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;QT_USE_QSTRINGBUILDER;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGLEXTENSIONS_LIB;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\qCMAT-master\build\libs\CCFbo;C:\qCMAT-master\libs\CCFbo;C:\qCMAT-master\build\libs\CCFbo\CC_FBO_LIB_autogen\include_MinSizeRel;C:\Qt\5.11.1\msvc2017_64\include;C:\Qt\5.11.1\msvc2017_64\include\QtOpenGL;C:\Qt\5.11.1\msvc2017_64\include\QtWidgets;C:\Qt\5.11.1\msvc2017_64\include\QtGui;C:\Qt\5.11.1\msvc2017_64\include\QtCore;C:\Qt\5.11.1\msvc2017_64\.\mkspecs\win32-msvc;C:\Qt\5.11.1\msvc2017_64\include\QtANGLE;C:\Qt\5.11.1\msvc2017_64\include\QtConcurrent;C:\Qt\5.11.1\msvc2017_64\include\QtPrintSupport;C:\qCMAT-master\libs\CCFbo\include;C:\Qt\5.11.1\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\qCMAT-master\build\libs\CCFbo;C:\qCMAT-master\libs\CCFbo;C:\qCMAT-master\build\libs\CCFbo\CC_FBO_LIB_autogen\include_MinSizeRel;C:\Qt\5.11.1\msvc2017_64\include;C:\Qt\5.11.1\msvc2017_64\include\QtOpenGL;C:\Qt\5.11.1\msvc2017_64\include\QtWidgets;C:\Qt\5.11.1\msvc2017_64\include\QtGui;C:\Qt\5.11.1\msvc2017_64\include\QtCore;C:\Qt\5.11.1\msvc2017_64\.\mkspecs\win32-msvc;C:\Qt\5.11.1\msvc2017_64\include\QtANGLE;C:\Qt\5.11.1\msvc2017_64\include\QtConcurrent;C:\Qt\5.11.1\msvc2017_64\include\QtPrintSupport;C:\qCMAT-master\libs\CCFbo\include;C:\Qt\5.11.1\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC for target CC_FBO_LIB</Message>
+      <Command>setlocal
+cd C:\qCMAT-master\build\libs\CCFbo
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/qCMAT-master/build/libs/CCFbo/CMakeFiles/CC_FBO_LIB_autogen.dir/AutogenInfo.cmake MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\qCMAT-master\build\libs\CCFbo;C:\qCMAT-master\libs\CCFbo;C:\qCMAT-master\build\libs\CCFbo\CC_FBO_LIB_autogen\include_RelWithDebInfo;C:\Qt\5.11.1\msvc2017_64\include;C:\Qt\5.11.1\msvc2017_64\include\QtOpenGL;C:\Qt\5.11.1\msvc2017_64\include\QtWidgets;C:\Qt\5.11.1\msvc2017_64\include\QtGui;C:\Qt\5.11.1\msvc2017_64\include\QtCore;C:\Qt\5.11.1\msvc2017_64\.\mkspecs\win32-msvc;C:\Qt\5.11.1\msvc2017_64\include\QtANGLE;C:\Qt\5.11.1\msvc2017_64\include\QtConcurrent;C:\Qt\5.11.1\msvc2017_64\include\QtPrintSupport;C:\qCMAT-master\libs\CCFbo\include;C:\Qt\5.11.1\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;QT_USE_QSTRINGBUILDER;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGLEXTENSIONS_LIB;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;QT_USE_QSTRINGBUILDER;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGLEXTENSIONS_LIB;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\qCMAT-master\build\libs\CCFbo;C:\qCMAT-master\libs\CCFbo;C:\qCMAT-master\build\libs\CCFbo\CC_FBO_LIB_autogen\include_RelWithDebInfo;C:\Qt\5.11.1\msvc2017_64\include;C:\Qt\5.11.1\msvc2017_64\include\QtOpenGL;C:\Qt\5.11.1\msvc2017_64\include\QtWidgets;C:\Qt\5.11.1\msvc2017_64\include\QtGui;C:\Qt\5.11.1\msvc2017_64\include\QtCore;C:\Qt\5.11.1\msvc2017_64\.\mkspecs\win32-msvc;C:\Qt\5.11.1\msvc2017_64\include\QtANGLE;C:\Qt\5.11.1\msvc2017_64\include\QtConcurrent;C:\Qt\5.11.1\msvc2017_64\include\QtPrintSupport;C:\qCMAT-master\libs\CCFbo\include;C:\Qt\5.11.1\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\qCMAT-master\build\libs\CCFbo;C:\qCMAT-master\libs\CCFbo;C:\qCMAT-master\build\libs\CCFbo\CC_FBO_LIB_autogen\include_RelWithDebInfo;C:\Qt\5.11.1\msvc2017_64\include;C:\Qt\5.11.1\msvc2017_64\include\QtOpenGL;C:\Qt\5.11.1\msvc2017_64\include\QtWidgets;C:\Qt\5.11.1\msvc2017_64\include\QtGui;C:\Qt\5.11.1\msvc2017_64\include\QtCore;C:\Qt\5.11.1\msvc2017_64\.\mkspecs\win32-msvc;C:\Qt\5.11.1\msvc2017_64\include\QtANGLE;C:\Qt\5.11.1\msvc2017_64\include\QtConcurrent;C:\Qt\5.11.1\msvc2017_64\include\QtPrintSupport;C:\qCMAT-master\libs\CCFbo\include;C:\Qt\5.11.1\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC for target CC_FBO_LIB</Message>
+      <Command>setlocal
+cd C:\qCMAT-master\build\libs\CCFbo
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/qCMAT-master/build/libs/CCFbo/CMakeFiles/CC_FBO_LIB_autogen.dir/AutogenInfo.cmake RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\qCMAT-master\libs\CCFbo\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/qCMAT-master/libs/CCFbo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/qCMAT-master -BC:/qCMAT-master/build --check-stamp-file C:/qCMAT-master/build/libs/CCFbo/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/qCMAT-master/libs/CCFbo/CMakeLists.txt;C:\qCMAT-master\libs\CCFbo\CMakeLists.txt;C:\qCMAT-master\libs\CCFbo\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\qCMAT-master\build\libs\CCFbo\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/qCMAT-master/libs/CCFbo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/qCMAT-master -BC:/qCMAT-master/build --check-stamp-file C:/qCMAT-master/build/libs/CCFbo/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/qCMAT-master/libs/CCFbo/CMakeLists.txt;C:\qCMAT-master\libs\CCFbo\CMakeLists.txt;C:\qCMAT-master\libs\CCFbo\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\qCMAT-master\build\libs\CCFbo\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/qCMAT-master/libs/CCFbo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/qCMAT-master -BC:/qCMAT-master/build --check-stamp-file C:/qCMAT-master/build/libs/CCFbo/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/qCMAT-master/libs/CCFbo/CMakeLists.txt;C:\qCMAT-master\libs\CCFbo\CMakeLists.txt;C:\qCMAT-master\libs\CCFbo\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\qCMAT-master\build\libs\CCFbo\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/qCMAT-master/libs/CCFbo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/qCMAT-master -BC:/qCMAT-master/build --check-stamp-file C:/qCMAT-master/build/libs/CCFbo/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/qCMAT-master/libs/CCFbo/CMakeLists.txt;C:\qCMAT-master\libs\CCFbo\CMakeLists.txt;C:\qCMAT-master\libs\CCFbo\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\qCMAT-master\build\libs\CCFbo\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\qCMAT-master\libs\CCFbo\include\ccBilateralFilter.h" />
+    <ClInclude Include="C:\qCMAT-master\libs\CCFbo\include\ccFrameBufferObject.h" />
+    <ClInclude Include="C:\qCMAT-master\libs\CCFbo\include\ccGlFilter.h" />
+    <ClInclude Include="C:\qCMAT-master\libs\CCFbo\include\ccShader.h" />
+    <ClCompile Include="C:\qCMAT-master\libs\CCFbo\src\ccBilateralFilter.cpp" />
+    <ClCompile Include="C:\qCMAT-master\libs\CCFbo\src\ccFrameBufferObject.cpp" />
+    <ClCompile Include="C:\qCMAT-master\libs\CCFbo\src\ccShader.cpp" />
+    <ClCompile Include="C:\qCMAT-master\build\libs\CCFbo\CC_FBO_LIB_autogen\mocs_compilation.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\qCMAT-master\build\ZERO_CHECK.vcxproj">
+      <Project>{33F4B04D-ED4E-3B47-9A0B-B868189AF094}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

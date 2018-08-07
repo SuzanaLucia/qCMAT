@@ -1,0 +1,7 @@
+﻿  Automatic MOC for target qcustomplot
+  Building Custom Rule C:/qCMAT-master/libs/qcustomplot/CMakeLists.txt
+  CMake does not need to re-run because C:/qCMAT-master/build/libs/qcustomplot/CMakeFiles/generate.stamp is up-to-date.
+  qcustomplot.cpp
+  mocs_compilation.cpp
+  Generating Code...
+  qcustomplot.vcxproj -> C:\qCMAT-master\build\libs\qcustomplot\Debug\qcustomplotd.lib

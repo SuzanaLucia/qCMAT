@@ -1,0 +1,25 @@
+﻿  Automatic MOC for target ccViewer
+  Generating ui_ccviewer.h
+  Generating ui_ccviewerAbout.h
+  Generating ui_cameraParamDlg.h
+  Generating ui_displayOptionsDlg.h
+  Generating ui_pickOneElementDlg.h
+  Generating ui_stereoModeDlg.h
+  Generating qrc_icones.cpp
+  Building Custom Rule C:/qCMAT-master/ccViewer/CMakeLists.txt
+  CMake does not need to re-run because C:/qCMAT-master/build/ccViewer/CMakeFiles/generate.stamp is up-to-date.
+  ccViewerApplication.cpp
+  ccviewer.cpp
+  main.cpp
+  ccCameraParamEditDlg.cpp
+  ccDisplayOptionsDlg.cpp
+  ccOptions.cpp
+  ccOverlayDialog.cpp
+  ccPickingHub.cpp
+  ccPickOneElementDlg.cpp
+  ccStereoModeDlg.cpp
+  ccPluginManager.cpp
+  qrc_icones.cpp
+  mocs_compilation.cpp
+  Generating Code...
+  ccViewer.vcxproj -> C:\qCMAT-master\build\ccViewer\Debug\ccViewer.exe

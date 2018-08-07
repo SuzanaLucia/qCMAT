@@ -1,0 +1,10 @@
+﻿  Automatic MOC for target QCC_GL_LIB
+  Building Custom Rule C:/qCMAT-master/libs/qCC_glWindow/CMakeLists.txt
+  CMake does not need to re-run because C:/qCMAT-master/build/libs/qCC_glWindow/CMakeFiles/generate.stamp is up-to-date.
+  ccGLUtils.cpp
+  ccGLWindow.cpp
+  ccGuiParameters.cpp
+  ccRenderingTools.cpp
+  mocs_compilation.cpp
+  Generating Code...
+  QCC_GL_LIB.vcxproj -> C:\qCMAT-master\build\libs\qCC_glWindow\Debug\QCC_GL_LIBd.lib
